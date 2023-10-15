@@ -1,0 +1,403 @@
+{
+    "digifact1": {
+        "title": "DigiFact # 1 - Did you know...",
+        "content": "The DigiByte blockchain launched in 2014. Thanks to its 15 second block time, it is the longest UTXO blockchain in existence with over $DGB_BLOCK_HEIGHT_MIL million blocks. Bitcoin will take until the 22nd century to reach that many blocks.",
+        "url": ""
+    },
+    "digifact2": {
+        "title": "DigiFact # 2 - Did you know...",
+        "content": "DigiByte has upgraded the network a number of times to include \"Improvement milestones\". These hard forks were not contentious splits that generated additional coins, but rather a \"reorientation of the ship\" that the DigiByte community was onboard with.",
+        "url": "https://rb.gy/egrt5"
+    },
+    "digifact3": {
+        "title": "DigiFact # 3 - Did you know...",
+        "content": "The DigiByte blockchain was fairly launched in 2014, long before the 2017 Initial Coin Offering (ICO) craze of whitepaper projects. DigiByte began with a fully working blockchain that has been improved upon consistently ever since.",
+        "url": ""
+    },
+    "digifact4": {
+        "title": "DigiFact # 4 - Did you know...",
+        "content": "When DigiByte launched in 2014, a tiny DigiByte pre-mine (0.5%) was given away to community members within the first 30 days, and the details can be seen on BitcoinTalk. This was done to incentivize people to download and run a full node helping to distribute the blockchain. None of the pre-mine was retained by the founder or developers.",
+        "url": ""
+    },
+    "digifact5": {
+        "title": "DigiFact # 5 - Did you know...",
+        "content": "There is no founders reward with the DigiByte blockchain. The reward for mining each block only ever goes to whoever mined it. No part of it goes to anyone else.",
+        "url": ""
+    },
+    "digifact6": {
+        "title": "DigiFact # 6 - Did you know...",
+        "content": "The DigiByte founder and developers have either purchased their DGB coins on an exchange at market rates, or mined them, just like everybody else. There was no ICO (Initial Coin Offering) for the DigiByte blockchain. Every coin has been fairly mined since the genesis block.",
+        "url": ""
+    },
+    "digifact7": {
+        "title": "DigiFact # 7 - Did you know...",
+        "content": "Transaction fees on the DigiByte blockchain are typically incredibly low. In Block 7658349, a user sent 342,000,000 DGB (worth $6 million USD at the time) from the inputs of over 200 different addresses. It cost 1/10th of a cent (USD) in fees and took only a minute or two to confirm.",
+        "url": ""
+    },
+    "digifact8": {
+        "title": "DigiFact # 8 - Did you know...",
+        "content": "DigiByte pioneered the DigiShield difficulty adjustment. It's used in Dogecoin, Ubiq, ZCash, Monacoin and parts of the code are even used in Ethereum. What is DigiShield (a.k.a MultiShield)?",
+        "url": "https://j.mp/3oivy5u"
+    },
+    "digifact9": {
+        "title": "DigiFact # 9 - Did you know...",
+        "content": "DigiByte was the first non-Bitcoin blockchain to fix the major inflation bug in 2018. Rapid response from our rock-star developers!",
+        "url": ""
+    },
+    "digifact10": {
+        "title": "DigiFact # 10 - Did you know...",
+        "content": "The DigiByte \"Genesis Block\" contained the following headline: \"USA Today: 10/Jan/2014, Target: Data stolen from up to 110M customers.\" This forever cemented DigiByte's focus on cybersecurity.",
+        "url": ""
+    },
+    "digifact11": {
+        "title": "DigiFact # 11 - Did you know...",
+        "content": "DigiByte was the first coin to upgrade from a single mining algorithm to MultiAlgo, for the additional security provided by having 5x algorithms. This upgrade occurred in late 2014 as the \"MultiAlgo\" network upgrade. What's MultiAlgo?",
+        "url": "https://j.mp/3oivy5u"
+    },
+    "digifact12": {
+        "title": "DigiFact # 12 - Did you know...",
+        "content": "Initially DigiByte only used the Scrypt algorithm for mining. In September 2014, the network upgraded to MultiAlgo, utilizing Scrypt, SHA256, Skein, Qubit & Myriad-Groestl. This massively improved decentralization by enabling a broader variety of mining hardware to be used.",
+        "url": ""
+    },
+    "digifact13": {
+        "title": "DigiFact # 13 - Did you know...",
+        "content": "In 2019, DigiByte upgraded the network, replacing the Myriad-Groestl algorithm for Odocrypt, to specifically target FPGA mining making that algorithm ASIC-resistant. Learn more about Odocrypt here:",
+        "url": "https://j.mp/3kpZKKB"
+    },
+    "digifact14": {
+        "title": "DigiFact # 14 - Did you know...",
+        "content": "In 2018, the DigiByte community raised enough funds to supply Venezuelan refugees crossing the border with over a thousand bottles of water, feed 160 orphaned children for a month, provide essential maintenance for a hospital, refurbish an Adicora school kitchen, and hosting several free community lunches for hundreds of people.",
+        "url": ""
+    },
+    "digifact15": {
+        "title": "DigiFact # 15 - Did you know...",
+        "content": "DigiByte is not an ICO or a token launched on another network, but rather a pure blockchain project with it's own consensus rules such as Bitcoin or Vertcoin.",
+        "url": ""
+    },
+    "digifact16": {
+        "title": "DigiFact # 16 - Did you know...",
+        "content": "DigiByte was the first mobile wallet with a major focus on translations for worldwide accessibility, being available in 50+ languages on both Android & iOS.",
+        "url": ""
+    },
+    "digifact17": {
+        "title": "DigiFact # 17 - Did you know...",
+        "content": "DigiByte can be used to store tiny amounts (80-bytes) of data along with a transaction known as OP_RETURN. This is useful for document hashes for notarization / validation, dApps, scripting and more.",
+        "url": ""
+    },
+    "digifact18": {
+        "title": "DigiFact # 18 - Did you know...",
+        "content": "You can look up any transaction on the DigiByte Blockchain by inputting a transaction ID, DigiByte address, or block number into a \"Blockchain Explorer\". The community maintains one such explorer you can use at: https://digiexplorer.info.",
+        "url": "https://digiexplorer.info"
+    },
+    "digifact19": {
+        "title": "DigiFact # 19 - Did you know...",
+        "content": "Have you wanted to run your own DigiExplorer? Or get other data out of the blockchain so you can integrate it with your business? There are handy guides at dgbwiki.com that will help you.",
+        "url": "https://dgbwiki.com"
+    },
+    "digifact20": {
+        "title": "DigiFact # 20 - Did you know...",
+        "content": "In 2019, DigiByte implemented the unique algorithm Odocrypt, replacing the older Myriad-Groestl. This Odocrypt hashing algorithm is not used in any other project and was made specifically by DigiByte developers for DigiByte FPGA mining.",
+        "url": ""
+    },
+    "digifact21": {
+        "title": "DigiFact # 21 - Did you know...",
+        "content": "Odocrypt was developed for DigiByte as a polymorphic algorithm that resists ASICs, due to Odocrypt reprogramming itself every 10 days. It is only viable for FPGA mining, not ASICs. Learn more about Odocrypt here: https://j.mp/3kpZKKB",
+        "url": "https://j.mp/3kpZKKB"
+    },
+    "digifact22": {
+        "title": "DigiFact # 22 - Did you know...",
+        "content": "DigiByte is available on 100+ exchanges, including many different fiat pairings with local currencies, making it easier than ever to buy DigiByte.",
+        "url": ""
+    },
+    "digifact23": {
+        "title": "DigiFact # 23 - Did you know...",
+        "content": "DigiByte was founded by Jared Tate in 2013 and the Genesis block was mined on 10th January 2014. While Jared remains an active member of the DigiByte community, and is one of the Core developers, he does not dictate the direction of the project. DigiByte has no boss - it is entirely run and managed by a global community of dedicated volunteers.",
+        "url": ""
+    },
+    "digifact24": {
+        "title": "DigiFact # 24 - Did you know...",
+        "content": "DigiByte can do smart-contracts thanks to its \"script\" language. You can run a whole lot of powerful tools on top of DigiByte to power a dApp.",
+        "url": ""
+    },
+    "digifact25": {
+        "title": "DigiFact # 25 - Did you know...",
+        "content": "DigiByte has wallets for Windows, MacOS, Linux, Raspberry Pi, Android, iOS and even Chrome OS. We are also supported on several dozen other 3rd party & hardware wallets, each unique from the others.",
+        "url": ""
+    },
+    "digifact26": {
+        "title": "DigiFact # 26 - Did you know...",
+        "content": "Digi-ID by DigiByte is one of the simplest yet most secure authentication methods in the world. Even Google warns against using their own time-based 2FA codes or SMS-2FA, but Digi-ID overcomes all the shortcomings. Digi-ID is open source, free, ad-free (forever), private & secure. To learn more visit: https://www.digi-id.io/",
+        "url": "https://www.digi-id.io/"
+    },
+    "digifact27": {
+        "title": "DigiFact # 27 - Did you know...",
+        "content": "The development of DigiByte is done by a worldwide team of volunteers, who all donate their time out of a passion for the project. There is no central company employing and paying people, it's all given freely by our incredible developers and supporting community.",
+        "url": ""
+    },
+    "digifact28": {
+        "title": "DigiFact # 28 - Did you know...",
+        "content": "The last DigiByte will be mined by the year 2035. There is less than half of all remaining $DGB waiting to be mined by anybody in the world. These are not \"owned\" by anybody, unlike an ICO and will be newly \"minted\".",
+        "url": ""
+    },
+    "digifact29": {
+        "title": "DigiFact # 29 - Did you know...",
+        "content": "DigiByte can be used for Atomic Swaps with other blockchains safely and securely since the implementation of SegWit in early 2017. There is no need for a second layer network to perform this and it can instead be done directly.",
+        "url": ""
+    },
+    "digifact30": {
+        "title": "DigiFact # 30 - Did you know...",
+        "content": "When all DigiByte have been mined, the network will continue to function with the miners mining / securing the network as they do at present. They will only get the transaction fees from sending $DGB.",
+        "url": ""
+    },
+    "digifact31": {
+        "title": "DigiFact # 31 - Did you know...",
+        "content": "If you ever have issues with getting your DigiByte out of a wallet, you can sweep the funds to a new wallet using the DigiSweep tool created by Matthew Cornelisse of DigiAssetX. It's easy to use & open-source. Go here if you ever need it:",
+        "url": "https://digisweep.digiassetx.com/"
+    },
+    "digifact32": {
+        "title": "DigiFact # 32 - Did you know...",
+        "content": "When DigiByte launched, there was a count-down to the release of the code, and to the first block being mined. This was one of the things done to encourage a \"fair\" distribution, right from the very beginning in 2014.",
+        "url": ""
+    },
+    "digifact33": {
+        "title": "DigiFact # 33 - Did you know...",
+        "content": "DigiByte was originally based on a fork of the Litecoin code-base (Though, a 100% independent blockchain with unique Genesis Block). DigiByte has since maintained closer features with Bitcoin, while also significantly innovating and surpassing it! View the code at:",
+        "url": "https://github.com/digibyte-core/digibyte/"
+    },
+    "digifact34": {
+        "title": "DigiFact # 34 - Did you know...",
+        "content": "You can build second-layer networks on top of DigiByte such as DigiAssets, Lightning Networks, ICOs, Tokens, assets and more.",
+        "url": ""
+    },
+    "digifact35": {
+        "title": "DigiFact # 35 - Did you know...",
+        "content": "There's a mind boggling number of possible DigiByte addresses. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). This is a quindecillion. It's so big you could randomly generate trillions a second & never generate the same as somebody else.",
+        "url": ""
+    },
+    "digifact36": {
+        "title": "DigiFact # 36 - Did you know...",
+        "content": "You can accept DigiByte in retail scenarios just by entering the desired amount in to your wallet. The QR code will automatically include your address and amount when the sender scans it. Super simple, straight from your wallet.",
+        "url": ""
+    },
+    "digifact37": {
+        "title": "DigiFact # 37 - Did you know...",
+        "content": "The Core DigiByte wallet connects to a variety of peers, not just the 'closest' or 'fastest'. It finds connections from all over the world, to ensure you get a broad consensus on the DigiByte blockchain and protects you against sybil attacks.",
+        "url": ""
+    },
+    "digifact38": {
+        "title": "DigiFact # 38 - Did you know...",
+        "content": "DigiByte implemented the DigiSpeed protocol in 2015. This allowed DigiByte to decrease from 30 second to 15 second block timings. Lightning fast!",
+        "url": ""
+    },
+    "digifact39": {
+        "title": "DigiFact # 39 - Did you know...",
+        "content": "DigiByte Critical Infrastructure Team (DGBCIT) was founded in Jan 2023. with the goal of ensuring that the DigiByte blockchain, along with its critical services, are kept running at all times. This is achieved though a community effort of coordinated decentralization and redundancy. Please join us in the #DGBCIT channel on DigiByte Discord server:",
+        "url": "https://t.ly/DGBCIT"
+    },
+    "digifact40": {
+        "title": "DigiFact # 40 - Did you know...",
+        "content": "Did you know that DigiByte is permissionless? This means there is no individual or company to ask if you can build a dApp on top of it, use it, send it, receive it, accept it for your business, advertise it, promote it. You simply \"can\"!",
+        "url": ""
+    },
+    "digifact41": {
+        "title": "DigiFact # 41 - Did you know...",
+        "content": "DigiByte is now working on its 8th \"protocol\" version in 6 years since creation. This is what the first number in the DigiByte Core Wallet version means, the protocol version. DigiByte has consistently grown and improved throughout its history, and continues to do-so.",
+        "url": ""
+    },
+    "digifact42": {
+        "title": "DigiFact # 42 - Did you know...",
+        "content": "DigiBytes MultiAlgo means 5x algorithms all continuously compete for every single block. Others such as X16R are very different, instead rotating through each sub-algorithm with all miners swapping and using that same. As such, X16R is still a \"single algorithm\" compared with DigiBytes 5x MultiAlgo implementation.",
+        "url": ""
+    },
+    "digifact43": {
+        "title": "DigiFact # 43 - Did you know...",
+        "content": "The Dandelion privacy protocol has been implemented in to DigiByte Core, as well as the DigiByte Android & iOS apps. It helps protect your privacy, by masking the originating IP address.",
+        "url": "https://j.mp/3Hag6AX"
+    },
+    "digifact44": {
+        "title": "DigiFact # 44 - Did you know...",
+        "content": "MultiShield is a powerful difficulty adjustment algorithm. It ensures each of DigiBytes 5X algorithms all mine roughly an equal amount of blocks, while maintaining a steady 15 second timing.",
+        "url": "https://j.mp/3oivy5u"
+    },
+    "digifact45": {
+        "title": "DigiFact # 45 - Did you know...",
+        "content": "Because of MultiShield, DigiByte has some of the most accurate and stable block-timings. Where other projects usually wait for 3-4 days to adjust, MultiShield tweaks. adjusts & refines every single block.",
+        "url": "https://j.mp/3oivy5u"
+    },
+    "digifact46": {
+        "title": "DigiFact # 46 - Did you know...",
+        "content": "DigiByte was the first major blockchain project to enable the Dandelion privacy protocol, to protect your IP address. You can opt out of the privacy-protection it offers if you want even faster transactions.",
+        "url": "https://j.mp/3Hag6AX"
+    },
+    "digifact47": {
+        "title": "DigiFact # 47 - Did you know...",
+        "content": "DigiByte is all about choice, and what works for you personally. DigiByte is available on over two dozen wallets, so there's something that will fit everyone's requirements.",
+        "url": ""
+    },
+    "digifact48": {
+        "title": "DigiFact # 48 - Did you know...",
+        "content": "DigiByte originally had 60 second block timings, however through multiple network upgrades that were improved upon, first to 30, and now to the 15 seconds it is today.",
+        "url": ""
+    },
+    "digifact49": {
+        "title": "DigiFact # 49 - Did you know...",
+        "content": "DigiByte has had 100% uptime since its launch. While some people restart their computers from time to time, hundreds of others remain online all the time so that even in event of a major nationwide internet outage, DigiByte would still continue to function.",
+        "url": ""
+    },
+    "digifact50": {
+        "title": "DigiFact # 50 - Did you know...",
+        "content": "The DigiByte Faucet by Renzo Diaz gives you an easy way to get some free DGB. It's a great way for DigiByte newcomers to experience this amazing technology first hand. For developers, there is also a testnet faucet.",
+        "url": "https://www.digifaucet.org/"
+    },
+    "digifact51": {
+        "title": "DigiFact # 51 - Did you know...",
+        "content": "Anybody is able to contribute to the DigiByte code and make improvements. All submissions get reviewed by other developers to ensure no malicious code is accidentally accepted. Join the Gitter developer chat here: https://gitter.im/DigiByte-Core/protocol",
+        "url": "https://gitter.im/DigiByte-Core/protocol"
+    },
+    "digifact52": {
+        "title": "DigiFact # 52 - Did you know...",
+        "content": "Have you ever wanted to see some statistics about the DigiByte network? For an overview of the of the DigiByte network, visit: https://digistats.digibyteservers.io",
+        "url": "https://digistats.digibyteservers.io"
+    },
+    "digifact53": {
+        "title": "DigiFact # 53 - Did you know...",
+        "content": "Nobody knows exactly how many \"nodes\" there are on the DigiByte network, because there is no central point that all computers check in with. This ensures your privacy when you download the wallet software.",
+        "url": ""
+    },
+    "digifact54": {
+        "title": "DigiFact # 54 - Did you know...",
+        "content": "DigiByte has never hand a contentious hard fork despite ongoing major code changes. Mining is so decentralized that when the myriad-groestl algorithm was replaced with odocrypt, MG mining pools installed the upgrade even when it meant they would no longer be able to mine.",
+        "url": ""
+    },
+    "digifact55": {
+        "title": "DigiFact # 55 - Did you know...",
+        "content": "DigiByte mining is some of the most distributed in the industry. When a 7-day period in September 2019 was compared against Bitcoin and Litecoin, DigiByte had over 10X the number of unique miners. This grew to over 20X the unique miners when looking at a 3-month period. View more stats here: https://j.mp/3ojzV08",
+        "url": "https://j.mp/3ojzV08"
+    },
+    "digifact56": {
+        "title": "DigiFact # 56 - Did you know...",
+        "content": "If the biggest 5x pools from Bitcoin were to collude, they could control the Bitcoin, Bitcoin Cash, and Bitcoin SV networks permanently until others grew to have more hash-power than them. Those same pools would not be a threat to DigiByte thanks to DigiBytes MultiAlgo and MultiShield aspects.",
+        "url": ""
+    },
+    "digifact57": {
+        "title": "DigiFact # 57 - Did you know...",
+        "content": "Every month, the DigiByte that miners get as a block-reward is decreased by 1%. This gives DigiByte a very smooth supply-curve for new DigiByte, rather than a \"halving\" event every few years.",
+        "url": ""
+    },
+    "digifact58": {
+        "title": "DigiFact # 58 - Did you know...",
+        "content": "Transactions on the DigiByte network are public, but pseudo-anonymous. You can see them on a Blockchain explorer, however there is nothing inherently that can link a new transaction / address to an end-user. There are no usernames, email addresses etc required to use the DigiByte network.",
+        "url": ""
+    },
+    "digifact59": {
+        "title": "DigiFact # 59 - Did you know...",
+        "content": "DigiByte addresses can be re-used, but it's completely optional. The best practice is for a wallet to give you a new address each time after your previous address has received a transaction. This is why you get a newly generated address each time in the DigiByte Android & iOS apps.",
+        "url": ""
+    },
+    "digifact60": {
+        "title": "DigiFact # 60 - Did you know...",
+        "content": "The source code for the DigiByte blockchain is completely open-source, anybody can see it, inspect it, and review it. The Core Wallet is available at: https://github.com/DigiByte-Core/DigiByte",
+        "url": "https://github.com/DigiByte-Core/DigiByte"
+    },
+    "digifact61": {
+        "title": "DigiFact # 61 - Did you know...",
+        "content": "DigiByte blocks have an expected 15 second time, which means every single day there are 5,760 new blocks added to the DigiByte blockchain.",
+        "url": ""
+    },
+    "digifact62": {
+        "title": "DigiFact # 62 - Did you know...",
+        "content": "A single DigiByte can be divided up to 8 decimal places. That's 1/100,000,000 of a DigiByte. This is known as a Digit or DIT for short. (e.g. 1000 DITS)",
+        "url": ""
+    },
+    "digifact63": {
+        "title": "DigiFact # 63 - Did you know...",
+        "content": "Each of the 5x algorithms that DigiByte uses to secure the network and mine new blocks has an equal 20% chance to find every single block. There is no priority given to one or another.",
+        "url": ""
+    },
+    "digifact64": {
+        "title": "DigiFact # 64 - Did you know...",
+        "content": "DigiByte has 3x address types, each starting with a different prefix. Modern addresses start with the letters \"dgb1\" for Bech32 formatted addresses or the letter \"S\" for SegWit (Segregated Witness). Legacy addresses start with the letter \"D\". While support for these will remain, they are gradually being phased out in favor of of Bech32 addresses.",
+        "url": ""
+    },
+    "digifact65": {
+        "title": "DigiFact # 65 - Did you know...",
+        "content": "DigiByte addresses starting with \"dgb1\" (known as Bech32 format) have multiple advantages, such as error correction in the event they were incorrectly written-down, as well as being much easier for both humans and computers to recognise that they are DigiByte-specific addresses.",
+        "url": ""
+    },
+    "digifact66": {
+        "title": "DigiFact # 66 - Did you know...",
+        "content": "For a protocol upgrade to take place, over 70% of the network must agree and be in consensus that the upgrade will take place. This occurs by \"signalling\" support for it when blocks are mined, over the course of a 1-week period.",
+        "url": ""
+    },
+    "digifact67": {
+        "title": "DigiFact # 67 - Did you know...",
+        "content": "There is a maximum of 21 billion DigiByte that will ever exist. This was intentionally chosen as a 1000:1 ratio compared to Bitcoins 21 million. No more can ever be created.",
+        "url": ""
+    },
+    "digifact68": {
+        "title": "DigiFact # 68 - Did you know...",
+        "content": "DigiByte is available on thousands of Crypto ATMs around the world! This is a great way for people new to cryptocurrency to get involved through a more \"traditional\" method of currency exchange.",
+        "url": ""
+    },
+    "digifact69": {
+        "title": "DigiFact # 69 - Did you know...",
+        "content": "DigiByte can be used to verify and validate documents, music, media, identity and more! Although DigiByte excels as a means of exchanging value, it is not limited to just being a currency.",
+        "url": ""
+    },
+    "digifact70": {
+        "title": "DigiFact # 70 - Did you know...",
+        "content": "You can use multiple wallets! DigiByte is not just limited to a single piece of software, and the community is encouraged to find an app that works best for them, so try one, try a few, and keep using the ones you like the most.",
+        "url": ""
+    },
+    "digifact71": {
+        "title": "DigiFact # 71 - Did you know...",
+        "content": "DigiByte cannot ever have a centralized \"burning\" of the maximum supply as other ICO's or centrally controlled tokens can. Because DigiByte is a fully decentralized proejct, it's impossible to issue a large scale \"burning\" of unused DigiByte. At most, you could only ever destroy your own if you willingly transferred them in to the void.",
+        "url": ""
+    },
+    "digifact72": {
+        "title": "DigiFact # 72 - Did you know...",
+        "content": "Transactions on the DigiByte blockchain cannot be undone, by anybody. Once a transaction has been made, it is permanent. Did you accidentally send 50 DigiByte instead of 5 DigiByte? You'll need to ask the recipient to return the surplus, as there is no \"Undo\" function, and no central banking authority who can roll back transactions.",
+        "url": ""
+    },
+    "digifact73": {
+        "title": "DigiFact # 73 - Did you know...",
+        "content": "Do you want to start a DigiByte podcast, or meet-up? Go for it! There is nobody to ask for permission, part of DigiByte being a \"permissionless\" project. It is implied that you can, so go right ahead and do it.",
+        "url": ""
+    },
+    "digifact74": {
+        "title": "DigiFact # 74 - Did you know...",
+        "content": "The name \"DigiByte\" was originally chosen as it signifies a \"Digital Byte\" of data. This is because blockchain technology such as DigiByte can be used for so much more than as a \"coin\" such as silver or gold. DigiByte is incredibly multi-purpose.",
+        "url": ""
+    },
+    "digifact75": {
+        "title": "DigiFact # 75 - Did you know...",
+        "content": "A copy of the DigiByte blockchain open source code v7.17.2 is laying in cold storage 250 meters deep in the permafrost of an Arctic mountain! Thanks to the GitHub Arctic Code Vault program!",
+        "url": ""
+    },
+    "digifact76": {
+        "title": "DigiFact # 76 - Did you know...",
+        "content": "If you have ever had the misfortune to accidentally send your DigiByte to a Dogecoin address, your coins may not be lost. DigiSweep by @mctrivia may be able to help you recover them. Go here: https://digisweep.digiassetx.com/",
+        "url": "https://digisweep.digiassetx.com/"
+    },
+    "digifact77": {
+        "title": "DigiFact # 77 - Did you know...",
+        "content": "The DigiByte Alliance is a public non-profit foundation founded in Wyoming in March 2021. Its mission is to to accelerate the growth and adoption of DigiByte. Learn more: https://www.dgballiance.org/",
+        "url": "https://www.dgballiance.org/"
+    },
+    "digifact78": {
+        "title": "DigiFact # 78 - Did you know...",
+        "content": "The DigiByte subreddit located at r/DigiByte has over 45,000 members. It's a great place to stay updated about all the news and developments in the DigiByte community. Join here: https://reddit.com/r/Digibyte",
+        "url": "https://reddit.com/r/Digibyte"
+    },
+    "digifact79": {
+        "title": "DigiFact # 79 - Did you know...",
+        "content": "The DigiByte Discord server is where you will find the most active members of the DigiByte community, and is great way to connect with all the people working on DigiByte behind the scenes. Please join us! https://dsc.gg/digibytediscord",
+        "url": "https://dsc.gg/digibytediscord"
+    }
+}
+    
+    
+    
+    
+    
+    
