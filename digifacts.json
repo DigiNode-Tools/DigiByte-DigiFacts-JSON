@@ -61,8 +61,8 @@
     },
     "digifact13": {
         "title": "DigiFact # 13 - Did you know...",
-        "content": "In 2019, DigiByte upgraded the network, replacing the Myriad-Groestl algorithm with Odocrypt, an algorithm designed to be ASIC-resistant by targeting mining with FPGA hardware. As is the way with other ASIC-resistant algorithms, if the financial incentives are there, eventually somebody will likely develop an ASIC and it seems that this may have now happened. Odocrypt served its purpose successfully for several years but will likely be replaced by an alternative in the future. Learn more about Odocrypt here: https://j.mp/3kpZKKB",
-        "url": "https://j.mp/3kpZKKB"
+        "content": "In 2019, DigiByte upgraded the network, replacing the Myriad-Groestl algorithm with Odocrypt, an algorithm designed to be ASIC-resistant by targeting mining with FPGA hardware. However, with most ASIC-resistant algorithms, if the financial incentives are there, eventually ASICs will be developed for these algorithms, as is the case with Odocrypt.",
+        "url": ""
     },
     "digifact14": {
         "title": "DigiFact # 14 - Did you know...",
@@ -91,7 +91,7 @@
     },
     "digifact19": {
         "title": "DigiFact # 19 - Did you know...",
-        "content": "Have you wanted to run your own DigiExplorer? Or get other data out of the blockchain so you can integrate it with your business? There are handy guides at dgbwiki.com that will help you.",
+        "content": "Have you wanted to run your own DigiExplorer? Or get other data out of the blockchain so you can integrate it with your business? There are handy guides that will help you here: https://dgbwiki.com",
         "url": "https://dgbwiki.com"
     },
     "digifact20": {
