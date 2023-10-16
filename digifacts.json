@@ -1,12 +1,12 @@
 {
     "digifact1": {
         "title": "DigiFact # 1 - Did you know...",
-        "content": "The DigiByte blockchain launched in 2014. Thanks to its 15 second block time, it is the longest UTXO blockchain in existence with over $DGB_BLOCK_HEIGHT_MIL million blocks. Bitcoin will take until the 22nd century to reach that many blocks.",
+        "content": "The DigiByte blockchain launched in 2014. Thanks to its 15 second block time, it is the longest UTXO blockchain in existence with over 18 million blocks. Bitcoin will take until the 22nd century to reach that many blocks.",
         "url": ""
     },
     "digifact2": {
         "title": "DigiFact # 2 - Did you know...",
-        "content": "DigiByte has upgraded the network a number of times to include \"Improvement milestones\". These hard forks were not contentious splits that generated additional coins, but rather a \"reorientation of the ship\" that the DigiByte community was onboard with.",
+        "content": "DigiByte has upgraded the network a number of times to include \"Improvement milestones\". These hard forks were not contentious splits that generated additional coins, but rather a \"reorientation of the ship\" that the DigiByte community was onboard with. Learn more: https://rb.gy/egrt5",
         "url": "https://rb.gy/egrt5"
     },
     "digifact3": {
@@ -36,7 +36,7 @@
     },
     "digifact8": {
         "title": "DigiFact # 8 - Did you know...",
-        "content": "DigiByte pioneered the DigiShield difficulty adjustment. It's used in Dogecoin, Ubiq, ZCash, Monacoin and parts of the code are even used in Ethereum. What is DigiShield (a.k.a MultiShield)?",
+        "content": "DigiByte pioneered the DigiShield difficulty adjustment. It's used in Dogecoin, Ubiq, ZCash, Monacoin and parts of the code are even used in Ethereum. What is DigiShield (a.k.a MultiShield)? Learn more here: https://j.mp/3oivy5u",
         "url": "https://j.mp/3oivy5u"
     },
     "digifact9": {
@@ -51,7 +51,7 @@
     },
     "digifact11": {
         "title": "DigiFact # 11 - Did you know...",
-        "content": "DigiByte was the first coin to upgrade from a single mining algorithm to MultiAlgo, for the additional security provided by having 5x algorithms. This upgrade occurred in late 2014 as the \"MultiAlgo\" network upgrade. What's MultiAlgo?",
+        "content": "DigiByte was the first coin to upgrade from a single mining algorithm to MultiAlgo, for the additional security provided by having 5x algorithms. This upgrade occurred in late 2014 as the \"MultiAlgo\" network upgrade. What's MultiAlgo? Learn more here: https://j.mp/3oivy5u",
         "url": "https://j.mp/3oivy5u"
     },
     "digifact12": {
@@ -61,7 +61,7 @@
     },
     "digifact13": {
         "title": "DigiFact # 13 - Did you know...",
-        "content": "In 2019, DigiByte upgraded the network, replacing the Myriad-Groestl algorithm for Odocrypt, to specifically target FPGA mining making that algorithm ASIC-resistant. Learn more about Odocrypt here:",
+        "content": "In 2019, DigiByte upgraded the network, replacing the Myriad-Groestl algorithm with Odocrypt, an algorithm designed to be ASIC-resistant by targeting mining with FPGA hardware. As is the way with other ASIC-resistant algorithms, if the financial incentives are there, eventually somebody will likely develop an ASIC and it seems that this may have now happened. Odocrypt served its purpose successfully for several years but will likely be replaced by an alternative in the future. Learn more about Odocrypt here: https://j.mp/3kpZKKB",
         "url": "https://j.mp/3kpZKKB"
     },
     "digifact14": {
@@ -76,8 +76,8 @@
     },
     "digifact16": {
         "title": "DigiFact # 16 - Did you know...",
-        "content": "DigiByte was the first mobile wallet with a major focus on translations for worldwide accessibility, being available in 50+ languages on both Android & iOS.",
-        "url": ""
+        "content": "For general DigiByte support, a good place to start is with the community support tool available here: https://dgbsupport.digiassetx.com/",
+        "url": "https://dgbsupport.digiassetx.com/"
     },
     "digifact17": {
         "title": "DigiFact # 17 - Did you know...",
@@ -96,13 +96,13 @@
     },
     "digifact20": {
         "title": "DigiFact # 20 - Did you know...",
-        "content": "In 2019, DigiByte implemented the unique algorithm Odocrypt, replacing the older Myriad-Groestl. This Odocrypt hashing algorithm is not used in any other project and was made specifically by DigiByte developers for DigiByte FPGA mining.",
+        "content": "The name \"DigiByte\" was originally chosen as it signifies a \"Digital Byte\" of data. This is because blockchain technology such as DigiByte can be used for so much more than as a \"coin\" such as silver or gold. DigiByte is incredibly multi-purpose.",
         "url": ""
     },
     "digifact21": {
         "title": "DigiFact # 21 - Did you know...",
-        "content": "Odocrypt was developed for DigiByte as a polymorphic algorithm that resists ASICs, due to Odocrypt reprogramming itself every 10 days. It is only viable for FPGA mining, not ASICs. Learn more about Odocrypt here: https://j.mp/3kpZKKB",
-        "url": "https://j.mp/3kpZKKB"
+        "content": "A copy of the DigiByte blockchain open source code v7.17.3 is laying in cold storage 250 meters deep in the permafrost of an Arctic mountain! Thanks to the GitHub Arctic Code Vault program!",
+        "url": ""
     },
     "digifact22": {
         "title": "DigiFact # 22 - Did you know...",
@@ -121,7 +121,7 @@
     },
     "digifact25": {
         "title": "DigiFact # 25 - Did you know...",
-        "content": "DigiByte has wallets for Windows, MacOS, Linux, Raspberry Pi, Android, iOS and even Chrome OS. We are also supported on several dozen other 3rd party & hardware wallets, each unique from the others.",
+        "content": "The official DigiByte Core wallet is available for Windows, MacOS and Linux as well a low powered single-board computers such as the Raspberry Pi. DigiByte is supported on mobile by a number of third party wallets, such as Coinomi and Securus. IT is also available on many hardware wallets, like Ledger and Trezor. Be advised that not all of these also support Digi-ID and DigiAssets.",
         "url": ""
     },
     "digifact26": {
@@ -151,7 +151,7 @@
     },
     "digifact31": {
         "title": "DigiFact # 31 - Did you know...",
-        "content": "If you ever have issues with getting your DigiByte out of a wallet, you can sweep the funds to a new wallet using the DigiSweep tool created by Matthew Cornelisse of DigiAssetX. It's easy to use & open-source. Go here if you ever need it:",
+        "content": "If you ever have issues with getting your DigiByte out of a wallet, you can sweep the funds to a new wallet using the DigiSweep tool created by Matthew Cornelisse of DigiAssetX. It's easy to use & open-source. Find it here: https://digisweep.digiassetx.com/:",
         "url": "https://digisweep.digiassetx.com/"
     },
     "digifact32": {
@@ -161,12 +161,12 @@
     },
     "digifact33": {
         "title": "DigiFact # 33 - Did you know...",
-        "content": "DigiByte was originally based on a fork of the Litecoin code-base (Though, a 100% independent blockchain with unique Genesis Block). DigiByte has since maintained closer features with Bitcoin, while also significantly innovating and surpassing it! View the code at:",
+        "content": "DigiByte was originally based on a fork of the Litecoin code-base (Though, a 100% independent blockchain with unique Genesis Block). DigiByte has since maintained closer features with Bitcoin, while also significantly innovating and surpassing it! View the code at: https://github.com/digibyte-core/digibyte/",
         "url": "https://github.com/digibyte-core/digibyte/"
     },
     "digifact34": {
         "title": "DigiFact # 34 - Did you know...",
-        "content": "You can build second-layer networks on top of DigiByte such as DigiAssets, Lightning Networks, ICOs, Tokens, assets and more.",
+        "content": "Anyone can build second-layer networks on top of the DigiByte Blockchain, such as DigiAssets, Lightning Networks, ICOs, Tokens, assets and more.",
         "url": ""
     },
     "digifact35": {
@@ -181,7 +181,7 @@
     },
     "digifact37": {
         "title": "DigiFact # 37 - Did you know...",
-        "content": "The Core DigiByte wallet connects to a variety of peers, not just the 'closest' or 'fastest'. It finds connections from all over the world, to ensure you get a broad consensus on the DigiByte blockchain and protects you against sybil attacks.",
+        "content": "The DigiByte Core wallet connects to a variety of peers, not just the 'closest' or 'fastest'. It finds connections from all over the world, to ensure you get a broad consensus on the DigiByte blockchain and protects you against sybil attacks.",
         "url": ""
     },
     "digifact38": {
@@ -191,7 +191,7 @@
     },
     "digifact39": {
         "title": "DigiFact # 39 - Did you know...",
-        "content": "DigiByte Critical Infrastructure Team (DGBCIT) was founded in Jan 2023. with the goal of ensuring that the DigiByte blockchain, along with its critical services, are kept running at all times. This is achieved though a community effort of coordinated decentralization and redundancy. Please join us in the #DGBCIT channel on DigiByte Discord server:",
+        "content": "DigiByte Critical Infrastructure Team (DGBCIT) was founded in Jan 2023. with the goal of ensuring that the DigiByte blockchain, along with its critical services, are kept running at all times. This is achieved though a community effort of coordinated decentralization and redundancy. Please join us in the #DGBCIT channel on DigiByte Discord server: https://t.ly/DGBCIT",
         "url": "https://t.ly/DGBCIT"
     },
     "digifact40": {
@@ -366,35 +366,71 @@
     },
     "digifact74": {
         "title": "DigiFact # 74 - Did you know...",
-        "content": "The name \"DigiByte\" was originally chosen as it signifies a \"Digital Byte\" of data. This is because blockchain technology such as DigiByte can be used for so much more than as a \"coin\" such as silver or gold. DigiByte is incredibly multi-purpose.",
-        "url": ""
+        "content": "If you have ever had the misfortune to accidentally send your DigiByte to a Dogecoin address, your coins may not be lost. DigiSweep by DigiByte community member Matthew Cornellisse (@mctrivia) may be able to help you recover them. Find it here: https://digisweep.digiassetx.com/",
+        "url": "https://digisweep.digiassetx.com/"
     },
     "digifact75": {
         "title": "DigiFact # 75 - Did you know...",
-        "content": "A copy of the DigiByte blockchain open source code v7.17.2 is laying in cold storage 250 meters deep in the permafrost of an Arctic mountain! Thanks to the GitHub Arctic Code Vault program!",
-        "url": ""
-    },
-    "digifact76": {
-        "title": "DigiFact # 76 - Did you know...",
-        "content": "If you have ever had the misfortune to accidentally send your DigiByte to a Dogecoin address, your coins may not be lost. DigiSweep by @mctrivia may be able to help you recover them. Go here: https://digisweep.digiassetx.com/",
-        "url": "https://digisweep.digiassetx.com/"
-    },
-    "digifact77": {
-        "title": "DigiFact # 77 - Did you know...",
         "content": "The DigiByte Alliance is a public non-profit foundation founded in Wyoming in March 2021. Its mission is to to accelerate the growth and adoption of DigiByte. Learn more: https://www.dgballiance.org/",
         "url": "https://www.dgballiance.org/"
     },
+    "digifact76": {
+        "title": "DigiFact # 76 - Did you know...",
+        "content": "The DigiByte subreddit located at r/DigiByte has over 40,000 members. It's a great place to stay updated about all the news and developments in the DigiByte community. Join here: https://reddit.com/r/Digibyte",
+        "url": "https://reddit.com/r/Digibyte"
+    },
+    "digifact77": {
+        "title": "DigiFact # 77 - Did you know...",
+        "content": "The DigiByte Discord server is where you will find the most active members of the DigiByte community, and is great way to connect with all the people working on DigiByte behind the scenes. Please join us! https://dsc.gg/digibytediscord",
+        "url": "https://dsc.gg/digibytediscord"
+    },
     "digifact78": {
         "title": "DigiFact # 78 - Did you know...",
-        "content": "The DigiByte subreddit located at r/DigiByte has over 45,000 members. It's a great place to stay updated about all the news and developments in the DigiByte community. Join here: https://reddit.com/r/Digibyte",
-        "url": "https://reddit.com/r/Digibyte"
+        "content": "DigiNode Tools is a software suite that makes it easy to setup and manage a DigiByte and/or DigiAsset Node on low power device like a Raspberry Pi or other Ubuntu/Debian system. It is designed with less technical users in mind and makes it quick and easy to setup your own dedicated DigiNode - everything is menu-driven and there are detailed step-by-step instructions provided. You can even setup a Dual Node to run both a mainnet and testnet node on the same device. Learn more here: https://diginode.tools/",
+        "url": "https://diginode.tools/"
     },
     "digifact79": {
         "title": "DigiFact # 79 - Did you know...",
-        "content": "The DigiByte Discord server is where you will find the most active members of the DigiByte community, and is great way to connect with all the people working on DigiByte behind the scenes. Please join us! https://dsc.gg/digibytediscord",
-        "url": "https://dsc.gg/digibytediscord"
+        "content": "To view all the existing nodes on the DigiByte network, you can use the website https://digibyteseed.com created by DigiByte community member Jan de Jong. It displays the DigiByte Seeders and all the current mainnet and testnet nodes on the DigiByte network. It's also a great way to check on the status of your own DigiByte node.",
+        "url": "https://digibyteseed.com"
+    },
+    "digifact80": {
+        "title": "DigiFact # 80 - Did you know...",
+        "content": "A \"DigiByte Seeder\" is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addressess and ports of the most reliable ones. When a new DigiByte node joins the network, it first contacts one of the Seeders to obtain a list of nodes to connect, which it can then use to begin syncing with the network. DigiByte Seeders are an important component of the blockchain ecosystem and ensure that it is always easy for new nodes to join the network. If you are interested in helping to run your own DigiByte Seeder, you can learn more here: https://github.com/DigiByte-Core/digibyte-seeder",
+        "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+    },
+    "digifact81": {
+        "title": "DigiFact # 81 - Did you know...",
+        "content": "The website \"DigiByte Facts\" is a fantastic learning resource created by a member of the DigiByte community. It offers many of these DigiFacts as shareable images, along with quizzes and other resources to help you learn more about DigiByte. Find it here: https://digifacts.org/",
+        "url": "https://digifacts.org/"
+    },
+    "digifact82": {
+        "title": "DigiFact # 82 - Did you know...",
+        "content": "The DigiByte Wiki is a fantastic resource of information on all things DigiByte, written and maintained by members of the DigiByte community: https://dgbwiki.com/",
+        "url": "https://dgbwiki.com/"
+    },
+    "digifact83": {
+        "title": "DigiFact # 83 - Did you know...",
+        "content": "DigiByte Domains is a service created by DigiByte community memebr Renzo Dias. A DigiByte domain is a name that references an DigiByte wallet address. It's powered by DigiAssets and the domain is the asset. For example, you can send some DigiByte or DigiAssets to 'domain.dgb' and it will arrive to the address that holds the domain. You can purchase your own DigiByte domain here: https://digibytedomains.com/",
+        "url": "https://digibytedomains.com/"
+    },
+    "digifact84": {
+        "title": "DigiFact # 84 - Did you know...",
+        "content": "For developers, DigiByte JS is a pure and powerful Javascript DigiByte library forked from Bitpay's Bitcore Lib library. Find it here: https://github.com/RenzoDD/digibyte-js",
+        "url": "https://github.com/RenzoDD/digibyte-js"
+    },
+    "digifact85": {
+        "title": "DigiFact # 85 - Did you know...",
+        "content": "DigiAssets are a secure, scalable second-layer built on top of the DigiByte Blockchain that allows for the decentralized issuance of digital assets (NFTs), tokens, smart contracts, digital identity and more. The latest implementation of DigiAssets is DigiAsset Core spearheaded by DigiByte community member Matthew Cornellisse, which is still under active development. It is important to stress the DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project. Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
+        "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+    },
+    "digifact86": {
+        "title": "DigiFact # 86 - Did you know...",
+        "content": "The DigiAsset Explorer, created by DigiByte community member Renzo Diaz, makes it easy to lookup information about DigiAsset transactions. Find it here: https://digiassets.info/",
+        "url": "https://digiassets.info/"
     }
 }
+
     
     
     
