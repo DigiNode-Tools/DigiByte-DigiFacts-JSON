@@ -23,6 +23,10 @@ The following projects are known to use this JSON file:
 
 - [DigiNode Tools](https://github.com/saltedlolly/diginode-tools) - DigiFacts are displayed in the DigiNode Dashboard
 
+### History
+
+The orginal DigiFacts were created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). The DigiFacts in this JSON file were originally based on this set, but have been significantly revised and expanded over time.
+
 ### Disclaimer
 
 These DigiFacts are provided by the DigiByte community for the DigiByte community. It is up to the community to ensure they are current and accurate. Uers should always do their own due diligence before using any of the services or products mentioned. Recommendations do not equal endorcements.
