@@ -121,7 +121,7 @@
     },
     "digifact25": {
         "title": "DigiFact # 25 - Did you know...",
-        "content": "The official DigiByte Core wallet is available for Windows, MacOS and Linux as well a low powered single-board computers such as the Raspberry Pi. DigiByte is supported on mobile by a number of third party wallets, such as Coinomi and Securus. IT is also available on many hardware wallets, like Ledger and Trezor. Be advised that not all of these also support Digi-ID and DigiAssets.",
+        "content": "The official DigiByte Core wallet is available for Windows, MacOS and Linux as well a low powered single-board computers such as the Raspberry Pi. DigiByte is supported on mobile by a number of third party wallets, such as Coinomi and Securus. It is also available on many hardware wallets, like Ledger and Trezor. Be advised that not all of these wallet also support Digi-ID and DigiAssets.",
         "url": ""
     },
     "digifact26": {
@@ -291,7 +291,7 @@
     },
     "digifact59": {
         "title": "DigiFact # 59 - Did you know...",
-        "content": "DigiByte addresses can be re-used, but it's completely optional. The best practice is for a wallet to give you a new address each time after your previous address has received a transaction. This is why you get a newly generated address each time in the DigiByte Android & iOS apps.",
+        "content": "DigiByte addresses can be re-used, but it's completely optional. The best practice is for a wallet to give you a new address each time after your previous address has received a transaction.",
         "url": ""
     },
     "digifact60": {
