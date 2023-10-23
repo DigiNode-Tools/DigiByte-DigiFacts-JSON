@@ -3,7 +3,7 @@ A JSON file containing DigiByte DigiFacts.
 
 ### About the DigiFacts
 
-These DigiFacts were originally created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). Since then, the original DigiFacts have been significantly revised and expanded over time to create the versions you see here.
+These DigiFacts were originally created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). Since then, they have been significantly revised and expanded over time into the versions available here.
 
 ### Usage
 
