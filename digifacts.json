@@ -386,7 +386,7 @@
     },
     "digifact78": {
         "title": "DigiFact # 78 - Did you know...",
-        "content": "DigiNode Tools is a software suite that makes it easy to setup and manage a DigiByte and/or DigiAsset Node on low power device like a Raspberry Pi or other Ubuntu/Debian system. It is designed with less technical users in mind and makes it quick and easy to setup your own dedicated DigiNode - everything is menu-driven and there are detailed step-by-step instructions provided. You can even setup a Dual Node to run both a mainnet and testnet node on the same device. Learn more here: https://diginode.tools/",
+        "content": "DigiNode Tools is a software suite that makes it easy to setup and manage a DigiByte and/or DigiAsset Node on low power device like a Raspberry Pi or Ubuntu system. Setup is menu-driven and there are detailed step-by-step instructions provided. You can even setup a Dual Node to run both a mainnet and testnet node on the same device. Learn more here: https://diginode.tools/",
         "url": "https://diginode.tools/"
     },
     "digifact79": {
@@ -396,7 +396,7 @@
     },
     "digifact80": {
         "title": "DigiFact # 80 - Did you know...",
-        "content": "A \"DigiByte Seeder\" is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addressess and ports of the most reliable ones. When a new DigiByte node joins the network, it first contacts one of the Seeders to obtain a list of nodes to connect, which it can then use to begin syncing with the network. DigiByte Seeders are an important component of the blockchain ecosystem and ensure that it is always easy for new nodes to join the network. If you are interested in helping to run your own DigiByte Seeder, you can learn more here: https://github.com/DigiByte-Core/digibyte-seeder",
+        "content": "A \"DigiByte Seeder\" is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addressess and ports of the most reliable ones. DigiByte Nodes joining the network use the DigiByte Seeders to find other nodes to connect to. Learn more here: https://github.com/DigiByte-Core/digibyte-seeder",
         "url": "https://github.com/DigiByte-Core/digibyte-seeder"
     },
     "digifact81": {
@@ -421,11 +421,16 @@
     },
     "digifact85": {
         "title": "DigiFact # 85 - Did you know...",
-        "content": "DigiAssets are a secure, scalable second-layer built on top of the DigiByte Blockchain that allows for the decentralized issuance of digital assets (NFTs), tokens, smart contracts, digital identity and more. The latest implementation of DigiAssets is DigiAsset Core spearheaded by DigiByte community member Matthew Cornellisse, which is still under active development. It is important to stress the DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project. Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
+        "content": "DigiAssets are a secure, scalable second-layer built on top of the DigiByte Blockchain that allows for the decentralized issuance of digital assets (NFTs), tokens, smart contracts, digital identity and more.",
         "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
     },
     "digifact86": {
         "title": "DigiFact # 86 - Did you know...",
+        "content": "DigiAsset Core, currently under active development, is the most recent implementation of the the DigiAsset protocol. Spearheaded by community member Matthew Cornelisse, it runs alongside a DigiByte Core node and maintains a local directory of the DigiAssets and their metadata. It is important to stress the DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project. Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
+        "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+    },
+    "digifact87": {
+        "title": "DigiFact # 87 - Did you know...",
         "content": "The DigiAsset Explorer, created by DigiByte community member Renzo Diaz, makes it easy to lookup information about DigiAsset transactions. Find it here: https://digiassets.info/",
         "url": "https://digiassets.info/"
     }
