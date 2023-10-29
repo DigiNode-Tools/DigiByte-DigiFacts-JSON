@@ -426,7 +426,7 @@
     },
     "digifact86": {
         "title": "DigiFact # 86 - Did you know...",
-        "content": "DigiAsset Core, currently under active development, is the most recent implementation of the the DigiAsset protocol. Spearheaded by community member Matthew Cornelisse, it runs alongside a DigiByte Core node and maintains a local directory of the DigiAssets and their metadata. It is important to stress the DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project. Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
+        "content": "DigiAsset Core, currently under active development, is the most recent implementation of the DigiAsset protocol. Spearheaded by community member Matthew Cornelisse, it runs alongside a DigiByte Core node and helps decentralize DigiAssets and their metadata. It is important to stress the DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project. Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
         "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
     },
     "digifact87": {
