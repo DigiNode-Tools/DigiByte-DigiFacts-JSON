@@ -7,9 +7,35 @@ These DigiFacts were originally created by several members of the DigiByte commu
 
 ### Usage
 
+#### Static DigiFacts
+
 For best results download and cache the raw JSON file available here: https://raw.githubusercontent.com/saltedlolly/DigiByte-DigiFacts-JSON/main/digifacts.json
 
 You should then periodically update your local version of this file from this address to ensure you have the latest DigiFacts. How often you do this is up to you, but at most once per day should be more than enough.
+
+Note: This will soon be replaced by the new live DigiFacts below.
+
+#### Dynamic DigiFacts (Coming Soon)
+
+Dynamic DigiFacts includes live data which is updated every few minutes.
+
+Query the live JSON data here: https://digifacts.digibyte.help/
+
+Please cache reults and do not update more than once every 15 minutes.
+
+### Using Dynamic Data in the DigiFacts
+
+If you wish to insert dyanmic data into a DigiFact, please edit the digifacts-live.json file and insert any of the following variables:
+
+| Variable         | Example Content | Note                                                |
+|------------------|-----------------|-----------------------------------------------------|
+| $blocks_tot      | 18826496        | Displays the current number of DigiByte blocks.  |
+| $blocks_tot_cs   | 18,826,496      | Displays the current number of DigiByte blocks, with comma seperator. | 
+| $blocks_tot_mil  | 18              | Displays the current number of DigiByte blocks rounded to the nearest million. |
+| $nodes_mn_total  | 315             | Displays the total number of DigiByte mainnet nodes. |
+| $nodes_tn_total  | 315             | Displays the total number of DigiByte testnet nodes. |
+
+These variable will be replaced by live data every few minutes.
 
 ### Contributions
 
