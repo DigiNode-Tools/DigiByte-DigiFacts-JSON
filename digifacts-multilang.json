@@ -1649,59 +1649,116 @@
     },
     "digifact30": {
         "en": {
-          "title": "DigiFact # 30 - Did you know...",
-          "content": "When all DigiByte have been mined, the network will continue to function with the miners mining / securing the network as they do at present. They will only get the transaction fees from sending DGB.",
-          "url": ""
+            "title": "DigiFact # 30 - Did you know...",
+            "content": "When all DigiByte have been mined, the network will continue to function with the miners mining / securing the network as they do at present. They will only get the transaction fees from sending DGB.",
+            "url": ""
         },
         "zh": {
-          "title": "数字事实 #30 - 你知道吗？",
-          "content": "当所有DigiByte都被开采出来后，网络将继续运行，矿工们将像目前一样开采/保护网络。他们只会从发送DGB中获取交易费用。",
-          "url": ""
+            "title": "数字事实 #30 - 你知道吗？",
+            "content": "当所有DigiByte都被开采出来后，网络将继续运行，矿工们将像目前一样开采/保护网络。他们只会从发送DGB中获取交易费用。",
+            "url": ""
         },
         "ru": {
-          "title": "ДиджиФакт #30 - Знаете ли вы...",
-          "content": "Когда все DigiByte будут добыты, сеть будет продолжать работать, и майнеры будут добывать/защищать сеть, как это происходит в настоящее время. Они будут получать только комиссионные с транзакций по отправке DGB.",
-          "url": ""
+            "title": "ДиджиФакт #30 - Знаете ли вы...",
+            "content": "Когда все DigiByte будут добыты, сеть будет продолжать работать, и майнеры будут добывать/защищать сеть, как это происходит в настоящее время. Они будут получать только комиссионные с транзакций по отправке DGB.",
+            "url": ""
         },
         "es": {
-          "title": "DigiDato #30 - ¿Sabías que...",
-          "content": "Cuando todos los DigiByte hayan sido minados, la red continuará funcionando con los mineros minando / asegurando la red como lo hacen actualmente. Solo recibirán las tarifas de transacción por enviar DGB.",
-          "url": ""
+            "title": "DigiDato #30 - ¿Sabías que...",
+            "content": "Cuando todos los DigiByte hayan sido minados, la red continuará funcionando con los mineros minando / asegurando la red como lo hacen actualmente. Solo recibirán las tarifas de transacción por enviar DGB.",
+            "url": ""
         },
         "ko": {
-          "title": "디지팩트 #30 - 혹시 알고 계셨나요...",
-          "content": "모든 DigiByte가 채굴되었을 때, 네트워크는 현재와 같이 채굴자들이 네트워크를 채굴/보안하는 것으로 계속 기능할 것입니다. 그들은 DGB를 보낼 때 발생하는 거래 수수료만을 받게 될 것입니다.",
-          "url": ""
+            "title": "디지팩트 #30 - 혹시 알고 계셨나요...",
+            "content": "모든 DigiByte가 채굴되었을 때, 네트워크는 현재와 같이 채굴자들이 네트워크를 채굴/보안하는 것으로 계속 기능할 것입니다. 그들은 DGB를 보낼 때 발생하는 거래 수수료만을 받게 될 것입니다.",
+            "url": ""
         },
         "ja": {
-          "title": "デジファクト #30 - ご存知でしたか...",
-          "content": "全てのDigiByteが採掘された後、ネットワークは現在のようにマイナーがネットワークを採掘/保護することで機能し続けます。彼らはDGBの送信から得られる取引手数料のみを受け取ります。",
-          "url": ""
+            "title": "デジファクト #30 - ご存知でしたか...",
+            "content": "全てのDigiByteが採掘された後、ネットワークは現在のようにマイナーがネットワークを採掘/保護することで機能し続けます。彼らはDGBの送信から得られる取引手数料のみを受け取ります。",
+            "url": ""
         },
         "de": {
-          "title": "DigiFakt #30 - Wussten Sie schon...",
-          "content": "Wenn alle DigiByte abgebaut sind, wird das Netzwerk weiterhin funktionieren, wobei die Miner das Netzwerk abbauen/sichern, wie sie es derzeit tun. Sie werden nur die Transaktionsgebühren für das Senden von DGB erhalten.",
-          "url": ""
+            "title": "DigiFakt #30 - Wussten Sie schon...",
+            "content": "Wenn alle DigiByte abgebaut sind, wird das Netzwerk weiterhin funktionieren, wobei die Miner das Netzwerk abbauen/sichern, wie sie es derzeit tun. Sie werden nur die Transaktionsgebühren für das Senden von DGB erhalten.",
+            "url": ""
         },
         "fr": {
-          "title": "DigiFact #30 - Saviez-vous que...",
-          "content": "Lorsque tous les DigiByte auront été minés, le réseau continuera de fonctionner avec les mineurs qui minent / sécurisent le réseau comme ils le font actuellement. Ils ne recevront que les frais de transaction pour l'envoi de DGB.",
-          "url": ""
+            "title": "DigiFact #30 - Saviez-vous que...",
+            "content": "Lorsque tous les DigiByte auront été minés, le réseau continuera de fonctionner avec les mineurs qui minent / sécurisent le réseau comme ils le font actuellement. Ils ne recevront que les frais de transaction pour l'envoi de DGB.",
+            "url": ""
         },
         "pt": {
-          "title": "DigiFato #30 - Você sabia...",
-          "content": "Quando todos os DigiByte forem minerados, a rede continuará a funcionar com os mineiros minerando / protegendo a rede como fazem atualmente. Eles só receberão as taxas de transação de enviar DGB.",
-          "url": ""
+            "title": "DigiFato #30 - Você sabia...",
+            "content": "Quando todos os DigiByte forem minerados, a rede continuará a funcionar com os mineiros minerando / protegendo a rede como fazem atualmente. Eles só receberão as taxas de transação de enviar DGB.",
+            "url": ""
         },
         "hi": {
-          "title": "डिजीफैक्ट #30 - क्या आप जानते थे...",
-          "content": "जब सभी DigiByte खनन किए जा चुके होंगे, नेटवर्क वर्तमान में की तरह माइनर्स द्वारा नेटवर्क की खनन / सुरक्षा के साथ काम करता रहेगा। वे केवल DGB भेजने के लिए लेनदेन शुल्क प्राप्त करेंगे।",
-          "url": ""
+            "title": "डिजीफैक्ट #30 - क्या आप जानते थे...",
+            "content": "जब सभी DigiByte खनन किए जा चुके होंगे, नेटवर्क वर्तमान में की तरह माइनर्स द्वारा नेटवर्क की खनन / सुरक्षा के साथ काम करता रहेगा। वे केवल DGB भेजने के लिए लेनदेन शुल्क प्राप्त करेंगे।",
+            "url": ""
         },
         "nl": {
-          "title": "DigiFeit #30 - Wist u dat...",
-          "content": "Wanneer alle DigiByte zijn gedolven, zal het netwerk blijven functioneren met de mijnwerkers die het netwerk delven / beveiligen zoals ze nu doen. Ze zullen alleen de transactiekosten ontvangen voor het verzenden van DGB.",
-          "url": ""
+            "title": "DigiFeit #30 - Wist u dat...",
+            "content": "Wanneer alle DigiByte zijn gedolven, zal het netwerk blijven functioneren met de mijnwerkers die het netwerk delven / beveiligen zoals ze nu doen. Ze zullen alleen de transactiekosten ontvangen voor het verzenden van DGB.",
+            "url": ""
         }
-      }
+    },
+    "digifact31": {
+        "en": {
+            "title": "DigiFact # 31 - Did you know...",
+            "content": "If you ever have issues with getting your DigiByte out of a wallet, you can sweep the funds to a new wallet using the DigiSweep tool created by Matthew Cornelisse of DigiAssetX. It's easy to use & open-source. Find it here: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "zh": {
+            "title": "数字事实 #31 - 你知道吗？",
+            "content": "如果您在从钱包中取出DigiByte时遇到问题，您可以使用DigiAssetX的Matthew Cornelisse创建的DigiSweep工具将资金扫入新钱包。它易于使用且开源。在这里找到它：https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "ru": {
+            "title": "ДиджиФакт #31 - Знаете ли вы...",
+            "content": "Если у вас возникнут проблемы с выводом ваших DigiByte из кошелька, вы можете перевести средства в новый кошелек с помощью инструмента DigiSweep, созданного Мэтью Корнелиссе из DigiAssetX. Это простой в использовании и открытый инструмент. Найдите его здесь: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "es": {
+            "title": "DigiDato #31 - ¿Sabías que...",
+            "content": "Si alguna vez tienes problemas para sacar tus DigiByte de una cartera, puedes barrer los fondos hacia una nueva cartera utilizando la herramienta DigiSweep creada por Matthew Cornelisse de DigiAssetX. Es fácil de usar y de código abierto. Encuéntrelo aquí: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "ko": {
+            "title": "디지팩트 #31 - 혹시 알고 계셨나요...",
+            "content": "지갑에서 DigiByte를 꺼내는 데 문제가 있는 경우, DigiAssetX의 Matthew Cornelisse가 만든 DigiSweep 도구를 사용하여 자금을 새 지갑으로 옮길 수 있습니다. 사용하기 쉽고 오픈 소스입니다. 여기에서 찾으세요: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "ja": {
+            "title": "デジファクト #31 - ご存知でしたか...",
+            "content": "もしウォレットからDigiByteを取り出すのに問題がある場合は、DigiAssetXのMatthew Cornelisseが作成したDigiSweepツールを使用して資金を新しいウォレットに移すことができます。使いやすくオープンソースです。こちらから見つけてください: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "de": {
+            "title": "DigiFakt #31 - Wussten Sie schon...",
+            "content": "Wenn Sie jemals Probleme haben, Ihr DigiByte aus einer Wallet zu bekommen, können Sie die Mittel mit dem von Matthew Cornelisse von DigiAssetX erstellten DigiSweep-Tool in eine neue Wallet übertragen. Es ist benutzerfreundlich und Open-Source. Hier finden Sie es: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "fr": {
+            "title": "DigiFact #31 - Saviez-vous que...",
+            "content": "Si vous rencontrez des problèmes pour retirer vos DigiByte d'un portefeuille, vous pouvez transférer les fonds vers un nouveau portefeuille en utilisant l'outil DigiSweep créé par Matthew Cornelisse de DigiAssetX. Il est facile à utiliser et open-source. Trouvez-le ici : https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "pt": {
+            "title": "DigiFato #31 - Você sabia...",
+            "content": "Se você tiver problemas para retirar seus DigiByte de uma carteira, você pode transferir os fundos para uma nova carteira usando a ferramenta DigiSweep criada por Matthew Cornelisse da DigiAssetX. É fácil de usar e de código aberto. Encontre-o aqui: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #31 - क्या आप जानते थे...",
+            "content": "यदि आपको अपने वॉलेट से डिजीबाइट निकालने में कभी समस्या आती है, तो आप DigiAssetX के मैथ्यू कॉर्नेलिस द्वारा बनाई गई DigiSweep टूल का उपयोग करके फंड्स को नए वॉलेट में स्वीप कर सकते हैं। यह उपयोग में आसान है और ओपन सोर्स है। इसे यहां पाएं: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "nl": {
+            "title": "DigiFeit #31 - Wist u dat...",
+            "content": "Als u ooit problemen heeft om uw DigiByte uit een portemonnee te halen, kunt u de fondsen naar een nieuwe portemonnee vegen met de DigiSweep-tool gemaakt door Matthew Cornelisse van DigiAssetX. Het is gemakkelijk te gebruiken en open-source. Vind het hier: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        }
+    }
 }
