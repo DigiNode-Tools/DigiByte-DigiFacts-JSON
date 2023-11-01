@@ -1931,5 +1931,63 @@
           "content": "Iedereen kan tweede laag netwerken bouwen bovenop de DigiByte Blockchain, zoals DigiAssets, Lightning Networks, ICO's, Tokens, activa en meer.",
           "url": ""
         }
+      },
+      "digifact35": {
+        "en": {
+          "title": "DigiFact # 35 - Did you know...",
+          "content": "There's a mind-boggling number of possible DigiByte addresses. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). This is a quindecillion. It's so big you could randomly generate trillions of addresses a second and never generate the same one twice.",
+          "url": ""
+        },
+        "zh": {
+          "title": "数字事实 #35 - 你知道吗？",
+          "content": "DigiByte地址的可能数量令人难以置信。1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰)，这是一个十五次方。这个数字如此之大，您每秒可以随机生成数万亿个地址，而不会生成两次相同的地址。",
+          "url": ""
+        },
+        "ru": {
+          "title": "ДиджиФакт #35 - Знаете ли вы...",
+          "content": "Количество возможных адресов DigiByte поражает воображение. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰) — это квиндециллион. Число настолько велико, что даже если генерировать триллионы адресов в секунду, вы никогда не получите один и тот же адрес дважды.",
+          "url": ""
+        },
+        "es": {
+          "title": "DigiDato #35 - ¿Sabías que...",
+          "content": "Hay una cantidad asombrosa de direcciones DigiByte posibles. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). Esto es un quindecillón. Es tan grande que podrías generar trillones de direcciones al azar por segundo y nunca generar la misma dos veces.",
+          "url": ""
+        },
+        "ko": {
+          "title": "디지팩트 #35 - 혹시 알고 계셨나요...",
+          "content": "상상할 수 없을 만큼 많은 수의 DigiByte 주소가 가능합니다. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). 이것은 퀸데실리언입니다. 매초 수조 개의 주소를 무작위로 생성할 수 있어도 동일한 주소를 두 번 생성할 일은 없을 정도로 큽니다.",
+          "url": ""
+        },
+        "ja": {
+          "title": "デジファクト #35 - ご存知でしたか...",
+          "content": "想像を絶する数のDigiByteアドレスが可能です。1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰)。これはクインデシリオンです。あまりにも大きいので、一秒に数兆のアドレスをランダムに生成しても、二度と同じものを生成することはありません。",
+          "url": ""
+        },
+        "de": {
+          "title": "DigiFakt #35 - Wussten Sie schon...",
+          "content": "Es gibt eine unvorstellbare Anzahl möglicher DigiByte-Adressen. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰), das ist eine Quindecillion. Die Zahl ist so groß, dass Sie Billionen von Adressen pro Sekunde zufällig generieren könnten und niemals dieselbe Adresse zweimal erzeugen würden.",
+          "url": ""
+        },
+        "fr": {
+          "title": "DigiFact #35 - Saviez-vous que...",
+          "content": "Il existe un nombre stupéfiant d'adresses DigiByte possibles. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). C'est un quindecillion. Il est tellement grand que vous pourriez générer aléatoirement des billions d'adresses par seconde et ne jamais générer la même deux fois.",
+          "url": ""
+        },
+        "pt": {
+          "title": "DigiFato #35 - Você sabia...",
+          "content": "Existe um número impressionante de endereços DigiByte possíveis. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). Isso é um quindecilhão. É tão grande que você poderia gerar aleatoriamente trilhões de endereços por segundo e nunca gerar o mesmo duas vezes.",
+          "url": ""
+        },
+        "hi": {
+          "title": "डिजीफैक्ट #35 - क्या आप जानते थे...",
+          "content": "DigiByte पतों की संख्या अकल्पनीय है। 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰)। यह एक क्विनडेसिलियन है। यह इतना बड़ा है कि आप प्रति सेकंड खरबों पते यादृच्छिक रूप से उत्पन्न कर सकते हैं और कभी भी एक ही दो बार उत्पन्न नहीं करेंगे।",
+          "url": ""
+        },
+        "nl": {
+          "title": "DigiFeit #35 - Wist u dat...",
+          "content": "Er is een verbijsterend aantal mogelijke DigiByte-adressen. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). Dit is een quindeciljoen. Het is zo groot dat je willekeurig biljoenen adressen per seconde zou kunnen genereren en nooit twee keer dezelfde zou genereren.",
+          "url": ""
+        }
       }
+    
 }
