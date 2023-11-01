@@ -1304,5 +1304,62 @@
             "content": "DigiByte is opgericht door Jared Tate in 2013 en het Genesis-blok werd gedolven op 10 januari 2014. Hoewel Jared een actief lid blijft van de DigiByte-gemeenschap en een van de kernontwikkelaars is, dicteert hij niet de richting van het project. DigiByte heeft geen baas - het wordt volledig gerund en beheerd door een wereldwijde gemeenschap van toegewijde vrijwilligers.",
             "url": ""
         }
+    },
+    "digifact24": {
+        "en": {
+            "title": "DigiFact # 24 - Did you know...",
+            "content": "DigiByte can do smart contracts thanks to its 'script' language. You can run a whole lot of powerful tools on top of DigiByte to power a dApp.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #24 - 你知道吗？",
+            "content": "由于DigiByte的'script'语言，它可以执行智能合约。您可以在DigiByte之上运行许多强大的工具来为dApp提供动力。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #24 - Знаете ли вы...",
+            "content": "DigiByte может использовать смарт-контракты благодаря своему 'скриптовому' языку. Вы можете запустить множество мощных инструментов поверх DigiByte, чтобы силами dApp.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #24 - ¿Sabías que...",
+            "content": "DigiByte puede hacer contratos inteligentes gracias a su lenguaje 'script'. Puedes ejecutar una gran cantidad de herramientas poderosas sobre DigiByte para potenciar una dApp.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #24 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 '스크립트' 언어 덕분에 스마트 계약을 할 수 있습니다. DigiByte 위에서 다양한 강력한 도구들을 실행하여 dApp을 구동할 수 있습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #24 - ご存知でしたか...",
+            "content": "DigiByteはその'script'言語のおかげでスマートコントラクトを実行できます。DigiByteの上で多くの強力なツールを実行してdAppを動かすことができます。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #24 - Wussten Sie schon...",
+            "content": "DigiByte kann dank seiner 'Script'-Sprache Smart Contracts ausführen. Sie können viele leistungsstarke Tools auf DigiByte ausführen, um eine dApp zu betreiben.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #24 - Saviez-vous que...",
+            "content": "DigiByte peut faire des contrats intelligents grâce à son langage 'script'. Vous pouvez exécuter tout un tas d'outils puissants sur DigiByte pour alimenter une dApp.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #24 - Você sabia...",
+            "content": "DigiByte pode fazer contratos inteligentes graças à sua linguagem 'script'. Você pode executar muitas ferramentas poderosas em cima do DigiByte para alimentar um dApp.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #24 - क्या आप जानते थे...",
+            "content": "डिजीबाइट अपनी 'स्क्रिप्ट' भाषा के धन्यवाद से स्मार्ट कॉन्ट्रैक्ट कर सकता है। आप डिजीबाइट के ऊपर ढेर सारे शक्तिशाली उपकरण चला सकते हैं जो एक dApp को शक्ति प्रदान करते हैं।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #24 - Wist u dat...",
+            "content": "DigiByte kan slimme contracten doen dankzij de 'script' taal. Je kunt een heleboel krachtige tools draaien bovenop DigiByte om een dApp aan te drijven.",
+            "url": ""
+        }
     }
 }
