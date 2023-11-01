@@ -49,21 +49,21 @@ These variable will be replaced by live data every few minutes.
 
 ### Translations
 
-Translations should be made from the English version. New DigiFacts must be added in English first with other languages beneath it. All additional languages must be checked by a native speaker. If
+Translations should be made from the English version. New DigiFacts must be added in English first with other languages beneath it. All additional languages must be checked by a native speaker. Please update the table below when you make changes, including a limk to your Github profile.
 
-| Language                 | Verified by     | Last Updated | Status                                              |
-|--------------------------|-----------------|--------------|-----------------------------------------------------|
-| en English               | @saltedlolly    | 2023-11-01   |                                                     |
-| zh Chinese (Simplified)  |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| ru Russian               |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| es Spanish               |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| ko Korean                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| ja Japanese              |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| de German                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| fr French                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| pt Portuguese            |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| hi Hindi.                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| nl Dutch.                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| Language                 | Verified by                                      | Last Updated | Status                                              |
+|--------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
+| en English               | [@saltedlolly](https://github.com/saltedlolly    | 2023-11-01   |                                                     |
+| zh Chinese (Simplified)  |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| ru Russian               |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| es Spanish               |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| ko Korean                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| ja Japanese              |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| de German                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| fr French                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| pt Portuguese            |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| hi Hindi.                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| nl Dutch.                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 
 ## Projects
 
