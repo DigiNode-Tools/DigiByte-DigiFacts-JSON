@@ -1760,5 +1760,62 @@
             "content": "Als u ooit problemen heeft om uw DigiByte uit een portemonnee te halen, kunt u de fondsen naar een nieuwe portemonnee vegen met de DigiSweep-tool gemaakt door Matthew Cornelisse van DigiAssetX. Het is gemakkelijk te gebruiken en open-source. Vind het hier: https://digisweep.digiassetx.com/",
             "url": "https://digisweep.digiassetx.com/"
         }
-    }
+    },
+    "digifact32": {
+        "en": {
+          "title": "DigiFact # 32 - Did you know...",
+          "content": "When DigiByte launched, there was a countdown to the release of the code, and to the first block being mined. This was one of the things done to encourage a \"fair\" distribution, right from the very beginning in 2014.",
+          "url": ""
+        },
+        "zh": {
+          "title": "数字事实 #32 - 你知道吗？",
+          "content": "DigiByte启动时，有一个倒计时到代码的发布，以及第一个区块的开采。这是为了从2014年开始就鼓励“公平”分配而做的事情之一。",
+          "url": ""
+        },
+        "ru": {
+          "title": "ДиджиФакт #32 - Знаете ли вы...",
+          "content": "Когда был запущен DigiByte, был установлен обратный отсчет до выпуска кода и добычи первого блока. Это было сделано для того, чтобы с самого начала в 2014 году обеспечить \"справедливое\" распределение.",
+          "url": ""
+        },
+        "es": {
+          "title": "DigiDato #32 - ¿Sabías que...",
+          "content": "Cuando se lanzó DigiByte, hubo una cuenta regresiva para el lanzamiento del código y para la minería del primer bloque. Esto fue una de las cosas que se hicieron para fomentar una distribución \"justa\" desde el mismo comienzo en 2014.",
+          "url": ""
+        },
+        "ko": {
+          "title": "디지팩트 #32 - 혹시 알고 계셨나요...",
+          "content": "DigiByte가 출시되었을 때, 코드의 출시와 첫 번째 블록이 채굴되기까지 카운트다운이 있었습니다. 이것은 2014년 초부터 \"공정한\" 분배를 장려하기 위해 수행된 여러 조치 중 하나였습니다.",
+          "url": ""
+        },
+        "ja": {
+          "title": "デジファクト #32 - ご存知でしたか...",
+          "content": "DigiByteが発売されたとき、コードのリリースと最初のブロックがマイニングされるまでのカウントダウンがありました。これは、2014年の最初から「公正な」配布を奨励するために行われたことの一つでした。",
+          "url": ""
+        },
+        "de": {
+          "title": "DigiFakt #32 - Wussten Sie schon...",
+          "content": "Als DigiByte gestartet wurde, gab es einen Countdown bis zur Veröffentlichung des Codes und zum Abbau des ersten Blocks. Dies war eine der Maßnahmen, um eine \"faire\" Verteilung von Anfang an im Jahr 2014 zu fördern.",
+          "url": ""
+        },
+        "fr": {
+          "title": "DigiFact #32 - Saviez-vous que...",
+          "content": "Lorsque DigiByte a été lancé, il y avait un compte à rebours pour la sortie du code et pour le minage du premier bloc. C'était l'une des choses faites pour encourager une distribution \"équitable\" dès le tout début en 2014.",
+          "url": ""
+        },
+        "pt": {
+          "title": "DigiFato #32 - Você sabia...",
+          "content": "Quando o DigiByte foi lançado, houve uma contagem regressiva para o lançamento do código e para a mineração do primeiro bloco. Isso foi uma das coisas feitas para incentivar uma distribuição \"justa\" desde o início em 2014.",
+          "url": ""
+        },
+        "hi": {
+          "title": "डिजीफैक्ट #32 - क्या आप जानते थे...",
+          "content": "जब DigiByte लॉन्च किया गया था, तब कोड के रिलीज होने और पहले ब्लॉक के माइन होने के लिए एक काउंटडाउन था। यह 2014 की शुरुआत से ही एक \"निष्पक्ष\" वितरण को प्रोत्साहित करने के लिए किया गया था।",
+          "url": ""
+        },
+        "nl": {
+          "title": "DigiFeit #32 - Wist u dat...",
+          "content": "Toen DigiByte werd gelanceerd, was er een aftelling naar de vrijgave van de code en naar het mijnen van het eerste blok. Dit was een van de dingen die gedaan werden om een ​​\"eerlijke\" distributie te bevorderen, vanaf het allereerste begin in 2014.",
+          "url": ""
+        }
+      }
 }
