@@ -905,5 +905,62 @@
             "content": "Voor algemene ondersteuning van DigiByte is een goed startpunt het community-ondersteuningstool hier beschikbaar: https://dgbsupport.digiassetx.com/",
             "url": "https://dgbsupport.digiassetx.com/"
         }
-    }
+    },
+    "digifact17": {
+        "en": {
+          "title": "DigiFact # 17 - Did you know...",
+          "content": "DigiByte can be used to store tiny amounts (80-bytes) of data along with a transaction known as OP_RETURN. This is useful for document hashes for notarization/validation, dApps, scripting, and more.",
+          "url": ""
+        },
+        "zh": {
+          "title": "数字事实 #17 - 你知道吗？",
+          "content": "DigiByte可以用来存储少量数据（80字节），这在交易中被称为OP_RETURN。这对于文件哈希的公证/验证、分布式应用、脚本编写等非常有用。",
+          "url": ""
+        },
+        "ru": {
+          "title": "ДиджиФакт #17 - Знаете ли вы...",
+          "content": "DigiByte можно использовать для хранения небольших объемов данных (80 байт) вместе с транзакцией, известной как OP_RETURN. Это полезно для хэшей документов для нотариального удостоверения/проверки, децентрализованных приложений, скриптов и многого другого.",
+          "url": ""
+        },
+        "es": {
+          "title": "DigiDato #17 - ¿Sabías que...",
+          "content": "DigiByte se puede utilizar para almacenar pequeñas cantidades (80 bytes) de datos junto con una transacción conocida como OP_RETURN. Esto es útil para hashes de documentos para notarización/validación, dApps, scripting y más.",
+          "url": ""
+        },
+        "ko": {
+          "title": "디지팩트 #17 - 혹시 알고 계셨나요...",
+          "content": "DigiByte는 거래와 함께 소량의 데이터(80바이트)를 저장하는 데 사용할 수 있으며, 이는 OP_RETURN으로 알려져 있습니다. 이는 문서 해시의 공증/검증, dApps, 스크립팅 등에 유용합니다.",
+          "url": ""
+        },
+        "ja": {
+          "title": "デジファクト #17 - ご存知でしたか...",
+          "content": "DigiByteは、トランザクションとともに少量（80バイト）のデータを保存するために使用でき、これはOP_RETURNとして知られています。これは文書のハッシュの公証/検証、dApps、スクリプティングなどに便利です。",
+          "url": ""
+        },
+        "de": {
+          "title": "DigiFakt #17 - Wussten Sie schon...",
+          "content": "DigiByte kann verwendet werden, um kleine Mengen an Daten (80 Bytes) zusammen mit einer Transaktion zu speichern, bekannt als OP_RETURN. Dies ist nützlich für Dokumentenhashes zur Beglaubigung/Validierung, dApps, Scripting und mehr.",
+          "url": ""
+        },
+        "fr": {
+          "title": "DigiFact #17 - Saviez-vous que...",
+          "content": "DigiByte peut être utilisé pour stocker de petites quantités (80 octets) de données avec une transaction connue sous le nom de OP_RETURN. Cela est utile pour les hachages de documents pour la notarisation/validation, les dApps, l'écriture de scripts, et plus encore.",
+          "url": ""
+        },
+        "pt": {
+          "title": "DigiFato #17 - Você sabia...",
+          "content": "DigiByte pode ser usado para armazenar pequenas quantidades (80 bytes) de dados junto com uma transação conhecida como OP_RETURN. Isso é útil para hashes de documentos para notarização/validação, dApps, scripts e mais.",
+          "url": ""
+        },
+        "hi": {
+          "title": "डिजीफैक्ट #17 - क्या आप जानते थे...",
+          "content": "DigiByte का उपयोग एक लेनदेन के साथ छोटी मात्रा (80-बाइट्स) के डेटा को स्टोर करने के लिए किया जा सकता है, जिसे OP_RETURN के रूप में जाना जाता है। यह दस्तावेज़ हैशेज के नोटराइज़ेशन/सत्यापन, dApps, स्क्रिप्टिंग और अधिक के लिए उपयोगी है।",
+          "url": ""
+        },
+        "nl": {
+          "title": "DigiFeit #17 - Wist u dat...",
+          "content": "DigiByte kan worden gebruikt om kleine hoeveelheden (80 bytes) aan gegevens op te slaan samen met een transactie bekend als OP_RETURN. Dit is handig voor document hashes voor notarisatie/validatie, dApps, scripting en meer.",
+          "url": ""
+        }
+      }
 }
