@@ -3409,5 +3409,578 @@
             "content": "De broncode voor de DigiByte-blockchain is volledig open source, iedereen kan het zien, inspecteren en beoordelen. De Core Wallet is beschikbaar op: https://github.com/DigiByte-Core/DigiByte",
             "url": "https://github.com/DigiByte-Core/DigiByte"
         }
+    },
+    "digifact61": {
+        "en": {
+            "title": "DigiFact # 61 - Did you know...",
+            "content": "DigiByte blocks have an expected 15 second time, which means every single day there are 5,760 new blocks added to the DigiByte blockchain.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #61 - 你知道吗？",
+            "content": "DigiByte区块的预期时间为15秒，这意味着每一天都会有5,760个新区块添加到DigiByte区块链上。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #61 - Знаете ли вы...",
+            "content": "Блоки DigiByte имеют ожидаемое время в 15 секунд, что означает, что каждый день к DigiByte блокчейну добавляется 5 760 новых блоков.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #61 - ¿Sabías que...",
+            "content": "Los bloques de DigiByte tienen un tiempo esperado de 15 segundos, lo que significa que cada día se agregan 5,760 bloques nuevos a la cadena de bloques de DigiByte.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #61 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 블록은 기대되는 15초의 시간을 가지고 있으며, 이는 매일 DigiByte 블록체인에 5,760개의 새로운 블록이 추가된다는 것을 의미합니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #61 - ご存知でしたか...",
+            "content": "DigiByteブロックは予想される15秒の時間を持っており、これはDigiByteブロックチェーンに毎日5,760個の新しいブロックが追加されることを意味します。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #61 - Wussten Sie schon...",
+            "content": "DigiByte-Blöcke haben eine erwartete Zeit von 15 Sekunden, was bedeutet, dass jeden Tag 5.760 neue Blöcke zum DigiByte-Blockchain hinzugefügt werden.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #61 - Saviez-vous que...",
+            "content": "Les blocs de DigiByte ont une durée attendue de 15 secondes, ce qui signifie qu'il y a chaque jour 5 760 nouveaux blocs ajoutés à la blockchain DigiByte.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #61 - Você sabia...",
+            "content": "Os blocos do DigiByte têm um tempo esperado de 15 segundos, o que significa que todos os dias são adicionados 5.760 novos blocos à blockchain do DigiByte.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #61 - क्या आप जानते थे...",
+            "content": "DigiByte ब्लॉक्स की अपेक्षित 15 सेकंड की समय है, जिसका मतलब है कि हर एक दिन DigiByte ब्लॉकचेन में 5,760 नए ब्लॉक जोड़े जाते हैं।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #61 - Wist u dat...",
+            "content": "DigiByte-blokken hebben een verwachte tijd van 15 seconden, wat betekent dat er elke dag 5.760 nieuwe blokken aan de DigiByte-blockchain worden toegevoegd.",
+            "url": ""
+        }
+    },
+    "digifact62": {
+        "en": {
+            "title": "DigiFact # 62 - Did you know...",
+            "content": "A single DigiByte can be divided up to 8 decimal places. That's 1/100,000,000 of a DigiByte. This is known as a Digit or DIT for short. (e.g. 1000 DITS)",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #62 - 你知道吗？",
+            "content": "一个DigiByte可以分为8位小数。这相当于1/100,000,000的DigiByte。这被称为Digit或简称为DIT。（例如：1000 DITS）",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #62 - Знаете ли вы...",
+            "content": "Один DigiByte можно разделить на 8 десятичных знаков. Это составляет 1/100,000,000 DigiByte. Это называется Digit или сокращенно DIT. (например, 1000 DITS)",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #62 - ¿Sabías que...",
+            "content": "Un solo DigiByte se puede dividir en hasta 8 decimales. Esto equivale a 1/100,000,000 de un DigiByte. Esto se conoce como un Dígito o DIT abreviado. (por ejemplo, 1000 DITS)",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #62 - 혹시 알고 계셨나요...",
+            "content": "단일 DigiByte는 최대 8자리의 소수점으로 나눌 수 있습니다. 이것은 DigiByte의 1/100,000,000과 같습니다. 이를 Digit 또는 DIT로 줄여서 부릅니다. (예: 1000 DITS)",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #62 - ご存知でしたか...",
+            "content": "1つのDigiByteは最大で8桁の小数点に分割できます。つまり、DigiByteの1/100,000,000です。これは短縮してDigitまたはDITと呼ばれています。（例：1000 DITS）",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #62 - Wussten Sie schon...",
+            "content": "Ein einzelnes DigiByte kann in bis zu 8 Dezimalstellen unterteilt werden. Das entspricht 1/100,000,000 eines DigiBytes. Dies wird als Digit oder kurz DIT bezeichnet. (z.B. 1000 DITS)",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #62 - Saviez-vous que...",
+            "content": "Un seul DigiByte peut être divisé en jusqu'à 8 décimales. Cela équivaut à 1/100,000,000 d'un DigiByte. Cela est connu sous le nom de Digit ou DIT en abrégé. (par exemple, 1000 DITS)",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #62 - Você sabia...",
+            "content": "Um único DigiByte pode ser dividido em até 8 casas decimais. Isso equivale a 1/100,000,000 de um DigiByte. Isso é conhecido como um Dígito ou DIT em abreviação. (por exemplo, 1000 DITS)",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #62 - क्या आप जानते थे...",
+            "content": "एक ही DigiByte को 8 दशमलव स्थानों तक विभाजित किया जा सकता है। इसका मतलब है कि 1 DigiByte का 1/100,000,000 होता है। इसे एक Digit या DIT के रूप में जाना जाता है (उदाहरण: 1000 DITS)",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #62 - Wist u dat...",
+            "content": "Een enkele DigiByte kan worden verdeeld tot 8 decimalen. Dat is 1/100,000,000 van een DigiByte. Dit staat bekend als een Digit of DIT voor de korte termijn. (bijv. 1000 DITS)",
+            "url": ""
+        }
+    },
+    "digifact63": {
+        "en": {
+            "title": "DigiFact # 63 - Did you know...",
+            "content": "Each of the 5x algorithms that DigiByte uses to secure the network and mine new blocks has an equal 20% chance to find every single block. There is no priority given to one or another.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #63 - 你知道吗？",
+            "content": "DigiByte用于保护网络和挖掘新区块的5个算法中，每个算法都有20%的机会找到每个单独的区块。没有对其中任何一个给予优先级。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #63 - Знаете ли вы...",
+            "content": "Каждому из 5 алгоритмов, которые DigiByte использует для обеспечения безопасности сети и добычи новых блоков, предоставляется равные шансы в 20% найти каждый отдельный блок. Никакого приоритета не устанавливается ни для одного из них.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #63 - ¿Sabías que...",
+            "content": "Cada uno de los 5 algoritmos que DigiByte utiliza para asegurar la red y minar nuevos bloques tiene una igual probabilidad del 20% de encontrar cada bloque individual. No se da prioridad a uno u otro.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #63 - 혹시 알고 계셨나요...",
+            "content": "DigiByte가 네트워크를 보호하고 새로운 블록을 채굴하기 위해 사용하는 5개의 알고리즘 각각은 모든 단일 블록을 찾을 확률이 20%로 동일합니다. 어느 하나에도 우선 순위가 주어지지 않습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #63 - ご存知でしたか...",
+            "content": "DigiByteがネットワークを保護し新しいブロックを採掘するために使用する5つのアルゴリズムのそれぞれは、すべての単一のブロックを見つける確率が均等に20％です。どれにも優先順位はありません。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #63 - Wussten Sie schon...",
+            "content": "Jeder der 5x-Algorithmen, die DigiByte verwendet, um das Netzwerk zu sichern und neue Blöcke abzubauen, hat eine gleiche Chance von 20%, jeden einzelnen Block zu finden. Es wird keine Priorität für einen bestimmten Algorithmus festgelegt.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #63 - Saviez-vous que...",
+            "content": "Chacun des 5 algorithmes que DigiByte utilise pour sécuriser le réseau et miner de nouveaux blocs a une chance égale de 20% de trouver chaque bloc individuel. Aucune priorité n'est donnée à l'un ou à l'autre.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #63 - Você sabia...",
+            "content": "Cada um dos 5 algoritmos que o DigiByte usa para proteger a rede e minerar novos blocos tem uma chance igual de 20% de encontrar cada bloco individual. Não há prioridade dada a um ou outro.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #63 - क्या आप जानते थे...",
+            "content": "डिजीबाइट द्वारा सुरक्षित रूप से नेटवर्क को सुरक्षित करने और नए ब्लॉक को खनने के लिए उपयोग किए जाने वाले 5x एल्गोरिथमों में से प्रत्येक के पास हर एक ब्लॉक को खोजने का बराबर 20% का मौका है। किसी भी एक को भी प्राथमिकता नहीं दी जाती है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #63 - Wist u dat...",
+            "content": "Elk van de 5 algoritmen die DigiByte gebruikt om het netwerk te beveiligen en nieuwe blokken te minen, heeft een gelijke kans van 20% om elk afzonderlijk blok te vinden. Er wordt geen prioriteit gegeven aan de ene of de andere.",
+            "url": ""
+        }
+    },
+    "digifact64": {
+        "en": {
+            "title": "DigiFact # 64 - Did you know...",
+            "content": "DigiByte has 3x address types, each starting with a different prefix. Modern addresses start with the letters \"dgb1\" for Bech32 formatted addresses or the letter \"S\" for SegWit (Segregated Witness). Legacy addresses start with the letter \"D\". While support for these will remain, they are gradually being phased out in favor of Bech32 addresses.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #64 - 你知道吗？",
+            "content": "DigiByte有3种地址类型，每种都以不同的前缀开头。现代地址以\"dgb1\"字母开头，用于Bech32格式的地址，或以\"S\"字母开头，用于SegWit（隔离见证）。传统地址以字母\"D\"开头。尽管将继续支持这些地址，但它们正在逐渐被Bech32地址所取代。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #64 - Знаете ли вы...",
+            "content": "У DigiByte есть 3 типа адресов, каждый из которых начинается с разных префиксов. Современные адреса начинаются с букв \"dgb1\" для адресов в формате Bech32 или с буквы \"S\" для SegWit (Segregated Witness). Адреса старого образца начинаются с буквы \"D\". Поддержка для них останется, но постепенно они уступают место адресам в формате Bech32.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #64 - ¿Sabías que...",
+            "content": "DigiByte tiene 3 tipos de direcciones, cada uno comenzando con un prefijo diferente. Las direcciones modernas comienzan con las letras \"dgb1\" para direcciones con formato Bech32 o con la letra \"S\" para SegWit (Testigo Segregado). Las direcciones heredadas comienzan con la letra \"D\". Si bien se mantendrá el soporte para estas últimas, gradualmente se están eliminando en favor de las direcciones Bech32.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #64 - 혹시 알고 계셨나요...",
+            "content": "DigiByte에는 각각 다른 접두사로 시작하는 3 가지 종류의 주소가 있습니다. 현대 주소는 Bech32 형식의 주소에 대해서는 \"dgb1\"로 시작하고 SegWit (분리된 위트니스)를 위해 \"S\"로 시작합니다. 레거시 주소는 \"D\"로 시작합니다. 이러한 주소를 계속 지원하겠지만, Bech32 주소를 선호하는 방향으로 점진적으로 제거되고 있습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #64 - ご存知でしたか...",
+            "content": "DigiByteには異なるプレフィックスで始まる3つのアドレスタイプがあります。モダンなアドレスはBech32形式のアドレス用に\"dgb1\"で始まるか、SegWit（セグリゲーテッドウィットネス）用に\"S\"で始まります。旧式のアドレスは\"D\"で始まります。これらに対するサポートは継続されますが、Bech32アドレスを優先する方向で段階的に廃止されています。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #64 - Wussten Sie schon...",
+            "content": "DigiByte hat 3 Arten von Adressen, die jeweils mit einem anderen Präfix beginnen. Moderne Adressen beginnen mit den Buchstaben \"dgb1\" für Bech32-formatierte Adressen oder mit dem Buchstaben \"S\" für SegWit (Segregated Witness). Legacy-Adressen beginnen mit dem Buchstaben \"D\". Obwohl diese weiterhin unterstützt werden, werden sie allmählich durch Bech32-Adressen ersetzt.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #64 - Saviez-vous que...",
+            "content": "DigiByte a 3 types d'adresses, chacune commençant par un préfixe différent. Les adresses modernes commencent par les lettres \"dgb1\" pour les adresses au format Bech32 ou par la lettre \"S\" pour SegWit (Témoin Séparé). Les adresses héritées commencent par la lettre \"D\". Bien que le support de ces dernières reste en place, elles sont progressivement remplacées par des adresses Bech32.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #64 - Você sabia...",
+            "content": "O DigiByte possui 3 tipos de endereços, cada um começando com um prefixo diferente. Os endereços modernos começam com as letras \"dgb1\" para endereços formatados em Bech32 ou com a letra \"S\" para SegWit (Segregated Witness). Os endereços legados começam com a letra \"D\". Embora o suporte para estes últimos permaneça, eles estão sendo gradualmente substituídos pelos endereços Bech32.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #64 - क्या आप जानते थे...",
+            "content": "डिजीबाइट के पास 3 प्रकार के पते हैं, प्रत्येक अलग प्रिफिक्स के साथ शुरू होते हैं। आधुनिक पते Bech32 प्रारूपित पतों के लिए \"dgb1\" के साथ शुरू होते हैं या SegWit (विभाजित साक्षात्कार) के लिए \"S\" के साथ शुरू होते हैं। पुराने पते \"D\" के साथ शुरू होते हैं। इनके लिए समर्थन जारी रहेगा, लेकिन वे धीरे-धीरे Bech32 पतों की प्राथमिकता में हो रहे हैं।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #64 - Wist u dat...",
+            "content": "DigiByte heeft 3 soorten adressen, elk beginnend met een ander voorvoegsel. Moderne adressen beginnen met de letters \"dgb1\" voor Bech32-geformatteerde adressen of met de letter \"S\" voor SegWit (Gesegregeerde Getuige). Legacy-adressen beginnen met de letter \"D\". Hoewel de ondersteuning voor deze adressen behouden blijft, worden ze geleidelijk aan vervangen door Bech32-adressen.",
+            "url": ""
+        }
+    },
+    "digifact65": {
+        "en": {
+            "title": "DigiFact # 65 - Did you know...",
+            "content": "DigiByte addresses starting with \"dgb1\" (known as Bech32 format) have multiple advantages, such as error correction in the event they were incorrectly written-down, as well as being much easier for both humans and computers to recognize that they are DigiByte-specific addresses.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #65 - 你知道吗？",
+            "content": "以\"dgb1\"开头的DigiByte地址（称为Bech32格式）具有多个优点，例如在错误书写时具有纠错功能，同时更容易被人类和计算机识别为DigiByte特定地址。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #65 - Знаете ли вы...",
+            "content": "Адреса DigiByte, начинающиеся с \"dgb1\" (известные как формат Bech32), имеют множество преимуществ, таких как коррекция ошибок в случае неправильной записи, а также более легкое распознавание как человеком, так и компьютером, что они являются адресами, специфичными для DigiByte.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #65 - ¿Sabías que...",
+            "content": "Las direcciones de DigiByte que comienzan con \"dgb1\" (conocidas como formato Bech32) tienen múltiples ventajas, como la corrección de errores en caso de que se escriban incorrectamente, además de ser mucho más fáciles de reconocer tanto para humanos como para computadoras como direcciones específicas de DigiByte.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #65 - 혹시 알고 계셨나요...",
+            "content": "\"dgb1\"로 시작하는 DigiByte 주소(Bech32 형식으로 알려짐)는 잘못 작성된 경우 오류 수정과 같은 여러 이점이 있으며 인간과 컴퓨터 모두가 DigiByte 특정 주소임을 쉽게 인식할 수 있습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #65 - ご存知でしたか...",
+            "content": "\"dgb1\"で始まるDigiByteアドレス（Bech32フォーマットとして知られています）には、誤って書かれた場合のエラー訂正など、複数の利点があり、人間とコンピュータの両方がそれらがDigiByte専用のアドレスであることを簡単に認識できるという利点もあります。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #65 - Wussten Sie schon...",
+            "content": "DigiByte-Adressen, die mit \"dgb1\" beginnen (bekannt als Bech32-Format), haben mehrere Vorteile, wie beispielsweise Fehlerkorrektur, wenn sie fälschlicherweise falsch aufgeschrieben wurden, sowie die einfachere Erkennung sowohl für Menschen als auch für Computer, dass es sich um DigiByte-spezifische Adressen handelt.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #65 - Saviez-vous que...",
+            "content": "Les adresses DigiByte commençant par \"dgb1\" (connues sous le nom de format Bech32) présentent plusieurs avantages, tels que la correction d'erreurs en cas de mauvaise écriture, ainsi qu'une reconnaissance beaucoup plus facile tant pour les humains que pour les ordinateurs en tant qu'adresses spécifiques à DigiByte.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #65 - Você sabia...",
+            "content": "Os endereços DigiByte que começam com \"dgb1\" (conhecidos como formato Bech32) têm várias vantagens, como a correção de erros no caso de escrita incorreta, além de serem muito mais fáceis de serem reconhecidos tanto por humanos quanto por computadores como endereços específicos do DigiByte.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #65 - क्या आप जानते थे...",
+            "content": "\"dgb1\" से शुरू होने वाले डिजीबाइट पतों के (जिन्हें Bech32 प्रारूप के रूप में जाना जाता है) कई फायदे हैं, जैसे कि उन्हें गलत तरीके से लिखे जाने पर त्रुटि सुधार होता है, साथ ही यह इंसानों और कंप्यूटरों दोनों के लिए उन्हें पहचानने में कहीं ज्यादा सरल होते हैं कि वे डिजीबाइट-विशिष्ट पता हैं।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #65 - Wist u dat...",
+            "content": "DigiByte-adressen die beginnen met \"dgb1\" (bekend als Bech32-formaat) hebben meerdere voordelen, zoals foutcorrectie in het geval van onjuiste notatie, evenals een veel eenvoudigere herkenning voor zowel mensen als computers dat ze DigiByte-specifieke adressen zijn.",
+            "url": ""
+        }
+    },
+    "digifact66": {
+        "en": {
+            "title": "DigiFact # 66 - Did you know...",
+            "content": "For a protocol upgrade to take place, over 70% of the network must agree and be in consensus that the upgrade will take place. This occurs by \"signaling\" support for it when blocks are mined, over the course of a 1-week period.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #66 - 你知道吗？",
+            "content": "要进行协议升级，必须有超过70%的网络同意并达成一致意见，认为升级将会发生。这是通过在挖掘区块时表示支持来实现的，持续1周的时间。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #66 - Знаете ли вы...",
+            "content": "Для проведения протокольного обновления более 70% сети должны согласиться и прийти к соглашению, что обновление состоится. Это происходит путем \"сигнализации\" поддержки при добыче блоков в течение недели.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #66 - ¿Sabías que...",
+            "content": "Para que ocurra una actualización de protocolo, más del 70% de la red debe estar de acuerdo y llegar a un consenso de que la actualización tendrá lugar. Esto se logra mediante la \"señalización\" de su apoyo cuando se minan bloques, durante un período de 1 semana.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #66 - 혹시 알고 계셨나요...",
+            "content": "프로토콜 업그레이드가 이루어지려면 네트워크의 70% 이상이 동의하고 업그레이드가 이루어질 것으로 합의해야 합니다. 이는 블록이 채굴될 때 지원을 \"신호\"로 표시하여 1주일 동안 진행됩니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #66 - ご存知でしたか...",
+            "content": "プロトコルのアップグレードを行うためには、ネットワークの70%以上がアップグレードが行われることに同意し、合意する必要があります。これはブロックが採掘される際にそのサポートを「シグナリング」することによって、1週間の期間をかけて行われます。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #66 - Wussten Sie schon...",
+            "content": "Für ein Protokoll-Upgrade müssen sich mehr als 70% des Netzwerks einig sein und im Konsens stehen, dass das Upgrade stattfinden wird. Dies geschieht durch \"Signalisierung\" der Unterstützung, wenn Blöcke abgebaut werden, über einen Zeitraum von 1 Woche.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #66 - Saviez-vous que...",
+            "content": "Pour qu'une mise à niveau du protocole ait lieu, plus de 70% du réseau doivent être d'accord et être en consensus que la mise à niveau aura lieu. Cela se fait en \"signalant\" son soutien lorsque des blocs sont minés, sur une période d'une semaine.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #66 - Você sabia...",
+            "content": "Para que uma atualização de protocolo ocorra, mais de 70% da rede deve concordar e estar em consenso de que a atualização ocorrerá. Isso ocorre através da \"sinalização\" de suporte quando os blocos são minerados, ao longo de um período de 1 semana.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #66 - क्या आप जानते थे...",
+            "content": "प्रोटोकॉल अपग्रेड के लिए नेटवर्क के 70% से अधिक लोगों को यह सहमत होना चाहिए और सहमत होना चाहिए कि अपग्रेड होगा। इसके लिए 1 सप्ताह की अवधि के दौरान जब ब्लॉक खुदाई की जाती है, तो इसे समर्थन के रूप में \"सिग्नलिंग\" किया जाता है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #66 - Wist u dat...",
+            "content": "Voor een protocol-upgrade moet meer dan 70% van het netwerk het ermee eens zijn en consensus bereiken dat de upgrade zal plaatsvinden. Dit gebeurt door \"signalering\" van ondersteuning wanneer blokken worden gemined, gedurende een periode van 1 week.",
+            "url": ""
+        }
+    },
+    "digifact67": {
+        "en": {
+            "title": "DigiFact # 67 - Did you know...",
+            "content": "There is a maximum of 21 billion DigiByte that will ever exist. This was intentionally chosen as a 1000:1 ratio compared to Bitcoins 21 million. No more can ever be created.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #67 - 你知道吗？",
+            "content": "DigiByte将永远存在的最大数量为210亿枚。这个数字是有意选择的，与比特币的2100万相比，比率为1000：1。不会再创建更多。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #67 - Знаете ли вы...",
+            "content": "Существует максимальное количество DigiByte - 21 миллиард, которое когда-либо существовало. Это было намеренно выбрано в соотношении 1000:1 по сравнению с 21 миллионом биткоинов. Больше нельзя создавать.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #67 - ¿Sabías que...",
+            "content": "Existe un máximo de 21 mil millones de DigiByte que jamás existirán. Esto fue elegido intencionalmente como una relación de 1000:1 en comparación con los 21 millones de Bitcoins. No se pueden crear más.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #67 - 혹시 알고 계셨나요...",
+            "content": "총 210억 DigiByte가 최대로 존재합니다. 이 수치는 의도적으로 선택된 것으로, 비트코인의 2100만에 비해 1000:1의 비율로 설정되었습니다. 더 이상 생성할 수 없습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #67 - ご存知でしたか...",
+            "content": "存在するDigiByteの最大数量は210億枚です。これは比特幣の2100万枚と比較して1000：1の比率として意図的に選ばれました。これ以上は作成できません。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #67 - Wussten Sie schon...",
+            "content": "Es gibt maximal 21 Milliarden DigiByte, die jemals existieren werden. Dies wurde absichtlich als Verhältnis von 1000:1 im Vergleich zu den 21 Millionen Bitcoins gewählt. Es können niemals mehr erstellt werden.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #67 - Saviez-vous que...",
+            "content": "Il y a un maximum de 21 milliards de DigiByte qui existeront jamais. Cela a été intentionnellement choisi comme un ratio de 1000:1 par rapport aux 21 millions de Bitcoins. Aucun ne pourra jamais être créé de plus.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #67 - Você sabia...",
+            "content": "Existe um máximo de 21 bilhões de DigiByte que jamais existirão. Isso foi escolhido intencionalmente em uma proporção de 1000:1 em comparação com os 21 milhões de Bitcoins. Não pode haver mais criados.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #67 - क्या आप जानते थे...",
+            "content": "कभी भी मौजूद रहने वाले 21 अरब DigiByte की अधिकतम हद है। यह इसके छवि के साथ चुना गया था, जिसका अनुपात बिटकॉइन के 21 मिलियन के समान 1000:1 है। कोई और नहीं बना सकता।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #67 - Wist u dat...",
+            "content": "Er is een maximum van 21 miljard DigiByte die ooit zullen bestaan. Dit is opzettelijk gekozen als een verhouding van 1000:1 in vergelijking met de 21 miljoen Bitcoins. Er kunnen nooit meer worden gemaakt.",
+            "url": ""
+        }
+    },
+    "digifact68": {
+        "en": {
+            "title": "DigiFact # 68 - Did you know...",
+            "content": "DigiByte is available on thousands of Crypto ATMs around the world! This is a great way for people new to cryptocurrency to get involved through a more \"traditional\" method of currency exchange.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #68 - 你知道吗？",
+            "content": "DigiByte可以在全球数千台加密货币自动取款机上使用！这对于对加密货币新手来说是一个通过更 \"传统\" 的货币交换方式参与的好方法。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #68 - Знаете ли вы...",
+            "content": "DigiByte доступен на тысячах криптовалютных банкоматах по всему миру! Это отличный способ для новичков в мире криптовалюты вовлечься с помощью более \"традиционного\" способа обмена валютой.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #68 - ¿Sabías que...",
+            "content": "¡DigiByte está disponible en miles de cajeros automáticos de criptomonedas en todo el mundo! Esta es una excelente manera para las personas que son nuevas en las criptomonedas de involucrarse a través de un método de intercambio de moneda más \"tradicional\".",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #68 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 전 세계의 수천 대의 암호화폐 ATM에서 사용할 수 있습니다! 이것은 암호화폐에 새로운 사람들이 더 \"전통적인\" 통화 교환 방법을 통해 참여하는 좋은 방법입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #68 - ご存知でしたか...",
+            "content": "DigiByteは世界中の数千の仮想通貨ATMで利用可能です！これは仮想通貨に新しく取り組む人々にとって、より \"伝統的な\" 通貨交換の方法を通じて関与する素晴らしい方法です。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #68 - Wussten Sie schon...",
+            "content": "DigiByte ist an Tausenden von Krypto-Geldautomaten auf der ganzen Welt verfügbar! Dies ist eine großartige Möglichkeit für Menschen, die neu in der Welt der Kryptowährung sind, sich über eine eher \"traditionelle\" Methode des Währungsumtauschs zu engagieren.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #68 - Saviez-vous que...",
+            "content": "DigiByte est disponible sur des milliers de distributeurs automatiques de crypto-monnaie dans le monde entier ! C'est un excellent moyen pour les personnes nouvelles dans le domaine de la crypto-monnaie de s'impliquer à travers une méthode de change de monnaie plus \"traditionnelle\".",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #68 - Você sabia...",
+            "content": "O DigiByte está disponível em milhares de caixas eletrônicos de criptomoedas ao redor do mundo! Esta é uma ótima maneira para as pessoas que são novas no mundo das criptomoedas se envolverem por meio de um método de troca de moeda mais \"tradicional\".",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #68 - क्या आप जानते थे...",
+            "content": "दुनिया भर में हजारों क्रिप्टो एटीएम्स पर डिजीबाइट उपलब्ध है! यह क्रिप्टोकरेंसी के नए लोगों के लिए एक और \"पारंपरिक\" मुद्रा विनिमय के एक और तरीके के माध्यम से शामिल होने के लिए एक बहुत बढ़िया तरीका है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #68 - Wist u dat...",
+            "content": "DigiByte is beschikbaar op duizenden Crypto-ATM's over de hele wereld! Dit is een geweldige manier voor mensen die nieuw zijn in cryptocurrency om betrokken te raken via een meer \"traditionele\" methode van valutawissel.",
+            "url": ""
+        }
+    },
+    "digifact69": {
+        "en": {
+            "title": "DigiFact # 69 - Did you know...",
+            "content": "DigiByte can be used to verify and validate documents, music, media, identity and more! Although DigiByte excels as a means of exchanging value, it is not limited to just being a currency.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #69 - 你知道吗？",
+            "content": "DigiByte可以用于验证和验证文件、音乐、媒体、身份等等！虽然DigiByte在价值交换方面表现出色，但它不仅仅局限于货币交换。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #69 - Знаете ли вы...",
+            "content": "DigiByte можно использовать для проверки и валидации документов, музыки, медиа, личности и многого другого! Хотя DigiByte отлично подходит в качестве средства обмена ценностями, он не ограничивается только обменом валюты.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #69 - ¿Sabías que...",
+            "content": "¡DigiByte se puede utilizar para verificar y validar documentos, música, medios de comunicación, identidad y mucho más! Aunque DigiByte sobresale como medio de intercambio de valor, no se limita solo a ser una moneda.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #69 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 문서, 음악, 미디어, 신원 등을 검증하고 확인하는 데 사용할 수 있습니다! DigiByte는 가치 교환 수단으로 뛰어나지만 통화로서만 한정되지 않습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #69 - ご存知でしたか...",
+            "content": "DigiByteは文書、音楽、メディア、身分証明などの検証および検証に使用できます！DigiByteは価値の交換手段として優れていますが、通貨に限定されていません。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #69 - Wussten Sie schon...",
+            "content": "DigiByte kann verwendet werden, um Dokumente, Musik, Medien, Identität und mehr zu überprüfen und zu validieren! Obwohl DigiByte als Mittel zur Wertaustausch hervorragt, ist es nicht auf die Funktion einer Währung beschränkt.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #69 - Saviez-vous que...",
+            "content": "DigiByte peut être utilisé pour vérifier et valider des documents, de la musique, des médias, des identités, etc. ! Bien que DigiByte excelle en tant que moyen d'échange de valeur, il ne se limite pas à être simplement une monnaie.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #69 - Você sabia...",
+            "content": "O DigiByte pode ser usado para verificar e validar documentos, música, mídia, identidade e muito mais! Embora o DigiByte se destaque como meio de troca de valor, não se limita apenas a ser uma moeda.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #69 - क्या आप जानते थे...",
+            "content": "DigiByte का उपयोग दस्तावेज़, संगीत, मीडिया, पहचान और अन्य की पुष्टि और मान्यता देने के लिए किया जा सकता है! हालांकि DigiByte मूल्य विनिमय के रूप में उत्कृष्ट है, यह केवल एक मुद्रा के रूप में ही सीमित नहीं है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #69 - Wist u dat...",
+            "content": "DigiByte kan worden gebruikt om documenten, muziek, media, identiteit en meer te verifiëren en valideren! Hoewel DigiByte uitblinkt als een middel om waarde uit te wisselen, is het niet beperkt tot alleen maar een valuta.",
+            "url": ""
+        }
+    },
+    "digifact70": {
+        "en": {
+            "title": "DigiFact # 70 - Did you know...",
+            "content": "You can use multiple wallets! DigiByte is not just limited to a single piece of software, and the community is encouraged to find an app that works best for them, so try one, try a few, and keep using the ones you like the most.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #70 - 你知道吗？",
+            "content": "您可以使用多个钱包！DigiByte不仅仅局限于一种软件，社区鼓励找到最适合他们的应用程序，所以尝试一个，尝试几个，继续使用您最喜欢的那些。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #70 - Знаете ли вы...",
+            "content": "Вы можете использовать несколько кошельков! DigiByte не ограничивается одним программным продуктом, и сообщество призывается найти приложение, которое лучше всего подходит для них, поэтому попробуйте одно, попробуйте несколько и продолжайте использовать те, которые вам нравятся больше всего.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #70 - ¿Sabías que...",
+            "content": "¡Puedes usar múltiples billeteras! DigiByte no se limita solo a un solo software, y se anima a la comunidad a encontrar una aplicación que funcione mejor para ellos, así que pruebe una, pruebe algunas y siga usando las que más le gusten.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #70 - 혹시 알고 계셨나요...",
+            "content": "여러 개의 지갑을 사용할 수 있습니다! DigiByte는 단일 소프트웨어로 제한되지 않으며, 커뮤니티는 자신에게 가장 적합한 앱을 찾도록 권장하고 있으므로 한 가지를 시도해보고 몇 가지를 시도하고 가장 많이 좋아하는 것을 계속 사용하세요.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #70 - ご存知でしたか...",
+            "content": "複数のウォレットを使用できます！ DigiByteは単一のソフトウェアに制限されるものではなく、コミュニティは自分に最適なアプリを見つけることを奨励しています。したがって、1つ試してみて、いくつか試して、最も気に入ったものを使用し続けてください。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #70 - Wussten Sie schon...",
+            "content": "Sie können mehrere Geldbörsen verwenden! DigiByte ist nicht nur auf eine einzige Software beschränkt, und die Community wird ermutigt, eine App zu finden, die am besten für sie funktioniert. Probieren Sie also eine aus, probieren Sie ein paar aus und verwenden Sie weiterhin diejenigen, die Ihnen am besten gefallen.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #70 - Saviez-vous que...",
+            "content": "Vous pouvez utiliser plusieurs portefeuilles ! DigiByte n'est pas limité à un seul logiciel, et la communauté est encouragée à trouver une application qui fonctionne le mieux pour elle, alors essayez-en une, essayez-en plusieurs et continuez à utiliser celles que vous préférez le plus.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #70 - Você sabia...",
+            "content": "Você pode usar várias carteiras! O DigiByte não se limita a um único software, e a comunidade é incentivada a encontrar um aplicativo que funcione melhor para eles, portanto, experimente um, experimente alguns e continue usando os que você mais gosta.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #70 - क्या आप जानते थे...",
+            "content": "आप मल्टीपल वॉलेट्स का उपयोग कर सकते हैं! DigiByte केवल एक सॉफ़्टवेयर पर सीमित नहीं है, और समुदाय को खुद के लिए सबसे अच्छा काम करने वाला एक ऐप खोजने के लिए प्रोत्साहित किया जाता है, इसलिए एक कोशिश करें, कुछ कोशिश करें, और जो आपको सबसे अधिक पसंद है, वही काम करते रहें।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #70 - Wist u dat...",
+            "content": "U kunt meerdere portefeuilles gebruiken! DigiByte is niet beperkt tot één stuk software, en de gemeenschap wordt aangemoedigd om een app te vinden die het beste voor hen werkt, dus probeer er een, probeer er een paar, en blijf degenen gebruiken die u het meest bevalt.",
+            "url": ""
+        }
     }
+    
+    
+                              
 }
