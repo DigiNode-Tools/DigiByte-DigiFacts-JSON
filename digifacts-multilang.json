@@ -4589,5 +4589,419 @@
             "content": "Een \"DigiByte Seeder\" is een lichte DNS-server die wordt beheerd door enkele vertrouwde vrijwilligers uit de DigiByte-gemeenschap. Het doorzoekt voortdurend het DigiByte-netwerk op zoek naar knooppunten en onderhoudt een lijst van de IP-adressen en poorten van de meest betrouwbare knooppunten. DigiByte-knooppunten die zich bij het netwerk aansluiten, gebruiken de DigiByte Seeders om andere knooppunten te vinden waarmee ze kunnen verbinden. Meer informatie hier: https://github.com/DigiByte-Core/digibyte-seeder",
             "url": "https://github.com/DigiByte-Core/digibyte-seeder"
         }
-    }
+    },
+    "digifact81": {
+        "en": {
+            "title": "DigiFact # 81 - Did you know...",
+            "content": "The website \"DigiByte Facts\" is a fantastic learning resource created by a member of the DigiByte community. It offers many of these DigiFacts as shareable images, along with quizzes and other resources to help you learn more about DigiByte. Find it here: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "zh": {
+            "title": "DigiFact # 81 - 你知道吗...",
+            "content": "网站\"DigiByte事实\"是由DigiByte社区成员创建的出色学习资源。它提供了许多这些DigiFacts作为可分享的图像，以及测验和其他资源，帮助您更多地了解DigiByte。在这里找到它：https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "ru": {
+            "title": "DigiFact # 81 - Знаете ли вы...",
+            "content": "Сайт \"DigiByte Facts\" - это отличный образовательный ресурс, созданный участником сообщества DigiByte. Он предлагает множество таких фактов в виде общедоступных изображений, а также викторины и другие ресурсы, чтобы помочь вам узнать больше о DigiByte. Найдите его здесь: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "es": {
+            "title": "DigiFact # 81 - ¿Sabías que...",
+            "content": "El sitio web \"DigiByte Facts\" es un recurso de aprendizaje fantástico creado por un miembro de la comunidad DigiByte. Ofrece muchos de estos DigiFacts como imágenes compartibles, junto con cuestionarios y otros recursos para ayudarte a aprender más sobre DigiByte. Encuéntralo aquí: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "ko": {
+            "title": "DigiFact # 81 - 알고 계셨나요...",
+            "content": "\"DigiByte Facts\" 웹사이트는 DigiByte 커뮤니티 회원이 만든 훌륭한 학습 자료입니다. 이 사이트에서는 이러한 DigiFacts 중 많은 것들을 공유 가능한 이미지로 제공하며, 퀴즈 및 기타 자료를 함께 제공하여 DigiByte에 대해 더 많이 배울 수 있도록 도와줍니다. 여기에서 확인하세요: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "ja": {
+            "title": "DigiFact # 81 - ご存知ですか...",
+            "content": "「DigiByte Facts」というウェブサイトは、DigiByteコミュニティのメンバーによって作成された素晴らしい学習リソースです。このサイトでは、これらのDigiFactsの多くを共有可能な画像として提供し、クイズやその他のリソースも提供しており、DigiByteについての知識を深めるのに役立ちます。こちらで見つけてください：https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "de": {
+            "title": "DigiFact # 81 - Wussten Sie schon...",
+            "content": "Die Website \"DigiByte Facts\" ist eine fantastische Lernressource, die von einem Mitglied der DigiByte-Community erstellt wurde. Sie bietet viele dieser DigiFacts als teilbare Bilder sowie Quizfragen und andere Ressourcen, um mehr über DigiByte zu erfahren. Finden Sie sie hier: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "fr": {
+            "title": "DigiFact # 81 - Saviez-vous que...",
+            "content": "Le site web \"DigiByte Facts\" est une excellente ressource d'apprentissage créée par un membre de la communauté DigiByte. Il propose de nombreux de ces DigiFacts sous forme d'images partageables, ainsi que des quiz et d'autres ressources pour vous aider à en savoir plus sur DigiByte. Trouvez-le ici : https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "it": {
+            "title": "DigiFact # 81 - Lo sapevi che...",
+            "content": "Il sito web \"DigiByte Facts\" è una fantastica risorsa didattica creata da un membro della comunità DigiByte. Offre molti di questi DigiFacts sotto forma di immagini condivisibili, insieme a quiz e altre risorse per aiutarti a conoscere meglio DigiByte. Trovalo qui: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "hi": {
+            "title": "DigiFact # 81 - क्या आप जानते थे...",
+            "content": "वेबसाइट \"डिजीबाइट फैक्ट्स\" एक शानदार शिक्षा स्रोत है जिसे डिजीबाइट समुदाय के सदस्य ने बनाया है। इसमें कई ऐसे डिजीफैक्ट्स शेयरेबल छवियों के रूप में उपलब्ध हैं, साथ ही क्विज़ और डिजीबाइट के बारे में और सिखने के लिए अन्य संसाधनों के साथ। इसे यहाँ पे पाएं: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "pt": {
+            "title": "DigiFact # 81 - Sabia que...",
+            "content": "O site \"DigiByte Facts\" é um recurso de aprendizagem fantástico criado por um membro da comunidade DigiByte. Ele oferece muitos desses DigiFacts como imagens compartilháveis, juntamente com quizzes e outros recursos para ajudá-lo a aprender mais sobre o DigiByte. Encontre-o aqui: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        },
+        "nl": {
+            "title": "DigiFact # 81 - Wist je dat...",
+            "content": "De website \"DigiByte Facts\" is een fantastische leermiddel gemaakt door een lid van de DigiByte-gemeenschap. Het biedt veel van deze DigiFacts als deelbare afbeeldingen, samen met quizzen en andere bronnen om je meer te leren over DigiByte. Vind het hier: https://digifacts.org/",
+            "url": "https://digifacts.org/"
+        }
+    },
+    "digifact82": {
+        "en": {
+            "title": "DigiFact # 82 - Did you know...",
+            "content": "The DigiByte Wiki is a fantastic resource of information on all things DigiByte, written and maintained by members of the DigiByte community: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "zh": {
+            "title": "DigiFact # 82 - 你知道吗...",
+            "content": "DigiByte Wiki是一个关于所有DigiByte事物的信息资源，由DigiByte社区的成员编写和维护：https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "ru": {
+            "title": "DigiFact # 82 - Знаете ли вы...",
+            "content": "DigiByte Wiki - это фантастический источник информации обо всем, что касается DigiByte, написанный и поддерживаемый членами сообщества DigiByte: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "es": {
+            "title": "DigiFact # 82 - ¿Sabías que...",
+            "content": "El DigiByte Wiki es un recurso fantástico de información sobre todo lo relacionado con DigiByte, escrito y mantenido por miembros de la comunidad de DigiByte: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "ko": {
+            "title": "DigiFact # 82 - 알고 계셨나요...",
+            "content": "DigiByte Wiki는 DigiByte 커뮤니티 회원들에 의해 작성 및 유지되는 DigiByte 관련 정보의 훌륭한 자원입니다: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "ja": {
+            "title": "DigiFact # 82 - ご存知ですか...",
+            "content": "DigiByte Wikiは、DigiByteコミュニティのメンバーによって執筆および維持されている、DigiByteに関する情報の素晴らしいリソースです：https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "de": {
+            "title": "DigiFact # 82 - Wussten Sie schon...",
+            "content": "Das DigiByte Wiki ist eine fantastische Informationsquelle für alles rund um DigiByte, verfasst und gepflegt von Mitgliedern der DigiByte-Community: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "fr": {
+            "title": "DigiFact # 82 - Saviez-vous que...",
+            "content": "Le Wiki DigiByte est une fantastique ressource d'informations sur tout ce qui concerne DigiByte, rédigée et entretenue par les membres de la communauté DigiByte : https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "it": {
+            "title": "DigiFact # 82 - Saipevi che...",
+            "content": "Il Wiki DigiByte è una fantastica risorsa di informazioni su tutto ciò che riguarda DigiByte, scritta e mantenuta dai membri della comunità DigiByte: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "hi": {
+            "title": "DigiFact # 82 - क्या आप जानते हैं...",
+            "content": "डिजिबाइट विकि, जिसे डिजिबाइट समुदाय के सदस्यों द्वारा लिखा और बनाया जाता है, डिजिबाइट के सभी चीजों पर जानकारी का एक अद्भुत स्रोत है: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "pt": {
+            "title": "DigiFact # 82 - Você sabia...",
+            "content": "A DigiByte Wiki é uma fonte fantástica de informações sobre tudo relacionado à DigiByte, escrita e mantida por membros da comunidade DigiByte: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        },
+        "nl": {
+            "title": "DigiFact # 82 - Wist je dat...",
+            "content": "De DigiByte Wiki is een fantastische bron van informatie over alles wat met DigiByte te maken heeft, geschreven en onderhouden door leden van de DigiByte-community: https://wiki.digibyte.org/",
+            "url": "https://wiki.digibyte.org/"
+        }
+    },
+    "digifact83": {
+        "en": {
+            "title": "DigiFact # 83 - Did you know...",
+            "content": "DigiByte Domains is a service created by DigiByte community member Renzo Dias. A DigiByte domain is a name that references a DigiByte wallet address. It's powered by DigiAssets, and the domain is the asset. For example, you can send some DigiByte or DigiAssets to 'domain.dgb,' and it will arrive at the address that holds the domain. You can purchase your own DigiByte domain here: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "zh": {
+            "title": "DigiFact # 83 - 你知道吗...",
+            "content": "DigiByte Domains是由DigiByte社区成员Renzo Dias创建的服务。DigiByte域名是指引用DigiByte钱包地址的名称。它由DigiAssets提供动力，域名就是资产。例如，您可以将一些DigiByte或DigiAssets发送到'domain.dgb'，它将到达持有该域名的地址。您可以在此处购买自己的DigiByte域名：https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "ru": {
+            "title": "DigiFact # 83 - Знаете ли вы...",
+            "content": "DigiByte Domains - это сервис, созданный участником сообщества DigiByte Ренцо Диасом. DigiByte-домен - это имя, которое ссылается на адрес кошелька DigiByte. Он работает на базе DigiAssets, и домен является активом. Например, вы можете отправить некоторое количество DigiByte или DigiAssets на 'domain.dgb', и они прибудут на адрес, который удерживает домен. Вы можете приобрести свой собственный DigiByte-домен здесь: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "es": {
+            "title": "DigiFact # 83 - ¿Sabías que...",
+            "content": "DigiByte Domains es un servicio creado por el miembro de la comunidad de DigiByte, Renzo Dias. Un dominio DigiByte es un nombre que hace referencia a una dirección de monedero DigiByte. Está impulsado por DigiAssets, y el dominio es el activo. Por ejemplo, puedes enviar algunos DigiByte o DigiAssets a 'domain.dgb', y llegarán a la dirección que tiene el dominio. Puedes comprar tu propio dominio DigiByte aquí: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "ko": {
+            "title": "DigiFact # 83 - 알고 계셨나요...",
+            "content": "DigiByte Domains는 DigiByte 커뮤니티 회원 Renzo Dias가 만든 서비스입니다. DigiByte 도메인은 DigiByte 월렛 주소를 참조하는 이름입니다. 이것은 DigiAssets에 의해 제공되며 도메인이 자산입니다. 예를 들어 'domain.dgb'로 일부 DigiByte 또는 DigiAssets를 보낼 수 있으며 도메인을 보유한 주소로 도착합니다. 여기에서 고유한 DigiByte 도메인을 구매할 수 있습니다: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "ja": {
+            "title": "DigiFact # 83 - ご存知ですか...",
+            "content": "DigiByte Domainsは、DigiByteコミュニティメンバーであるRenzo Diasによって作成されたサービスです。DigiByteドメインはDigiByteウォレットアドレスを参照する名前です。これはDigiAssetsによって動作し、ドメインはそのアセットです。たとえば、あるDigiByteまたはDigiAssetsを'domain.dgb'に送信すると、そのドメインを保持するアドレスに到達します。独自のDigiByteドメインをこちらで購入できます：https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "de": {
+            "title": "DigiFact # 83 - Wussten Sie schon...",
+            "content": "DigiByte Domains ist ein von Renzo Dias, Mitglied der DigiByte-Community, erstellter Dienst. Ein DigiByte-Domain ist ein Name, der auf eine DigiByte-Wallet-Adresse verweist. Sie wird von DigiAssets betrieben, und die Domain ist das Asset. Sie können beispielsweise einige DigiByte oder DigiAssets an 'domain.dgb' senden, und sie werden an die Adresse geliefert, die die Domain enthält. Sie können Ihre eigene DigiByte-Domain hier erwerben: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "fr": {
+            "title": "DigiFact # 83 - Saviez-vous que...",
+            "content": "DigiByte Domains est un service créé par Renzo Dias, membre de la communauté DigiByte. Un domaine DigiByte est un nom qui fait référence à une adresse de portefeuille DigiByte. Il est alimenté par DigiAssets, et le domaine est l'actif. Par exemple, vous pouvez envoyer quelques DigiByte ou DigiAssets à 'domain.dgb', et ils arriveront à l'adresse qui détient le domaine. Vous pouvez acheter votre propre domaine DigiByte ici : https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "it": {
+            "title": "DigiFact # 83 - Saipevi che...",
+            "content": "DigiByte Domains è un servizio creato da Renzo Dias, membro della comunità DigiByte. Un dominio DigiByte è un nome che fa riferimento a un indirizzo del portafoglio DigiByte. È alimentato da DigiAssets e il dominio è l'asset. Ad esempio, puoi inviare alcuni DigiByte o DigiAssets a 'domain.dgb', e arriveranno all'indirizzo che detiene il dominio. Puoi acquistare il tuo dominio DigiByte qui: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "hi": {
+            "title": "DigiFact # 83 - क्या आप जानते हैं...",
+            "content": "DigiByte Domains एक सेवा है जिसे DigiByte समुदाय के सदस्य रेंजो डायस ने बनाई है। एक DigiByte डोमेन एक नाम है जो एक DigiByte वॉलेट पता को संदर्भित करता है। यह DigiAssets द्वारा संचालित है, और डोमेन ही संपत्ति है। उदाहरण के लिए, आप 'domain.dgb' पर कुछ DigiByte या DigiAssets भेज सकते हैं, और यह उस पते पर पहुँचेगा जो डोमेन को धारण करता है। आप अपना खुद का DigiByte डोमेन यह से खरीद सकते हैं: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "pt": {
+            "title": "DigiFact # 83 - Você sabia...",
+            "content": "DigiByte Domains é um serviço criado por Renzo Dias, membro da comunidade DigiByte. Um domínio DigiByte é um nome que faz referência a um endereço de carteira DigiByte. É alimentado por DigiAssets, e o domínio é o ativo. Por exemplo, você pode enviar alguns DigiByte ou DigiAssets para 'domain.dgb', e eles chegarão ao endereço que possui o domínio. Você pode adquirir seu próprio domínio DigiByte aqui: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        },
+        "nl": {
+            "title": "DigiFact # 83 - Wist je dat...",
+            "content": "DigiByte Domains is een dienst gemaakt door Renzo Dias, lid van de DigiByte-community. Een DigiByte-domein is een naam die verwijst naar een DigiByte-portemonnee-adres. Het wordt aangedreven door DigiAssets, en het domein is het activum. Je kunt bijvoorbeeld wat DigiByte of DigiAssets sturen naar 'domain.dgb,' en ze zullen aankomen op het adres dat het domein beheert. Je kunt je eigen DigiByte-domein hier kopen: https://digibytedomains.com/",
+            "url": "https://digibytedomains.com/"
+        }
+    },
+    "digifact84": {
+        "zh": {
+            "title": "DigiFact # 84 - 你知道吗...",
+            "content": "对于开发者来说，DigiByte JS 是一个纯粹而强大的Javascript DigiByte库，派生自Bitpay的Bitcore Lib库。在这里找到它：https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "ru": {
+            "title": "DigiFact # 84 - Знаете ли вы...",
+            "content": "Для разработчиков DigiByte JS - это чистая и мощная библиотека Javascript DigiByte, форкнутая из библиотеки Bitcore Lib от Bitpay. Найдите её здесь: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "es": {
+            "title": "DigiFact # 84 - ¿Sabías que...",
+            "content": "Para los desarrolladores, DigiByte JS es una biblioteca Javascript pura y potente de DigiByte derivada de la biblioteca Bitcore Lib de Bitpay. Encuéntrala aquí: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "ko": {
+            "title": "DigiFact # 84 - 알고 계셨나요...",
+            "content": "개발자를 위한 DigiByte JS는 Bitpay의 Bitcore Lib 라이브러리에서 포크된 순수하고 강력한 자바스크립트 DigiByte 라이브러리입니다. 여기에서 찾을 수 있습니다: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "ja": {
+            "title": "DigiFact # 84 - ご存知ですか...",
+            "content": "開発者向けに、DigiByte JSはBitpayのBitcore Libライブラリからフォークされた純粋で強力なJavascript DigiByteライブラリです。こちらで見つけることができます：https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "de": {
+            "title": "DigiFact # 84 - Wussten Sie schon...",
+            "content": "Für Entwickler ist DigiByte JS eine reine und leistungsstarke JavaScript DigiByte-Bibliothek, die von Bitpay's Bitcore Lib-Bibliothek abgezweigt wurde. Hier finden Sie sie: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "fr": {
+            "title": "DigiFact # 84 - Saviez-vous que...",
+            "content": "Pour les développeurs, DigiByte JS est une bibliothèque pure et puissante en JavaScript pour DigiByte, dérivée de la bibliothèque Bitcore Lib de Bitpay. Vous la trouverez ici : https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "it": {
+            "title": "DigiFact # 84 - Lo sapevi che...",
+            "content": "Per gli sviluppatori, DigiByte JS è una libreria DigiByte Javascript pura e potente derivata dalla libreria Bitcore Lib di Bitpay. Trovala qui: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "hi": {
+            "title": "DigiFact # 84 - क्या आप जानते हैं...",
+            "content": "डेवलपर्स के लिए, DigiByte JS एक शुद्ध और शक्तिशाली जावास्क्रिप्ट DigiByte पुस्तकालय है, जो Bitpay की Bitcore Lib पुस्तकालय से फ़ॉर्क की गई है। इसे यहाँ पाएं: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "pt": {
+            "title": "DigiFact # 84 - Sabia que...",
+            "content": "Para os desenvolvedores, o DigiByte JS é uma biblioteca JavaScript pura e poderosa do DigiByte, derivada da biblioteca Bitcore Lib da Bitpay. Encontre-a aqui: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
+        "nl": {
+            "title": "DigiFact # 84 - Wist je dat...",
+            "content": "Voor ontwikkelaars is DigiByte JS een pure en krachtige JavaScript DigiByte-bibliotheek, afgeleid van de Bitcore Lib-bibliotheek van Bitpay. Je kunt het hier vinden: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        }
+    },
+    "digifact85": {
+        "zh": {
+            "title": "DigiFact # 85 - 你知道吗...",
+            "content": "DigiAssets是建立在DigiByte区块链之上的安全、可扩展的第二层，允许去中心化发行数字资产（NFTs）、代币、智能合约、数字身份等。",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ru": {
+            "title": "DigiFact # 85 - Знаете ли вы...",
+            "content": "DigiAssets - это безопасный, масштабируемый второй уровень, построенный на базе блокчейна DigiByte, который позволяет децентрализованное выпуск цифровых активов (NFT), токенов, смарт-контрактов, цифровой идентификации и многого другого.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "es": {
+            "title": "DigiFact # 85 - ¿Sabías que...",
+            "content": "DigiAssets es una capa segura y escalable construida sobre la cadena de bloques de DigiByte que permite la emisión descentralizada de activos digitales (NFTs), tokens, contratos inteligentes, identidad digital y más.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ko": {
+            "title": "DigiFact # 85 - 알고 계셨나요...",
+            "content": "DigiAssets는 DigiByte 블록체인 위에 구축된 안전하고 확장 가능한 두 번째 계층으로, 디지털 자산 (NFT), 토큰, 스마트 계약, 디지털 신분 등의 분산 발행을 허용합니다.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ja": {
+            "title": "DigiFact # 85 - ご存知ですか...",
+            "content": "DigiAssetsは、DigiByteブロックチェーンの上に構築されたセキュアでスケーラブルな第二層で、非中央集権的なデジタル資産（NFT）、トークン、スマートコントラクト、デジタルアイデンティティなどを発行することができます。",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "de": {
+            "title": "DigiFact # 85 - Wussten Sie schon...",
+            "content": "DigiAssets sind eine sichere, skalierbare Zweitlage, die auf der DigiByte-Blockchain aufgebaut ist und die dezentrale Ausgabe von digitalen Vermögenswerten (NFTs), Tokens, Smart Contracts, digitalen Identitäten und mehr ermöglicht.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "fr": {
+            "title": "DigiFact # 85 - Saviez-vous que...",
+            "content": "DigiAssets est une couche sécurisée et évolutive construite sur la blockchain DigiByte qui permet l'émission décentralisée d'actifs numériques (NFT), de jetons, de contrats intelligents, d'identités numériques et plus encore.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "it": {
+            "title": "DigiFact # 85 - Lo sapevi che...",
+            "content": "DigiAssets sono uno strato sicuro e scalabile costruito sopra la blockchain di DigiByte che consente l'emissione decentralizzata di asset digitali (NFT), token, contratti intelligenti, identità digitale e altro.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "hi": {
+            "title": "DigiFact # 85 - क्या आप जानते हैं...",
+            "content": "DigiAssets वो सुरक्षित और विस्तारणयोग्य दूसरी परत है जो DigiByte ब्लॉकचेन के ऊपर निर्मित है और डिसेंट्रलाइज्ड डिजिटल एसेट्स (NFTs), टोकन, स्मार्ट कॉन्ट्रैक्ट्स, डिजिटल पहचान और अन्य की डिसेंट्रलाइज्ड इशूअंस की अनुमति देता है।",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "pt": {
+            "title": "DigiFact # 85 - Sabia que...",
+            "content": "DigiAssets são uma camada segura e escalável construída em cima da blockchain DigiByte que permite a emissão descentralizada de ativos digitais (NFTs), tokens, contratos inteligentes, identidade digital e muito mais.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "nl": {
+            "title": "DigiFact # 85 - Wist je dat...",
+            "content": "DigiAssets zijn een veilige, schaalbare tweede laag bovenop de DigiByte Blockchain waarmee de gedecentraliseerde uitgifte van digitale activa (NFT's), tokens, slimme contracten, digitale identiteit en meer mogelijk is.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        }
+    },
+    "digifact86": {
+        "zh": {
+            "title": "DigiFact # 86 - 你知道吗...",
+            "content": "DigiAsset Core目前正在积极开发中，是DigiAsset协议的最新实现。由社区成员Matthew Cornelisse领导，它与DigiByte Core节点一起运行，有助于分散化DigiAssets及其元数据。需要强调的是，DigiAsset Core不是DigiByte Core的一部分，它是一个独立但互补的社区驱动项目。在这里找到它：https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ru": {
+            "title": "DigiFact # 86 - Знаете ли вы...",
+            "content": "DigiAsset Core, находящийся в настоящее время в активной разработке, является самой последней реализацией протокола DigiAsset. Под руководством члена сообщества Мэтью Корнелиссе он работает параллельно с узлом DigiByte Core и помогает децентрализовать DigiAssets и их метаданные. Важно подчеркнуть, что DigiAsset Core не является частью DigiByte Core - это независимый, но дополняющий проект, разрабатываемый сообществом. Найдите его здесь: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "es": {
+            "title": "DigiFact # 86 - ¿Sabías que...",
+            "content": "DigiAsset Core, actualmente en desarrollo activo, es la implementación más reciente del protocolo DigiAsset. Encabezado por el miembro de la comunidad Matthew Cornelisse, se ejecuta junto a un nodo DigiByte Core y contribuye a la descentralización de DigiAssets y sus metadatos. Es importante destacar que DigiAsset Core no forma parte de DigiByte Core, sino que es un proyecto independiente pero complementario impulsado por la comunidad. Encuéntralo aquí: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ko": {
+            "title": "DigiFact # 86 - 알고 계셨나요...",
+            "content": "현재 개발 중인 DigiAsset Core는 DigiAsset 프로토콜의 최신 구현입니다. 커뮤니티 멤버 Matthew Cornelisse가 주도하며 DigiByte Core 노드와 함께 실행되어 DigiAssets와 그 메타데이터를 분산화하는 데 도움을 줍니다. DigiAsset Core는 DigiByte Core의 일부가 아니라 독립적이지만 보완적인 커뮤니티 주도 프로젝트임을 강조하는 것이 중요합니다. 여기에서 찾을 수 있습니다: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ja": {
+            "title": "DigiFact # 86 - ご存知ですか...",
+            "content": "DigiAsset Coreは現在積極的に開発中で、DigiAssetプロトコルの最新実装です。コミュニティメンバーのMatthew Cornelisseがリードし、DigiByte Coreノードと連携してDigiAssetsとそのメタデータの分散化を支援します。DigiAsset CoreはDigiByte Coreの一部ではなく、独立したが補完的なコミュニティ駆動のプロジェクトであることを強調しています。こちらで詳細をご覧いただけます：https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "de": {
+            "title": "DigiFact # 86 - Wussten Sie schon...",
+            "content": "DigiAsset Core befindet sich derzeit in aktiver Entwicklung und ist die neueste Implementierung des DigiAsset-Protokolls. Unter der Leitung des Community-Mitglieds Matthew Cornelisse läuft es neben einem DigiByte Core-Knoten und trägt zur Dezentralisierung von DigiAssets und deren Metadaten bei. Es ist wichtig zu betonen, dass DigiAsset Core nicht Teil von DigiByte Core ist, sondern ein unabhängiges, aber ergänzendes Community-getriebenes Projekt ist. Hier finden Sie es: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "fr": {
+            "title": "DigiFact # 86 - Saviez-vous que...",
+            "content": "DigiAsset Core, actuellement en développement actif, est la dernière implémentation du protocole DigiAsset. Mené par le membre de la communauté Matthew Cornelisse, il fonctionne aux côtés d'un nœud DigiByte Core et contribue à la décentralisation de DigiAssets et de leurs métadonnées. Il est important de souligner que DigiAsset Core ne fait pas partie de DigiByte Core, mais est un projet indépendant mais complémentaire piloté par la communauté. Vous pouvez le trouver ici : https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "it": {
+            "title": "DigiFact # 86 - Lo sapevi che...",
+            "content": "DigiAsset Core, attualmente in fase di sviluppo attivo, è l'implementazione più recente del protocollo DigiAsset. Guidato dal membro della community Matthew Cornelisse, funziona insieme a un nodo DigiByte Core e contribuisce alla decentralizzazione di DigiAssets e dei loro metadati. È importante sottolineare che DigiAsset Core non fa parte di DigiByte Core, ma è un progetto indipendente ma complementare guidato dalla comunità. Trovalo qui: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "hi": {
+            "title": "DigiFact # 86 - क्या आप जानते हैं...",
+            "content": "DigiAsset Core, जिसका वर्तमान में सक्रिय विकास हो रहा है, यह DigiAsset प्रोटोकॉल का सबसे हाल का अनुपालन है। समुदाय के सदस्य मैथ्यू कॉर्नेलिस के नेतृत्व में, यह DigiByte कोर नोड के साथ चलता है और DigiAssets और उनके मेटाडेटा का डीसेंट्रलाइजेशन में मदद करता है। यह महत्वपूर्ण है कि DigiAsset Core DigiByte Core का हिस्सा नहीं है - यह एक स्वतंत्र लेकिन पूरक समुदाय द्वारा चलाया जाने वाला परियोजना है। इसे यहाँ पर पाएं: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "pt": {
+            "title": "DigiFact # 86 - Você sabia...",
+            "content": "O DigiAsset Core, atualmente em desenvolvimento ativo, é a implementação mais recente do protocolo DigiAsset. Liderado pelo membro da comunidade Matthew Cornelisse, ele funciona em conjunto com um nó DigiByte Core e ajuda a descentralizar DigiAssets e seus metadados. É importante destacar que o DigiAsset Core não faz parte do DigiByte Core, mas é um projeto independente, porém complementar, conduzido pela comunidade. Você pode encontrá-lo aqui: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "nl": {
+            "title": "DigiFact # 86 - Wist je dat...",
+            "content": "DigiAsset Core, momenteel actief in ontwikkeling, is de meest recente implementatie van het DigiAsset-protocol. Onder leiding van gemeenschapslid Matthew Cornelisse draait het samen met een DigiByte Core-node en helpt het bij de decentralisatie van DigiAssets en hun metadata. Het is belangrijk om te benadrukken dat DigiAsset Core geen deel uitmaakt van DigiByte Core, maar een onafhankelijk maar complementair door de gemeenschap gedreven project is. Je kunt het hier vinden: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        }
+    },
+    "digifact87": {
+        "zh": {
+            "title": "DigiFact # 87 - 你知道吗...",
+            "content": "DigiByte社区成员Renzo Diaz创建的DigiAsset Explorer使查找有关DigiAsset交易的信息变得简单。在此处查找：https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "ru": {
+            "title": "DigiFact # 87 - Знаете ли вы...",
+            "content": "DigiAsset Explorer, созданный участником сообщества DigiByte Ренцо Диазом, упрощает поиск информации о транзакциях DigiAsset. Найдите его здесь: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "es": {
+            "title": "DigiFact # 87 - ¿Sabías que...",
+            "content": "El DigiAsset Explorer, creado por el miembro de la comunidad de DigiByte Renzo Díaz, facilita la búsqueda de información sobre las transacciones de DigiAsset. Encuéntralo aquí: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "ko": {
+            "title": "DigiFact # 87 - 알고 계셨나요...",
+            "content": "DigiByte 커뮤니티 회원 Renzo Diaz가 만든 DigiAsset Explorer를 사용하면 DigiAsset 거래 정보를 쉽게 찾을 수 있습니다. 여기에서 찾을 수 있습니다: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "ja": {
+            "title": "DigiFact # 87 - ご存知ですか...",
+            "content": "DigiByteコミュニティメンバーのRenzo Diazによって作成されたDigiAsset Explorerを使用すると、DigiAssetトランザクションに関する情報を簡単に調べることができます。こちらで見つけてください：https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "de": {
+            "title": "DigiFact # 87 - Wussten Sie schon...",
+            "content": "Der DigiAsset Explorer, erstellt von Renzo Diaz, einem Mitglied der DigiByte-Community, erleichtert die Suche nach Informationen zu DigiAsset-Transaktionen. Hier finden Sie ihn: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "fr": {
+            "title": "DigiFact # 87 - Saviez-vous que...",
+            "content": "Le DigiAsset Explorer, créé par Renzo Diaz, membre de la communauté DigiByte, facilite la recherche d'informations sur les transactions DigiAsset. Vous pouvez le trouver ici : https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "it": {
+            "title": "DigiFact # 87 - Lo sapevi...",
+            "content": "Il DigiAsset Explorer, creato da Renzo Diaz, membro della comunità DigiByte, facilita la ricerca di informazioni sulle transazioni DigiAsset. Puoi trovarlo qui: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "hi": {
+            "title": "DigiFact # 87 - क्या आप जानते हैं...",
+            "content": "DigiByte समुदाय के सदस्य रेंजो दियाज़ द्वारा बनाए गए DigiAsset Explorer से DigiAsset लेन-देन के बारे में जानकारी देखना बहुत आसान हो जाता है। इसे यहाँ पर पाएं: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "pt": {
+            "title": "DigiFact # 87 - Sabia que...",
+            "content": "O DigiAsset Explorer, criado por Renzo Diaz, membro da comunidade DigiByte, facilita a busca de informações sobre transações DigiAsset. Encontre-o aqui: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
+        "nl": {
+            "title": "DigiFact # 87 - Wist je dat...",
+            "content": "De DigiAsset Explorer, gemaakt door Renzo Diaz, een lid van de DigiByte-community, maakt het gemakkelijk om informatie over DigiAsset-transacties op te zoeken. Je vindt het hier: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        }
+    }    
 }
