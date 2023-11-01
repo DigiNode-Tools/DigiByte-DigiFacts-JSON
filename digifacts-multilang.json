@@ -4098,7 +4098,7 @@
             "content": "Le transazioni sulla blockchain DigiByte non possono essere annullate da nessuno. Una volta effettuata una transazione, essa è permanente. Hai inviato accidentalmente 50 DigiByte invece di 5 DigiByte? Dovrai chiedere al destinatario di restituire l'importo in eccesso, poiché non esiste una funzione di \"Annulla\" e nessuna autorità bancaria centrale può annullare le transazioni.",
             "url": ""
         }
-    },    
+    },
     "digifact73": {
         "en": {
             "title": "DigiFact # 73 - Did you know...",
@@ -4590,5 +4590,4 @@
             "url": "https://github.com/DigiByte-Core/digibyte-seeder"
         }
     }
-               
 }
