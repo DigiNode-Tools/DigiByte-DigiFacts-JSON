@@ -2159,5 +2159,62 @@
             "content": "DigiByte heeft in 2015 het DigiSpeed-protocol geïmplementeerd. Hierdoor kon DigiByte de bloktijden verlagen van 30 seconden naar 15 seconden. Bliksemsnel!",
             "url": ""
         }
+    },
+    "digifact39": {
+        "en": {
+            "title": "DigiFact # 39 - Did you know...",
+            "content": "DigiByte Critical Infrastructure Team (DGBCIT) was founded in Jan 2023, with the goal of ensuring that the DigiByte blockchain, along with its critical services, are kept running at all times. This is achieved through a community effort of coordinated decentralization and redundancy. Please join us in the #DGBCIT channel on the DigiByte Discord server: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "zh": {
+            "title": "数字事实 #39 - 你知道吗？",
+            "content": "DigiByte关键基础设施团队（DGBCIT）成立于2023年1月，目标是确保DigiByte区块链及其关键服务始终保持运行。这是通过社区努力的协调去中心化和冗余实现的。请加入我们在DigiByte Discord服务器上的#DGBCIT频道：https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "ru": {
+            "title": "ДиджиФакт #39 - Знаете ли вы...",
+            "content": "Команда критически важной инфраструктуры DigiByte (DGBCIT) была основана в январе 2023 года с целью обеспечения бесперебойной работы блокчейна DigiByte и его критически важных сервисов. Это достигается благодаря усилиям сообщества по координированной децентрализации и резервированию. Присоединяйтесь к нам в канале #DGBCIT на сервере DigiByte в Discord: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "es": {
+            "title": "DigiDato #39 - ¿Sabías que...",
+            "content": "El Equipo de Infraestructura Crítica de DigiByte (DGBCIT) fue fundado en enero de 2023, con el objetivo de asegurar que la blockchain de DigiByte, junto con sus servicios críticos, estén funcionando en todo momento. Esto se logra a través de un esfuerzo comunitario de descentralización coordinada y redundancia. Por favor, únase a nosotros en el canal #DGBCIT en el servidor de Discord de DigiByte: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "ko": {
+            "title": "디지팩트 #39 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 중요 인프라 팀(DGBCIT)은 2023년 1월에 설립되었으며, DigiByte 블록체인과 그 중요 서비스가 항상 작동하도록 보장하는 것을 목표로 합니다. 이는 커뮤니티의 협력적 분산화와 중복을 통해 달성됩니다. DigiByte Discord 서버의 #DGBCIT 채널에 우리와 함께하세요: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "ja": {
+            "title": "デジファクト #39 - ご存知でしたか...",
+            "content": "DigiByteクリティカルインフラチーム（DGBCIT）は2023年1月に設立され、DigiByteブロックチェーンおよびその重要サービスが常に稼働していることを目指しています。これは、コミュニティの協調分散化と冗長化の努力によって達成されます。DigiByte Discordサーバーの#DGBCITチャンネルで私たちに参加してください：https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "de": {
+            "title": "DigiFakt #39 - Wussten Sie schon...",
+            "content": "Das DigiByte Critical Infrastructure Team (DGBCIT) wurde im Januar 2023 gegründet, um sicherzustellen, dass die DigiByte-Blockchain und ihre wichtigen Dienste jederzeit laufen. Dies wird durch eine gemeinschaftliche Anstrengung koordinierter Dezentralisierung und Redundanz erreicht. Bitte schließen Sie sich uns im #DGBCIT-Kanal auf dem DigiByte Discord-Server an: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "fr": {
+            "title": "DigiFact #39 - Saviez-vous que...",
+            "content": "L'équipe d'infrastructure critique de DigiByte (DGBCIT) a été fondée en janvier 2023, avec pour objectif de garantir que la blockchain DigiByte et ses services critiques soient toujours opérationnels. Ceci est réalisé grâce à un effort communautaire de décentralisation coordonnée et de redondance. Rejoignez-nous sur le canal #DGBCIT sur le serveur Discord de DigiByte : https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "pt": {
+            "title": "DigiFato #39 - Você sabia...",
+            "content": "A Equipe de Infraestrutura Crítica do DigiByte (DGBCIT) foi fundada em janeiro de 2023, com o objetivo de garantir que a blockchain DigiByte, juntamente com seus serviços críticos, estejam sempre em funcionamento. Isso é alcançado através de um esforço comunitário de descentralização coordenada e redundância. Por favor, junte-se a nós no canal #DGBCIT no servidor Discord do DigiByte: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #39 - क्या आप जानते थे...",
+            "content": "डिजीबाइट क्रिटिकल इन्फ्रास्ट्रक्चर टीम (DGBCIT) की स्थापना जनवरी 2023 में हुई थी, जिसका उद्देश्य यह सुनिश्चित करना है कि डिजीबाइट ब्लॉकचेन और उसकी महत्वपूर्ण सेवाएं हर समय चालू रहें। यह समन्वित विकेंद्रीकरण और अतिरेक के सामुदायिक प्रयास के माध्यम से प्राप्त किया जाता है। कृपया डिजीबाइट डिस्कॉर्ड सर्वर पर #DGBCIT चैनल में हमसे जुड़ें: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        },
+        "nl": {
+            "title": "DigiFeit #39 - Wist u dat...",
+            "content": "Het DigiByte Critical Infrastructure Team (DGBCIT) is opgericht in januari 2023, met als doel ervoor te zorgen dat de DigiByte blockchain en de bijbehorende kritieke diensten altijd actief zijn. Dit wordt bereikt door een gezamenlijke inspanning van gecoördineerde decentralisatie en redundantie. Sluit u alstublieft bij ons aan in het #DGBCIT kanaal op de DigiByte Discord server: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
+        }
     }
 }
