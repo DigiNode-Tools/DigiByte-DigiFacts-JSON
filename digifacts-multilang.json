@@ -2840,5 +2840,289 @@
             "title": "DigiFeit #50 - Wist u dat...",
             "content": "De DigiByte Faucet van Renzo Diaz biedt u een eenvoudige manier om wat gratis DGB te krijgen. Het is een geweldige manier voor nieuwkomers bij DigiByte om deze geweldige technologie uit de eerste hand te ervaren. Voor ontwikkelaars is er ook een testnet-kraan. Vind het hier: https://www.digifaucet.org/"
         }
+    },
+    "digifact51": {
+        "en": {
+            "title": "DigiFact # 51 - Did you know...",
+            "content": "Anybody is able to contribute to the DigiByte code and make improvements. All submissions get reviewed by other developers to ensure no malicious code is accidentally accepted. Join the Gitter developer chat here: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "zh": {
+            "title": "数字事实 #51 - 你知道吗？",
+            "content": "任何人都可以为DigiByte代码做出贡献并进行改进。所有的提交都会由其他开发人员审查，以确保不会意外接受恶意代码。在这里加入Gitter开发者聊天：https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "ru": {
+            "title": "ДиджиФакт #51 - Знаете ли вы...",
+            "content": "Любой может внести свой вклад в код DigiByte и вносить улучшения. Все предложения проходят проверку другими разработчиками, чтобы убедиться, что ненамеренно не приняты вредоносные коды. Присоединяйтесь к чату разработчиков Gitter здесь: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "es": {
+            "title": "DigiDato #51 - ¿Sabías que...",
+            "content": "Cualquiera puede contribuir al código de DigiByte y realizar mejoras. Todas las contribuciones son revisadas por otros desarrolladores para asegurarse de que no se acepte código malicioso por accidente. Únete al chat de desarrolladores de Gitter aquí: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "ko": {
+            "title": "디지팩트 #51 - 혹시 알고 계셨나요...",
+            "content": "누구나 DigiByte 코드에 기여하고 개선할 수 있습니다. 모든 제출물은 다른 개발자들에 의해 검토되어 의도하지 않게 악성 코드가 수락되지 않도록 확인됩니다. 여기에서 Gitter 개발자 채팅에 참여하세요: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "ja": {
+            "title": "デジファクト #51 - ご存知でしたか...",
+            "content": "誰でもDigiByteのコードに貢献し、改善することができます。すべての提出物は他の開発者によってレビューされ、誤って悪意のあるコードが受け入れられないように確認されます。こちらでGitter開発者チャットに参加してください：https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "de": {
+            "title": "DigiFakt #51 - Wussten Sie schon...",
+            "content": "Jeder kann zum DigiByte-Code beitragen und Verbesserungen vornehmen. Alle Einreichungen werden von anderen Entwicklern überprüft, um sicherzustellen, dass keine bösartigen Codes versehentlich akzeptiert werden. Treten Sie hier dem Gitter-Entwicklerchat bei: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "fr": {
+            "title": "DigiFact #51 - Saviez-vous que...",
+            "content": "N'importe qui peut contribuer au code DigiByte et apporter des améliorations. Toutes les soumissions sont examinées par d'autres développeurs pour s'assurer qu'aucun code malveillant n'est accepté par accident. Rejoignez le chat des développeurs Gitter ici : https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "pt": {
+            "title": "DigiFato #51 - Você sabia...",
+            "content": "Qualquer pessoa pode contribuir para o código do DigiByte e fazer melhorias. Todas as contribuições são revisadas por outros desenvolvedores para garantir que nenhum código malicioso seja aceito acidentalmente. Junte-se ao chat de desenvolvedores do Gitter aqui: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #51 - क्या आप जानते थे...",
+            "content": "कोई भी DigiByte कोड में योगदान करके सुधार कर सकता है। सभी सबमिशन को अन्य डेवलपर्स द्वारा समीक्षित किया जाता है ताकि कोई भी दुर्भाग्यपूर्ण कोड द्वारा द्वारा अनजाने में स्वीकृत नहीं किया जाए। यहाँ Gitter डेवलपर चैट में शामिल हों: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "nl": {
+            "title": "DigiFeit #51 - Wist u dat...",
+            "content": "Iedereen kan bijdragen aan de DigiByte-code en verbeteringen aanbrengen. Alle inzendingen worden beoordeeld door andere ontwikkelaars om ervoor te zorgen dat er geen kwaadaardige code per ongeluk wordt geaccepteerd. Doe hier mee aan de Gitter-ontwikkelaarschat: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
+        }
+    },
+    "digifact52": {
+        "en": {
+            "title": "DigiFact # 52 - Did you know...",
+            "content": "Have you ever wanted to see some statistics about the DigiByte network? For an overview of the DigiByte network, visit: https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "zh": {
+            "title": "数字事实 #52 - 你知道吗？",
+            "content": "您是否曾想过查看有关DigiByte网络的一些统计信息？要了解DigiByte网络的概况，请访问：https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "ru": {
+            "title": "ДиджиФакт #52 - Знаете ли вы...",
+            "content": "Вы когда-нибудь хотели видеть некоторую статистику о сети DigiByte? Для обзора сети DigiByte посетите: https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "es": {
+            "title": "DigiDato #52 - ¿Sabías que...",
+            "content": "¿Alguna vez has querido ver algunas estadísticas sobre la red de DigiByte? Para obtener una descripción general de la red de DigiByte, visita: https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "ko": {
+            "title": "디지팩트 #52 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 네트워크에 대한 통계를 보고 싶었던 적이 있나요? DigiByte 네트워크 개요를 확인하려면 여기를 방문하세요: https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "ja": {
+            "title": "デジファクト #52 - ご存知でしたか...",
+            "content": "DigiByteネットワークに関する統計情報を見たことがありますか？DigiByteネットワークの概要については、こちらをご覧ください：https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "de": {
+            "title": "DigiFakt #52 - Wussten Sie schon...",
+            "content": "Haben Sie jemals Statistiken über das DigiByte-Netzwerk sehen wollen? Für einen Überblick über das DigiByte-Netzwerk besuchen Sie: https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "fr": {
+            "title": "DigiFact #52 - Saviez-vous que...",
+            "content": "Avez-vous déjà voulu voir des statistiques sur le réseau DigiByte ? Pour un aperçu du réseau DigiByte, rendez-vous sur : https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "pt": {
+            "title": "DigiFato #52 - Você sabia...",
+            "content": "Já quis ver algumas estatísticas sobre a rede DigiByte? Para uma visão geral da rede DigiByte, visite: https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #52 - क्या आप जानते थे...",
+            "content": "क्या आपने कभी DigiByte नेटवर्क के बारे में कुछ सांख्यिकी की देखने की इच्छा की है? DigiByte नेटवर्क के अवलोकन के लिए, यहाँ जाएं: https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
+        },
+        "nl": {
+            "title": "DigiFeit #52 - Wist u dat...",
+            "content": "Heb je ooit statistieken willen zien over het DigiByte-netwerk? Voor een overzicht van het DigiByte-netwerk, ga naar: https://digistats.digibyteservers.io"
+        }
+    },
+    "digifact53": {
+        "en": {
+            "title": "DigiFact # 53 - Did you know...",
+            "content": "Nobody knows exactly how many \"nodes\" there are on the DigiByte network, because there is no central point that all computers check in with. This ensures your privacy when you download the wallet software.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #53 - 你知道吗？",
+            "content": "没有人确切知道DigiByte网络上有多少\"节点\"，因为没有中心点，所有计算机都要进行检查。这确保了您在下载钱包软件时的隐私。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #53 - Знаете ли вы...",
+            "content": "Никто не знает точно, сколько \"узлов\" есть в сети DigiByte, потому что нет центральной точки, к которой проверяются все компьютеры. Это обеспечивает вашу конфиденциальность при загрузке программного обеспечения кошелька.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #53 - ¿Sabías que...",
+            "content": "Nadie sabe exactamente cuántos \"nodos\" hay en la red de DigiByte, porque no hay un punto central al que todos los ordenadores se conecten. Esto garantiza tu privacidad cuando descargas el software de la cartera.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #53 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 네트워크에는 얼마나 많은 \"노드\"가 있는지 정확하게 아무도 모릅니다. 모든 컴퓨터가 확인하는 중앙 지점이 없기 때문입니다. 이렇게 하면 지갑 소프트웨어를 다운로드할 때 개인 정보가 보호됩니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #53 - ご存知でしたか...",
+            "content": "DigiByteネットワークには「ノード」がいくつあるか、誰も正確にはわかりません。すべてのコンピューターがチェックインする中央点がないためです。これにより、ウォレットソフトウェアをダウンロードする際にプライバシーが保護されます。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #53 - Wussten Sie schon...",
+            "content": "Niemand weiß genau, wie viele \"Nodes\" es im DigiByte-Netzwerk gibt, da es keinen zentralen Punkt gibt, den alle Computer überprüfen. Dies gewährleistet Ihre Privatsphäre, wenn Sie die Wallet-Software herunterladen.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #53 - Saviez-vous que...",
+            "content": "Personne ne sait exactement combien de \"nœuds\" il y a sur le réseau DigiByte, car il n'y a pas de point central auquel tous les ordinateurs se connectent. Cela garantit votre vie privée lorsque vous téléchargez le logiciel de portefeuille.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #53 - Você sabia...",
+            "content": "Ninguém sabe exatamente quantos \"nós\" existem na rede DigiByte, porque não há um ponto central com o qual todos os computadores verificam. Isso garante sua privacidade ao baixar o software da carteira.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #53 - क्या आप जानते थे...",
+            "content": "किसी को भी सटीक रूप से नहीं पता है कि DigiByte नेटवर्क पर कितने \"नोड\" हैं, क्योंकि एक सेंट्रल पॉइंट नहीं है जिसके साथ सभी कंप्यूटर चेक इन करते हैं। जब आप वॉलेट सॉफ़्टवेयर डाउनलोड करते हैं, तो यह आपकी गोपनीयता को सुनिश्चित करता है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #53 - Wist u dat...",
+            "content": "Niemand weet precies hoeveel \"nodes\" er op het DigiByte-netwerk zijn, omdat er geen centraal punt is waarmee alle computers zich aanmelden. Dit zorgt ervoor dat uw privacy wordt gewaarborgd wanneer u de wallet-software downloadt.",
+            "url": ""
+        }
+    },
+    "digifact54": {
+        "en": {
+            "title": "DigiFact # 54 - Did you know...",
+            "content": "DigiByte has never had a contentious hard fork despite ongoing major code changes. Mining is so decentralized that when the myriad-groestl algorithm was replaced with odocrypt, MG mining pools installed the upgrade even when it meant they would no longer be able to mine.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #54 - 你知道吗？",
+            "content": "尽管不断发生重大代码更改，DigiByte从未发生过有争议的硬分叉。挖矿如此分散，以至于当将多种格罗斯特尔算法替换为odocrypt时，MG挖矿池安装了升级，即使这意味着他们将不再能够挖矿。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #54 - Знаете ли вы...",
+            "content": "Несмотря на постоянные крупные изменения в коде, у DigiByte никогда не было конфликтных хардфорков. Майнинг настолько децентрализован, что, когда алгоритм myriad-groestl был заменен на odocrypt, MG майнинг-пулы установили обновление, даже если это означало, что они больше не смогут майнить.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #54 - ¿Sabías que...",
+            "content": "DigiByte nunca ha tenido una bifurcación dura controvertida a pesar de los continuos cambios importantes en el código. La minería está tan descentralizada que cuando se reemplazó el algoritmo myriad-groestl por odocrypt, los grupos mineros de MG instalaron la actualización incluso cuando eso significaba que ya no podrían seguir minando.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #54 - 혹시 알고 계셨나요...",
+            "content": "지속적인 주요 코드 변경에도 불구하고 DigiByte는 논란이 많은 하드 포크를 경험한 적이 없습니다. 채굴은 너무 분산되어 있어서 myriad-groestl 알고리즘이 odocrypt로 대체될 때에도 MG 채굴 풀은 더 이상 채굴할 수 없다는 것을 의미하더라도 업그레이드를 설치했습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #54 - ご存知でしたか...",
+            "content": "継続的な主要なコード変更にもかかわらず、DigiByteは論争の余地のないハードフォークを経験したことがありません。マイニングは非常に分散されており、多様なグロエステルアルゴリズムがodocryptに置き換えられた際、MGマイニングプールはそれ以上マイニングできなくなることを意味してもアップグレードをインストールしました。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #54 - Wussten Sie schon...",
+            "content": "Trotz kontinuierlicher großer Codeänderungen hatte DigiByte noch nie eine umstrittene harte Gabel. Das Mining ist so dezentralisiert, dass MG-Mining-Pools das Upgrade installierten, selbst wenn es bedeutete, dass sie nicht mehr minen könnten, als der Myriad-Groestl-Algorithmus durch odocrypt ersetzt wurde.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #54 - Saviez-vous que...",
+            "content": "DigiByte n'a jamais connu de fork dur controversé malgré les importants changements de code en cours. Le minage est tellement décentralisé que lorsque l'algorithme myriad-groestl a été remplacé par odocrypt, les pools de minage MG ont installé la mise à jour, même si cela signifiait qu'ils ne pourraient plus miner.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #54 - Você sabia...",
+            "content": "O DigiByte nunca teve uma bifurcação dura controversa, apesar das contínuas mudanças importantes no código. A mineração é tão descentralizada que, quando o algoritmo myriad-groestl foi substituído por odocrypt, os grupos de mineração MG instalaram a atualização, mesmo quando isso significava que não poderiam mais minerar.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #54 - क्या आप जानते थे...",
+            "content": "डिजीबाइट के बावजूद महत्वपूर्ण कोड परिवर्तनों के बावजूद किसी भी विवादास्पद हार्ड फोर्क का सामना नहीं किया है। माइनिंग इतनी डीसेंट्रलाइज्ड है कि जब myriad-groestl एल्गोरिथ्म को odocrypt के साथ बदल दिया गया, तो MG माइनिंग पूल्स ने उन्होंने बदलाव को इंस्टॉल किया, भले ही इसका मतलब हो कि उन्हें अब और माइन करने की क्षमता नहीं रही।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #54 - Wist u dat...",
+            "content": "Ondanks voortdurende grote codeveranderingen heeft DigiByte nog nooit een omstreden harde fork gehad. Het minen is zo gedecentraliseerd dat toen het myriad-groestl-algoritme werd vervangen door odocrypt, MG-miningpools de upgrade installeerden, zelfs als dit betekende dat ze niet langer konden minen.",
+            "url": ""
+        }
+    },
+    "digifact55": {
+        "en": {
+            "title": "DigiFact # 55 - Did you know...",
+            "content": "DigiByte mining is some of the most distributed in the industry. When a 7-day period in September 2019 was compared against Bitcoin and Litecoin, DigiByte had over 10X the number of unique miners. This grew to over 20X the unique miners when looking at a 3-month period. View more stats here: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "zh": {
+            "title": "数字事实 #55 - 你知道吗？",
+            "content": "DigiByte的挖矿在行业内分布最广。当将2019年9月的7天时段与比特币和莱特币进行比较时，DigiByte拥有超过10倍的独立矿工数量。当观察3个月时段时，独立矿工数量增加到了20倍以上。在此查看更多统计数据：https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "ru": {
+            "title": "ДиджиФакт #55 - Знаете ли вы...",
+            "content": "Добыча DigiByte является одной из самых распределенных в отрасли. Когда 7-дневный период сентября 2019 года был сравнен с биткоином и лайткоином, у DigiByte было более чем в 10 раз больше уникальных майнеров. Это выросло до более чем в 20 раз уникальных майнеров, когда рассматривался 3-месячный период. Посмотрите больше статистики здесь: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "es": {
+            "title": "DigiDato #55 - ¿Sabías que...",
+            "content": "La minería de DigiByte es una de las más distribuidas en la industria. Cuando se comparó un período de 7 días en septiembre de 2019 con Bitcoin y Litecoin, DigiByte tenía más de 10 veces el número de mineros únicos. Esto creció a más de 20 veces los mineros únicos al observar un período de 3 meses. Vea más estadísticas aquí: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "ko": {
+            "title": "디지팩트 #55 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 채굴은 업계에서 가장 분산되어 있습니다. 2019년 9월 7일 동안의 기간을 비트코인과 라이트코인과 비교할 때, DigiByte는 고유한 채굴자의 수가 10배 이상이었습니다. 3개월 기간을 보면 고유한 채굴자 수가 20배 이상 증가했습니다. 더 많은 통계는 여기에서 확인하세요: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "ja": {
+            "title": "デジファクト #55 - ご存知でしたか...",
+            "content": "DigiByteのマイニングは業界で最も分散されています。2019年9月の7日間の期間をビットコインとライトコインと比較したとき、DigiByteはユニークなマイナーの数が10倍以上ありました。3か月の期間を見ると、ユニークなマイナーの数が20倍以上に増加しました。詳細な統計情報はこちらからご覧いただけます：https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "de": {
+            "title": "DigiFakt #55 - Wussten Sie schon...",
+            "content": "Die DigiByte-Mining ist eine der am weitesten verteilten in der Branche. Als ein 7-Tage-Zeitraum im September 2019 mit Bitcoin und Litecoin verglichen wurde, hatte DigiByte über 10-mal so viele einzigartige Miner. Dies wuchs auf über 20-mal so viele einzigartige Miner, wenn man einen Zeitraum von 3 Monaten betrachtet. Sehen Sie hier weitere Statistiken: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "fr": {
+            "title": "DigiFact #55 - Saviez-vous que...",
+            "content": "Le minage de DigiByte est l'un des plus distribués de l'industrie. Lorsqu'une période de 7 jours en septembre 2019 a été comparée à Bitcoin et Litecoin, DigiByte avait plus de 10 fois le nombre de mineurs uniques. Ce nombre a augmenté à plus de 20 fois le nombre de mineurs uniques lorsqu'on examine une période de 3 mois. Consultez plus de statistiques ici : https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "pt": {
+            "title": "DigiFato #55 - Você sabia...",
+            "content": "A mineração do DigiByte é uma das mais distribuídas na indústria. Quando um período de 7 dias em setembro de 2019 foi comparado com o Bitcoin e o Litecoin, o DigiByte tinha mais de 10 vezes o número de mineradores únicos. Isso cresceu para mais de 20 vezes o número de mineradores únicos ao analisar um período de 3 meses. Veja mais estatísticas aqui: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #55 - क्या आप जानते थे...",
+            "content": "DigiByte का माइनिंग इस उद्योग में सबसे अधिक वितरित है। सितंबर 2019 में 7-दिन की अवधि को बिटकॉइन और लाइटकॉइन के साथ तुलना की गई तो DigiByte के पास अद्वितीय माइनरों की संख्या में 10 गुना से अधिक था। जब 3 महीने की अवधि को देखा गया, तो यह अद्वितीय माइनरों की संख्या को 20 गुना से अधिक बढ़ गई। यहां अधिक आंकड़े देखें: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "nl": {
+            "title": "DigiFeit #55 - Wist u dat...",
+            "content": "De DigiByte-mining is een van de meest gedistribueerde in de branche. Toen een periode van 7 dagen in september 2019 werd vergeleken met Bitcoin en Litecoin, had DigiByte meer dan 10 keer zoveel unieke miners. Dit groeide uit tot meer dan 20 keer het aantal unieke miners bij het kijken naar een periode van 3 maanden. Bekijk hier meer statistieken: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        }
     }
 }
