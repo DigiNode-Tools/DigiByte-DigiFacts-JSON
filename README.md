@@ -17,11 +17,11 @@ Uers should always do their own due diligence before using any of the services o
 
 Query the live JSON data in English here: https://digifacts.digibyte.help/
 
-For additional languages, use https://digifacts.digibyte.help/?lang=xx (Replace xx with one of the two letter langauge codes below.)
+For additional languages, use https://digifacts.digibyte.help/?lang=xx (Replace xx with one of the two letter language codes below.)
 
 For more help, visit: https://digifacts.digibyte.help/?help
 
-**IMPORTANT: Several of the DigiFacts include dynamic data. (See below) and must be updated periodically so that they remain accurate - once every 15 minutes should be sufficient. Please avoid making too many frequent requests to the server - cache reults locally and do not update more than once every 15 minutes.**
+**IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - once every 15 minutes should be sufficient. Please avoid making too many frequent requests to the server - cache reults locally and do not update more than once every 15 minutes.**
 
 ## Contributions
 
@@ -31,7 +31,7 @@ If you have a DigiByte project that you wish to make the community aware of, ple
 
 URLs should ideally be included in both the content text, and in the seperate URL field. Ideally you should include only one URL per DigiFact.
 
-Important: If you wish to insert a line break in your DigiFact, please use: \n
+IMPORTANT: If you wish to insert a line break in your DigiFact, please use: ```\n```
 
 ### Using Dynamic Data in the DigiFacts
 
