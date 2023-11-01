@@ -1763,59 +1763,116 @@
     },
     "digifact32": {
         "en": {
-          "title": "DigiFact # 32 - Did you know...",
-          "content": "When DigiByte launched, there was a countdown to the release of the code, and to the first block being mined. This was one of the things done to encourage a \"fair\" distribution, right from the very beginning in 2014.",
-          "url": ""
+            "title": "DigiFact # 32 - Did you know...",
+            "content": "When DigiByte launched, there was a countdown to the release of the code, and to the first block being mined. This was one of the things done to encourage a \"fair\" distribution, right from the very beginning in 2014.",
+            "url": ""
         },
         "zh": {
-          "title": "数字事实 #32 - 你知道吗？",
-          "content": "DigiByte启动时，有一个倒计时到代码的发布，以及第一个区块的开采。这是为了从2014年开始就鼓励“公平”分配而做的事情之一。",
-          "url": ""
+            "title": "数字事实 #32 - 你知道吗？",
+            "content": "DigiByte启动时，有一个倒计时到代码的发布，以及第一个区块的开采。这是为了从2014年开始就鼓励“公平”分配而做的事情之一。",
+            "url": ""
         },
         "ru": {
-          "title": "ДиджиФакт #32 - Знаете ли вы...",
-          "content": "Когда был запущен DigiByte, был установлен обратный отсчет до выпуска кода и добычи первого блока. Это было сделано для того, чтобы с самого начала в 2014 году обеспечить \"справедливое\" распределение.",
-          "url": ""
+            "title": "ДиджиФакт #32 - Знаете ли вы...",
+            "content": "Когда был запущен DigiByte, был установлен обратный отсчет до выпуска кода и добычи первого блока. Это было сделано для того, чтобы с самого начала в 2014 году обеспечить \"справедливое\" распределение.",
+            "url": ""
         },
         "es": {
-          "title": "DigiDato #32 - ¿Sabías que...",
-          "content": "Cuando se lanzó DigiByte, hubo una cuenta regresiva para el lanzamiento del código y para la minería del primer bloque. Esto fue una de las cosas que se hicieron para fomentar una distribución \"justa\" desde el mismo comienzo en 2014.",
-          "url": ""
+            "title": "DigiDato #32 - ¿Sabías que...",
+            "content": "Cuando se lanzó DigiByte, hubo una cuenta regresiva para el lanzamiento del código y para la minería del primer bloque. Esto fue una de las cosas que se hicieron para fomentar una distribución \"justa\" desde el mismo comienzo en 2014.",
+            "url": ""
         },
         "ko": {
-          "title": "디지팩트 #32 - 혹시 알고 계셨나요...",
-          "content": "DigiByte가 출시되었을 때, 코드의 출시와 첫 번째 블록이 채굴되기까지 카운트다운이 있었습니다. 이것은 2014년 초부터 \"공정한\" 분배를 장려하기 위해 수행된 여러 조치 중 하나였습니다.",
-          "url": ""
+            "title": "디지팩트 #32 - 혹시 알고 계셨나요...",
+            "content": "DigiByte가 출시되었을 때, 코드의 출시와 첫 번째 블록이 채굴되기까지 카운트다운이 있었습니다. 이것은 2014년 초부터 \"공정한\" 분배를 장려하기 위해 수행된 여러 조치 중 하나였습니다.",
+            "url": ""
         },
         "ja": {
-          "title": "デジファクト #32 - ご存知でしたか...",
-          "content": "DigiByteが発売されたとき、コードのリリースと最初のブロックがマイニングされるまでのカウントダウンがありました。これは、2014年の最初から「公正な」配布を奨励するために行われたことの一つでした。",
-          "url": ""
+            "title": "デジファクト #32 - ご存知でしたか...",
+            "content": "DigiByteが発売されたとき、コードのリリースと最初のブロックがマイニングされるまでのカウントダウンがありました。これは、2014年の最初から「公正な」配布を奨励するために行われたことの一つでした。",
+            "url": ""
         },
         "de": {
-          "title": "DigiFakt #32 - Wussten Sie schon...",
-          "content": "Als DigiByte gestartet wurde, gab es einen Countdown bis zur Veröffentlichung des Codes und zum Abbau des ersten Blocks. Dies war eine der Maßnahmen, um eine \"faire\" Verteilung von Anfang an im Jahr 2014 zu fördern.",
-          "url": ""
+            "title": "DigiFakt #32 - Wussten Sie schon...",
+            "content": "Als DigiByte gestartet wurde, gab es einen Countdown bis zur Veröffentlichung des Codes und zum Abbau des ersten Blocks. Dies war eine der Maßnahmen, um eine \"faire\" Verteilung von Anfang an im Jahr 2014 zu fördern.",
+            "url": ""
         },
         "fr": {
-          "title": "DigiFact #32 - Saviez-vous que...",
-          "content": "Lorsque DigiByte a été lancé, il y avait un compte à rebours pour la sortie du code et pour le minage du premier bloc. C'était l'une des choses faites pour encourager une distribution \"équitable\" dès le tout début en 2014.",
-          "url": ""
+            "title": "DigiFact #32 - Saviez-vous que...",
+            "content": "Lorsque DigiByte a été lancé, il y avait un compte à rebours pour la sortie du code et pour le minage du premier bloc. C'était l'une des choses faites pour encourager une distribution \"équitable\" dès le tout début en 2014.",
+            "url": ""
         },
         "pt": {
-          "title": "DigiFato #32 - Você sabia...",
-          "content": "Quando o DigiByte foi lançado, houve uma contagem regressiva para o lançamento do código e para a mineração do primeiro bloco. Isso foi uma das coisas feitas para incentivar uma distribuição \"justa\" desde o início em 2014.",
-          "url": ""
+            "title": "DigiFato #32 - Você sabia...",
+            "content": "Quando o DigiByte foi lançado, houve uma contagem regressiva para o lançamento do código e para a mineração do primeiro bloco. Isso foi uma das coisas feitas para incentivar uma distribuição \"justa\" desde o início em 2014.",
+            "url": ""
         },
         "hi": {
-          "title": "डिजीफैक्ट #32 - क्या आप जानते थे...",
-          "content": "जब DigiByte लॉन्च किया गया था, तब कोड के रिलीज होने और पहले ब्लॉक के माइन होने के लिए एक काउंटडाउन था। यह 2014 की शुरुआत से ही एक \"निष्पक्ष\" वितरण को प्रोत्साहित करने के लिए किया गया था।",
-          "url": ""
+            "title": "डिजीफैक्ट #32 - क्या आप जानते थे...",
+            "content": "जब DigiByte लॉन्च किया गया था, तब कोड के रिलीज होने और पहले ब्लॉक के माइन होने के लिए एक काउंटडाउन था। यह 2014 की शुरुआत से ही एक \"निष्पक्ष\" वितरण को प्रोत्साहित करने के लिए किया गया था।",
+            "url": ""
         },
         "nl": {
-          "title": "DigiFeit #32 - Wist u dat...",
-          "content": "Toen DigiByte werd gelanceerd, was er een aftelling naar de vrijgave van de code en naar het mijnen van het eerste blok. Dit was een van de dingen die gedaan werden om een ​​\"eerlijke\" distributie te bevorderen, vanaf het allereerste begin in 2014.",
-          "url": ""
+            "title": "DigiFeit #32 - Wist u dat...",
+            "content": "Toen DigiByte werd gelanceerd, was er een aftelling naar de vrijgave van de code en naar het mijnen van het eerste blok. Dit was een van de dingen die gedaan werden om een ​​\"eerlijke\" distributie te bevorderen, vanaf het allereerste begin in 2014.",
+            "url": ""
         }
-      }
+    },
+    "digifact33": {
+        "en": {
+            "title": "DigiFact # 33 - Did you know...",
+            "content": "DigiByte was originally based on a fork of the Litecoin code-base (Though, a 100% independent blockchain with unique Genesis Block). DigiByte has since maintained closer features with Bitcoin, while also significantly innovating and surpassing it! View the code at: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "zh": {
+            "title": "数字事实 #33 - 你知道吗？",
+            "content": "DigiByte最初是基于Litecoin代码库的分支（尽管它是一个100%独立的区块链，具有独特的创世区块）。DigiByte自那以后一直保持着与比特币更接近的特性，同时也在显著地创新和超越它！查看代码：https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "ru": {
+            "title": "ДиджиФакт #33 - Знаете ли вы...",
+            "content": "DigiByte изначально был основан на форке кодовой базы Litecoin (хотя это 100% независимый блокчейн с уникальным Genesis Block). С тех пор DigiByte сохраняет близкие черты с Bitcoin, значительно инновируя и превосходя его! Посмотреть код можно здесь: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "es": {
+            "title": "DigiDato #33 - ¿Sabías que...",
+            "content": "DigiByte se basó originalmente en una bifurcación de la base de código de Litecoin (aunque es una blockchain 100% independiente con un Genesis Block único). Desde entonces, DigiByte ha mantenido características más cercanas a Bitcoin, ¡mientras también innova significativamente y lo supera! Ver el código en: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "ko": {
+            "title": "디지팩트 #33 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 원래 Litecoin 코드 베이스의 포크를 기반으로 했지만(독립된 블록체인으로서 독특한 창세 블록을 가짐), 이후 비트코인과 더욱 밀접한 특성을 유지하면서 크게 혁신하고 그것을 뛰어넘었습니다! 코드 보기: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "ja": {
+            "title": "デジファクト #33 - ご存知でしたか...",
+            "content": "DigiByteは元々Litecoinのコードベースをフォークしたものですが（独自のジェネシスブロックを持つ100％独立したブロックチェーンです）、ビットコインの特徴をより密接に保ちながら、それを大きく革新し、超えています！コードを見る：https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "de": {
+            "title": "DigiFakt #33 - Wussten Sie schon...",
+            "content": "DigiByte basierte ursprünglich auf einem Fork der Litecoin-Codebasis (obwohl es sich um eine 100% unabhängige Blockchain mit einzigartigem Genesis-Block handelt). DigiByte hat seitdem nähere Funktionen zu Bitcoin beibehalten, während es auch erheblich innoviert und übertroffen hat! Den Code ansehen: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "fr": {
+            "title": "DigiFact #33 - Saviez-vous que...",
+            "content": "DigiByte était à l'origine basé sur un fork de la base de code de Litecoin (bien qu'il s'agisse d'une blockchain 100% indépendante avec un bloc Genesis unique). DigiByte a depuis maintenu des caractéristiques plus proches de Bitcoin, tout en innovant et en le surpassant de manière significative ! Voir le code sur : https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "pt": {
+            "title": "DigiFato #33 - Você sabia...",
+            "content": "DigiByte foi originalmente baseado em um fork da base de código do Litecoin (embora seja uma blockchain 100% independente com um Genesis Block único). DigiByte desde então manteve características mais próximas do Bitcoin, enquanto também inova significativamente e o supera! Veja o código em: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #33 - क्या आप जानते थे...",
+            "content": "डिजीबाइट मूल रूप से Litecoin कोड-बेस की एक फोर्क पर आधारित था (हालांकि, यह एक 100% स्वतंत्र ब्लॉकचेन है जिसमें अनोखा जेनेसिस ब्लॉक है)। डिजीबाइट ने तब से बिटकॉइन के साथ नजदीकी फीचर्स बनाए रखे हैं, साथ ही महत्वपूर्ण रूप से नवाचार करके और उसे पार कर गया है! कोड देखें: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "nl": {
+            "title": "DigiFeit #33 - Wist u dat...",
+            "content": "DigiByte was oorspronkelijk gebaseerd op een fork van de Litecoin codebasis (hoewel het een 100% onafhankelijke blockchain is met een uniek Genesis Block). DigiByte heeft sindsdien functies behouden die dichter bij Bitcoin liggen, terwijl het ook aanzienlijk innoveert en het overtreft! Bekijk de code op: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
+        }
+    }
 }
