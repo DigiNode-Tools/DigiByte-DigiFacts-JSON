@@ -5,23 +5,23 @@ A JSON file containing DigiByte DigiFacts.
 
 These DigiFacts were originally created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). Since then, they have been significantly revised and expanded over time into the versions available here.
 
+These DigiFacts are currently being translated into multiple languages. Please help us with this by fixing translation errors, or adding translations for other languages.
+
+## Disclaimer
+
+These DigiFacts are provided by the DigiByte community for the DigiByte community. It is up to the community to ensure they are current and accurate. Please make a PR with any corrections.
+
+Uers should always do their own due diligence before using any of the services or products mentioned in these DigiFacts. They are provided for information purposes - mentions are not endorcements.
+
 ## Usage
 
-### Static DigiFacts
+Query the live JSON data in English here: https://digifacts.digibyte.help/
 
-For best results download and cache the raw JSON file available here: https://raw.githubusercontent.com/saltedlolly/DigiByte-DigiFacts-JSON/main/digifacts.json
+For additional languages, use https://digifacts.digibyte.help/?lang=xx (Replace xx with one of the two letter langauge codes below.)
 
-You should then periodically update your local version of this file from this address to ensure you have the latest DigiFacts. How often you do this is up to you, but at most once per day should be more than enough.
+For more help, visit: https://digifacts.digibyte.help/?help
 
-Note: This will soon be replaced by the new live DigiFacts below.
-
-### Dynamic DigiFacts (Coming Soon)
-
-Dynamic DigiFacts includes live data which is updated every few minutes.
-
-Query the live JSON data here: https://digifacts.digibyte.help/
-
-Please cache reults and do not update more than once every 15 minutes.
+**IMPORTANT: Several of the DigiFacts include dynamic data. (See below) and must be updated periodically so that they remain accurate - once every 15 minutes should be sufficient. Please avoid making too many frequent requests to the server - cache reults locally and do not update more than once every 15 minutes.**
 
 ## Contributions
 
@@ -47,11 +47,23 @@ If you wish to insert dyanmic data into a DigiFact, please edit the digifacts-li
 
 These variable will be replaced by live data every few minutes.
 
-## Disclaimer
+### Translations
 
-These DigiFacts are provided by the DigiByte community for the DigiByte community. It is up to the community to ensure they are current and accurate. Please make a PR with any corrections.
+Translations should be made from the English version. New DigiFacts must be added in English first with other languages beneath it. All additional languages must be checked by a native speaker. If
 
-Uers should always do their own due diligence before using any of the services or products mentioned in these DigiFacts. They are provided for information purposes - mentions are not endorcements.
+| Language                 | Verified by     | Last Updated | Status                                              |
+|--------------------------|-----------------|--------------|-----------------------------------------------------|
+| en English               | @saltedlolly    | 2023-11-01   |                                                     |
+| zh Chinese (Simplified)  |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| ru Russian               |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| es Spanish               |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| ko Korean                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| ja Japanese              |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| de German                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| fr French                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| pt Portuguese            |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| hi Hindi.                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| nl Dutch.                |                 | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 
 ## Projects
 
@@ -59,8 +71,3 @@ The following projects are known to use this JSON file:
 
 - [DigiNode Tools](https://github.com/saltedlolly/diginode-tools) - DigiFacts are displayed in the DigiNode Dashboard
 
-## Revisions
-
-Several of these DigiFacts require periodic updates to remain accurate. This list is provided as a helpful checklist for anyone making changes:
-
-- DigiFact # 1 - Update from 18 to 19 Million blocks, when it happens.
