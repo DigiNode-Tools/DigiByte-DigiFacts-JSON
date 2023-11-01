@@ -1190,5 +1190,62 @@
             "content": "Een kopie van de open source code van de DigiByte blockchain v7.17.3 ligt in koude opslag 250 meter diep in de permafrost van een Arctische berg! Dankzij het GitHub Arctic Code Vault programma!",
             "url": ""
         }
+    },
+    "digifact22": {
+        "en": {
+            "title": "DigiFact # 22 - Did you know...",
+            "content": "DigiByte is available on 100+ exchanges, including many different fiat pairings with local currencies, making it easier than ever to buy DigiByte.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #22 - 你知道吗？",
+            "content": "DigiByte在100多个交易所上市，包括与许多不同本地货币的法定货币配对，使购买DigiByte比以往更加容易。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #22 - Знаете ли вы...",
+            "content": "DigiByte доступен на более чем 100 биржах, включая множество различных фиатных пар с местными валютами, что облегчает покупку DigiByte.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #22 - ¿Sabías que...",
+            "content": "DigiByte está disponible en más de 100 intercambios, incluyendo muchos emparejamientos fiat con monedas locales, lo que facilita la compra de DigiByte.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #22 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 100개 이상의 거래소에서 사용할 수 있으며, 다양한 현지 화폐와의 피아트 페어링을 포함하여 DigiByte 구매가 그 어느 때보다 쉬워졌습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #22 - ご存知でしたか...",
+            "content": "DigiByteは100以上の取引所で利用可能で、多くの異なるフィアット通貨ペアリングを含む地元通貨で、これまで以上に簡単にDigiByteを購入できます。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #22 - Wussten Sie schon...",
+            "content": "DigiByte ist auf über 100 Börsen verfügbar, einschließlich vieler verschiedener Fiat-Paarungen mit lokalen Währungen, was den Kauf von DigiByte einfacher denn je macht.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #22 - Saviez-vous que...",
+            "content": "DigiByte est disponible sur plus de 100 échanges, y compris de nombreux appariements fiat avec des monnaies locales, ce qui facilite plus que jamais l'achat de DigiByte.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #22 - Você sabia...",
+            "content": "DigiByte está disponível em mais de 100 exchanges, incluindo muitos pares fiat com moedas locais, tornando mais fácil do que nunca comprar DigiByte.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #22 - क्या आप जानते थे...",
+            "content": "डिजीबाइट 100 से अधिक एक्सचेंजों पर उपलब्ध है, जिसमें कई अलग-अलग फिएट जोड़े स्थानीय मुद्राओं के साथ शामिल हैं, जिससे डिजीबाइट खरीदना पहले से कहीं ज्यादा आसान हो गया है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #22 - Wist u dat...",
+            "content": "DigiByte is beschikbaar op meer dan 100 beurzen, inclusief vele verschillende fiat koppelingen met lokale valuta's, waardoor het makkelijker dan ooit is om DigiByte te kopen.",
+            "url": ""
+        }
     }
 }
