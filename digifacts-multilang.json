@@ -278,5 +278,233 @@
             "content": "Er is geen oprichtersbeloning bij de DigiByte blockchain. De beloning voor het mijnen van elk blok gaat alleen naar degene die het gemijnd heeft. Niemand anders krijgt daar een deel van.",
             "url": ""
         }
+    },
+    "digifact6": {
+        "en": {
+            "title": "DigiFact # 6 - Did you know...",
+            "content": "The DigiByte founder and developers have either purchased their DGB coins on an exchange at market rates, or mined them, just like everybody else. There was no ICO (Initial Coin Offering) for the DigiByte blockchain. Every coin has been fairly mined since the genesis block.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #6 - 你知道吗？",
+            "content": "DigiByte的创始人和开发者都是在交易所以市场价格购买他们的DGB币，或者像其他人一样挖掘它们。DigiByte区块链没有进行ICO（首次币发行）。自创世区块以来，每一枚币都是公平挖掘的。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #6 - Знаете ли вы...",
+            "content": "Основатель DigiByte и разработчики либо покупали свои монеты DGB на бирже по рыночным ценам, либо добывали их, как и все остальные. Для блокчейна DigiByte не было ICO (первичное предложение монет). Каждая монета была честно добыта с самого первого блока.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #6 - ¿Sabías que...",
+            "content": "El fundador y los desarrolladores de DigiByte han comprado sus monedas DGB en un intercambio a tasas de mercado, o las han minado, igual que todos los demás. No hubo una ICO (Oferta Inicial de Monedas) para la blockchain de DigiByte. Cada moneda ha sido minada de manera justa desde el bloque génesis.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #6 - 혹시 알고 계셨나요...",
+            "content": "디지바이트의 창립자와 개발자들은 시장 가격에 거래소에서 DGB 코인을 구매하거나, 다른 모든 사람들처럼 채굴했습니다. 디지바이트 블록체인에는 ICO(초기 코인 제공)가 없었습니다. 모든 코인은 창세 블록부터 공정하게 채굴되었습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #6 - ご存知でしたか...",
+            "content": "DigiByteの創設者と開発者は、市場レートで取引所でDGBコインを購入したか、他の誰もがそうであるように、それらを採掘しました。DigiByteブロックチェーンにはICO（イニシャルコインオファリング）はありませんでした。すべてのコインは創世記のブロック以来、公正に採掘されています。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #6 - Wussten Sie schon...",
+            "content": "Der Gründer von DigiByte und die Entwickler haben ihre DGB-Münzen entweder auf einem Marktplatz zu Marktpreisen gekauft oder wie alle anderen abgebaut. Es gab kein ICO (Initial Coin Offering) für die DigiByte Blockchain. Jede Münze wurde seit dem Genesis-Block fair abgebaut.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #6 - Saviez-vous que...",
+            "content": "Le fondateur de DigiByte et les développeurs ont soit acheté leurs pièces DGB sur un échange aux tarifs du marché, soit les ont minées, tout comme tout le monde. Il n'y a pas eu d'ICO (Initial Coin Offering) pour la blockchain DigiByte. Chaque pièce a été minée de manière équitable depuis le bloc de genèse.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #6 - Você sabia...",
+            "content": "O fundador do DigiByte e os desenvolvedores compraram suas moedas DGB em uma bolsa a taxas de mercado, ou as mineraram, assim como todos os outros. Não houve um ICO (Oferta Inicial de Moeda) para o blockchain DigiByte. Cada moeda foi minerada de forma justa desde o bloco gênese.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #6 - क्या आप जानते थे...",
+            "content": "डिजीबाइट के संस्थापक और डेवलपर्स ने या तो अपने DGB सिक्कों को बाजार दर पर एक्सचेंज में खरीदा है, या उन्हें खनन किया है, बाकी सभी की तरह। डिजीबाइट ब्लॉकचैन के लिए कोई ICO (प्रारंभिक सिक्का पेशकश) नहीं थी। जेनेसिस ब्लॉक से लेकर हर सिक्का न्यायपूर्ण रूप से खनन किया गया है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #6 - Wist u dat...",
+            "content": "De oprichter van DigiByte en de ontwikkelaars hebben hun DGB-munten gekocht op een beurs tegen markttarieven, of hebben ze gemijnd, net als iedereen. Er was geen ICO (Initial Coin Offering) voor de DigiByte blockchain. Elke munt is eerlijk gemijnd sinds het genesisblok.",
+            "url": ""
+        }
+    },
+    "digifact7": {
+        "en": {
+            "title": "DigiFact # 7 - Did you know...",
+            "content": "Transaction fees on the DigiByte blockchain are typically incredibly low. In Block 7658349, a user sent 342,000,000 DGB (worth $6 million USD at the time) from the inputs of over 200 different addresses. It cost 1/10th of a cent (USD) in fees and took only a minute or two to confirm.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #7 - 你知道吗？",
+            "content": "DigiByte 区块链上的交易费用通常极低。在7658349号区块中，一位用户从200多个不同地址发送了342,000,000 DGB（当时价值600万美元）。手续费仅为1/10美分（USD），且仅需一两分钟即可确认。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #7 - Знаете ли вы...",
+            "content": "Комиссии за транзакции в блокчейне DigiByte обычно невероятно низкие. В блоке 7658349 пользователь отправил 342,000,000 DGB (на тот момент стоимостью 6 миллионов долларов США) с входов более чем 200 разных адресов. Это стоило 1/10 цента (USD) в виде комиссии и заняло всего минуту или две для подтверждения.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #7 - ¿Sabías que...",
+            "content": "Las tarifas de transacción en la blockchain de DigiByte suelen ser increíblemente bajas. En el bloque 7658349, un usuario envió 342,000,000 DGB (valorados en 6 millones de USD en ese momento) desde más de 200 direcciones diferentes. Costó 1/10 de centavo (USD) en tarifas y solo tomó uno o dos minutos confirmar.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #7 - 혹시 알고 계셨나요...",
+            "content": "디지바이트 블록체인의 거래 수수료는 일반적으로 매우 낮습니다. 7658349번 블록에서 한 사용자가 200개가 넘는 다른 주소에서 3억 4천2백만 DGB(당시 600만 달러 상당)를 보냈습니다. 수수료는 1/10 센트(USD)였고 확인까지는 단 1~2분밖에 걸리지 않았습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #7 - ご存知でしたか...",
+            "content": "DigiByte ブロックチェーン上の取引手数料は通常非常に低いです。ブロック 7658349 で、ユーザーは200以上の異なるアドレスから 3億 4,200万 DGB（当時の価値で600万米ドル）を送信しました。手数料は米ドルで1/10セントかかり、確認には1～2分しかかかりませんでした。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #7 - Wussten Sie schon...",
+            "content": "Die Transaktionsgebühren auf der DigiByte Blockchain sind in der Regel unglaublich niedrig. In Block 7658349 hat ein Benutzer 342.000.000 DGB (zum damaligen Zeitpunkt 6 Millionen USD wert) von über 200 verschiedenen Adressen gesendet. Es kostete 1/10 eines Cents (USD) an Gebühren und dauerte nur eine Minute oder zwei, um zu bestätigen.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #7 - Saviez-vous que...",
+            "content": "Les frais de transaction sur la blockchain DigiByte sont généralement incroyablement bas. Dans le bloc 7658349, un utilisateur a envoyé 342 000 000 DGB (d'une valeur de 6 millions de dollars USD à l'époque) à partir de plus de 200 adresses différentes. Cela a coûté 1/10 de centime (USD) en frais et a pris seulement une ou deux minutes pour confirmer.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #7 - Você sabia...",
+            "content": "As taxas de transação no blockchain DigiByte são tipicamente incrivelmente baixas. No bloco 7658349, um usuário enviou 342.000.000 DGB (valendo 6 milhões de USD na época) de mais de 200 endereços diferentes. Custou 1/10 de centavo (USD) em taxas e levou apenas um ou dois minutos para confirmar.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #7 - क्या आप जानते थे...",
+            "content": "डिजीबाइट ब्लॉकचेन पर लेनदेन शुल्क आमतौर पर बहुत कम होते हैं। ब्लॉक 7658349 में, एक उपयोगकर्ता ने 200 से अधिक अलग-अलग पतों से 342,000,000 DGB (उस समय 6 मिलियन USD के लायक) भेजे थे। इसके लिए 1/10 सेंट (USD) का शुल्क लगा और पुष्टि में केवल एक या दो मिनट लगे।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #7 - Wist u dat...",
+            "content": "Transactiekosten op de DigiByte blockchain zijn doorgaans ongelooflijk laag. In blok 7658349 heeft een gebruiker 342.000.000 DGB (op dat moment $6 miljoen USD waard) verstuurd vanuit de inputs van meer dan 200 verschillende adressen. Het kostte 1/10 van een cent (USD) aan kosten en duurde slechts een minuut of twee om te bevestigen.",
+            "url": ""
+        }
+    },
+    "digifact8": {
+        "en": {
+            "title": "DigiFact # 8 - Did you know...",
+            "content": "DigiByte pioneered the DigiShield difficulty adjustment. It's used in Dogecoin, Ubiq, ZCash, Monacoin and parts of the code are even used in Ethereum. What is DigiShield (a.k.a MultiShield)? Learn more here: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "zh": {
+            "title": "数字事实 #8 - 你知道吗？",
+            "content": "DigiByte 开创了 DigiShield 难度调整技术。它被用在 Dogecoin、Ubiq、ZCash、Monacoin 中，甚至部分代码被用在 Ethereum 上。什么是 DigiShield（又名 MultiShield）？在这里了解更多：https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ru": {
+            "title": "ДиджиФакт #8 - Знаете ли вы...",
+            "content": "DigiByte был пионером в введении корректировки сложности DigiShield. Она используется в Dogecoin, Ubiq, ZCash, Monacoin, и части кода даже используются в Ethereum. Что такое DigiShield (также известный как MultiShield)? Узнайте больше здесь: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "es": {
+            "title": "DigiDato #8 - ¿Sabías que...",
+            "content": "DigiByte fue pionero en el ajuste de dificultad DigiShield. Se utiliza en Dogecoin, Ubiq, ZCash, Monacoin y partes del código incluso se utilizan en Ethereum. ¿Qué es DigiShield (también conocido como MultiShield)? Aprende más aquí: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ko": {
+            "title": "디지팩트 #8 - 혹시 알고 계셨나요...",
+            "content": "디지바이트는 디지실드 난이도 조정 기술을 선도하였습니다. 이것은 도지코인, 유비크, 제트캐시, 모나코인에서 사용되며, 일부 코드는 이더리움에도 사용됩니다. 디지실드(또는 멀티실드)란 무엇인가요? 여기서 더 알아보세요: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ja": {
+            "title": "デジファクト #8 - ご存知でしたか...",
+            "content": "DigiByteはDigiShield難易度調整を先駆けて導入しました。これはDogecoin、Ubiq、ZCash、Monacoinで使用され、その一部のコードはEthereumでさえも使用されています。DigiShield（またの名をMultiShield）とは何ですか？こちらで詳しく知る：https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "de": {
+            "title": "DigiFakt #8 - Wussten Sie schon...",
+            "content": "DigiByte war Wegbereiter bei der Schwierigkeitsanpassung DigiShield. Es wird in Dogecoin, Ubiq, ZCash, Monacoin verwendet und Teile des Codes werden sogar in Ethereum verwendet. Was ist DigiShield (auch bekannt als MultiShield)? Erfahren Sie hier mehr: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "fr": {
+            "title": "DigiFact #8 - Saviez-vous que...",
+            "content": "DigiByte a été le précurseur de l'ajustement de difficulté DigiShield. Il est utilisé dans Dogecoin, Ubiq, ZCash, Monacoin et certaines parties du code sont même utilisées dans Ethereum. Qu'est-ce que DigiShield (alias MultiShield) ? En savoir plus ici : https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "pt": {
+            "title": "DigiFato #8 - Você sabia...",
+            "content": "DigiByte foi pioneiro no ajuste de dificuldade DigiShield. Ele é usado em Dogecoin, Ubiq, ZCash, Monacoin e partes do código são até usadas no Ethereum. O que é DigiShield (também conhecido como MultiShield)? Saiba mais aqui: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #8 - क्या आप जानते थे...",
+            "content": "डिजीबाइट ने डिजीशील्ड कठिनाई समायोजन में पहल की थी। इसका उपयोग डोगकोइन, उबिक, जेडकैश, मोनाकोइन में किया जाता है और कोड के कुछ हिस्से तो इथेरियम में भी उपयोग में लाए जाते हैं। डिजीशील्ड (उर्फ मल्टीशील्ड) क्या है? यहाँ और जानें: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "nl": {
+            "title": "DigiFeit #8 - Wist u dat...",
+            "content": "DigiByte was de pionier van de DigiShield moeilijkheidsgraad aanpassing. Het wordt gebruikt in Dogecoin, Ubiq, ZCash, Monacoin en delen van de code worden zelfs gebruikt in Ethereum. Wat is DigiShield (ook bekend als MultiShield)? Leer hier meer: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        }
+    },
+    "digifact9": {
+        "en": {
+            "title": "DigiFact # 9 - Did you know...",
+            "content": "DigiByte was the first non-Bitcoin blockchain to fix the major inflation bug in 2018. Rapid response from our rock-star developers!",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #9 - 你知道吗？",
+            "content": "DigiByte 是第一个在 2018 年修复主要通货膨胀漏洞的非比特币区块链。我们的杰出开发人员做出了迅速响应！",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #9 - Знаете ли вы...",
+            "content": "DigiByte был первым не-Биткойн блокчейном, который исправил крупный инфляционный баг в 2018 году. Быстрая реакция наших выдающихся разработчиков!",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #9 - ¿Sabías que...",
+            "content": "DigiByte fue la primera blockchain que no es Bitcoin en solucionar el importante error de inflación en 2018. ¡Respuesta rápida de nuestros impresionantes desarrolladores!",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #9 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 2018년 주요 인플레이션 버그를 수정한 최초의 비트코인이 아닌 블록체인이었습니다. 우리의 뛰어난 개발자들의 신속한 대응!",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #9 - ご存知でしたか...",
+            "content": "DigiByteは2018年に重大なインフレバグを修正した最初の非ビットコインブロックチェーンでした。私たちの優秀な開発者たちの迅速な対応！",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #9 - Wussten Sie schon...",
+            "content": "DigiByte war die erste nicht-Bitcoin-Blockchain, die im Jahr 2018 den schwerwiegenden Inflationsfehler behoben hat. Schnelle Reaktion unserer erstklassigen Entwickler!",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #9 - Saviez-vous que...",
+            "content": "DigiByte a été la première blockchain non-Bitcoin à corriger le bug majeur de l'inflation en 2018. Réponse rapide de nos développeurs stars !",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #9 - Você sabia...",
+            "content": "DigiByte foi o primeiro blockchain que não é Bitcoin a corrigir o grande bug de inflação em 2018. Resposta rápida dos nossos incríveis desenvolvedores!",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #9 - क्या आप जानते थे...",
+            "content": "डिजीबाइट 2018 में मुख्य मुद्रास्फीति बग को ठीक करने वाला पहला गैर-बिटकॉइन ब्लॉकचैन था। हमारे रॉक-स्टार डेवलपर्स से त्वरित प्रतिक्रिया!",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #9 - Wist u dat...",
+            "content": "DigiByte was de eerste niet-Bitcoin blockchain die in 2018 de belangrijke inflatiebug heeft opgelost. Snelle respons van onze fantastische ontwikkelaars!",
+            "url": ""
+        }
     }
 }

@@ -1,11 +1,11 @@
-# DigiByte-DigiFacts-JSON
-A JSON file containing DigiByte DigiFacts.
+# DigiByte DigiFacts - JSON Web Service
+Provides DigiByte DigiFacts in JSON format. Supports multiple languages and dynamic data.
 
 ## About the DigiFacts
 
-These DigiFacts were originally created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). Since then, they have been significantly revised and expanded over time into the versions available here.
+These DigiFacts were originally created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). Since then, they have been significantly revised and expanded over time.
 
-These DigiFacts are currently being translated into multiple languages. Please help us with this by fixing translation errors, or adding translations for other languages.
+These DigiFacts are currently being translated into multiple languages. Please help by making improvements or adding translations for other languages.
 
 ## Disclaimer
 
