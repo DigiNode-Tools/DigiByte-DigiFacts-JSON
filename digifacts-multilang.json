@@ -1475,5 +1475,119 @@
             "content": "Digi-ID van DigiByte is een van de eenvoudigste maar meest veilige authenticatiemethoden ter wereld. Zelfs Google waarschuwt tegen het gebruik van hun eigen op tijd gebaseerde 2FA-codes of SMS-2FA, maar Digi-ID overkomt alle tekortkomingen. Digi-ID is open source, gratis, advertentievrij (voor altijd), privé en veilig. Om meer te weten te bezoeken: https://www.digi-id.io/",
             "url": "https://www.digi-id.io/"
         }
-    }
+    },
+    "digifact27": {
+        "en": {
+            "title": "DigiFact # 27 - Did you know...",
+            "content": "The development of DigiByte is done by a worldwide team of volunteers, who all donate their time out of a passion for the project. There is no central company employing and paying people, it's all given freely by our incredible developers and supporting community.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #27 - 你知道吗？",
+            "content": "DigiByte的发展是由全球志愿者团队完成的，他们都出于对项目的热情自愿奉献自己的时间。没有中央公司雇用和支付人员，这一切都是由我们不可思议的开发者和支持社区自由提供的。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #27 - Знаете ли вы...",
+            "content": "Разработка DigiByte ведется международной командой волонтеров, которые все отдают свое время из страсти к проекту. Нет центральной компании, которая нанимает и платит людям, все делается бесплатно нашими невероятными разработчиками и поддерживающим сообществом.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #27 - ¿Sabías que...",
+            "content": "El desarrollo de DigiByte se realiza por un equipo mundial de voluntarios, que donan su tiempo por pasión al proyecto. No hay una empresa central que emplee y pague a la gente, todo es dado libremente por nuestros increíbles desarrolladores y la comunidad de apoyo.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #27 - 혹시 알고 계셨나요...",
+            "content": "DigiByte의 개발은 프로젝트에 대한 열정으로 자신의 시간을 기부하는 전 세계의 자원봉사자 팀에 의해 이루어집니다. 사람들을 고용하고 지불하는 중앙 회사가 없으며, 모든 것은 놀라운 개발자들과 지원 커뮤니티에 의해 자유롭게 제공됩니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #27 - ご存知でしたか...",
+            "content": "DigiByteの開発は、プロジェクトへの情熱から自分の時間を寄付する世界中のボランティアチームによって行われています。人々を雇用し、報酬を支払う中央の会社はなく、すべてが私たちの素晴らしい開発者とサポートコミュニティによって自由に提供されています。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #27 - Wussten Sie schon...",
+            "content": "Die Entwicklung von DigiByte wird von einem weltweiten Team von Freiwilligen durchgeführt, die alle ihre Zeit aus Leidenschaft für das Projekt spenden. Es gibt kein zentrales Unternehmen, das Menschen beschäftigt und bezahlt, alles wird freiwillig von unseren unglaublichen Entwicklern und der unterstützenden Gemeinschaft gegeben.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #27 - Saviez-vous que...",
+            "content": "Le développement de DigiByte est réalisé par une équipe mondiale de bénévoles, qui donnent tous leur temps par passion pour le projet. Il n'y a pas d'entreprise centrale employant et payant les gens, tout est donné librement par nos incroyables développeurs et la communauté de soutien.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #27 - Você sabia...",
+            "content": "O desenvolvimento do DigiByte é feito por uma equipe mundial de voluntários, que doam seu tempo por paixão ao projeto. Não há uma empresa central empregando e pagando as pessoas, tudo é dado gratuitamente por nossos incríveis desenvolvedores e comunidade de apoio.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #27 - क्या आप जानते थे...",
+            "content": "डिजीबाइट का विकास विश्वव्यापी स्वयंसेवकों की टीम द्वारा किया जाता है, जो सभी परियोजना के प्रति अपने जुनून से अपना समय दान करते हैं। लोगों को रोजगार देने और उन्हें भुगतान करने वाली कोई केंद्रीय कंपनी नहीं है, यह सब हमारे अद्भुत डेवलपर्स और सहायक समुदाय द्वारा मुफ्त में दिया जाता है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #27 - Wist u dat...",
+            "content": "De ontwikkeling van DigiByte wordt gedaan door een wereldwijd team van vrijwilligers, die allen hun tijd doneren uit passie voor het project. Er is geen centraal bedrijf dat mensen in dienst neemt en betaalt, alles wordt vrijwillig gegeven door onze ongelooflijke ontwikkelaars en ondersteunende gemeenschap.",
+            "url": ""
+        }
+    },
+    "digifact28": {
+        "en": {
+          "title": "DigiFact # 28 - Did you know...",
+          "content": "The last DigiByte will be mined by the year 2035. There is less than half of all remaining DGB waiting to be mined by anybody in the world. These are not 'owned' by anybody, unlike an ICO and will be newly 'minted'.",
+          "url": ""
+        },
+        "zh": {
+          "title": "数字事实 #28 - 你知道吗？",
+          "content": "最后一个DigiByte将在2035年被开采出来。全世界等待被开采的剩余DGB不到一半。这些不像ICO一样被任何人'拥有'，而将是新'铸造'的。",
+          "url": ""
+        },
+        "ru": {
+          "title": "ДиджиФакт #28 - Знаете ли вы...",
+          "content": "Последний DigiByte будет добыт к 2035 году. Меньше половины всех оставшихся DGB ждут, чтобы их добыл кто-то в мире. Они не 'принадлежат' никому, в отличие от ICO и будут 'чеканиться' заново.",
+          "url": ""
+        },
+        "es": {
+          "title": "DigiDato #28 - ¿Sabías que...",
+          "content": "El último DigiByte será minado para el año 2035. Queda menos de la mitad de todos los DGB restantes esperando ser minados por alguien en el mundo. Estos no son 'propiedad' de nadie, a diferencia de un ICO y serán 'acuñados' nuevamente.",
+          "url": ""
+        },
+        "ko": {
+          "title": "디지팩트 #28 - 혹시 알고 계셨나요...",
+          "content": "마지막 DigiByte는 2035년까지 채굴될 것입니다. 전 세계 누구나 채굴을 기다리고 있는 남은 DGB의 절반 이하가 있습니다. 이것들은 ICO와 달리 누구의 '소유'도 아니며 새롭게 '발행'될 것입니다.",
+          "url": ""
+        },
+        "ja": {
+          "title": "デジファクト #28 - ご存知でしたか...",
+          "content": "最後のDigiByteは2035年までに採掘される予定です。世界中の誰もが採掘を待っている残りのDGBの半分以下があります。これらはICOのように誰かが'所有'しているわけではなく、新たに'鋳造'されるものです。",
+          "url": ""
+        },
+        "de": {
+          "title": "DigiFakt #28 - Wussten Sie schon...",
+          "content": "Der letzte DigiByte wird bis zum Jahr 2035 abgebaut sein. Weniger als die Hälfte aller verbleibenden DGB warten darauf, von irgendjemandem in der Welt abgebaut zu werden. Diese gehören im Gegensatz zu einem ICO niemandem und werden neu 'geprägt'.",
+          "url": ""
+        },
+        "fr": {
+          "title": "DigiFact #28 - Saviez-vous que...",
+          "content": "Le dernier DigiByte sera miné d'ici l'année 2035. Il reste moins de la moitié de tous les DGB restants à être minés par quiconque dans le monde. Contrairement à un ICO, ces derniers ne sont 'possédés' par personne et seront nouvellement 'frappés'.",
+          "url": ""
+        },
+        "pt": {
+          "title": "DigiFato #28 - Você sabia...",
+          "content": "O último DigiByte será minerado até o ano de 2035. Existe menos da metade de todos os DGB restantes esperando para serem minerados por alguém no mundo. Estes não são 'propriedade' de ninguém, ao contrário de um ICO, e serão 'cunhados' novos.",
+          "url": ""
+        },
+        "hi": {
+          "title": "डिजीफैक्ट #28 - क्या आप जानते थे...",
+          "content": "आखिरी DigiByte 2035 तक खनन किया जाएगा। दुनिया में किसी के द्वारा खनन किए जाने की प्रतीक्षा कर रहे सभी DGB का आधे से भी कम हिस्सा बचा है। ये किसी के 'स्वामित्व' में नहीं हैं, आईसीओ के विपरीत, और नए 'टकसाल' किए जाएंगे।",
+          "url": ""
+        },
+        "nl": {
+          "title": "DigiFeit #28 - Wist u dat...",
+          "content": "De laatste DigiByte zal tegen het jaar 2035 worden gemijnd. Er is minder dan de helft van alle resterende DGB die wachten om door iemand in de wereld te worden gemijnd. Deze zijn niet 'eigendom' van iemand, in tegenstelling tot een ICO, en zullen nieuw 'geslagen' worden.",
+          "url": ""
+        }
+      }
 }
