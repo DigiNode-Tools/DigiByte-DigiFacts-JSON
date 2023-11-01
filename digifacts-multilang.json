@@ -1991,59 +1991,173 @@
     },
     "digifact36": {
         "en": {
-          "title": "DigiFact # 36 - Did you know...",
-          "content": "You can accept DigiByte in retail scenarios just by entering the desired amount into your wallet. The QR code will automatically include your address and the amount when the sender scans it. Super simple, straight from your wallet.",
-          "url": ""
+            "title": "DigiFact # 36 - Did you know...",
+            "content": "You can accept DigiByte in retail scenarios just by entering the desired amount into your wallet. The QR code will automatically include your address and the amount when the sender scans it. Super simple, straight from your wallet.",
+            "url": ""
         },
         "zh": {
-          "title": "数字事实 #36 - 你知道吗？",
-          "content": "在零售场景中，您只需在钱包中输入所需金额即可接受DigiByte。发送方扫描时，二维码将自动包含您的地址和金额。非常简单，直接来自您的钱包。",
-          "url": ""
+            "title": "数字事实 #36 - 你知道吗？",
+            "content": "在零售场景中，您只需在钱包中输入所需金额即可接受DigiByte。发送方扫描时，二维码将自动包含您的地址和金额。非常简单，直接来自您的钱包。",
+            "url": ""
         },
         "ru": {
-          "title": "ДиджиФакт #36 - Знаете ли вы...",
-          "content": "Вы можете принимать DigiByte в розничных сценариях, просто введя желаемую сумму в вашем кошельке. QR-код автоматически включит ваш адрес и сумму, когда отправитель его отсканирует. Очень просто, прямо из вашего кошелька.",
-          "url": ""
+            "title": "ДиджиФакт #36 - Знаете ли вы...",
+            "content": "Вы можете принимать DigiByte в розничных сценариях, просто введя желаемую сумму в вашем кошельке. QR-код автоматически включит ваш адрес и сумму, когда отправитель его отсканирует. Очень просто, прямо из вашего кошелька.",
+            "url": ""
         },
         "es": {
-          "title": "DigiDato #36 - ¿Sabías que...",
-          "content": "Puedes aceptar DigiByte en escenarios de venta al por menor simplemente ingresando la cantidad deseada en tu billetera. El código QR incluirá automáticamente tu dirección y la cantidad cuando el emisor lo escanee. Súper simple, directamente desde tu billetera.",
-          "url": ""
+            "title": "DigiDato #36 - ¿Sabías que...",
+            "content": "Puedes aceptar DigiByte en escenarios de venta al por menor simplemente ingresando la cantidad deseada en tu billetera. El código QR incluirá automáticamente tu dirección y la cantidad cuando el emisor lo escanee. Súper simple, directamente desde tu billetera.",
+            "url": ""
         },
         "ko": {
-          "title": "디지팩트 #36 - 혹시 알고 계셨나요...",
-          "content": "소매 시나리오에서 원하는 금액을 지갑에 입력함으로써 DigiByte를 수락할 수 있습니다. 발신자가 스캔할 때 QR 코드는 자동으로 귀하의 주소와 금액을 포함하게 됩니다. 매우 간단하며, 바로 당신의 지갑에서 이루어집니다.",
-          "url": ""
+            "title": "디지팩트 #36 - 혹시 알고 계셨나요...",
+            "content": "소매 시나리오에서 원하는 금액을 지갑에 입력함으로써 DigiByte를 수락할 수 있습니다. 발신자가 스캔할 때 QR 코드는 자동으로 귀하의 주소와 금액을 포함하게 됩니다. 매우 간단하며, 바로 당신의 지갑에서 이루어집니다.",
+            "url": ""
         },
         "ja": {
-          "title": "デジファクト #36 - ご存知でしたか...",
-          "content": "小売シナリオでDigiByteを受け入れるには、ウォレットに希望の金額を入力するだけです。送信者がスキャンすると、QRコードには自動的にあなたのアドレスと金額が含まれます。非常に簡単で、直接あなたのウォレットから行えます。",
-          "url": ""
+            "title": "デジファクト #36 - ご存知でしたか...",
+            "content": "小売シナリオでDigiByteを受け入れるには、ウォレットに希望の金額を入力するだけです。送信者がスキャンすると、QRコードには自動的にあなたのアドレスと金額が含まれます。非常に簡単で、直接あなたのウォレットから行えます。",
+            "url": ""
         },
         "de": {
-          "title": "DigiFakt #36 - Wussten Sie schon...",
-          "content": "Sie können DigiByte in Einzelhandelsszenarien akzeptieren, indem Sie einfach den gewünschten Betrag in Ihre Wallet eingeben. Der QR-Code wird automatisch Ihre Adresse und den Betrag einfügen, wenn der Sender ihn scannt. Super einfach, direkt aus Ihrer Wallet.",
-          "url": ""
+            "title": "DigiFakt #36 - Wussten Sie schon...",
+            "content": "Sie können DigiByte in Einzelhandelsszenarien akzeptieren, indem Sie einfach den gewünschten Betrag in Ihre Wallet eingeben. Der QR-Code wird automatisch Ihre Adresse und den Betrag einfügen, wenn der Sender ihn scannt. Super einfach, direkt aus Ihrer Wallet.",
+            "url": ""
         },
         "fr": {
-          "title": "DigiFact #36 - Saviez-vous que...",
-          "content": "Vous pouvez accepter DigiByte dans des scénarios de vente au détail en entrant simplement le montant souhaité dans votre portefeuille. Le code QR inclura automatiquement votre adresse et le montant lorsque l'expéditeur le scanne. Très simple, directement depuis votre portefeuille.",
-          "url": ""
+            "title": "DigiFact #36 - Saviez-vous que...",
+            "content": "Vous pouvez accepter DigiByte dans des scénarios de vente au détail en entrant simplement le montant souhaité dans votre portefeuille. Le code QR inclura automatiquement votre adresse et le montant lorsque l'expéditeur le scanne. Très simple, directement depuis votre portefeuille.",
+            "url": ""
         },
         "pt": {
-          "title": "DigiFato #36 - Você sabia...",
-          "content": "Você pode aceitar DigiByte em cenários de varejo simplesmente inserindo o valor desejado na sua carteira. O código QR incluirá automaticamente o seu endereço e o montante quando o remetente o digitalizar. Super simples, diretamente da sua carteira.",
-          "url": ""
+            "title": "DigiFato #36 - Você sabia...",
+            "content": "Você pode aceitar DigiByte em cenários de varejo simplesmente inserindo o valor desejado na sua carteira. O código QR incluirá automaticamente o seu endereço e o montante quando o remetente o digitalizar. Super simples, diretamente da sua carteira.",
+            "url": ""
         },
         "hi": {
-          "title": "डिजीफैक्ट #36 - क्या आप जानते थे...",
-          "content": "आप खुदरा परिदृश्यों में अपने वॉलेट में वांछित राशि दर्ज करके DigiByte स्वीकार कर सकते हैं। प्रेषक द्वारा स्कैन करने पर क्यूआर कोड स्वचालित रूप से आपके पते और राशि को शामिल करेगा। बहुत सरल, सीधे आपके वॉलेट से।",
-          "url": ""
+            "title": "डिजीफैक्ट #36 - क्या आप जानते थे...",
+            "content": "आप खुदरा परिदृश्यों में अपने वॉलेट में वांछित राशि दर्ज करके DigiByte स्वीकार कर सकते हैं। प्रेषक द्वारा स्कैन करने पर क्यूआर कोड स्वचालित रूप से आपके पते और राशि को शामिल करेगा। बहुत सरल, सीधे आपके वॉलेट से।",
+            "url": ""
         },
         "nl": {
-          "title": "DigiFeit #36 - Wist u dat...",
-          "content": "U kunt DigiByte in retailscenario's accepteren door gewoon het gewenste bedrag in uw portemonnee in te voeren. De QR-code zal automatisch uw adres en het bedrag bevatten wanneer de afzender deze scant. Super eenvoudig, rechtstreeks vanuit uw portemonnee.",
-          "url": ""
+            "title": "DigiFeit #36 - Wist u dat...",
+            "content": "U kunt DigiByte in retailscenario's accepteren door gewoon het gewenste bedrag in uw portemonnee in te voeren. De QR-code zal automatisch uw adres en het bedrag bevatten wanneer de afzender deze scant. Super eenvoudig, rechtstreeks vanuit uw portemonnee.",
+            "url": ""
         }
-      }
+    },
+    "digifact37": {
+        "en": {
+            "title": "DigiFact # 37 - Did you know...",
+            "content": "The DigiByte Core wallet connects to a variety of peers, not just the 'closest' or 'fastest'. It finds connections from all over the world, to ensure you get a broad consensus on the DigiByte blockchain and protects you against sybil attacks.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #37 - 你知道吗？",
+            "content": "DigiByte核心钱包连接到各种节点，不仅仅是'最近'或'最快'的节点。它从全世界找到连接，确保您在DigiByte区块链上获得广泛的共识并保护您免受sybil攻击。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #37 - Знаете ли вы...",
+            "content": "Кошелек DigiByte Core подключается к разнообразным узлам, не только к 'ближайшим' или 'самым быстрым'. Он находит подключения со всего мира, чтобы обеспечить вам широкий консенсус в блокчейне DigiByte и защитить вас от сибилловских атак.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #37 - ¿Sabías que...",
+            "content": "La cartera DigiByte Core se conecta con una variedad de pares, no solo con los 'más cercanos' o 'más rápidos'. Encuentra conexiones de todo el mundo, para asegurarse de obtener un amplio consenso sobre la cadena de bloques DigiByte y protegerse contra ataques Sybil.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #37 - 혹시 알고 계셨나요...",
+            "content": "디지바이트 코어 지갑은 '가장 가까운'이나 '가장 빠른' 노드뿐만 아니라 다양한 피어에 연결됩니다. 전 세계의 연결을 찾아 디지바이트 블록체인에 대한 광범위한 합의를 이끌어내고 실빌 공격에 대한 보호를 제공합니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #37 - ご存知でしたか...",
+            "content": "デジバイトコアウォレットは、「最も近い」または「最も速い」ピアだけでなく、さまざまなピアに接続します。世界中からの接続を見つけ、デジバイトブロックチェーンにおける幅広い合意を確保し、シビル攻撃に対する保護を提供します。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #37 - Wussten Sie schon...",
+            "content": "Die DigiByte Core-Wallet verbindet sich mit einer Vielzahl von Peers, nicht nur mit den 'nächsten' oder 'schnellsten'. Sie findet Verbindungen aus aller Welt, um Ihnen einen breiten Konsens über die DigiByte-Blockchain zu gewährleisten und Sie vor Sybil-Attacken zu schützen.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #37 - Saviez-vous que...",
+            "content": "Le portefeuille DigiByte Core se connecte à une variété de pairs, et pas seulement les 'plus proches' ou les 'plus rapides'. Il trouve des connexions partout dans le monde, pour vous assurer d'obtenir un large consensus sur la blockchain DigiByte et vous protège contre les attaques Sybil.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #37 - Você sabia...",
+            "content": "A carteira DigiByte Core conecta-se a uma variedade de pares, não apenas os 'mais próximos' ou 'mais rápidos'. Ela encontra conexões de todo o mundo, para garantir que você obtenha um amplo consenso sobre a blockchain DigiByte e proteja você contra ataques Sybil.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #37 - क्या आप जानते थे...",
+            "content": "डिजीबाइट कोर वॉलेट 'सबसे करीबी' या 'सबसे तेज़' पीयर्स से ही नहीं जुड़ता है। यह दुनिया भर से कनेक्शन ढूंढता है, ताकि आपको डिजीबाइट ब्लॉकचेन पर एक व्यापक सहमति मिल सके और यह आपको सिबिल हमलों से बचा सके।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #37 - Wist u dat...",
+            "content": "De DigiByte Core wallet maakt verbinding met een verscheidenheid aan peers, niet alleen de 'dichtstbijzijnde' of 'snelste'. Het vindt verbindingen over de hele wereld om u een breed consensus over de DigiByte blockchain te verzekeren en beschermt u tegen sybil-aanvallen.",
+            "url": ""
+        }
+    },
+    "digifact38": {
+        "en": {
+            "title": "DigiFact # 38 - Did you know...",
+            "content": "DigiByte implemented the DigiSpeed protocol in 2015. This allowed DigiByte to decrease from 30 second to 15 second block timings. Lightning fast!",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #38 - 你知道吗？",
+            "content": "DigiByte在2015年实施了DigiSpeed协议。这使DigiByte的区块时间从30秒减少到15秒。快如闪电！",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #38 - Знаете ли вы...",
+            "content": "DigiByte внедрила протокол DigiSpeed в 2015 году. Это позволило DigiByte сократить время блока с 30 до 15 секунд. Молниеносно быстро!",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #38 - ¿Sabías que...",
+            "content": "DigiByte implementó el protocolo DigiSpeed en 2015. Esto permitió a DigiByte disminuir el tiempo de bloque de 30 segundos a 15 segundos. ¡Rápido como un rayo!",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #38 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 2015년에 DigiSpeed 프로토콜을 도입했습니다. 이를 통해 DigiByte의 블록 타이밍을 30초에서 15초로 줄일 수 있었습니다. 번개처럼 빠르죠!",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #38 - ご存知でしたか...",
+            "content": "DigiByteは2015年にDigiSpeedプロトコルを実装しました。これにより、DigiByteのブロック時間を30秒から15秒に短縮できました。雷のように速い！",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #38 - Wussten Sie schon...",
+            "content": "DigiByte hat 2015 das DigiSpeed-Protokoll implementiert. Dies ermöglichte es DigiByte, die Blockzeiten von 30 Sekunden auf 15 Sekunden zu verkürzen. Blitzschnell!",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #38 - Saviez-vous que...",
+            "content": "DigiByte a implémenté le protocole DigiSpeed en 2015. Cela a permis à DigiByte de réduire le timing des blocs de 30 secondes à 15 secondes. Vitesse de l'éclair!",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #38 - Você sabia...",
+            "content": "DigiByte implementou o protocolo DigiSpeed em 2015. Isso permitiu que o DigiByte diminuísse o tempo de bloco de 30 segundos para 15 segundos. Rápido como um relâmpago!",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #38 - क्या आप जानते थे...",
+            "content": "DigiByte ने 2015 में DigiSpeed प्रोटोकॉल को लागू किया। इससे DigiByte ब्लॉक समय को 30 सेकंड से घटाकर 15 सेकंड करने में सक्षम हुआ। बिजली की तेज़ी से!",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #38 - Wist u dat...",
+            "content": "DigiByte heeft in 2015 het DigiSpeed-protocol geïmplementeerd. Hierdoor kon DigiByte de bloktijden verlagen van 30 seconden naar 15 seconden. Bliksemsnel!",
+            "url": ""
+        }
+    }
 }
