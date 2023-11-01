@@ -3124,5 +3124,290 @@
             "content": "De DigiByte-mining is een van de meest gedistribueerde in de branche. Toen een periode van 7 dagen in september 2019 werd vergeleken met Bitcoin en Litecoin, had DigiByte meer dan 10 keer zoveel unieke miners. Dit groeide uit tot meer dan 20 keer het aantal unieke miners bij het kijken naar een periode van 3 maanden. Bekijk hier meer statistieken: https://j.mp/3ojzV08",
             "url": "https://j.mp/3ojzV08"
         }
+    },
+    "digifact56": {
+        "en": {
+            "title": "DigiFact # 56 - Did you know...",
+            "content": "If the biggest 5x pools from Bitcoin were to collude, they could control the Bitcoin, Bitcoin Cash, and Bitcoin SV networks permanently until others grew to have more hash-power than them. Those same pools would not be a threat to DigiByte thanks to DigiBytes MultiAlgo and MultiShield aspects.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #56 - 你知道吗？",
+            "content": "如果比特币最大的5个矿池合谋，他们可以永久地控制比特币、比特币现金和比特币SV网络，直到其他矿工拥有更多的哈希算力。由于DigiByte的MultiAlgo和MultiShield特性，这些相同的矿池对DigiByte不构成威胁。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #56 - Знаете ли вы...",
+            "content": "Если крупнейшие 5x пулы Bitcoin объединятся, они смогут контролировать сети Bitcoin, Bitcoin Cash и Bitcoin SV постоянно, пока другие пулы не наберут больше вычислительной мощности. Те же самые пулы не будут представлять угрозу для DigiByte благодаря MultiAlgo и MultiShield аспектам DigiByte.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #56 - ¿Sabías que...",
+            "content": "Si los mayores 5x pools de Bitcoin se pusieran de acuerdo, podrían controlar permanentemente las redes de Bitcoin, Bitcoin Cash y Bitcoin SV hasta que otros adquirieran más poder de hash que ellos. Esos mismos pools no representarían una amenaza para DigiByte gracias a los aspectos MultiAlgo y MultiShield de DigiByte.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #56 - 혹시 알고 계셨나요...",
+            "content": "Bitcoin의 가장 큰 5x 풀이 협력한다면, 그들은 다른 사람들이 그들보다 더 많은 해시 파워를 가질 때까지 Bitcoin, Bitcoin Cash 및 Bitcoin SV 네트워크를 영구적으로 제어할 수 있습니다. DigiByte의 MultiAlgo 및 MultiShield 측면 덕분에 이러한 동일한 풀들은 DigiByte에 대한 위협이 되지 않습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #56 - ご存知でしたか...",
+            "content": "もしもBitcoinの最大の5xプールが協力してしまった場合、他のプールがそれらよりも多くのハッシュパワーを持つまで、Bitcoin、Bitcoin Cash、Bitcoin SVネットワークを永久にコントロールできるかもしれません。DigiByteのMultiAlgoとMultiShieldの側面のおかげで、これらの同じプールはDigiByteに脅威とはなりません。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #56 - Wussten Sie schon...",
+            "content": "Wenn die größten 5x-Pools von Bitcoin sich verschwören würden, könnten sie die Bitcoin-, Bitcoin Cash- und Bitcoin SV-Netzwerke dauerhaft kontrollieren, bis andere mehr Hash-Power als sie aufgebaut haben. Diese gleichen Pools wären dank der MultiAlgo- und MultiShield-Aspekte von DigiByte keine Bedrohung für DigiByte.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #56 - Saviez-vous que...",
+            "content": "Si les plus grands pools 5x de Bitcoin décidaient de collaborer, ils pourraient contrôler en permanence les réseaux Bitcoin, Bitcoin Cash et Bitcoin SV jusqu'à ce que d'autres aient plus de puissance de hachage qu'eux. Ces mêmes pools ne représenteraient pas une menace pour DigiByte grâce aux aspects MultiAlgo et MultiShield de DigiByte.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #56 - Você sabia...",
+            "content": "Se os maiores pools 5x do Bitcoin decidissem colaborar, eles poderiam controlar permanentemente as redes do Bitcoin, Bitcoin Cash e Bitcoin SV até que outros obtivessem mais poder de hash do que eles. Esses mesmos pools não representariam uma ameaça para o DigiByte, graças aos aspectos MultiAlgo e MultiShield do DigiByte.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #56 - क्या आप जानते थे...",
+            "content": "अगर Bitcoin के सबसे बड़े 5x पूल मिलकर काम करें, तो वे Bitcoin, Bitcoin Cash, और Bitcoin SV नेटवर्क को हमेशा के लिए नियंत्रित कर सकते हैं, जब तक दूसरों के पास उनसे अधिक हैश-पावर नहीं हो जाता। DigiByte के MultiAlgo और MultiShield दलील के कारण, वे इसी तरह के पूल DigiByte के लिए खतरा नहीं होंगे।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #56 - Wist u dat...",
+            "content": "Als de grootste 5x-pools van Bitcoin zouden samenspannen, zouden ze de Bitcoin-, Bitcoin Cash- en Bitcoin SV-netwerken permanent kunnen controleren totdat anderen meer hash-kracht hebben dan zij. Deze zelfde pools zouden geen bedreiging vormen voor DigiByte dankzij de MultiAlgo- en MultiShield-aspecten van DigiByte.",
+            "url": ""
+        }
+    },
+    "digifact57": {
+        "en": {
+            "title": "DigiFact # 57 - Did you know...",
+            "content": "Every month, the DigiByte that miners get as a block-reward is decreased by 1%. This gives DigiByte a very smooth supply-curve for new DigiByte, rather than a \"halving\" event every few years.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #57 - 你知道吗？",
+            "content": "每个月，矿工作为区块奖励获得的DigiByte数量会减少1%。这使得DigiByte的新DigiByte供应曲线非常平稳，而不是每隔几年就会发生\"减半\"事件。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #57 - Знаете ли вы...",
+            "content": "Каждый месяц количество DigiByte, которое майнеры получают в качестве блок-награды, уменьшается на 1%. Это обеспечивает DigiByte очень плавной кривой предложения новых DigiByte, а не \"половину\" события каждые несколько лет.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #57 - ¿Sabías que...",
+            "content": "Cada mes, la cantidad de DigiByte que los mineros reciben como recompensa por bloque disminuye un 1%. Esto le otorga a DigiByte una curva de suministro muy suave para nuevos DigiByte, en lugar de un evento de \"halving\" cada pocos años.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #57 - 혹시 알고 계셨나요...",
+            "content": "매월 채굴자들이 블록 보상으로 받는 DigiByte의 양이 1%씩 감소합니다. 이로 인해 DigiByte는 몇 년마다 발생하는 \"하프닝\" 이벤트 대신에 새로운 DigiByte에 대한 매우 부드러운 공급 곡선을 갖게 됩니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #57 - ご存知でしたか...",
+            "content": "毎月、マイナーがブロック報酬として受け取るDigiByteの量は1%ずつ減少します。これにより、DigiByteは数年ごとの\"ハーフィング\"イベントではなく、新しいDigiByteに対する非常に滑らかな供給カーブを持つことになります。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #57 - Wussten Sie schon...",
+            "content": "Jeden Monat wird die Menge an DigiByte, die Miner als Blockbelohnung erhalten, um 1% verringert. Dies verleiht DigiByte eine sehr gleichmäßige Angebotskurve für neues DigiByte, anstatt alle paar Jahre ein \"Halving\"-Ereignis zu haben.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #57 - Saviez-vous que...",
+            "content": "Chaque mois, la quantité de DigiByte que les mineurs reçoivent en récompense de bloc diminue de 1 %. Cela donne à DigiByte une courbe d'approvisionnement très régulière pour les nouveaux DigiByte, plutôt qu'un événement de \"réduction de moitié\" tous les quelques années.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #57 - Você sabia...",
+            "content": "Todo mês, a quantidade de DigiByte que os mineradores recebem como recompensa por bloco é reduzida em 1%. Isso proporciona ao DigiByte uma curva de fornecimento muito suave para novos DigiByte, em vez de um evento de \"halving\" a cada poucos anos.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #57 - क्या आप जानते थे...",
+            "content": "प्रत्येक महीने, माइनर्स को ब्लॉक-रिवॉर्ड के रूप में मिलने वाले DigiByte की मात्रा को 1% से कम कर दिया जाता है। इससे DigiByte को नए DigiByte के लिए \"हैल्विंग\" घटना के बजाय बहुत ही स्मूथ सप्लाई-कर्व मिलता है, जो कुछ सालों में एक बार होने वाले हैल्विंग घटना के बजाय।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #57 - Wist u dat...",
+            "content": "Elke maand wordt de hoeveelheid DigiByte die mijnwerkers als blokbeloning krijgen met 1% verminderd. Dit zorgt voor een zeer geleidelijke aanbodcurve voor nieuwe DigiByte, in plaats van een \"halvering\"-evenement om de paar jaar.",
+            "url": ""
+        }
+    },
+    "digifact58": {
+        "en": {
+            "title": "DigiFact # 58 - Did you know...",
+            "content": "Transactions on the DigiByte network are public, but pseudo-anonymous. You can see them on a Blockchain explorer, however there is nothing inherently that can link a new transaction / address to an end-user. There are no usernames, email addresses etc required to use the DigiByte network.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #58 - 你知道吗？",
+            "content": "DigiByte网络上的交易是公开的，但伪匿名的。您可以在区块链浏览器上查看它们，但从本质上讲，没有什么可以将新交易/地址与最终用户关联起来。在使用DigiByte网络时不需要用户名、电子邮件地址等信息。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #58 - Знаете ли вы...",
+            "content": "Транзакции в сети DigiByte общедоступны, но псевдо-анонимны. Вы можете видеть их в блокчейн-обозревателе, однако по своей сути нет ничего, что могло бы связать новую транзакцию/адрес с конечным пользователем. Для использования сети DigiByte не требуются имена пользователя, адреса электронной почты и т. д.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #58 - ¿Sabías que...",
+            "content": "Las transacciones en la red de DigiByte son públicas, pero seudoanónimas. Puedes verlas en un explorador de Blockchain, sin embargo, no hay nada intrínseco que pueda vincular una nueva transacción / dirección a un usuario final. No se requieren nombres de usuario, direcciones de correo electrónico, etc. para usar la red DigiByte.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #58 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 네트워크의 거래는 공개되지만 의사 익명입니다. 블록체인 탐색기에서 확인할 수 있지만 새로운 거래/주소를 최종 사용자에게 연결할 수 있는 내재적인 것은 없습니다. DigiByte 네트워크를 사용하기 위해 사용자 이름, 이메일 주소 등이 필요하지 않습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #58 - ご存知でしたか...",
+            "content": "DigiByteネットワーク上の取引は公開されていますが、疑似匿名です。ブロックチェーンエクスプローラで表示できますが、新しい取引/アドレスを最終ユーザーに関連付けるための固有の要素はありません。DigiByteネットワークを使用するにはユーザー名、メールアドレスなどは必要ありません。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #58 - Wussten Sie schon...",
+            "content": "Transaktionen im DigiByte-Netzwerk sind öffentlich, aber pseudonym. Sie können sie in einem Blockchain-Explorer sehen, es gibt jedoch grundsätzlich nichts, was eine neue Transaktion / Adresse mit einem Endbenutzer verknüpfen kann. Es sind keine Benutzernamen, E-Mail-Adressen usw. erforderlich, um das DigiByte-Netzwerk zu nutzen.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #58 - Saviez-vous que...",
+            "content": "Les transactions sur le réseau DigiByte sont publiques, mais pseudo-anonymes. Vous pouvez les voir sur un explorateur de blockchain, cependant, il n'y a rien intrinsèque qui puisse lier une nouvelle transaction / adresse à un utilisateur final. Aucun nom d'utilisateur, adresse e-mail, etc. n'est nécessaire pour utiliser le réseau DigiByte.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #58 - Você sabia...",
+            "content": "As transações na rede DigiByte são públicas, mas pseudoanônimas. Você pode vê-las em um explorador de Blockchain, no entanto, não há nada intrínseco que possa vincular uma nova transação/endereço a um usuário final. Não são necessários nomes de usuário, endereços de e-mail, etc., para usar a rede DigiByte.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #58 - क्या आप जानते थे...",
+            "content": "DigiByte नेटवर्क पर की जाने वाली लेन-देन सार्वजनिक होती है, लेकिन प्यूडो-गुमनाम होती है। आप उन्हें ब्लॉकचेन एक्सप्लोरर पर देख सकते हैं, हालांकि एक नई लेन-देन / पते को एक अंतयुजक से जोड़ने के लिए ऐसा कुछ है नहीं। DigiByte नेटवर्क का उपयोग करने के लिए उपयोगकर्ता नाम, ईमेल पते आदि की आवश्यकता नहीं होती है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #58 - Wist u dat...",
+            "content": "Transacties op het DigiByte-netwerk zijn openbaar, maar pseudo-anoniem. Je kunt ze zien op een Blockchain-verkenner, maar er is niets inherent dat een nieuwe transactie / adres kan koppelen aan een eindgebruiker. Er zijn geen gebruikersnamen, e-mailadressen, etc. nodig om het DigiByte-netwerk te gebruiken.",
+            "url": ""
+        }
+    },
+    "digifact59": {
+        "en": {
+            "title": "DigiFact # 59 - Did you know...",
+            "content": "DigiByte addresses can be re-used, but it's completely optional. The best practice is for a wallet to give you a new address each time after your previous address has received a transaction.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #59 - 你知道吗？",
+            "content": "DigiByte地址可以被重新使用，但这完全是可选的。最佳实践是在您的先前地址收到交易后，钱包每次都会为您提供一个新地址。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #59 - Знаете ли вы...",
+            "content": "Адреса DigiByte можно использовать повторно, но это полностью на усмотрение пользователя. Лучшая практика заключается в том, чтобы кошелек предоставлял вам новый адрес каждый раз после того, как ваш предыдущий адрес получил транзакцию.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #59 - ¿Sabías que...",
+            "content": "Las direcciones de DigiByte se pueden reutilizar, pero es completamente opcional. La mejor práctica es que una billetera le proporcione una nueva dirección cada vez después de que su dirección anterior haya recibido una transacción.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #59 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 주소는 재사용할 수 있지만, 이것은 완전히 선택 사항입니다. 최선의 실천 방법은 이전 주소가 거래를 받은 후에 매번 지갑이 새 주소를 제공하는 것입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #59 - ご存知でしたか...",
+            "content": "DigiByteアドレスは再利用できますが、これは完全にオプションです。最良の実践は、前のアドレスがトランザクションを受け取った後に、ウォレットが毎回新しいアドレスを提供することです。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #59 - Wussten Sie schon...",
+            "content": "DigiByte-Adressen können wiederverwendet werden, dies ist jedoch völlig optional. Die beste Praxis besteht darin, dass Ihnen eine Brieftasche jedes Mal nach Erhalt einer Transaktion eine neue Adresse gibt.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #59 - Saviez-vous que...",
+            "content": "Les adresses DigiByte peuvent être réutilisées, mais c'est complètement facultatif. La meilleure pratique consiste pour un portefeuille à vous donner une nouvelle adresse à chaque fois après que votre adresse précédente a reçu une transaction.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #59 - Você sabia...",
+            "content": "Os endereços DigiByte podem ser reutilizados, mas é completamente opcional. A melhor prática é que uma carteira lhe forneça um novo endereço a cada vez depois que seu endereço anterior tenha recebido uma transação.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #59 - क्या आप जानते थे...",
+            "content": "DigiByte पतों का पुनः उपयोग किया जा सकता है, लेकिन यह पूरी तरह से ऐच्छिक है। सबसे अच्छा अभ्यास है कि एक वॉलेट हर बार आपको एक नई पता प्रदान करे जब आपका पिछला पता एक लेन-देन प्राप्त करता है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #59 - Wist u dat...",
+            "content": "DigiByte-adressen kunnen opnieuw worden gebruikt, maar dit is volledig optioneel. De beste praktijk is dat een portemonnee u telkens een nieuw adres geeft nadat uw vorige adres een transactie heeft ontvangen.",
+            "url": ""
+        }
+    },
+    "digifact60": {
+        "en": {
+            "title": "DigiFact # 60 - Did you know...",
+            "content": "The source code for the DigiByte blockchain is completely open-source, anybody can see it, inspect it, and review it. The Core Wallet is available at: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "zh": {
+            "title": "数字事实 #60 - 你知道吗？",
+            "content": "DigiByte区块链的源代码完全开源，任何人都可以查看、检查和审查它。核心钱包可在以下网址获得：https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "ru": {
+            "title": "ДиджиФакт #60 - Знаете ли вы...",
+            "content": "Исходный код блокчейна DigiByte полностью открыт и доступен для просмотра, проверки и анализа. Основной кошелек доступен по следующему адресу: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "es": {
+            "title": "DigiDato #60 - ¿Sabías que...",
+            "content": "El código fuente de la cadena de bloques de DigiByte es completamente de código abierto, cualquiera puede verlo, inspeccionarlo y revisarlo. La Billetera Principal está disponible en: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "ko": {
+            "title": "디지팩트 #60 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 블록체인의 소스 코드는 완전히 오픈 소스로, 누구나 볼 수 있고 검토하고 검토할 수 있습니다. 코어 지갑은 다음 주소에서 사용할 수 있습니다: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "ja": {
+            "title": "デジファクト #60 - ご存知でしたか...",
+            "content": "DigiByteブロックチェーンのソースコードは完全にオープンソースで、誰でも見ること、検査すること、レビューすることができます。コアウォレットは以下のURLから利用可能です：https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "de": {
+            "title": "DigiFakt #60 - Wussten Sie schon...",
+            "content": "Der Quellcode für die DigiByte-Blockchain ist vollständig Open Source. Jeder kann ihn sehen, inspizieren und überprüfen. Die Core Wallet ist unter folgender Adresse verfügbar: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "fr": {
+            "title": "DigiFact #60 - Saviez-vous que...",
+            "content": "Le code source de la blockchain DigiByte est complètement open source, tout le monde peut le voir, l'inspecter et le réviser. Le portefeuille Core est disponible à l'adresse suivante : https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "pt": {
+            "title": "DigiFato #60 - Você sabia...",
+            "content": "O código-fonte da blockchain DigiByte é completamente open source, qualquer pessoa pode vê-lo, inspecioná-lo e revisá-lo. A Carteira Principal está disponível em: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #60 - क्या आप जानते थे...",
+            "content": "DigiByte ब्लॉकचेन के स्रोत कोड पूरी तरह से ओपन-सोर्स है, कोई भी इसे देख सकता है, जांच सकता है, और समीक्षा कर सकता है। कोर वॉलेट यहाँ उपलब्ध है: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "nl": {
+            "title": "DigiFeit #60 - Wist u dat...",
+            "content": "De broncode voor de DigiByte-blockchain is volledig open source, iedereen kan het zien, inspecteren en beoordelen. De Core Wallet is beschikbaar op: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
+        }
     }
 }
