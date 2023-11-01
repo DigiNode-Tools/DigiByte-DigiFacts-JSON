@@ -2387,5 +2387,119 @@
             "content": "MultiAlgo van DigiByte betekent dat 5x algoritmen continu concurreren voor elk afzonderlijk blok. Anderen, zoals X16R, zijn heel anders en roteren in plaats daarvan door elk subalgoritme, waarbij alle mijnwerkers omwisselen en datzelfde gebruiken. Daarom is X16R nog steeds een \"enkel algoritme\" in vergelijking met de 5x MultiAlgo-implementatie van DigiByte.",
             "url": ""
         }
-    }
+    },
+    "digifact43": {
+        "en": {
+          "title": "DigiFact # 43 - Did you know...",
+          "content": "The Dandelion privacy protocol was implemented in 2019, to help protect your privacy, by masking the originating IP address. To learn more about Dandelion, visit: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "zh": {
+          "title": "数字事实 #43 - 你知道吗？",
+          "content": "蒲公英隐私协议于2019年实施，旨在通过掩盖源IP地址来帮助保护您的隐私。要了解更多关于蒲公英的信息，请访问：https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "ru": {
+          "title": "ДиджиФакт #43 - Знаете ли вы...",
+          "content": "Протокол конфиденциальности Dandelion был реализован в 2019 году для защиты вашей конфиденциальности путем маскировки исходящего IP-адреса. Чтобы узнать больше о Dandelion, посетите: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "es": {
+          "title": "DigiDato #43 - ¿Sabías que...",
+          "content": "El protocolo de privacidad Dandelion se implementó en 2019 para ayudar a proteger tu privacidad enmascarando la dirección IP de origen. Para saber más sobre Dandelion, visita: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "ko": {
+          "title": "디지팩트 #43 - 혹시 알고 계셨나요...",
+          "content": "민들레(Dandelion) 개인 정보 보호 프로토콜은 2019년에 구현되어 원래 IP 주소를 숨김으로써 귀하의 개인 정보를 보호하는 데 도움을 줍니다. 민들레에 대해 자세히 알아보려면 다음을 방문하세요: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "ja": {
+          "title": "デジファクト #43 - ご存知でしたか...",
+          "content": "ダンデライオンプライバシープロトコルは2019年に実装され、発信元のIPアドレスをマスキングすることでプライバシーを保護するのに役立ちます。ダンデライオンについてもっと知るには、こちらを訪問してください: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "de": {
+          "title": "DigiFakt #43 - Wussten Sie schon...",
+          "content": "Das Dandelion-Datenschutzprotokoll wurde 2019 implementiert, um Ihre Privatsphäre zu schützen, indem es die ursprüngliche IP-Adresse verschleiert. Um mehr über Dandelion zu erfahren, besuchen Sie: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "fr": {
+          "title": "DigiFact #43 - Saviez-vous que...",
+          "content": "Le protocole de confidentialité Dandelion a été mis en œuvre en 2019 pour aider à protéger votre vie privée en masquant l'adresse IP d'origine. Pour en savoir plus sur Dandelion, visitez : https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "pt": {
+          "title": "DigiFato #43 - Você sabia...",
+          "content": "O protocolo de privacidade Dandelion foi implementado em 2019, para ajudar a proteger sua privacidade, mascarando o endereço IP de origem. Para saber mais sobre o Dandelion, visite: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "hi": {
+          "title": "डिजीफैक्ट #43 - क्या आप जानते थे...",
+          "content": "डैंडेलियन प्राइवेसी प्रोटोकॉल को 2019 में लागू किया गया था, ताकि आपकी गोपनीयता की रक्षा की जा सके, मूल IP पते को मास्क करके। डैंडेलियन के बारे में और जानने के लिए, देखें: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        },
+        "nl": {
+          "title": "DigiFeit #43 - Wist u dat...",
+          "content": "Het Dandelion-privacyprotocol werd in 2019 geïmplementeerd om uw privacy te helpen beschermen door het maskeren van het oorspronkelijke IP-adres. Om meer te weten te komen over Dandelion, bezoek: https://j.mp/3Hag6AX",
+          "url": "https://j.mp/3Hag6AX"
+        }
+      },
+      "digifact44": {
+        "en": {
+          "title": "DigiFact # 44 - Did you know...",
+          "content": "MultiShield is a powerful difficulty adjustment algorithm. It ensures each of DigiBytes 5X algorithms all mine roughly an equal amount of blocks, while maintaining a steady 15 second timing. What is MultiShield? Learn more here: [link]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "zh": {
+          "title": "数字事实 #44 - 你知道吗？",
+          "content": "MultiShield是一个强大的难度调整算法。它确保DigiByte的每一个5X算法都大致挖掘相等数量的区块，同时保持稳定的15秒时序。什么是MultiShield？在这里了解更多：[链接]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "ru": {
+          "title": "ДиджиФакт #44 - Знаете ли вы...",
+          "content": "MultiShield — это мощный алгоритм корректировки сложности. Он обеспечивает добычу примерно равного количества блоков каждым из 5X алгоритмов DigiByte, поддерживая стабильное время в 15 секунд. Что такое MultiShield? Узнайте больше здесь: [ссылка]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "es": {
+          "title": "DigiDato #44 - ¿Sabías que...",
+          "content": "MultiShield es un poderoso algoritmo de ajuste de dificultad. Asegura que cada uno de los algoritmos 5X de DigiByte minen aproximadamente la misma cantidad de bloques, manteniendo un tiempo constante de 15 segundos. ¿Qué es MultiShield? Aprende más aquí: [enlace]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "ko": {
+          "title": "디지팩트 #44 - 혹시 알고 계셨나요...",
+          "content": "MultiShield는 강력한 난이도 조절 알고리즘입니다. 이것은 DigiByte의 각 5X 알고리즘이 대략 동일한 양의 블록을 채굴하면서도 일정한 15초 타이밍을 유지하도록 합니다. MultiShield란 무엇인가요? 여기서 더 알아보세요: [링크]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "ja": {
+          "title": "デジファクト #44 - ご存知でしたか...",
+          "content": "MultiShieldは強力な難易度調整アルゴリズムです。これにより、DigiByteの5X各アルゴリズムがほぼ等しい数のブロックをマイニングし、一貫した15秒のタイミングを維持します。MultiShieldとは何か？こちらで詳しく学ぶ：[リンク]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "de": {
+          "title": "DigiFakt #44 - Wussten Sie schon...",
+          "content": "MultiShield ist ein leistungsstarker Schwierigkeitsanpassungsalgorithmus. Es gewährleistet, dass jeder der 5X Algorithmen von DigiByte ungefähr die gleiche Anzahl von Blöcken abbaut, während eine gleichbleibende Zeit von 15 Sekunden beibehalten wird. Was ist MultiShield? Erfahren Sie hier mehr: [Link]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "fr": {
+          "title": "DigiFact #44 - Saviez-vous que...",
+          "content": "MultiShield est un algorithme de réglage de difficulté puissant. Il garantit que chacun des algorithmes 5X de DigiByte mine à peu près la même quantité de blocs tout en maintenant un timing régulier de 15 secondes. Qu'est-ce que MultiShield ? En savoir plus ici : [lien]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "pt": {
+          "title": "DigiFato #44 - Você sabia...",
+          "content": "MultiShield é um poderoso algoritmo de ajuste de dificuldade. Ele garante que cada um dos algoritmos 5X da DigiByte minere aproximadamente a mesma quantidade de blocos, mantendo um tempo constante de 15 segundos. O que é MultiShield? Saiba mais aqui: [link]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "hi": {
+          "title": "डिजीफैक्ट #44 - क्या आप जानते थे...",
+          "content": "MultiShield एक शक्तिशाली कठिनाई समायोजन एल्गोरिथ्म है। यह सुनिश्चित करता है कि DigiByte के प्रत्येक 5X एल्गोरिथ्म लगभग समान मात्रा में ब्लॉक का खनन करते हैं, जबकि 15 सेकंड की स्थिर टाइमिंग बनाए रखते हैं। MultiShield क्या है? यहाँ और जानें: [लिंक]",
+          "url": "https://j.mp/3oivy5u"
+        },
+        "nl": {
+          "title": "DigiFeit #44 - Wist u dat...",
+          "content": "MultiShield is een krachtig algoritme voor moeilijkheidsaanpassing. Het zorgt ervoor dat elk van de 5X algoritmes van DigiByte ongeveer evenveel blokken delven, terwijl een stabiele timing van 15 seconden wordt gehandhaafd. Wat is MultiShield? Leer hier meer: [link]",
+          "url": "https://j.mp/3oivy5u"
+        }
+      } 
 }
