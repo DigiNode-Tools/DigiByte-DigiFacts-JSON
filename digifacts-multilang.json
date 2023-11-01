@@ -2390,116 +2390,455 @@
     },
     "digifact43": {
         "en": {
-          "title": "DigiFact # 43 - Did you know...",
-          "content": "The Dandelion privacy protocol was implemented in 2019, to help protect your privacy, by masking the originating IP address. To learn more about Dandelion, visit: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "DigiFact # 43 - Did you know...",
+            "content": "The Dandelion privacy protocol was implemented in 2019, to help protect your privacy, by masking the originating IP address. To learn more about Dandelion, visit: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "zh": {
-          "title": "数字事实 #43 - 你知道吗？",
-          "content": "蒲公英隐私协议于2019年实施，旨在通过掩盖源IP地址来帮助保护您的隐私。要了解更多关于蒲公英的信息，请访问：https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "数字事实 #43 - 你知道吗？",
+            "content": "蒲公英隐私协议于2019年实施，旨在通过掩盖源IP地址来帮助保护您的隐私。要了解更多关于蒲公英的信息，请访问：https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "ru": {
-          "title": "ДиджиФакт #43 - Знаете ли вы...",
-          "content": "Протокол конфиденциальности Dandelion был реализован в 2019 году для защиты вашей конфиденциальности путем маскировки исходящего IP-адреса. Чтобы узнать больше о Dandelion, посетите: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "ДиджиФакт #43 - Знаете ли вы...",
+            "content": "Протокол конфиденциальности Dandelion был реализован в 2019 году для защиты вашей конфиденциальности путем маскировки исходящего IP-адреса. Чтобы узнать больше о Dandelion, посетите: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "es": {
-          "title": "DigiDato #43 - ¿Sabías que...",
-          "content": "El protocolo de privacidad Dandelion se implementó en 2019 para ayudar a proteger tu privacidad enmascarando la dirección IP de origen. Para saber más sobre Dandelion, visita: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "DigiDato #43 - ¿Sabías que...",
+            "content": "El protocolo de privacidad Dandelion se implementó en 2019 para ayudar a proteger tu privacidad enmascarando la dirección IP de origen. Para saber más sobre Dandelion, visita: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "ko": {
-          "title": "디지팩트 #43 - 혹시 알고 계셨나요...",
-          "content": "민들레(Dandelion) 개인 정보 보호 프로토콜은 2019년에 구현되어 원래 IP 주소를 숨김으로써 귀하의 개인 정보를 보호하는 데 도움을 줍니다. 민들레에 대해 자세히 알아보려면 다음을 방문하세요: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "디지팩트 #43 - 혹시 알고 계셨나요...",
+            "content": "민들레(Dandelion) 개인 정보 보호 프로토콜은 2019년에 구현되어 원래 IP 주소를 숨김으로써 귀하의 개인 정보를 보호하는 데 도움을 줍니다. 민들레에 대해 자세히 알아보려면 다음을 방문하세요: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "ja": {
-          "title": "デジファクト #43 - ご存知でしたか...",
-          "content": "ダンデライオンプライバシープロトコルは2019年に実装され、発信元のIPアドレスをマスキングすることでプライバシーを保護するのに役立ちます。ダンデライオンについてもっと知るには、こちらを訪問してください: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "デジファクト #43 - ご存知でしたか...",
+            "content": "ダンデライオンプライバシープロトコルは2019年に実装され、発信元のIPアドレスをマスキングすることでプライバシーを保護するのに役立ちます。ダンデライオンについてもっと知るには、こちらを訪問してください: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "de": {
-          "title": "DigiFakt #43 - Wussten Sie schon...",
-          "content": "Das Dandelion-Datenschutzprotokoll wurde 2019 implementiert, um Ihre Privatsphäre zu schützen, indem es die ursprüngliche IP-Adresse verschleiert. Um mehr über Dandelion zu erfahren, besuchen Sie: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "DigiFakt #43 - Wussten Sie schon...",
+            "content": "Das Dandelion-Datenschutzprotokoll wurde 2019 implementiert, um Ihre Privatsphäre zu schützen, indem es die ursprüngliche IP-Adresse verschleiert. Um mehr über Dandelion zu erfahren, besuchen Sie: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "fr": {
-          "title": "DigiFact #43 - Saviez-vous que...",
-          "content": "Le protocole de confidentialité Dandelion a été mis en œuvre en 2019 pour aider à protéger votre vie privée en masquant l'adresse IP d'origine. Pour en savoir plus sur Dandelion, visitez : https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "DigiFact #43 - Saviez-vous que...",
+            "content": "Le protocole de confidentialité Dandelion a été mis en œuvre en 2019 pour aider à protéger votre vie privée en masquant l'adresse IP d'origine. Pour en savoir plus sur Dandelion, visitez : https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "pt": {
-          "title": "DigiFato #43 - Você sabia...",
-          "content": "O protocolo de privacidade Dandelion foi implementado em 2019, para ajudar a proteger sua privacidade, mascarando o endereço IP de origem. Para saber mais sobre o Dandelion, visite: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "DigiFato #43 - Você sabia...",
+            "content": "O protocolo de privacidade Dandelion foi implementado em 2019, para ajudar a proteger sua privacidade, mascarando o endereço IP de origem. Para saber mais sobre o Dandelion, visite: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "hi": {
-          "title": "डिजीफैक्ट #43 - क्या आप जानते थे...",
-          "content": "डैंडेलियन प्राइवेसी प्रोटोकॉल को 2019 में लागू किया गया था, ताकि आपकी गोपनीयता की रक्षा की जा सके, मूल IP पते को मास्क करके। डैंडेलियन के बारे में और जानने के लिए, देखें: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "डिजीफैक्ट #43 - क्या आप जानते थे...",
+            "content": "डैंडेलियन प्राइवेसी प्रोटोकॉल को 2019 में लागू किया गया था, ताकि आपकी गोपनीयता की रक्षा की जा सके, मूल IP पते को मास्क करके। डैंडेलियन के बारे में और जानने के लिए, देखें: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         },
         "nl": {
-          "title": "DigiFeit #43 - Wist u dat...",
-          "content": "Het Dandelion-privacyprotocol werd in 2019 geïmplementeerd om uw privacy te helpen beschermen door het maskeren van het oorspronkelijke IP-adres. Om meer te weten te komen over Dandelion, bezoek: https://j.mp/3Hag6AX",
-          "url": "https://j.mp/3Hag6AX"
+            "title": "DigiFeit #43 - Wist u dat...",
+            "content": "Het Dandelion-privacyprotocol werd in 2019 geïmplementeerd om uw privacy te helpen beschermen door het maskeren van het oorspronkelijke IP-adres. Om meer te weten te komen over Dandelion, bezoek: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         }
-      },
-      "digifact44": {
+    },
+    "digifact44": {
         "en": {
-          "title": "DigiFact # 44 - Did you know...",
-          "content": "MultiShield is a powerful difficulty adjustment algorithm. It ensures each of DigiBytes 5X algorithms all mine roughly an equal amount of blocks, while maintaining a steady 15 second timing. What is MultiShield? Learn more here: [link]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "DigiFact # 44 - Did you know...",
+            "content": "MultiShield is a powerful difficulty adjustment algorithm. It ensures each of DigiBytes 5X algorithms all mine roughly an equal amount of blocks, while maintaining a steady 15 second timing. What is MultiShield? Learn more here: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "zh": {
-          "title": "数字事实 #44 - 你知道吗？",
-          "content": "MultiShield是一个强大的难度调整算法。它确保DigiByte的每一个5X算法都大致挖掘相等数量的区块，同时保持稳定的15秒时序。什么是MultiShield？在这里了解更多：[链接]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "数字事实 #44 - 你知道吗？",
+            "content": "MultiShield是一个强大的难度调整算法。它确保DigiByte的每一个5X算法都大致挖掘相等数量的区块，同时保持稳定的15秒时序。什么是MultiShield？在这里了解更多：https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "ru": {
-          "title": "ДиджиФакт #44 - Знаете ли вы...",
-          "content": "MultiShield — это мощный алгоритм корректировки сложности. Он обеспечивает добычу примерно равного количества блоков каждым из 5X алгоритмов DigiByte, поддерживая стабильное время в 15 секунд. Что такое MultiShield? Узнайте больше здесь: [ссылка]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "ДиджиФакт #44 - Знаете ли вы...",
+            "content": "MultiShield — это мощный алгоритм корректировки сложности. Он обеспечивает добычу примерно равного количества блоков каждым из 5X алгоритмов DigiByte, поддерживая стабильное время в 15 секунд. Что такое MultiShield? Узнайте больше здесь: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "es": {
-          "title": "DigiDato #44 - ¿Sabías que...",
-          "content": "MultiShield es un poderoso algoritmo de ajuste de dificultad. Asegura que cada uno de los algoritmos 5X de DigiByte minen aproximadamente la misma cantidad de bloques, manteniendo un tiempo constante de 15 segundos. ¿Qué es MultiShield? Aprende más aquí: [enlace]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "DigiDato #44 - ¿Sabías que...",
+            "content": "MultiShield es un poderoso algoritmo de ajuste de dificultad. Asegura que cada uno de los algoritmos 5X de DigiByte minen aproximadamente la misma cantidad de bloques, manteniendo un tiempo constante de 15 segundos. ¿Qué es MultiShield? Aprende más aquí: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "ko": {
-          "title": "디지팩트 #44 - 혹시 알고 계셨나요...",
-          "content": "MultiShield는 강력한 난이도 조절 알고리즘입니다. 이것은 DigiByte의 각 5X 알고리즘이 대략 동일한 양의 블록을 채굴하면서도 일정한 15초 타이밍을 유지하도록 합니다. MultiShield란 무엇인가요? 여기서 더 알아보세요: [링크]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "디지팩트 #44 - 혹시 알고 계셨나요...",
+            "content": "MultiShield는 강력한 난이도 조절 알고리즘입니다. 이것은 DigiByte의 각 5X 알고리즘이 대략 동일한 양의 블록을 채굴하면서도 일정한 15초 타이밍을 유지하도록 합니다. MultiShield란 무엇인가요? 여기서 더 알아보세요: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "ja": {
-          "title": "デジファクト #44 - ご存知でしたか...",
-          "content": "MultiShieldは強力な難易度調整アルゴリズムです。これにより、DigiByteの5X各アルゴリズムがほぼ等しい数のブロックをマイニングし、一貫した15秒のタイミングを維持します。MultiShieldとは何か？こちらで詳しく学ぶ：[リンク]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "デジファクト #44 - ご存知でしたか...",
+            "content": "MultiShieldは強力な難易度調整アルゴリズムです。これにより、DigiByteの5X各アルゴリズムがほぼ等しい数のブロックをマイニングし、一貫した15秒のタイミングを維持します。MultiShieldとは何か？こちらで詳しく学ぶ：https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "de": {
-          "title": "DigiFakt #44 - Wussten Sie schon...",
-          "content": "MultiShield ist ein leistungsstarker Schwierigkeitsanpassungsalgorithmus. Es gewährleistet, dass jeder der 5X Algorithmen von DigiByte ungefähr die gleiche Anzahl von Blöcken abbaut, während eine gleichbleibende Zeit von 15 Sekunden beibehalten wird. Was ist MultiShield? Erfahren Sie hier mehr: [Link]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "DigiFakt #44 - Wussten Sie schon...",
+            "content": "MultiShield ist ein leistungsstarker Schwierigkeitsanpassungsalgorithmus. Es gewährleistet, dass jeder der 5X Algorithmen von DigiByte ungefähr die gleiche Anzahl von Blöcken abbaut, während eine gleichbleibende Zeit von 15 Sekunden beibehalten wird. Was ist MultiShield? Erfahren Sie hier mehr: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "fr": {
-          "title": "DigiFact #44 - Saviez-vous que...",
-          "content": "MultiShield est un algorithme de réglage de difficulté puissant. Il garantit que chacun des algorithmes 5X de DigiByte mine à peu près la même quantité de blocs tout en maintenant un timing régulier de 15 secondes. Qu'est-ce que MultiShield ? En savoir plus ici : [lien]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "DigiFact #44 - Saviez-vous que...",
+            "content": "MultiShield est un algorithme de réglage de difficulté puissant. Il garantit que chacun des algorithmes 5X de DigiByte mine à peu près la même quantité de blocs tout en maintenant un timing régulier de 15 secondes. Qu'est-ce que MultiShield ? En savoir plus ici : https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "pt": {
-          "title": "DigiFato #44 - Você sabia...",
-          "content": "MultiShield é um poderoso algoritmo de ajuste de dificuldade. Ele garante que cada um dos algoritmos 5X da DigiByte minere aproximadamente a mesma quantidade de blocos, mantendo um tempo constante de 15 segundos. O que é MultiShield? Saiba mais aqui: [link]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "DigiFato #44 - Você sabia...",
+            "content": "MultiShield é um poderoso algoritmo de ajuste de dificuldade. Ele garante que cada um dos algoritmos 5X da DigiByte minere aproximadamente a mesma quantidade de blocos, mantendo um tempo constante de 15 segundos. O que é MultiShield? Saiba mais aqui: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "hi": {
-          "title": "डिजीफैक्ट #44 - क्या आप जानते थे...",
-          "content": "MultiShield एक शक्तिशाली कठिनाई समायोजन एल्गोरिथ्म है। यह सुनिश्चित करता है कि DigiByte के प्रत्येक 5X एल्गोरिथ्म लगभग समान मात्रा में ब्लॉक का खनन करते हैं, जबकि 15 सेकंड की स्थिर टाइमिंग बनाए रखते हैं। MultiShield क्या है? यहाँ और जानें: [लिंक]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "डिजीफैक्ट #44 - क्या आप जानते थे...",
+            "content": "MultiShield एक शक्तिशाली कठिनाई समायोजन एल्गोरिथ्म है। यह सुनिश्चित करता है कि DigiByte के प्रत्येक 5X एल्गोरिथ्म लगभग समान मात्रा में ब्लॉक का खनन करते हैं, जबकि 15 सेकंड की स्थिर टाइमिंग बनाए रखते हैं। MultiShield क्या है? यहाँ और जानें: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         },
         "nl": {
-          "title": "DigiFeit #44 - Wist u dat...",
-          "content": "MultiShield is een krachtig algoritme voor moeilijkheidsaanpassing. Het zorgt ervoor dat elk van de 5X algoritmes van DigiByte ongeveer evenveel blokken delven, terwijl een stabiele timing van 15 seconden wordt gehandhaafd. Wat is MultiShield? Leer hier meer: [link]",
-          "url": "https://j.mp/3oivy5u"
+            "title": "DigiFeit #44 - Wist u dat...",
+            "content": "MultiShield is een krachtig algoritme voor moeilijkheidsaanpassing. Het zorgt ervoor dat elk van de 5X algoritmes van DigiByte ongeveer evenveel blokken delven, terwijl een stabiele timing van 15 seconden wordt gehandhaafd. Wat is MultiShield? Leer hier meer: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         }
-      } 
+    },
+    "digifact45": {
+        "en": {
+            "title": "DigiFact # 45 - Did you know...",
+            "content": "Because of MultiShield, DigiByte has some of the most accurate and stable block-timings. Where other projects usually wait for 3-4 days to adjust, MultiShield tweaks, adjusts & refines every single block. Learn more here: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "zh": {
+            "title": "数字事实 #45 - 你知道吗？",
+            "content": "由于MultiShield，DigiByte拥有一些最准确和稳定的区块时间。其他项目通常需要等待3-4天进行调整，而MultiShield会对每个单独的区块进行微调、调整和精炼。了解更多信息请访问：https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ru": {
+            "title": "ДиджиФакт #45 - Знаете ли вы...",
+            "content": "Благодаря MultiShield, DigiByte имеет одно из самых точных и стабильных времен блоков. Где другие проекты обычно ждут 3-4 дня для корректировки, MultiShield настраивает и уточняет каждый блок. Узнайте больше здесь: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "es": {
+            "title": "DigiDato #45 - ¿Sabías que...",
+            "content": "Gracias a MultiShield, DigiByte tiene algunos de los tiempos de bloque más precisos y estables. Mientras que otros proyectos suelen esperar 3-4 días para ajustarse, MultiShield retoca, ajusta y refina cada bloque individual. Aprende más aquí: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ko": {
+            "title": "디지팩트 #45 - 혹시 알고 계셨나요...",
+            "content": "MultiShield 덕분에 DigiByte는 가장 정확하고 안정적인 블록 타이밍을 가지고 있습니다. 다른 프로젝트들이 보통 3-4일을 기다려 조정하는 동안, MultiShield는 모든 단일 블록을 조정하고 미세 조정합니다. 여기에서 더 알아보기: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ja": {
+            "title": "デジファクト #45 - ご存知でしたか...",
+            "content": "MultiShieldのおかげで、DigiByteには非常に正確で安定したブロックタイミングがあります。他のプロジェクトが通常3-4日待って調整するところ、MultiShieldは各ブロックごとに微調整と調整を行います。こちらで詳しく学びましょう：https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "de": {
+            "title": "DigiFakt #45 - Wussten Sie schon...",
+            "content": "Dank MultiShield hat DigiByte einige der genauesten und stabilsten Blockzeiten. Während andere Projekte normalerweise 3-4 Tage auf eine Anpassung warten, optimiert, adjustiert und verfeinert MultiShield jeden einzelnen Block. Erfahren Sie hier mehr: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "fr": {
+            "title": "DigiFact #45 - Saviez-vous que...",
+            "content": "Grâce à MultiShield, DigiByte possède certains des temps de bloc les plus précis et stables. Là où d'autres projets attendent généralement 3 à 4 jours pour s'ajuster, MultiShield peaufine, ajuste et affine chaque bloc. En savoir plus ici : https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "pt": {
+            "title": "DigiFato #45 - Você sabia...",
+            "content": "Por causa do MultiShield, o DigiByte possui alguns dos tempos de bloco mais precisos e estáveis. Enquanto outros projetos geralmente esperam 3-4 dias para se ajustar, o MultiShield faz ajustes e refinamentos em cada bloco. Saiba mais aqui: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #45 - क्या आप जानते थे...",
+            "content": "MultiShield के कारण, DigiByte में सबसे सटीक और स्थिर ब्लॉक-टाइमिंग्स में से कुछ हैं। जहां अन्य परियोजनाएं आमतौर पर 3-4 दिनों का इंतजार करती हैं तो समायोजित करने के लिए, MultiShield हर एक ब्लॉक को समायोजित करता है और परिष्कृत करता है। यहाँ और जानें: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "nl": {
+            "title": "DigiFeit #45 - Wist u dat...",
+            "content": "Dankzij MultiShield heeft DigiByte enkele van de meest nauwkeurige en stabiele block-timing. Waar andere projecten meestal 3-4 dagen wachten om aan te passen, voert MultiShield aanpassingen en verfijningen uit voor elk individueel block. Leer hier meer: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        }
+    },
+    "digifact46": {
+        "en": {
+            "title": "DigiFact # 46 - Did you know...",
+            "content": "DigiByte was the first major blockchain project to enable the Dandelion privacy protocol, to protect your IP address. You can opt out of the privacy-protection it offers if you want even faster transactions. To learn more about Dandelion, visit: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "zh": {
+            "title": "数字事实 #46 - 你知道吗？",
+            "content": "DigiByte是第一个启用蒲公英隐私协议以保护您的IP地址的重要区块链项目。如果您希望进行更快的交易，您可以选择不使用其提供的隐私保护。要了解更多关于蒲公英的信息，请访问：https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "ru": {
+            "title": "ДиджиФакт #46 - Знаете ли вы...",
+            "content": "DigiByte был первым крупным блокчейн-проектом, который включил приватность по протоколу Dandelion, чтобы защитить ваш IP-адрес. Вы можете отказаться от предлагаемой им защиты конфиденциальности, если хотите еще более быстрых транзакций. Для получения дополнительной информации о Dandelion посетите: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "es": {
+            "title": "DigiDato #46 - ¿Sabías que...",
+            "content": "DigiByte fue el primer proyecto importante de blockchain en habilitar el protocolo de privacidad Dandelion para proteger tu dirección IP. Puedes optar por no utilizar la protección de privacidad que ofrece si deseas transacciones aún más rápidas. Para obtener más información sobre Dandelion, visita: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "ko": {
+            "title": "디지팩트 #46 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 IP 주소를 보호하기 위한 덴델리온 프라이버시 프로토콜을 활성화한 최초의 주요 블록체인 프로젝트였습니다. 더 빠른 거래를 원하는 경우 개인 정보 보호를 사용하지 않을 수 있습니다. 덴델리온에 대한 자세한 정보는 다음을 방문하십시오: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "ja": {
+            "title": "デジファクト #46 - ご存知でしたか...",
+            "content": "DigiByteのMultiAlgoは、5つのアルゴリズムがすべての単一ブロックに対して絶えず競争することを意味します。X16Rのような他のものは非常に異なり、代わりに各サブアルゴリズムを順番に使用し、すべてのマイナーが同じものを交換して使用します。したがって、X16RはDigiByteの5倍のMultiAlgo実装と比較して依然として「単一のアルゴリズム」です。",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "de": {
+            "title": "DigiFakt #46 - Wussten Sie schon...",
+            "content": "MultiAlgo von DigiByte bedeutet, dass 5x Algorithmen kontinuierlich um jeden einzelnen Block konkurrieren. Andere, wie X16R, sind sehr unterschiedlich, sie rotieren stattdessen durch jeden Unter-Algorithmus, wobei alle Miner das Gleiche verwenden und austauschen. So ist X16R im Vergleich zur 5x MultiAlgo-Implementierung von DigiByte immer noch ein \"einzelner Algorithmus\".",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "fr": {
+            "title": "DigiFact #46 - Saviez-vous que...",
+            "content": "Le MultiAlgo de DigiByte signifie que 5 algorithmes concourent en continu pour chaque bloc unique. D'autres, comme X16R, sont très différents, faisant plutôt tourner chaque sous-algorithme, tous les mineurs échangeant et utilisant le même. Ainsi, X16R est toujours un \"algorithme unique\" comparé à la mise en œuvre MultiAlgo 5x de DigiByte.",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "pt": {
+            "title": "DigiFato #46 - Você sabia...",
+            "content": "O MultiAlgo da DigiByte significa que 5 algoritmos competem continuamente por cada bloco. Outros, como o X16R, são muito diferentes, em vez disso, rotacionam através de cada subalgoritmo, com todos os mineradores trocando e usando o mesmo. Assim, X16R ainda é um \"algoritmo único\" comparado com a implementação MultiAlgo 5x da DigiByte.",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #46 - क्या आप जानते थे...",
+            "content": "DigiByte का MultiAlgo का मतलब है कि 5 गुना एल्गोरिदम हर एक ब्लॉक के लिए निरंतर प्रतिस्पर्धा करते हैं। अन्य जैसे कि X16R बहुत भिन्न हैं, इसके बजाय हर एक सब-एल्गोरिदम के माध्यम से घूमते हैं, सभी माइनर्स उसी को बदलते और इस्तेमाल करते हैं। इस प्रकार, X16R अभी भी DigiByte के 5x MultiAlgo कार्यान्वयन की तुलना में \"एकल एल्गोरिदम\" है।",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "nl": {
+            "title": "DigiFeit #46 - Wist u dat...",
+            "content": "DigiByte was het eerste grote blockchain-project dat het Dandelion-privacyprotocol inschakelde om uw IP-adres te beschermen. U kunt ervoor kiezen om geen gebruik te maken van de privacybescherming die het biedt als u nog snellere transacties wilt. Voor meer informatie over Dandelion, bezoek: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
+        }
+    },
+    "digifact47": {
+        "en": {
+            "title": "DigiFact # 47 - Did you know...",
+            "content": "DigiByte is all about choice, and what works for you personally. DigiByte is available on over two dozen wallets, so there's something that will fit everyone's requirements.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #47 - 你知道吗？",
+            "content": "DigiByte全都是关于选择，以及对您个人有效的选择。DigiByte在两打以上的钱包上可用，因此一定有适合每个人需求的东西。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #47 - Знаете ли вы...",
+            "content": "DigiByte - это выбор каждого и то, что работает лично для вас. DigiByte доступен на более чем двух десятках кошельков, так что всегда найдется что-то, что подходит всем.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #47 - ¿Sabías que...",
+            "content": "DigiByte se trata de la elección y de lo que funciona para ti personalmente. DigiByte está disponible en más de dos docenas de billeteras, por lo que siempre hay algo que se adapta a las necesidades de todos.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #47 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 선택의 문제이며 개인적으로 어떤 것이 동작하는지에 대한 것입니다. DigiByte는 2십 개 이상의 지갑에서 사용할 수 있으므로 모든 사람의 요구 사항에 맞는 것이 있을 것입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #47 - ご存知でしたか...",
+            "content": "DigiByteは選択肢についてであり、個人的には何がうまくいくかです。 DigiByteは2ダース以上のウォレットで利用可能で、だからこそ誰にでも合ったものがあるでしょう。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #47 - Wussten Sie schon...",
+            "content": "DigiByte dreht sich alles um die Wahl und um das, was persönlich für Sie funktioniert. DigiByte ist auf über zwei Dutzend Brieftaschen verfügbar, sodass für jeden etwas Passendes dabei ist.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #47 - Saviez-vous que...",
+            "content": "DigiByte, c'est le choix et ce qui fonctionne pour vous personnellement. DigiByte est disponible sur plus de deux douzaines de portefeuilles, il y a donc toujours quelque chose qui correspond aux besoins de chacun.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #47 - Você sabia...",
+            "content": "O DigiByte trata-se de escolha e do que funciona para você pessoalmente. O DigiByte está disponível em mais de duas dúzias de carteiras, portanto, há algo que atenderá a todos os requisitos.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #47 - क्या आप जानते थे...",
+            "content": "डिजीबाइट के बारे में सब बदल रहा है, और यह आपके व्यक्तिगत चयन और काम करने वाली चीज़ के बारे में है। डिजीबाइट दो डोज़न से अधिक वॉलेट पर उपलब्ध है, इसलिए सभी की आवश्यकताओं को पूरा करने वाली कुछ बातें हैं।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #47 - Wist u dat...",
+            "content": "DigiByte draait allemaal om keuze, en wat persoonlijk voor jou werkt. DigiByte is beschikbaar op meer dan twee dozijn portefeuilles, dus er is altijd iets dat aan ieders eisen voldoet.",
+            "url": ""
+        }
+    },
+    "digifact48": {
+        "en": {
+            "title": "DigiFact # 48 - Did you know...",
+            "content": "DigiByte originally had 60 second block timings, however through multiple network upgrades that were improved upon, first to 30, and now to the 15 seconds it is today.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #48 - 你知道吗？",
+            "content": "DigiByte最初的区块时间是60秒，然而通过多次网络升级的改进，首先变为30秒，现在是15秒。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #48 - Знаете ли вы...",
+            "content": "Изначально DigiByte имел 60-секундные интервалы между блоками, однако благодаря нескольким улучшениям сети, сначала они сократились до 30 секунд, а сейчас составляют 15 секунд.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #48 - ¿Sabías que...",
+            "content": "DigiByte originalmente tenía intervalos de bloque de 60 segundos, sin embargo, gracias a múltiples mejoras en la red, primero se redujeron a 30 segundos y ahora son de 15 segundos.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #48 - 혹시 알고 계셨나요...",
+            "content": "DigiByte의 원래 블록 시간은 60초였지만, 여러 번의 네트워크 업그레이드를 통해 먼저 30초로 줄어들고, 현재는 15초입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #48 - ご存知でしたか...",
+            "content": "DigiByteの元々のブロックタイミングは60秒でしたが、複数のネットワークアップグレードにより、まず30秒に、そして現在は15秒に短縮されました。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #48 - Wussten Sie schon...",
+            "content": "DigiByte hatte ursprünglich 60-sekündige Blockzeiten, jedoch wurden sie durch mehrere Netzwerk-Upgrades, zunächst auf 30 Sekunden und jetzt auf 15 Sekunden, verbessert.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #48 - Saviez-vous que...",
+            "content": "DigiByte avait initialement des intervalles de bloc de 60 secondes, mais grâce à de multiples mises à niveau du réseau, ils sont d'abord passés à 30 secondes, puis à 15 secondes, comme c'est le cas aujourd'hui.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #48 - Você sabia...",
+            "content": "O DigiByte originalmente tinha intervalos de bloco de 60 segundos, no entanto, através de múltiplas atualizações de rede que foram aprimoradas, primeiro para 30 e agora para os 15 segundos de hoje.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #48 - क्या आप जानते थे...",
+            "content": "डिजीबाइट की मूल ब्लॉक टाइमिंग 60 सेकंड थी, हालांकि कई नेटवर्क अपग्रेड के माध्यम से जोरदार सुधार किए गए, पहले 30 सेकंड और अब आजकल के 15 सेकंड में कम हो गए हैं।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #48 - Wist u dat...",
+            "content": "DigiByte had oorspronkelijk bloktijden van 60 seconden, maar dankzij meerdere netwerkupgrades die werden verbeterd, eerst naar 30 seconden en nu naar de 15 seconden van vandaag."
+        }
+    },
+    "digifact49": {
+        "en": {
+            "title": "DigiFact # 49 - Did you know...",
+            "content": "DigiByte has had 100% uptime since its launch. While some people restart their computers from time to time, hundreds of others remain online all the time so that even in the event of a major nationwide internet outage, DigiByte would still continue to function.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #49 - 你知道吗？",
+            "content": "自推出以来，DigiByte的正常运行时间已达100％。虽然有些人不时重新启动他们的计算机，但仍有数百人一直在线，以便即使在全国范围内发生重大互联网故障的情况下，DigiByte仍将继续运行。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #49 - Знаете ли вы...",
+            "content": "С момента запуска DigiByte, у него было 100% времени активной работы. В то время как некоторые люди время от времени перезагружают свои компьютеры, сотни других остаются онлайн постоянно, так что даже в случае крупного национального отключения интернета, DigiByte продолжит функционировать.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #49 - ¿Sabías que...",
+            "content": "DigiByte ha tenido un tiempo de actividad del 100% desde su lanzamiento. Mientras algunas personas reinician sus computadoras de vez en cuando, cientos de otras permanecen en línea todo el tiempo, de modo que incluso en caso de un importante apagón de Internet a nivel nacional, DigiByte seguiría funcionando.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #49 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 시작 이후 100% 가동 시간을 유지해왔습니다. 일부 사람들은 가끔 컴퓨터를 다시 시작하지만, 수백 명의 다른 사람들은 항상 온라인 상태로 유지하여 심지어 국가적인 대규모 인터넷 장애가 발생한 경우에도 DigiByte는 계속 작동합니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #49 - ご存知でしたか...",
+            "content": "DigiByteは立ち上げ以来100％の稼働率を誇っています。一部の人々は時折コンピュータを再起動しますが、数百人以上の他の人々は常にオンラインに残っており、大規模な全国的なインターネットの停止の場合でもDigiByteは引き続き機能します。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #49 - Wussten Sie schon...",
+            "content": "DigiByte hat seit seiner Einführung eine Betriebszeit von 100%. Während einige Menschen gelegentlich ihre Computer neu starten, bleiben Hunderte andere die ganze Zeit online, so dass selbst im Falle eines landesweiten Internetausfalls DigiByte weiterhin funktionieren würde.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #49 - Saviez-vous que...",
+            "content": "DigiByte a eu une disponibilité de 100% depuis son lancement. Alors que certaines personnes redémarrent leur ordinateur de temps en temps, des centaines d'autres restent en ligne en permanence, de sorte que même en cas de panne majeure d'Internet à l'échelle nationale, DigiByte continuerait de fonctionner.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #49 - Você sabia...",
+            "content": "O DigiByte tem tido uma disponibilidade de 100% desde o seu lançamento. Enquanto algumas pessoas reiniciam seus computadores de tempos em tempos, centenas de outras permanecem online o tempo todo, para que mesmo em caso de uma grande interrupção da Internet em todo o país, o DigiByte continuaria funcionando.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #49 - क्या आप जानते थे...",
+            "content": "डिजीबाइट को उसके लॉन्च से 100% अपटाइम है। हालांकि कुछ लोग समय-समय पर अपने कंप्यूटर को फिर से चालाते हैं, सैकड़ों अन्य लोग सभी समय ऑनलाइन रहते हैं, ताकि भारतीय इंटरनेट की बड़ी राष्ट्रीय बंद होने की घटना के मामूली मामूली बावजूद, डिजीबाइट का काम जारी रहे।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #49 - Wist u dat...",
+            "content": "DigiByte heeft sinds de lancering een uptime van 100%. Terwijl sommige mensen hun computer van tijd tot tijd opnieuw opstarten, blijven honderden anderen altijd online, zodat zelfs in geval van een grote nationale internetstoring DigiByte blijft functioneren."
+        }
+    },
+    "digifact50": {
+        "en": {
+            "title": "DigiFact # 50 - Did you know...",
+            "content": "The DigiByte Faucet by Renzo Diaz gives you an easy way to get some free DGB. It's a great way for DigiByte newcomers to experience this amazing technology firsthand. For developers, there is also a testnet faucet. Find it here: https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "zh": {
+            "title": "数字事实 #50 - 你知道吗？",
+            "content": "Renzo Diaz的DigiByte水龙头为您提供了一个轻松获得一些免费DGB的方式。这对于DigiByte的新手来说是体验这一令人惊叹的技术的绝佳方式。对于开发人员，也有一个测试网水龙头。在这里找到它：https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "ru": {
+            "title": "ДиджиФакт #50 - Знаете ли вы...",
+            "content": "DigiByte Faucet от Renzo Diaz предоставляет вам простой способ получить немного бесплатных DGB. Это отличный способ для новичков DigiByte познакомиться с этой удивительной технологией на практике. Для разработчиков также есть тестовый кран. Найдите его здесь: https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "es": {
+            "title": "DigiDato #50 - ¿Sabías que...",
+            "content": "El Faucet de DigiByte de Renzo Diaz te ofrece una forma fácil de obtener algo de DGB gratis. Es una excelente manera para los recién llegados a DigiByte de experimentar esta increíble tecnología de primera mano. Para los desarrolladores, también hay un faucet de testnet. Encuéntralo aquí: https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "ko": {
+            "title": "디지팩트 #50 - 혹시 알고 계셨나요...",
+            "content": "Renzo Diaz의 DigiByte Faucet은 무료 DGB를 얻는 쉬운 방법을 제공합니다. 이것은 DigiByte 초보자들이 이 놀라운 기술을 직접 경험하는 좋은 방법입니다. 개발자들을 위해 테스트넷 faucet도 있습니다. 여기서 찾을 수 있습니다: https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "ja": {
+            "title": "デジファクト #50 - ご存知でしたか...",
+            "content": "Renzo DiazのDigiByte Faucetは、いくつかの無料DGBを手に入れる簡単な方法を提供します。これはDigiByteの新参者がこの驚くべきテクノロジーを直接体験する素晴らしい方法です。開発者向けにはテストネットフォーセットも用意されています。こちらで見つけてください：https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "de": {
+            "title": "DigiFakt #50 - Wussten Sie schon...",
+            "content": "Der DigiByte Faucet von Renzo Diaz bietet Ihnen eine einfache Möglichkeit, einige kostenlose DGB zu erhalten. Es ist eine großartige Möglichkeit für DigiByte-Neulinge, diese erstaunliche Technologie aus erster Hand zu erleben. Für Entwickler gibt es auch einen Testnet-Faucet. Finden Sie ihn hier: https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "fr": {
+            "title": "DigiFact #50 - Saviez-vous que...",
+            "content": "Le Faucet DigiByte de Renzo Diaz vous offre un moyen facile d'obtenir gratuitement des DGB. C'est un excellent moyen pour les nouveaux venus dans DigiByte de découvrir cette technologie étonnante de première main. Pour les développeurs, il existe également un testnet faucet. Trouvez-le ici : https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "pt": {
+            "title": "DigiFato #50 - Você sabia...",
+            "content": "O Faucet DigiByte de Renzo Diaz oferece uma maneira fácil de obter algum DGB gratuito. É uma ótima maneira para os recém-chegados ao DigiByte experimentarem essa incrível tecnologia em primeira mão. Para desenvolvedores, também há um faucet de testnet. Encontre-o aqui: https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #50 - क्या आप जानते थे...",
+            "content": "Renzo Diaz के DigiByte Faucet आपको कुछ मुफ्त DGB प्राप्त करने के एक आसान तरीके प्रदान करता है। यह DigiByte के नए आने वालों के लिए इस अद्भुत प्रौद्योगिकी का अपने हाथों से अनुभव करने का एक बहुत अच्छा तरीका है। डेवलपर्स के लिए एक टेस्टनेट फॉसेट भी है। इसे यहाँ पर पाएं: https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
+        },
+        "nl": {
+            "title": "DigiFeit #50 - Wist u dat...",
+            "content": "De DigiByte Faucet van Renzo Diaz biedt u een eenvoudige manier om wat gratis DGB te krijgen. Het is een geweldige manier voor nieuwkomers bij DigiByte om deze geweldige technologie uit de eerste hand te ervaren. Voor ontwikkelaars is er ook een testnet-kraan. Vind het hier: https://www.digifaucet.org/"
+        }
+    }
 }
