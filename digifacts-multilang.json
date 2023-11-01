@@ -506,5 +506,62 @@
             "content": "DigiByte was de eerste niet-Bitcoin blockchain die in 2018 de belangrijke inflatiebug heeft opgelost. Snelle respons van onze fantastische ontwikkelaars!",
             "url": ""
         }
+    },
+    "digifact10": {
+        "en": {
+            "title": "DigiFact # 10 - Did you know...",
+            "content": "The DigiByte 'Genesis Block' contained the following headline: 'USA Today: 10/Jan/2014, Target: Data stolen from up to 110M customers.' This forever cemented DigiByte's focus on cybersecurity.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #10 - 你知道吗？",
+            "content": "DigiByte的'创世区块'包含以下标题：'今日美国：2014年1月10日，目标：从高达1.1亿顾客那里窃取数据。'这永远地巩固了DigiByte对网络安全的关注。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #10 - Знаете ли вы...",
+            "content": "В 'Генезис-блоке' DigiByte содержался следующий заголовок: 'USA Today: 10 января 2014 года, Цель: Данные, украденные у 110 миллионов клиентов.' Это навсегда закрепило внимание DigiByte на кибербезопасности.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #10 - ¿Sabías que...",
+            "content": "El 'Bloque Génesis' de DigiByte contenía el siguiente titular: 'USA Today: 10/Ene/2014, Objetivo: Datos robados de hasta 110 millones de clientes.' Esto cimentó para siempre el enfoque de DigiByte en la ciberseguridad.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #10 - 혹시 알고 계셨나요...",
+            "content": "디지바이트의 '제네시스 블록'에는 다음과 같은 헤드라인이 포함되어 있었습니다: 'USA Today: 2014년 1월 10일, 대상: 최대 1억 1천만 고객의 데이터 도난.' 이것은 디지바이트의 사이버 보안에 대한 초점을 영원히 강화했습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #10 - ご存知でしたか...",
+            "content": "DigiByteの「ジェネシスブロック」には次の見出しが含まれていました：「USA Today: 2014年1月10日、ターゲット：最大1億1000万人の顧客からデータが盗まれました。」これによりDigiByteのサイバーセキュリティに対する焦点が永遠に確立されました。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #10 - Wussten Sie schon...",
+            "content": "Der 'Genesis-Block' von DigiByte enthielt die folgende Schlagzeile: 'USA Today: 10. Jan. 2014, Ziel: Daten von bis zu 110 Millionen Kunden gestohlen.' Dies verankerte den Fokus von DigiByte auf Cybersicherheit für immer.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #10 - Saviez-vous que...",
+            "content": "Le 'Bloc Genesis' de DigiByte contenait le titre suivant : 'USA Today: 10/Jan/2014, Cible : Données volées à jusqu'à 110 millions de clients.' Cela a définitivement scellé l'attention de DigiByte sur la cybersécurité.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #10 - Você sabia...",
+            "content": "O 'Bloco Gênesis' do DigiByte continha a seguinte manchete: 'USA Today: 10/Jan/2014, Alvo: Dados roubados de até 110 milhões de clientes.' Isso consolidou para sempre o foco do DigiByte em cibersegurança.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #10 - क्या आप जानते थे...",
+            "content": "DigiByte के 'जेनेसिस ब्लॉक' में निम्नलिखित सुर्खी शामिल थी: 'USA Today: 10/जनवरी/2014, लक्ष्य: 110M ग्राहकों से डेटा चुराया गया।' इसने DigiByte के साइबर सुरक्षा पर ध्यान केंद्रित करने की दिशा में हमेशा के लिए मजबूती प्रदान की।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #10 - Wist u dat...",
+            "content": "Het 'Genesis Block' van DigiByte bevatte de volgende kop: 'USA Today: 10/Jan/2014, Doelwit: Gegevens gestolen van maximaal 110M klanten.' Dit heeft de focus van DigiByte op cyberbeveiliging voor altijd versterkt.",
+            "url": ""
+        }
     }
 }
