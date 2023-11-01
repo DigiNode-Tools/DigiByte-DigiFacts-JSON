@@ -734,5 +734,62 @@
             "content": "In 2019 heeft DigiByte het netwerk geüpgraded door het Myriad-Groestl-algoritme te vervangen door Odocrypt, een algoritme ontworpen om ASIC-bestendig te zijn door zich te richten op mining met FPGA-hardware. Echter, zoals met de meeste ASIC-resistente algoritmen, zullen uiteindelijk ASIC's worden ontwikkeld voor deze algoritmen als de financiële prikkels aanwezig zijn, zoals het geval is met Odocrypt.",
             "url": ""
         }
+    },
+    "digifact14": {
+        "en": {
+            "title": "DigiFact # 14 - Did you know...",
+            "content": "In 2018, the DigiByte community raised enough funds to supply Venezuelan refugees crossing the border with over a thousand bottles of water, feed 160 orphaned children for a month, provide essential maintenance for a hospital, refurbish an Adicora school kitchen, and host several free community lunches for hundreds of people.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #14 - 你知道吗？",
+            "content": "2018年，DigiByte社区筹集了足够的资金，为越境的委内瑞拉难民提供了超过一千瓶水，供养了160名孤儿一个月，为一家医院提供了必要的维护，翻新了Adicora学校的厨房，并为数百人举办了几次免费的社区午餐。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #14 - Знаете ли вы...",
+            "content": "В 2018 году сообщество DigiByte собрало достаточно средств, чтобы обеспечить венесуэльских беженцев, пересекающих границу, более чем тысячей бутылок воды, накормить 160 сирот на месяц, обеспечить необходимое обслуживание для больницы, отремонтировать кухню школы в Адикоре и организовать несколько бесплатных общественных обедов для сотен людей.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #14 - ¿Sabías que...",
+            "content": "En 2018, la comunidad de DigiByte recaudó fondos suficientes para suministrar a los refugiados venezolanos que cruzaban la frontera con más de mil botellas de agua, alimentar a 160 niños huérfanos durante un mes, proporcionar mantenimiento esencial para un hospital, renovar una cocina escolar en Adicora y organizar varios almuerzos comunitarios gratuitos para cientos de personas.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #14 - 혹시 알고 계셨나요...",
+            "content": "2018년에 DigiByte 커뮤니티는 국경을 넘는 베네수엘라 난민들에게 천 개 이상의 물병을 공급하고, 160명의 고아 아동들에게 한 달간의 식사를 제공하며, 병원의 필수 유지 보수를 제공하고, Adicora 학교 주방을 리모델링하고, 수백 명의 사람들을 위한 여러 번의 무료 커뮤니티 점심 식사를 개최하기 위해 충분한 자금을 모았습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #14 - ご存知でしたか...",
+            "content": "2018年にDigiByteコミュニティは、国境を越えるベネズエラ難民に千本以上の水を提供し、160人の孤児に1ヶ月間の食事を供給し、病院の必要なメンテナンスを行い、アディコラの学校のキッチンを改修し、何百人もの人々のための無料のコミュニティランチを数回開催するために十分な資金を調達しました。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #14 - Wussten Sie schon...",
+            "content": "Im Jahr 2018 sammelte die DigiByte-Gemeinschaft genügend Mittel, um venezolanischen Flüchtlingen, die die Grenze überquerten, über tausend Flaschen Wasser zur Verfügung zu stellen, 160 Waisenkinder einen Monat lang zu ernähren, notwendige Wartungsarbeiten in einem Krankenhaus durchzuführen, eine Schulküche in Adicora zu renovieren und mehrere kostenlose Gemeinschaftsmittagessen für Hunderte von Menschen zu veranstalten.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #14 - Saviez-vous que...",
+            "content": "En 2018, la communauté DigiByte a recueilli suffisamment de fonds pour fournir plus de mille bouteilles d'eau aux réfugiés vénézuéliens traversant la frontière, nourrir 160 enfants orphelins pendant un mois, fournir l'entretien essentiel d'un hôpital, rénover une cuisine d'école à Adicora, et organiser plusieurs déjeuners communautaires gratuits pour des centaines de personnes.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #14 - Você sabia...",
+            "content": "Em 2018, a comunidade DigiByte arrecadou fundos suficientes para fornecer mais de mil garrafas de água para refugiados venezuelanos que cruzavam a fronteira, alimentar 160 crianças órfãs por um mês, fornecer manutenção essencial para um hospital, reformar uma cozinha escolar em Adicora e organizar vários almoços comunitários gratuitos para centenas de pessoas.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #14 - क्या आप जानते थे...",
+            "content": "2018 में, डिजीबाइट समुदाय ने पर्याप्त धनराशि जुटाई ताकि सीमा पार करने वाले वेनेजुएला के शरणार्थियों को एक हजार से अधिक पानी की बोतलें, 160 अनाथ बच्चों को एक महीने का खाना, एक अस्पताल के लिए आवश्यक रखरखाव प्रदान कर सकें, Adicora स्कूल की रसोई का नवीनीकरण कर सकें, और सैकड़ों लोगों के लिए कई मुफ्त सामुदायिक दोपहर के भोजन की मेजबानी कर सकें।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #14 - Wist u dat...",
+            "content": "In 2018 heeft de DigiByte-gemeenschap genoeg fondsen geworven om Venezolaanse vluchtelingen die de grens overstaken te voorzien van meer dan duizend flessen water, 160 weeskinderen een maand lang te voeden, essentieel onderhoud voor een ziekenhuis te bieden, een schoolkeuken in Adicora op te knappen, en meerdere gratis gemeenschapslunches voor honderden mensen te organiseren.",
+            "url": ""
+        }
     }
 }
