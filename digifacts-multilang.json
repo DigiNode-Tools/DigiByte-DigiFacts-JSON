@@ -1364,59 +1364,116 @@
     },
     "digifact25": {
         "en": {
-          "title": "DigiFact # 25 - Did you know...",
-          "content": "The official DigiByte Core wallet is available for Windows, MacOS, and Linux as well a low powered single-board computers like the Raspberry Pi. DigiByte is supported on mobile by a number of third-party wallets, such as Coinomi and SecuX. It is also available on many hardware wallets, like Ledger and Trezor. Be advised that not all of these wallets support Digi-ID and DigiAssets.",
-          "url": ""
+            "title": "DigiFact # 25 - Did you know...",
+            "content": "The official DigiByte Core wallet is available for Windows, MacOS, and Linux as well a low powered single-board computers like the Raspberry Pi. DigiByte is supported on mobile by a number of third-party wallets, such as Coinomi and SecuX. It is also available on many hardware wallets, like Ledger and Trezor. Be advised that not all of these wallets support Digi-ID and DigiAssets.",
+            "url": ""
         },
         "zh": {
-          "title": "数字事实 #25 - 你知道吗？",
-          "content": "官方的DigiByte核心钱包可用于Windows，MacOS和Linux，以及像树莓派这样的低功耗单板计算机。DigiByte在移动设备上由许多第三方钱包支持，如Coinomi和SecuX。它也可以在许多硬件钱包上使用，如Ledger和Trezor。请注意，并非所有这些钱包都支持Digi-ID和DigiAssets。",
-          "url": ""
+            "title": "数字事实 #25 - 你知道吗？",
+            "content": "官方的DigiByte核心钱包可用于Windows，MacOS和Linux，以及像树莓派这样的低功耗单板计算机。DigiByte在移动设备上由许多第三方钱包支持，如Coinomi和SecuX。它也可以在许多硬件钱包上使用，如Ledger和Trezor。请注意，并非所有这些钱包都支持Digi-ID和DigiAssets。",
+            "url": ""
         },
         "ru": {
-          "title": "ДиджиФакт #25 - Знаете ли вы...",
-          "content": "Официальный кошелек DigiByte Core доступен для Windows, MacOS и Linux, а также для одноплатных компьютеров с низким энергопотреблением, таких как Raspberry Pi. DigiByte поддерживается на мобильных устройствах рядом сторонних кошельков, таких как Coinomi и SecuX. Он также доступен на многих аппаратных кошельках, таких как Ledger и Trezor. Обратите внимание, что не все эти кошельки поддерживают Digi-ID и DigiAssets.",
-          "url": ""
+            "title": "ДиджиФакт #25 - Знаете ли вы...",
+            "content": "Официальный кошелек DigiByte Core доступен для Windows, MacOS и Linux, а также для одноплатных компьютеров с низким энергопотреблением, таких как Raspberry Pi. DigiByte поддерживается на мобильных устройствах рядом сторонних кошельков, таких как Coinomi и SecuX. Он также доступен на многих аппаратных кошельках, таких как Ledger и Trezor. Обратите внимание, что не все эти кошельки поддерживают Digi-ID и DigiAssets.",
+            "url": ""
         },
         "es": {
-          "title": "DigiDato #25 - ¿Sabías que...",
-          "content": "La billetera oficial DigiByte Core está disponible para Windows, MacOS y Linux, así como para computadoras de placa única de baja potencia como la Raspberry Pi. DigiByte cuenta con el apoyo de una serie de billeteras de terceros en dispositivos móviles, como Coinomi y SecuX. También está disponible en muchas billeteras de hardware, como Ledger y Trezor. Tenga en cuenta que no todas estas billeteras admiten Digi-ID y DigiAssets.",
-          "url": ""
+            "title": "DigiDato #25 - ¿Sabías que...",
+            "content": "La billetera oficial DigiByte Core está disponible para Windows, MacOS y Linux, así como para computadoras de placa única de baja potencia como la Raspberry Pi. DigiByte cuenta con el apoyo de una serie de billeteras de terceros en dispositivos móviles, como Coinomi y SecuX. También está disponible en muchas billeteras de hardware, como Ledger y Trezor. Tenga en cuenta que no todas estas billeteras admiten Digi-ID y DigiAssets.",
+            "url": ""
         },
         "ko": {
-          "title": "디지팩트 #25 - 혹시 알고 계셨나요...",
-          "content": "공식 DigiByte Core 지갑은 Windows, MacOS, Linux 및 Raspberry Pi와 같은 저전력 싱글 보드 컴퓨터에서 사용할 수 있습니다. DigiByte는 Coinomi 및 SecuX와 같은 여러 타사 모바일 지갑에서 지원됩니다. Ledger 및 Trezor와 같은 여러 하드웨어 지갑에서도 사용할 수 있습니다. 이러한 지갑 모두가 Digi-ID 및 DigiAssets를 지원하는 것은 아니라는 점에 유의하세요.",
-          "url": ""
+            "title": "디지팩트 #25 - 혹시 알고 계셨나요...",
+            "content": "공식 DigiByte Core 지갑은 Windows, MacOS, Linux 및 Raspberry Pi와 같은 저전력 싱글 보드 컴퓨터에서 사용할 수 있습니다. DigiByte는 Coinomi 및 SecuX와 같은 여러 타사 모바일 지갑에서 지원됩니다. Ledger 및 Trezor와 같은 여러 하드웨어 지갑에서도 사용할 수 있습니다. 이러한 지갑 모두가 Digi-ID 및 DigiAssets를 지원하는 것은 아니라는 점에 유의하세요.",
+            "url": ""
         },
         "ja": {
-          "title": "デジファクト #25 - ご存知でしたか...",
-          "content": "公式のDigiByte Coreウォレットは、Windows、MacOS、Linux、およびRaspberry Piのような低電力シングルボードコンピューターで利用可能です。DigiByteはCoinomiやSecuXなど、多数のサードパーティのモバイルウォレットによってサポートされています。また、LedgerやTrezorなどの多くのハードウェアウォレットでも利用可能です。ただし、これらのウォレットがすべてDigi-IDやDigiAssetsをサポートしているわけではないことに注意してください。",
-          "url": ""
+            "title": "デジファクト #25 - ご存知でしたか...",
+            "content": "公式のDigiByte Coreウォレットは、Windows、MacOS、Linux、およびRaspberry Piのような低電力シングルボードコンピューターで利用可能です。DigiByteはCoinomiやSecuXなど、多数のサードパーティのモバイルウォレットによってサポートされています。また、LedgerやTrezorなどの多くのハードウェアウォレットでも利用可能です。ただし、これらのウォレットがすべてDigi-IDやDigiAssetsをサポートしているわけではないことに注意してください。",
+            "url": ""
         },
         "de": {
-          "title": "DigiFakt #25 - Wussten Sie schon...",
-          "content": "Die offizielle DigiByte Core Wallet ist verfügbar für Windows, MacOS und Linux sowie für stromsparende Einplatinencomputer wie den Raspberry Pi. DigiByte wird auf Mobilgeräten von einer Reihe von Drittanbieter-Wallets unterstützt, wie Coinomi und SecuX. Es ist auch auf vielen Hardware-Wallets verfügbar, wie Ledger und Trezor. Beachten Sie, dass nicht alle diese Wallets Digi-ID und DigiAssets unterstützen.",
-          "url": ""
+            "title": "DigiFakt #25 - Wussten Sie schon...",
+            "content": "Die offizielle DigiByte Core Wallet ist verfügbar für Windows, MacOS und Linux sowie für stromsparende Einplatinencomputer wie den Raspberry Pi. DigiByte wird auf Mobilgeräten von einer Reihe von Drittanbieter-Wallets unterstützt, wie Coinomi und SecuX. Es ist auch auf vielen Hardware-Wallets verfügbar, wie Ledger und Trezor. Beachten Sie, dass nicht alle diese Wallets Digi-ID und DigiAssets unterstützen.",
+            "url": ""
         },
         "fr": {
-          "title": "DigiFact #25 - Saviez-vous que...",
-          "content": "Le portefeuille officiel DigiByte Core est disponible pour Windows, MacOS et Linux, ainsi que pour des ordinateurs à carte unique à faible consommation d'énergie comme le Raspberry Pi. DigiByte est pris en charge sur mobile par un certain nombre de portefeuilles tiers, tels que Coinomi et SecuX. Il est également disponible sur de nombreux portefeuilles matériels, comme Ledger et Trezor. Notez que tous ces portefeuilles ne prennent pas en charge Digi-ID et DigiAssets.",
-          "url": ""
+            "title": "DigiFact #25 - Saviez-vous que...",
+            "content": "Le portefeuille officiel DigiByte Core est disponible pour Windows, MacOS et Linux, ainsi que pour des ordinateurs à carte unique à faible consommation d'énergie comme le Raspberry Pi. DigiByte est pris en charge sur mobile par un certain nombre de portefeuilles tiers, tels que Coinomi et SecuX. Il est également disponible sur de nombreux portefeuilles matériels, comme Ledger et Trezor. Notez que tous ces portefeuilles ne prennent pas en charge Digi-ID et DigiAssets.",
+            "url": ""
         },
         "pt": {
-          "title": "DigiFato #25 - Você sabia...",
-          "content": "A carteira oficial DigiByte Core está disponível para Windows, MacOS e Linux, bem como para computadores de placa única de baixo consumo de energia, como o Raspberry Pi. DigiByte é suportado em dispositivos móveis por uma série de carteiras de terceiros, como Coinomi e SecuX. Também está disponível em muitas carteiras de hardware, como Ledger e Trezor. Observe que nem todas essas carteiras suportam Digi-ID e DigiAssets.",
-          "url": ""
+            "title": "DigiFato #25 - Você sabia...",
+            "content": "A carteira oficial DigiByte Core está disponível para Windows, MacOS e Linux, bem como para computadores de placa única de baixo consumo de energia, como o Raspberry Pi. DigiByte é suportado em dispositivos móveis por uma série de carteiras de terceiros, como Coinomi e SecuX. Também está disponível em muitas carteiras de hardware, como Ledger e Trezor. Observe que nem todas essas carteiras suportam Digi-ID e DigiAssets.",
+            "url": ""
         },
         "hi": {
-          "title": "डिजीफैक्ट #25 - क्या आप जानते थे...",
-          "content": "आधिकारिक DigiByte Core वॉलेट Windows, MacOS और Linux के लिए उपलब्ध है, साथ ही Raspberry Pi जैसे कम शक्ति वाले सिंगल-बोर्ड कंप्यूटर के लिए भी। DigiByte को Coinomi और SecuX जैसे कई तृतीय-पक्ष मोबाइल वॉलेट्स द्वारा समर्थन प्राप्त है। यह कई हार्डवेयर वॉलेट्स पर भी उपलब्ध है, जैसे कि Ledger और Trezor। ध्यान दें कि इन वॉलेट्स में से सभी Digi-ID और DigiAssets का समर्थन नहीं करते हैं।",
-          "url": ""
+            "title": "डिजीफैक्ट #25 - क्या आप जानते थे...",
+            "content": "आधिकारिक DigiByte Core वॉलेट Windows, MacOS और Linux के लिए उपलब्ध है, साथ ही Raspberry Pi जैसे कम शक्ति वाले सिंगल-बोर्ड कंप्यूटर के लिए भी। DigiByte को Coinomi और SecuX जैसे कई तृतीय-पक्ष मोबाइल वॉलेट्स द्वारा समर्थन प्राप्त है। यह कई हार्डवेयर वॉलेट्स पर भी उपलब्ध है, जैसे कि Ledger और Trezor। ध्यान दें कि इन वॉलेट्स में से सभी Digi-ID और DigiAssets का समर्थन नहीं करते हैं।",
+            "url": ""
         },
         "nl": {
-          "title": "DigiFeit #25 - Wist u dat...",
-          "content": "De officiële DigiByte Core portemonnee is beschikbaar voor Windows, MacOS en Linux, evenals voor laag vermogen enkel-board computers zoals de Raspberry Pi. DigiByte wordt ondersteund op mobiel door een aantal derde partij portemonnees, zoals Coinomi en SecuX. Het is ook beschikbaar op veel hardware portemonnees, zoals Ledger en Trezor. Let op dat niet al deze portemonnees Digi-ID en DigiAssets ondersteunen.",
-          "url": ""
+            "title": "DigiFeit #25 - Wist u dat...",
+            "content": "De officiële DigiByte Core portemonnee is beschikbaar voor Windows, MacOS en Linux, evenals voor laag vermogen enkel-board computers zoals de Raspberry Pi. DigiByte wordt ondersteund op mobiel door een aantal derde partij portemonnees, zoals Coinomi en SecuX. Het is ook beschikbaar op veel hardware portemonnees, zoals Ledger en Trezor. Let op dat niet al deze portemonnees Digi-ID en DigiAssets ondersteunen.",
+            "url": ""
         }
-      }
+    },
+    "digifact26": {
+        "en": {
+            "title": "DigiFact # 26 - Did you know...",
+            "content": "Digi-ID by DigiByte is one of the simplest yet most secure authentication methods in the world. Even Google warns against using their own time-based 2FA codes or SMS-2FA, but Digi-ID overcomes all the shortcomings. Digi-ID is open source, free, ad-free (forever), private & secure. To learn more visit: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "zh": {
+            "title": "数字事实 #26 - 你知道吗？",
+            "content": "DigiByte的Digi-ID是世界上最简单同时也是最安全的认证方法之一。即使谷歌也警告不要使用他们自己的基于时间的2FA代码或SMS-2FA，但Digi-ID克服了所有这些缺点。Digi-ID是开源的，免费的，永远不含广告，私密且安全。要了解更多信息，请访问：https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "ru": {
+            "title": "ДиджиФакт #26 - Знаете ли вы...",
+            "content": "Digi-ID от DigiByte является одним из самых простых, но в то же время самых безопасных методов аутентификации в мире. Даже Google предупреждает о рисках использования своих временных 2FA кодов или SMS-2FA, но Digi-ID преодолевает все эти недостатки. Digi-ID - это открытый исходный код, бесплатно, без рекламы (навсегда), приватно и безопасно. Узнать больше можно на сайте: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "es": {
+            "title": "DigiDato #26 - ¿Sabías que...",
+            "content": "Digi-ID de DigiByte es uno de los métodos de autenticación más simples pero más seguros del mundo. Incluso Google advierte contra el uso de sus propios códigos 2FA basados en tiempo o SMS-2FA, pero Digi-ID supera todas las deficiencias. Digi-ID es de código abierto, gratuito, sin publicidad (para siempre), privado y seguro. Para saber más, visite: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "ko": {
+            "title": "디지팩트 #26 - 혹시 알고 계셨나요...",
+            "content": "DigiByte의 Digi-ID는 세계에서 가장 간단하면서도 가장 안전한 인증 방법 중 하나입니다. 구글조차도 자신들의 시간 기반 2FA 코드나 SMS-2FA 사용에 대해 경고하지만, Digi-ID는 이러한 모든 단점을 극복합니다. Digi-ID는 오픈 소스이며, 무료이고, 광고가 없으며 (영원히), 개인적이고 안전합니다. 더 알아보려면 다음을 방문하세요: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "ja": {
+            "title": "デジファクト #26 - ご存知でしたか...",
+            "content": "DigiByteのDigi-IDは、世界で最もシンプルでありながら最も安全な認証方法の一つです。Googleでさえ、自社の時間ベースの2FAコードやSMS-2FAの使用に警告していますが、Digi-IDはこれらのすべての短所を克服します。Digi-IDはオープンソースで、無料、広告なし（永久に）、プライベートで安全です。詳しくはこちらをご覧ください: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "de": {
+            "title": "DigiFakt #26 - Wussten Sie schon...",
+            "content": "Digi-ID von DigiByte ist eines der einfachsten und dennoch sichersten Authentifizierungsmethoden der Welt. Sogar Google warnt davor, ihre eigenen zeitbasierten 2FA-Codes oder SMS-2FA zu verwenden, aber Digi-ID überwindet alle Schwächen. Digi-ID ist Open Source, kostenlos, werbefrei (für immer), privat und sicher. Um mehr zu erfahren, besuchen Sie: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "fr": {
+            "title": "DigiFact #26 - Saviez-vous que...",
+            "content": "Digi-ID par DigiByte est l'une des méthodes d'authentification les plus simples et les plus sécurisées au monde. Même Google met en garde contre l'utilisation de ses propres codes 2FA basés sur le temps ou SMS-2FA, mais Digi-ID surmonte toutes ces lacunes. Digi-ID est open source, gratuit, sans publicité (pour toujours), privé et sécurisé. Pour en savoir plus, visitez : https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "pt": {
+            "title": "DigiFato #26 - Você sabia...",
+            "content": "Digi-ID da DigiByte é um dos métodos de autenticação mais simples e seguros do mundo. Até mesmo o Google adverte contra o uso de seus próprios códigos 2FA baseados em tempo ou SMS-2FA, mas o Digi-ID supera todas as deficiências. Digi-ID é de código aberto, gratuito, sem anúncios (para sempre), privado e seguro. Para saber mais, visite: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #26 - क्या आप जानते थे...",
+            "content": "डिजीबाइट द्वारा डिजी-आईडी दुनिया के सबसे सरल लेकिन सबसे सुरक्षित प्रमाणीकरण तरीकों में से एक है। यहां तक कि गूगल भी अपने समय-आधारित 2FA कोड या एसएमएस-2FA का उपयोग करने के खिलाफ चेतावनी देता है, लेकिन डिजी-आईडी सभी कमियों को दूर करता है। डिजी-आईडी ओपन सोर्स, मुफ्त, विज्ञापन मुक्त (हमेशा के लिए), निजी और सुरक्षित है। अधिक जानने के लिए यात्रा करें: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "nl": {
+            "title": "DigiFeit #26 - Wist u dat...",
+            "content": "Digi-ID van DigiByte is een van de eenvoudigste maar meest veilige authenticatiemethoden ter wereld. Zelfs Google waarschuwt tegen het gebruik van hun eigen op tijd gebaseerde 2FA-codes of SMS-2FA, maar Digi-ID overkomt alle tekortkomingen. Digi-ID is open source, gratis, advertentievrij (voor altijd), privé en veilig. Om meer te weten te bezoeken: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        }
+    }
 }
