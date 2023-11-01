@@ -1535,59 +1535,116 @@
     },
     "digifact28": {
         "en": {
-          "title": "DigiFact # 28 - Did you know...",
-          "content": "The last DigiByte will be mined by the year 2035. There is less than half of all remaining DGB waiting to be mined by anybody in the world. These are not 'owned' by anybody, unlike an ICO and will be newly 'minted'.",
-          "url": ""
+            "title": "DigiFact # 28 - Did you know...",
+            "content": "The last DigiByte will be mined by the year 2035. There is less than half of all remaining DGB waiting to be mined by anybody in the world. These are not 'owned' by anybody, unlike an ICO and will be newly 'minted'.",
+            "url": ""
         },
         "zh": {
-          "title": "数字事实 #28 - 你知道吗？",
-          "content": "最后一个DigiByte将在2035年被开采出来。全世界等待被开采的剩余DGB不到一半。这些不像ICO一样被任何人'拥有'，而将是新'铸造'的。",
-          "url": ""
+            "title": "数字事实 #28 - 你知道吗？",
+            "content": "最后一个DigiByte将在2035年被开采出来。全世界等待被开采的剩余DGB不到一半。这些不像ICO一样被任何人'拥有'，而将是新'铸造'的。",
+            "url": ""
         },
         "ru": {
-          "title": "ДиджиФакт #28 - Знаете ли вы...",
-          "content": "Последний DigiByte будет добыт к 2035 году. Меньше половины всех оставшихся DGB ждут, чтобы их добыл кто-то в мире. Они не 'принадлежат' никому, в отличие от ICO и будут 'чеканиться' заново.",
-          "url": ""
+            "title": "ДиджиФакт #28 - Знаете ли вы...",
+            "content": "Последний DigiByte будет добыт к 2035 году. Меньше половины всех оставшихся DGB ждут, чтобы их добыл кто-то в мире. Они не 'принадлежат' никому, в отличие от ICO и будут 'чеканиться' заново.",
+            "url": ""
         },
         "es": {
-          "title": "DigiDato #28 - ¿Sabías que...",
-          "content": "El último DigiByte será minado para el año 2035. Queda menos de la mitad de todos los DGB restantes esperando ser minados por alguien en el mundo. Estos no son 'propiedad' de nadie, a diferencia de un ICO y serán 'acuñados' nuevamente.",
-          "url": ""
+            "title": "DigiDato #28 - ¿Sabías que...",
+            "content": "El último DigiByte será minado para el año 2035. Queda menos de la mitad de todos los DGB restantes esperando ser minados por alguien en el mundo. Estos no son 'propiedad' de nadie, a diferencia de un ICO y serán 'acuñados' nuevamente.",
+            "url": ""
         },
         "ko": {
-          "title": "디지팩트 #28 - 혹시 알고 계셨나요...",
-          "content": "마지막 DigiByte는 2035년까지 채굴될 것입니다. 전 세계 누구나 채굴을 기다리고 있는 남은 DGB의 절반 이하가 있습니다. 이것들은 ICO와 달리 누구의 '소유'도 아니며 새롭게 '발행'될 것입니다.",
-          "url": ""
+            "title": "디지팩트 #28 - 혹시 알고 계셨나요...",
+            "content": "마지막 DigiByte는 2035년까지 채굴될 것입니다. 전 세계 누구나 채굴을 기다리고 있는 남은 DGB의 절반 이하가 있습니다. 이것들은 ICO와 달리 누구의 '소유'도 아니며 새롭게 '발행'될 것입니다.",
+            "url": ""
         },
         "ja": {
-          "title": "デジファクト #28 - ご存知でしたか...",
-          "content": "最後のDigiByteは2035年までに採掘される予定です。世界中の誰もが採掘を待っている残りのDGBの半分以下があります。これらはICOのように誰かが'所有'しているわけではなく、新たに'鋳造'されるものです。",
-          "url": ""
+            "title": "デジファクト #28 - ご存知でしたか...",
+            "content": "最後のDigiByteは2035年までに採掘される予定です。世界中の誰もが採掘を待っている残りのDGBの半分以下があります。これらはICOのように誰かが'所有'しているわけではなく、新たに'鋳造'されるものです。",
+            "url": ""
         },
         "de": {
-          "title": "DigiFakt #28 - Wussten Sie schon...",
-          "content": "Der letzte DigiByte wird bis zum Jahr 2035 abgebaut sein. Weniger als die Hälfte aller verbleibenden DGB warten darauf, von irgendjemandem in der Welt abgebaut zu werden. Diese gehören im Gegensatz zu einem ICO niemandem und werden neu 'geprägt'.",
-          "url": ""
+            "title": "DigiFakt #28 - Wussten Sie schon...",
+            "content": "Der letzte DigiByte wird bis zum Jahr 2035 abgebaut sein. Weniger als die Hälfte aller verbleibenden DGB warten darauf, von irgendjemandem in der Welt abgebaut zu werden. Diese gehören im Gegensatz zu einem ICO niemandem und werden neu 'geprägt'.",
+            "url": ""
         },
         "fr": {
-          "title": "DigiFact #28 - Saviez-vous que...",
-          "content": "Le dernier DigiByte sera miné d'ici l'année 2035. Il reste moins de la moitié de tous les DGB restants à être minés par quiconque dans le monde. Contrairement à un ICO, ces derniers ne sont 'possédés' par personne et seront nouvellement 'frappés'.",
-          "url": ""
+            "title": "DigiFact #28 - Saviez-vous que...",
+            "content": "Le dernier DigiByte sera miné d'ici l'année 2035. Il reste moins de la moitié de tous les DGB restants à être minés par quiconque dans le monde. Contrairement à un ICO, ces derniers ne sont 'possédés' par personne et seront nouvellement 'frappés'.",
+            "url": ""
         },
         "pt": {
-          "title": "DigiFato #28 - Você sabia...",
-          "content": "O último DigiByte será minerado até o ano de 2035. Existe menos da metade de todos os DGB restantes esperando para serem minerados por alguém no mundo. Estes não são 'propriedade' de ninguém, ao contrário de um ICO, e serão 'cunhados' novos.",
-          "url": ""
+            "title": "DigiFato #28 - Você sabia...",
+            "content": "O último DigiByte será minerado até o ano de 2035. Existe menos da metade de todos os DGB restantes esperando para serem minerados por alguém no mundo. Estes não são 'propriedade' de ninguém, ao contrário de um ICO, e serão 'cunhados' novos.",
+            "url": ""
         },
         "hi": {
-          "title": "डिजीफैक्ट #28 - क्या आप जानते थे...",
-          "content": "आखिरी DigiByte 2035 तक खनन किया जाएगा। दुनिया में किसी के द्वारा खनन किए जाने की प्रतीक्षा कर रहे सभी DGB का आधे से भी कम हिस्सा बचा है। ये किसी के 'स्वामित्व' में नहीं हैं, आईसीओ के विपरीत, और नए 'टकसाल' किए जाएंगे।",
-          "url": ""
+            "title": "डिजीफैक्ट #28 - क्या आप जानते थे...",
+            "content": "आखिरी DigiByte 2035 तक खनन किया जाएगा। दुनिया में किसी के द्वारा खनन किए जाने की प्रतीक्षा कर रहे सभी DGB का आधे से भी कम हिस्सा बचा है। ये किसी के 'स्वामित्व' में नहीं हैं, आईसीओ के विपरीत, और नए 'टकसाल' किए जाएंगे।",
+            "url": ""
         },
         "nl": {
-          "title": "DigiFeit #28 - Wist u dat...",
-          "content": "De laatste DigiByte zal tegen het jaar 2035 worden gemijnd. Er is minder dan de helft van alle resterende DGB die wachten om door iemand in de wereld te worden gemijnd. Deze zijn niet 'eigendom' van iemand, in tegenstelling tot een ICO, en zullen nieuw 'geslagen' worden.",
-          "url": ""
+            "title": "DigiFeit #28 - Wist u dat...",
+            "content": "De laatste DigiByte zal tegen het jaar 2035 worden gemijnd. Er is minder dan de helft van alle resterende DGB die wachten om door iemand in de wereld te worden gemijnd. Deze zijn niet 'eigendom' van iemand, in tegenstelling tot een ICO, en zullen nieuw 'geslagen' worden.",
+            "url": ""
         }
-      }
+    },
+    "digifact29": {
+        "en": {
+            "title": "DigiFact # 29 - Did you know...",
+            "content": "DigiByte can be used for Atomic Swaps with other blockchains safely and securely since the implementation of SegWit in early 2017. There is no need for a second layer network to perform this and it can instead be done directly.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #29 - 你知道吗？",
+            "content": "自2017年初实施SegWit以来，DigiByte可以安全可靠地用于与其他区块链的原子交换。执行此操作无需第二层网络，而可以直接进行。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #29 - Знаете ли вы...",
+            "content": "DigiByte можно безопасно и надежно использовать для Атомарных свопов с другими блокчейнами с момента внедрения SegWit в начале 2017 года. Для этого не требуется второй слой сети, и это можно сделать напрямую.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #29 - ¿Sabías que...",
+            "content": "DigiByte se puede utilizar para Intercambios Atómicos con otras blockchains de manera segura y confiable desde la implementación de SegWit a principios de 2017. No es necesario una segunda capa de red para realizar esto y en cambio se puede hacer directamente.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #29 - 혹시 알고 계셨나요...",
+            "content": "2017년 초 SegWit 구현 이후 DigiByte는 다른 블록체인과 안전하고 확실하게 원자 스왑을 사용할 수 있습니다. 이를 수행하기 위해 두 번째 레이어 네트워크가 필요하지 않으며 대신 직접 수행할 수 있습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #29 - ご存知でしたか...",
+            "content": "2017年初頭にSegWitが実装されて以来、DigiByteは他のブロックチェーンとのアトミックスワップを安全かつ確実に行うことができます。これを行うために第二層のネットワークは必要なく、代わりに直接行うことができます。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #29 - Wussten Sie schon...",
+            "content": "Seit der Implementierung von SegWit Anfang 2017 kann DigiByte sicher und zuverlässig für Atomic Swaps mit anderen Blockchains verwendet werden. Es ist keine zweite Netzwerkebene erforderlich, um dies durchzuführen, und es kann stattdessen direkt gemacht werden.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #29 - Saviez-vous que...",
+            "content": "DigiByte peut être utilisé pour des échanges atomiques avec d'autres blockchains de manière sûre et sécurisée depuis la mise en œuvre de SegWit début 2017. Il n'est pas nécessaire d'avoir une seconde couche de réseau pour effectuer cela et cela peut être fait directement.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #29 - Você sabia...",
+            "content": "DigiByte pode ser usado para Trocas Atômicas com outras blockchains de forma segura e segura desde a implementação do SegWit no início de 2017. Não é necessário uma segunda camada de rede para realizar isso e pode ser feito diretamente.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #29 - क्या आप जानते थे...",
+            "content": "2017 की शुरुआत में SegWit के कार्यान्वयन के बाद से DigiByte का उपयोग अन्य ब्लॉकचेन के साथ सुरक्षित और सुरक्षित रूप से एटॉमिक स्वैप के लिए किया जा सकता है। इसे करने के लिए दूसरे स्तर के नेटवर्क की आवश्यकता नहीं है और इसके बजाय यह सीधे किया जा सकता है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #29 - Wist u dat...",
+            "content": "DigiByte kan sinds de implementatie van SegWit in het begin van 2017 veilig en zeker worden gebruikt voor Atomic Swaps met andere blockchains. Hiervoor is geen tweede netwerklaag nodig en dit kan in plaats daarvan rechtstreeks worden gedaan.",
+            "url": ""
+        }
+    }
 }
