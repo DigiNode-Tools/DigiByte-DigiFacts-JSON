@@ -563,5 +563,62 @@
             "content": "Het 'Genesis Block' van DigiByte bevatte de volgende kop: 'USA Today: 10/Jan/2014, Doelwit: Gegevens gestolen van maximaal 110M klanten.' Dit heeft de focus van DigiByte op cyberbeveiliging voor altijd versterkt.",
             "url": ""
         }
+    },
+    "digifact11": {
+        "en": {
+            "title": "DigiFact # 11 - Did you know...",
+            "content": "DigiByte was the first coin to upgrade from a single mining algorithm to MultiAlgo, for the additional security provided by having 5x algorithms. This upgrade occurred in late 2014 as the 'MultiAlgo' network upgrade. What's MultiAlgo? Learn more here: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "zh": {
+            "title": "数字事实 #11 - 你知道吗？",
+            "content": "DigiByte是第一个从单一挖矿算法升级到MultiAlgo的币，这样做是为了通过拥有5种算法提供额外的安全性。这次升级发生在2014年末，被称为'MultiAlgo'网络升级。什么是MultiAlgo？在这里了解更多：https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ru": {
+            "title": "ДиджиФакт #11 - Знаете ли вы...",
+            "content": "DigiByte стал первой монетой, которая перешла с одного алгоритма майнинга на MultiAlgo, что обеспечило дополнительную безопасность за счет использования 5 различных алгоритмов. Это обновление произошло в конце 2014 года и получило название 'MultiAlgo' сетевое обновление. Что такое MultiAlgo? Узнайте больше здесь: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "es": {
+            "title": "DigiDato #11 - ¿Sabías que...",
+            "content": "DigiByte fue la primera moneda en pasar de un algoritmo de minería único a MultiAlgo, por la seguridad adicional que proporciona tener 5 algoritmos. Esta actualización ocurrió a finales de 2014 como la actualización de red 'MultiAlgo'. ¿Qué es MultiAlgo? Aprende más aquí: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ko": {
+            "title": "디지팩트 #11 - 혹시 알고 계셨나요...",
+            "content": "디지바이트는 5가지 알고리즘을 갖춤으로써 추가적인 보안을 제공하는 단일 채굴 알고리즘에서 MultiAlgo로 업그레이드한 최초의 코인이었습니다. 이 업그레이드는 2014년 말 'MultiAlgo' 네트워크 업그레이드로 발생했습니다. MultiAlgo란 무엇인가요? 여기서 더 알아보세요: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "ja": {
+            "title": "デジファクト #11 - ご存知でしたか...",
+            "content": "DigiByteは、5つのアルゴリズムを持つことで提供される追加のセキュリティのために、1つのマイニングアルゴリズムからMultiAlgoにアップグレードした最初のコインでした。このアップグレードは2014年後半に'MultiAlgo'ネットワークアップグレードとして行われました。MultiAlgoとは何ですか？こちらで詳しく学んでください: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "de": {
+            "title": "DigiFakt #11 - Wussten Sie schon...",
+            "content": "DigiByte war die erste Kryptowährung, die von einem einzigen Mining-Algorithmus auf MultiAlgo umgestellt hat, um durch fünf verschiedene Algorithmen zusätzliche Sicherheit zu bieten. Dieses Upgrade fand Ende 2014 als 'MultiAlgo' Netzwerk-Upgrade statt. Was ist MultiAlgo? Hier mehr erfahren: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "fr": {
+            "title": "DigiFact #11 - Saviez-vous que...",
+            "content": "DigiByte a été la première monnaie à passer d'un algorithme de minage unique à MultiAlgo, pour la sécurité supplémentaire fournie par la présence de 5 algorithmes. Cette mise à niveau a eu lieu fin 2014 en tant que mise à niveau du réseau 'MultiAlgo'. Qu'est-ce que MultiAlgo ? Apprenez-en plus ici : https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "pt": {
+            "title": "DigiFato #11 - Você sabia...",
+            "content": "DigiByte foi a primeira moeda a atualizar de um algoritmo de mineração único para MultiAlgo, pela segurança adicional fornecida por ter 5 algoritmos. Esta atualização ocorreu no final de 2014 como a atualização de rede 'MultiAlgo'. O que é MultiAlgo? Saiba mais aqui: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #11 - क्या आप जानते थे...",
+            "content": "डिजीबाइट पाँच एल्गोरिदम्स की अतिरिक्त सुरक्षा प्रदान करने के लिए एकल खनन एल्गोरिदम से MultiAlgo में अपग्रेड करने वाला पहला सिक्का था। यह अपग्रेड 2014 के अंत में 'MultiAlgo' नेटवर्क अपग्रेड के रूप में हुआ था। MultiAlgo क्या है? यहां और जानें: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "nl": {
+            "title": "DigiFeit #11 - Wist u dat...",
+            "content": "DigiByte was de eerste munt die overstapte van een enkelvoudig miningalgoritme naar MultiAlgo, voor de extra beveiliging die wordt geboden door het hebben van 5 algoritmen. Deze upgrade vond plaats eind 2014 als de 'MultiAlgo' netwerkupgrade. Wat is MultiAlgo? Leer hier meer: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        }
     }
 }
