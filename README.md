@@ -35,7 +35,7 @@ IMPORTANT: If you wish to insert a line break in your DigiFact, please use: ```\
 
 ### Using Dynamic Data in the DigiFacts
 
-If you wish to insert dyanmic data into a DigiFact, please edit the digifacts-live.json file and insert any of the following variables:
+If you wish to insert dyanmic data into a DigiFact, please edit the digifacts-multilang.json file and insert any of the following variables:
 
 | Variable               | Example Content | Note                                                |
 |------------------------|-----------------|-----------------------------------------------------|
@@ -49,9 +49,11 @@ These variable will be replaced by live data every few minutes.
 
 ### Translations
 
-Translations should be made from the English version. New DigiFacts must be added in English first with other languages beneath it. All additional languages must be checked by a native speaker.
+Translations should be based on the English version of each DigiFact. New DigiFacts must be added in English first with other languages beneath it.
 
 Please help by providing translations for additional langauges, or improving existing ones. Please update the table below when you make changes, including a link to your Github profile.
+
+To get started, please fork the repo. Edit digifacts-multilang.json and make a PR with your changes. Please check the JSON is valid before doing do.
 
 | Language                 | Verified by                                      | Last Updated | Status                                              |
 |--------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
