@@ -1076,5 +1076,62 @@
             "content": "Wilde je ooit je eigen DigiExplorer uitvoeren? Of andere gegevens uit de blockchain halen om te integreren met je bedrijf? Er zijn handige gidsen die je hierbij kunnen helpen: https://dgbwiki.com",
             "url": "https://dgbwiki.com"
         }
-    }
+    },
+    "digifact20": {
+        "en": {
+          "title": "DigiFact # 20 - Did you know...",
+          "content": "The name 'DigiByte' was originally chosen as it signifies a 'Digital Byte' of data. This is because blockchain technology such as DigiByte can be used for so much more than as a 'coin' such as silver or gold. DigiByte is incredibly multi-purpose.",
+          "url": ""
+        },
+        "zh": {
+          "title": "数字事实 #20 - 你知道吗？",
+          "content": "'DigiByte'这个名字最初被选中是因为它象征着数据的'数字字节'。这是因为像DigiByte这样的区块链技术可以用于远超过像银或金这样的'硬币'。DigiByte用途极其广泛。",
+          "url": ""
+        },
+        "ru": {
+          "title": "ДиджиФакт #20 - Знаете ли вы...",
+          "content": "Название 'DigiByte' было выбрано изначально, поскольку оно обозначает 'цифровой байт' данных. Это потому, что такие технологии блокчейна, как DigiByte, могут использоваться гораздо шире, чем просто 'монета', такая как серебро или золото. DigiByte имеет невероятно многогранное применение.",
+          "url": ""
+        },
+        "es": {
+          "title": "DigiDato #20 - ¿Sabías que...",
+          "content": "El nombre 'DigiByte' fue elegido originalmente porque significa un 'Byte Digital' de datos. Esto se debe a que la tecnología blockchain como DigiByte puede usarse para mucho más que como una 'moneda' como la plata o el oro. DigiByte tiene múltiples propósitos.",
+          "url": ""
+        },
+        "ko": {
+          "title": "디지팩트 #20 - 혹시 알고 계셨나요...",
+          "content": "'DigiByte'라는 이름은 원래 '디지털 바이트'의 데이터를 의미하기 때문에 선택되었습니다. 이는 DigiByte와 같은 블록체인 기술이 은이나 금과 같은 '코인'으로서뿐만 아니라 훨씬 더 많은 용도로 사용될 수 있기 때문입니다. DigiByte는 놀랍도록 다목적입니다.",
+          "url": ""
+        },
+        "ja": {
+          "title": "デジファクト #20 - ご存知でしたか...",
+          "content": "'DigiByte'という名前はもともと、「デジタルバイト」のデータを意味するものとして選ばれました。これは、銀や金のような'コイン'としてだけでなく、DigiByteのようなブロックチェーン技術がはるかに多くのことに使用できるためです。DigiByteは信じられないほど多目的に使用できます。",
+          "url": ""
+        },
+        "de": {
+          "title": "DigiFakt #20 - Wussten Sie schon...",
+          "content": "Der Name 'DigiByte' wurde ursprünglich gewählt, da er ein 'Digitales Byte' an Daten symbolisiert. Dies liegt daran, dass Blockchain-Technologie wie DigiByte für viel mehr als nur als 'Münze' wie Silber oder Gold verwendet werden kann. DigiByte ist unglaublich vielseitig.",
+          "url": ""
+        },
+        "fr": {
+          "title": "DigiFact #20 - Saviez-vous que...",
+          "content": "Le nom 'DigiByte' a été choisi à l'origine car il signifie un 'Byte Numérique' de données. C'est parce que la technologie blockchain comme DigiByte peut être utilisée pour bien plus que comme une 'pièce' telle que l'argent ou l'or. DigiByte est incroyablement polyvalent.",
+          "url": ""
+        },
+        "pt": {
+          "title": "DigiFato #20 - Você sabia...",
+          "content": "O nome 'DigiByte' foi originalmente escolhido pois significa um 'Byte Digital' de dados. Isso porque a tecnologia blockchain como DigiByte pode ser usada para muito mais do que como uma 'moeda', como a prata ou o ouro. DigiByte é incrivelmente versátil.",
+          "url": ""
+        },
+        "hi": {
+          "title": "डिजीफैक्ट #20 - क्या आप जानते थे...",
+          "content": "'डिजीबाइट' नाम मूल रूप से इसलिए चुना गया था क्योंकि यह डेटा का 'डिजिटल बाइट' सूचित करता है। इसका कारण यह है कि डिजीबाइट जैसी ब्लॉकचेन तकनीक का उपयोग चांदी या सोने जैसे 'सिक्के' से कहीं अधिक के लिए किया जा सकता है। डिजीबाइट अत्यंत बहुउद्देशीय है।",
+          "url": ""
+        },
+        "nl": {
+          "title": "DigiFeit #20 - Wist u dat...",
+          "content": "De naam 'DigiByte' werd oorspronkelijk gekozen omdat het een 'Digitale Byte' van gegevens betekent. Dit komt omdat blockchain-technologie zoals DigiByte voor veel meer gebruikt kan worden dan alleen als een 'munt', zoals zilver of goud. DigiByte is ongelooflijk veelzijdig.",
+          "url": ""
+        }
+      }
 }
