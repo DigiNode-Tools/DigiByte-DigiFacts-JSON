@@ -1,1080 +1,444 @@
 {
     "digifact1": {
-        "en": {
-            "title": "DigiFact # 1 - Did you know...",
-            "content": "The DigiByte blockchain launched in 2014. Thanks to its 15 second block time, it is the longest UTXO blockchain in existence with over $blocks_tot_mil million blocks. Bitcoin will take until the 22nd century to reach that many blocks.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #1 - 你知道吗？",
-            "content": "DigiByte 区块链于2014年启动。由于其15秒的区块时间，它是现存最长的UTXO区块链，拥有超过$blocks_tot_mil百万个区块。比特币将需要到22世纪才能达到那么多区块。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #1 - Знаете ли вы...",
-            "content": "Блокчейн DigiByte был запущен в 2014 году. Благодаря времени блока в 15 секунд, это самый длинный блокчейн UTXO в мире, насчитывающий более $blocks_tot_mil миллионов блоков. Биткоину понадобится до 22 века, чтобы достичь такого количества блоков.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #1 - ¿Sabías que...",
-            "content": "La cadena de bloques de DigiByte se lanzó en 2014. Gracias a su tiempo de bloque de 15 segundos, es la cadena de bloques UTXO más larga que existe con más de $blocks_tot_mil millones de bloques. Bitcoin tardará hasta el siglo 22 en alcanzar esa cantidad de bloques.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #1 - 혹시 알고 계셨나요...",
-            "content": "디지바이트 블록체인은 2014년에 시작되었습니다. 15초 블록 시간 덕분에, $blocks_tot_mil백만 블록이 넘는 가장 긴 UTXO 블록체인으로, 비트코인은 그 많은 블록에 도달하는 데 22세기까지 걸릴 것입니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #1 - ご存知でしたか...",
-            "content": "デジバイトブロックチェーンは2014年に始まりました。15秒のブロック時間のおかげで、$blocks_tot_mil百万以上のブロックを持つ最も長いUTXOブロックチェーンです。ビットコインがその数のブロックに到達するには22世紀までかかるでしょう。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #1 - Wussten Sie schon...",
-            "content": "Die DigiByte Blockchain wurde 2014 eingeführt. Dank der Blockzeit von 15 Sekunden ist sie die längste UTXO-Blockchain, die es gibt, mit über $blocks_tot_mil Millionen Blöcken. Bitcoin wird bis ins 22. Jahrhundert brauchen, um so viele Blöcke zu erreichen.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #1 - Saviez-vous que...",
-            "content": "La blockchain DigiByte a été lancée en 2014. Grâce à son temps de bloc de 15 secondes, c'est la blockchain UTXO la plus longue en existence avec plus de $blocks_tot_mil millions de blocs. Bitcoin prendra jusqu'au 22ème siècle pour atteindre autant de blocs.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFacto #1 - Você sabia...",
-            "content": "O blockchain DigiByte foi lançado em 2014. Graças ao seu tempo de bloco de 15 segundos, é o blockchain UTXO mais longo em existência, com mais de $blocks_tot_mil milhões de blocos. O Bitcoin levará até o século 22 para alcançar tantos blocos.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #1 - क्या आप जानते थे...",
-            "content": "डिजीबाइट ब्लॉकचेन 2014 में शुरू किया गया था। 15 सेकंड के ब्लॉक समय के कारण, यह $blocks_tot_mil मिलियन ब्लॉकों के साथ अस्तित्व में सबसे लंबी UTXO ब्लॉकचेन है। बिटकॉइन को उतने ब्लॉकों तक पहुँचने में 22वीं सदी तक का समय लगेगा।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit # 1 - Wist u dat...",
-            "content": "De DigiByte blockchain is gelanceerd in 2014. Dankzij de bloktijd van 15 seconden is het de langste UTXO blockchain die er bestaat, met meer dan $blocks_tot_mil miljoen blokken. Bitcoin zal tot de 22e eeuw nodig hebben om dat aantal blokken te bereiken.",
-            "url": ""
-        }
+        "title": "DigiFact # 1 - Did you know...",
+        "content": "The DigiByte blockchain launched in 2014. Thanks to its 15 second block time, it is the longest UTXO blockchain in existence with over 18 million blocks. Bitcoin will take until the 22nd century to reach that many blocks.",
+        "url": ""
     },
     "digifact2": {
-        "en": {
-            "title": "DigiFact # 2 - Did you know...",
-            "content": "DigiByte has upgraded the network a number of times to include \"Improvement milestones\". These hard forks were not contentious splits that generated additional coins, but rather a \"reorientation of the ship\" that the DigiByte community was onboard with. Learn more: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "zh": {
-            "title": "数字事实 #2 - 你知道吗？",
-            "content": "DigiByte多次升级网络，包括“改进里程碑”。这些硬分叉并不是产生额外货币的有争议的分裂，而是DigiByte社区同意的“航向重新定位”。了解更多：https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "ru": {
-            "title": "ДиджиФакт #2 - Знаете ли вы...",
-            "content": "DigiByte несколько раз обновлял сеть, чтобы включить \"Этапы улучшения\". Эти хардфорки не были спорными разделениями, которые генерировали дополнительные монеты, а скорее \"переориентацией корабля\", с которой было согласно сообщество DigiByte. Узнайте больше: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "es": {
-            "title": "DigiDato #2 - ¿Sabías que...",
-            "content": "DigiByte ha actualizado la red varias veces para incluir \"Hitos de mejora\". Estos hard forks no fueron divisiones conflictivas que generaron monedas adicionales, sino más bien una \"reorientación del barco\" con la que la comunidad de DigiByte estuvo de acuerdo. Aprende más: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "ko": {
-            "title": "디지팩트 #2 - 혹시 알고 계셨나요...",
-            "content": "디지바이트는 \"개선 이정표\"를 포함하도록 네트워크를 여러 번 업그레이드했습니다. 이 하드포크는 추가 코인을 생성하는 논쟁의 분열이 아니라 디지바이트 커뮤니티가 동의한 \"방향 전환\"이었습니다. 더 알아보기: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "ja": {
-            "title": "デジファクト #2 - ご存知でしたか...",
-            "content": "DigiByteは「改善のマイルストーン」を含むようにネットワークを何度もアップグレードしてきました。これらのハードフォークは追加のコインを生み出す内容の分裂ではなく、DigiByteコミュニティが同乗した「船の方向転換」でした。もっと学ぶ: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "de": {
-            "title": "DigiFakt #2 - Wussten Sie schon...",
-            "content": "DigiByte hat das Netzwerk mehrmals aktualisiert, um \"Verbesserungsmeilensteine\" einzubeziehen. Diese Hard Forks waren keine umstrittenen Aufspaltungen, die zusätzliche Münzen generierten, sondern eine \"Neuausrichtung des Schiffs\", mit der die DigiByte-Gemeinschaft einverstanden war. Erfahren Sie mehr: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "fr": {
-            "title": "DigiFact #2 - Saviez-vous que...",
-            "content": "DigiByte a mis à jour le réseau à plusieurs reprises pour inclure des \"jalons d'amélioration\". Ces fourches dures n'étaient pas des scissions contentieuses qui ont généré des pièces supplémentaires, mais plutôt une \"réorientation du navire\" avec laquelle la communauté DigiByte était à bord. En savoir plus : https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "pt": {
-            "title": "DigiFato #2 - Você sabia...",
-            "content": "DigiByte atualizou a rede várias vezes para incluir \"marcos de melhorias\". Esses hard forks não foram divisões contenciosas que geraram moedas adicionais, mas sim uma \"reorientação do navio\" com a qual a comunidade DigiByte estava a bordo. Saiba mais: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #2 - क्या आप जानते थे...",
-            "content": "डिजीबाइट ने नेटवर्क को कई बार अपग्रेड किया है ताकि \"सुधार मील के पत्थर\" शामिल किए जा सकें। ये हार्ड फोर्क्स विवादास्पद विभाजन नहीं थे जो अतिरिक्त सिक्के उत्पन्न करते थे, बल्कि डिजीबाइट समुदाय द्वारा समर्थित \"जहाज की पुनः ओरिएंटेशन\" थे। और जानें: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        },
-        "nl": {
-            "title": "DigiFeit # 2 - Wist u dat...",
-            "content": "DigiByte heeft het netwerk meerdere malen geüpgraded om 'Verbeteringsmijlpalen' op te nemen. Deze hard forks waren geen controversiële splitsingen die extra munten genereerden, maar eerder een 'heroriëntatie van het schip' waarmee de DigiByte-gemeenschap aan boord was. Leer meer: https://rb.gy/egrt5",
-            "url": "https://rb.gy/egrt5"
-        }
+        "title": "DigiFact # 2 - Did you know...",
+        "content": "DigiByte has upgraded the network a number of times to include \"Improvement milestones\". These hard forks were not contentious splits that generated additional coins, but rather a \"reorientation of the ship\" that the DigiByte community was onboard with. Learn more: https://rb.gy/egrt5",
+        "url": "https://rb.gy/egrt5"
     },
     "digifact3": {
-        "en": {
-            "title": "DigiFact # 3 - Did you know...",
-            "content": "The DigiByte blockchain was fairly launched in 2014, long before the 2017 Initial Coin Offering (ICO) craze of whitepaper projects. DigiByte began with a fully working blockchain that has been improved upon consistently ever since.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #3 - 你知道吗？",
-            "content": "DigiByte 区块链在 2014 年进行了公平启动，这比 2017 年白皮书项目的首次代币发行（ICO）热潮要早得多。DigiByte 一开始就是一个完全有效的区块链，并且自那以后一直在持续改进。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #3 - Знаете ли вы...",
-            "content": "Блокчейн DigiByte был справедливо запущен в 2014 году, за долго до бума первичных предложений монет (ICO) в 2017 году. DigiByte начался с полностью рабочего блокчейна, который с тех пор постоянно улучшается.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #3 - ¿Sabías que...",
-            "content": "La blockchain de DigiByte se lanzó de manera justa en 2014, mucho antes de la locura de las Ofertas Iniciales de Monedas (ICO) de proyectos de libros blancos en 2017. DigiByte comenzó con una blockchain completamente funcional que se ha mejorado constantemente desde entonces.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #3 - 혹시 알고 계셨나요...",
-            "content": "디지바이트 블록체인은 2014년에 공정하게 출시되었으며, 이는 2017년 백서 프로젝트의 ICO 열풍보다 훨씬 이전입니다. 디지바이트는 처음부터 완전히 작동하는 블록체인으로 시작하여 지속적으로 개선되고 있습니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #3 - ご存知でしたか...",
-            "content": "DigiByte ブロックチェーンは 2014 年に公正に開始され、2017 年のホワイトペーパー・プロジェクトの ICO 狂乱よりもずっと前です。DigiByte は最初から完全に機能するブロックチェーンであり、以来絶えず改善されてきました。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #3 - Wussten Sie schon...",
-            "content": "Die DigiByte Blockchain wurde 2014 gerecht eingeführt, lange vor dem Hype um Initial Coin Offerings (ICO) von Whitepaper-Projekten im Jahr 2017. DigiByte begann mit einer voll funktionsfähigen Blockchain, die seitdem stetig verbessert wurde.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #3 - Saviez-vous que...",
-            "content": "La blockchain DigiByte a été lancée équitablement en 2014, bien avant la frénésie des offres initiales de pièces (ICO) de projets de livre blanc en 2017. DigiByte a commencé avec une blockchain entièrement opérationnelle qui a été constamment améliorée depuis lors.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #3 - Você sabia...",
-            "content": "A blockchain DigiByte foi lançada de forma justa em 2014, muito antes da febre de Oferta Inicial de Moedas (ICO) de projetos de whitepaper em 2017. DigiByte começou com uma blockchain totalmente funcional que tem sido constantemente aprimorada desde então.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #3 - क्या आप जानते थे...",
-            "content": "डिजीबाइट ब्लॉकचेन की शुरुआत 2014 में न्यायपूर्ण तरीके से हुई थी, 2017 के व्हाइटपेपर प्रोजेक्ट्स के प्रारंभिक सिक्का प्रस्ताव (ICO) के क्रेज से काफी पहले। डिजीबाइट एक पूरी तरह कार्यात्मक ब्लॉकचेन के साथ शुरू हुआ था जिसे तब से लगातार सुधारा जा रहा है।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #3 - Wist u dat...",
-            "content": "De DigiByte blockchain is eerlijk gelanceerd in 2014, lang voor de rage van Initial Coin Offerings (ICO) van whitepaper projecten in 2017. DigiByte begon met een volledig functionerende blockchain die sindsdien consequent is verbeterd.",
-            "url": ""
-        }
+        "title": "DigiFact # 3 - Did you know...",
+        "content": "The DigiByte blockchain was fairly launched in 2014, long before the 2017 Initial Coin Offering (ICO) craze of whitepaper projects. DigiByte began with a fully working blockchain that has been improved upon consistently ever since.",
+        "url": ""
     },
     "digifact4": {
-        "en": {
-            "title": "DigiFact # 4 - Did you know...",
-            "content": "When DigiByte launched in 2014, a tiny DigiByte pre-mine (0.5%) was given away to community members within the first 30 days, and the details can be seen on BitcoinTalk. This was done to incentivize people to download and run a full node helping to distribute the blockchain. None of the pre-mine was retained by the founder or developers.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #4 - 你知道吗？",
-            "content": "DigiByte 在 2014 年启动时，将一小部分预挖矿的 DigiByte（0.5%）在最初的 30 天内赠送给了社区成员，详细情况可以在 BitcoinTalk 上看到。这样做是为了激励人们下载并运行一个完整的节点，帮助分发区块链。预挖矿的部分没有被创始人或开发者保留。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #4 - Знаете ли вы...",
-            "content": "Когда DigiByte запустился в 2014 году, небольшое количество предварительно добытых DigiByte (0,5%) было раздано членам сообщества в течение первых 30 дней, подробности можно увидеть на BitcoinTalk. Это было сделано для стимулирования людей к загрузке и запуску полного узла, помогая распространению блокчейна. Ни один из предварительно добытых монет не был сохранен основателем или разработчиками.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #4 - ¿Sabías que...",
-            "content": "Cuando DigiByte se lanzó en 2014, una pequeña cantidad de DigiByte preminado (0.5%) fue entregada a miembros de la comunidad dentro de los primeros 30 días, y los detalles se pueden ver en BitcoinTalk. Esto se hizo para incentivar a las personas a descargar y ejecutar un nodo completo, ayudando a distribuir la blockchain. Ninguna de las preminas fue retenida por el fundador o los desarrolladores.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #4 - 혹시 알고 계셨나요...",
-            "content": "2014년에 디지바이트가 출시될 때, 극소량의 디지바이트 프리마인(0.5%)이 최초 30일 이내에 커뮤니티 회원들에게 나눠졌으며, 세부 사항은 BitcoinTalk에서 볼 수 있습니다. 이는 사람들이 전체 노드를 다운로드하고 실행하여 블록체인을 분배하는 데 도움을 주기 위한 인센티브였습니다. 프리마인은 창립자나 개발자에게 남겨지지 않았습니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #4 - ご存知でしたか...",
-            "content": "DigiByteが2014年にローンチした際、わずか0.5%のプレマインDigiByteが最初の30日間でコミュニティメンバーに配られ、詳細はBitcoinTalkで確認できます。これは、人々にフルノードをダウンロードして実行し、ブロックチェーンの分散を助けるためのインセンティブでした。プレマインは創設者や開発者によって保持されていませんでした。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #4 - Wussten Sie schon...",
-            "content": "Als DigiByte 2014 startete, wurde ein kleiner Anteil des DigiByte-Vorabbaus (0,5%) innerhalb der ersten 30 Tage an Gemeinschaftsmitglieder verschenkt, die Einzelheiten können auf BitcoinTalk eingesehen werden. Dies wurde getan, um Menschen dazu zu motivieren, einen vollständigen Knoten herunterzuladen und zu betreiben, um die Verteilung der Blockchain zu unterstützen. Keiner der Vorabbaus wurde vom Gründer oder den Entwicklern zurückbehalten.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #4 - Saviez-vous que...",
-            "content": "Lorsque DigiByte a été lancé en 2014, une petite quantité de pré-minage DigiByte (0,5 %) a été donnée aux membres de la communauté dans les 30 premiers jours, et les détails peuvent être consultés sur BitcoinTalk. Cela a été fait pour inciter les gens à télécharger et à exécuter un nœud complet, aidant à distribuer la blockchain. Aucun des pré-minages n'a été conservé par le fondateur ou les développeurs.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #4 - Você sabia...",
-            "content": "Quando o DigiByte foi lançado em 2014, uma pequena quantidade de pré-mineração de DigiByte (0,5%) foi distribuída aos membros da comunidade nos primeiros 30 dias, e os detalhes podem ser vistos no BitcoinTalk. Isso foi feito para incentivar as pessoas a baixar e executar um nó completo, ajudando a distribuir a blockchain. Nenhum dos pré-minados foi retido pelo fundador ou desenvolvedores.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #4 - क्या आप जानते थे...",
-            "content": "जब DigiByte 2014 में लॉन्च हुआ था, तो बहुत कम DigiByte प्री-माइन (0.5%) को पहले 30 दिनों में समुदाय के सदस्यों को दिया गया था, और विवरण BitcoinTalk पर देखा जा सकता है। यह लोगों को प्रोत्साहित करने के लिए किया गया था कि वे पूरा नोड डाउनलोड करें और चलाएं, जिससे ब्लॉकचेन का वितरण में मदद मिले। प्री-माइन में से कोई भी हिस्सा संस्थापक या डेवलपर्स द्वारा नहीं रखा गया था।",
-            "url": ""
-        }
+        "title": "DigiFact # 4 - Did you know...",
+        "content": "When DigiByte launched in 2014, a tiny DigiByte pre-mine (0.5%) was given away to community members within the first 30 days, and the details can be seen on BitcoinTalk. This was done to incentivize people to download and run a full node helping to distribute the blockchain. None of the pre-mine was retained by the founder or developers.",
+        "url": ""
     },
     "digifact5": {
-        "en": {
-            "title": "DigiFact # 5 - Did you know...",
-            "content": "There is no founders reward with the DigiByte blockchain. The reward for mining each block only ever goes to whoever mined it. No part of it goes to anyone else.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #5 - 你知道吗？",
-            "content": "DigiByte 区块链没有创始人奖励。挖掘每个区块的奖励仅仅归挖掘它的人所有。没有任何部分会转给其他人。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #5 - Знаете ли вы...",
-            "content": "В блокчейне DigiByte нет награды для основателей. Награда за добычу каждого блока идет только тому, кто его добыл. Никакая ее часть не идет другим лицам.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #5 - ¿Sabías que...",
-            "content": "No hay recompensa para los fundadores en la blockchain de DigiByte. La recompensa por minar cada bloque solo va para quien lo haya minado. Ninguna parte de ella va a ninguna otra persona.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #5 - 혹시 알고 계셨나요...",
-            "content": "디지바이트 블록체인에는 창립자 보상이 없습니다. 각 블록을 채굴하는 데 대한 보상은 오직 그 블록을 채굴한 사람에게만 갑니다. 그것의 어떤 부분도 다른 사람에게 가지 않습니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #5 - ご存知でしたか...",
-            "content": "DigiByte ブロックチェーンには創設者報酬はありません。ブロックのマイニングに対する報酬は、そのブロックをマイニングした人にのみ行きます。その一部が他の人に行くことはありません。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #5 - Wussten Sie schon...",
-            "content": "Bei der DigiByte Blockchain gibt es keine Gründerbelohnung. Die Belohnung für das Mining eines Blocks geht immer nur an denjenigen, der ihn gemined hat. Kein Teil davon geht an andere.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #5 - Saviez-vous que...",
-            "content": "Il n'y a pas de récompense pour les fondateurs avec la blockchain DigiByte. La récompense pour le minage de chaque bloc ne va qu'à celui qui l'a miné. Aucune part ne va à quelqu'un d'autre.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #5 - Você sabia...",
-            "content": "Não há recompensa para os fundadores no blockchain DigiByte. A recompensa por minerar cada bloco sempre vai para quem o minerou. Nenhuma parte dela vai para outra pessoa.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #5 - क्या आप जानते थे...",
-            "content": "डिजीबाइट ब्लॉकचेन में कोई संस्थापक पुरस्कार नहीं है। प्रत्येक ब्लॉक की खनन के लिए पुरस्कार केवल उसी को मिलता है जिसने इसे खनन किया है। इसका कोई भी हिस्सा किसी और को नहीं जाता है।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #5 - Wist u dat...",
-            "content": "Er is geen oprichtersbeloning bij de DigiByte blockchain. De beloning voor het mijnen van elk blok gaat alleen naar degene die het gemijnd heeft. Niemand anders krijgt daar een deel van.",
-            "url": ""
-        }
+        "title": "DigiFact # 5 - Did you know...",
+        "content": "There is no founders reward with the DigiByte blockchain. The reward for mining each block only ever goes to whoever mined it. No part of it goes to anyone else.",
+        "url": ""
     },
     "digifact6": {
-        "en": {
-            "title": "DigiFact # 6 - Did you know...",
-            "content": "The DigiByte founder and developers have either purchased their DGB coins on an exchange at market rates, or mined them, just like everybody else. There was no ICO (Initial Coin Offering) for the DigiByte blockchain. Every coin has been fairly mined since the genesis block.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #6 - 你知道吗？",
-            "content": "DigiByte的创始人和开发者都是在交易所以市场价格购买他们的DGB币，或者像其他人一样挖掘它们。DigiByte区块链没有进行ICO（首次币发行）。自创世区块以来，每一枚币都是公平挖掘的。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #6 - Знаете ли вы...",
-            "content": "Основатель DigiByte и разработчики либо покупали свои монеты DGB на бирже по рыночным ценам, либо добывали их, как и все остальные. Для блокчейна DigiByte не было ICO (первичное предложение монет). Каждая монета была честно добыта с самого первого блока.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #6 - ¿Sabías que...",
-            "content": "El fundador y los desarrolladores de DigiByte han comprado sus monedas DGB en un intercambio a tasas de mercado, o las han minado, igual que todos los demás. No hubo una ICO (Oferta Inicial de Monedas) para la blockchain de DigiByte. Cada moneda ha sido minada de manera justa desde el bloque génesis.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #6 - 혹시 알고 계셨나요...",
-            "content": "디지바이트의 창립자와 개발자들은 시장 가격에 거래소에서 DGB 코인을 구매하거나, 다른 모든 사람들처럼 채굴했습니다. 디지바이트 블록체인에는 ICO(초기 코인 제공)가 없었습니다. 모든 코인은 창세 블록부터 공정하게 채굴되었습니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #6 - ご存知でしたか...",
-            "content": "DigiByteの創設者と開発者は、市場レートで取引所でDGBコインを購入したか、他の誰もがそうであるように、それらを採掘しました。DigiByteブロックチェーンにはICO（イニシャルコインオファリング）はありませんでした。すべてのコインは創世記のブロック以来、公正に採掘されています。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #6 - Wussten Sie schon...",
-            "content": "Der Gründer von DigiByte und die Entwickler haben ihre DGB-Münzen entweder auf einem Marktplatz zu Marktpreisen gekauft oder wie alle anderen abgebaut. Es gab kein ICO (Initial Coin Offering) für die DigiByte Blockchain. Jede Münze wurde seit dem Genesis-Block fair abgebaut.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #6 - Saviez-vous que...",
-            "content": "Le fondateur de DigiByte et les développeurs ont soit acheté leurs pièces DGB sur un échange aux tarifs du marché, soit les ont minées, tout comme tout le monde. Il n'y a pas eu d'ICO (Initial Coin Offering) pour la blockchain DigiByte. Chaque pièce a été minée de manière équitable depuis le bloc de genèse.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #6 - Você sabia...",
-            "content": "O fundador do DigiByte e os desenvolvedores compraram suas moedas DGB em uma bolsa a taxas de mercado, ou as mineraram, assim como todos os outros. Não houve um ICO (Oferta Inicial de Moeda) para o blockchain DigiByte. Cada moeda foi minerada de forma justa desde o bloco gênese.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #6 - क्या आप जानते थे...",
-            "content": "डिजीबाइट के संस्थापक और डेवलपर्स ने या तो अपने DGB सिक्कों को बाजार दर पर एक्सचेंज में खरीदा है, या उन्हें खनन किया है, बाकी सभी की तरह। डिजीबाइट ब्लॉकचैन के लिए कोई ICO (प्रारंभिक सिक्का पेशकश) नहीं थी। जेनेसिस ब्लॉक से लेकर हर सिक्का न्यायपूर्ण रूप से खनन किया गया है।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #6 - Wist u dat...",
-            "content": "De oprichter van DigiByte en de ontwikkelaars hebben hun DGB-munten gekocht op een beurs tegen markttarieven, of hebben ze gemijnd, net als iedereen. Er was geen ICO (Initial Coin Offering) voor de DigiByte blockchain. Elke munt is eerlijk gemijnd sinds het genesisblok.",
-            "url": ""
-        }
+        "title": "DigiFact # 6 - Did you know...",
+        "content": "The DigiByte founder and developers have either purchased their DGB coins on an exchange at market rates, or mined them, just like everybody else. There was no ICO (Initial Coin Offering) for the DigiByte blockchain. Every coin has been fairly mined since the genesis block.",
+        "url": ""
     },
     "digifact7": {
-        "en": {
-            "title": "DigiFact # 7 - Did you know...",
-            "content": "Transaction fees on the DigiByte blockchain are typically incredibly low. In Block 7658349, a user sent 342,000,000 DGB (worth $6 million USD at the time) from the inputs of over 200 different addresses. It cost 1/10th of a cent (USD) in fees and took only a minute or two to confirm.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #7 - 你知道吗？",
-            "content": "DigiByte 区块链上的交易费用通常极低。在7658349号区块中，一位用户从200多个不同地址发送了342,000,000 DGB（当时价值600万美元）。手续费仅为1/10美分（USD），且仅需一两分钟即可确认。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #7 - Знаете ли вы...",
-            "content": "Комиссии за транзакции в блокчейне DigiByte обычно невероятно низкие. В блоке 7658349 пользователь отправил 342,000,000 DGB (на тот момент стоимостью 6 миллионов долларов США) с входов более чем 200 разных адресов. Это стоило 1/10 цента (USD) в виде комиссии и заняло всего минуту или две для подтверждения.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #7 - ¿Sabías que...",
-            "content": "Las tarifas de transacción en la blockchain de DigiByte suelen ser increíblemente bajas. En el bloque 7658349, un usuario envió 342,000,000 DGB (valorados en 6 millones de USD en ese momento) desde más de 200 direcciones diferentes. Costó 1/10 de centavo (USD) en tarifas y solo tomó uno o dos minutos confirmar.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #7 - 혹시 알고 계셨나요...",
-            "content": "디지바이트 블록체인의 거래 수수료는 일반적으로 매우 낮습니다. 7658349번 블록에서 한 사용자가 200개가 넘는 다른 주소에서 3억 4천2백만 DGB(당시 600만 달러 상당)를 보냈습니다. 수수료는 1/10 센트(USD)였고 확인까지는 단 1~2분밖에 걸리지 않았습니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #7 - ご存知でしたか...",
-            "content": "DigiByte ブロックチェーン上の取引手数料は通常非常に低いです。ブロック 7658349 で、ユーザーは200以上の異なるアドレスから 3億 4,200万 DGB（当時の価値で600万米ドル）を送信しました。手数料は米ドルで1/10セントかかり、確認には1～2分しかかかりませんでした。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #7 - Wussten Sie schon...",
-            "content": "Die Transaktionsgebühren auf der DigiByte Blockchain sind in der Regel unglaublich niedrig. In Block 7658349 hat ein Benutzer 342.000.000 DGB (zum damaligen Zeitpunkt 6 Millionen USD wert) von über 200 verschiedenen Adressen gesendet. Es kostete 1/10 eines Cents (USD) an Gebühren und dauerte nur eine Minute oder zwei, um zu bestätigen.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #7 - Saviez-vous que...",
-            "content": "Les frais de transaction sur la blockchain DigiByte sont généralement incroyablement bas. Dans le bloc 7658349, un utilisateur a envoyé 342 000 000 DGB (d'une valeur de 6 millions de dollars USD à l'époque) à partir de plus de 200 adresses différentes. Cela a coûté 1/10 de centime (USD) en frais et a pris seulement une ou deux minutes pour confirmer.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #7 - Você sabia...",
-            "content": "As taxas de transação no blockchain DigiByte são tipicamente incrivelmente baixas. No bloco 7658349, um usuário enviou 342.000.000 DGB (valendo 6 milhões de USD na época) de mais de 200 endereços diferentes. Custou 1/10 de centavo (USD) em taxas e levou apenas um ou dois minutos para confirmar.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #7 - क्या आप जानते थे...",
-            "content": "डिजीबाइट ब्लॉकचेन पर लेनदेन शुल्क आमतौर पर बहुत कम होते हैं। ब्लॉक 7658349 में, एक उपयोगकर्ता ने 200 से अधिक अलग-अलग पतों से 342,000,000 DGB (उस समय 6 मिलियन USD के लायक) भेजे थे। इसके लिए 1/10 सेंट (USD) का शुल्क लगा और पुष्टि में केवल एक या दो मिनट लगे।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #7 - Wist u dat...",
-            "content": "Transactiekosten op de DigiByte blockchain zijn doorgaans ongelooflijk laag. In blok 7658349 heeft een gebruiker 342.000.000 DGB (op dat moment $6 miljoen USD waard) verstuurd vanuit de inputs van meer dan 200 verschillende adressen. Het kostte 1/10 van een cent (USD) aan kosten en duurde slechts een minuut of twee om te bevestigen.",
-            "url": ""
-        }
+        "title": "DigiFact # 7 - Did you know...",
+        "content": "Transaction fees on the DigiByte blockchain are typically incredibly low. In Block 7658349, a user sent 342,000,000 DGB (worth $6 million USD at the time) from the inputs of over 200 different addresses. It cost 1/10th of a cent (USD) in fees and took only a minute or two to confirm.",
+        "url": ""
     },
     "digifact8": {
-        "en": {
-            "title": "DigiFact # 8 - Did you know...",
-            "content": "DigiByte pioneered the DigiShield difficulty adjustment. It's used in Dogecoin, Ubiq, ZCash, Monacoin and parts of the code are even used in Ethereum. What is DigiShield (a.k.a MultiShield)? Learn more here: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "zh": {
-            "title": "数字事实 #8 - 你知道吗？",
-            "content": "DigiByte 开创了 DigiShield 难度调整技术。它被用在 Dogecoin、Ubiq、ZCash、Monacoin 中，甚至部分代码被用在 Ethereum 上。什么是 DigiShield（又名 MultiShield）？在这里了解更多：https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "ru": {
-            "title": "ДиджиФакт #8 - Знаете ли вы...",
-            "content": "DigiByte был пионером в введении корректировки сложности DigiShield. Она используется в Dogecoin, Ubiq, ZCash, Monacoin, и части кода даже используются в Ethereum. Что такое DigiShield (также известный как MultiShield)? Узнайте больше здесь: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "es": {
-            "title": "DigiDato #8 - ¿Sabías que...",
-            "content": "DigiByte fue pionero en el ajuste de dificultad DigiShield. Se utiliza en Dogecoin, Ubiq, ZCash, Monacoin y partes del código incluso se utilizan en Ethereum. ¿Qué es DigiShield (también conocido como MultiShield)? Aprende más aquí: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "ko": {
-            "title": "디지팩트 #8 - 혹시 알고 계셨나요...",
-            "content": "디지바이트는 디지실드 난이도 조정 기술을 선도하였습니다. 이것은 도지코인, 유비크, 제트캐시, 모나코인에서 사용되며, 일부 코드는 이더리움에도 사용됩니다. 디지실드(또는 멀티실드)란 무엇인가요? 여기서 더 알아보세요: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "ja": {
-            "title": "デジファクト #8 - ご存知でしたか...",
-            "content": "DigiByteはDigiShield難易度調整を先駆けて導入しました。これはDogecoin、Ubiq、ZCash、Monacoinで使用され、その一部のコードはEthereumでさえも使用されています。DigiShield（またの名をMultiShield）とは何ですか？こちらで詳しく知る：https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "de": {
-            "title": "DigiFakt #8 - Wussten Sie schon...",
-            "content": "DigiByte war Wegbereiter bei der Schwierigkeitsanpassung DigiShield. Es wird in Dogecoin, Ubiq, ZCash, Monacoin verwendet und Teile des Codes werden sogar in Ethereum verwendet. Was ist DigiShield (auch bekannt als MultiShield)? Erfahren Sie hier mehr: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "fr": {
-            "title": "DigiFact #8 - Saviez-vous que...",
-            "content": "DigiByte a été le précurseur de l'ajustement de difficulté DigiShield. Il est utilisé dans Dogecoin, Ubiq, ZCash, Monacoin et certaines parties du code sont même utilisées dans Ethereum. Qu'est-ce que DigiShield (alias MultiShield) ? En savoir plus ici : https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "pt": {
-            "title": "DigiFato #8 - Você sabia...",
-            "content": "DigiByte foi pioneiro no ajuste de dificuldade DigiShield. Ele é usado em Dogecoin, Ubiq, ZCash, Monacoin e partes do código são até usadas no Ethereum. O que é DigiShield (também conhecido como MultiShield)? Saiba mais aqui: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #8 - क्या आप जानते थे...",
-            "content": "डिजीबाइट ने डिजीशील्ड कठिनाई समायोजन में पहल की थी। इसका उपयोग डोगकोइन, उबिक, जेडकैश, मोनाकोइन में किया जाता है और कोड के कुछ हिस्से तो इथेरियम में भी उपयोग में लाए जाते हैं। डिजीशील्ड (उर्फ मल्टीशील्ड) क्या है? यहाँ और जानें: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "nl": {
-            "title": "DigiFeit #8 - Wist u dat...",
-            "content": "DigiByte was de pionier van de DigiShield moeilijkheidsgraad aanpassing. Het wordt gebruikt in Dogecoin, Ubiq, ZCash, Monacoin en delen van de code worden zelfs gebruikt in Ethereum. Wat is DigiShield (ook bekend als MultiShield)? Leer hier meer: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        }
+        "title": "DigiFact # 8 - Did you know...",
+        "content": "DigiByte pioneered the DigiShield difficulty adjustment. It's used in Dogecoin, Ubiq, ZCash, Monacoin and parts of the code are even used in Ethereum. What is DigiShield (a.k.a MultiShield)? Learn more here: https://j.mp/3oivy5u",
+        "url": "https://j.mp/3oivy5u"
     },
     "digifact9": {
-        "en": {
-            "title": "DigiFact # 9 - Did you know...",
-            "content": "DigiByte was the first non-Bitcoin blockchain to fix the major inflation bug in 2018. Rapid response from our rock-star developers!",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #9 - 你知道吗？",
-            "content": "DigiByte 是第一个在 2018 年修复主要通货膨胀漏洞的非比特币区块链。我们的杰出开发人员做出了迅速响应！",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #9 - Знаете ли вы...",
-            "content": "DigiByte был первым не-Биткойн блокчейном, который исправил крупный инфляционный баг в 2018 году. Быстрая реакция наших выдающихся разработчиков!",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #9 - ¿Sabías que...",
-            "content": "DigiByte fue la primera blockchain que no es Bitcoin en solucionar el importante error de inflación en 2018. ¡Respuesta rápida de nuestros impresionantes desarrolladores!",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #9 - 혹시 알고 계셨나요...",
-            "content": "DigiByte는 2018년 주요 인플레이션 버그를 수정한 최초의 비트코인이 아닌 블록체인이었습니다. 우리의 뛰어난 개발자들의 신속한 대응!",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #9 - ご存知でしたか...",
-            "content": "DigiByteは2018年に重大なインフレバグを修正した最初の非ビットコインブロックチェーンでした。私たちの優秀な開発者たちの迅速な対応！",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #9 - Wussten Sie schon...",
-            "content": "DigiByte war die erste nicht-Bitcoin-Blockchain, die im Jahr 2018 den schwerwiegenden Inflationsfehler behoben hat. Schnelle Reaktion unserer erstklassigen Entwickler!",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #9 - Saviez-vous que...",
-            "content": "DigiByte a été la première blockchain non-Bitcoin à corriger le bug majeur de l'inflation en 2018. Réponse rapide de nos développeurs stars !",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #9 - Você sabia...",
-            "content": "DigiByte foi o primeiro blockchain que não é Bitcoin a corrigir o grande bug de inflação em 2018. Resposta rápida dos nossos incríveis desenvolvedores!",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #9 - क्या आप जानते थे...",
-            "content": "डिजीबाइट 2018 में मुख्य मुद्रास्फीति बग को ठीक करने वाला पहला गैर-बिटकॉइन ब्लॉकचैन था। हमारे रॉक-स्टार डेवलपर्स से त्वरित प्रतिक्रिया!",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #9 - Wist u dat...",
-            "content": "DigiByte was de eerste niet-Bitcoin blockchain die in 2018 de belangrijke inflatiebug heeft opgelost. Snelle respons van onze fantastische ontwikkelaars!",
-            "url": ""
-        }
+        "title": "DigiFact # 9 - Did you know...",
+        "content": "DigiByte was the first non-Bitcoin blockchain to fix the major inflation bug in 2018. Rapid response from our rock-star developers!",
+        "url": ""
     },
     "digifact10": {
-        "en": {
-            "title": "DigiFact # 10 - Did you know...",
-            "content": "The DigiByte 'Genesis Block' contained the following headline: 'USA Today: 10/Jan/2014, Target: Data stolen from up to 110M customers.' This forever cemented DigiByte's focus on cybersecurity.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #10 - 你知道吗？",
-            "content": "DigiByte的'创世区块'包含以下标题：'今日美国：2014年1月10日，目标：从高达1.1亿顾客那里窃取数据。'这永远地巩固了DigiByte对网络安全的关注。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #10 - Знаете ли вы...",
-            "content": "В 'Генезис-блоке' DigiByte содержался следующий заголовок: 'USA Today: 10 января 2014 года, Цель: Данные, украденные у 110 миллионов клиентов.' Это навсегда закрепило внимание DigiByte на кибербезопасности.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #10 - ¿Sabías que...",
-            "content": "El 'Bloque Génesis' de DigiByte contenía el siguiente titular: 'USA Today: 10/Ene/2014, Objetivo: Datos robados de hasta 110 millones de clientes.' Esto cimentó para siempre el enfoque de DigiByte en la ciberseguridad.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #10 - 혹시 알고 계셨나요...",
-            "content": "디지바이트의 '제네시스 블록'에는 다음과 같은 헤드라인이 포함되어 있었습니다: 'USA Today: 2014년 1월 10일, 대상: 최대 1억 1천만 고객의 데이터 도난.' 이것은 디지바이트의 사이버 보안에 대한 초점을 영원히 강화했습니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #10 - ご存知でしたか...",
-            "content": "DigiByteの「ジェネシスブロック」には次の見出しが含まれていました：「USA Today: 2014年1月10日、ターゲット：最大1億1000万人の顧客からデータが盗まれました。」これによりDigiByteのサイバーセキュリティに対する焦点が永遠に確立されました。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #10 - Wussten Sie schon...",
-            "content": "Der 'Genesis-Block' von DigiByte enthielt die folgende Schlagzeile: 'USA Today: 10. Jan. 2014, Ziel: Daten von bis zu 110 Millionen Kunden gestohlen.' Dies verankerte den Fokus von DigiByte auf Cybersicherheit für immer.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #10 - Saviez-vous que...",
-            "content": "Le 'Bloc Genesis' de DigiByte contenait le titre suivant : 'USA Today: 10/Jan/2014, Cible : Données volées à jusqu'à 110 millions de clients.' Cela a définitivement scellé l'attention de DigiByte sur la cybersécurité.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #10 - Você sabia...",
-            "content": "O 'Bloco Gênesis' do DigiByte continha a seguinte manchete: 'USA Today: 10/Jan/2014, Alvo: Dados roubados de até 110 milhões de clientes.' Isso consolidou para sempre o foco do DigiByte em cibersegurança.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #10 - क्या आप जानते थे...",
-            "content": "DigiByte के 'जेनेसिस ब्लॉक' में निम्नलिखित सुर्खी शामिल थी: 'USA Today: 10/जनवरी/2014, लक्ष्य: 110M ग्राहकों से डेटा चुराया गया।' इसने DigiByte के साइबर सुरक्षा पर ध्यान केंद्रित करने की दिशा में हमेशा के लिए मजबूती प्रदान की।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #10 - Wist u dat...",
-            "content": "Het 'Genesis Block' van DigiByte bevatte de volgende kop: 'USA Today: 10/Jan/2014, Doelwit: Gegevens gestolen van maximaal 110M klanten.' Dit heeft de focus van DigiByte op cyberbeveiliging voor altijd versterkt.",
-            "url": ""
-        }
+        "title": "DigiFact # 10 - Did you know...",
+        "content": "The DigiByte \"Genesis Block\" contained the following headline: \"USA Today: 10/Jan/2014, Target: Data stolen from up to 110M customers.\" This forever cemented DigiByte's focus on cybersecurity.",
+        "url": ""
     },
     "digifact11": {
-        "en": {
-            "title": "DigiFact # 11 - Did you know...",
-            "content": "DigiByte was the first coin to upgrade from a single mining algorithm to MultiAlgo, for the additional security provided by having 5x algorithms. This upgrade occurred in late 2014 as the 'MultiAlgo' network upgrade. What's MultiAlgo? Learn more here: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "zh": {
-            "title": "数字事实 #11 - 你知道吗？",
-            "content": "DigiByte是第一个从单一挖矿算法升级到MultiAlgo的币，这样做是为了通过拥有5种算法提供额外的安全性。这次升级发生在2014年末，被称为'MultiAlgo'网络升级。什么是MultiAlgo？在这里了解更多：https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "ru": {
-            "title": "ДиджиФакт #11 - Знаете ли вы...",
-            "content": "DigiByte стал первой монетой, которая перешла с одного алгоритма майнинга на MultiAlgo, что обеспечило дополнительную безопасность за счет использования 5 различных алгоритмов. Это обновление произошло в конце 2014 года и получило название 'MultiAlgo' сетевое обновление. Что такое MultiAlgo? Узнайте больше здесь: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "es": {
-            "title": "DigiDato #11 - ¿Sabías que...",
-            "content": "DigiByte fue la primera moneda en pasar de un algoritmo de minería único a MultiAlgo, por la seguridad adicional que proporciona tener 5 algoritmos. Esta actualización ocurrió a finales de 2014 como la actualización de red 'MultiAlgo'. ¿Qué es MultiAlgo? Aprende más aquí: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "ko": {
-            "title": "디지팩트 #11 - 혹시 알고 계셨나요...",
-            "content": "디지바이트는 5가지 알고리즘을 갖춤으로써 추가적인 보안을 제공하는 단일 채굴 알고리즘에서 MultiAlgo로 업그레이드한 최초의 코인이었습니다. 이 업그레이드는 2014년 말 'MultiAlgo' 네트워크 업그레이드로 발생했습니다. MultiAlgo란 무엇인가요? 여기서 더 알아보세요: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "ja": {
-            "title": "デジファクト #11 - ご存知でしたか...",
-            "content": "DigiByteは、5つのアルゴリズムを持つことで提供される追加のセキュリティのために、1つのマイニングアルゴリズムからMultiAlgoにアップグレードした最初のコインでした。このアップグレードは2014年後半に'MultiAlgo'ネットワークアップグレードとして行われました。MultiAlgoとは何ですか？こちらで詳しく学んでください: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "de": {
-            "title": "DigiFakt #11 - Wussten Sie schon...",
-            "content": "DigiByte war die erste Kryptowährung, die von einem einzigen Mining-Algorithmus auf MultiAlgo umgestellt hat, um durch fünf verschiedene Algorithmen zusätzliche Sicherheit zu bieten. Dieses Upgrade fand Ende 2014 als 'MultiAlgo' Netzwerk-Upgrade statt. Was ist MultiAlgo? Hier mehr erfahren: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "fr": {
-            "title": "DigiFact #11 - Saviez-vous que...",
-            "content": "DigiByte a été la première monnaie à passer d'un algorithme de minage unique à MultiAlgo, pour la sécurité supplémentaire fournie par la présence de 5 algorithmes. Cette mise à niveau a eu lieu fin 2014 en tant que mise à niveau du réseau 'MultiAlgo'. Qu'est-ce que MultiAlgo ? Apprenez-en plus ici : https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "pt": {
-            "title": "DigiFato #11 - Você sabia...",
-            "content": "DigiByte foi a primeira moeda a atualizar de um algoritmo de mineração único para MultiAlgo, pela segurança adicional fornecida por ter 5 algoritmos. Esta atualização ocorreu no final de 2014 como a atualização de rede 'MultiAlgo'. O que é MultiAlgo? Saiba mais aqui: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #11 - क्या आप जानते थे...",
-            "content": "डिजीबाइट पाँच एल्गोरिदम्स की अतिरिक्त सुरक्षा प्रदान करने के लिए एकल खनन एल्गोरिदम से MultiAlgo में अपग्रेड करने वाला पहला सिक्का था। यह अपग्रेड 2014 के अंत में 'MultiAlgo' नेटवर्क अपग्रेड के रूप में हुआ था। MultiAlgo क्या है? यहां और जानें: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        },
-        "nl": {
-            "title": "DigiFeit #11 - Wist u dat...",
-            "content": "DigiByte was de eerste munt die overstapte van een enkelvoudig miningalgoritme naar MultiAlgo, voor de extra beveiliging die wordt geboden door het hebben van 5 algoritmen. Deze upgrade vond plaats eind 2014 als de 'MultiAlgo' netwerkupgrade. Wat is MultiAlgo? Leer hier meer: https://j.mp/3oivy5u",
-            "url": "https://j.mp/3oivy5u"
-        }
+        "title": "DigiFact # 11 - Did you know...",
+        "content": "DigiByte was the first coin to upgrade from a single mining algorithm to MultiAlgo, for the additional security provided by having 5x algorithms. This upgrade occurred in late 2014 as the \"MultiAlgo\" network upgrade. What's MultiAlgo? Learn more here: https://j.mp/3oivy5u",
+        "url": "https://j.mp/3oivy5u"
     },
     "digifact12": {
-        "en": {
-            "title": "DigiFact # 12 - Did you know...",
-            "content": "Initially, DigiByte only used the Scrypt algorithm for mining. In September 2014, the network upgraded to MultiAlgo, utilizing Scrypt, SHA256, Skein, Qubit & Myriad-Groestl. This massively improved decentralization by enabling a broader variety of mining hardware to be used.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #12 - 你知道吗？",
-            "content": "起初，DigiByte仅使用Scrypt算法进行挖矿。2014年9月，网络升级到MultiAlgo，采用了Scrypt、SHA256、Skein、Qubit和Myriad-Groestl算法。这极大地提高了去中心化程度，使得可以使用更广泛的挖矿硬件。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #12 - Знаете ли вы...",
-            "content": "Изначально DigiByte использовал только алгоритм Scrypt для майнинга. В сентябре 2014 года сеть была обновлена до MultiAlgo, используя алгоритмы Scrypt, SHA256, Skein, Qubit и Myriad-Groestl. Это значительно улучшило децентрализацию, позволив использовать более широкий ассортимент оборудования для майнинга.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #12 - ¿Sabías que...",
-            "content": "Inicialmente, DigiByte solo utilizaba el algoritmo Scrypt para la minería. En septiembre de 2014, la red se actualizó a MultiAlgo, utilizando Scrypt, SHA256, Skein, Qubit y Myriad-Groestl. Esto mejoró enormemente la descentralización al permitir el uso de una variedad más amplia de hardware de minería.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #12 - 혹시 알고 계셨나요...",
-            "content": "처음에 디지바이트는 채굴을 위해 Scrypt 알고리즘만을 사용했습니다. 2014년 9월, 네트워크는 MultiAlgo로 업그레이드되어 Scrypt, SHA256, Skein, Qubit 및 Myriad-Groestl을 활용하게 되었습니다. 이는 더 다양한 채굴 하드웨어의 사용을 가능하게 하여 탈중앙화를 대폭 향상시켰습니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #12 - ご存知でしたか...",
-            "content": "当初、DigiByteは採掘にScryptアルゴリズムのみを使用していました。2014年9月、ネットワークはMultiAlgoにアップグレードされ、Scrypt、SHA256、Skein、Qubit、Myriad-Groestlが利用されるようになりました。これにより、より幅広い種類のマイニングハードウェアが使用できるようになり、分散化が大幅に改善されました。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #12 - Wussten Sie schon...",
-            "content": "Ursprünglich verwendete DigiByte nur das Scrypt-Verfahren für das Mining. Im September 2014 wurde das Netzwerk auf MultiAlgo umgestellt, wobei Scrypt, SHA256, Skein, Qubit und Myriad-Groestl genutzt wurden. Dies verbesserte die Dezentralisierung erheblich, indem eine breitere Vielfalt von Mining-Hardware eingesetzt werden konnte.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #12 - Saviez-vous que...",
-            "content": "À l'origine, DigiByte utilisait uniquement l'algorithme Scrypt pour le minage. En septembre 2014, le réseau a été mis à jour vers MultiAlgo, utilisant Scrypt, SHA256, Skein, Qubit et Myriad-Groestl. Cela a considérablement amélioré la décentralisation en permettant l'utilisation d'une plus large variété de matériel de minage.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #12 - Você sabia...",
-            "content": "Inicialmente, o DigiByte usava apenas o algoritmo Scrypt para mineração. Em setembro de 2014, a rede foi atualizada para MultiAlgo, utilizando Scrypt, SHA256, Skein, Qubit e Myriad-Groestl. Isso melhorou muito a descentralização, permitindo o uso de uma variedade mais ampla de hardware de mineração.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #12 - क्या आप जानते थे...",
-            "content": "शुरू में, डिजीबाइट केवल माइनिंग के लिए Scrypt एल्गोरिदम का उपयोग करता था। सितंबर 2014 में, नेटवर्क को MultiAlgo में अपग्रेड किया गया, जिसमें Scrypt, SHA256, Skein, Qubit और Myriad-Groestl का उपयोग किया जाता था। इससे विभिन्न प्रकार के माइनिंग हार्डवेयर के उपयोग को सक्षम करके विकेंद्रीकरण में भारी सुधार हुआ।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #12 - Wist u dat...",
-            "content": "Aanvankelijk gebruikte DigiByte alleen het Scrypt-algoritme voor mining. In september 2014 schakelde het netwerk over op MultiAlgo, waarbij gebruik werd gemaakt van Scrypt, SHA256, Skein, Qubit & Myriad-Groestl. Dit verbeterde de decentralisatie enorm door een breder scala aan mininghardware toe te staan.",
-            "url": ""
-        }
+        "title": "DigiFact # 12 - Did you know...",
+        "content": "Initially DigiByte only used the Scrypt algorithm for mining. In September 2014, the network upgraded to MultiAlgo, utilizing Scrypt, SHA256, Skein, Qubit & Myriad-Groestl. This massively improved decentralization by enabling a broader variety of mining hardware to be used.",
+        "url": ""
     },
     "digifact13": {
-        "en": {
-            "title": "DigiFact # 13 - Did you know...",
-            "content": "In 2019, DigiByte upgraded the network, replacing the Myriad-Groestl algorithm with Odocrypt, an algorithm designed to be ASIC-resistant by targeting mining with FPGA hardware. However, with most ASIC-resistant algorithms, if the financial incentives are there, eventually ASICs will be developed for these algorithms, as is the case with Odocrypt.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #13 - 你知道吗？",
-            "content": "2019年，DigiByte升级了网络，将Myriad-Groestl算法替换为Odocrypt算法，Odocrypt是一种旨在通过针对FPGA硬件挖矿来抵抗ASIC的算法。然而，对于大多数抵抗ASIC的算法，如果有财务激励，最终会为这些算法开发ASIC，Odocrypt也是如此。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #13 - Знаете ли вы...",
-            "content": "В 2019 году DigiByte обновил сеть, заменив алгоритм Myriad-Groestl на Odocrypt, алгоритм, разработанный для защиты от ASIC путем использования оборудования FPGA для майнинга. Однако, как и в случае с большинством алгоритмов, устойчивых к ASIC, если есть финансовые стимулы, в конечном итоге для этих алгоритмов будут разработаны ASIC, как это произошло с Odocrypt.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #13 - ¿Sabías que...",
-            "content": "En 2019, DigiByte actualizó la red, reemplazando el algoritmo Myriad-Groestl con Odocrypt, un algoritmo diseñado para ser resistente a ASIC al apuntar a la minería con hardware FPGA. Sin embargo, como sucede con la mayoría de los algoritmos resistentes a ASIC, si existen incentivos financieros, eventualmente se desarrollarán ASIC para estos algoritmos, como es el caso de Odocrypt.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #13 - 혹시 알고 계셨나요...",
-            "content": "2019년에 DigiByte는 네트워크를 업그레이드하여 Myriad-Groestl 알고리즘을 FPGA 하드웨어 채굴을 목표로 하는 ASIC 저항 알고리즘인 Odocrypt로 교체했습니다. 그러나 대부분의 ASIC 저항 알고리즘과 마찬가지로 재정적 인센티브가 있으면 결국 이러한 알고리즘을 위한 ASIC이 개발될 것입니다. Odocrypt의 경우도 마찬가지입니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #13 - ご存知でしたか...",
-            "content": "2019年にDigiByteはネットワークをアップグレードし、Myriad-Groestlアルゴリズムを、FPGAハードウェアをターゲットにASIC耐性を持たせるよう設計されたOdocryptに置き換えました。しかし、ほとんどのASIC耐性アルゴリズムの場合、財政的なインセンティブがあれば、最終的にはOdocryptのようにこれらのアルゴリズム用のASICが開発されるでしょう。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #13 - Wussten Sie schon...",
-            "content": "Im Jahr 2019 hat DigiByte das Netzwerk aktualisiert und den Myriad-Groestl-Algorithmus durch Odocrypt ersetzt, einen Algorithmus, der so entworfen wurde, dass er durch die Ausrichtung auf das Mining mit FPGA-Hardware ASIC-resistent ist. Allerdings werden, wie bei den meisten ASIC-resistenten Algorithmen, wenn finanzielle Anreize bestehen, schließlich ASICs für diese Algorithmen entwickelt, wie es bei Odocrypt der Fall ist.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #13 - Saviez-vous que...",
-            "content": "En 2019, DigiByte a mis à jour le réseau, remplaçant l'algorithme Myriad-Groestl par Odocrypt, un algorithme conçu pour être résistant aux ASIC en ciblant l'exploitation minière avec du matériel FPGA. Cependant, comme pour la plupart des algorithmes résistants aux ASIC, si les incitations financières existent, des ASIC seront finalement développés pour ces algorithmes, comme c'est le cas pour Odocrypt.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #13 - Você sabia...",
-            "content": "Em 2019, o DigiByte atualizou a rede, substituindo o algoritmo Myriad-Groestl pelo Odocrypt, um algoritmo projetado para ser resistente a ASIC ao focar na mineração com hardware FPGA. No entanto, como na maioria dos algoritmos resistentes a ASIC, se houver incentivos financeiros, eventualmente ASICs serão desenvolvidos para esses algoritmos, como é o caso do Odocrypt.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #13 - क्या आप जानते थे...",
-            "content": "2019 में, DigiByte ने नेटवर्क अपग्रेड किया, Myriad-Groestl एल्गोरिदम को Odocrypt से बदल दिया, जो FPGA हार्डवेयर के साथ माइनिंग को लक्षित करके ASIC-प्रतिरोधी होने के लिए डिज़ाइन किया गया था। हालाँकि, अधिकांश ASIC-प्रतिरोधी एल्गोरिदमों के साथ, यदि वित्तीय प्रोत्साहन हैं, तो अंततः इन एल्गोरिदमों के लिए ASIC विकसित किए जाएंगे, जैसा कि Odocrypt के साथ है।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #13 - Wist u dat...",
-            "content": "In 2019 heeft DigiByte het netwerk geüpgraded door het Myriad-Groestl-algoritme te vervangen door Odocrypt, een algoritme ontworpen om ASIC-bestendig te zijn door zich te richten op mining met FPGA-hardware. Echter, zoals met de meeste ASIC-resistente algoritmen, zullen uiteindelijk ASIC's worden ontwikkeld voor deze algoritmen als de financiële prikkels aanwezig zijn, zoals het geval is met Odocrypt.",
-            "url": ""
-        }
+        "title": "DigiFact # 13 - Did you know...",
+        "content": "In 2019, DigiByte upgraded the network, replacing the Myriad-Groestl algorithm with Odocrypt, an algorithm designed to be ASIC-resistant by targeting mining with FPGA hardware. However, with most ASIC-resistant algorithms, if the financial incentives are there, eventually ASICs will be developed for these algorithms, as is the case with Odocrypt.",
+        "url": ""
     },
     "digifact14": {
-        "en": {
-            "title": "DigiFact # 14 - Did you know...",
-            "content": "In 2018, the DigiByte community raised enough funds to supply Venezuelan refugees crossing the border with over a thousand bottles of water, feed 160 orphaned children for a month, provide essential maintenance for a hospital, refurbish an Adicora school kitchen, and host several free community lunches for hundreds of people.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #14 - 你知道吗？",
-            "content": "2018年，DigiByte社区筹集了足够的资金，为越境的委内瑞拉难民提供了超过一千瓶水，供养了160名孤儿一个月，为一家医院提供了必要的维护，翻新了Adicora学校的厨房，并为数百人举办了几次免费的社区午餐。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #14 - Знаете ли вы...",
-            "content": "В 2018 году сообщество DigiByte собрало достаточно средств, чтобы обеспечить венесуэльских беженцев, пересекающих границу, более чем тысячей бутылок воды, накормить 160 сирот на месяц, обеспечить необходимое обслуживание для больницы, отремонтировать кухню школы в Адикоре и организовать несколько бесплатных общественных обедов для сотен людей.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #14 - ¿Sabías que...",
-            "content": "En 2018, la comunidad de DigiByte recaudó fondos suficientes para suministrar a los refugiados venezolanos que cruzaban la frontera con más de mil botellas de agua, alimentar a 160 niños huérfanos durante un mes, proporcionar mantenimiento esencial para un hospital, renovar una cocina escolar en Adicora y organizar varios almuerzos comunitarios gratuitos para cientos de personas.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #14 - 혹시 알고 계셨나요...",
-            "content": "2018년에 DigiByte 커뮤니티는 국경을 넘는 베네수엘라 난민들에게 천 개 이상의 물병을 공급하고, 160명의 고아 아동들에게 한 달간의 식사를 제공하며, 병원의 필수 유지 보수를 제공하고, Adicora 학교 주방을 리모델링하고, 수백 명의 사람들을 위한 여러 번의 무료 커뮤니티 점심 식사를 개최하기 위해 충분한 자금을 모았습니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #14 - ご存知でしたか...",
-            "content": "2018年にDigiByteコミュニティは、国境を越えるベネズエラ難民に千本以上の水を提供し、160人の孤児に1ヶ月間の食事を供給し、病院の必要なメンテナンスを行い、アディコラの学校のキッチンを改修し、何百人もの人々のための無料のコミュニティランチを数回開催するために十分な資金を調達しました。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #14 - Wussten Sie schon...",
-            "content": "Im Jahr 2018 sammelte die DigiByte-Gemeinschaft genügend Mittel, um venezolanischen Flüchtlingen, die die Grenze überquerten, über tausend Flaschen Wasser zur Verfügung zu stellen, 160 Waisenkinder einen Monat lang zu ernähren, notwendige Wartungsarbeiten in einem Krankenhaus durchzuführen, eine Schulküche in Adicora zu renovieren und mehrere kostenlose Gemeinschaftsmittagessen für Hunderte von Menschen zu veranstalten.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #14 - Saviez-vous que...",
-            "content": "En 2018, la communauté DigiByte a recueilli suffisamment de fonds pour fournir plus de mille bouteilles d'eau aux réfugiés vénézuéliens traversant la frontière, nourrir 160 enfants orphelins pendant un mois, fournir l'entretien essentiel d'un hôpital, rénover une cuisine d'école à Adicora, et organiser plusieurs déjeuners communautaires gratuits pour des centaines de personnes.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #14 - Você sabia...",
-            "content": "Em 2018, a comunidade DigiByte arrecadou fundos suficientes para fornecer mais de mil garrafas de água para refugiados venezuelanos que cruzavam a fronteira, alimentar 160 crianças órfãs por um mês, fornecer manutenção essencial para um hospital, reformar uma cozinha escolar em Adicora e organizar vários almoços comunitários gratuitos para centenas de pessoas.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #14 - क्या आप जानते थे...",
-            "content": "2018 में, डिजीबाइट समुदाय ने पर्याप्त धनराशि जुटाई ताकि सीमा पार करने वाले वेनेजुएला के शरणार्थियों को एक हजार से अधिक पानी की बोतलें, 160 अनाथ बच्चों को एक महीने का खाना, एक अस्पताल के लिए आवश्यक रखरखाव प्रदान कर सकें, Adicora स्कूल की रसोई का नवीनीकरण कर सकें, और सैकड़ों लोगों के लिए कई मुफ्त सामुदायिक दोपहर के भोजन की मेजबानी कर सकें।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #14 - Wist u dat...",
-            "content": "In 2018 heeft de DigiByte-gemeenschap genoeg fondsen geworven om Venezolaanse vluchtelingen die de grens overstaken te voorzien van meer dan duizend flessen water, 160 weeskinderen een maand lang te voeden, essentieel onderhoud voor een ziekenhuis te bieden, een schoolkeuken in Adicora op te knappen, en meerdere gratis gemeenschapslunches voor honderden mensen te organiseren.",
-            "url": ""
-        }
+        "title": "DigiFact # 14 - Did you know...",
+        "content": "In 2018, the DigiByte community raised enough funds to supply Venezuelan refugees crossing the border with over a thousand bottles of water, feed 160 orphaned children for a month, provide essential maintenance for a hospital, refurbish an Adicora school kitchen, and hosting several free community lunches for hundreds of people.",
+        "url": ""
     },
     "digifact15": {
-        "en": {
-            "title": "DigiFact # 15 - Did you know...",
-            "content": "DigiByte is not an ICO or a token launched on another network, but rather a pure blockchain project with its own consensus rules like Bitcoin or Vertcoin.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #15 - 你知道吗？",
-            "content": "DigiByte不是一个在其他网络上发行的ICO或代币，而是一个纯粹的区块链项目，有着像比特币或Vertcoin这样的自己的共识规则。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #15 - Знаете ли вы...",
-            "content": "DigiByte — это не ICO или токен, запущенный в другой сети, а чистый блокчейн-проект со своими правилами консенсуса, подобно Bitcoin или Vertcoin.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #15 - ¿Sabías que...",
-            "content": "DigiByte no es un ICO o un token lanzado en otra red, sino un proyecto de blockchain puro con sus propias reglas de consenso como Bitcoin o Vertcoin.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #15 - 혹시 알고 계셨나요...",
-            "content": "DigiByte는 다른 네트워크에서 시작된 ICO나 토큰이 아니라 비트코인이나 버트코인처럼 자체 합의 규칙을 가진 순수한 블록체인 프로젝트입니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #15 - ご存知でしたか...",
-            "content": "DigiByteは他のネットワークで発売されたICOやトークンではなく、BitcoinやVertcoinのように独自の合意形成ルールを持つ純粋なブロックチェーンプロジェクトです。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #15 - Wussten Sie schon...",
-            "content": "DigiByte ist kein ICO oder ein Token, der auf einem anderen Netzwerk gestartet wurde, sondern ein reines Blockchain-Projekt mit eigenen Konsensregeln wie Bitcoin oder Vertcoin.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #15 - Saviez-vous que...",
-            "content": "DigiByte n'est ni un ICO ni un token lancé sur un autre réseau, mais plutôt un projet de blockchain pur avec ses propres règles de consensus comme Bitcoin ou Vertcoin.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #15 - Você sabia...",
-            "content": "DigiByte não é um ICO ou um token lançado em outra rede, mas sim um projeto de blockchain puro com suas próprias regras de consenso como Bitcoin ou Vertcoin.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #15 - क्या आप जानते थे...",
-            "content": "डिजीबाइट कोई ICO या अन्य नेटवर्क पर लॉन्च किया गया टोकन नहीं है, बल्कि यह एक शुद्ध ब्लॉकचैन प्रोजेक्ट है जिसके अपने सहमति नियम हैं जैसे कि बिटकॉइन या वर्टकॉइन।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #15 - Wist u dat...",
-            "content": "DigiByte is geen ICO of een token gelanceerd op een ander netwerk, maar een puur blockchainproject met eigen consensusregels zoals Bitcoin of Vertcoin.",
-            "url": ""
-        }
+        "title": "DigiFact # 15 - Did you know...",
+        "content": "DigiByte is not an ICO or a token launched on another network, but rather a pure blockchain project with it's own consensus rules such as Bitcoin or Vertcoin.",
+        "url": ""
     },
     "digifact16": {
-        "en": {
-            "title": "DigiFact # 16 - Did you know...",
-            "content": "For general DigiByte support, a good place to start is with the community support tool available here: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "zh": {
-            "title": "数字事实 #16 - 你知道吗？",
-            "content": "对于DigiByte的一般支持，一个好的起点是这里提供的社区支持工具：https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "ru": {
-            "title": "ДиджиФакт #16 - Знаете ли вы...",
-            "content": "Для общей поддержки DigiByte хорошим началом будет инструмент поддержки сообщества, доступный здесь: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "es": {
-            "title": "DigiDato #16 - ¿Sabías que...",
-            "content": "Para soporte general de DigiByte, un buen lugar para comenzar es con la herramienta de soporte comunitario disponible aquí: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "ko": {
-            "title": "디지팩트 #16 - 혹시 알고 계셨나요...",
-            "content": "DigiByte에 대한 일반 지원은 여기에 있는 커뮤니티 지원 도구를 사용하는 것이 좋은 출발점입니다: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "ja": {
-            "title": "デジファクト #16 - ご存知でしたか...",
-            "content": "DigiByteの一般的なサポートについては、こちらのコミュニティサポートツールから始めることをお勧めします: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "de": {
-            "title": "DigiFakt #16 - Wussten Sie schon...",
-            "content": "Für allgemeine Unterstützung von DigiByte ist ein guter Startpunkt das hier verfügbare Community-Support-Tool: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "fr": {
-            "title": "DigiFact #16 - Saviez-vous que...",
-            "content": "Pour obtenir de l'aide générale sur DigiByte, un bon point de départ est l'outil de support communautaire disponible ici : https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "pt": {
-            "title": "DigiFato #16 - Você sabia...",
-            "content": "Para suporte geral ao DigiByte, um bom ponto de partida é a ferramenta de suporte da comunidade disponível aqui: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #16 - क्या आप जानते थे...",
-            "content": "डिजीबाइट समर्थन के लिए, एक अच्छी शुरुआत यहां उपलब्ध सामुदायिक सहायता उपकरण के साथ हो सकती है: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        },
-        "nl": {
-            "title": "DigiFeit #16 - Wist u dat...",
-            "content": "Voor algemene ondersteuning van DigiByte is een goed startpunt het community-ondersteuningstool hier beschikbaar: https://dgbsupport.digiassetx.com/",
-            "url": "https://dgbsupport.digiassetx.com/"
-        }
+        "title": "DigiFact # 16 - Did you know...",
+        "content": "For general DigiByte support, a good place to start is with the community support tool available here: https://dgbsupport.digiassetx.com/",
+        "url": "https://dgbsupport.digiassetx.com/"
     },
     "digifact17": {
-        "en": {
-            "title": "DigiFact # 17 - Did you know...",
-            "content": "DigiByte can be used to store tiny amounts (80-bytes) of data along with a transaction known as OP_RETURN. This is useful for document hashes for notarization/validation, dApps, scripting, and more.",
-            "url": ""
-        },
-        "zh": {
-            "title": "数字事实 #17 - 你知道吗？",
-            "content": "DigiByte可以用来存储少量数据（80字节），这在交易中被称为OP_RETURN。这对于文件哈希的公证/验证、分布式应用、脚本编写等非常有用。",
-            "url": ""
-        },
-        "ru": {
-            "title": "ДиджиФакт #17 - Знаете ли вы...",
-            "content": "DigiByte можно использовать для хранения небольших объемов данных (80 байт) вместе с транзакцией, известной как OP_RETURN. Это полезно для хэшей документов для нотариального удостоверения/проверки, децентрализованных приложений, скриптов и многого другого.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiDato #17 - ¿Sabías que...",
-            "content": "DigiByte se puede utilizar para almacenar pequeñas cantidades (80 bytes) de datos junto con una transacción conocida como OP_RETURN. Esto es útil para hashes de documentos para notarización/validación, dApps, scripting y más.",
-            "url": ""
-        },
-        "ko": {
-            "title": "디지팩트 #17 - 혹시 알고 계셨나요...",
-            "content": "DigiByte는 거래와 함께 소량의 데이터(80바이트)를 저장하는 데 사용할 수 있으며, 이는 OP_RETURN으로 알려져 있습니다. 이는 문서 해시의 공증/검증, dApps, 스크립팅 등에 유용합니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "デジファクト #17 - ご存知でしたか...",
-            "content": "DigiByteは、トランザクションとともに少量（80バイト）のデータを保存するために使用でき、これはOP_RETURNとして知られています。これは文書のハッシュの公証/検証、dApps、スクリプティングなどに便利です。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFakt #17 - Wussten Sie schon...",
-            "content": "DigiByte kann verwendet werden, um kleine Mengen an Daten (80 Bytes) zusammen mit einer Transaktion zu speichern, bekannt als OP_RETURN. Dies ist nützlich für Dokumentenhashes zur Beglaubigung/Validierung, dApps, Scripting und mehr.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact #17 - Saviez-vous que...",
-            "content": "DigiByte peut être utilisé pour stocker de petites quantités (80 octets) de données avec une transaction connue sous le nom de OP_RETURN. Cela est utile pour les hachages de documents pour la notarisation/validation, les dApps, l'écriture de scripts, et plus encore.",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFato #17 - Você sabia...",
-            "content": "DigiByte pode ser usado para armazenar pequenas quantidades (80 bytes) de dados junto com uma transação conhecida como OP_RETURN. Isso é útil para hashes de documentos para notarização/validação, dApps, scripts e mais.",
-            "url": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #17 - क्या आप जानते थे...",
-            "content": "DigiByte का उपयोग एक लेनदेन के साथ छोटी मात्रा (80-बाइट्स) के डेटा को स्टोर करने के लिए किया जा सकता है, जिसे OP_RETURN के रूप में जाना जाता है। यह दस्तावेज़ हैशेज के नोटराइज़ेशन/सत्यापन, dApps, स्क्रिप्टिंग और अधिक के लिए उपयोगी है।",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFeit #17 - Wist u dat...",
-            "content": "DigiByte kan worden gebruikt om kleine hoeveelheden (80 bytes) aan gegevens op te slaan samen met een transactie bekend als OP_RETURN. Dit is handig voor document hashes voor notarisatie/validatie, dApps, scripting en meer.",
-            "url": ""
-        }
+        "title": "DigiFact # 17 - Did you know...",
+        "content": "DigiByte can be used to store tiny amounts (80-bytes) of data along with a transaction known as OP_RETURN. This is useful for document hashes for notarization / validation, dApps, scripting and more.",
+        "url": ""
     },
     "digifact18": {
-        "en": {
-            "title": "DigiFact # 18 - Did you know...",
-            "content": "You can look up any transaction on the DigiByte Blockchain by inputting a transaction ID, DigiByte address, or block number into a 'Blockchain Explorer'. The community maintains one such explorer you can use at: https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "zh": {
-            "title": "数字事实 #18 - 你知道吗？",
-            "content": "您可以通过在“区块链浏览器”中输入交易ID、DigiByte地址或区块号来查找DigiByte区块链上的任何交易。社区维护了一个这样的浏览器，您可以在这里使用：https://digiexplorer.info。",
-            "url": "https://digiexplorer.info"
-        },
-        "ru": {
-            "title": "ДиджиФакт #18 - Знаете ли вы...",
-            "content": "Вы можете найти любую транзакцию в блокчейне DigiByte, введя ID транзакции, адрес DigiByte или номер блока в 'Blockchain Explorer'. Сообщество поддерживает такой обозреватель, которым вы можете воспользоваться: https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "es": {
-            "title": "DigiDato #18 - ¿Sabías que...",
-            "content": "Puedes buscar cualquier transacción en la Blockchain de DigiByte introduciendo un ID de transacción, dirección de DigiByte o número de bloque en un 'Explorador de Blockchain'. La comunidad mantiene uno de estos exploradores que puedes usar en: https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "ko": {
-            "title": "디지팩트 #18 - 혹시 알고 계셨나요...",
-            "content": "DigiByte 블록체인에서 거래 ID, DigiByte 주소 또는 블록 번호를 '블록체인 탐색기'에 입력하여 어떤 거래도 조회할 수 있습니다. 커뮤니티에서는 다음 링크에서 사용할 수 있는 탐색기를 유지하고 있습니다: https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "ja": {
-            "title": "デジファクト #18 - ご存知でしたか...",
-            "content": "DigiByte BlockchainでトランザクションID、DigiByteアドレス、またはブロック番号を「ブロックチェーンエクスプローラー」に入力することで、任意のトランザクションを検索することができます。コミュニティはそのようなエクスプローラーを一つ保持しており、こちらで使用できます：https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "de": {
-            "title": "DigiFakt #18 - Wussten Sie schon...",
-            "content": "Sie können jede Transaktion auf der DigiByte Blockchain nachschlagen, indem Sie eine Transaktions-ID, DigiByte-Adresse oder Blocknummer in einen 'Blockchain Explorer' eingeben. Die Community unterhält einen solchen Explorer, den Sie unter folgender Adresse nutzen können: https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "fr": {
-            "title": "DigiFact #18 - Saviez-vous que...",
-            "content": "Vous pouvez rechercher n'importe quelle transaction sur la Blockchain DigiByte en saisissant un ID de transaction, une adresse DigiByte ou un numéro de bloc dans un 'Explorateur de Blockchain'. La communauté maintient un tel explorateur que vous pouvez utiliser à l'adresse : https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "pt": {
-            "title": "DigiFato #18 - Você sabia...",
-            "content": "Você pode procurar qualquer transação no Blockchain DigiByte inserindo um ID de transação, endereço DigiByte ou número de bloco em um 'Explorador de Blockchain'. A comunidade mantém um explorador que você pode usar em: https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #18 - क्या आप जानते थे...",
-            "content": "आप DigiByte ब्लॉकचेन पर किसी भी लेन-देन को देख सकते हैं जिसमें आप 'ब्लॉकचेन एक्सप्लोरर' में लेनदेन आईडी, DigiByte पता, या ब्लॉक नंबर डालते हैं। समुदाय ऐसा एक एक्सप्लोरर बनाए रखता है जिसे आप यहां उपयोग कर सकते हैं: https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        },
-        "nl": {
-            "title": "DigiFeit #18 - Wist u dat...",
-            "content": "U kunt elke transactie op de DigiByte Blockchain opzoeken door een transactie-ID, DigiByte-adres of bloknummer in te voeren in een 'Blockchain Explorer'. De gemeenschap onderhoudt zo'n verkenner die u hier kunt gebruiken: https://digiexplorer.info.",
-            "url": "https://digiexplorer.info"
-        }
+        "title": "DigiFact # 18 - Did you know...",
+        "content": "You can look up any transaction on the DigiByte Blockchain by inputting a transaction ID, DigiByte address, or block number into a \"Blockchain Explorer\". The community maintains one such explorer you can use at: https://digiexplorer.info.",
+        "url": "https://digiexplorer.info"
     },
     "digifact19": {
-        "en": {
-            "title": "DigiFact # 19 - Did you know...",
-            "content": "Have you ever wanted to run your own DigiExplorer? Or get other data out of the blockchain so you can integrate it with your business? There are handy guides that will help you here: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "zh": {
-            "title": "数字事实 #19 - 你知道吗？",
-            "content": "你是否想过要运行自己的DigiExplorer？或者从区块链中获取其他数据以便与您的业务集成？这里有一些方便的指南可以帮助你：https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "ru": {
-            "title": "ДиджиФакт #19 - Знаете ли вы...",
-            "content": "Хотели ли вы когда-нибудь запустить свой собственный DigiExplorer? Или получить другие данные из блокчейна, чтобы интегрировать их в ваш бизнес? Здесь вы найдете полезные руководства, которые помогут вам: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "es": {
-            "title": "DigiDato #19 - ¿Sabías que...",
-            "content": "¿Alguna vez has querido ejecutar tu propio DigiExplorer? ¿O sacar otros datos de la blockchain para integrarlos con tu negocio? Hay guías útiles que te ayudarán aquí: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "ko": {
-            "title": "디지팩트 #19 - 혹시 알고 계셨나요...",
-            "content": "자신만의 DigiExplorer를 운영하고 싶거나 블록체인에서 다른 데이터를 추출하여 비즈니스와 통합하고 싶으신 적이 있나요? 여기에 도움이 될 유용한 가이드가 있습니다: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "ja": {
-            "title": "デジファクト #19 - ご存知でしたか...",
-            "content": "自分自身のDigiExplorerを実行したいですか？または、ビジネスと統合するためにブロックチェーンから他のデータを取得したいですか？ここに役立つガイドがあります: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "de": {
-            "title": "DigiFakt #19 - Wussten Sie schon...",
-            "content": "Wollten Sie schon immer Ihren eigenen DigiExplorer betreiben? Oder andere Daten aus der Blockchain extrahieren, um sie in Ihr Geschäft zu integrieren? Hier finden Sie nützliche Anleitungen, die Ihnen dabei helfen: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "fr": {
-            "title": "DigiFact #19 - Saviez-vous que...",
-            "content": "Avez-vous déjà voulu exécuter votre propre DigiExplorer ? Ou extraire d'autres données de la blockchain pour les intégrer à votre entreprise ? Il existe des guides pratiques qui vous aideront ici : https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "pt": {
-            "title": "DigiFato #19 - Você sabia...",
-            "content": "Você já quis rodar o seu próprio DigiExplorer? Ou obter outros dados da blockchain para integrar com o seu negócio? Existem guias úteis que irão ajudá-lo aqui: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #19 - क्या आप जानते थे...",
-            "content": "क्या आप कभी अपना खुद का DigiExplorer चलाना चाहते हैं? या ब्लॉकचेन से अन्य डेटा प्राप्त करना चाहते हैं ताकि आप उसे अपने व्यवसाय में एकीकृत कर सकें? यहां कुछ उपयोगी गाइड हैं जो आपकी मदद करेंगे: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        },
-        "nl": {
-            "title": "DigiFeit #19 - Wist u dat...",
-            "content": "Wilde je ooit je eigen DigiExplorer uitvoeren? Of andere gegevens uit de blockchain halen om te integreren met je bedrijf? Er zijn handige gidsen die je hierbij kunnen helpen: https://dgbwiki.com",
-            "url": "https://dgbwiki.com"
-        }
+        "title": "DigiFact # 19 - Did you know...",
+        "content": "Have you wanted to run your own DigiExplorer? Or get other data out of the blockchain so you can integrate it with your business? There are handy guides that will help you here: https://dgbwiki.com",
+        "url": "https://dgbwiki.com"
+    },
+    "digifact20": {
+        "title": "DigiFact # 20 - Did you know...",
+        "content": "The name \"DigiByte\" was originally chosen as it signifies a \"Digital Byte\" of data. This is because blockchain technology such as DigiByte can be used for so much more than as a \"coin\" such as silver or gold. DigiByte is incredibly multi-purpose.",
+        "url": ""
+    },
+    "digifact21": {
+        "title": "DigiFact # 21 - Did you know...",
+        "content": "A copy of the DigiByte blockchain open source code v7.17.3 is laying in cold storage 250 meters deep in the permafrost of an Arctic mountain! Thanks to the GitHub Arctic Code Vault program!",
+        "url": ""
+    },
+    "digifact22": {
+        "title": "DigiFact # 22 - Did you know...",
+        "content": "DigiByte is available on 100+ exchanges, including many different fiat pairings with local currencies, making it easier than ever to buy DigiByte.",
+        "url": ""
+    },
+    "digifact23": {
+        "title": "DigiFact # 23 - Did you know...",
+        "content": "DigiByte was founded by Jared Tate in 2013 and the Genesis block was mined on 10th January 2014. While Jared remains an active member of the DigiByte community, and is one of the Core developers, he does not dictate the direction of the project. DigiByte has no boss - it is entirely run and managed by a global community of dedicated volunteers.",
+        "url": ""
+    },
+    "digifact24": {
+        "title": "DigiFact # 24 - Did you know...",
+        "content": "DigiByte can do smart-contracts thanks to its \"script\" language. You can run a whole lot of powerful tools on top of DigiByte to power a dApp.",
+        "url": ""
+    },
+    "digifact25": {
+        "title": "DigiFact # 25 - Did you know...",
+        "content": "The official DigiByte Core wallet is available for Windows, MacOS and Linux as well a low powered single-board computers such as the Raspberry Pi. DigiByte is supported on mobile by a number of third party wallets, such as Coinomi and Securus. It is also available on many hardware wallets, like Ledger and Trezor. Be advised that not all of these wallet also support Digi-ID and DigiAssets.",
+        "url": ""
+    },
+    "digifact26": {
+        "title": "DigiFact # 26 - Did you know...",
+        "content": "Digi-ID by DigiByte is one of the simplest yet most secure authentication methods in the world. Even Google warns against using their own time-based 2FA codes or SMS-2FA, but Digi-ID overcomes all the shortcomings. Digi-ID is open source, free, ad-free (forever), private & secure. To learn more visit: https://www.digi-id.io/",
+        "url": "https://www.digi-id.io/"
+    },
+    "digifact27": {
+        "title": "DigiFact # 27 - Did you know...",
+        "content": "The development of DigiByte is done by a worldwide team of volunteers, who all donate their time out of a passion for the project. There is no central company employing and paying people, it's all given freely by our incredible developers and supporting community.",
+        "url": ""
+    },
+    "digifact28": {
+        "title": "DigiFact # 28 - Did you know...",
+        "content": "The last DigiByte will be mined by the year 2035. There is less than half of all remaining $DGB waiting to be mined by anybody in the world. These are not \"owned\" by anybody, unlike an ICO and will be newly \"minted\".",
+        "url": ""
+    },
+    "digifact29": {
+        "title": "DigiFact # 29 - Did you know...",
+        "content": "DigiByte can be used for Atomic Swaps with other blockchains safely and securely since the implementation of SegWit in early 2017. There is no need for a second layer network to perform this and it can instead be done directly.",
+        "url": ""
+    },
+    "digifact30": {
+        "title": "DigiFact # 30 - Did you know...",
+        "content": "When all DigiByte have been mined, the network will continue to function with the miners mining / securing the network as they do at present. They will only get the transaction fees from sending $DGB.",
+        "url": ""
+    },
+    "digifact31": {
+        "title": "DigiFact # 31 - Did you know...",
+        "content": "If you ever have issues with getting your DigiByte out of a wallet, you can sweep the funds to a new wallet using the DigiSweep tool created by Matthew Cornelisse of DigiAssetX. It's easy to use & open-source. Find it here: https://digisweep.digiassetx.com/:",
+        "url": "https://digisweep.digiassetx.com/"
+    },
+    "digifact32": {
+        "title": "DigiFact # 32 - Did you know...",
+        "content": "When DigiByte launched, there was a count-down to the release of the code, and to the first block being mined. This was one of the things done to encourage a \"fair\" distribution, right from the very beginning in 2014.",
+        "url": ""
+    },
+    "digifact33": {
+        "title": "DigiFact # 33 - Did you know...",
+        "content": "DigiByte was originally based on a fork of the Litecoin code-base (Though, a 100% independent blockchain with unique Genesis Block). DigiByte has since maintained closer features with Bitcoin, while also significantly innovating and surpassing it! View the code at: https://github.com/digibyte-core/digibyte/",
+        "url": "https://github.com/digibyte-core/digibyte/"
+    },
+    "digifact34": {
+        "title": "DigiFact # 34 - Did you know...",
+        "content": "Anyone can build second-layer networks on top of the DigiByte Blockchain, such as DigiAssets, Lightning Networks, ICOs, Tokens, assets and more.",
+        "url": ""
+    },
+    "digifact35": {
+        "title": "DigiFact # 35 - Did you know...",
+        "content": "There's a mind boggling number of possible DigiByte addresses. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). This is a quindecillion. It's so big you could randomly generate trillions a second & never generate the same as somebody else.",
+        "url": ""
+    },
+    "digifact36": {
+        "title": "DigiFact # 36 - Did you know...",
+        "content": "You can accept DigiByte in retail scenarios just by entering the desired amount in to your wallet. The QR code will automatically include your address and amount when the sender scans it. Super simple, straight from your wallet.",
+        "url": ""
+    },
+    "digifact37": {
+        "title": "DigiFact # 37 - Did you know...",
+        "content": "The DigiByte Core wallet connects to a variety of peers, not just the 'closest' or 'fastest'. It finds connections from all over the world, to ensure you get a broad consensus on the DigiByte blockchain and protects you against sybil attacks.",
+        "url": ""
+    },
+    "digifact38": {
+        "title": "DigiFact # 38 - Did you know...",
+        "content": "DigiByte implemented the DigiSpeed protocol in 2015. This allowed DigiByte to decrease from 30 second to 15 second block timings. Lightning fast!",
+        "url": ""
+    },
+    "digifact39": {
+        "title": "DigiFact # 39 - Did you know...",
+        "content": "DigiByte Critical Infrastructure Team (DGBCIT) was founded in Jan 2023. with the goal of ensuring that the DigiByte blockchain, along with its critical services, are kept running at all times. This is achieved though a community effort of coordinated decentralization and redundancy. Please join us in the #DGBCIT channel on DigiByte Discord server: https://t.ly/DGBCIT",
+        "url": "https://t.ly/DGBCIT"
+    },
+    "digifact40": {
+        "title": "DigiFact # 40 - Did you know...",
+        "content": "Did you know that DigiByte is permissionless? This means there is no individual or company to ask if you can build a dApp on top of it, use it, send it, receive it, accept it for your business, advertise it, promote it. You simply \"can\"!",
+        "url": ""
+    },
+    "digifact41": {
+        "title": "DigiFact # 41 - Did you know...",
+        "content": "DigiByte is now working on its 8th \"protocol\" version in 6 years since creation. This is what the first number in the DigiByte Core Wallet version means, the protocol version. DigiByte has consistently grown and improved throughout its history, and continues to do-so.",
+        "url": ""
+    },
+    "digifact42": {
+        "title": "DigiFact # 42 - Did you know...",
+        "content": "DigiBytes MultiAlgo means 5x algorithms all continuously compete for every single block. Others such as X16R are very different, instead rotating through each sub-algorithm with all miners swapping and using that same. As such, X16R is still a \"single algorithm\" compared with DigiBytes 5x MultiAlgo implementation.",
+        "url": ""
+    },
+    "digifact43": {
+        "title": "DigiFact # 43 - Did you know...",
+        "content": "The Dandelion privacy protocol was implemented in 2019, to help protect your privacy, by masking the originating IP address. To learn more about Dandelion, visit: https://j.mp/3Hag6AX",
+        "url": "https://j.mp/3Hag6AX"
+    },
+    "digifact44": {
+        "title": "DigiFact # 44 - Did you know...",
+        "content": "MultiShield is a powerful difficulty adjustment algorithm. It ensures each of DigiBytes 5X algorithms all mine roughly an equal amount of blocks, while maintaining a steady 15 second timing. What is MultiShield? Learn more here: https://j.mp/3oivy5u",
+        "url": "https://j.mp/3oivy5u"
+    },
+    "digifact45": {
+        "title": "DigiFact # 45 - Did you know...",
+        "content": "Because of MultiShield, DigiByte has some of the most accurate and stable block-timings. Where other projects usually wait for 3-4 days to adjust, MultiShield tweaks. adjusts & refines every single block. Learn more here: https://j.mp/3oivy5u",
+        "url": "https://j.mp/3oivy5u"
+    },
+    "digifact46": {
+        "title": "DigiFact # 46 - Did you know...",
+        "content": "DigiByte was the first major blockchain project to enable the Dandelion privacy protocol, to protect your IP address. You can opt out of the privacy-protection it offers if you want even faster transactions. To learn more about Dandelion, visit: https://j.mp/3Hag6AX",
+        "url": "https://j.mp/3Hag6AX"
+    },
+    "digifact47": {
+        "title": "DigiFact # 47 - Did you know...",
+        "content": "DigiByte is all about choice, and what works for you personally. DigiByte is available on over two dozen wallets, so there's something that will fit everyone's requirements.",
+        "url": ""
+    },
+    "digifact48": {
+        "title": "DigiFact # 48 - Did you know...",
+        "content": "DigiByte originally had 60 second block timings, however through multiple network upgrades that were improved upon, first to 30, and now to the 15 seconds it is today.",
+        "url": ""
+    },
+    "digifact49": {
+        "title": "DigiFact # 49 - Did you know...",
+        "content": "DigiByte has had 100% uptime since its launch. While some people restart their computers from time to time, hundreds of others remain online all the time so that even in event of a major nationwide internet outage, DigiByte would still continue to function.",
+        "url": ""
+    },
+    "digifact50": {
+        "title": "DigiFact # 50 - Did you know...",
+        "content": "The DigiByte Faucet by Renzo Diaz gives you an easy way to get some free DGB. It's a great way for DigiByte newcomers to experience this amazing technology first hand. For developers, there is also a testnet faucet. Find it here: https://www.digifaucet.org/",
+        "url": "https://www.digifaucet.org/"
+    },
+    "digifact51": {
+        "title": "DigiFact # 51 - Did you know...",
+        "content": "Anybody is able to contribute to the DigiByte code and make improvements. All submissions get reviewed by other developers to ensure no malicious code is accidentally accepted. Join the Gitter developer chat here: https://gitter.im/DigiByte-Core/protocol",
+        "url": "https://gitter.im/DigiByte-Core/protocol"
+    },
+    "digifact52": {
+        "title": "DigiFact # 52 - Did you know...",
+        "content": "Have you ever wanted to see some statistics about the DigiByte network? For an overview of the of the DigiByte network, visit: https://digistats.digibyteservers.io",
+        "url": "https://digistats.digibyteservers.io"
+    },
+    "digifact53": {
+        "title": "DigiFact # 53 - Did you know...",
+        "content": "Nobody knows exactly how many \"nodes\" there are on the DigiByte network, because there is no central point that all computers check in with. This ensures your privacy when you download the wallet software.",
+        "url": ""
+    },
+    "digifact54": {
+        "title": "DigiFact # 54 - Did you know...",
+        "content": "DigiByte has never hand a contentious hard fork despite ongoing major code changes. Mining is so decentralized that when the myriad-groestl algorithm was replaced with odocrypt, MG mining pools installed the upgrade even when it meant they would no longer be able to mine.",
+        "url": ""
+    },
+    "digifact55": {
+        "title": "DigiFact # 55 - Did you know...",
+        "content": "DigiByte mining is some of the most distributed in the industry. When a 7-day period in September 2019 was compared against Bitcoin and Litecoin, DigiByte had over 10X the number of unique miners. This grew to over 20X the unique miners when looking at a 3-month period. View more stats here: https://j.mp/3ojzV08",
+        "url": "https://j.mp/3ojzV08"
+    },
+    "digifact56": {
+        "title": "DigiFact # 56 - Did you know...",
+        "content": "If the biggest 5x pools from Bitcoin were to collude, they could control the Bitcoin, Bitcoin Cash, and Bitcoin SV networks permanently until others grew to have more hash-power than them. Those same pools would not be a threat to DigiByte thanks to DigiBytes MultiAlgo and MultiShield aspects.",
+        "url": ""
+    },
+    "digifact57": {
+        "title": "DigiFact # 57 - Did you know...",
+        "content": "Every month, the DigiByte that miners get as a block-reward is decreased by 1%. This gives DigiByte a very smooth supply-curve for new DigiByte, rather than a \"halving\" event every few years.",
+        "url": ""
+    },
+    "digifact58": {
+        "title": "DigiFact # 58 - Did you know...",
+        "content": "Transactions on the DigiByte network are public, but pseudo-anonymous. You can see them on a Blockchain explorer, however there is nothing inherently that can link a new transaction / address to an end-user. There are no usernames, email addresses etc required to use the DigiByte network.",
+        "url": ""
+    },
+    "digifact59": {
+        "title": "DigiFact # 59 - Did you know...",
+        "content": "DigiByte addresses can be re-used, but it's completely optional. The best practice is for a wallet to give you a new address each time after your previous address has received a transaction.",
+        "url": ""
+    },
+    "digifact60": {
+        "title": "DigiFact # 60 - Did you know...",
+        "content": "The source code for the DigiByte blockchain is completely open-source, anybody can see it, inspect it, and review it. The Core Wallet is available at: https://github.com/DigiByte-Core/DigiByte",
+        "url": "https://github.com/DigiByte-Core/DigiByte"
+    },
+    "digifact61": {
+        "title": "DigiFact # 61 - Did you know...",
+        "content": "DigiByte blocks have an expected 15 second time, which means every single day there are 5,760 new blocks added to the DigiByte blockchain.",
+        "url": ""
+    },
+    "digifact62": {
+        "title": "DigiFact # 62 - Did you know...",
+        "content": "A single DigiByte can be divided up to 8 decimal places. That's 1/100,000,000 of a DigiByte. This is known as a Digit or DIT for short. (e.g. 1000 DITS)",
+        "url": ""
+    },
+    "digifact63": {
+        "title": "DigiFact # 63 - Did you know...",
+        "content": "Each of the 5x algorithms that DigiByte uses to secure the network and mine new blocks has an equal 20% chance to find every single block. There is no priority given to one or another.",
+        "url": ""
+    },
+    "digifact64": {
+        "title": "DigiFact # 64 - Did you know...",
+        "content": "DigiByte has 3x address types, each starting with a different prefix. Modern addresses start with the letters \"dgb1\" for Bech32 formatted addresses or the letter \"S\" for SegWit (Segregated Witness). Legacy addresses start with the letter \"D\". While support for these will remain, they are gradually being phased out in favor of of Bech32 addresses.",
+        "url": ""
+    },
+    "digifact65": {
+        "title": "DigiFact # 65 - Did you know...",
+        "content": "DigiByte addresses starting with \"dgb1\" (known as Bech32 format) have multiple advantages, such as error correction in the event they were incorrectly written-down, as well as being much easier for both humans and computers to recognise that they are DigiByte-specific addresses.",
+        "url": ""
+    },
+    "digifact66": {
+        "title": "DigiFact # 66 - Did you know...",
+        "content": "For a protocol upgrade to take place, over 70% of the network must agree and be in consensus that the upgrade will take place. This occurs by \"signalling\" support for it when blocks are mined, over the course of a 1-week period.",
+        "url": ""
+    },
+    "digifact67": {
+        "title": "DigiFact # 67 - Did you know...",
+        "content": "There is a maximum of 21 billion DigiByte that will ever exist. This was intentionally chosen as a 1000:1 ratio compared to Bitcoins 21 million. No more can ever be created.",
+        "url": ""
+    },
+    "digifact68": {
+        "title": "DigiFact # 68 - Did you know...",
+        "content": "DigiByte is available on thousands of Crypto ATMs around the world! This is a great way for people new to cryptocurrency to get involved through a more \"traditional\" method of currency exchange.",
+        "url": ""
+    },
+    "digifact69": {
+        "title": "DigiFact # 69 - Did you know...",
+        "content": "DigiByte can be used to verify and validate documents, music, media, identity and more! Although DigiByte excels as a means of exchanging value, it is not limited to just being a currency.",
+        "url": ""
+    },
+    "digifact70": {
+        "title": "DigiFact # 70 - Did you know...",
+        "content": "You can use multiple wallets! DigiByte is not just limited to a single piece of software, and the community is encouraged to find an app that works best for them, so try one, try a few, and keep using the ones you like the most.",
+        "url": ""
+    },
+    "digifact71": {
+        "title": "DigiFact # 71 - Did you know...",
+        "content": "DigiByte cannot ever have a centralized \"burning\" of the maximum supply as other ICO's or centrally controlled tokens can. Because DigiByte is a fully decentralized proejct, it's impossible to issue a large scale \"burning\" of unused DigiByte. At most, you could only ever destroy your own if you willingly transferred them in to the void.",
+        "url": ""
+    },
+    "digifact72": {
+        "title": "DigiFact # 72 - Did you know...",
+        "content": "Transactions on the DigiByte blockchain cannot be undone, by anybody. Once a transaction has been made, it is permanent. Did you accidentally send 50 DigiByte instead of 5 DigiByte? You'll need to ask the recipient to return the surplus, as there is no \"Undo\" function, and no central banking authority who can roll back transactions.",
+        "url": ""
+    },
+    "digifact73": {
+        "title": "DigiFact # 73 - Did you know...",
+        "content": "Do you want to start a DigiByte podcast, or meet-up? Go for it! There is nobody to ask for permission, part of DigiByte being a \"permissionless\" project. It is implied that you can, so go right ahead and do it.",
+        "url": ""
+    },
+    "digifact74": {
+        "title": "DigiFact # 74 - Did you know...",
+        "content": "If you have ever had the misfortune to accidentally send your DigiByte to a Dogecoin address, your coins may not be lost. DigiSweep by DigiByte community member Matthew Cornellisse (@mctrivia) may be able to help you recover them. Find it here: https://digisweep.digiassetx.com/",
+        "url": "https://digisweep.digiassetx.com/"
+    },
+    "digifact75": {
+        "title": "DigiFact # 75 - Did you know...",
+        "content": "The DigiByte Alliance is a public non-profit foundation founded in Wyoming in March 2021. Its mission is to to accelerate the growth and adoption of DigiByte. Learn more: https://www.dgballiance.org/",
+        "url": "https://www.dgballiance.org/"
+    },
+    "digifact76": {
+        "title": "DigiFact # 76 - Did you know...",
+        "content": "The DigiByte subreddit located at r/DigiByte has over 40,000 members. It's a great place to stay updated about all the news and developments in the DigiByte community. Join here: https://reddit.com/r/Digibyte",
+        "url": "https://reddit.com/r/Digibyte"
+    },
+    "digifact77": {
+        "title": "DigiFact # 77 - Did you know...",
+        "content": "The DigiByte Discord server is where you will find the most active members of the DigiByte community, and is great way to connect with all the people working on DigiByte behind the scenes. Please join us! https://dsc.gg/digibytediscord",
+        "url": "https://dsc.gg/digibytediscord"
+    },
+    "digifact78": {
+        "title": "DigiFact # 78 - Did you know...",
+        "content": "DigiNode Tools is a software suite that makes it easy to setup and manage a DigiByte and/or DigiAsset Node on low power device like a Raspberry Pi or Ubuntu system. Setup is menu-driven and there are detailed step-by-step instructions provided. You can even setup a Dual Node to run both a mainnet and testnet node on the same device. Learn more here: https://diginode.tools/",
+        "url": "https://diginode.tools/"
+    },
+    "digifact79": {
+        "title": "DigiFact # 79 - Did you know...",
+        "content": "To view all the existing nodes on the DigiByte network, you can use the website https://digibyteseed.com created by DigiByte community member Jan de Jong. It displays the DigiByte Seeders and all the current mainnet and testnet nodes on the DigiByte network. It's also a great way to check on the status of your own DigiByte node.",
+        "url": "https://digibyteseed.com"
+    },
+    "digifact80": {
+        "title": "DigiFact # 80 - Did you know...",
+        "content": "A \"DigiByte Seeder\" is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addressess and ports of the most reliable ones. DigiByte Nodes joining the network use the DigiByte Seeders to find other nodes to connect to. Learn more here: https://github.com/DigiByte-Core/digibyte-seeder",
+        "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+    },
+    "digifact81": {
+        "title": "DigiFact # 81 - Did you know...",
+        "content": "The website \"DigiByte Facts\" is a fantastic learning resource created by a member of the DigiByte community. It offers many of these DigiFacts as shareable images, along with quizzes and other resources to help you learn more about DigiByte. Find it here: https://digifacts.org/",
+        "url": "https://digifacts.org/"
+    },
+    "digifact82": {
+        "title": "DigiFact # 82 - Did you know...",
+        "content": "The DigiByte Wiki is a fantastic resource of information on all things DigiByte, written and maintained by members of the DigiByte community: https://dgbwiki.com/",
+        "url": "https://dgbwiki.com/"
+    },
+    "digifact83": {
+        "title": "DigiFact # 83 - Did you know...",
+        "content": "DigiByte Domains is a service created by DigiByte community memebr Renzo Dias. A DigiByte domain is a name that references an DigiByte wallet address. It's powered by DigiAssets and the domain is the asset. For example, you can send some DigiByte or DigiAssets to 'domain.dgb' and it will arrive to the address that holds the domain. You can purchase your own DigiByte domain here: https://digibytedomains.com/",
+        "url": "https://digibytedomains.com/"
+    },
+    "digifact84": {
+        "title": "DigiFact # 84 - Did you know...",
+        "content": "For developers, DigiByte JS is a pure and powerful Javascript DigiByte library forked from Bitpay's Bitcore Lib library. Find it here: https://github.com/RenzoDD/digibyte-js",
+        "url": "https://github.com/RenzoDD/digibyte-js"
+    },
+    "digifact85": {
+        "title": "DigiFact # 85 - Did you know...",
+        "content": "DigiAssets are a secure, scalable second-layer built on top of the DigiByte Blockchain that allows for the decentralized issuance of digital assets (NFTs), tokens, smart contracts, digital identity and more.",
+        "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+    },
+    "digifact86": {
+        "title": "DigiFact # 86 - Did you know...",
+        "content": "DigiAsset Core, currently under active development, is the most recent implementation of the DigiAsset protocol. Spearheaded by community member Matthew Cornelisse, it runs alongside a DigiByte Core node and helps decentralize DigiAssets and their metadata. It is important to stress the DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project. Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
+        "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+    },
+    "digifact87": {
+        "title": "DigiFact # 87 - Did you know...",
+        "content": "The DigiAsset Explorer, created by DigiByte community member Renzo Diaz, makes it easy to lookup information about DigiAsset transactions. Find it here: https://digiassets.info/",
+        "url": "https://digiassets.info/"
     }
 }
+
+    
+    
+    
+    
+    
+    

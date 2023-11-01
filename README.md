@@ -33,7 +33,7 @@ URLs should be included both within the content text, and in the seperate URL fi
 
 ### Using Dynamic Data in the DigiFacts
 
-If you wish to insert dynamic data into a DigiFact, please edit the digifacts.json file and insert any of the following variables:
+If you wish to insert dynamic data into a DigiFact, please edit the digifacts-multilang.json file and insert any of the following variables:
 
 | Variable               | Example Content | Note                                                |
 |------------------------|-----------------|-----------------------------------------------------|
@@ -51,7 +51,7 @@ Translations should be based on the English version of each DigiFact. New DigiFa
 
 Please help by providing translations for additional langauges, or improving existing ones. Please update the table below when you make changes, including a link to your Github profile.
 
-To get started, please fork the repo. Edit digifacts.json and make a PR with your changes. Please check the JSON is valid before doing do.
+To get started, please fork the repo. Edit digifacts-multilang.json and make a PR with your changes. Please check the JSON is valid before doing do.
 
 | Language                 | Verified by                                      | Last Updated | Status                                              |
 |--------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
