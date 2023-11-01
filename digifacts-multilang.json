@@ -2273,5 +2273,119 @@
             "content": "Wist u dat DigiByte toestemmingsloos is? Dit betekent dat er geen individu of bedrijf is om te vragen of u een dApp erop kunt bouwen, het gebruiken, verzenden, ontvangen, accepteren voor uw bedrijf, adverteren, promoten. Je kunt het gewoon \"doen\"!",
             "url": ""
         }
+    },
+    "digifact41": {
+        "en": {
+            "title": "DigiFact # 41 - Did you know...",
+            "content": "DigiByte is now working on its 8th 'protocol' version in 6 years since creation. This is what the first number in the DigiByte Core Wallet version means, the protocol version. DigiByte has consistently grown and improved throughout its history, and continues to do so.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #41 - 你知道吗？",
+            "content": "自创建以来的6年里，DigiByte现在正在开发其第8个'协议'版本。这是DigiByte Core钱包版本中的第一个数字的含义，即协议版本。DigiByte在其历史上一直在持续增长和改进，并将继续这样做。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #41 - Знаете ли вы...",
+            "content": "С момента своего создания в течение 6 лет DigiByte теперь работает над своей 8-й версией 'протокола'. Это то, что означает первое число в версии кошелька DigiByte Core, версия протокола. DigiByte последовательно рос и улучшался на протяжении всей своей истории и продолжает это делать.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #41 - ¿Sabías que...",
+            "content": "DigiByte está trabajando ahora en su 8va versión de 'protocolo' en 6 años desde su creación. Esto es lo que significa el primer número en la versión del DigiByte Core Wallet, la versión del protocolo. DigiByte ha crecido y mejorado constantemente a lo largo de su historia y continúa haciéndolo.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #41 - 혹시 알고 계셨나요...",
+            "content": "창작 이후 6년 동안 DigiByte는 이제 8번째 '프로토콜' 버전을 작업하고 있습니다. 이것은 DigiByte Core 지갑 버전의 첫 번째 숫자가 의미하는 바로, 프로토콜 버전입니다. DigiByte는 역사를 통해 지속적으로 성장하고 개선되었으며 계속해서 그렇게 할 것입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #41 - ご存知でしたか...",
+            "content": "DigiByteは創設から6年間で8番目の「プロトコル」バージョンに取り組んでいます。これはDigiByte Coreウォレットバージョンの最初の数字が意味するもので、プロトコルバージョンです。DigiByteはその歴史を通じて一貫して成長し、改善されてきました。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #41 - Wussten Sie schon...",
+            "content": "DigiByte arbeitet nun in den 6 Jahren seit seiner Gründung an seiner 8. 'Protokoll' Version. Das ist es, was die erste Zahl in der Version des DigiByte Core Wallet bedeutet, die Protokollversion. DigiByte ist in seiner Geschichte konsequent gewachsen und hat sich verbessert und wird dies auch weiterhin tun.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #41 - Saviez-vous que...",
+            "content": "DigiByte travaille maintenant sur sa 8ème version de 'protocole' en 6 ans depuis sa création. C'est ce que signifie le premier chiffre dans la version du portefeuille DigiByte Core, la version du protocole. DigiByte a constamment grandi et s'est amélioré tout au long de son histoire et continue de le faire.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #41 - Você sabia...",
+            "content": "DigiByte está agora trabalhando em sua 8ª versão de 'protocolo' em 6 anos desde sua criação. Isso é o que significa o primeiro número na versão do DigiByte Core Wallet, a versão do protocolo. DigiByte cresceu e melhorou consistentemente ao longo de sua história e continua a fazê-lo.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #41 - क्या आप जानते थे...",
+            "content": "डिजीबाइट अब अपने निर्माण के 6 साल में अपने 8वें 'प्रोटोकॉल' संस्करण पर काम कर रहा है। यह डिजीबाइट कोर वॉलेट संस्करण में पहली संख्या का अर्थ है, प्रोटोकॉल संस्करण। डिजीबाइट ने अपने इतिहास में लगातार विकास किया है और सुधार किया है, और जारी रखता है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #41 - Wist u dat...",
+            "content": "DigiByte werkt nu aan zijn 8e 'protocol' versie in 6 jaar sinds de oprichting. Dit is wat het eerste nummer in de versie van de DigiByte Core Wallet betekent, de protocolversie. DigiByte is consequent gegroeid en verbeterd door zijn geschiedenis heen en blijft dit doen.",
+            "url": ""
+        }
+    },
+    "digifact42": {
+        "en": {
+            "title": "DigiFact # 42 - Did you know...",
+            "content": "DigiBytes MultiAlgo means 5x algorithms all continuously compete for every single block. Others such as X16R are very different, instead rotating through each sub-algorithm with all miners swapping and using that same. As such, X16R is still a \"single algorithm\" compared with DigiBytes 5x MultiAlgo implementation.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #42 - 你知道吗？",
+            "content": "DigiByte的MultiAlgo意味着5个算法不断地竞争每一个区块。其他的如X16R则非常不同，它通过每个子算法轮换，所有矿工都交换并使用相同的算法。因此，与DigiByte的5x MultiAlgo实施相比，X16R仍然是一个“单一算法”。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #42 - Знаете ли вы...",
+            "content": "MultiAlgo DigiByte означает, что 5 алгоритмов непрерывно соревнуются за каждый блок. Другие, такие как X16R, сильно отличаются, вместо этого они последовательно переключаются между каждым подалгоритмом, и все майнеры используют один и тот же. Таким образом, X16R все еще является \"одиночным алгоритмом\" по сравнению с реализацией 5x MultiAlgo от DigiByte.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #42 - ¿Sabías que...",
+            "content": "MultiAlgo de DigiBytes significa que 5 algoritmos compiten continuamente por cada bloque. Otros, como X16R, son muy diferentes, en lugar de eso, rotan a través de cada sub-algoritmo con todos los mineros intercambiando y usando el mismo. Así, X16R sigue siendo un \"algoritmo único\" en comparación con la implementación de MultiAlgo 5x de DigiBytes.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #42 - 혹시 알고 계셨나요...",
+            "content": "DigiByte의 MultiAlgo는 5개의 알고리즘이 모든 단일 블록에 대해 지속적으로 경쟁한다는 것을 의미합니다. X16R과 같은 다른 알고리즘들은 매우 다르며, 대신 모든 마이너들이 같은 알고리즘을 순환하며 사용합니다. 따라서 X16R은 DigiByte의 5x MultiAlgo 구현과 비교할 때 여전히 \"단일 알고리즘\"입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #42 - ご存知でしたか...",
+            "content": "DigiByteのMultiAlgoは、5つのアルゴリズムがすべての単一ブロックに対して絶えず競争することを意味します。X16Rのような他のものは非常に異なり、代わりに各サブアルゴリズムを順番に使用し、すべてのマイナーが同じものを交換して使用します。したがって、X16RはDigiByteの5倍のMultiAlgo実装と比較して依然として「単一のアルゴリズム」です。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #42 - Wussten Sie schon...",
+            "content": "MultiAlgo von DigiByte bedeutet, dass 5x Algorithmen kontinuierlich um jeden einzelnen Block konkurrieren. Andere, wie X16R, sind sehr unterschiedlich, sie rotieren stattdessen durch jeden Unter-Algorithmus, wobei alle Miner das Gleiche verwenden und austauschen. So ist X16R im Vergleich zur 5x MultiAlgo-Implementierung von DigiByte immer noch ein \"einzelner Algorithmus\".",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #42 - Saviez-vous que...",
+            "content": "Le MultiAlgo de DigiByte signifie que 5 algorithmes concourent en continu pour chaque bloc unique. D'autres, comme X16R, sont très différents, faisant plutôt tourner chaque sous-algorithme, tous les mineurs échangeant et utilisant le même. Ainsi, X16R est toujours un \"algorithme unique\" comparé à la mise en œuvre MultiAlgo 5x de DigiByte.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #42 - Você sabia...",
+            "content": "O MultiAlgo da DigiByte significa que 5 algoritmos competem continuamente por cada bloco. Outros, como o X16R, são muito diferentes, em vez disso, rotacionam através de cada subalgoritmo, com todos os mineradores trocando e usando o mesmo. Assim, X16R ainda é um \"algoritmo único\" comparado com a implementação MultiAlgo 5x da DigiByte.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #42 - क्या आप जानते थे...",
+            "content": "DigiByte का MultiAlgo का मतलब है कि 5 गुना एल्गोरिदम हर एक ब्लॉक के लिए निरंतर प्रतिस्पर्धा करते हैं। अन्य जैसे कि X16R बहुत भिन्न हैं, इसके बजाय हर एक सब-एल्गोरिदम के माध्यम से घूमते हैं, सभी माइनर्स उसी को बदलते और इस्तेमाल करते हैं। इस प्रकार, X16R अभी भी DigiByte के 5x MultiAlgo कार्यान्वयन की तुलना में \"एकल एल्गोरिदम\" है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #42 - Wist u dat...",
+            "content": "MultiAlgo van DigiByte betekent dat 5x algoritmen continu concurreren voor elk afzonderlijk blok. Anderen, zoals X16R, zijn heel anders en roteren in plaats daarvan door elk subalgoritme, waarbij alle mijnwerkers omwisselen en datzelfde gebruiken. Daarom is X16R nog steeds een \"enkel algoritme\" in vergelijking met de 5x MultiAlgo-implementatie van DigiByte.",
+            "url": ""
+        }
     }
 }
