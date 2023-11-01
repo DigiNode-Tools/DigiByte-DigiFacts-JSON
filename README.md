@@ -53,7 +53,7 @@ Translations should be made from the English version. New DigiFacts must be adde
 
 | Language                 | Verified by                                      | Last Updated | Status                                              |
 |--------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
-| en English               | [@saltedlolly](https://github.com/saltedlolly    | 2023-11-01   |                                                     |
+| en English               | [@saltedlolly](https://github.com/saltedlolly)   | 2023-11-01   |                                                     |
 | zh Chinese (Simplified)  |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | ru Russian               |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | es Spanish               |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
