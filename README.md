@@ -49,7 +49,9 @@ These variable will be replaced by live data every few minutes.
 
 ### Translations
 
-Translations should be made from the English version. New DigiFacts must be added in English first with other languages beneath it. All additional languages must be checked by a native speaker. Please update the table below when you make changes, including a limk to your Github profile.
+Translations should be made from the English version. New DigiFacts must be added in English first with other languages beneath it. All additional languages must be checked by a native speaker.
+
+Please help by providing translations for additional langauges, or improving existing ones. Please update the table below when you make changes, including a link to your Github profile.
 
 | Language                 | Verified by                                      | Last Updated | Status                                              |
 |--------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
