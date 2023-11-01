@@ -2216,5 +2216,62 @@
             "content": "Het DigiByte Critical Infrastructure Team (DGBCIT) is opgericht in januari 2023, met als doel ervoor te zorgen dat de DigiByte blockchain en de bijbehorende kritieke diensten altijd actief zijn. Dit wordt bereikt door een gezamenlijke inspanning van gecoördineerde decentralisatie en redundantie. Sluit u alstublieft bij ons aan in het #DGBCIT kanaal op de DigiByte Discord server: https://t.ly/DGBCIT",
             "url": "https://t.ly/DGBCIT"
         }
+    },
+    "digifact40": {
+        "en": {
+            "title": "DigiFact # 40 - Did you know...",
+            "content": "Did you know that DigiByte is permissionless? This means there is no individual or company to ask if you can build a dApp on top of it, use it, send it, receive it, accept it for your business, advertise it, promote it. You simply \"can\"!",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #40 - 你知道吗？",
+            "content": "你知道DigiByte是无需许可的吗？这意味着没有个人或公司可以询问你是否可以在其上构建dApp，使用它，发送它，接收它，接受它用于你的业务，宣传它，推广它。你只需可以做到！",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #40 - Знаете ли вы...",
+            "content": "Знаете ли вы, что DigiByte не требует разрешения? Это означает, что нет необходимости спрашивать у какого-либо лица или компании, можно ли построить на его основе dApp, использовать его, отправлять, получать, принимать его для вашего бизнеса, рекламировать или продвигать. Вы просто \"можете\"!",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #40 - ¿Sabías que...",
+            "content": "¿Sabías que DigiByte es sin permiso? Esto significa que no hay que preguntar a ninguna persona o empresa si puedes construir una dApp sobre ella, usarla, enviarla, recibirla, aceptarla para tu negocio, anunciarla, promocionarla. ¡Simplemente \"puedes\"!",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #40 - 혹시 알고 계셨나요...",
+            "content": "DigiByte가 허가가 필요 없는 것을 알고 계셨나요? 이는 개인이나 회사에게 dApp을 구축하거나 사용, 전송, 수신, 비즈니스에 수용, 광고, 촉진할 수 있는지 물어볼 필요가 없다는 것을 의미합니다. 당신은 그냥 \"할 수 있습니다\"!",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #40 - ご存知でしたか...",
+            "content": "DigiByteは許可不要であることをご存知でしたか？これは、個人や会社に尋ねる必要がなく、dAppを構築したり、使用したり、送信したり、受信したり、ビジネスで受け入れたり、宣伝したり、促進したりすることができることを意味します。あなたは単に「できる」のです！",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #40 - Wussten Sie schon...",
+            "content": "Wussten Sie, dass DigiByte keine Erlaubnis benötigt? Das bedeutet, es gibt keine Einzelperson oder Firma, die man fragen muss, ob man darauf eine dApp bauen, es nutzen, senden, empfangen, für sein Geschäft akzeptieren, es bewerben oder promoten kann. Man kann es einfach!",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #40 - Saviez-vous que...",
+            "content": "Saviez-vous que DigiByte est sans permission ? Cela signifie qu'il n'y a pas besoin de demander à un individu ou à une entreprise si vous pouvez construire une dApp dessus, l'utiliser, l'envoyer, la recevoir, l'accepter pour votre entreprise, la faire connaître, la promouvoir. Vous pouvez tout simplement le faire !",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #40 - Você sabia...",
+            "content": "Você sabia que o DigiByte é sem permissão? Isso significa que não há necessidade de perguntar a nenhuma pessoa ou empresa se você pode construir um dApp em cima dele, usá-lo, enviá-lo, recebê-lo, aceitá-lo para o seu negócio, anunciá-lo, promovê-lo. Você simplesmente \"pode\"!",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #40 - क्या आप जानते थे...",
+            "content": "क्या आपको पता है कि DigiByte अनुमति रहित है? इसका मतलब है कि आपको यह पूछने की जरूरत नहीं है कि क्या आप इसके ऊपर एक dApp बना सकते हैं, इसे उपयोग कर सकते हैं, भेज सकते हैं, प्राप्त कर सकते हैं, अपने व्यापार के लिए स्वीकार कर सकते हैं, इसका विज्ञापन कर सकते हैं, इसे प्रमोट कर सकते हैं। आप बस \"कर सकते हैं\"!",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #40 - Wist u dat...",
+            "content": "Wist u dat DigiByte toestemmingsloos is? Dit betekent dat er geen individu of bedrijf is om te vragen of u een dApp erop kunt bouwen, het gebruiken, verzenden, ontvangen, accepteren voor uw bedrijf, adverteren, promoten. Je kunt het gewoon \"doen\"!",
+            "url": ""
+        }
     }
 }
