@@ -677,5 +677,62 @@
             "content": "Aanvankelijk gebruikte DigiByte alleen het Scrypt-algoritme voor mining. In september 2014 schakelde het netwerk over op MultiAlgo, waarbij gebruik werd gemaakt van Scrypt, SHA256, Skein, Qubit & Myriad-Groestl. Dit verbeterde de decentralisatie enorm door een breder scala aan mininghardware toe te staan.",
             "url": ""
         }
+    },
+    "digifact13": {
+        "en": {
+            "title": "DigiFact # 13 - Did you know...",
+            "content": "In 2019, DigiByte upgraded the network, replacing the Myriad-Groestl algorithm with Odocrypt, an algorithm designed to be ASIC-resistant by targeting mining with FPGA hardware. However, with most ASIC-resistant algorithms, if the financial incentives are there, eventually ASICs will be developed for these algorithms, as is the case with Odocrypt.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #13 - 你知道吗？",
+            "content": "2019年，DigiByte升级了网络，将Myriad-Groestl算法替换为Odocrypt算法，Odocrypt是一种旨在通过针对FPGA硬件挖矿来抵抗ASIC的算法。然而，对于大多数抵抗ASIC的算法，如果有财务激励，最终会为这些算法开发ASIC，Odocrypt也是如此。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #13 - Знаете ли вы...",
+            "content": "В 2019 году DigiByte обновил сеть, заменив алгоритм Myriad-Groestl на Odocrypt, алгоритм, разработанный для защиты от ASIC путем использования оборудования FPGA для майнинга. Однако, как и в случае с большинством алгоритмов, устойчивых к ASIC, если есть финансовые стимулы, в конечном итоге для этих алгоритмов будут разработаны ASIC, как это произошло с Odocrypt.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #13 - ¿Sabías que...",
+            "content": "En 2019, DigiByte actualizó la red, reemplazando el algoritmo Myriad-Groestl con Odocrypt, un algoritmo diseñado para ser resistente a ASIC al apuntar a la minería con hardware FPGA. Sin embargo, como sucede con la mayoría de los algoritmos resistentes a ASIC, si existen incentivos financieros, eventualmente se desarrollarán ASIC para estos algoritmos, como es el caso de Odocrypt.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #13 - 혹시 알고 계셨나요...",
+            "content": "2019년에 DigiByte는 네트워크를 업그레이드하여 Myriad-Groestl 알고리즘을 FPGA 하드웨어 채굴을 목표로 하는 ASIC 저항 알고리즘인 Odocrypt로 교체했습니다. 그러나 대부분의 ASIC 저항 알고리즘과 마찬가지로 재정적 인센티브가 있으면 결국 이러한 알고리즘을 위한 ASIC이 개발될 것입니다. Odocrypt의 경우도 마찬가지입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #13 - ご存知でしたか...",
+            "content": "2019年にDigiByteはネットワークをアップグレードし、Myriad-Groestlアルゴリズムを、FPGAハードウェアをターゲットにASIC耐性を持たせるよう設計されたOdocryptに置き換えました。しかし、ほとんどのASIC耐性アルゴリズムの場合、財政的なインセンティブがあれば、最終的にはOdocryptのようにこれらのアルゴリズム用のASICが開発されるでしょう。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #13 - Wussten Sie schon...",
+            "content": "Im Jahr 2019 hat DigiByte das Netzwerk aktualisiert und den Myriad-Groestl-Algorithmus durch Odocrypt ersetzt, einen Algorithmus, der so entworfen wurde, dass er durch die Ausrichtung auf das Mining mit FPGA-Hardware ASIC-resistent ist. Allerdings werden, wie bei den meisten ASIC-resistenten Algorithmen, wenn finanzielle Anreize bestehen, schließlich ASICs für diese Algorithmen entwickelt, wie es bei Odocrypt der Fall ist.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #13 - Saviez-vous que...",
+            "content": "En 2019, DigiByte a mis à jour le réseau, remplaçant l'algorithme Myriad-Groestl par Odocrypt, un algorithme conçu pour être résistant aux ASIC en ciblant l'exploitation minière avec du matériel FPGA. Cependant, comme pour la plupart des algorithmes résistants aux ASIC, si les incitations financières existent, des ASIC seront finalement développés pour ces algorithmes, comme c'est le cas pour Odocrypt.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #13 - Você sabia...",
+            "content": "Em 2019, o DigiByte atualizou a rede, substituindo o algoritmo Myriad-Groestl pelo Odocrypt, um algoritmo projetado para ser resistente a ASIC ao focar na mineração com hardware FPGA. No entanto, como na maioria dos algoritmos resistentes a ASIC, se houver incentivos financeiros, eventualmente ASICs serão desenvolvidos para esses algoritmos, como é o caso do Odocrypt.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #13 - क्या आप जानते थे...",
+            "content": "2019 में, DigiByte ने नेटवर्क अपग्रेड किया, Myriad-Groestl एल्गोरिदम को Odocrypt से बदल दिया, जो FPGA हार्डवेयर के साथ माइनिंग को लक्षित करके ASIC-प्रतिरोधी होने के लिए डिज़ाइन किया गया था। हालाँकि, अधिकांश ASIC-प्रतिरोधी एल्गोरिदमों के साथ, यदि वित्तीय प्रोत्साहन हैं, तो अंततः इन एल्गोरिदमों के लिए ASIC विकसित किए जाएंगे, जैसा कि Odocrypt के साथ है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #13 - Wist u dat...",
+            "content": "In 2019 heeft DigiByte het netwerk geüpgraded door het Myriad-Groestl-algoritme te vervangen door Odocrypt, een algoritme ontworpen om ASIC-bestendig te zijn door zich te richten op mining met FPGA-hardware. Echter, zoals met de meeste ASIC-resistente algoritmen, zullen uiteindelijk ASIC's worden ontwikkeld voor deze algoritmen als de financiële prikkels aanwezig zijn, zoals het geval is met Odocrypt.",
+            "url": ""
+        }
     }
 }
