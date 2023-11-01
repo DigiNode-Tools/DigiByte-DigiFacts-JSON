@@ -15,7 +15,7 @@ Uers should always do their own due diligence before using any of the services o
 
 ## Usage
 
-Query the live JSON data in English here: https://digifacts.digibyte.help/
+For DigiFacts in English, use: https://digifacts.digibyte.help/
 
 For additional languages, use https://digifacts.digibyte.help/?lang=xx (Replace xx with one of the two letter language codes below.)
 
@@ -29,13 +29,11 @@ Contributions to this project from the community are actively encouraged. If you
 
 If you have a DigiByte project that you wish to make the community aware of, please add a new DigiFact. Be careful to use neutral wording - no marketing or advertisng is permitted, though a single DigiFact to tell the community about your project and what it offers is permitted.
 
-URLs should ideally be included in both the content text, and in the seperate URL field. Ideally you should include only one URL per DigiFact.
-
-IMPORTANT: If you wish to insert a line break in your DigiFact, please use: ```\n```
+URLs should be included both within the content text, and in the seperate URL field. This allows for easier processing. Please include only one URL per DigiFact.
 
 ### Using Dynamic Data in the DigiFacts
 
-If you wish to insert dyanmic data into a DigiFact, please edit the digifacts.json file and insert any of the following variables:
+If you wish to insert dynamic data into a DigiFact, please edit the digifacts.json file and insert any of the following variables:
 
 | Variable               | Example Content | Note                                                |
 |------------------------|-----------------|-----------------------------------------------------|
@@ -71,7 +69,7 @@ To get started, please fork the repo. Edit digifacts.json and make a PR with you
 
 ## Projects
 
-The following projects are known to use this JSON file:
+The following projects are known to use this service:
 
 - [DigiNode Tools](https://github.com/saltedlolly/diginode-tools) - DigiFacts are displayed in the DigiNode Dashboard
 
