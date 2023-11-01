@@ -620,5 +620,62 @@
             "content": "DigiByte was de eerste munt die overstapte van een enkelvoudig miningalgoritme naar MultiAlgo, voor de extra beveiliging die wordt geboden door het hebben van 5 algoritmen. Deze upgrade vond plaats eind 2014 als de 'MultiAlgo' netwerkupgrade. Wat is MultiAlgo? Leer hier meer: https://j.mp/3oivy5u",
             "url": "https://j.mp/3oivy5u"
         }
+    },
+    "digifact12": {
+        "en": {
+            "title": "DigiFact # 12 - Did you know...",
+            "content": "Initially, DigiByte only used the Scrypt algorithm for mining. In September 2014, the network upgraded to MultiAlgo, utilizing Scrypt, SHA256, Skein, Qubit & Myriad-Groestl. This massively improved decentralization by enabling a broader variety of mining hardware to be used.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #12 - 你知道吗？",
+            "content": "起初，DigiByte仅使用Scrypt算法进行挖矿。2014年9月，网络升级到MultiAlgo，采用了Scrypt、SHA256、Skein、Qubit和Myriad-Groestl算法。这极大地提高了去中心化程度，使得可以使用更广泛的挖矿硬件。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #12 - Знаете ли вы...",
+            "content": "Изначально DigiByte использовал только алгоритм Scrypt для майнинга. В сентябре 2014 года сеть была обновлена до MultiAlgo, используя алгоритмы Scrypt, SHA256, Skein, Qubit и Myriad-Groestl. Это значительно улучшило децентрализацию, позволив использовать более широкий ассортимент оборудования для майнинга.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #12 - ¿Sabías que...",
+            "content": "Inicialmente, DigiByte solo utilizaba el algoritmo Scrypt para la minería. En septiembre de 2014, la red se actualizó a MultiAlgo, utilizando Scrypt, SHA256, Skein, Qubit y Myriad-Groestl. Esto mejoró enormemente la descentralización al permitir el uso de una variedad más amplia de hardware de minería.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #12 - 혹시 알고 계셨나요...",
+            "content": "처음에 디지바이트는 채굴을 위해 Scrypt 알고리즘만을 사용했습니다. 2014년 9월, 네트워크는 MultiAlgo로 업그레이드되어 Scrypt, SHA256, Skein, Qubit 및 Myriad-Groestl을 활용하게 되었습니다. 이는 더 다양한 채굴 하드웨어의 사용을 가능하게 하여 탈중앙화를 대폭 향상시켰습니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #12 - ご存知でしたか...",
+            "content": "当初、DigiByteは採掘にScryptアルゴリズムのみを使用していました。2014年9月、ネットワークはMultiAlgoにアップグレードされ、Scrypt、SHA256、Skein、Qubit、Myriad-Groestlが利用されるようになりました。これにより、より幅広い種類のマイニングハードウェアが使用できるようになり、分散化が大幅に改善されました。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #12 - Wussten Sie schon...",
+            "content": "Ursprünglich verwendete DigiByte nur das Scrypt-Verfahren für das Mining. Im September 2014 wurde das Netzwerk auf MultiAlgo umgestellt, wobei Scrypt, SHA256, Skein, Qubit und Myriad-Groestl genutzt wurden. Dies verbesserte die Dezentralisierung erheblich, indem eine breitere Vielfalt von Mining-Hardware eingesetzt werden konnte.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #12 - Saviez-vous que...",
+            "content": "À l'origine, DigiByte utilisait uniquement l'algorithme Scrypt pour le minage. En septembre 2014, le réseau a été mis à jour vers MultiAlgo, utilisant Scrypt, SHA256, Skein, Qubit et Myriad-Groestl. Cela a considérablement amélioré la décentralisation en permettant l'utilisation d'une plus large variété de matériel de minage.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #12 - Você sabia...",
+            "content": "Inicialmente, o DigiByte usava apenas o algoritmo Scrypt para mineração. Em setembro de 2014, a rede foi atualizada para MultiAlgo, utilizando Scrypt, SHA256, Skein, Qubit e Myriad-Groestl. Isso melhorou muito a descentralização, permitindo o uso de uma variedade mais ampla de hardware de mineração.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #12 - क्या आप जानते थे...",
+            "content": "शुरू में, डिजीबाइट केवल माइनिंग के लिए Scrypt एल्गोरिदम का उपयोग करता था। सितंबर 2014 में, नेटवर्क को MultiAlgo में अपग्रेड किया गया, जिसमें Scrypt, SHA256, Skein, Qubit और Myriad-Groestl का उपयोग किया जाता था। इससे विभिन्न प्रकार के माइनिंग हार्डवेयर के उपयोग को सक्षम करके विकेंद्रीकरण में भारी सुधार हुआ।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #12 - Wist u dat...",
+            "content": "Aanvankelijk gebruikte DigiByte alleen het Scrypt-algoritme voor mining. In september 2014 schakelde het netwerk over op MultiAlgo, waarbij gebruik werd gemaakt van Scrypt, SHA256, Skein, Qubit & Myriad-Groestl. Dit verbeterde de decentralisatie enorm door een breder scala aan mininghardware toe te staan.",
+            "url": ""
+        }
     }
 }
