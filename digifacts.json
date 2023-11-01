@@ -1019,5 +1019,62 @@
             "content": "U kunt elke transactie op de DigiByte Blockchain opzoeken door een transactie-ID, DigiByte-adres of bloknummer in te voeren in een 'Blockchain Explorer'. De gemeenschap onderhoudt zo'n verkenner die u hier kunt gebruiken: https://digiexplorer.info.",
             "url": "https://digiexplorer.info"
         }
+    },
+    "digifact19": {
+        "en": {
+            "title": "DigiFact # 19 - Did you know...",
+            "content": "Have you ever wanted to run your own DigiExplorer? Or get other data out of the blockchain so you can integrate it with your business? There are handy guides that will help you here: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "zh": {
+            "title": "数字事实 #19 - 你知道吗？",
+            "content": "你是否想过要运行自己的DigiExplorer？或者从区块链中获取其他数据以便与您的业务集成？这里有一些方便的指南可以帮助你：https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "ru": {
+            "title": "ДиджиФакт #19 - Знаете ли вы...",
+            "content": "Хотели ли вы когда-нибудь запустить свой собственный DigiExplorer? Или получить другие данные из блокчейна, чтобы интегрировать их в ваш бизнес? Здесь вы найдете полезные руководства, которые помогут вам: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "es": {
+            "title": "DigiDato #19 - ¿Sabías que...",
+            "content": "¿Alguna vez has querido ejecutar tu propio DigiExplorer? ¿O sacar otros datos de la blockchain para integrarlos con tu negocio? Hay guías útiles que te ayudarán aquí: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "ko": {
+            "title": "디지팩트 #19 - 혹시 알고 계셨나요...",
+            "content": "자신만의 DigiExplorer를 운영하고 싶거나 블록체인에서 다른 데이터를 추출하여 비즈니스와 통합하고 싶으신 적이 있나요? 여기에 도움이 될 유용한 가이드가 있습니다: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "ja": {
+            "title": "デジファクト #19 - ご存知でしたか...",
+            "content": "自分自身のDigiExplorerを実行したいですか？または、ビジネスと統合するためにブロックチェーンから他のデータを取得したいですか？ここに役立つガイドがあります: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "de": {
+            "title": "DigiFakt #19 - Wussten Sie schon...",
+            "content": "Wollten Sie schon immer Ihren eigenen DigiExplorer betreiben? Oder andere Daten aus der Blockchain extrahieren, um sie in Ihr Geschäft zu integrieren? Hier finden Sie nützliche Anleitungen, die Ihnen dabei helfen: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "fr": {
+            "title": "DigiFact #19 - Saviez-vous que...",
+            "content": "Avez-vous déjà voulu exécuter votre propre DigiExplorer ? Ou extraire d'autres données de la blockchain pour les intégrer à votre entreprise ? Il existe des guides pratiques qui vous aideront ici : https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "pt": {
+            "title": "DigiFato #19 - Você sabia...",
+            "content": "Você já quis rodar o seu próprio DigiExplorer? Ou obter outros dados da blockchain para integrar com o seu negócio? Existem guias úteis que irão ajudá-lo aqui: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #19 - क्या आप जानते थे...",
+            "content": "क्या आप कभी अपना खुद का DigiExplorer चलाना चाहते हैं? या ब्लॉकचेन से अन्य डेटा प्राप्त करना चाहते हैं ताकि आप उसे अपने व्यवसाय में एकीकृत कर सकें? यहां कुछ उपयोगी गाइड हैं जो आपकी मदद करेंगे: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        },
+        "nl": {
+            "title": "DigiFeit #19 - Wist u dat...",
+            "content": "Wilde je ooit je eigen DigiExplorer uitvoeren? Of andere gegevens uit de blockchain halen om te integreren met je bedrijf? Er zijn handige gidsen die je hierbij kunnen helpen: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
+        }
     }
 }
