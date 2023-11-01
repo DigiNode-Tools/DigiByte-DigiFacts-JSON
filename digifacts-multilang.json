@@ -1646,5 +1646,62 @@
             "content": "DigiByte kan sinds de implementatie van SegWit in het begin van 2017 veilig en zeker worden gebruikt voor Atomic Swaps met andere blockchains. Hiervoor is geen tweede netwerklaag nodig en dit kan in plaats daarvan rechtstreeks worden gedaan.",
             "url": ""
         }
-    }
+    },
+    "digifact30": {
+        "en": {
+          "title": "DigiFact # 30 - Did you know...",
+          "content": "When all DigiByte have been mined, the network will continue to function with the miners mining / securing the network as they do at present. They will only get the transaction fees from sending DGB.",
+          "url": ""
+        },
+        "zh": {
+          "title": "数字事实 #30 - 你知道吗？",
+          "content": "当所有DigiByte都被开采出来后，网络将继续运行，矿工们将像目前一样开采/保护网络。他们只会从发送DGB中获取交易费用。",
+          "url": ""
+        },
+        "ru": {
+          "title": "ДиджиФакт #30 - Знаете ли вы...",
+          "content": "Когда все DigiByte будут добыты, сеть будет продолжать работать, и майнеры будут добывать/защищать сеть, как это происходит в настоящее время. Они будут получать только комиссионные с транзакций по отправке DGB.",
+          "url": ""
+        },
+        "es": {
+          "title": "DigiDato #30 - ¿Sabías que...",
+          "content": "Cuando todos los DigiByte hayan sido minados, la red continuará funcionando con los mineros minando / asegurando la red como lo hacen actualmente. Solo recibirán las tarifas de transacción por enviar DGB.",
+          "url": ""
+        },
+        "ko": {
+          "title": "디지팩트 #30 - 혹시 알고 계셨나요...",
+          "content": "모든 DigiByte가 채굴되었을 때, 네트워크는 현재와 같이 채굴자들이 네트워크를 채굴/보안하는 것으로 계속 기능할 것입니다. 그들은 DGB를 보낼 때 발생하는 거래 수수료만을 받게 될 것입니다.",
+          "url": ""
+        },
+        "ja": {
+          "title": "デジファクト #30 - ご存知でしたか...",
+          "content": "全てのDigiByteが採掘された後、ネットワークは現在のようにマイナーがネットワークを採掘/保護することで機能し続けます。彼らはDGBの送信から得られる取引手数料のみを受け取ります。",
+          "url": ""
+        },
+        "de": {
+          "title": "DigiFakt #30 - Wussten Sie schon...",
+          "content": "Wenn alle DigiByte abgebaut sind, wird das Netzwerk weiterhin funktionieren, wobei die Miner das Netzwerk abbauen/sichern, wie sie es derzeit tun. Sie werden nur die Transaktionsgebühren für das Senden von DGB erhalten.",
+          "url": ""
+        },
+        "fr": {
+          "title": "DigiFact #30 - Saviez-vous que...",
+          "content": "Lorsque tous les DigiByte auront été minés, le réseau continuera de fonctionner avec les mineurs qui minent / sécurisent le réseau comme ils le font actuellement. Ils ne recevront que les frais de transaction pour l'envoi de DGB.",
+          "url": ""
+        },
+        "pt": {
+          "title": "DigiFato #30 - Você sabia...",
+          "content": "Quando todos os DigiByte forem minerados, a rede continuará a funcionar com os mineiros minerando / protegendo a rede como fazem atualmente. Eles só receberão as taxas de transação de enviar DGB.",
+          "url": ""
+        },
+        "hi": {
+          "title": "डिजीफैक्ट #30 - क्या आप जानते थे...",
+          "content": "जब सभी DigiByte खनन किए जा चुके होंगे, नेटवर्क वर्तमान में की तरह माइनर्स द्वारा नेटवर्क की खनन / सुरक्षा के साथ काम करता रहेगा। वे केवल DGB भेजने के लिए लेनदेन शुल्क प्राप्त करेंगे।",
+          "url": ""
+        },
+        "nl": {
+          "title": "DigiFeit #30 - Wist u dat...",
+          "content": "Wanneer alle DigiByte zijn gedolven, zal het netwerk blijven functioneren met de mijnwerkers die het netwerk delven / beveiligen zoals ze nu doen. Ze zullen alleen de transactiekosten ontvangen voor het verzenden van DGB.",
+          "url": ""
+        }
+      }
 }
