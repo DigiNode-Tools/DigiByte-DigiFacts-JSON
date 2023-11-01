@@ -3979,8 +3979,616 @@
             "content": "U kunt meerdere portefeuilles gebruiken! DigiByte is niet beperkt tot één stuk software, en de gemeenschap wordt aangemoedigd om een app te vinden die het beste voor hen werkt, dus probeer er een, probeer er een paar, en blijf degenen gebruiken die u het meest bevalt.",
             "url": ""
         }
+    },
+    "digifact71": {
+        "en": {
+            "title": "DigiFact # 71 - Did you know...",
+            "content": "DigiByte cannot ever have a centralized \"burning\" of the maximum supply as other ICO's or centrally controlled tokens can. Because DigiByte is a fully decentralized project, it's impossible to issue a large-scale \"burning\" of unused DigiByte. At most, you could only ever destroy your own if you willingly transferred them in to the void.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #71 - 你知道吗？",
+            "content": "DigiByte永远无法像其他ICO或中央控制的代币那样进行中央化的最大供应\"销毁\"。由于DigiByte是一个完全去中心化的项目，不可能发行大规模的未使用DigiByte的\"销毁\"。最多，你只能自愿将它们转移到虚空中来销毁你自己的DigiByte。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #71 - Знаете ли вы...",
+            "content": "DigiByte никогда не может провести централизованное \"сжигание\" максимального объема, как это могут сделать другие ICO или централизованные токены. Поскольку DigiByte является полностью децентрализованным проектом, невозможно провести крупномасштабное \"сжигание\" неиспользованных DigiByte. В лучшем случае вы можете только уничтожить свои собственные DigiByte, если добровольно передадите их в никуда.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #71 - ¿Sabías que...",
+            "content": "DigiByte nunca puede realizar una \"quema\" centralizada de su suministro máximo, como pueden hacerlo otras ICO o tokens controlados centralmente. Debido a que DigiByte es un proyecto completamente descentralizado, es imposible emitir una \"quema\" a gran escala de DigiByte no utilizados. Como máximo, solo podrías destruir los tuyos si los transfirieras voluntariamente al vacío.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #71 - 혹시 알고 계셨나요...",
+            "content": "DigiByte는 다른 ICO나 중앙 집중식 토큰과 같이 최대 공급량의 중앙 집중식 \"소각\"을 할 수 없습니다. DigiByte는 완전히 탈중앙화된 프로젝트이기 때문에 사용되지 않는 DigiByte의 대규모 \"소각\"을 발행하는 것은 불가능합니다. 최대로 할 수 있는 것은 자발적으로 그것들을 공백으로 이전하면 자신의 것만 파괴할 수 있을 뿐입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #71 - ご存知でしたか...",
+            "content": "DigiByteは、他のICOや中央管理型トークンと同様に、最大供給の中央集権的な「焼却」を行うことはできません。DigiByteは完全に分散型のプロジェクトであるため、未使用のDigiByteの大規模な「焼却」を発行することは不可能です。最大でも、自発的にそれらを虚空に移動させた場合にのみ、自分自身のDigiByteを破壊できるかもしれません。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #71 - Wussten Sie schon...",
+            "content": "DigiByte kann niemals eine zentralisierte \"Verbrennung\" des maximalen Angebots haben, wie es andere ICOs oder zentral kontrollierte Tokens können. Da DigiByte ein vollständig dezentralisiertes Projekt ist, ist es unmöglich, eine groß angelegte \"Verbrennung\" von ungenutztem DigiByte durchzuführen. Höchstens könnten Sie Ihre eigenen DigiByte zerstören, wenn Sie sie freiwillig in die Leere übertragen.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #71 - Saviez-vous que...",
+            "content": "DigiByte ne peut jamais avoir une \"combustion\" centralisée de l'offre maximale, comme le font d'autres ICO ou tokens contrôlés de manière centralisée. Parce que DigiByte est un projet entièrement décentralisé, il est impossible d'émettre une \"combustion\" à grande échelle des DigiByte inutilisés. Au mieux, vous pourriez détruire les vôtres si vous les transfériez volontairement dans le néant.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #71 - Você sabia...",
+            "content": "DigiByte nunca pode ter uma \"queima\" centralizada do fornecimento máximo, como outras ICOs ou tokens controlados centralmente podem. Como o DigiByte é um projeto completamente descentralizado, é impossível emitir uma \"queima\" em grande escala de DigiByte não utilizados. No máximo, você poderia apenas destruir os seus se os transferisse voluntariamente para o vazio.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #71 - क्या आप जानते थे...",
+            "content": "DigiByte कभी भी अन्य ICO या केंद्रीय नियंत्रित टोकन की तरह अधिकतम आपूर्ति की केंद्रीय \"जलान\" नहीं कर सकता है। क्योंकि DigiByte पूरी तरह से डीसेंट्रलाइज्ड प्रोजेक्ट है, अपरिभाषित DigiByte की बड़ी स्केल की \"जलान\" जारी करना असंभव है। अधिकतम, आप केवल अपने अपने को जीवंतित कर सकते हैं अगर आप स्वेच्छा से उन्हें खाली के रूप में स्थानांतरित करते हैं।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #71 - Wist u dat...",
+            "content": "DigiByte kan nooit een gecentraliseerde \"verbranding\" van het maximale aanbod hebben, zoals andere ICO's of centraal gecontroleerde tokens dat kunnen. Omdat DigiByte een volledig gedecentraliseerd project is, is het onmogelijk om een grootschalige \"verbranding\" van ongebruikte DigiByte uit te geven. In het gunstigste geval zou je alleen je eigen DigiByte kunnen vernietigen als je ze vrijwillig in de leegte zou overdragen.",
+            "url": ""
+        }
+    },
+    "digifact72": {
+        "en": {
+            "title": "DigiFact # 72 - Did you know...",
+            "content": "Transactions on the DigiByte blockchain cannot be undone, by anybody. Once a transaction has been made, it is permanent. Did you accidentally send 50 DigiByte instead of 5 DigiByte? You'll need to ask the recipient to return the surplus, as there is no \"Undo\" function, and no central banking authority who can roll back transactions.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #72 - 你知道吗？",
+            "content": "DigiByte区块链上的交易无法被任何人撤销。一旦交易完成，就是永久性的。你是否意外地发送了50 DigiByte而不是5 DigiByte？你需要请求接收者归还多余的部分，因为没有\"撤销\"功能，也没有中央银行机构可以撤销交易。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #72 - Знаете ли вы...",
+            "content": "Транзакции на блокчейне DigiByte не могут быть отменены никем. После совершения транзакции она становится постоянной. Отправили случайно 50 DigiByte вместо 5 DigiByte? Вам придется попросить получателя вернуть избыток, так как нет функции \"Отмена\", и нет центрального банковского органа, который может отменить транзакции.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #72 - ¿Sabías que...",
+            "content": "Las transacciones en la cadena de bloques de DigiByte no se pueden deshacer, por nadie. Una vez realizada una transacción, es permanente. ¿Envías accidentalmente 50 DigiByte en lugar de 5 DigiByte? Tendrás que pedir al destinatario que devuelva el excedente, ya que no existe una función de \"Deshacer\" y no hay una autoridad central bancaria que pueda revertir las transacciones.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #72 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 블록체인의 거래는 아무도 취소할 수 없습니다. 한 번 거래가 이루어지면 영구적입니다. 5 DigiByte 대신 실수로 50 DigiByte를 보냈다면 얼른 받는 사람에게 남은 부분을 돌려달라고 부탁해야 합니다. \"실행 취소\" 기능이 없으며 거래를 되돌릴 수 있는 중앙 은행 기관도 없기 때문입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #72 - ご存知でしたか...",
+            "content": "DigiByteブロックチェーン上の取引は、誰にも元に戻すことはできません。一度取引が行われると、それは永久的です。5 DigiByteの代わりに50 DigiByteを誤って送った場合、取引相手に余剰分を返してもらう必要があります。 \"取り消し\"機能がなく、取引を巻き戻すことができる中央銀行機関もありません。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #72 - Wussten Sie schon...",
+            "content": "Transaktionen auf der DigiByte-Blockchain können von niemandem rückgängig gemacht werden. Einmal getätigte Transaktionen sind permanent. Haben Sie versehentlich 50 DigiByte anstelle von 5 DigiByte gesendet? Sie müssen den Empfänger bitten, den Überschuss zurückzugeben, da es keine \"Rückgängig\"-Funktion gibt und keine zentrale Bankbehörde, die Transaktionen rückgängig machen kann.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #72 - Saviez-vous que...",
+            "content": "Les transactions sur la blockchain DigiByte ne peuvent pas être annulées, par personne. Une fois qu'une transaction a été effectuée, elle est permanente. Avez-vous accidentellement envoyé 50 DigiByte au lieu de 5 DigiByte ? Vous devrez demander au destinataire de vous restituer l'excédent, car il n'y a pas de fonction \"Annuler\" et aucune autorité bancaire centrale ne peut annuler les transactions.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #72 - Você sabia...",
+            "content": "As transações na blockchain da DigiByte não podem ser desfeitas, por ninguém. Uma vez feita uma transação, ela é permanente. Enviou acidentalmente 50 DigiByte em vez de 5 DigiByte? Você precisará pedir ao destinatário que devolva o excedente, pois não há uma função de \"Desfazer\" e nenhuma autoridade bancária central que possa reverter transações.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #72 - क्या आप जानते थे...",
+            "content": "डिजीबाइट ब्लॉकचेन पर हुई लेन-देन को कोई भी नहीं वापस कर सकता, किसी भी व्यक्ति द्वारा। एक बार लेन-देन हो जाने पर, वो स्थायी हो जाता है। क्या आपने गलती से 5 DigiByte की जगह 50 DigiByte भेज दिए? आपको प्राप्तकर्ता से अधिशेष वापस करने के लिए कहना होगा, क्योंकि ऐसा कोई \"वापस\" करने की फ़ंक्शन नहीं है, और कोई मध्यस्थ बैंकिंग प्राधिकृति जो लेन-देन को वापस नहीं कर सकती है।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #72 - Wist je dat...",
+            "content": "Transacties op de DigiByte blockchain kunnen door niemand ongedaan worden gemaakt. Eenmaal gemaakte transacties zijn permanent. Heb je per ongeluk 50 DigiByte in plaats van 5 DigiByte gestuurd? Dan zul je de ontvanger moeten vragen om het overschot terug te sturen, omdat er geen \"Ongedaan maken\"-functie is en geen centrale bankautoriteit die transacties kan terugdraaien.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact #72 - Lo sapevi che...",
+            "content": "Le transazioni sulla blockchain DigiByte non possono essere annullate da nessuno. Una volta effettuata una transazione, essa è permanente. Hai inviato accidentalmente 50 DigiByte invece di 5 DigiByte? Dovrai chiedere al destinatario di restituire l'importo in eccesso, poiché non esiste una funzione di \"Annulla\" e nessuna autorità bancaria centrale può annullare le transazioni.",
+            "url": ""
+        }
+    },    
+    "digifact73": {
+        "en": {
+            "title": "DigiFact # 73 - Did you know...",
+            "content": "Do you want to start a DigiByte podcast, or meet-up? Go for it! There is nobody to ask for permission, part of DigiByte being a \"permissionless\" project. It is implied that you can, so go right ahead and do it.",
+            "url": ""
+        },
+        "zh": {
+            "title": "数字事实 #73 - 你知道吗？",
+            "content": "你想要开始一个DigiByte播客或者聚会吗？尽管去吧！没有人需要征求许可，这是DigiByte作为一个“无需许可”的项目的一部分。这意味着你可以这么做，所以赶紧行动吧。",
+            "url": ""
+        },
+        "ru": {
+            "title": "ДиджиФакт #73 - Знаете ли вы...",
+            "content": "Хотите начать подкаст о DigiByte или организовать встречу? Да, пожалуйста! Никого не нужно спрашивать разрешения, это часть концепции DigiByte как \"безразрешительного\" проекта. Это подразумевается, что вы можете это сделать, так что просто делайте это.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiDato #73 - ¿Sabías que...",
+            "content": "¿Quieres comenzar un podcast de DigiByte o una reunión? ¡Adelante! No hay nadie a quien pedir permiso, parte de DigiByte es ser un proyecto \"sin permisos\". Se da por sentado que puedes hacerlo, así que adelante y hazlo.",
+            "url": ""
+        },
+        "ko": {
+            "title": "디지팩트 #73 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 팟캐스트를 시작하거나 모임을 개최하고 싶나요? 그렇게 해도 괜찮습니다! DigiByte는 \"허가 없이\" 진행되는 프로젝트의 일부로 누구에게 허가를 구할 필요가 없습니다. 그냥 하면 되는 것으로 간주됩니다. 따라서 바로 시작하십시오.",
+            "url": ""
+        },
+        "ja": {
+            "title": "デジファクト #73 - ご存知でしたか...",
+            "content": "DigiByteのポッドキャストを始めたり、ミートアップを開催したいですか？やりましょう！ 許可を求める必要はなく、DigiByteが\"許可不要\"のプロジェクトである一部です。 できることが暗黙のうちに含まれているので、すぐに始めてください。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFakt #73 - Wussten Sie schon...",
+            "content": "Möchten Sie einen DigiByte-Podcast starten oder ein Treffen veranstalten? Nur zu! Es gibt niemanden, den Sie um Erlaubnis bitten müssen, da DigiByte ein \"genehmigungsfreies\" Projekt ist. Es wird angenommen, dass Sie es können, also legen Sie einfach los.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact #73 - Saviez-vous que...",
+            "content": "Vous voulez créer un podcast DigiByte ou une rencontre ? Allez-y ! Il n'y a personne à qui demander la permission, c'est l'une des caractéristiques de DigiByte en tant que projet \"sans autorisation\". Il est sous-entendu que vous pouvez le faire, alors foncez et faites-le.",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFato #73 - Você sabia...",
+            "content": "Quer começar um podcast ou um encontro DigiByte? Vá em frente! Não há necessidade de pedir permissão, pois DigiByte é um projeto \"sem permissão\". É implícito que você pode fazer isso, então siga em frente e faça.",
+            "url": ""
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #73 - क्या आप जानते थे...",
+            "content": "क्या आप एक डिजीबाइट पॉडकास्ट शुरू करना चाहते हैं, या मीटअप करना चाहते हैं? जाइए! इसके लिए किसी से अनुमति के लिए किसी से पूछने की कोई आवश्यकता नहीं है, यह डिजीबाइट एक \"अनुमति रहित\" परियोजना होने का हिस्सा है। इसका मतलब है कि आप यह कर सकते हैं, इसलिए जाइए और यह करें।",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFeit #73 - Wist je dat...",
+            "content": "Wil je een DigiByte-podcast beginnen of een ontmoeting organiseren? Ga ervoor! Er is niemand om toestemming aan te vragen, omdat DigiByte een \"toestemmingsloos\" project is. Het wordt impliciet aangenomen dat je het kunt doen, dus ga ervoor en doe het gewoon.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact #73 - Lo sapevi che...",
+            "content": "Vuoi avviare un podcast DigiByte o un incontro? Fallo pure! Non c'è bisogno di chiedere il permesso a nessuno, fa parte dell'essenza di DigiByte come progetto \"senza autorizzazione\". Si presume che tu possa farlo, quindi procedi pure e fallo.",
+            "url": ""
+        }
+    },
+    "digifact74": {
+        "en": {
+            "title": "DigiFact # 74 - Did you know...",
+            "content": "If you have ever had the misfortune to accidentally send your DigiByte to a Dogecoin address, your coins may not be lost. DigiSweep by DigiByte community member Matthew Cornellisse (@mctrivia) may be able to help you recover them. Find it here: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "zh": {
+            "title": "数字事实 #74 - 你知道吗？",
+            "content": "如果您曾不幸将您的DigiByte意外发送到一个狗狗币地址，您的硬币可能并没有丢失。由DigiByte社区成员Matthew Cornellisse（@mctrivia）开发的DigiSweep可能会帮助您恢复它们。在这里找到它：https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "ru": {
+            "title": "ДиджиФакт #74 - Знаете ли вы...",
+            "content": "Если вам когда-либо не повезло и вы случайно отправили свои DigiByte на адрес Dogecoin, ваши монеты могут и не быть утеряными. DigiSweep, созданный членом сообщества DigiByte Мэттью Корнелиссе (@mctrivia), может помочь вам их восстановить. Найдите его здесь: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "es": {
+            "title": "DigiDato #74 - ¿Sabías que...",
+            "content": "Si alguna vez has tenido la desgracia de enviar accidentalmente tus DigiByte a una dirección de Dogecoin, tus monedas quizás no estén perdidas. DigiSweep, desarrollado por el miembro de la comunidad de DigiByte Matthew Cornellisse (@mctrivia), podría ayudarte a recuperarlas. Encuéntralo aquí: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "ko": {
+            "title": "디지팩트 #74 - 혹시 알고 계셨나요...",
+            "content": "만약 당신이 우연히 DigiByte를 도지코인 주소로 보내버린 불운을 겪은 적이 있다면, 여전히 동전들이 소실되지 않았을 수 있습니다. DigiByte 커뮤니티 회원 Matthew Cornellisse(@mctrivia)가 개발한 DigiSweep가 그것을 복구하는 데 도움을 줄 수 있습니다. 여기서 찾을 수 있습니다: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "ja": {
+            "title": "デジファクト #74 - ご存知でしたか...",
+            "content": "もしもあなたがうっかり自分のDigiByteをドージコインのアドレスに送ってしまったことがあるなら、あなたのコインは失われていないかもしれません。DigiByteコミュニティメンバーであるMatthew Cornellisse（@mctrivia）によるDigiSweepが、それらを回復するのに役立つかもしれません。こちらで見つけてください：https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "de": {
+            "title": "DigiFakt #74 - Wussten Sie schon...",
+            "content": "Wenn Sie jemals das Unglück hatten, versehentlich Ihre DigiByte an eine Dogecoin-Adresse zu senden, sind Ihre Münzen möglicherweise nicht verloren. DigiSweep von DigiByte-Community-Mitglied Matthew Cornellisse (@mctrivia) könnte Ihnen helfen, sie wiederherzustellen. Finden Sie es hier: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "fr": {
+            "title": "DigiFact #74 - Saviez-vous que...",
+            "content": "Si vous avez déjà eu la malchance d'envoyer accidentellement vos DigiByte à une adresse Dogecoin, vos pièces pourraient ne pas être perdues. DigiSweep, développé par le membre de la communauté DigiByte Matthew Cornellisse (@mctrivia), pourrait vous aider à les récupérer. Trouvez-le ici : https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "pt": {
+            "title": "DigiFato #74 - Você sabia...",
+            "content": "Se você já teve a infelicidade de enviar acidentalmente seus DigiByte para um endereço de Dogecoin, suas moedas podem não estar perdidas. O DigiSweep, desenvolvido pelo membro da comunidade DigiByte Matthew Cornellisse (@mctrivia), pode ajudá-lo a recuperá-las. Encontre-o aqui: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #74 - क्या आप जानते थे...",
+            "content": "अगर कभी आपको अपने DigiByte को गलती से एक डोजकॉइन पते पर भेज देने की दुर्भाग्य आई हो, तो आपके सिक्के शायद हारे नहीं हैं। DigiByte समुदाय के सदस्य Matthew Cornellisse (@mctrivia) द्वारा विकसित DigiSweep आपके उन्हें पुनर्प्राप्त करने में मदद कर सकता है। इसे यहाँ पाएं: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "nl": {
+            "title": "DigiFeit #74 - Wist je dat...",
+            "content": "Als je ooit het ongeluk hebt gehad om per ongeluk je DigiByte naar een Dogecoin-adres te sturen, zijn je munten misschien niet verloren. DigiSweep, ontwikkeld door DigiByte-communitylid Matthew Cornellisse (@mctrivia), kan je helpen ze te herstellen. Je vindt het hier: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        },
+        "it": {
+            "title": "DigiFact #74 - Lo sapevi che...",
+            "content": "Se hai mai avuto la sfortuna di inviare accidentalmente i tuoi DigiByte a un indirizzo Dogecoin, le tue monete potrebbero non essere perse. DigiSweep, sviluppato dal membro della comunità DigiByte Matthew Cornellisse (@mctrivia), potrebbe aiutarti a recuperarle. Trovalo qui: https://digisweep.digiassetx.com/",
+            "url": "https://digisweep.digiassetx.com/"
+        }
+    },
+    "digifact75": {
+        "en": {
+            "title": "DigiFact # 75 - Did you know...",
+            "content": "The DigiByte Alliance is a public non-profit foundation founded in Wyoming in March 2021. Its mission is to accelerate the growth and adoption of DigiByte. Learn more: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "zh": {
+            "title": "数字事实 #75 - 你知道吗？",
+            "content": "DigiByte联盟是一个公共非营利基金会，于2021年3月在怀俄明州成立。其使命是加速DigiByte的增长和采用。了解更多信息：https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "ru": {
+            "title": "ДиджиФакт #75 - Знаете ли вы...",
+            "content": "DigiByte Alliance - это общественное некоммерческое фонд, основанное в Вайоминге в марте 2021 года. Его миссия - ускорить рост и принятие DigiByte. Узнайте больше: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "es": {
+            "title": "DigiDato #75 - ¿Sabías que...",
+            "content": "La DigiByte Alliance es una fundación pública sin ánimo de lucro fundada en Wyoming en marzo de 2021. Su misión es acelerar el crecimiento y la adopción de DigiByte. Obtén más información: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "ko": {
+            "title": "디지팩트 #75 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 얼라이언스(DigiByte Alliance)는 2021년 3월에 와이오밍에서 설립된 공공 비영리 재단입니다. 그 미션은 DigiByte의 성장과 채택을 가속화하는 것입니다. 자세히 알아보세요: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "ja": {
+            "title": "デジファクト #75 - ご存知でしたか...",
+            "content": "DigiByte Allianceは、2021年3月にワイオミング州で設立された公共の非営利団体です。その使命は、DigiByteの成長と普及を加速することです。詳細はこちらをご覧ください：https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "de": {
+            "title": "DigiFakt #75 - Wussten Sie schon...",
+            "content": "Die DigiByte Alliance ist eine öffentliche gemeinnützige Stiftung, die im März 2021 in Wyoming gegründet wurde. Ihre Mission besteht darin, das Wachstum und die Verbreitung von DigiByte zu beschleunigen. Erfahren Sie mehr: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "fr": {
+            "title": "DigiFact #75 - Saviez-vous que...",
+            "content": "La DigiByte Alliance est une fondation publique à but non lucratif fondée dans le Wyoming en mars 2021. Sa mission est d'accélérer la croissance et l'adoption de DigiByte. En savoir plus : https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "pt": {
+            "title": "DigiFato #75 - Você sabia...",
+            "content": "A DigiByte Alliance é uma fundação pública sem fins lucrativos fundada em Wyoming em março de 2021. Sua missão é acelerar o crescimento e a adoção do DigiByte. Saiba mais: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #75 - क्या आप जानते थे...",
+            "content": "DigiByte Alliance एक सार्वजनिक गैर-लाभकारी संस्था है जो 2021 में व्योमिंग में स्थापित हुई थी। इसका मिशन DigiByte के विकास और अपनाने की गति को तेजी से बढ़ाना है। और अधिक जानें: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "nl": {
+            "title": "DigiFeit #75 - Wist je dat...",
+            "content": "De DigiByte Alliance is een openbare non-profitstichting opgericht in Wyoming in maart 2021. Haar missie is het versnellen van de groei en adoptie van DigiByte. Lees meer: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        },
+        "it": {
+            "title": "DigiFact #75 - Lo sapevi che...",
+            "content": "La DigiByte Alliance è una fondazione pubblica no-profit fondata in Wyoming nel marzo 2021. La sua missione è accelerare la crescita e l'adozione di DigiByte. Scopri di più: https://www.dgballiance.org/",
+            "url": "https://www.dgballiance.org/"
+        }
+    },
+    "digifact76": {
+        "en": {
+            "title": "DigiFact # 76 - Did you know...",
+            "content": "The DigiByte subreddit located at r/DigiByte has over 40,000 members. It's a great place to stay updated about all the news and developments in the DigiByte community. Join here: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "zh": {
+            "title": "数字事实 #76 - 你知道吗...",
+            "content": "位于r/DigiByte的DigiByte子社区拥有超过40,000名成员。这是一个了解DigiByte社区所有新闻和发展的绝佳地方。加入这里：https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "ru": {
+            "title": "ДиджиФакт #76 - Знаете ли вы...",
+            "content": "Подразделение DigiByte находящееся по адресу r/DigiByte имеет более 40 000 участников. Это отличное место, чтобы быть в курсе всех новостей и событий в сообществе DigiByte. Присоединяйтесь здесь: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "es": {
+            "title": "DigiDato #76 - ¿Sabías que...",
+            "content": "El subreddit de DigiByte ubicado en r/DigiByte tiene más de 40,000 miembros. Es un gran lugar para mantenerte actualizado sobre todas las noticias y desarrollos en la comunidad de DigiByte. Únete aquí: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "ko": {
+            "title": "디지팩트 #76 - 혹시 알고 계셨나요...",
+            "content": "r/DigiByte에 위치한 디지바이트 서브레딧은 40,000명 이상의 회원을 보유하고 있습니다. 디지바이트 커뮤니티의 모든 뉴스와 개발 내용을 최신 상태로 유지하는 데 훌륭한 장소입니다. 여기에서 가입하세요: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "ja": {
+            "title": "デジファクト #76 - ご存知でしたか...",
+            "content": "r/DigiByteにあるDigiByteのサブレディットには40,000人以上のメンバーがいます。DigiByteコミュニティのすべてのニュースや開発について最新情報を入手するには最適な場所です。こちらから参加してください：https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "de": {
+            "title": "DigiFakt #76 - Wussten Sie schon...",
+            "content": "Das DigiByte-Subreddit r/DigiByte hat über 40.000 Mitglieder. Es ist ein großartiger Ort, um über alle Neuigkeiten und Entwicklungen in der DigiByte-Community auf dem Laufenden zu bleiben. Treten Sie hier bei: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "fr": {
+            "title": "DigiFact #76 - Saviez-vous que...",
+            "content": "Le subreddit DigiByte situé à r/DigiByte compte plus de 40 000 membres. C'est un excellent endroit pour rester informé de toutes les actualités et développements au sein de la communauté DigiByte. Rejoignez ici : https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "pt": {
+            "title": "DigiFato #76 - Você sabia...",
+            "content": "O subreddit do DigiByte localizado em r/DigiByte tem mais de 40.000 membros. É um ótimo lugar para se manter atualizado sobre todas as notícias e desenvolvimentos na comunidade DigiByte. Junte-se aqui: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "hi": {
+            "title": "डिजीफैक्ट #76 - क्या आप जानते थे...",
+            "content": "r/DigiByte पर स्थित DigiByte subreddit में 40,000 से अधिक सदस्य हैं। यह DigiByte समुदाय में सभी समाचार और विकास के बारे में अपडेट रहने के लिए एक बड़ा स्थान है। यहां शामिल हों: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "nl": {
+            "title": "DigiFeit #76 - Wist je dat...",
+            "content": "Het DigiByte-subreddit op r/DigiByte heeft meer dan 40.000 leden. Het is een geweldige plek om op de hoogte te blijven van al het nieuws en de ontwikkelingen in de DigiByte-community. Doe hier mee: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        },
+        "it": {
+            "title": "DigiFact #76 - Lo sapevi che...",
+            "content": "Il subreddit di DigiByte situato su r/DigiByte conta più di 40.000 membri. È un ottimo luogo per rimanere aggiornati su tutte le notizie e gli sviluppi nella comunità di DigiByte. Unisciti qui: https://reddit.com/r/Digibyte",
+            "url": "https://reddit.com/r/Digibyte"
+        }
+    },
+    "digifact77": {
+        "en": {
+            "title": "DigiFact # 77 - Did you know...",
+            "content": "The DigiByte Discord server is where you will find the most active members of the DigiByte community, and is a great way to connect with all the people working on DigiByte behind the scenes. Please join us! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "zh": {
+            "title": "数字事实 #77 - 你知道吗...",
+            "content": "DigiByte Discord 服务器是您可以找到DigiByte社区最活跃成员的地方，也是与在DigiByte幕后工作的所有人建立联系的好方法。请加入我们！https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "ru": {
+            "title": "ДиджиФакт #77 - Знаете ли вы...",
+            "content": "Сервер Discord DigiByte - это место, где вы найдете самых активных участников сообщества DigiByte, и это отличный способ связаться со всеми людьми, работающими над DigiByte за кулисами. Присоединяйтесь к нам! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "es": {
+            "title": "DigiDato #77 - ¿Sabías que...",
+            "content": "El servidor de Discord de DigiByte es donde encontrarás a los miembros más activos de la comunidad de DigiByte, y es una excelente manera de conectarte con todas las personas que trabajan en DigiByte detrás de escena. ¡Únete a nosotros! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "ko": {
+            "title": "디지팩트 #77 - 혹시 알고 계셨나요...",
+            "content": "디지바이트 디스코드 서버는 디지바이트 커뮤니티의 가장 활발한 회원들을 만날 수 있는 곳이며, 디지바이트 뒷담화에 참여하는 모든 사람들과 연결할 수 있는 훌륭한 방법입니다. 저희와 함께하세요! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "ja": {
+            "title": "デジファクト #77 - ご存知でしたか...",
+            "content": "DigiByte Discordサーバーは、DigiByteコミュニティの最も活発なメンバーが見つかる場所であり、DigiByteの舞台裏で働いているすべての人々とつながる素晴らしい方法です。ぜひご参加ください！https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "de": {
+            "title": "DigiFakt #77 - Wussten Sie schon...",
+            "content": "Der DigiByte Discord-Server ist der Ort, an dem Sie die aktivsten Mitglieder der DigiByte-Community finden, und eine großartige Möglichkeit, sich mit all den Menschen zu verbinden, die im Hintergrund an DigiByte arbeiten. Bitte schließen Sie sich uns an! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "fr": {
+            "title": "DigiFact #77 - Saviez-vous que...",
+            "content": "Le serveur Discord DigiByte est l'endroit où vous trouverez les membres les plus actifs de la communauté DigiByte, et c'est un excellent moyen de vous connecter avec toutes les personnes qui travaillent sur DigiByte en coulisses. Rejoignez-nous ! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "it": {
+            "title": "DigiFact #77 - Saipevi che...",
+            "content": "Il server Discord di DigiByte è il luogo dove troverai i membri più attivi della comunità DigiByte ed è un ottimo modo per connetterti con tutte le persone che lavorano su DigiByte dietro le quinte. Unisciti a noi! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "hi": {
+            "title": "DigiFact # 77 - क्या आप जानते हैं...",
+            "content": "डिजाइब डिस्कॉर्ड सर्वर एक ऐसी जगह है जहां आपको डिजाइब कम्युनिटी के सबसे सक्रिय सदस्य मिलेंगे, और डिजाइब पर काम कर रहे सभी लोगों से जुड़ने का एक बड़ा तरीका है। कृपया हमारे साथ जुड़ें! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "pt": {
+            "title": "DigiFact #77 - Você sabia...",
+            "content": "O servidor do Discord DigiByte é onde você encontrará os membros mais ativos da comunidade DigiByte e é uma ótima maneira de se conectar com todas as pessoas que trabalham nos bastidores do DigiByte. Junte-se a nós! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        },
+        "nl": {
+            "title": "DigiFact # 77 - Wist je dat...",
+            "content": "De DigiByte Discord-server is de plek waar je de meest actieve leden van de DigiByte-community vindt, en het is een geweldige manier om in contact te komen met alle mensen die achter de schermen aan DigiByte werken. Sluit je bij ons aan! https://dsc.gg/digibytediscord",
+            "url": "https://dsc.gg/digibytediscord"
+        }
+    },
+    "digifact78": {
+        "en": {
+            "title": "DigiFact # 78 - Did you know...",
+            "content": "DigiNode Tools is a software suite that makes it easy to setup and manage a DigiByte and/or DigiAsset Node on low power device like a Raspberry Pi or Ubuntu system. Setup is menu-driven and there are detailed step-by-step instructions provided. You can even setup a Dual Node to run both a mainnet and testnet node on the same device. Learn more here: https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "zh": {
+            "title": "数字事实 #78 - 你知道吗...",
+            "content": "DigiNode工具是一款软件套件，可轻松在树莓派或Ubuntu等低功耗设备上设置和管理DigiByte和/或DigiAsset节点。设置是基于菜单的，提供了详细的逐步说明。您甚至可以设置双节点，在同一设备上运行主网和测试网节点。在此了解更多信息：https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "ru": {
+            "title": "ДиджиФакт #78 - Знаете ли вы...",
+            "content": "DigiNode Tools - это программный комплекс, который облегчает настройку и управление узлом DigiByte и/или DigiAsset на устройствах с низким энергопотреблением, таких как Raspberry Pi или система Ubuntu. Установка осуществляется по меню, предоставляются подробные пошаговые инструкции. Вы даже можете настроить двойной узел для запуска как узла главной сети, так и узла тестовой сети на одном устройстве. Узнайте больше здесь: https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "es": {
+            "title": "DigiDato #78 - ¿Sabías que...",
+            "content": "DigiNode Tools es un conjunto de software que facilita la configuración y gestión de un nodo DigiByte y/o DigiAsset en dispositivos de bajo consumo energético como Raspberry Pi o sistemas Ubuntu. La configuración se realiza a través de menús y se proporcionan instrucciones detalladas paso a paso. Incluso puedes configurar un Nodo Dual para ejecutar un nodo de la red principal y un nodo de la red de pruebas en el mismo dispositivo. Obtén más información aquí: https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "ko": {
+            "title": "디지팩트 #78 - 혹시 알고 계셨나요...",
+            "content": "DigiNode 도구는 라즈베리 파이나 우분투와 같은 저전력 장치에서 DigiByte 및/또는 DigiAsset 노드를 설정하고 관리하기 쉽게 해주는 소프트웨어 스위트입니다. 설정은 메뉴로 이루어지며 자세한 단계별 지침이 제공됩니다. 동일한 장치에서 본넷 및 테스트넷 노드를 실행하기 위해 이중 노드를 설정할 수도 있습니다. 자세한 내용은 여기를 참조하세요: https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "ja": {
+            "title": "デジファクト #78 - ご存知でしたか...",
+            "content": "DigiNode Toolsは、Raspberry PiやUbuntuなどの低電力デバイスでDigiByteおよび/またはDigiAssetノードを簡単に設定および管理できるソフトウェアスイートです。セットアップはメニューで行われ、詳細なステップバイステップの指示が提供されています。同じデバイスで本番ネットワークノードとテストネットワークノードの両方を実行するデュアルノードを設定することさえできます。詳細はこちらをご覧ください：https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "de": {
+            "title": "DigiFakt #78 - Wussten Sie schon...",
+            "content": "DigiNode Tools ist eine Software-Suite, die es Ihnen ermöglicht, einen DigiByte- und/oder DigiAsset-Knoten auf Low-Power-Geräten wie einem Raspberry Pi oder einem Ubuntu-System einfach einzurichten und zu verwalten. Die Einrichtung erfolgt menügesteuert, und es werden detaillierte Schritt-für-Schritt-Anleitungen bereitgestellt. Sie können sogar einen Dual-Knoten einrichten, um sowohl einen Hauptnetz- als auch einen Testnetz-Knoten auf demselben Gerät auszuführen. Erfahren Sie mehr hier: https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "fr": {
+            "title": "DigiFact #78 - Saviez-vous que...",
+            "content": "DigiNode Tools est un ensemble de logiciels qui simplifie la configuration et la gestion d'un nœud DigiByte et/ou DigiAsset sur des appareils à faible consommation d'énergie tels qu'un Raspberry Pi ou un système Ubuntu. La configuration se fait via des menus, et des instructions détaillées étape par étape sont fournies. Vous pouvez même configurer un nœud double pour exécuter à la fois un nœud de réseau principal et un nœud de test sur le même appareil. En savoir plus ici : https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "it": {
+            "title": "DigiFact #78 - Saipevi che...",
+            "content": "DigiNode Tools è una suite di software che semplifica la configurazione e la gestione di un nodo DigiByte e/o DigiAsset su dispositivi a basso consumo energetico come Raspberry Pi o sistemi Ubuntu. La configurazione avviene tramite menu, e vengono fornite dettagliate istruzioni passo passo. È persino possibile configurare un Nodo Duplice per eseguire contemporaneamente un nodo principale e un nodo di test sulla stessa periferica. Per saperne di più: https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "hi": {
+            "title": "DigiFact # 78 - क्या आप जानते हैं...",
+            "content": "DigiNode टूल्स एक सॉफ़्टवेयर सुइट है जिससे Raspberry Pi या Ubuntu जैसे कम बिजली उपकरण पर DigiByte और/या DigiAsset नोड सेटअप और प्रबंधित करना बहुत आसान हो जाता है। सेटअप मेनू-संचालित होता है और विस्तृत चरण-चरण निर्देश प्रदान किए जाते हैं। आप एक ही उपकरण पर मुख्य नेटवर्क और परीक्षण नेटवर्क नोड दोनों चलाने के लिए एक ड्यूल नोड सेटअप भी कर सकते हैं। और जानें: https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        },
+        "nl": {
+            "title": "DigiFact #78 - Wist je dat...",
+            "content": "DigiNode Tools is een software suite waarmee je eenvoudig een DigiByte en/of DigiAsset Node kunt instellen en beheren op een energiezuinig apparaat zoals een Raspberry Pi of Ubuntu-systeem. De installatie is menu-gestuurd en er worden gedetailleerde stapsgewijze instructies gegeven. Je kunt zelfs een Dual Node instellen om zowel een mainnet- als een testnet-node op dezelfde computer te draaien. Leer er meer over hier: https://diginode.tools/",
+            "url": "https://diginode.tools/"
+        }
+    },
+    "digifact79": {
+        "en": {
+            "title": "DigiFact # 79 - Did you know...",
+            "content": "To view all the existing nodes on the DigiByte network, you can use the website https://digibyteseed.com created by DigiByte community member Jan de Jong. It displays the DigiByte Seeders and all the current mainnet and testnet nodes on the DigiByte network. It's also a great way to check on the status of your own DigiByte node.",
+            "url": "https://digibyteseed.com"
+        },
+        "zh": {
+            "title": "数字事实 #79 - 你知道吗...",
+            "content": "要查看DigiByte网络上的所有现有节点，您可以使用DigiByte社区成员Jan de Jong创建的网站https://digibyteseed.com。该网站显示了DigiByte Seeders以及DigiByte网络上当前的主网和测试网节点。这也是检查您自己的DigiByte节点状态的绝佳方式。",
+            "url": "https://digibyteseed.com"
+        },
+        "ru": {
+            "title": "ДиджиФакт #79 - Знаете ли вы...",
+            "content": "Чтобы просмотреть все существующие узлы в сети DigiByte, вы можете воспользоваться веб-сайтом https://digibyteseed.com, созданным участником сообщества DigiByte Яном де Йонгом. На этом сайте отображаются DigiByte Seeders и все текущие узлы основной сети и тестовой сети в сети DigiByte. Это также отличный способ проверить состояние вашего собственного узла DigiByte.",
+            "url": "https://digibyteseed.com"
+        },
+        "es": {
+            "title": "DigiDato #79 - ¿Sabías que...",
+            "content": "Para ver todos los nodos existentes en la red de DigiByte, puedes utilizar el sitio web https://digibyteseed.com creado por el miembro de la comunidad de DigiByte Jan de Jong. Muestra los DigiByte Seeders y todos los nodos actuales de la red principal y de prueba en la red de DigiByte. También es una excelente manera de verificar el estado de tu propio nodo de DigiByte.",
+            "url": "https://digibyteseed.com"
+        },
+        "ko": {
+            "title": "디지팩트 #79 - 혹시 알고 계셨나요...",
+            "content": "DigiByte 네트워크의 모든 기존 노드를 보려면 DigiByte 커뮤니티 회원인 Jan de Jong이 만든 웹 사이트 https://digibyteseed.com을 사용할 수 있습니다. 이 사이트에는 DigiByte Seeders 및 DigiByte 네트워크의 현재 메인넷 및 테스트넷 노드가 모두 표시됩니다. 또한 자신의 DigiByte 노드 상태를 확인하는 훌륭한 방법입니다.",
+            "url": "https://digibyteseed.com"
+        },
+        "ja": {
+            "title": "デジファクト #79 - ご存知でしたか...",
+            "content": "DigiByteネットワーク上のすべての既存ノードを表示するには、DigiByteコミュニティメンバーであるJan de Jongが作成したウェブサイトhttps://digibyteseed.comを使用できます。 このウェブサイトには、DigiByte SeedersとDigiByteネットワーク上の現在のメインネットとテストネットノードが表示されます。 また、独自のDigiByteノードのステータスを確認する優れた方法でもあります。",
+            "url": "https://digibyteseed.com"
+        },
+        "de": {
+            "title": "DigiFakt #79 - Wussten Sie schon...",
+            "content": "Um alle vorhandenen Knoten im DigiByte-Netzwerk anzuzeigen, können Sie die Website https://digibyteseed.com verwenden, die von Jan de Jong, einem Mitglied der DigiByte-Community, erstellt wurde. Dort werden die DigiByte Seeders und alle aktuellen Hauptnetz- und Testnetz-Knoten im DigiByte-Netzwerk angezeigt. Es ist auch eine großartige Möglichkeit, den Status Ihres eigenen DigiByte-Knotens zu überprüfen.",
+            "url": "https://digibyteseed.com"
+        },
+        "fr": {
+            "title": "DigiFact #79 - Saviez-vous que...",
+            "content": "Pour voir tous les nœuds existants sur le réseau DigiByte, vous pouvez utiliser le site Web https://digibyteseed.com créé par Jan de Jong, membre de la communauté DigiByte. Il affiche les DigiByte Seeders et tous les nœuds actuels du réseau principal et du réseau de test sur le réseau DigiByte. C'est également un excellent moyen de vérifier l'état de votre propre nœud DigiByte.",
+            "url": "https://digibyteseed.com"
+        },
+        "it": {
+            "title": "DigiFact #79 - Saipevi che...",
+            "content": "Per visualizzare tutti i nodi esistenti sulla rete DigiByte, puoi utilizzare il sito web https://digibyteseed.com creato da Jan de Jong, membro della comunità DigiByte. Esso mostra i DigiByte Seeders e tutti i nodi attuali della rete principale e della rete di test su DigiByte. È anche un ottimo modo per verificare lo stato del tuo nodo DigiByte personale.",
+            "url": "https://digibyteseed.com"
+        },
+        "hi": {
+            "title": "DigiFact # 79 - क्या आप जानते हैं...",
+            "content": "DigiByte नेटवर्क पर मौजूद सभी मौजूदा नोड्स को देखने के लिए आप डिजीबाइट समुदाय के सदस्य जान दे जोंग द्वारा बनाई गई वेबसाइट https://digibyteseed.com का उपयोग कर सकते हैं। इस पर DigiByte Seeders और DigiByte नेटवर्क पर मौजूद सभी मुख्यनेट और परीक्षणनेट नोड्स दिखाए जाते हैं। यह अपने खुद के DigiByte नोड की स्थिति की जांच करने का भी एक बढ़िया तरीका है।",
+            "url": "https://digibyteseed.com"
+        },
+        "pt": {
+            "title": "DigiFact # 79 - Você sabia...",
+            "content": "Para visualizar todos os nós existentes na rede DigiByte, você pode usar o site https://digibyteseed.com criado pelo membro da comunidade DigiByte Jan de Jong. Ele exibe os DigiByte Seeders e todos os nós atuais da rede principal e da rede de teste na rede DigiByte. Também é uma ótima maneira de verificar o status do seu próprio nó DigiByte.",
+            "url": "https://digibyteseed.com"
+        },
+        "nl": {
+            "title": "DigiFact # 79 - Wist je dat...",
+            "content": "Om alle bestaande knooppunten in het DigiByte-netwerk te bekijken, kunt u de website https://digibyteseed.com gebruiken, gemaakt door DigiByte-communitylid Jan de Jong. Het toont de DigiByte Seeders en alle huidige mainnet- en testnet-knooppunten in het DigiByte-netwerk. Het is ook een geweldige manier om de status van uw eigen DigiByte-knooppunt te controleren.",
+            "url": "https://digibyteseed.com"
+        }
+    },
+    "digifact80": {
+        "en": {
+            "title": "DigiFact # 80 - Did you know...",
+            "content": "A DigiByte Seeder is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addresses and ports of the most reliable ones. DigiByte Nodes joining the network use the DigiByte Seeders to find other nodes to connect to. Learn more here: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "zh": {
+            "title": "数字事实 #80 - 你知道吗...",
+            "content": "DigiByte Seeder是由DigiByte社区的一些值得信赖的志愿者运行的轻量级DNS服务器。它不断爬行DigiByte网络，寻找节点，并维护了最可靠的节点的IP地址和端口列表。加入网络的DigiByte节点使用DigiByte Seeder查找其他要连接的节点。在这里了解更多信息：https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "ru": {
+            "title": "ДиджиФакт #80 - Знаете ли вы...",
+            "content": "DigiByte Seeder - это легкий DNS-сервер, запускаемый несколькими доверенными добровольцами из сообщества DigiByte. Он непрерывно сканирует сеть DigiByte, ища узлы и поддерживая список IP-адресов и портов самых надежных узлов. Присоединяющиеся к сети узлы DigiByte используют DigiByte Seeder для поиска других узлов для подключения. Узнайте больше здесь: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "es": {
+            "title": "DigiDato #80 - ¿Sabías que...",
+            "content": "Un DigiByte Seeder es un servidor DNS ligero dirigido por algunos voluntarios de confianza de la comunidad DigiByte. Explora continuamente la red DigiByte en busca de nodos y mantiene una lista de las direcciones IP y los puertos de los nodos más fiables. Los nodos DigiByte que se unen a la red utilizan los DigiByte Seeder para encontrar otros nodos a los que conectarse. Obtén más información aquí: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "ko": {
+            "title": "디지팩트 #80 - 혹시 알고 계셨나요...",
+            "content": "DigiByte Seeder는 DigiByte 커뮤니티의 몇몇 신뢰할 수 있는 자원봉사자들이 운영하는 가벼운 DNS 서버입니다. 이 서버는 지속적으로 DigiByte 네트워크를 스캔하여 노드를 찾고 가장 신뢰할 수 있는 노드의 IP 주소 및 포트 목록을 유지합니다. DigiByte 네트워크에 가입하는 DigiByte 노드는 다른 노드를 찾기 위해 DigiByte Seeder를 사용합니다. 여기에서 자세한 내용을 알아보세요: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "ja": {
+            "title": "デジファクト #80 - ご存知でしたか...",
+            "content": "DigiByte Seederは、DigiByteコミュニティから信頼される数人のボランティアによって運営される軽量なDNSサーバーです。このサーバーはDigiByteネットワークを連続的にクロールし、ノードを探し出し、最も信頼性のあるノードのIPアドレスとポートのリストを維持します。DigiByteネットワークに参加するDigiByteノードは、他のノードに接続するためにDigiByte Seederを使用します。詳細はこちらから：https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "de": {
+            "title": "DigiFact #80 - Wussten Sie schon...",
+            "content": "Ein DigiByte Seeder ist ein leichter DNS-Server, der von einigen vertrauenswürdigen Freiwilligen aus der DigiByte-Community betrieben wird. Er durchsucht kontinuierlich das DigiByte-Netzwerk nach Knoten und verwaltet eine Liste der IP-Adressen und Ports der zuverlässigsten. DigiByte-Knoten, die dem Netzwerk beitreten, verwenden die DigiByte Seeder, um andere Knoten zum Verbinden zu finden. Erfahren Sie hier mehr: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "fr": {
+            "title": "DigiFact #80 - Saviez-vous que...",
+            "content": "Un DigiByte Seeder est un serveur DNS léger géré par quelques volontaires de confiance de la communauté DigiByte. Il explore en continu le réseau DigiByte à la recherche de nœuds et maintient une liste des adresses IP et des ports des plus fiables. Les nœuds DigiByte rejoignant le réseau utilisent les DigiByte Seeder pour trouver d'autres nœuds auxquels se connecter. En savoir plus ici : https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "it": {
+            "title": "DigiFact #80 - Lo sapevate...",
+            "content": "Un DigiByte Seeder è un server DNS leggero gestito da alcuni volontari fidati della comunità DigiByte. Esplora continuamente la rete DigiByte alla ricerca di nodi e mantiene una lista degli indirizzi IP e delle porte dei più affidabili. I nodi DigiByte che si uniscono alla rete utilizzano i DigiByte Seeder per trovare altri nodi a cui connettersi. Scopri di più qui: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "hi": {
+            "title": "DigiFact # 80 - क्या आप जानते थे...",
+            "content": "एक \"डिजीबाइट सीडर\" एक हल्का डीएनएस सर्वर है जिसे कुछ भरोसेमंद स्वयंसेवक डिजीबाइट समुदाय के सदस्यों द्वारा संचालित किया जाता है। यह लगातार डिजीबाइट नेटवर्क को खोजने के लिए खोज करता है और सबसे विश्वसनीय वालों के आईपी पतों और पोर्टों की सूची बनाता है और बनाता है। डिजीबाइट नोड्स जोड़ते समय डिजीबाइट सीडर्स का उपयोग अन्य नोड्स से जुड़ने के लिए करते हैं। यहां अधिक जानकारी देखें: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "pt": {
+            "title": "DigiFact # 80 - Você sabia...",
+            "content": "Um \"DigiByte Seeder\" é um servidor DNS leve operado por alguns voluntários confiáveis da comunidade DigiByte. Ele rastreia continuamente a rede DigiByte em busca de nós e mantém uma lista dos endereços IP e portas dos mais confiáveis. Os nós DigiByte que se juntam à rede usam os DigiByte Seeders para encontrar outros nós aos quais se conectar. Saiba mais aqui: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        },
+        "nl": {
+            "title": "DigiFact # 80 - Wist u dat...",
+            "content": "Een \"DigiByte Seeder\" is een lichte DNS-server die wordt beheerd door enkele vertrouwde vrijwilligers uit de DigiByte-gemeenschap. Het doorzoekt voortdurend het DigiByte-netwerk op zoek naar knooppunten en onderhoudt een lijst van de IP-adressen en poorten van de meest betrouwbare knooppunten. DigiByte-knooppunten die zich bij het netwerk aansluiten, gebruiken de DigiByte Seeders om andere knooppunten te vinden waarmee ze kunnen verbinden. Meer informatie hier: https://github.com/DigiByte-Core/digibyte-seeder",
+            "url": "https://github.com/DigiByte-Core/digibyte-seeder"
+        }
     }
-    
-    
-                              
+               
 }
