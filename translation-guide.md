@@ -136,7 +136,7 @@ Then click "Push Origin" to push your change up to Github.
 
 ## Step 8. Make a 'Pull Request' (PR) back to the main DigiFacts repo
 
-Return to your cloned DigiFact repo on the Github website.
+Return to your forked DigiFact repo on the Github website.
 
 Click the 'Contribute' button, and then "Open Pull Request".
 
