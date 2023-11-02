@@ -126,12 +126,25 @@ Save your file when done.
 
 ## Step 7. Push your changes to Github
 
-Using Github Desktop, a description for your change, and click "Commit to Main"
+Using Github Desktop, write a description for your change, and click "Commit to Main"
 
 ![Commit to Main](images/make_commit.png)
 
-Then click "Push Origin" to push your change up to Github
+Then click "Push Origin" to push your change up to Github.
 
 ![Push to Origin](images/push_origin.png)
 
 ## Step 8. Make a 'Pull Request' (PR) back to the main DigiFacts repo
+
+Return to your cloned DigiFact repo on the Github website.
+
+Click the 'Contribute' button, and then "Open Pull Request".
+
+Enter a title (e.g. "Add Swedish translation") and a description if needed.
+
+Click "Create Pull Request" when done.
+
+This will push your changes upstream to the main repo, so they can be merged.
+
+
+
