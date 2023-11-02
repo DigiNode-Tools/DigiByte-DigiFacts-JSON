@@ -7,17 +7,17 @@ This guide will show you how to translate all the DigiFacts into a new language 
 
 This is not the only way to achieve this, but I found this method works well and helps you complete the task relatively quickly.
 
-### Step 1. Fork the GitHub Repo and clone to your local machine
+## Step 1. Fork the GitHub Repo and clone to your local machine
 
 - Go to the [here](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)] and click 'Fork' in the top right.
 - Clone the forked repo to your local machine. You can do this using [GitHub Desktop](https://desktop.github.com/)
 
-### Step 2. Setup Visual Studio Code
+## Step 2. Setup Visual Studio Code
 
 - Install [Visual Studio Code](https://code.visualstudio.com/) if it is not already installed.
 - Install the ['Prettify JSON' extension for VS Code](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json). This will reformat and tidy the DigiFacts JSON file before you make your pull request.
 
-### Step 3. Setup your workspace to do the translation
+## Step 3. Setup your workspace to do the translation
 
 For this task I highly recommend installing the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) extension got Google Chrome. It formats the JSON nicely on the screen and makes it easier to read.
 
@@ -25,7 +25,7 @@ For this task I highly recommend installing the [JSON Formatter](https://chrome.
 - In a second brower window open ChatGPT. You want to use GPT-3.5 as it is much faster for this task.
 - In VS Code, open the digifacts-multilang.json from the repo
 
-### Step 4. Train ChatGPT on how to translate the DigiFacts
+## Step 4. Train ChatGPT on how to translate the DigiFacts
 
 At the GPT-3.5 prompt paste the following:
 
@@ -85,7 +85,7 @@ I want you to translate from English to Swedish. Are you ready to begin?
 ```
 Make sure that ChatGPT has understood your request, providing further instructions if necessary.
 
-### Step 5. Translate the DigiFacts
+## Step 5. Translate the DigiFacts
 
 It is best to tranlate the DigiFacts in batches. For this example, I will do it in batches of three but in practice it should be able to cope with batches of 10 without any problem.
 
@@ -116,7 +116,7 @@ Be sure to add a comma after the precending language. Check the formatting again
 
 Repeat this process with the other DiigFacts, translating additional batches when required. This may seem time consuming but once you find a rhythm you should be able to do the entire batch in an hour or so. Save frequently!
 
-### Step 6. Prettify the finished JSON file
+## Step 6. Prettify the finished JSON file
 
 Make sure you are not missing any commas in your JSON, and that everything is formatted correctly.
 
@@ -124,7 +124,7 @@ Press Shift-Cmd-P (Mac) or Shift-Ctrl-P (Win) to run a command. Search for 'Pret
 
 Save your file when done.
 
-# Step 7. Push your changes to Github
+## Step 7. Push your changes to Github
 
 Using Github Desktop, a description for your change, and click "Commit to Main"
 
@@ -134,4 +134,4 @@ Then click "Push Origin" to push your change up to Github
 
 ![Push to Origin](images/push_origin.png)
 
-# Step 8. Make a 'Pull Request' (PR) back to the main DigiFacts repo
+## Step 8. Make a 'Pull Request' (PR) back to the main DigiFacts repo
