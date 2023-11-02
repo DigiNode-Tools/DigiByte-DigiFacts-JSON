@@ -1,17 +1,17 @@
 # DigiByte DigiFacts - JSON Web Service
 Provides DigiByte DigiFacts in JSON format. Supports multiple languages and dynamic data.
 
-## About the DigiFacts
+## About DigiByte DigiFacts
 
-These DigiFacts were originally created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). Since then, they have been significantly revised and expanded over time.
+The DigiFacts were originally created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). Since then, they have been significantly revised and expanded over time.
 
-These DigiFacts are currently being translated into multiple languages. Please help by making improvements or adding translations for other languages.
+By providing them in JSON format, it is now easy for developers to use them in their projects to help educate their users about DigiByte. They are also now in a format that makes them easy to be updated and expanded in the future.
 
 ## Disclaimer
 
 These DigiFacts are provided by the DigiByte community for the DigiByte community. It is up to the community to ensure they are current and accurate. Please make a PR with any corrections.
 
-Uers should always do their own due diligence before using any of the services or products mentioned in these DigiFacts. They are provided for information purposes - mentions are not endorcements.
+Users should always do their own due diligence before using any of the services or products mentioned in these DigiFacts. They are provided for information purposes - mentions are not endorcements.
 
 ## Usage
 
@@ -21,11 +21,13 @@ For additional languages, use https://digifacts.digibyte.help/?lang=xx (Replace 
 
 For more help, visit: https://digifacts.digibyte.help/?help
 
-**IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - once every 15 minutes should be sufficient. Please avoid making too many frequent requests to the server - cache reults locally and do not update more than once every 15 minutes.**
+**IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - once every 15 minutes should be sufficient. Avoid making too many frequent requests to the server - please cache reults locally and do not update more than once every 15 minutes per language**
 
 ## Contributions
 
-Contributions to this project from the community are actively encouraged. If you notice DigiFacts that are out of date or erroneous, please fork the repo and make a PR.
+Contributions to this project from the community are actively encouraged. If you notice DigiFacts that are out of date or erroneous, please fork the repo and make a PR. You can also create an Issue [here](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON/issues). 
+
+If you are interested in helping translate the DigiFacts into additional languages, I have written a step-by-step Translation Guide for how to do this with help from ChatGPT. Go [here](translation-guide.md) to get started.
 
 If you have a DigiByte project that you wish to make the community aware of, please add a new DigiFact. Be careful to use neutral wording - no marketing or advertisng is permitted, though a single DigiFact to tell the community about your project and what it offers is permitted.
 

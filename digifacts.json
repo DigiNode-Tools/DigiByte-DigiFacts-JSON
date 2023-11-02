@@ -396,7 +396,7 @@
     },
     "digifact80": {
         "title": "DigiFact # 80 - Did you know...",
-        "content": "A \"DigiByte Seeder\" is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addressess and ports of the most reliable ones. DigiByte Nodes joining the network use the DigiByte Seeders to find other nodes to connect to. Learn more here: https://github.com/DigiByte-Core/digibyte-seeder",
+        "content": "A DigiByte Seeder is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addressess and ports of the most reliable ones. DigiByte Nodes joining the network use the DigiByte Seeders to find other nodes to connect to. Learn more here: https://github.com/DigiByte-Core/digibyte-seeder",
         "url": "https://github.com/DigiByte-Core/digibyte-seeder"
     },
     "digifact81": {
@@ -406,8 +406,8 @@
     },
     "digifact82": {
         "title": "DigiFact # 82 - Did you know...",
-        "content": "The DigiByte Wiki is a fantastic resource of information on all things DigiByte, written and maintained by members of the DigiByte community: https://dgbwiki.com/",
-        "url": "https://dgbwiki.com/"
+        "content": "The DigiByte Wiki is a fantastic resource of information on all things DigiByte, written and maintained by members of the DigiByte community: https://wiki.digibyte.org/",
+        "url": "https://wiki.digibyte.org/"
     },
     "digifact83": {
         "title": "DigiFact # 83 - Did you know...",
