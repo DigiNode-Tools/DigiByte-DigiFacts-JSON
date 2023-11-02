@@ -15,7 +15,22 @@ Users should always do their own due diligence before using any of the services 
 
 ## Usage
 
-For DigiFacts in English, use: https://digifacts.digibyte.help/
+The DigiFacts are currently available in 12 languages listed below. It is suggested that developers query these feeds once every 15 mintues.
+
+| Language               | URL                                                  |
+|------------------------|------------------------------------------------------|
+| English                | https://digifacts.digibyte.help/                     |
+| Chinese (Simplified)   | https://digifacts.digibyte.help/lang=zh              |
+| Russian                | https://digifacts.digibyte.help/lang=ru              |
+| Spanish                | https://digifacts.digibyte.help/lang=es              |
+| Korean                 | https://digifacts.digibyte.help/lang=ko              |
+| Japanese               | https://digifacts.digibyte.help/lang=jp              |
+| German                 | https://digifacts.digibyte.help/lang=de              |
+| French                 | https://digifacts.digibyte.help/lang=fr              |
+| Portuguese             | https://digifacts.digibyte.help/lang=pt              |
+| Hindi                  | https://digifacts.digibyte.help/lang=hi              |
+| Dutch                  | https://digifacts.digibyte.help/lang=nl              |
+| Italian                | https://digifacts.digibyte.help/lang=it              |
 
 For additional languages, use https://digifacts.digibyte.help/?lang=xx (Replace xx with one of the two letter language codes below.)
 
@@ -66,8 +81,9 @@ To get started, please fork the repo. Edit digifacts-multilang.json and make a P
 | de German                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | fr French                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | pt Portuguese            |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| hi Hindi.                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| nl Dutch.                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| hi Hindi                 |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| nl Dutch                 |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| it Italian               |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      |
 
 ## Projects
 
