@@ -5132,6 +5132,11 @@
         }
     },
     "digifact84": {
+        "en": {
+            "title": "DigiFact # 84 - Did you know...",
+            "content": "For developers, DigiByte JS is a pure and powerful Javascript DigiByte library forked from Bitpay's Bitcore Lib library. Find it here: https://github.com/RenzoDD/digibyte-js",
+            "url": "https://github.com/RenzoDD/digibyte-js"
+        },
         "zh": {
             "title": "DigiFact # 84 - 你知道吗...",
             "content": "对于开发者来说，DigiByte JS 是一个纯粹而强大的Javascript DigiByte库，派生自Bitpay的Bitcore Lib库。在这里找到它：https://github.com/RenzoDD/digibyte-js",
@@ -5189,6 +5194,11 @@
         }
     },
     "digifact85": {
+        "en": {
+            "title": "DigiFact # 85 - Did you know...",
+            "content": "DigiAssets are a secure, scalable second-layer built on top of the DigiByte Blockchain that allows for the decentralized issuance of digital assets (NFTs), tokens, smart contracts, digital identity and more.",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
         "zh": {
             "title": "DigiFact # 85 - 你知道吗...",
             "content": "DigiAssets是建立在DigiByte区块链之上的安全、可扩展的第二层，允许去中心化发行数字资产（NFTs）、代币、智能合约、数字身份等。",
@@ -5246,6 +5256,11 @@
         }
     },
     "digifact86": {
+        "en": {
+            "title": "DigiFact # 86 - Did you know...",
+            "content": "DigiAsset Core, currently under active development, is the most recent implementation of the DigiAsset protocol. Spearheaded by community member Matthew Cornelisse, it runs alongside a DigiByte Core node and helps decentralize DigiAssets and their metadata. It is important to stress the DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project. Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
         "zh": {
             "title": "DigiFact # 86 - 你知道吗...",
             "content": "DigiAsset Core目前正在积极开发中，是DigiAsset协议的最新实现。由社区成员Matthew Cornelisse领导，它与DigiByte Core节点一起运行，有助于分散化DigiAssets及其元数据。需要强调的是，DigiAsset Core不是DigiByte Core的一部分，它是一个独立但互补的社区驱动项目。在这里找到它：https://github.com/DigiAsset-Core/DigiAsset_Core",
@@ -5303,6 +5318,11 @@
         }
     },
     "digifact87": {
+        "en": {
+            "title": "DigiFact # 87 - Did you know...",
+            "content": "The DigiAsset Explorer, created by DigiByte community member Renzo Diaz, makes it easy to lookup information about DigiAsset transactions. Find it here: https://digiassets.info/",
+            "url": "https://digiassets.info/"
+        },
         "zh": {
             "title": "DigiFact # 87 - 你知道吗...",
             "content": "DigiByte社区成员Renzo Diaz创建的DigiAsset Explorer使查找有关DigiAsset交易的信息变得简单。在此处查找：https://digiassets.info/",
@@ -5357,6 +5377,68 @@
             "title": "DigiFact # 87 - Wist je dat...",
             "content": "De DigiAsset Explorer, gemaakt door Renzo Diaz, een lid van de DigiByte-community, maakt het gemakkelijk om informatie over DigiAsset-transacties op te zoeken. Je vindt het hier: https://digiassets.info/",
             "url": "https://digiassets.info/"
+        }
+    },
+    "digifact88": {
+        "en": {
+            "title": "DigiFact # 88 - Did you know...",
+            "content": "There are currently $nodes_mn_total mainnet nodes and $nodes_tn_total testnet nodes running on the DigiByte blockchain.",
+            "url": ""
+        },
+        "zh": {
+            "title": "DigiFact # 88 - 你知道吗...",
+            "content": "目前有 $nodes_mn_total 个主网节点和 $nodes_tn_total 个测试网节点在DigiByte区块链上运行。",
+            "url": ""
+        },
+        "ru": {
+            "title": "DigiFact # 88 - Знаете ли вы...",
+            "content": "В настоящее время на блокчейне DigiByte работает $nodes_mn_total узлов основной сети и $nodes_tn_total узлов тестовой сети.",
+            "url": ""
+        },
+        "es": {
+            "title": "DigiFact # 88 - ¿Sabías que...",
+            "content": "Actualmente, hay $nodes_mn_total nodos de red principal y $nodes_tn_total nodos de red de prueba en funcionamiento en la cadena de bloques de DigiByte.",
+            "url": ""
+        },
+        "ko": {
+            "title": "DigiFact # 88 - 알고 계셨나요...",
+            "content": "현재 DigiByte 블록체인에서 $nodes_mn_total 개의 메인넷 노드와 $nodes_tn_total 개의 테스트넷 노드가 작동 중입니다.",
+            "url": ""
+        },
+        "ja": {
+            "title": "DigiFact # 88 - ご存知ですか...",
+            "content": "現在、DigiByte ブロックチェーン上で $nodes_mn_total 個のメインネットワークノードと $nodes_tn_total 個のテストネットワークノードが稼働しています。",
+            "url": ""
+        },
+        "de": {
+            "title": "DigiFact # 88 - Wussten Sie schon...",
+            "content": "Auf der DigiByte-Blockchain laufen derzeit $nodes_mn_total Mainnet-Knoten und $nodes_tn_total Testnet-Knoten.",
+            "url": ""
+        },
+        "fr": {
+            "title": "DigiFact # 88 - Saviez-vous que...",
+            "content": "Il y a actuellement $nodes_mn_total nœuds du réseau principal et $nodes_tn_total nœuds du réseau de test en cours d'exécution sur la blockchain de DigiByte.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 88 - Lo sapevi che...",
+            "content": "Attualmente ci sono $nodes_mn_total nodi di rete principale e $nodes_tn_total nodi di rete di test in esecuzione sulla blockchain di DigiByte.",
+            "url": ""
+        },
+        "hi": {
+            "title": "DigiFact # 88 - क्या आप जानते हैं...",
+            "content": "वर्तमान में DigiByte ब्लॉकचेन पर $nodes_mn_total मुख्य नोड्स और $nodes_tn_total परीक्षण नेटवर्क नोड्स कार्यरत हैं।",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFact # 88 - Você sabia...",
+            "content": "Atualmente, existem $nodes_mn_total nós da rede principal e $nodes_tn_total nós da rede de teste em execução na blockchain da DigiByte.",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFact # 88 - Wist je dat...",
+            "content": "Op dit moment zijn er $nodes_mn_total mainnet-knooppunten en $nodes_tn_total testnet-knooppunten actief op het DigiByte-blockchain.",
+            "url": ""
         }
     }
 }
