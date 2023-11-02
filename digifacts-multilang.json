@@ -54,6 +54,11 @@
             "title": "DigiFeit # 1 - Wist u dat...",
             "content": "De DigiByte blockchain is gelanceerd in 2014. Dankzij de bloktijd van 15 seconden is het de langste UTXO blockchain die er bestaat, met meer dan $blocks_tot_mil miljoen blokken. Bitcoin zal tot de 22e eeuw nodig hebben om dat aantal blokken te bereiken.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 1 - Lo sapevi...",
+            "content": "La blockchain di DigiByte è stata lanciata nel 2014. Grazie al suo tempo di blocco di 15 secondi, è la blockchain UTXO più lunga esistente con oltre 18 milioni di blocchi. Bitcoin impiegherà fino al 22° secolo per raggiungere così tanti blocchi.",
+            "url": ""
         }
     },
     "digifact2": {
@@ -110,6 +115,11 @@
         "nl": {
             "title": "DigiFeit # 2 - Wist u dat...",
             "content": "DigiByte heeft het netwerk meerdere malen geüpgraded om 'Verbeteringsmijlpalen' op te nemen. Deze hard forks waren geen controversiële splitsingen die extra munten genereerden, maar eerder een 'heroriëntatie van het schip' waarmee de DigiByte-gemeenschap aan boord was. Leer meer: https://rb.gy/egrt5",
+            "url": "https://rb.gy/egrt5"
+        },
+        "it": {
+            "title": "DigiFact # 2 - Lo sapevi...",
+            "content": "DigiByte ha aggiornato la rete diverse volte per includere 'Pietre miliari di miglioramento'. Queste hard fork non sono state divisioni controverse che hanno generato monete aggiuntive, ma piuttosto una 'riorientazione della nave' alla quale la comunità di DigiByte ha aderito. Scopri di più: https://rb.gy/egrt5",
             "url": "https://rb.gy/egrt5"
         }
     },
@@ -168,6 +178,11 @@
             "title": "DigiFeit #3 - Wist u dat...",
             "content": "De DigiByte blockchain is eerlijk gelanceerd in 2014, lang voor de rage van Initial Coin Offerings (ICO) van whitepaper projecten in 2017. DigiByte begon met een volledig functionerende blockchain die sindsdien consequent is verbeterd.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 3 - Lo sapevi...",
+            "content": "La blockchain di DigiByte è stata lanciata in modo equo nel 2014, molto prima della febbre delle Initial Coin Offering (ICO) del 2017 dei progetti whitepaper. DigiByte è iniziato con una blockchain perfettamente funzionante che è stata costantemente migliorata da allora.",
+            "url": ""
         }
     },
     "digifact4": {
@@ -219,6 +234,11 @@
         "hi": {
             "title": "डिजीफैक्ट #4 - क्या आप जानते थे...",
             "content": "जब DigiByte 2014 में लॉन्च हुआ था, तो बहुत कम DigiByte प्री-माइन (0.5%) को पहले 30 दिनों में समुदाय के सदस्यों को दिया गया था, और विवरण BitcoinTalk पर देखा जा सकता है। यह लोगों को प्रोत्साहित करने के लिए किया गया था कि वे पूरा नोड डाउनलोड करें और चलाएं, जिससे ब्लॉकचेन का वितरण में मदद मिले। प्री-माइन में से कोई भी हिस्सा संस्थापक या डेवलपर्स द्वारा नहीं रखा गया था।",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 4 - Lo sapevi...",
+            "content": "Quando DigiByte è stato lanciato nel 2014, è stato donato un piccolo pre-mining di DigiByte (0,5%) ai membri della comunità entro i primi 30 giorni, e i dettagli possono essere visti su BitcoinTalk. Questo è stato fatto per incentivare le persone a scaricare e gestire un nodo completo per distribuire la blockchain. Nessuna parte del pre-mining è stata trattenuta dal fondatore o dagli sviluppatori.",
             "url": ""
         }
     },
@@ -277,6 +297,11 @@
             "title": "DigiFeit #5 - Wist u dat...",
             "content": "Er is geen oprichtersbeloning bij de DigiByte blockchain. De beloning voor het mijnen van elk blok gaat alleen naar degene die het gemijnd heeft. Niemand anders krijgt daar een deel van.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 5 - Lo sapevi...",
+            "content": "Non esiste un reward per i fondatori con la blockchain di DigiByte. La ricompensa per il mining di ciascun blocco va solo a chi lo ha estratto. Nessuna parte va a nessun altro.",
+            "url": ""
         }
     },
     "digifact6": {
@@ -333,6 +358,11 @@
         "nl": {
             "title": "DigiFeit #6 - Wist u dat...",
             "content": "De oprichter van DigiByte en de ontwikkelaars hebben hun DGB-munten gekocht op een beurs tegen markttarieven, of hebben ze gemijnd, net als iedereen. Er was geen ICO (Initial Coin Offering) voor de DigiByte blockchain. Elke munt is eerlijk gemijnd sinds het genesisblok.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 6 - Lo sapevi...",
+            "content": "Il fondatore e gli sviluppatori di DigiByte hanno o acquistato le proprie monete DGB su un exchange a prezzi di mercato o le hanno estratte, proprio come tutti gli altri. Non c'è stata un'Initial Coin Offering (ICO) per la blockchain di DigiByte. Ogni moneta è stata estratta equamente fin dal blocco genesi.",
             "url": ""
         }
     },
@@ -391,6 +421,11 @@
             "title": "DigiFeit #7 - Wist u dat...",
             "content": "Transactiekosten op de DigiByte blockchain zijn doorgaans ongelooflijk laag. In blok 7658349 heeft een gebruiker 342.000.000 DGB (op dat moment $6 miljoen USD waard) verstuurd vanuit de inputs van meer dan 200 verschillende adressen. Het kostte 1/10 van een cent (USD) aan kosten en duurde slechts een minuut of twee om te bevestigen.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 7 - Lo sapevi...",
+            "content": "Le commissioni di transazione sulla blockchain di DigiByte sono tipicamente incredibilmente basse. Nel Blocco 7658349, un utente ha inviato 342.000.000 DGB (valore di $6 milioni USD al momento) provenienti da più di 200 indirizzi diversi. Le spese sono state di un decimo di centesimo (USD) e hanno impiegato solo uno o due minuti per confermare.",
+            "url": ""
         }
     },
     "digifact8": {
@@ -447,6 +482,11 @@
         "nl": {
             "title": "DigiFeit #8 - Wist u dat...",
             "content": "DigiByte was de pionier van de DigiShield moeilijkheidsgraad aanpassing. Het wordt gebruikt in Dogecoin, Ubiq, ZCash, Monacoin en delen van de code worden zelfs gebruikt in Ethereum. Wat is DigiShield (ook bekend als MultiShield)? Leer hier meer: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "it": {
+            "title": "DigiFact # 8 - Lo sapevi...",
+            "content": "DigiByte ha introdotto l'adattamento di difficoltà DigiShield. È utilizzato in Dogecoin, Ubiq, ZCash, Monacoin e parti del codice sono persino utilizzate in Ethereum. Cosa è DigiShield (alias MultiShield)? Scopri di più qui: https://j.mp/3oivy5u",
             "url": "https://j.mp/3oivy5u"
         }
     },
@@ -505,6 +545,11 @@
             "title": "DigiFeit #9 - Wist u dat...",
             "content": "DigiByte was de eerste niet-Bitcoin blockchain die in 2018 de belangrijke inflatiebug heeft opgelost. Snelle respons van onze fantastische ontwikkelaars!",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 9 - Lo sapevi...",
+            "content": "DigiByte è stata la prima blockchain non Bitcoin a correggere il grave bug dell'inflazione nel 2018. Rapida risposta dai nostri sviluppatori rock-star!",
+            "url": ""
         }
     },
     "digifact10": {
@@ -561,6 +606,11 @@
         "nl": {
             "title": "DigiFeit #10 - Wist u dat...",
             "content": "Het 'Genesis Block' van DigiByte bevatte de volgende kop: 'USA Today: 10/Jan/2014, Doelwit: Gegevens gestolen van maximaal 110M klanten.' Dit heeft de focus van DigiByte op cyberbeveiliging voor altijd versterkt.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 10 - Lo sapevi...",
+            "content": "Il 'Blocco Genesi' di DigiByte conteneva il seguente titolo: 'USA Today: 10/Gen/2014, Target: Dati rubati da fino a 110 milioni di clienti.' Questo ha per sempre cementato l'attenzione di DigiByte sulla sicurezza informatica.",
             "url": ""
         }
     },
@@ -619,6 +669,11 @@
             "title": "DigiFeit #11 - Wist u dat...",
             "content": "DigiByte was de eerste munt die overstapte van een enkelvoudig miningalgoritme naar MultiAlgo, voor de extra beveiliging die wordt geboden door het hebben van 5 algoritmen. Deze upgrade vond plaats eind 2014 als de 'MultiAlgo' netwerkupgrade. Wat is MultiAlgo? Leer hier meer: https://j.mp/3oivy5u",
             "url": "https://j.mp/3oivy5u"
+        },
+        "it": {
+            "title": "DigiFact # 11 - Lo sapevi...",
+            "content": "DigiByte è stata la prima moneta a passare da un singolo algoritmo di estrazione a MultiAlgo, per la sicurezza aggiuntiva fornita da 5 algoritmi. Questo aggiornamento è avvenuto alla fine del 2014 come aggiornamento di rete 'MultiAlgo'. Cos'è MultiAlgo? Scopri di più qui: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         }
     },
     "digifact12": {
@@ -675,6 +730,11 @@
         "nl": {
             "title": "DigiFeit #12 - Wist u dat...",
             "content": "Aanvankelijk gebruikte DigiByte alleen het Scrypt-algoritme voor mining. In september 2014 schakelde het netwerk over op MultiAlgo, waarbij gebruik werd gemaakt van Scrypt, SHA256, Skein, Qubit & Myriad-Groestl. Dit verbeterde de decentralisatie enorm door een breder scala aan mininghardware toe te staan.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 12 - Lo sapevi...",
+            "content": "Inizialmente DigiByte utilizzava solo l'algoritmo Scrypt per l'estrazione. Nel settembre 2014, la rete è stata aggiornata a MultiAlgo, utilizzando Scrypt, SHA256, Skein, Qubit e Myriad-Groestl. Questo ha migliorato notevolmente la decentralizzazione consentendo l'uso di una maggiore varietà di hardware di estrazione.",
             "url": ""
         }
     },
@@ -733,6 +793,11 @@
             "title": "DigiFeit #13 - Wist u dat...",
             "content": "In 2019 heeft DigiByte het netwerk geüpgraded door het Myriad-Groestl-algoritme te vervangen door Odocrypt, een algoritme ontworpen om ASIC-bestendig te zijn door zich te richten op mining met FPGA-hardware. Echter, zoals met de meeste ASIC-resistente algoritmen, zullen uiteindelijk ASIC's worden ontwikkeld voor deze algoritmen als de financiële prikkels aanwezig zijn, zoals het geval is met Odocrypt.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 13 - Lo sapevi...",
+            "content": "Nel 2019, DigiByte ha aggiornato la rete, sostituendo l'algoritmo Myriad-Groestl con Odocrypt, un algoritmo progettato per resistere agli ASIC mirando all'estrazione con hardware FPGA. Tuttavia, con la maggior parte degli algoritmi resistenti agli ASIC, se ci sono incentivi finanziari, alla fine saranno sviluppati ASIC per questi algoritmi, come nel caso di Odocrypt.",
+            "url": ""
         }
     },
     "digifact14": {
@@ -789,6 +854,11 @@
         "nl": {
             "title": "DigiFeit #14 - Wist u dat...",
             "content": "In 2018 heeft de DigiByte-gemeenschap genoeg fondsen geworven om Venezolaanse vluchtelingen die de grens overstaken te voorzien van meer dan duizend flessen water, 160 weeskinderen een maand lang te voeden, essentieel onderhoud voor een ziekenhuis te bieden, een schoolkeuken in Adicora op te knappen, en meerdere gratis gemeenschapslunches voor honderden mensen te organiseren.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 14 - Lo sapevi...",
+            "content": "Nel 2018, la comunità di DigiByte ha raccolto abbastanza fondi per fornire rifugiati venezuelani che attraversavano il confine con oltre mille bottiglie d'acqua, alimentare 160 bambini orfani per un mese, fornire manutenzione essenziale a un ospedale, ristrutturare una cucina scolastica ad Adicora e organizzare diversi pranzi comunitari gratuiti per centinaia di persone.",
             "url": ""
         }
     },
@@ -847,6 +917,11 @@
             "title": "DigiFeit #15 - Wist u dat...",
             "content": "DigiByte is geen ICO of een token gelanceerd op een ander netwerk, maar een puur blockchainproject met eigen consensusregels zoals Bitcoin of Vertcoin.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 15 - Lo sapevi...",
+            "content": "DigiByte non è un ICO o un token lanciato su un'altra rete, ma piuttosto un progetto di blockchain puro con le sue stesse regole di consenso come Bitcoin o Vertcoin.",
+            "url": ""
         }
     },
     "digifact16": {
@@ -903,6 +978,11 @@
         "nl": {
             "title": "DigiFeit #16 - Wist u dat...",
             "content": "Voor algemene ondersteuning van DigiByte is een goed startpunt het community-ondersteuningstool hier beschikbaar: https://dgbsupport.digiassetx.com/",
+            "url": "https://dgbsupport.digiassetx.com/"
+        },
+        "it": {
+            "title": "DigiFact # 16 - Lo sapevi...",
+            "content": "Per il supporto generale di DigiByte, un buon punto di partenza è lo strumento di supporto della comunità disponibile qui: https://dgbsupport.digiassetx.com/",
             "url": "https://dgbsupport.digiassetx.com/"
         }
     },
@@ -961,6 +1041,11 @@
             "title": "DigiFeit #17 - Wist u dat...",
             "content": "DigiByte kan worden gebruikt om kleine hoeveelheden (80 bytes) aan gegevens op te slaan samen met een transactie bekend als OP_RETURN. Dit is handig voor document hashes voor notarisatie/validatie, dApps, scripting en meer.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 17 - Lo sapevi...",
+            "content": "DigiByte può essere utilizzato per archiviare piccole quantità (80 byte) di dati insieme a una transazione nota come OP_RETURN. Questo è utile per hash di documenti per notarizzazione/validazione, dApps, scripting e altro ancora.",
+            "url": ""
         }
     },
     "digifact18": {
@@ -1017,6 +1102,11 @@
         "nl": {
             "title": "DigiFeit #18 - Wist u dat...",
             "content": "U kunt elke transactie op de DigiByte Blockchain opzoeken door een transactie-ID, DigiByte-adres of bloknummer in te voeren in een 'Blockchain Explorer'. De gemeenschap onderhoudt zo'n verkenner die u hier kunt gebruiken: https://digiexplorer.info.",
+            "url": "https://digiexplorer.info"
+        },
+        "it": {
+            "title": "DigiFact # 18 - Lo sapevi...",
+            "content": "Puoi cercare qualsiasi transazione sulla blockchain di DigiByte inserendo un ID di transazione, un indirizzo DigiByte o un numero di blocco in un 'Blockchain Explorer'. La comunità ne mantiene uno che puoi utilizzare qui: https://digiexplorer.info.",
             "url": "https://digiexplorer.info"
         }
     },
@@ -1075,6 +1165,11 @@
             "title": "DigiFeit #19 - Wist u dat...",
             "content": "Wilde je ooit je eigen DigiExplorer uitvoeren? Of andere gegevens uit de blockchain halen om te integreren met je bedrijf? Er zijn handige gidsen die je hierbij kunnen helpen: https://dgbwiki.com",
             "url": "https://dgbwiki.com"
+        },
+        "it": {
+            "title": "DigiFact # 19 - Lo sapevi...",
+            "content": "Hai mai desiderato gestire il tuo DigiExplorer? O ottenere altri dati dalla blockchain in modo da poterli integrare con la tua azienda? Ci sono utili guide che ti aiuteranno qui: https://dgbwiki.com",
+            "url": "https://dgbwiki.com"
         }
     },
     "digifact20": {
@@ -1131,6 +1226,11 @@
         "nl": {
             "title": "DigiFeit #20 - Wist u dat...",
             "content": "De naam 'DigiByte' werd oorspronkelijk gekozen omdat het een 'Digitale Byte' van gegevens betekent. Dit komt omdat blockchain-technologie zoals DigiByte voor veel meer gebruikt kan worden dan alleen als een 'munt', zoals zilver of goud. DigiByte is ongelooflijk veelzijdig.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 20 - Lo sapevi...",
+            "content": "Il nome 'DigiByte' è stato originariamente scelto perché significa un 'byte digitale' di dati. Questo perché la tecnologia blockchain come DigiByte può essere utilizzata per molto di più rispetto a una 'moneta' come l'argento o l'oro. DigiByte è incredibilmente versatile.",
             "url": ""
         }
     },
@@ -1189,6 +1289,11 @@
             "title": "DigiFeit #21 - Wist u dat...",
             "content": "Een kopie van de open source code van de DigiByte blockchain v7.17.3 ligt in koude opslag 250 meter diep in de permafrost van een Arctische berg! Dankzij het GitHub Arctic Code Vault programma!",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 21 - Lo sapevi...",
+            "content": "Una copia del codice sorgente open source della blockchain DigiByte v7.17.3 è conservata in uno storage a freddo a 250 metri di profondità nel permafrost di una montagna artica! Grazie al programma GitHub Arctic Code Vault!",
+            "url": ""
         }
     },
     "digifact22": {
@@ -1245,6 +1350,11 @@
         "nl": {
             "title": "DigiFeit #22 - Wist u dat...",
             "content": "DigiByte is beschikbaar op meer dan 100 beurzen, inclusief vele verschillende fiat koppelingen met lokale valuta's, waardoor het makkelijker dan ooit is om DigiByte te kopen.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 22 - Lo sapevi...",
+            "content": "DigiByte è disponibile su oltre 100 exchange, tra cui molte coppie fiat diverse con valute locali, rendendolo più facile che mai acquistare DigiByte.",
             "url": ""
         }
     },
@@ -1303,6 +1413,11 @@
             "title": "DigiFeit #23 - Wist u dat...",
             "content": "DigiByte is opgericht door Jared Tate in 2013 en het Genesis-blok werd gedolven op 10 januari 2014. Hoewel Jared een actief lid blijft van de DigiByte-gemeenschap en een van de kernontwikkelaars is, dicteert hij niet de richting van het project. DigiByte heeft geen baas - het wordt volledig gerund en beheerd door een wereldwijde gemeenschap van toegewijde vrijwilligers.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 23 - Lo sapevi...",
+            "content": "DigiByte è stato fondato da Jared Tate nel 2013 e il blocco Genesis è stato estratto il 10 gennaio 2014. Sebbene Jared rimanga un membro attivo della comunità di DigiByte e sia uno degli sviluppatori principali, non detta la direzione del progetto. DigiByte non ha un capo: è interamente gestito da una comunità globale di volontari dedicati.",
+            "url": ""
         }
     },
     "digifact24": {
@@ -1359,6 +1474,11 @@
         "nl": {
             "title": "DigiFeit #24 - Wist u dat...",
             "content": "DigiByte kan slimme contracten doen dankzij de 'script' taal. Je kunt een heleboel krachtige tools draaien bovenop DigiByte om een dApp aan te drijven.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 24 - Lo sapevi...",
+            "content": "DigiByte può gestire contratti intelligenti grazie al suo linguaggio \"script\". Puoi eseguire un'ampia gamma di potenti strumenti su DigiByte per alimentare un dApp.",
             "url": ""
         }
     },
@@ -1417,6 +1537,11 @@
             "title": "DigiFeit #25 - Wist u dat...",
             "content": "De officiële DigiByte Core portemonnee is beschikbaar voor Windows, MacOS en Linux, evenals voor laag vermogen enkel-board computers zoals de Raspberry Pi. DigiByte wordt ondersteund op mobiel door een aantal derde partij portemonnees, zoals Coinomi en SecuX. Het is ook beschikbaar op veel hardware portemonnees, zoals Ledger en Trezor. Let op dat niet al deze portemonnees Digi-ID en DigiAssets ondersteunen.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 25 - Lo sapevi...",
+            "content": "Il portafoglio ufficiale DigiByte Core è disponibile per Windows, MacOS e Linux, così come per computer a scheda singola a bassa potenza come il Raspberry Pi. DigiByte è supportato su dispositivi mobili da diversi portafogli di terze parti, come Coinomi e Securus. È anche disponibile su molti portafogli hardware, come Ledger e Trezor. Tieni presente che non tutti questi portafogli supportano anche Digi-ID e DigiAssets.",
+            "url": ""
         }
     },
     "digifact26": {
@@ -1473,6 +1598,11 @@
         "nl": {
             "title": "DigiFeit #26 - Wist u dat...",
             "content": "Digi-ID van DigiByte is een van de eenvoudigste maar meest veilige authenticatiemethoden ter wereld. Zelfs Google waarschuwt tegen het gebruik van hun eigen op tijd gebaseerde 2FA-codes of SMS-2FA, maar Digi-ID overkomt alle tekortkomingen. Digi-ID is open source, gratis, advertentievrij (voor altijd), privé en veilig. Om meer te weten te bezoeken: https://www.digi-id.io/",
+            "url": "https://www.digi-id.io/"
+        },
+        "it": {
+            "title": "DigiFact # 26 - Lo sapevi...",
+            "content": "Digi-ID di DigiByte è uno dei metodi di autenticazione più semplici ma sicuri al mondo. Anche Google mette in guardia dall'uso dei loro stessi codici 2FA basati sul tempo o SMS-2FA, ma Digi-ID supera tutte le carenze. Digi-ID è open source, gratuito, senza pubblicità (per sempre), privato e sicuro. Per saperne di più visita: https://www.digi-id.io/",
             "url": "https://www.digi-id.io/"
         }
     },
@@ -1531,6 +1661,11 @@
             "title": "DigiFeit #27 - Wist u dat...",
             "content": "De ontwikkeling van DigiByte wordt gedaan door een wereldwijd team van vrijwilligers, die allen hun tijd doneren uit passie voor het project. Er is geen centraal bedrijf dat mensen in dienst neemt en betaalt, alles wordt vrijwillig gegeven door onze ongelooflijke ontwikkelaars en ondersteunende gemeenschap.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 27 - Lo sapevi...",
+            "content": "Lo sviluppo di DigiByte è realizzato da un team globale di volontari, che donano tutti il loro tempo per passione per il progetto. Non c'è un'azienda centrale che impieghi e paghi le persone, tutto è dato gratuitamente dai nostri incredibili sviluppatori e dalla comunità di supporto.",
+            "url": ""
         }
     },
     "digifact28": {
@@ -1587,6 +1722,11 @@
         "nl": {
             "title": "DigiFeit #28 - Wist u dat...",
             "content": "De laatste DigiByte zal tegen het jaar 2035 worden gemijnd. Er is minder dan de helft van alle resterende DGB die wachten om door iemand in de wereld te worden gemijnd. Deze zijn niet 'eigendom' van iemand, in tegenstelling tot een ICO, en zullen nieuw 'geslagen' worden.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 28 - Lo sapevi...",
+            "content": "L'ultimo DigiByte sarà estratto entro il 2035. C'è meno della metà di tutti i $DGB rimanenti da estrarre in tutto il mondo. Questi non sono 'posseduti' da nessuno, a differenza di un ICO, e saranno nuovamente 'coniati'.",
             "url": ""
         }
     },
@@ -1645,6 +1785,11 @@
             "title": "DigiFeit #29 - Wist u dat...",
             "content": "DigiByte kan sinds de implementatie van SegWit in het begin van 2017 veilig en zeker worden gebruikt voor Atomic Swaps met andere blockchains. Hiervoor is geen tweede netwerklaag nodig en dit kan in plaats daarvan rechtstreeks worden gedaan.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 29 - Lo sapevi...",
+            "content": "DigiByte può essere utilizzato per Atomic Swaps con altre blockchain in modo sicuro e protetto fin dall'implementazione di SegWit all'inizio del 2017. Non c'è bisogno di una rete di secondo livello per eseguire questa operazione, ma può essere fatta direttamente.",
+            "url": ""
         }
     },
     "digifact30": {
@@ -1701,6 +1846,11 @@
         "nl": {
             "title": "DigiFeit #30 - Wist u dat...",
             "content": "Wanneer alle DigiByte zijn gedolven, zal het netwerk blijven functioneren met de mijnwerkers die het netwerk delven / beveiligen zoals ze nu doen. Ze zullen alleen de transactiekosten ontvangen voor het verzenden van DGB.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 30 - Lo sapevi...",
+            "content": "Quando tutti i DigiByte saranno stati minati, la rete continuerà a funzionare con i minatori che mineranno / proteggeranno la rete come fanno attualmente. Riceveranno solo le commissioni di transazione per l'invio di $DGB.",
             "url": ""
         }
     },
@@ -1759,6 +1909,11 @@
             "title": "DigiFeit #31 - Wist u dat...",
             "content": "Als u ooit problemen heeft om uw DigiByte uit een portemonnee te halen, kunt u de fondsen naar een nieuwe portemonnee vegen met de DigiSweep-tool gemaakt door Matthew Cornelisse van DigiAssetX. Het is gemakkelijk te gebruiken en open-source. Vind het hier: https://digisweep.digiassetx.com/",
             "url": "https://digisweep.digiassetx.com/"
+        },
+        "it": {
+            "title": "DigiFact # 31 - Lo sapevi...",
+            "content": "Se hai mai problemi a recuperare i tuoi DigiByte da un portafoglio, puoi spostare i fondi in un nuovo portafoglio utilizzando lo strumento DigiSweep creato da Matthew Cornelisse di DigiAssetX. È facile da usare e open source. Trovalo qui: https://digisweep.digiassetx.com/:",
+            "url": "https://digisweep.digiassetx.com/"
         }
     },
     "digifact32": {
@@ -1815,6 +1970,11 @@
         "nl": {
             "title": "DigiFeit #32 - Wist u dat...",
             "content": "Toen DigiByte werd gelanceerd, was er een aftelling naar de vrijgave van de code en naar het mijnen van het eerste blok. Dit was een van de dingen die gedaan werden om een ​​\"eerlijke\" distributie te bevorderen, vanaf het allereerste begin in 2014.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 32 - Lo sapevi...",
+            "content": "Quando DigiByte è stato lanciato, c'era un conto alla rovescia per il rilascio del codice e per il primo blocco minato. Questo è stato fatto per incoraggiare una distribuzione 'equa', fin dall'inizio nel 2014.",
             "url": ""
         }
     },
@@ -1873,6 +2033,11 @@
             "title": "DigiFeit #33 - Wist u dat...",
             "content": "DigiByte was oorspronkelijk gebaseerd op een fork van de Litecoin codebasis (hoewel het een 100% onafhankelijke blockchain is met een uniek Genesis Block). DigiByte heeft sindsdien functies behouden die dichter bij Bitcoin liggen, terwijl het ook aanzienlijk innoveert en het overtreft! Bekijk de code op: https://github.com/digibyte-core/digibyte/",
             "url": "https://github.com/digibyte-core/digibyte/"
+        },
+        "it": {
+            "title": "DigiFact # 33 - Lo sapevi...",
+            "content": "In origine, DigiByte si basava su un fork del codice sorgente di Litecoin (anche se si tratta di una blockchain completamente indipendente con un blocco Genesis unico). DigiByte ha successivamente mantenuto caratteristiche più simili a Bitcoin, innovando e superandolo significativamente! Visualizza il codice su: https://github.com/digibyte-core/digibyte/",
+            "url": "https://github.com/digibyte-core/digibyte/"
         }
     },
     "digifact34": {
@@ -1929,6 +2094,11 @@
         "nl": {
             "title": "DigiFeit #34 - Wist u dat...",
             "content": "Iedereen kan tweede laag netwerken bouwen bovenop de DigiByte Blockchain, zoals DigiAssets, Lightning Networks, ICO's, Tokens, activa en meer.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 34 - Lo sapevi...",
+            "content": "Chiunque può creare reti di secondo livello sulla blockchain DigiByte, come DigiAssets, Lightning Networks, ICO, token, asset e altro ancora.",
             "url": ""
         }
     },
@@ -1987,6 +2157,11 @@
             "title": "DigiFeit #35 - Wist u dat...",
             "content": "Er is een verbijsterend aantal mogelijke DigiByte-adressen. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). Dit is een quindeciljoen. Het is zo groot dat je willekeurig biljoenen adressen per seconde zou kunnen genereren en nooit twee keer dezelfde zou genereren.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 35 - Lo sapevi...",
+            "content": "Ci sono un numero impressionante di possibili indirizzi DigiByte. 1.461.501.637.330.902.918.203.684.832.716.283.019.655.932.542.976 (2¹⁶⁰). Questo è un quindecilione. È così grande che potresti generarne casualmente trilioni al secondo e non generare mai lo stesso di qualcun altro.",
+            "url": ""
         }
     },
     "digifact36": {
@@ -2043,6 +2218,11 @@
         "nl": {
             "title": "DigiFeit #36 - Wist u dat...",
             "content": "U kunt DigiByte in retailscenario's accepteren door gewoon het gewenste bedrag in uw portemonnee in te voeren. De QR-code zal automatisch uw adres en het bedrag bevatten wanneer de afzender deze scant. Super eenvoudig, rechtstreeks vanuit uw portemonnee.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 36 - Lo sapevi...",
+            "content": "Puoi accettare DigiByte in scenari di vendita al dettaglio semplicemente inserendo l'importo desiderato nel tuo portafoglio. Il codice QR includerà automaticamente il tuo indirizzo e l'importo quando il mittente lo scannerà. Super semplice, direttamente dal tuo portafoglio.",
             "url": ""
         }
     },
@@ -2101,6 +2281,11 @@
             "title": "DigiFeit #37 - Wist u dat...",
             "content": "De DigiByte Core wallet maakt verbinding met een verscheidenheid aan peers, niet alleen de 'dichtstbijzijnde' of 'snelste'. Het vindt verbindingen over de hele wereld om u een breed consensus over de DigiByte blockchain te verzekeren en beschermt u tegen sybil-aanvallen.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 37 - Lo sapevi...",
+            "content": "Il portafoglio DigiByte Core si collega a una varietà di peer, non solo al 'più vicino' o al 'più veloce'. Trova connessioni da tutto il mondo, per garantire un ampio consenso sulla blockchain DigiByte e proteggerti dagli attacchi Sybil.",
+            "url": ""
         }
     },
     "digifact38": {
@@ -2157,6 +2342,11 @@
         "nl": {
             "title": "DigiFeit #38 - Wist u dat...",
             "content": "DigiByte heeft in 2015 het DigiSpeed-protocol geïmplementeerd. Hierdoor kon DigiByte de bloktijden verlagen van 30 seconden naar 15 seconden. Bliksemsnel!",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 38 - Lo sapevi...",
+            "content": "Nel 2015, DigiByte ha implementato il protocollo DigiSpeed. Ciò ha permesso a DigiByte di ridurre i tempi dei blocchi da 30 secondi a 15 secondi. Velocissimo!",
             "url": ""
         }
     },
@@ -2215,6 +2405,11 @@
             "title": "DigiFeit #39 - Wist u dat...",
             "content": "Het DigiByte Critical Infrastructure Team (DGBCIT) is opgericht in januari 2023, met als doel ervoor te zorgen dat de DigiByte blockchain en de bijbehorende kritieke diensten altijd actief zijn. Dit wordt bereikt door een gezamenlijke inspanning van gecoördineerde decentralisatie en redundantie. Sluit u alstublieft bij ons aan in het #DGBCIT kanaal op de DigiByte Discord server: https://t.ly/DGBCIT",
             "url": "https://t.ly/DGBCIT"
+        },
+        "it": {
+            "title": "DigiFact # 39 - Lo sapevi...",
+            "content": "Il DigiByte Critical Infrastructure Team (DGBCIT) è stato fondato nel gennaio 2023, con l'obiettivo di garantire che il blockchain DigiByte, insieme ai suoi servizi critici, continui a funzionare ininterrottamente. Ciò viene raggiunto attraverso uno sforzo collettivo della comunità di decentralizzazione e ridondanza coordinata. Unisciti a noi nel canale #DGBCIT sul server Discord di DigiByte: https://t.ly/DGBCIT",
+            "url": "https://t.ly/DGBCIT"
         }
     },
     "digifact40": {
@@ -2271,6 +2466,11 @@
         "nl": {
             "title": "DigiFeit #40 - Wist u dat...",
             "content": "Wist u dat DigiByte toestemmingsloos is? Dit betekent dat er geen individu of bedrijf is om te vragen of u een dApp erop kunt bouwen, het gebruiken, verzenden, ontvangen, accepteren voor uw bedrijf, adverteren, promoten. Je kunt het gewoon \"doen\"!",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 40 - Lo sapevi...",
+            "content": "Sapevi che DigiByte è senza permesso? Ciò significa che non c'è nessun individuo o azienda da cui chiedere se puoi costruire un dApp su di esso, usarlo, inviarlo, riceverlo, accettarlo per la tua attività, pubblicizzarlo, promuoverlo. Puoi semplicemente farlo!",
             "url": ""
         }
     },
@@ -2329,6 +2529,11 @@
             "title": "DigiFeit #41 - Wist u dat...",
             "content": "DigiByte werkt nu aan zijn 8e 'protocol' versie in 6 jaar sinds de oprichting. Dit is wat het eerste nummer in de versie van de DigiByte Core Wallet betekent, de protocolversie. DigiByte is consequent gegroeid en verbeterd door zijn geschiedenis heen en blijft dit doen.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 41 - Lo sapevi...",
+            "content": "DigiByte sta ora lavorando alla sua 8ª versione di \"protocollo\" in 6 anni dalla creazione. Questo è ciò che significa il primo numero nella versione del Portafoglio Core di DigiByte, il numero di protocollo. DigiByte è cresciuto e migliorato costantemente nel corso della sua storia e continua a farlo.",
+            "url": ""
         }
     },
     "digifact42": {
@@ -2385,6 +2590,11 @@
         "nl": {
             "title": "DigiFeit #42 - Wist u dat...",
             "content": "MultiAlgo van DigiByte betekent dat 5x algoritmen continu concurreren voor elk afzonderlijk blok. Anderen, zoals X16R, zijn heel anders en roteren in plaats daarvan door elk subalgoritme, waarbij alle mijnwerkers omwisselen en datzelfde gebruiken. Daarom is X16R nog steeds een \"enkel algoritme\" in vergelijking met de 5x MultiAlgo-implementatie van DigiByte.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 42 - Lo sapevi...",
+            "content": "MultiAlgo di DigiByte significa che 5 algoritmi competono continuamente per ogni singolo blocco. Altri come X16R sono molto diversi, invece ruotano tra i vari sub-algoritmi con tutti i minatori che li utilizzano. Pertanto, X16R è ancora un \"singolo algoritmo\" rispetto all'implementazione MultiAlgo a 5x di DigiByte.",
             "url": ""
         }
     },
@@ -2443,6 +2653,11 @@
             "title": "DigiFeit #43 - Wist u dat...",
             "content": "Het Dandelion-privacyprotocol werd in 2019 geïmplementeerd om uw privacy te helpen beschermen door het maskeren van het oorspronkelijke IP-adres. Om meer te weten te komen over Dandelion, bezoek: https://j.mp/3Hag6AX",
             "url": "https://j.mp/3Hag6AX"
+        },
+        "it": {
+            "title": "DigiFact # 43 - Lo sapevi...",
+            "content": "Il protocollo di privacy Dandelion è stato implementato nel 2019 per proteggere la tua privacy, nascondendo l'indirizzo IP di origine. Per saperne di più su Dandelion, visita: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
         }
     },
     "digifact44": {
@@ -2499,6 +2714,11 @@
         "nl": {
             "title": "DigiFeit #44 - Wist u dat...",
             "content": "MultiShield is een krachtig algoritme voor moeilijkheidsaanpassing. Het zorgt ervoor dat elk van de 5X algoritmes van DigiByte ongeveer evenveel blokken delven, terwijl een stabiele timing van 15 seconden wordt gehandhaafd. Wat is MultiShield? Leer hier meer: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
+        },
+        "it": {
+            "title": "DigiFact # 44 - Lo sapevi...",
+            "content": "MultiShield è un potente algoritmo di aggiustamento della difficoltà. Garantisce che ognuno dei 5 algoritmi di DigiByte minino approssimativamente la stessa quantità di blocchi, mantenendo un ritmo costante di 15 secondi. Cos'è MultiShield? Scopri di più qui: https://j.mp/3oivy5u",
             "url": "https://j.mp/3oivy5u"
         }
     },
@@ -2557,6 +2777,11 @@
             "title": "DigiFeit #45 - Wist u dat...",
             "content": "Dankzij MultiShield heeft DigiByte enkele van de meest nauwkeurige en stabiele block-timing. Waar andere projecten meestal 3-4 dagen wachten om aan te passen, voert MultiShield aanpassingen en verfijningen uit voor elk individueel block. Leer hier meer: https://j.mp/3oivy5u",
             "url": "https://j.mp/3oivy5u"
+        },
+        "it": {
+            "title": "DigiFact # 45 - Lo sapevi...",
+            "content": "Grazie a MultiShield, DigiByte ha alcune delle temporizzazioni dei blocchi più accurate e stabili. Mentre altri progetti di solito aspettano 3-4 giorni per fare aggiustamenti, MultiShield li aggiorna, adatta e perfeziona ogni singolo blocco. Per saperne di più, visita: https://j.mp/3oivy5u",
+            "url": "https://j.mp/3oivy5u"
         }
     },
     "digifact46": {
@@ -2613,6 +2838,11 @@
         "nl": {
             "title": "DigiFeit #46 - Wist u dat...",
             "content": "DigiByte was het eerste grote blockchain-project dat het Dandelion-privacyprotocol inschakelde om uw IP-adres te beschermen. U kunt ervoor kiezen om geen gebruik te maken van de privacybescherming die het biedt als u nog snellere transacties wilt. Voor meer informatie over Dandelion, bezoek: https://j.mp/3Hag6AX",
+            "url": "https://j.mp/3Hag6AX"
+        },
+        "it": {
+            "title": "DigiFact # 46 - Lo sapevi...",
+            "content": "DigiByte è stato il primo importante progetto blockchain a implementare il protocollo di privacy Dandelion, per proteggere il tuo indirizzo IP. Puoi scegliere di disabilitare la protezione della privacy se desideri transazioni ancora più veloci. Per saperne di più su Dandelion, visita: https://j.mp/3Hag6AX",
             "url": "https://j.mp/3Hag6AX"
         }
     },
@@ -2671,6 +2901,11 @@
             "title": "DigiFeit #47 - Wist u dat...",
             "content": "DigiByte draait allemaal om keuze, en wat persoonlijk voor jou werkt. DigiByte is beschikbaar op meer dan twee dozijn portefeuilles, dus er is altijd iets dat aan ieders eisen voldoet.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 47 - Lo sapevi...",
+            "content": "DigiByte è tutto una questione di scelta e di ciò che funziona personalmente per te. DigiByte è disponibile su oltre due dozzine di portafogli, quindi c'è qualcosa che soddisferà tutte le esigenze.",
+            "url": ""
         }
     },
     "digifact48": {
@@ -2727,6 +2962,11 @@
         "nl": {
             "title": "DigiFeit #48 - Wist u dat...",
             "content": "DigiByte had oorspronkelijk bloktijden van 60 seconden, maar dankzij meerdere netwerkupgrades die werden verbeterd, eerst naar 30 seconden en nu naar de 15 seconden van vandaag."
+        },
+        "it": {
+            "title": "DigiFact # 48 - Lo sapevi...",
+            "content": "Originariamente, DigiByte aveva una temporizzazione dei blocchi di 60 secondi, ma attraverso molteplici aggiornamenti di rete, è stata migliorata prima a 30 e ora a 15 secondi.",
+            "url": ""
         }
     },
     "digifact49": {
@@ -2783,6 +3023,11 @@
         "nl": {
             "title": "DigiFeit #49 - Wist u dat...",
             "content": "DigiByte heeft sinds de lancering een uptime van 100%. Terwijl sommige mensen hun computer van tijd tot tijd opnieuw opstarten, blijven honderden anderen altijd online, zodat zelfs in geval van een grote nationale internetstoring DigiByte blijft functioneren."
+        },
+        "it": {
+            "title": "DigiFact # 49 - Lo sapevi...",
+            "content": "DigiByte ha avuto un uptime del 100% dal suo lancio. Mentre alcune persone riavviano i loro computer di tanto in tanto, centinaia di altri rimangono online tutto il tempo, in modo che anche in caso di un'importante interruzione nazionale di Internet, DigiByte continuerebbe a funzionare.",
+            "url": ""
         }
     },
     "digifact50": {
@@ -2839,6 +3084,11 @@
         "nl": {
             "title": "DigiFeit #50 - Wist u dat...",
             "content": "De DigiByte Faucet van Renzo Diaz biedt u een eenvoudige manier om wat gratis DGB te krijgen. Het is een geweldige manier voor nieuwkomers bij DigiByte om deze geweldige technologie uit de eerste hand te ervaren. Voor ontwikkelaars is er ook een testnet-kraan. Vind het hier: https://www.digifaucet.org/"
+        },
+        "it": {
+            "title": "DigiFact # 50 - Lo sapevi...",
+            "content": "Il Faucet DigiByte di Renzo Diaz ti offre un modo facile per ottenere alcuni DGB gratuiti. È un ottimo modo per i nuovi arrivati a DigiByte per sperimentare questa incredibile tecnologia in prima persona. Per gli sviluppatori, c'è anche un faucet testnet. Trovalo qui: https://www.digifaucet.org/",
+            "url": "https://www.digifaucet.org/"
         }
     },
     "digifact51": {
@@ -2896,6 +3146,11 @@
             "title": "DigiFeit #51 - Wist u dat...",
             "content": "Iedereen kan bijdragen aan de DigiByte-code en verbeteringen aanbrengen. Alle inzendingen worden beoordeeld door andere ontwikkelaars om ervoor te zorgen dat er geen kwaadaardige code per ongeluk wordt geaccepteerd. Doe hier mee aan de Gitter-ontwikkelaarschat: https://gitter.im/DigiByte-Core/protocol",
             "url": "https://gitter.im/DigiByte-Core/protocol"
+        },
+        "it": {
+            "title": "DigiFact # 51 - Lo sapevi...",
+            "content": "Chiunque può contribuire al codice di DigiByte e apportare miglioramenti. Tutte le proposte vengono esaminate da altri sviluppatori per garantire che nessun codice malevolo venga accettato per errore. Unisciti alla chat per sviluppatori su Gitter qui: https://gitter.im/DigiByte-Core/protocol",
+            "url": "https://gitter.im/DigiByte-Core/protocol"
         }
     },
     "digifact52": {
@@ -2952,6 +3207,11 @@
         "nl": {
             "title": "DigiFeit #52 - Wist u dat...",
             "content": "Heb je ooit statistieken willen zien over het DigiByte-netwerk? Voor een overzicht van het DigiByte-netwerk, ga naar: https://digistats.digibyteservers.io"
+        },
+        "it": {
+            "title": "DigiFact # 52 - Lo sapevi...",
+            "content": "Hai mai desiderato vedere alcune statistiche sulla rete DigiByte? Per una panoramica della rete DigiByte, visita: https://digistats.digibyteservers.io",
+            "url": "https://digistats.digibyteservers.io"
         }
     },
     "digifact53": {
@@ -3008,6 +3268,11 @@
         "nl": {
             "title": "DigiFeit #53 - Wist u dat...",
             "content": "Niemand weet precies hoeveel \"nodes\" er op het DigiByte-netwerk zijn, omdat er geen centraal punt is waarmee alle computers zich aanmelden. Dit zorgt ervoor dat uw privacy wordt gewaarborgd wanneer u de wallet-software downloadt.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 53 - Lo sapevi...",
+            "content": "Nessuno sa esattamente quanti \"nodi\" ci siano nella rete DigiByte, perché non c'è un punto centrale a cui tutti i computer si collegano. Ciò garantisce la tua privacy quando scarichi il software del portafoglio.",
             "url": ""
         }
     },
@@ -3066,6 +3331,11 @@
             "title": "DigiFeit #54 - Wist u dat...",
             "content": "Ondanks voortdurende grote codeveranderingen heeft DigiByte nog nooit een omstreden harde fork gehad. Het minen is zo gedecentraliseerd dat toen het myriad-groestl-algoritme werd vervangen door odocrypt, MG-miningpools de upgrade installeerden, zelfs als dit betekende dat ze niet langer konden minen.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 54 - Lo sapevi...",
+            "content": "DigiByte non ha mai avuto una divisione controversa nonostante continui cambiamenti major del codice. Il mining è così decentralizzato che quando l'algoritmo myriad-groestl è stato sostituito con odocrypt, i pool di mining MG hanno installato l'aggiornamento anche quando ciò significava che non avrebbero potuto più fare mining.",
+            "url": ""
         }
     },
     "digifact55": {
@@ -3122,6 +3392,11 @@
         "nl": {
             "title": "DigiFeit #55 - Wist u dat...",
             "content": "De DigiByte-mining is een van de meest gedistribueerde in de branche. Toen een periode van 7 dagen in september 2019 werd vergeleken met Bitcoin en Litecoin, had DigiByte meer dan 10 keer zoveel unieke miners. Dit groeide uit tot meer dan 20 keer het aantal unieke miners bij het kijken naar een periode van 3 maanden. Bekijk hier meer statistieken: https://j.mp/3ojzV08",
+            "url": "https://j.mp/3ojzV08"
+        },
+        "it": {
+            "title": "DigiFact # 55 - Lo sapevi...",
+            "content": "Il mining di DigiByte è tra i più distribuiti del settore. Quando un periodo di 7 giorni nel settembre 2019 è stato confrontato con Bitcoin e Litecoin, DigiByte aveva oltre 10 volte il numero di miner unici. Questo è aumentato a oltre 20 volte i miner unici quando si guarda a un periodo di 3 mesi. Visualizza ulteriori statistiche qui: https://j.mp/3ojzV08",
             "url": "https://j.mp/3ojzV08"
         }
     },
@@ -3180,6 +3455,11 @@
             "title": "DigiFeit #56 - Wist u dat...",
             "content": "Als de grootste 5x-pools van Bitcoin zouden samenspannen, zouden ze de Bitcoin-, Bitcoin Cash- en Bitcoin SV-netwerken permanent kunnen controleren totdat anderen meer hash-kracht hebben dan zij. Deze zelfde pools zouden geen bedreiging vormen voor DigiByte dankzij de MultiAlgo- en MultiShield-aspecten van DigiByte.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 56 - Lo sapevi...",
+            "content": "Se i 5 pool più grandi di Bitcoin dovessero colludere, potrebbero controllare permanentemente le reti di Bitcoin, Bitcoin Cash e Bitcoin SV fino a quando altri non acquisissero più potenza di hash di loro. Questi stessi pool non rappresenterebbero una minaccia per DigiByte grazie agli aspetti MultiAlgo e MultiShield di DigiByte.",
+            "url": ""
         }
     },
     "digifact57": {
@@ -3236,6 +3516,11 @@
         "nl": {
             "title": "DigiFeit #57 - Wist u dat...",
             "content": "Elke maand wordt de hoeveelheid DigiByte die mijnwerkers als blokbeloning krijgen met 1% verminderd. Dit zorgt voor een zeer geleidelijke aanbodcurve voor nieuwe DigiByte, in plaats van een \"halvering\"-evenement om de paar jaar.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 57 - Lo sapevi...",
+            "content": "Ogni mese, le DigiByte che i minatori ricevono come ricompensa di blocco diminuiscono dell'1%. Ciò conferisce a DigiByte una curva di offerta molto uniforme per le nuove DigiByte, invece di un evento di \"halving\" ogni pochi anni.",
             "url": ""
         }
     },
@@ -3294,6 +3579,11 @@
             "title": "DigiFeit #58 - Wist u dat...",
             "content": "Transacties op het DigiByte-netwerk zijn openbaar, maar pseudo-anoniem. Je kunt ze zien op een Blockchain-verkenner, maar er is niets inherent dat een nieuwe transactie / adres kan koppelen aan een eindgebruiker. Er zijn geen gebruikersnamen, e-mailadressen, etc. nodig om het DigiByte-netwerk te gebruiken.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 58 - Lo sapevi...",
+            "content": "Le transazioni sulla rete DigiByte sono pubbliche, ma pseudonime. Puoi vederle su un explorer blockchain, ma non c'è nulla inerentemente che possa collegare una nuova transazione/indirizzo a un utente finale. Non sono necessari nomi utente, indirizzi email, ecc. per utilizzare la rete DigiByte.",
+            "url": ""
         }
     },
     "digifact59": {
@@ -3350,6 +3640,11 @@
         "nl": {
             "title": "DigiFeit #59 - Wist u dat...",
             "content": "DigiByte-adressen kunnen opnieuw worden gebruikt, maar dit is volledig optioneel. De beste praktijk is dat een portemonnee u telkens een nieuw adres geeft nadat uw vorige adres een transactie heeft ontvangen.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 59 - Lo sapevi...",
+            "content": "Gli indirizzi DigiByte possono essere riutilizzati, ma è completamente facoltativo. La pratica migliore è che un portafoglio ti fornisca un nuovo indirizzo ogni volta dopo che il tuo indirizzo precedente ha ricevuto una transazione.",
             "url": ""
         }
     },
@@ -3408,6 +3703,11 @@
             "title": "DigiFeit #60 - Wist u dat...",
             "content": "De broncode voor de DigiByte-blockchain is volledig open source, iedereen kan het zien, inspecteren en beoordelen. De Core Wallet is beschikbaar op: https://github.com/DigiByte-Core/DigiByte",
             "url": "https://github.com/DigiByte-Core/DigiByte"
+        },
+        "it": {
+            "title": "DigiFact # 60 - Lo sapevi...",
+            "content": "Il codice sorgente per la blockchain DigiByte è completamente open-source, chiunque può vederlo, ispezionarlo e revisionarlo. Il portafoglio principale è disponibile su: https://github.com/DigiByte-Core/DigiByte",
+            "url": "https://github.com/DigiByte-Core/DigiByte"
         }
     },
     "digifact61": {
@@ -3464,6 +3764,11 @@
         "nl": {
             "title": "DigiFeit #61 - Wist u dat...",
             "content": "DigiByte-blokken hebben een verwachte tijd van 15 seconden, wat betekent dat er elke dag 5.760 nieuwe blokken aan de DigiByte-blockchain worden toegevoegd.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 61 - Lo sapevi...",
+            "content": "I blocchi DigiByte hanno un tempo previsto di 15 secondi, il che significa che ogni singolo giorno vengono aggiunti 5.760 nuovi blocchi alla blockchain di DigiByte.",
             "url": ""
         }
     },
@@ -3522,6 +3827,11 @@
             "title": "DigiFeit #62 - Wist u dat...",
             "content": "Een enkele DigiByte kan worden verdeeld tot 8 decimalen. Dat is 1/100,000,000 van een DigiByte. Dit staat bekend als een Digit of DIT voor de korte termijn. (bijv. 1000 DITS)",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 62 - Lo sapevi...",
+            "content": "Un singolo DigiByte può essere diviso fino a 8 decimali. Questo corrisponde a 1/100.000.000 di un DigiByte. Questa unità è nota come Digit o DIT (acronimo di Digit). (es. 1000 DIT)",
+            "url": ""
         }
     },
     "digifact63": {
@@ -3578,6 +3888,11 @@
         "nl": {
             "title": "DigiFeit #63 - Wist u dat...",
             "content": "Elk van de 5 algoritmen die DigiByte gebruikt om het netwerk te beveiligen en nieuwe blokken te minen, heeft een gelijke kans van 20% om elk afzonderlijk blok te vinden. Er wordt geen prioriteit gegeven aan de ene of de andere.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 63 - Lo sapevi...",
+            "content": "Ciascuno dei 5 algoritmi utilizzati da DigiByte per proteggere la rete e minare nuovi blocchi ha la stessa probabilità del 20% di trovare ogni singolo blocco. Non esiste alcuna priorità data a uno o all'altro.",
             "url": ""
         }
     },
@@ -3636,6 +3951,11 @@
             "title": "DigiFeit #64 - Wist u dat...",
             "content": "DigiByte heeft 3 soorten adressen, elk beginnend met een ander voorvoegsel. Moderne adressen beginnen met de letters \"dgb1\" voor Bech32-geformatteerde adressen of met de letter \"S\" voor SegWit (Gesegregeerde Getuige). Legacy-adressen beginnen met de letter \"D\". Hoewel de ondersteuning voor deze adressen behouden blijft, worden ze geleidelijk aan vervangen door Bech32-adressen.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 64 - Lo sapevi...",
+            "content": "DigiByte ha 3 tipi di indirizzi, ognuno dei quali inizia con un prefisso diverso. Gli indirizzi moderni iniziano con le lettere \"dgb1\" per gli indirizzi formattati in Bech32 o la lettera \"S\" per SegWit (Segregated Witness). Gli indirizzi legacy iniziano con la lettera \"D\". Anche se il supporto per questi tipi di indirizzi rimarrà, stanno gradualmente venendo sostituiti a favore degli indirizzi Bech32.",
+            "url": ""
         }
     },
     "digifact65": {
@@ -3692,6 +4012,11 @@
         "nl": {
             "title": "DigiFeit #65 - Wist u dat...",
             "content": "DigiByte-adressen die beginnen met \"dgb1\" (bekend als Bech32-formaat) hebben meerdere voordelen, zoals foutcorrectie in het geval van onjuiste notatie, evenals een veel eenvoudigere herkenning voor zowel mensen als computers dat ze DigiByte-specifieke adressen zijn.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 65 - Lo sapevi...",
+            "content": "Gli indirizzi DigiByte che iniziano con \"dgb1\" (noti come formato Bech32) presentano diversi vantaggi, come la correzione degli errori nel caso in cui siano stati scritti erroneamente, oltre a essere molto più facili da riconoscere sia per gli esseri umani che per i computer come indirizzi specifici di DigiByte.",
             "url": ""
         }
     },
@@ -3750,6 +4075,11 @@
             "title": "DigiFeit #66 - Wist u dat...",
             "content": "Voor een protocol-upgrade moet meer dan 70% van het netwerk het ermee eens zijn en consensus bereiken dat de upgrade zal plaatsvinden. Dit gebeurt door \"signalering\" van ondersteuning wanneer blokken worden gemined, gedurende een periode van 1 week.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 66 - Lo sapevi...",
+            "content": "Perché si verifichi un aggiornamento del protocollo, oltre il 70% della rete deve essere d'accordo e in consenso sull'aggiornamento. Ciò avviene tramite il \"segnalare\" il supporto quando vengono estratti i blocchi, nel corso di un periodo di 1 settimana.",
+            "url": ""
         }
     },
     "digifact67": {
@@ -3806,6 +4136,11 @@
         "nl": {
             "title": "DigiFeit #67 - Wist u dat...",
             "content": "Er is een maximum van 21 miljard DigiByte die ooit zullen bestaan. Dit is opzettelijk gekozen als een verhouding van 1000:1 in vergelijking met de 21 miljoen Bitcoins. Er kunnen nooit meer worden gemaakt.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 67 - Lo sapevi...",
+            "content": "Esiste un massimo di 21 miliardi di DigiByte che potranno mai esistere. Questo è stato scelto intenzionalmente con un rapporto di 1000:1 rispetto ai 21 milioni di Bitcoin. Non ne possono essere creati di più.",
             "url": ""
         }
     },
@@ -3864,6 +4199,11 @@
             "title": "DigiFeit #68 - Wist u dat...",
             "content": "DigiByte is beschikbaar op duizenden Crypto-ATM's over de hele wereld! Dit is een geweldige manier voor mensen die nieuw zijn in cryptocurrency om betrokken te raken via een meer \"traditionele\" methode van valutawissel.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 68 - Lo sapevi...",
+            "content": "DigiByte è disponibile su migliaia di Crypto ATM in tutto il mondo! Questo è un ottimo modo per le persone nuove alle criptovalute per iniziare attraverso un metodo più \"tradizionale\" di scambio di valuta.",
+            "url": ""
         }
     },
     "digifact69": {
@@ -3920,6 +4260,11 @@
         "nl": {
             "title": "DigiFeit #69 - Wist u dat...",
             "content": "DigiByte kan worden gebruikt om documenten, muziek, media, identiteit en meer te verifiëren en valideren! Hoewel DigiByte uitblinkt als een middel om waarde uit te wisselen, is het niet beperkt tot alleen maar een valuta.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 69 - Lo sapevi...",
+            "content": "DigiByte può essere utilizzato per verificare e convalidare documenti, musica, media, identità e altro ancora! Anche se DigiByte eccelle come mezzo di scambio di valore, non è limitato a essere solo una valuta.",
             "url": ""
         }
     },
@@ -3978,6 +4323,11 @@
             "title": "DigiFeit #70 - Wist u dat...",
             "content": "U kunt meerdere portefeuilles gebruiken! DigiByte is niet beperkt tot één stuk software, en de gemeenschap wordt aangemoedigd om een app te vinden die het beste voor hen werkt, dus probeer er een, probeer er een paar, en blijf degenen gebruiken die u het meest bevalt.",
             "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 70 - Lo sapevi...",
+            "content": "È possibile utilizzare più portafogli! DigiByte non è limitato a un singolo software e la comunità è incoraggiata a trovare un'app che funzioni meglio per loro, quindi provane una, prova alcune e continua a utilizzare quelle che ti piacciono di più.",
+            "url": ""
         }
     },
     "digifact71": {
@@ -4034,6 +4384,11 @@
         "nl": {
             "title": "DigiFeit #71 - Wist u dat...",
             "content": "DigiByte kan nooit een gecentraliseerde \"verbranding\" van het maximale aanbod hebben, zoals andere ICO's of centraal gecontroleerde tokens dat kunnen. Omdat DigiByte een volledig gedecentraliseerd project is, is het onmogelijk om een grootschalige \"verbranding\" van ongebruikte DigiByte uit te geven. In het gunstigste geval zou je alleen je eigen DigiByte kunnen vernietigen als je ze vrijwillig in de leegte zou overdragen.",
+            "url": ""
+        },
+        "it": {
+            "title": "DigiFact # 71 - Lo sapevi...",
+            "content": "DigiByte non può mai avere una \"distruzione\" centralizzata dell'offerta massima come possono avere altre ICO o token controllati centralmente. Poiché DigiByte è un progetto completamente decentralizzato, è impossibile emettere una \"distruzione\" su larga scala di DigiByte inutilizzati. Al massimo, potresti solo distruggere quelli tuoi se li trasferissi volontariamente nel vuoto.",
             "url": ""
         }
     },
@@ -5003,5 +5358,5 @@
             "content": "De DigiAsset Explorer, gemaakt door Renzo Diaz, een lid van de DigiByte-community, maakt het gemakkelijk om informatie over DigiAsset-transacties op te zoeken. Je vindt het hier: https://digiassets.info/",
             "url": "https://digiassets.info/"
         }
-    }    
+    }
 }
