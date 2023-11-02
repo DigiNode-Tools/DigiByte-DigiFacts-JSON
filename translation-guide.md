@@ -9,7 +9,7 @@ This is not the only way to achieve this, but I found this method works well and
 
 ### Step 1. Fork the GitHub Repo and clone to your local machine
 
-- Go to the [main Github repo[(https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)] and click 'Fork' in the top right.
+- Go to the [here](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)] and click 'Fork' in the top right.
 - Clone the forked repo to your local machine. You can do this using [GitHub Desktop](https://desktop.github.com/)
 
 ### Step 2. Setup Visual Studio Code
@@ -30,7 +30,7 @@ For this task I highly recommend installing the [JSON Formatter](https://chrome.
 At the GPT-3.5 prompt paste the following:
 
 ```
-I need your help translating some snippets of json code containing numbered DigiFacts - facts about DigiByte. They will be translated from English to the language I specify. I will be providing you with one or more number digifacts that look like this:
+I need your help translating some snippets of json code containing numbered DigiFacts - facts about DigiByte. They will be translated from English to the language I specify. I will be providing you with one or more numbered DigiFacts as a snippet of JSON code like this:
 
 "digifact1": {
 "title": "DigiFact # 1 - Did you know...",
@@ -48,7 +48,7 @@ I need your help translating some snippets of json code containing numbered Digi
 "url": ""
 },
 
-Based on the input, you will need to translate them into the folliwing format. In this example, I am using Italian. Here is an example of the output:
+Based on the input, I want you to translate them into the folliwing format. In this example, I am using Italian. Here is an example of the output:
 
 "digifact1": {
     "it": {
@@ -72,21 +72,20 @@ Based on the input, you will need to translate them into the folliwing format. I
     }
 },
 
-I will be providing you with batches of digifacts like these to translate. Please translate them into the language I specify, giving the result as a json snippet in the format demonstrated above. Please confirm you have understood my request.
+I will be providing you with batches of DigiFacts like these to translate. Please translate them into the language I specify, giving the result as a json snippet in the format demonstrated above. Please confirm you have understood my request.
 
 ```
 
-Press Enter and it should hopefully confirm. it has understood.
+Press Enter and it should hopefully confirm it has understood your instructions.
 
 Now specify the language you are translating to. If you were tranlating to Swedish, you would enter:
 
 ```
 I want you to translate from English to Swedish. Are you ready to begin?
 ```
+Make sure that ChatGPT has understood your request, providing further instructions if necessary.
 
-Make sure that ChatGPT has understood your request, providing feedback where necessary.
-
-### Step 5. Translate the DigiFacts in batches
+### Step 5. Translate the DigiFacts
 
 It is best to tranlate the DigiFacts in batches. For this example, I will do it in batches of three but in practice it should be able to cope with batches of 10 without any problem.
 
@@ -99,29 +98,29 @@ Back in the ChatGPT Window enter:
 ```
 Please translate the following DigiFacts, as agreed:
 ```
-Beneath this paste in the DigiFacts and press enter. It will then hopefully translate the digifacts like below:
+Beneath this paste in the DigiFacts and press enter. It will then hopefully translate the DigiFacts like below:
 
 ![ChatGPT Translate](images/chatgpt_translate.png)
 
-Once you have the translation, select the snippet for each digifact and paste bbeneath the other tanslations in digifact-multilang.json file, matching the existing formatting.
+Once you have the translation, select the snippet for each DigiFact and paste it beneath the other tanslations in the digifacts-multilang.json file, matching the existing formatting.
 
-Copy a snippet:
+Here is an example for digifact1. Select and copy the snippet:
 
 ![Copy Translation](images/copy_translation.png)
 
-Paste the new translation below the others for the releavnt DigiFact:
+Paste it below the other translations for digifact1:
 
 ![Paste Translation](images/paste_translation.png)
 
 Be sure to add a comma after the precending language. Check the formatting against other DigiFacts to make sure it is the same.
 
-Repeat this process with the other DiigFacts, and translating additional batches as necessary. 
+Repeat this process with the other DiigFacts, translating additional batches when required. This may seem time consuming but once you find a rhythm you should be able to do the entire batch in an hour or so. Save frequently!
 
 ### Step 6. Prettify the finished JSON file
 
 Make sure you are not missing any commas in your JSON, and that everything is formatted correctly.
 
-Press Shift-Cmd-P (Mac) or Shift-Ctrl-P (Win) to run a command. Search for 'Prettify JSON' and press enter. This should reformat and correctly indent your json file. If it does not, then there may be an error. Double-check you have inputted all the language snippets correctly with commas in the correct place.
+Press Shift-Cmd-P (Mac) or Shift-Ctrl-P (Win) to run a command. Search for 'Prettify JSON' and press enter. This should reformat and correctly indent your JSON file. If it does not, then there may be an error in your code - double-check you have inputted all the language snippets correctly with commas and quotation marks in the correct places.
 
 Save your file when done.
 
