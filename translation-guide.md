@@ -47,7 +47,7 @@ I need your help translating some snippets of json code containing numbered Digi
 "url": ""
 },
 
-Based on the input, I want you to translate them into the folliwing format. In this example, I am using Italian. Here is an example of the output:
+Based on the input, I want you to translate them into the following JSON format. In this example, I am using Italian. Here is an example of the output:
 
 "digifact1": {
     "it": {
@@ -75,7 +75,7 @@ I will be providing you with batches of DigiFacts like these to translate. Pleas
 
 ```
 
-Press Enter and it should hopefully confirm it has understood your instructions.
+Press Enter and ChatGPT should hopefully confirm it has understood your instructions.
 
 Now specify the language you are translating to. If you were tranlating to Swedish, you would enter:
 
