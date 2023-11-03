@@ -26,7 +26,7 @@ The DigiFacts are currently available in 12 languages listed below. It is sugges
 | Russian                | https://digifacts.digibyte.help/?lang=ru              | <a href="https://digifacts.digibyte.help/?lang=ru&proofread">Proofread Russian</a>       |
 | Spanish                | https://digifacts.digibyte.help/?lang=es              | <a href="https://digifacts.digibyte.help/?lang=es&proofread">Proofread Spanish</a>       |
 | Korean                 | https://digifacts.digibyte.help/?lang=ko              | <a href="https://digifacts.digibyte.help/?lang=ko&proofread">Proofread Korean</a>       |
-| Japanese               | https://digifacts.digibyte.help/?lang=jp              | <a href="https://digifacts.digibyte.help/?lang=jp&proofread">Proofread Japanese</a>       |
+| Japanese               | https://digifacts.digibyte.help/?lang=ja              | <a href="https://digifacts.digibyte.help/?lang=ja&proofread">Proofread Japanese</a>       |
 | German                 | https://digifacts.digibyte.help/?lang=de              | <a href="https://digifacts.digibyte.help/?lang=de&proofread">Proofread German</a>       |
 | French                 | https://digifacts.digibyte.help/?lang=fr              | <a href="https://digifacts.digibyte.help/?lang=fr&proofread">Proofread French</a>       |
 | Portuguese             | https://digifacts.digibyte.help/?lang=pt              | <a href="https://digifacts.digibyte.help/?lang=pt&proofread">Proofread Portuguese</a>       |
