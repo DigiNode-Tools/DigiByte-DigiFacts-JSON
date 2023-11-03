@@ -7,10 +7,12 @@ This guide will show you how to translate all the DigiFacts into a new language 
 
 This is not the only way to achieve this, but I found this method works well and helps you complete the task relatively quickly.
 
+You will need a GitHub account.
+
 ## Step 1. Fork the GitHub Repo and clone to your local machine
 
-- Go to the [here](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)] and click 'Fork' in the top right.
-- Clone the forked repo to your local machine. You can do this using [GitHub Desktop](https://desktop.github.com/)
+- Go to [here](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) and 'Fork' the main repo to your personal Github account.
+- Clone the forked repo to your local machine so you can work on it. You can do this using [GitHub Desktop](https://desktop.github.com/)
 
 ## Step 2. Setup Visual Studio Code
 
@@ -19,11 +21,11 @@ This is not the only way to achieve this, but I found this method works well and
 
 ## Step 3. Setup your workspace to do the translation
 
-For this task I highly recommend installing the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) extension got Google Chrome. It formats the JSON nicely on the screen and makes it easier to read.
+For this task I highly recommend installing the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) extension for Google Chrome. It formats the JSON nicely in your brower window to make it easier to read.
 
 - In one browser window open the [English version of this DigiFacts](https://digifacts.digibyte.help/). This is what we will be translating from.
 - In a second brower window open ChatGPT. You want to use GPT-3.5 as it is much faster for this task.
-- In VS Code, open the digifacts-multilang.json from the repo
+- In VS Code, open the digifacts-multilang.json file from the repo.
 
 ## Step 4. Train ChatGPT on how to translate the DigiFacts
 
