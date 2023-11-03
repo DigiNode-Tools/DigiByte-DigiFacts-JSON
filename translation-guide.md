@@ -1,4 +1,4 @@
-# DigiByte DigiFacts - Translation Guide for Adding Additional Languages
+# DigiByte DigiFacts - Language Translation Guide
 
 This guide will show you how to translate all the DigiFacts into a new language with the help of ChatGPT.
 
