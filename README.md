@@ -42,17 +42,15 @@ Contributions to this project from the community are actively encouraged. If you
 
 ### Translations
 
-We need volunteer native speakers to take responsibility for each language, translating and proofreading where needed, and helping to translate new DigiFacts when they are added. If you can help, please join the ["DigiFact Translation Team" Telegram group](https://t.me/DigiByteDigiFacts).
+We need volunteer native speakers to take responsibility for each language, translating and proofreading when needed. If you can help, please join the ["DigiFact Translation Team" Telegram group](https://t.me/DigiByteDigiFacts).
 
-Support for the initial 12 languages was added with help from ChatGPT. For this reason, they all need proofreading by a native speaker. To help you there is a special proofreading mode included, which displays the English DigiFacts alongside their translation - simply append &proofread to the end of any of the above URLs. For example, see the Spanish proofreading page [here](https://digifacts.digibyte.help/?lang=es&proofread). For more help, go [here](https://digifacts.digibyte.help/?help).
-
-To submit your improvements, please fork the repo, edit the digifacts-multilang.json file, and make a PR with your changes. Please check the JSON is valid before doing do.
+Support for the initial 12 languages was added with help from ChatGPT. For this reason, they all need proofreading by a native speaker. Please help if you can. To make this easier you can use the proofreading links above, which display the English DigiFacts alongside their translation, formatted so that they are easy to read. To submit improvements, please fork the repo, edit the digifacts-multilang.json file, and make a PR with your changes. Please check the JSON is valid before doing do.
 
 If you are interested in helping translate the DigiFacts into additional languages, you can find a step-by-step Translation Guide [here](translation-guide.md) for how to do this with help from ChatGPT.
 
 If you contribute a new language, or are willing to take responibility for an existing one, please add your Github handle to the table below.
 
-| Language                 | Verified by                                      | Last Updated | Status                                              |
+| Language                 | Last Verified by                                 | Last Updated | Status                                              |
 |--------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
 | en English               | [@saltedlolly](https://github.com/saltedlolly)   | 2023-11-01   |                                                     |
 | zh Chinese (Simplified)  |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
@@ -69,10 +67,10 @@ If you contribute a new language, or are willing to take responibility for an ex
 
 ### Adding new DigiFacts
 
-Please help by contributing new DigiFacts. If you have a DigiByte project that you wish to make the community aware of, please add a new DigiFact. Be careful to use neutral wording - no marketing or advertisng is permitted, though a single DigiFact to tell the community about your project and what it offers is permitted.
+Everybody is encouraged to help contribute new DigiFacts. If you have a DigiByte project that you wish to make the community aware of, please add a new DigiFact. Be careful to use neutral wording - no marketing or advertisng is permitted, though a single DigiFact to tell the community about your project and what it does is permitted.
 
 Important considerations:
-- New DigiFacts must be added in English first. This will then be used as the basis for the trnsslation into other languages.
+- New DigiFacts must be added in English first. This will then be used as the basis for the translation into other languages.
 - URLs should be included both within the content text, and in the seperate URL field. This allows for easier processing. Please include only one URL per DigiFact.
 - Please avoid creating DigiFacts about price - DigiFacts are for educating the community about DigiByte only.
 
