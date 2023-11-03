@@ -1,7 +1,4 @@
-# DigiByte DigiFacts - JSON Web Service
-Provides DigiByte DigiFacts in JSON format. Supports multiple languages and dynamic data.
-
-## Translation Guide for Adding a New Language
+# DigiByte DigiFacts - Translation Guide for Adding Additional Languages
 
 This guide will show you how to translate all the DigiFacts into a new language with the help of ChatGPT.
 
