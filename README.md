@@ -22,17 +22,17 @@ The DigiFacts are currently available in 12 languages listed below. It is sugges
 | Language               | JSON URL                                             | Proofreading Links
 |------------------------|------------------------------------------------------|----------------------------------------------------|
 | English                | https://digifacts.digibyte.help/                     | <a href="https://digifacts.digibyte.help/?proofread">Proofread English</a>       |
-| Chinese (Simplified)   | https://digifacts.digibyte.help/lang=zh              | <a href="https://digifacts.digibyte.help/?lang=zh&proofread">Proofread Chinese (Simplified)</a>       |
-| Russian                | https://digifacts.digibyte.help/lang=ru              | <a href="https://digifacts.digibyte.help/?lang=ru&proofread">Proofread Russian</a>       |
-| Spanish                | https://digifacts.digibyte.help/lang=es              | <a href="https://digifacts.digibyte.help/?lang=es&proofread">Proofread Spanish</a>       |
-| Korean                 | https://digifacts.digibyte.help/lang=ko              | <a href="https://digifacts.digibyte.help/?lang=ko&proofread">Proofread Korean</a>       |
-| Japanese               | https://digifacts.digibyte.help/lang=jp              | <a href="https://digifacts.digibyte.help/?lang=jp&proofread">Proofread Japanes</a>       |
-| German                 | https://digifacts.digibyte.help/lang=de              | <a href="https://digifacts.digibyte.help/?lang=de&proofread">Proofread German</a>       |
-| French                 | https://digifacts.digibyte.help/lang=fr              | <a href="https://digifacts.digibyte.help/?lang=fr&proofread">Proofread French</a>       |
-| Portuguese             | https://digifacts.digibyte.help/lang=pt              | <a href="https://digifacts.digibyte.help/?lang=pt&proofread">Proofread Portuguese</a>       |
-| Hindi                  | https://digifacts.digibyte.help/lang=hi              | <a href="https://digifacts.digibyte.help/?lang=hi&proofread">Proofread Hindi</a>       |
-| Dutch                  | https://digifacts.digibyte.help/lang=nl              | <a href="https://digifacts.digibyte.help/?lang=nl&proofread">Proofread Dutch</a>       |
-| Italian                | https://digifacts.digibyte.help/lang=it              | <a href="https://digifacts.digibyte.help/?lang=it&proofread">Proofread Italian</a>       | 
+| Chinese (Simplified)   | https://digifacts.digibyte.help/?lang=zh              | <a href="https://digifacts.digibyte.help/?lang=zh&proofread">Proofread Chinese (Simplified)</a>       |
+| Russian                | https://digifacts.digibyte.help/?lang=ru              | <a href="https://digifacts.digibyte.help/?lang=ru&proofread">Proofread Russian</a>       |
+| Spanish                | https://digifacts.digibyte.help/?lang=es              | <a href="https://digifacts.digibyte.help/?lang=es&proofread">Proofread Spanish</a>       |
+| Korean                 | https://digifacts.digibyte.help/?lang=ko              | <a href="https://digifacts.digibyte.help/?lang=ko&proofread">Proofread Korean</a>       |
+| Japanese               | https://digifacts.digibyte.help/?lang=jp              | <a href="https://digifacts.digibyte.help/?lang=jp&proofread">Proofread Japanese</a>       |
+| German                 | https://digifacts.digibyte.help/?lang=de              | <a href="https://digifacts.digibyte.help/?lang=de&proofread">Proofread German</a>       |
+| French                 | https://digifacts.digibyte.help/?lang=fr              | <a href="https://digifacts.digibyte.help/?lang=fr&proofread">Proofread French</a>       |
+| Portuguese             | https://digifacts.digibyte.help/?lang=pt              | <a href="https://digifacts.digibyte.help/?lang=pt&proofread">Proofread Portuguese</a>       |
+| Hindi                  | https://digifacts.digibyte.help/?lang=hi              | <a href="https://digifacts.digibyte.help/?lang=hi&proofread">Proofread Hindi</a>       |
+| Dutch                  | https://digifacts.digibyte.help/?lang=nl              | <a href="https://digifacts.digibyte.help/?lang=nl&proofread">Proofread Dutch</a>       |
+| Italian                | https://digifacts.digibyte.help/?lang=it              | <a href="https://digifacts.digibyte.help/?lang=it&proofread">Proofread Italian</a>       | 
 
 For more help, visit: https://digifacts.digibyte.help/?help
 
