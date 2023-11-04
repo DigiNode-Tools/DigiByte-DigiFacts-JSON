@@ -5201,62 +5201,62 @@
     "digifact85": {
         "en": {
             "title": "DigiFact # 85 - Did you know...",
-            "content": "DigiAssets are a secure, scalable second-layer built on top of the DigiByte Blockchain that allows for the decentralized issuance of digital assets (NFTs), tokens, smart contracts, digital identity and more.",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "zh": {
-            "title": "DigiFact # 85 - 你知道吗...",
-            "content": "DigiAssets是建立在DigiByte区块链之上的安全、可扩展的第二层，允许去中心化发行数字资产（NFTs）、代币、智能合约、数字身份等。",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "ru": {
-            "title": "DigiFact # 85 - Знаете ли вы...",
-            "content": "DigiAssets - это безопасный, масштабируемый второй уровень, построенный на базе блокчейна DigiByte, который позволяет децентрализованное выпуск цифровых активов (NFT), токенов, смарт-контрактов, цифровой идентификации и многого другого.",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "es": {
-            "title": "DigiFact # 85 - ¿Sabías que...",
-            "content": "DigiAssets es una capa segura y escalable construida sobre la cadena de bloques de DigiByte que permite la emisión descentralizada de activos digitales (NFTs), tokens, contratos inteligentes, identidad digital y más.",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "ko": {
-            "title": "DigiFact # 85 - 알고 계셨나요...",
-            "content": "DigiAssets는 DigiByte 블록체인 위에 구축된 안전하고 확장 가능한 두 번째 계층으로, 디지털 자산 (NFT), 토큰, 스마트 계약, 디지털 신분 등의 분산 발행을 허용합니다.",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "ja": {
-            "title": "DigiFact # 85 - ご存知ですか...",
-            "content": "DigiAssetsは、DigiByteブロックチェーンの上に構築されたセキュアでスケーラブルな第二層で、非中央集権的なデジタル資産（NFT）、トークン、スマートコントラクト、デジタルアイデンティティなどを発行することができます。",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "de": {
-            "title": "DigiFact # 85 - Wussten Sie schon...",
-            "content": "DigiAssets sind eine sichere, skalierbare Zweitlage, die auf der DigiByte-Blockchain aufgebaut ist und die dezentrale Ausgabe von digitalen Vermögenswerten (NFTs), Tokens, Smart Contracts, digitalen Identitäten und mehr ermöglicht.",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "fr": {
-            "title": "DigiFact # 85 - Saviez-vous que...",
-            "content": "DigiAssets est une couche sécurisée et évolutive construite sur la blockchain DigiByte qui permet l'émission décentralisée d'actifs numériques (NFT), de jetons, de contrats intelligents, d'identités numériques et plus encore.",
+            "content": "DigiAssets are a secure, scalable second-layer built on top of the DigiByte Blockchain that allows for the decentralized issuance of digital assets (NFTs), tokens, smart contracts, digital identity and more. Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
             "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
         },
         "it": {
-            "title": "DigiFact # 85 - Lo sapevi che...",
-            "content": "DigiAssets sono uno strato sicuro e scalabile costruito sopra la blockchain di DigiByte che consente l'emissione decentralizzata di asset digitali (NFT), token, contratti intelligenti, identità digitale e altro.",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "hi": {
-            "title": "DigiFact # 85 - क्या आप जानते हैं...",
-            "content": "DigiAssets वो सुरक्षित और विस्तारणयोग्य दूसरी परत है जो DigiByte ब्लॉकचेन के ऊपर निर्मित है और डिसेंट्रलाइज्ड डिजिटल एसेट्स (NFTs), टोकन, स्मार्ट कॉन्ट्रैक्ट्स, डिजिटल पहचान और अन्य की डिसेंट्रलाइज्ड इशूअंस की अनुमति देता है।",
-            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
-        },
-        "pt": {
-            "title": "DigiFact # 85 - Sabia que...",
-            "content": "DigiAssets são uma camada segura e escalável construída em cima da blockchain DigiByte que permite a emissão descentralizada de ativos digitais (NFTs), tokens, contratos inteligentes, identidade digital e muito mais.",
+            "title": "DigiFact # 85 - Lo sapevi...",
+            "content": "DigiAssets sono uno strato sicuro e scalabile costruito sopra la blockchain di DigiByte che consente l'emissione decentralizzata di asset digitali (NFT), token, contratti intelligenti, identità digitale e altro ancora. Trovalo qui: https://github.com/DigiAsset-Core/DigiAsset_Core",
             "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
         },
         "nl": {
             "title": "DigiFact # 85 - Wist je dat...",
-            "content": "DigiAssets zijn een veilige, schaalbare tweede laag bovenop de DigiByte Blockchain waarmee de gedecentraliseerde uitgifte van digitale activa (NFT's), tokens, slimme contracten, digitale identiteit en meer mogelijk is.",
+            "content": "DigiAssets zijn een veilige, schaalbare tweede laag gebouwd op de DigiByte Blockchain die de gedecentraliseerde uitgifte van digitale activa (NFT's), tokens, slimme contracten, digitale identiteit en meer mogelijk maakt. Vind het hier: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "fr": {
+            "title": "DigiFact # 85 - Saviez-vous que...",
+            "content": "DigiAssets est une couche de sécurité évolutive construite sur la blockchain DigiByte qui permet l'émission décentralisée d'actifs numériques (NFT), de jetons, de contrats intelligents, d'identité numérique et plus encore. Trouvez-le ici : https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "es": {
+            "title": "DigiFact # 85 - ¿Sabías que...",
+            "content": "DigiAssets es una capa segura y escalable construida sobre la blockchain de DigiByte que permite la emisión descentralizada de activos digitales (NFT), tokens, contratos inteligentes, identidad digital y más. Encuéntralo aquí: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "de": {
+            "title": "DigiFact # 85 - Wussten Sie...",
+            "content": "DigiAssets sind eine sichere, skalierbare Zweitlage, die auf der DigiByte-Blockchain aufgebaut ist und die dezentrale Ausgabe von digitalen Vermögenswerten (NFTs), Tokens, Smart Contracts, digitaler Identität und mehr ermöglicht. Finden Sie es hier: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "pt": {
+            "title": "DigiFact # 85 - Você sabia...",
+            "content": "DigiAssets são uma camada segura e escalável construída sobre a blockchain DigiByte que permite a emissão descentralizada de ativos digitais (NFTs), tokens, contratos inteligentes, identidade digital e muito mais. Encontre-o aqui: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ru": {
+            "title": "DigiFact # 85 - Знали ли вы...",
+            "content": "DigiAssets - это безопасный, масштабируемый второй уровень, построенный поверх блокчейна DigiByte, который позволяет децентрализованно выпускать цифровые активы (NFT), токены, смарт-контракты, цифровую идентификацию и многое другое. Найдите его здесь: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "zh-CN": {
+            "title": "DigiFact # 85 - 你知道吗...",
+            "content": "DigiAssets是建立在DigiByte区块链之上的安全、可扩展的第二层，允许分散发行数字资产（NFT）、代币、智能合约、数字身份等。在这里找到它：https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ja": {
+            "title": "DigiFact # 85 - ご存知ですか...",
+            "content": "DigiAssetsは、DigiByteブロックチェーンの上に構築された安全でスケーラブルな第2層で、デジタルアセット（NFT）、トークン、スマートコントラクト、デジタルアイデンティティなどの分散発行を可能にします。詳細はこちら：https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "ko": {
+            "title": "DigiFact # 85 - 알고 계셨나요...",
+            "content": "DigiAssets는 DigiByte 블록체인 위에 구축된 안전하고 확장 가능한 두 번째 계층으로, 디지털 자산(NFT), 토큰, 스마트 계약, 디지털 신원 등의 분산 발행을 허용합니다. 여기에서 찾을 수 있습니다: https://github.com/DigiAsset-Core/DigiAsset_Core",
+            "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
+        },
+        "hi": {
+            "title": "DigiFact # 85 - क्या आप जानते हैं...",
+            "content": "DigiAssets एक सुरक्षित, स्केलेबल दूसरी स्तर है, जो DigiByte ब्लॉकचेन के ऊपर बनाई गई है, जिसमें डिजिटल संपत्ति (NFTs), टोकन, स्मार्ट कॉन्ट्रैक्ट्स, डिजिटल पहचान और अधिक के लिए डिसेंट्रलाइज्ड जारी करने की अनुमति होती है। इसे यहाँ पाएं: https://github.com/DigiAsset-Core/DigiAsset_Core",
             "url": "https://github.com/DigiAsset-Core/DigiAsset_Core"
         }
     },
