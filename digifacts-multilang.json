@@ -3161,62 +3161,63 @@
     "digifact52": {
         "en": {
             "title": "DigiFact # 52 - Did you know...",
-            "content": "Have you ever wanted to see some statistics about the DigiByte network? For an overview of the DigiByte network, visit: https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
+            "content": "There are currently $nodes_mn_total mainnet nodes and $nodes_tn_total testnet nodes running on the DigiByte blockchain.",
+            "url": ""
         },
         "zh": {
-            "title": "数字事实 #52 - 你知道吗？",
-            "content": "您是否曾想过查看有关DigiByte网络的一些统计信息？要了解DigiByte网络的概况，请访问：https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
+            "title": "DigiFact # 52 - 你知道吗...",
+            "content": "目前有 $nodes_mn_total 个主网节点和 $nodes_tn_total 个测试网节点在DigiByte区块链上运行。",
+            "url": ""
         },
         "ru": {
-            "title": "ДиджиФакт #52 - Знаете ли вы...",
-            "content": "Вы когда-нибудь хотели видеть некоторую статистику о сети DigiByte? Для обзора сети DigiByte посетите: https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
+            "title": "DigiFact # 52 - Знаете ли вы...",
+            "content": "В настоящее время на блокчейне DigiByte работает $nodes_mn_total узлов основной сети и $nodes_tn_total узлов тестовой сети.",
+            "url": ""
         },
         "es": {
-            "title": "DigiDato #52 - ¿Sabías que...",
-            "content": "¿Alguna vez has querido ver algunas estadísticas sobre la red de DigiByte? Para obtener una descripción general de la red de DigiByte, visita: https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
+            "title": "DigiFact # 52 - ¿Sabías que...",
+            "content": "Actualmente, hay $nodes_mn_total nodos de red principal y $nodes_tn_total nodos de red de prueba en funcionamiento en la cadena de bloques de DigiByte.",
+            "url": ""
         },
         "ko": {
-            "title": "디지팩트 #52 - 혹시 알고 계셨나요...",
-            "content": "DigiByte 네트워크에 대한 통계를 보고 싶었던 적이 있나요? DigiByte 네트워크 개요를 확인하려면 여기를 방문하세요: https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
+            "title": "DigiFact # 52 - 알고 계셨나요...",
+            "content": "현재 DigiByte 블록체인에서 $nodes_mn_total 개의 메인넷 노드와 $nodes_tn_total 개의 테스트넷 노드가 작동 중입니다.",
+            "url": ""
         },
         "ja": {
-            "title": "デジファクト #52 - ご存知でしたか...",
-            "content": "DigiByteネットワークに関する統計情報を見たことがありますか？DigiByteネットワークの概要については、こちらをご覧ください：https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
+            "title": "DigiFact # 52 - ご存知ですか...",
+            "content": "現在、DigiByte ブロックチェーン上で $nodes_mn_total 個のメインネットワークノードと $nodes_tn_total 個のテストネットワークノードが稼働しています。",
+            "url": ""
         },
         "de": {
-            "title": "DigiFakt #52 - Wussten Sie schon...",
-            "content": "Haben Sie jemals Statistiken über das DigiByte-Netzwerk sehen wollen? Für einen Überblick über das DigiByte-Netzwerk besuchen Sie: https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
+            "title": "DigiFact # 52 - Wussten Sie schon...",
+            "content": "Auf der DigiByte-Blockchain laufen derzeit $nodes_mn_total Mainnet-Knoten und $nodes_tn_total Testnet-Knoten.",
+            "url": ""
         },
         "fr": {
-            "title": "DigiFact #52 - Saviez-vous que...",
-            "content": "Avez-vous déjà voulu voir des statistiques sur le réseau DigiByte ? Pour un aperçu du réseau DigiByte, rendez-vous sur : https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
-        },
-        "pt": {
-            "title": "DigiFato #52 - Você sabia...",
-            "content": "Já quis ver algumas estatísticas sobre a rede DigiByte? Para uma visão geral da rede DigiByte, visite: https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #52 - क्या आप जानते थे...",
-            "content": "क्या आपने कभी DigiByte नेटवर्क के बारे में कुछ सांख्यिकी की देखने की इच्छा की है? DigiByte नेटवर्क के अवलोकन के लिए, यहाँ जाएं: https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
-        },
-        "nl": {
-            "title": "DigiFeit #52 - Wist u dat...",
-            "content": "Heb je ooit statistieken willen zien over het DigiByte-netwerk? Voor een overzicht van het DigiByte-netwerk, ga naar: https://digistats.digibyteservers.io"
+            "title": "DigiFact # 52 - Saviez-vous que...",
+            "content": "Il y a actuellement $nodes_mn_total nœuds du réseau principal et $nodes_tn_total nœuds du réseau de test en cours d'exécution sur la blockchain de DigiByte.",
+            "url": ""
         },
         "it": {
-            "title": "DigiFact # 52 - Lo sapevi...",
-            "content": "Hai mai desiderato vedere alcune statistiche sulla rete DigiByte? Per una panoramica della rete DigiByte, visita: https://digistats.digibyteservers.io",
-            "url": "https://digistats.digibyteservers.io"
+            "title": "DigiFact # 52 - Lo sapevi che...",
+            "content": "Attualmente ci sono $nodes_mn_total nodi di rete principale e $nodes_tn_total nodi di rete di test in esecuzione sulla blockchain di DigiByte.",
+            "url": ""
+        },
+        "hi": {
+            "title": "DigiFact # 52 - क्या आप जानते हैं...",
+            "content": "वर्तमान में DigiByte ब्लॉकचेन पर $nodes_mn_total मुख्य नोड्स और $nodes_tn_total परीक्षण नेटवर्क नोड्स कार्यरत हैं।",
+            "url": ""
+        },
+        "pt": {
+            "title": "DigiFact # 52 - Você sabia...",
+            "content": "Atualmente, existem $nodes_mn_total nós da rede principal e $nodes_tn_total nós da rede de teste em execução na blockchain da DigiByte.",
+            "url": ""
+        },
+        "nl": {
+            "title": "DigiFact # 52 - Wist je dat...",
+            "content": "Op dit moment zijn er $nodes_mn_total mainnet-knooppunten en $nodes_tn_total testnet-knooppunten actief op het DigiByte-blockchain.",
+            "url": ""
         }
     },
     "digifact53": {
@@ -5382,68 +5383,6 @@
             "title": "DigiFact # 87 - Wist je dat...",
             "content": "De DigiAsset Explorer, gemaakt door Renzo Diaz, een lid van de DigiByte-community, maakt het gemakkelijk om informatie over DigiAsset-transacties op te zoeken. Je vindt het hier: https://digiassets.info/",
             "url": "https://digiassets.info/"
-        }
-    },
-    "digifact88": {
-        "en": {
-            "title": "DigiFact # 88 - Did you know...",
-            "content": "There are currently $nodes_mn_total mainnet nodes and $nodes_tn_total testnet nodes running on the DigiByte blockchain.",
-            "url": ""
-        },
-        "zh": {
-            "title": "DigiFact # 88 - 你知道吗...",
-            "content": "目前有 $nodes_mn_total 个主网节点和 $nodes_tn_total 个测试网节点在DigiByte区块链上运行。",
-            "url": ""
-        },
-        "ru": {
-            "title": "DigiFact # 88 - Знаете ли вы...",
-            "content": "В настоящее время на блокчейне DigiByte работает $nodes_mn_total узлов основной сети и $nodes_tn_total узлов тестовой сети.",
-            "url": ""
-        },
-        "es": {
-            "title": "DigiFact # 88 - ¿Sabías que...",
-            "content": "Actualmente, hay $nodes_mn_total nodos de red principal y $nodes_tn_total nodos de red de prueba en funcionamiento en la cadena de bloques de DigiByte.",
-            "url": ""
-        },
-        "ko": {
-            "title": "DigiFact # 88 - 알고 계셨나요...",
-            "content": "현재 DigiByte 블록체인에서 $nodes_mn_total 개의 메인넷 노드와 $nodes_tn_total 개의 테스트넷 노드가 작동 중입니다.",
-            "url": ""
-        },
-        "ja": {
-            "title": "DigiFact # 88 - ご存知ですか...",
-            "content": "現在、DigiByte ブロックチェーン上で $nodes_mn_total 個のメインネットワークノードと $nodes_tn_total 個のテストネットワークノードが稼働しています。",
-            "url": ""
-        },
-        "de": {
-            "title": "DigiFact # 88 - Wussten Sie schon...",
-            "content": "Auf der DigiByte-Blockchain laufen derzeit $nodes_mn_total Mainnet-Knoten und $nodes_tn_total Testnet-Knoten.",
-            "url": ""
-        },
-        "fr": {
-            "title": "DigiFact # 88 - Saviez-vous que...",
-            "content": "Il y a actuellement $nodes_mn_total nœuds du réseau principal et $nodes_tn_total nœuds du réseau de test en cours d'exécution sur la blockchain de DigiByte.",
-            "url": ""
-        },
-        "it": {
-            "title": "DigiFact # 88 - Lo sapevi che...",
-            "content": "Attualmente ci sono $nodes_mn_total nodi di rete principale e $nodes_tn_total nodi di rete di test in esecuzione sulla blockchain di DigiByte.",
-            "url": ""
-        },
-        "hi": {
-            "title": "DigiFact # 88 - क्या आप जानते हैं...",
-            "content": "वर्तमान में DigiByte ब्लॉकचेन पर $nodes_mn_total मुख्य नोड्स और $nodes_tn_total परीक्षण नेटवर्क नोड्स कार्यरत हैं।",
-            "url": ""
-        },
-        "pt": {
-            "title": "DigiFact # 88 - Você sabia...",
-            "content": "Atualmente, existem $nodes_mn_total nós da rede principal e $nodes_tn_total nós da rede de teste em execução na blockchain da DigiByte.",
-            "url": ""
-        },
-        "nl": {
-            "title": "DigiFact # 88 - Wist je dat...",
-            "content": "Op dit moment zijn er $nodes_mn_total mainnet-knooppunten en $nodes_tn_total testnet-knooppunten actief op het DigiByte-blockchain.",
-            "url": ""
         }
     }
 }
