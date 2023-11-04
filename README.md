@@ -42,7 +42,7 @@ Contributions to this project from the community are actively encouraged. If you
 
 ### Translations
 
-We need volunteer native speakers to take responsibility for each language, translating and proofreading when needed. If you can help, please join the ["DigiFact Translation Team" Telegram group](https://t.me/DigiByteDigiFacts).
+We need volunteer native speakers to become the maintainer for each language, translating and proofreading when needed. If you can help, please join the ["DigiFact Translation Team" Telegram group](https://t.me/DigiByteDigiFacts).
 
 Support for the initial 12 languages was added with help from ChatGPT. For this reason, they all need proofreading by a native speaker. Please help if you can. To make this easier you can use the proofreading links above, which display the English DigiFacts alongside their translation, formatted so that they are easy to read. To submit improvements, please fork the repo, edit the digifacts-multilang.json file, and make a PR with your changes. Please check the JSON is valid before doing do.
 
@@ -50,19 +50,19 @@ If you are interested in helping translate the DigiFacts into additional languag
 
 If you contribute a new language, or are willing to take responibility for an existing one, please add your Github handle to the table below.
 
-| Language                 | Last Verified by                                 | Last Updated | Status                                              |
+| Language                 | Maintainer                                       | Last Updated | Status                                              |
 |--------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
 | en English               | [@saltedlolly](https://github.com/saltedlolly)   | 2023-11-01   |                                                     |
 | zh Chinese (Simplified)  |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | ru Russian               |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| es Spanish               |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| es Spanish               |                                                  | 2023-11-04   | Proofread                                           | 
 | ko Korean                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | ja Japanese              |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | de German                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | fr French                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | pt Portuguese            |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | hi Hindi                 |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| nl Dutch                 |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
+| nl Dutch                 | [@jongjan88](https://github.com/jongjan88)       | 2023-11-01   | Needs checking - currently chatGPT translation      | 
 | it Italian               |                                                  | 2023-11-03   | Needs checking - currently chatGPT translation      |
 
 ### Adding new DigiFacts
