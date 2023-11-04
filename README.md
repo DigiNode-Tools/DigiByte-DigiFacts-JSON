@@ -15,7 +15,7 @@ Users should always do their own due diligence before using any of the services 
 
 ## Usage
 
-- The DigiFacts are currently available in 12 languages listed below. You can help contribute more below.
+- DigiByte DigiFacts are currently available in 12 languages. You can help contribute more below.
 - Query the JSON URL, not more than once every 15 minutes, per language, and cache the results locally.
 - It is suggested to display a random DigiFact once per minute, or whenever the page reloads.
 
