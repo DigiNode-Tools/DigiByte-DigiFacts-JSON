@@ -7,16 +7,10 @@ The DigiFacts were originally created by several members of the DigiByte communi
 
 By providing them in JSON format, it is now easy for developers to use them in their projects to help educate their users about DigiByte. They are also now in a format that makes them easy to be updated and expanded in the future.
 
-## Disclaimer
-
-These DigiFacts are provided by the DigiByte community for the DigiByte community. It is up to the community to ensure they are current and accurate. Please make a PR with any corrections.
-
-Users should always do their own due diligence before using any of the services or products mentioned in these DigiFacts. They are provided for information purposes - mentions are not endorcements.
-
 ## Usage
 
 - DigiByte DigiFacts are currently available in 12 languages. You can help contribute more below.
-- Query the JSON URL, not more than once every 15 minutes, per language, and cache the results locally.
+- Query the JSON URL, not more than once every 15 minutes per language, and cache the results locally.
 - It is suggested to display a random DigiFact once per minute, or whenever the page reloads.
 
 **IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - querying the server once every 15 minutes per language should be sufficient. Please do not exceed this by making too many frequent requests to the server.**
@@ -93,4 +87,12 @@ These variable will be replaced by live data every few minutes.
 The following projects are known to use this service:
 
 - [DigiNode Tools](https://github.com/saltedlolly/diginode-tools) - DigiFacts are displayed in the DigiNode Dashboard
+
+## Disclaimer
+
+These DigiFacts are provided by the DigiByte community for the DigiByte community. It is up to the community to ensure they are current and accurate. Please make a PR with any corrections.
+
+Users should always do their own due diligence before using any of the services or products mentioned in these DigiFacts. They are provided for information purposes - mentions are not endorcements.
+
+
 
