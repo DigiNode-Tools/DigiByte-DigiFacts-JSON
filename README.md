@@ -52,18 +52,18 @@ If you contribute a new language, or are willing to take responibility for an ex
 
 | Language                 | Maintainer                                       | Last Updated | Status                                              |
 |--------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
-| en English               | [@saltedlolly](https://github.com/saltedlolly)   | 2023-11-01   |                                                     |
-| zh Chinese (Simplified)  |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| ru Russian               |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| es Spanish               |                                                  | 2023-11-04   | Proofread                                           | 
-| ko Korean                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| ja Japanese              |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| de German                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| fr French                |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| pt Portuguese            |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| hi Hindi                 |                                                  | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| nl Dutch                 | [@jongjan88](https://github.com/jongjan88)       | 2023-11-01   | Needs checking - currently chatGPT translation      | 
-| it Italian               |                                                  | 2023-11-03   | Needs checking - currently chatGPT translation      |
+| en English               | [@saltedlolly](https://github.com/saltedlolly)   | 2023-11-01   | Checked for grammatical errors                      |
+| zh Chinese (Simplified)  |                                                  | 2023-11-01   | Needs proofreading                                  | 
+| ru Russian               |                                                  | 2023-11-01   | Needs proofreading                                  | 
+| es Spanish               |                                                  | 2023-11-04   | Translation verfied by native speaker               | 
+| ko Korean                |                                                  | 2023-11-01   | Needs proofreading                                  | 
+| ja Japanese              |                                                  | 2023-11-01   | Needs proofreading                                  | 
+| de German                |                                                  | 2023-11-01   | Needs proofreading                                  |  
+| fr French                |                                                  | 2023-11-01   | Needs proofreading                                  | 
+| pt Portuguese            |                                                  | 2023-11-01   | Needs proofreading                                  | 
+| hi Hindi                 |                                                  | 2023-11-01   | Needs proofreading                                  | 
+| nl Dutch                 | [@jongjan88](https://github.com/jongjan88)       | 2023-11-01   | Needs proofreading                                  | 
+| it Italian               |                                                  | 2023-11-03   | Needs proofreading                                  | 
 
 ### Adding new DigiFacts
 
