@@ -15,12 +15,11 @@ Users should always do their own due diligence before using any of the services 
 
 ## Usage
 
-- The DigiFacts are currently available in 12 languages listed below. 
+- The DigiFacts are currently available in 12 languages listed below. You can help contribute more below.
 - Query the JSON URL, not more than once every 15 minutes, per language, and cache the results locally.
 - It is suggested to display a random DigiFact once per minute, or whenever the page reloads.
-- Use the Proofreading Links below to help check the translation
 
-**IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - querying the server once every 15 minutes per language should be sufficient. Please do not exceed this by making frequent requests to the server.**
+**IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - querying the server once every 15 minutes per language should be sufficient. Please do not exceed this by making too many frequent requests to the server.**
 
 | Language               | JSON URL                                             | 
 |------------------------|------------------------------------------------------|
