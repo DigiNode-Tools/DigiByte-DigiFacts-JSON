@@ -3,9 +3,11 @@ Provides DigiByte DigiFacts in JSON format. Supports multiple languages and dyna
 
 ## About DigiByte DigiFacts
 
-The DigiFacts were originally created by several members of the DigiByte community back in 2021. The originals can be found [here](https://github.com/DigiByte-Core/DigiFacts). Since then, they have been significantly revised and expanded over time.
+DigiFacts are bitsesize facts about DigiByte, designed to be embedded in apps and websites, and shared across social media.
 
-By providing them in JSON format, it is now easy for developers to use them in their projects to help educate their users about DigiByte. They are also now in a format that makes them easy to be updated and expanded in the future.
+The original DigiFacts were created by several members of the DigiByte community back in 2021. You can see the old DigiFacts [here](https://github.com/DigiByte-Core/DigiFacts). 
+
+These new DigiFacts are based on the originals, but have been signifcantly revised and expanded. They are now available in multiple languages and support displaying live data direct from the DigiByte blockchain. They are also now available in JSON format, which makes it really easy for developers to use them in their projects to help educate their users about DigiByte. This format also makes them easy to be updated and expanded in the future.
 
 ## Usage
 
@@ -98,7 +100,7 @@ dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv
 
 ![DigiFact Translation Fund](images/qr-code.png)
 
-You can monitor the conations [here](https://digibyteblockexplorer.com/address/dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv).
+You can monitor the current donations [here](https://digibyteblockexplorer.com/address/dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv).
 
 ## Projects
 
