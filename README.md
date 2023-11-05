@@ -11,8 +11,8 @@ These new DigiFacts are based on the originals, but have been signifcantly revis
 
 ## Usage
 
-- DigiByte DigiFacts are currently available in 12 languages. You can help contribute more below.
-- Query the JSON URL, not more than once every 15 minutes per language, and cache the results locally.
+- DigiByte DigiFacts are available in multiple languages. You can help contribute more below.
+- Query the JSON URL for the desired language, not more than once every 15 minutes, and cache the results locally.
 - It is suggested to display a random DigiFact once per minute, or whenever the page reloads.
 
 **IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - querying the server once every 15 minutes per language should be sufficient. Please do not exceed this by making too many frequent requests to the server.**
@@ -92,7 +92,7 @@ I would love to see the DigiFacts translated into many more additional languages
 
 To help accelerate the process of adding more languages, I have setup a DigiFacts Translation Fund. I pledge that for every 12,500 DGB that is donated, I will translate the DigiFacts into another five languages. That's about $20 per language. The community can help choose which languages to do next. I will do my best to add them dependent on ChatGPT's ability to translate them. Anyone who donates 2500 DGB or more gets to choose one of the new language themselves. Please contact me in advance via the ["DigiFacts Translation Team" Telegram group](https://t.me/DigiByteDigiFacts) so I can check that ChatGPT can translate to your chosen language, and send me your transation ID as verifcation. In addition to helping to fund the translation of the DigiFacts, the funds raised will also help support my server and hosting costs. To be clear, we will still need native speakers to help proofread once I am done, but that is a relatively quick job.
 
-Hopefully this fund can help accelerate the process of getting the DigiFacts translated into many more languages, while helping me to justify the time I spend working to add them. Whether this happens is up to the community.
+Hopefully this fund can help accelerate the process of getting the DigiFacts translated into many more languages, while helping me to justify the time I spend working to add them. It is up to the communuty if this happens.
 
 Please donate below if you can:
 
