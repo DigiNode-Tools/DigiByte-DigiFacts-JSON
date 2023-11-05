@@ -98,6 +98,8 @@ dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv
 
 ![DigiFact Trnslation Fund](images/qr-code.png)
 
+You can monitor the conations [here](https://digibyteblockexplorer.com/address/dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv).
+
 ## Projects
 
 The following projects are known to use this service:
