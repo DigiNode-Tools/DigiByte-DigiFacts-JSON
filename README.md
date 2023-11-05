@@ -82,13 +82,13 @@ If you wish to insert dynamic data into a DigiFact, please edit the digifacts-mu
 
 These variable will be replaced by live data every few minutes.
 
-## Donate to the DigiFact Translation Fund!
+## Donate to the DigiFacts Translation Fund!
 
 Translating the DigiFacts into a new language using ChatGPT takes time - up to 1.5 hours for a single language. Fortunately, the time required to translate five languages does not increase dramatically compared to doing just one. It does take longer but not that much longer - perhaps adding another hour.
 
 I would love to see the DigiFacts translated into many more additional languages, but having already completed 12 languages in my own time, it is not possible for me to justify spending more time on this for free. Anybody is free to contribute new languages themselves.
 
-To help accelerate the process of adding more languages, I have setup a DigiFact Translation Fund. I pledge that for every 12,500 DGB that is donated, I will translate the DigiFacts into another five languages. The community can help choose which languages to do next. I will do my best to add them dependent on ChatGPT's ability to translate them. Anyone who donates 2500 DGB or more gets to choose which new language themselves. Please contact me in advance via the ["DigiFact Translation Team" Telegram group](https://t.me/DigiByteDigiFacts) so I can check that ChatGPT can translate to your chosen language, and send me your transation ID as verifcation. In addition to helping to fund the translation of the DigiFacts, the funds raised will also help support my server and hosting costs. To be clear, we will still need native speakers to help proofread once I am done, but that is a relatively quick job.
+To help accelerate the process of adding more languages, I have setup a DigiFacts Translation Fund. I pledge that for every 12,500 DGB that is donated, I will translate the DigiFacts into another five languages. The community can help choose which languages to do next. I will do my best to add them dependent on ChatGPT's ability to translate them. Anyone who donates 2500 DGB or more gets to choose which new language themselves. Please contact me in advance via the ["DigiFacts Translation Team" Telegram group](https://t.me/DigiByteDigiFacts) so I can check that ChatGPT can translate to your chosen language, and send me your transation ID as verifcation. In addition to helping to fund the translation of the DigiFacts, the funds raised will also help support my server and hosting costs. To be clear, we will still need native speakers to help proofread once I am done, but that is a relatively quick job.
 
 Hopefully this fund can help accelerate the process of getting the DigiFacts translated into many more languages, while helping me to justify the time I spend working to add them. Whether this happens is up to the community.
 
