@@ -7,7 +7,7 @@ DigiFacts are bitsesize facts about DigiByte, designed to be embedded in apps an
 
 The original DigiFacts were created by several members of the DigiByte community back in 2021. You can see the old DigiFacts [here](https://github.com/DigiByte-Core/DigiFacts). 
 
-These new DigiFacts are based on the originals, but have been signifcantly revised and expanded. They are now available in multiple languages and support displaying live data direct from the DigiByte blockchain. They are also now available in JSON format, which makes it really easy for developers to use them in their projects to help educate their users about DigiByte. This format also makes them easy to be updated and expanded in the future.
+These new DigiFacts are based on the originals, but have been signifcantly revised and expanded. They are now available in multiple languages and support displaying live data direct from the DigiByte blockchain. They are also now available in JSON format, so it is easy for developers to use them in their projects, to help educate their users about DigiByte. This format also ensures they can be easilly updated and expanded in the future.
 
 ## Usage
 
