@@ -82,6 +82,22 @@ If you wish to insert dynamic data into a DigiFact, please edit the digifacts-mu
 
 These variable will be replaced by live data every few minutes.
 
+## Donate to the DigiFact Translation Fund!
+
+Translating all the existing DigiFacts into a new language using ChatGPT takes time - typically 1-2 hours to translate all the existing DigiFacts into a new language. Fortunately, the time required to translate five languages does not increase dramatically compared to doing just one. It does take longer but not that much longer - perhaps only another hour.
+
+I would love to see the DigiFacts translated into many more additional languages, but having already completed 12 languages in my own time, it is not possible for me to justify spending more time on this for free. Anybody is free to contribute new languages themselves.
+
+To help accelerate the process of adding more languages, I have setup a DigiFact Translation Fund. I pledge that for every 10,000 RMB that is donated, I will translate the DigiFacts into another five languages. The community can help choose which languages to do next. I will do my best to add them dependent on ChatGPTs ability to translate them. Anyone who donates 20,000 RMB or more can choose which language they would like translated - please contact me in advance so I can test if it is able to translate into your chosen language. You can get in touch via the ["DigiFact Translation Team" Telegram group](https://t.me/DigiByteDigiFacts). In addition to helping to fund the translation of the DigiFacts the funds raised will also help support my server and hosting costs. We will still need native speakers to help proofread once I am done, but that is a relatively quick job.
+
+Hopefully this fund can help accelerate the process of getting them translated, while helping me to justify the time I spend working to add them.
+
+Please donate below if you can:
+
+dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv
+
+![DigiFact Trnslation Fund](images/qr-code.png)
+
 ## Projects
 
 The following projects are known to use this service:
