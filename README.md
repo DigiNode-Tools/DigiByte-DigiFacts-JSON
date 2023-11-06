@@ -46,20 +46,20 @@ Translations have been added with help from ChatGPT. If you are a native speaker
 
 If you are interested in helping translate the DigiFacts into additional languages, you can find a step-by-step Translation Guide [here](translation-guide.md) for how to do this with help from ChatGPT.
 
-| Language (Click to Proofread)                                                              | Maintainer                                       | Last Updated | Status                                              |
-|-------------------------------------------------------------------------------------------|--------------------------------------------------|--------------|-----------------------------------------------------|
-| <a href="https://digifacts.digibyte.help/?lang=en&proofread">en English</a>               | [@saltedlolly](https://github.com/saltedlolly)   | 2023-11-01   | Checked for grammatical errors                      |
-| <a href="https://digifacts.digibyte.help/?lang=zh&proofread">zh Chinese (Simplified)</a>  |                                                  | 2023-11-01   | Needs proofreading                                  | 
-| <a href="https://digifacts.digibyte.help/?lang=ru&proofread">ru Russian</a>               |                                                  | 2023-11-01   | Needs proofreading                                  | 
-| <a href="https://digifacts.digibyte.help/?lang=es&proofread">es Spanish</a>               |                                                  | 2023-11-04   | Translation verfied by native speaker               | 
-| <a href="https://digifacts.digibyte.help/?lang=ko&proofread">ko Korean</a>                |                                                  | 2023-11-01   | Needs proofreading                                  | 
-| <a href="https://digifacts.digibyte.help/?lang=ja&proofread">ja Japanese</a>              |                                                  | 2023-11-01   | Needs proofreading                                  | 
-| <a href="https://digifacts.digibyte.help/?lang=de&proofread">de German</a>                |                                                  | 2023-11-01   | Needs proofreading                                  |  
-| <a href="https://digifacts.digibyte.help/?lang=fr&proofread">fr French</a>                |                                                  | 2023-11-01   | Needs proofreading                                  | 
-| <a href="https://digifacts.digibyte.help/?lang=pt&proofread">pt Portuguese</a>            |                                                  | 2023-11-01   | Needs proofreading                                  | 
-| <a href="https://digifacts.digibyte.help/?lang=hi&proofread">hi Hindi</a>                 |                                                  | 2023-11-01   | Needs proofreading                                  | 
-| <a href="https://digifacts.digibyte.help/?lang=nl&proofread">nl Dutch</a>                 | [@jongjan88](https://github.com/jongjan88)       | 2023-11-01   | Needs proofreading                                  | 
-| <a href="https://digifacts.digibyte.help/?lang=it&proofread">it Italian</a>               |                                                  | 2023-11-03   | Needs proofreading                                  | 
+| Language (Click to Proofread)                                                              | Maintainer(s)                                       | Last Updated | Status                                              |
+|-------------------------------------------------------------------------------------------|------------------------------------------------------|--------------|-----------------------------------------------------|
+| <a href="https://digifacts.digibyte.help/?lang=en&proofread">en English</a>               | [@saltedlolly](https://github.com/saltedlolly)       | 2023-11-01   | Checked for grammatical errors                      |
+| <a href="https://digifacts.digibyte.help/?lang=zh&proofread">zh Chinese (Simplified)</a>  |                                                      | 2023-11-01   | Needs proofreading                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=ru&proofread">ru Russian</a>               |                                                      | 2023-11-01   | Needs proofreading                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=es&proofread">es Spanish</a>               | [@rancell @kendrys](https://t.me/DigiByteDigiFacts)  | 2023-11-04   | OK                                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=ko&proofread">ko Korean</a>                |                                                      | 2023-11-01   | Needs proofreading                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=ja&proofread">ja Japanese</a>              |                                                      | 2023-11-01   | Needs proofreading                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=de&proofread">de German</a>                |                                                      | 2023-11-01   | Needs proofreading                                  |  
+| <a href="https://digifacts.digibyte.help/?lang=fr&proofread">fr French</a>                |                                                      | 2023-11-01   | Needs proofreading                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=pt&proofread">pt Portuguese</a>            |                                                      | 2023-11-01   | Needs proofreading                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=hi&proofread">hi Hindi</a>                 |                                                      | 2023-11-01   | Needs proofreading                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=nl&proofread">nl Dutch</a>                 | [@jongjan88](https://github.com/jongjan88)           | 2023-11-01   | Needs proofreading                                  | 
+| <a href="https://digifacts.digibyte.help/?lang=it&proofread">it Italian</a>               |                                                      | 2023-11-03   | Needs proofreading                                  | 
 
 ### Adding new DigiFacts
 
