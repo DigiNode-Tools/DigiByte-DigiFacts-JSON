@@ -48,7 +48,7 @@ If you are interested in helping translate the DigiFacts into additional languag
 
 | Language (Click to Proofread)                                                              | Maintainer(s)                                       | Last Updated | Status                                              |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------|--------------|-----------------------------------------------------|
-| <a href="https://digifacts.digibyte.help/?lang=en&proofread">en English</a>               | [@saltedlolly](https://github.com/saltedlolly)       | 2023-11-01   | Checked for grammatical errors                      |
+| <a href="https://digifacts.digibyte.help/?lang=en&proofread">en English</a>               | [@saltedlolly](https://github.com/saltedlolly)       | 2023-11-01   | Ok                                                  |
 | <a href="https://digifacts.digibyte.help/?lang=zh&proofread">zh Chinese (Simplified)</a>  |                                                      | 2023-11-01   | Needs proofreading                                  | 
 | <a href="https://digifacts.digibyte.help/?lang=ru&proofread">ru Russian</a>               |                                                      | 2023-11-01   | Needs proofreading                                  | 
 | <a href="https://digifacts.digibyte.help/?lang=es&proofread">es Spanish</a>               | [@rancell @kendrys](https://t.me/DigiByteDigiFacts)  | 2023-11-04   | OK                                                  | 
