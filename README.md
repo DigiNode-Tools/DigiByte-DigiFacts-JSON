@@ -12,25 +12,32 @@ These new DigiFacts are based on the originals, but have been signifcantly revis
 ## Usage
 
 - DigiByte DigiFacts are available in multiple languages. You can help contribute more below.
-- Query the JSON URL for the desired language, not more than once every 15 minutes, and cache the results locally.
+- You can query the links to retrieve the DigiFacts in multiple formats - social (default), html and markdown (see below)
+- Query the JSON URL for the desired language and format, not more than once every 15 minutes, and cache the results locally.
 - It is suggested to display a random DigiFact once per minute, or whenever the page reloads.
 
 **IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - querying the server once every 15 minutes per language should be sufficient. Please do not exceed this by making too many frequent requests to the server.**
 
-| Language               | JSON URL                                             | 
-|------------------------|------------------------------------------------------|
-| English                | https://digifacts.digibyte.help/?lang=en             |
-| Chinese (Simplified)   | https://digifacts.digibyte.help/?lang=zh             |
-| Russian                | https://digifacts.digibyte.help/?lang=ru             |     
-| Spanish                | https://digifacts.digibyte.help/?lang=es             |
-| Korean                 | https://digifacts.digibyte.help/?lang=ko             |
-| Japanese               | https://digifacts.digibyte.help/?lang=ja             |
-| German                 | https://digifacts.digibyte.help/?lang=de             |
-| French                 | https://digifacts.digibyte.help/?lang=fr             |
-| Portuguese             | https://digifacts.digibyte.help/?lang=pt             |
-| Hindi                  | https://digifacts.digibyte.help/?lang=hi             |
-| Dutch                  | https://digifacts.digibyte.help/?lang=nl             |
-| Italian                | https://digifacts.digibyte.help/?lang=it             |
+| Language               | JSON URL                                                           | 
+|------------------------|--------------------------------------------------------------------|
+| English                | https://digifacts.digibyte.help/?lang=en&format=social             |
+| Chinese (Simplified)   | https://digifacts.digibyte.help/?lang=zh&format=social             |
+| Russian                | https://digifacts.digibyte.help/?lang=ru&format=social             |     
+| Spanish                | https://digifacts.digibyte.help/?lang=es&format=social             |
+| Korean                 | https://digifacts.digibyte.help/?lang=ko&format=social             |
+| Japanese               | https://digifacts.digibyte.help/?lang=ja&format=social             |
+| German                 | https://digifacts.digibyte.help/?lang=de&format=social             |
+| French                 | https://digifacts.digibyte.help/?lang=fr&format=social             |
+| Portuguese             | https://digifacts.digibyte.help/?lang=pt&format=social             |
+| Hindi                  | https://digifacts.digibyte.help/?lang=hi&format=social             |
+| Dutch                  | https://digifacts.digibyte.help/?lang=nl&format=social             |
+| Italian                | https://digifacts.digibyte.help/?lang=it&format=social             |
+
+### Requesting Diferent Formats
+
+- ```format=social``` displays URLs displayed in the content: ```Click here for more: https://example.com``` This makes them ideal for sharing on social media.
+- ```format=html``` displays links formatted as HTML anchors: ```Click <a href=\"https://example.com\">here</a> for more.``` This makes them ideal for embedding in web pages.
+- ```format=markdown``` displays links formatted in markdown syntax: ```Click <a href=\"https://example.com\">here</a> for more.```
 
 For more help, visit: https://digifacts.digibyte.help/?help
 
