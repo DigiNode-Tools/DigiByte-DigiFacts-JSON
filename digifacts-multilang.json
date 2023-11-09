@@ -7985,52 +7985,53 @@
             "link_md": "こちらで見つけてください[こちら](https://wiki.digibyte.org/)。"
         },
         "de": {
-        "title": "DigiFact # 82 - Wusstest du...",
-        "content": "Das DigiByte-Wiki ist eine fantastische Informationsquelle für alles rund um DigiByte, verfasst und gepflegt von Mitgliedern der DigiByte-Community.",
-        "url": "https://wiki.digibyte.org/",
-        "link_social": "Hier finden Sie es: https://wiki.digibyte.org/",
-        "link_html": "Finden Sie es <a href=\"https://wiki.digibyte.org/\">hier</a>.",
-        "link_md": "Finden Sie es [hier](https://wiki.digibyte.org/)."
-    },
-    "fr": {
-        "title": "DigiFact # 82 - Saviez-vous que...",
-        "content": "Le Wiki DigiByte est une source fantastique d'informations sur tout ce qui concerne DigiByte, rédigée et entretenue par des membres de la communauté DigiByte.",
-        "url": "https://wiki.digibyte.org/",
-        "link_social": "Trouvez-le ici : https://wiki.digibyte.org/",
-        "link_html": "Trouvez-le <a href=\"https://wiki.digibyte.org/\">ici</a>.",
-        "link_md": "Trouvez-le [ici](https://wiki.digibyte.org/)."
-    },
-    "it": {
-        "title": "DigiFact # 82 - Lo sapevi...",
-        "content": "Il Wiki di DigiByte è una fantastica risorsa di informazioni su tutto ciò che riguarda DigiByte, scritta e mantenuta dai membri della comunità DigiByte.",
-        "url": "https://wiki.digibyte.org/",
-        "link_social": "Trovalo qui: https://wiki.digibyte.org/",
-        "link_html": "Trovalo <a href=\"https://wiki.digibyte.org/\">qui</a>.",
-        "link_md": "Trovalo [qui](https://wiki.digibyte.org/)."
-    },
-    "hi": {
-        "title": "DigiFact # 82 - क्या आप जानते हैं...",
-        "content": "DigiByte विकी डिज़ाइन और डिज़ाइट दोनों में डिज़ाइन और डिज़ाइट नोड का प्रबंधन करने के लिए एक सफ्टवेयर सूट है, जिसमें एक रैस्पबेरी पाइ या यूबंटू सिस्टम जैसे कम पॉवर डिवाइस पर डिज़ाइट और/या डिज़ाइट नोड सेटअप करना बहुत आसान होता है। सेटअप मेन्यू-ड्रिवन है और विस्तृत कदम-से-कदम निर्देश प्रदान किए जाते हैं। आप एक ड्यूल नोड सेटअप भी कर सकते हैं, जो एक ही डिवाइस पर मेननेट और टेस्टनेट नोड दोनों चलाने की सुविधा प्रदान करता है।",
-        "url": "https://diginode.tools/",
-        "link_social": "यहां और अधिक जानें: https://diginode.tools/",
-        "link_html": "यहां और अधिक जानें <a href=\"https://diginode.tools/\">यहां</a>।",
-        "link_md": "यहां और अधिक जानें [यहां](https://diginode.tools/)।"
-    },
-    "pt": {
-        "title": "DigiFact # 82 - Você sabia...",
-        "content": "A Wiki DigiByte é uma fantástica fonte de informações sobre tudo relacionado ao DigiByte, escrita e mantida por membros da comunidade DigiByte.",
-        "url": "https://wiki.digibyte.org/",
-        "link_social": "Encontre-a aqui: https://wiki.digibyte.org/",
-        "link_html": "Encontre-a <a href=\"https://wiki.digibyte.org/\">aqui</a>.",
-        "link_md": "Encontre-a [aqui](https://wiki.digibyte.org/)."
-    },
-    "nl": {
-        "title": "DigiFact # 82 - Wist je dat...",
-        "content": "De DigiByte Wiki is een fantastische informatiebron voor alles wat met DigiByte te maken heeft, geschreven en onderhouden door leden van de DigiByte-community.",
-        "url": "https://wiki.digibyte.org/",
-        "link_social": "Vind het hier: https://wiki.digibyte.org/",
-        "link_html": "Vind het <a href=\"https://wiki.digibyte.org/\">hier</a>.",
-        "link_md": "Vind het [hier](https://wiki.digibyte.org/)."
+            "title": "DigiFact # 82 - Wusstest du...",
+            "content": "Das DigiByte-Wiki ist eine fantastische Informationsquelle für alles rund um DigiByte, verfasst und gepflegt von Mitgliedern der DigiByte-Community.",
+            "url": "https://wiki.digibyte.org/",
+            "link_social": "Hier finden Sie es: https://wiki.digibyte.org/",
+            "link_html": "Finden Sie es <a href=\"https://wiki.digibyte.org/\">hier</a>.",
+            "link_md": "Finden Sie es [hier](https://wiki.digibyte.org/)."
+        },
+        "fr": {
+            "title": "DigiFact # 82 - Saviez-vous que...",
+            "content": "Le Wiki DigiByte est une source fantastique d'informations sur tout ce qui concerne DigiByte, rédigée et entretenue par des membres de la communauté DigiByte.",
+            "url": "https://wiki.digibyte.org/",
+            "link_social": "Trouvez-le ici : https://wiki.digibyte.org/",
+            "link_html": "Trouvez-le <a href=\"https://wiki.digibyte.org/\">ici</a>.",
+            "link_md": "Trouvez-le [ici](https://wiki.digibyte.org/)."
+        },
+        "it": {
+            "title": "DigiFact # 82 - Lo sapevi...",
+            "content": "Il Wiki di DigiByte è una fantastica risorsa di informazioni su tutto ciò che riguarda DigiByte, scritta e mantenuta dai membri della comunità DigiByte.",
+            "url": "https://wiki.digibyte.org/",
+            "link_social": "Trovalo qui: https://wiki.digibyte.org/",
+            "link_html": "Trovalo <a href=\"https://wiki.digibyte.org/\">qui</a>.",
+            "link_md": "Trovalo [qui](https://wiki.digibyte.org/)."
+        },
+        "hi": {
+            "title": "DigiFact # 82 - क्या आप जानते हैं...",
+            "content": "DigiByte विकी डिज़ाइन और डिज़ाइट दोनों में डिज़ाइन और डिज़ाइट नोड का प्रबंधन करने के लिए एक सफ्टवेयर सूट है, जिसमें एक रैस्पबेरी पाइ या यूबंटू सिस्टम जैसे कम पॉवर डिवाइस पर डिज़ाइट और/या डिज़ाइट नोड सेटअप करना बहुत आसान होता है। सेटअप मेन्यू-ड्रिवन है और विस्तृत कदम-से-कदम निर्देश प्रदान किए जाते हैं। आप एक ड्यूल नोड सेटअप भी कर सकते हैं, जो एक ही डिवाइस पर मेननेट और टेस्टनेट नोड दोनों चलाने की सुविधा प्रदान करता है।",
+            "url": "https://diginode.tools/",
+            "link_social": "यहां और अधिक जानें: https://diginode.tools/",
+            "link_html": "यहां और अधिक जानें <a href=\"https://diginode.tools/\">यहां</a>।",
+            "link_md": "यहां और अधिक जानें [यहां](https://diginode.tools/)।"
+        },
+        "pt": {
+            "title": "DigiFact # 82 - Você sabia...",
+            "content": "A Wiki DigiByte é uma fantástica fonte de informações sobre tudo relacionado ao DigiByte, escrita e mantida por membros da comunidade DigiByte.",
+            "url": "https://wiki.digibyte.org/",
+            "link_social": "Encontre-a aqui: https://wiki.digibyte.org/",
+            "link_html": "Encontre-a <a href=\"https://wiki.digibyte.org/\">aqui</a>.",
+            "link_md": "Encontre-a [aqui](https://wiki.digibyte.org/)."
+        },
+        "nl": {
+            "title": "DigiFact # 82 - Wist je dat...",
+            "content": "De DigiByte Wiki is een fantastische informatiebron voor alles wat met DigiByte te maken heeft, geschreven en onderhouden door leden van de DigiByte-community.",
+            "url": "https://wiki.digibyte.org/",
+            "link_social": "Vind het hier: https://wiki.digibyte.org/",
+            "link_html": "Vind het <a href=\"https://wiki.digibyte.org/\">hier</a>.",
+            "link_md": "Vind het [hier](https://wiki.digibyte.org/)."
+        }
     },
     "digifact83": {
         "en": {
