@@ -35,9 +35,9 @@ These new DigiFacts are based on the originals, but have been signifcantly revis
 
 ### Requesting Diferent Formats
 
-- ```format=social``` displays URLs displayed in the content. This makes them ideal for sharing on social media. e.g. ```Click here for more: https://example.com``` 
-- ```format=html``` displays links formatted as HTML anchors. This makes them ideal for embedding in web pages. e.g. ```Click <a href=\"https://example.com\">here</a> for more.```
-- ```format=markdown``` displays links formatted in markdown syntax. <br>e.g. ```Click <a href=\"https://example.com\">here</a> for more.```
+- ```format=social``` displays URLs displayed in the content. This makes them ideal for sharing on social media.<br>e.g. ```Click here for more: https://example.com``` 
+- ```format=html``` displays links formatted as HTML anchors. This makes them ideal for embedding in web pages.<br>e.g. ```Click <a href="https://example.com">here</a> for more.```
+- ```format=markdown``` displays links formatted in markdown syntax. <br>e.g. ```Click [here](https://example.com) for more.```
 
 For more help, visit: https://digifacts.digibyte.help/?help
 
