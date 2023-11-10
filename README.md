@@ -12,11 +12,12 @@ These new DigiFacts are based on the originals, but have been signifcantly revis
 ## Usage
 
 - DigiByte DigiFacts are available in multiple languages. You can help contribute more below.
-- You can query the links to retrieve the DigiFacts in multiple formats - social (default), html and markdown (see below)
+- DigiFacts can be retrieved in multiple formats - social (default), html and markdown (see below)
 - Query the JSON URL for the desired language and format, not more than once every 15 minutes, and cache the results locally.
 - It is suggested to display a random DigiFact once per minute, or whenever the page reloads.
+- **IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated frequently so that they remain accurate - querying the server once every 15 minutes per language should be sufficient. Please do not exceed this by making too many frequent requests to avoid stressing the server.**
 
-**IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - querying the server once every 15 minutes per language should be sufficient. Please do not exceed this by making too many frequent requests to the server.**
+For more help, visit: https://digifacts.digibyte.help/?help
 
 | Language               | JSON URL                                                           | 
 |------------------------|--------------------------------------------------------------------|
@@ -35,11 +36,9 @@ These new DigiFacts are based on the originals, but have been signifcantly revis
 
 ### Requesting Diferent Formats
 
-- ```format=social``` displays URLs displayed in the content. This makes them ideal for sharing on social media.<br>e.g. ```Click here for more: https://example.com``` 
-- ```format=html``` displays links formatted as HTML anchors. This makes them ideal for embedding in web pages.<br>e.g. ```Click <a href="https://example.com">here</a> for more.```
-- ```format=markdown``` displays links formatted in markdown syntax. <br>e.g. ```Click [here](https://example.com) for more.```
-
-For more help, visit: https://digifacts.digibyte.help/?help
+- ```format=social``` displays any links with the URL inline. This makes them ideal for sharing on social media.<br>e.g. ```Click here for more: https://example.com``` 
+- ```format=html``` displays any links as HTML. This makes them ideal for embedding in web pages.<br>e.g. ```Click <a href="https://example.com">here</a> for more.```
+- ```format=markdown``` displays any links as markdown syntax.<br>e.g. ```Click [here](https://example.com) for more.```
 
 ## Contributions
 
