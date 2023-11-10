@@ -92,21 +92,26 @@ These variable will be replaced by live data every few minutes.
 
 ## Donate to the DigiFacts Translation Fund!
 
-Translating the DigiFacts into a new language using ChatGPT takes time - up to 1.5 hours for a single language. Fortunately, the time required to translate five languages does not increase dramatically compared to doing just one. It does take longer but not that much longer - perhaps adding another hour.
+Please help DigiByte reach more people around the world by donating to the DigiFacts Translation Fund:
 
-I would love to see the DigiFacts translated into many more additional languages, but having already completed 12 languages in my own time, it is not possible for me to justify spending more time on this for free. Anybody is free to contribute new languages themselves.
+- For every 12,500 DGB that is donated, DigiFacts will be translated into five additional languages.
+- Anyone who donates 2500 DGB or more gets to choose a language to translate to. (see below)
 
-To help accelerate the process of adding more languages, I have setup a DigiFacts Translation Fund. I pledge that for every 12,500 DGB that is donated, I will translate the DigiFacts into another five languages. That's about $20 per language. The community can help choose which languages to do next. I will do my best to add them dependent on ChatGPT's ability to translate them. Anyone who donates 2500 DGB or more gets to choose one of the new language themselves. Please contact me in advance via the ["DigiFacts Translation Team" Telegram group](https://t.me/DigiByteDigiFacts) so I can check that ChatGPT can translate to your chosen language, and send me your transation ID as verifcation. In addition to helping to fund the translation of the DigiFacts, the funds raised will also help support my server and hosting costs. To be clear, we will still need native speakers to help proofread once I am done, but that is a relatively quick job.
-
-Hopefully this fund can help accelerate the process of getting the DigiFacts translated into many more languages, while helping me to justify the time I spend working to add them. It is up to the communuty if this happens.
-
-Please donate below if you can:
-
-dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv
+Donate here: **dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv**
 
 ![DigiFact Translation Fund](images/qr-code.png)
 
 You can monitor the current donations [here](https://digibyteblockexplorer.com/address/dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv).
+
+### Why Donate?
+
+Translating the DigiFacts into a new language using ChatGPT takes time - up to 2 hours for a single language. Fortunately, the time required to translate five languages does not increase dramatically compared to doing just one. It does take longer but not that much longer - perhaps adding another hour.
+
+I would love to see the DigiFacts translated into many more additional languages, but having already completed 12 languages in my own time, it is not possible for me to justify spending more time on this for free. Anybody is free to contribute new languages themselves.
+
+To help accelerate the process of adding more languages, I have setup a DigiFacts Translation Fund. I pledge that for every 12,500 DGB that is donated, I will translate the DigiFacts into another five languages. I will invite the community to help choose which languages to do next. I will do my best to add them dependent on ChatGPT's ability to translate them. Anyone who donates 2500 DGB or more gets to choose one of the new language themselves. Please contact me in advance via the ["DigiFacts Translation Team" Telegram group](https://t.me/DigiByteDigiFacts) so I can check that ChatGPT can translate to your chosen language, and send me your transation ID as verifcation. In addition to helping to fund the translation of the DigiFacts, the funds raised will also help support my server and hosting costs. To be clear, we will still need native speakers to help proofread once I am done, but that is a relatively quick job.
+
+Hopefully this fund can help accelerate the process of getting the DigiFacts translated into many more languages, while helping me to justify the time I spend working to add them. Please donate if you can.
 
 ## Projects
 
