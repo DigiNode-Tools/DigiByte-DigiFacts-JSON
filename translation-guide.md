@@ -20,7 +20,7 @@ You will need a GitHub account.
 
 For this task I highly recommend installing the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) extension for Google Chrome. It formats the JSON nicely in your brower window to make it easier to read.
 
-- In one browser window open the [English version of this DigiFacts](https://digifacts.digibyte.help/). This is what we will be translating from.
+- In one browser window open the [English version of this DigiFacts](https://digifacts.digibyte.help/?view_raw). This is what we will be translating from.
 - In a second brower window open ChatGPT. You want to use GPT-3.5 as it is much faster for this task.
 - In VS Code, open the digifacts-multilang.json file from the repo.
 
@@ -32,42 +32,66 @@ At the GPT-3.5 prompt paste the following:
 I need your help translating some snippets of json code containing numbered DigiFacts - facts about DigiByte. They will be translated from English to the language I specify. I will be providing you with one or more numbered DigiFacts as a snippet of JSON code like this:
 
 "digifact1": {
-"title": "DigiFact # 1 - Did you know...",
-"content": "The DigiByte blockchain launched in 2014. Thanks to its 15 second block time, it is the longest UTXO blockchain in existence with over 18 million blocks. Bitcoin will take until the 22nd century to reach that many blocks.",
-"url": ""
+    "en": {
+        "title": "DigiFact # 1 - Did you know...",
+        "content": "The DigiByte blockchain launched in 2014. Thanks to its 15 second block time, it is the longest UTXO blockchain in existence with over $blocks_tot_mil million blocks. Bitcoin will take until the 22nd century to reach that many blocks.",
+        "url": "",
+        "link_social": "",
+        "link_html": "",
+        "link_md": ""
+    }
 },
 "digifact2": {
-"title": "DigiFact # 2 - Did you know...",
-"content": "DigiByte has upgraded the network a number of times to include \"Improvement milestones\". These hard forks were not contentious splits that generated additional coins, but rather a \"reorientation of the ship\" that the DigiByte community was onboard with. Learn more: https://rb.gy/egrt5",
-"url": "https://rb.gy/egrt5"
+    "en": {
+        "title": "DigiFact # 2 - Did you know...",
+        "content": "DigiByte has upgraded the network a number of times to include \"Improvement milestones\". These hard forks were not contentious splits that generated additional coins, but rather a \"reorientation of the ship\" that the DigiByte community was onboard with.",
+        "url": "https://rb.gy/egrt5",
+        "link_social": " Learn more: https://rb.gy/egrt5",
+        "link_html": " Learn more <a href=\"https://rb.gy/egrt5\">here</a>.",
+        "link_md": " Learn more [here](https://rb.gy/egrt5)."
+    }
 },
 "digifact3": {
-"title": "DigiFact # 3 - Did you know...",
-"content": "The DigiByte blockchain was fairly launched in 2014, long before the 2017 Initial Coin Offering (ICO) craze of whitepaper projects. DigiByte began with a fully working blockchain that has been improved upon consistently ever since.",
-"url": ""
+    "en": {
+        "title": "DigiFact # 3 - Did you know...",
+        "content": "The DigiByte blockchain was fairly launched in 2014, long before the 2017 Initial Coin Offering (ICO) craze of whitepaper projects. DigiByte began with a fully working blockchain that has been improved upon consistently ever since.",
+        "url": "",
+        "link_social": "",
+        "link_html": "",
+        "link_md": ""
+    }
 },
 
-Based on the input, I want you to translate them into the following JSON format. In this example, I am using Italian. Here is an example of the output:
+Based on the input, I want you to translate them into the following JSON format. In this example, I am using Italian. Make sure the link_social, link_html and link_md values start with a space if included. Here is an example of the output:
 
 "digifact1": {
     "it": {
         "title": "DigiFact # 1 - Lo sapevi...",
         "content": "La blockchain di DigiByte è stata lanciata nel 2014. Grazie al suo tempo di blocco di 15 secondi, è la blockchain UTXO più lunga esistente con oltre 18 milioni di blocchi. Bitcoin impiegherà fino al 22° secolo per raggiungere così tanti blocchi.",
-        "url": ""
+        "url": "",
+        "link_social": "",
+        "link_html": "",
+        "link_md": ""
     }
 },
 "digifact2": {
     "it": {
         "title": "DigiFact # 2 - Lo sapevi...",
-        "content": "DigiByte ha aggiornato la rete diverse volte per includere 'Pietre miliari di miglioramento'. Queste hard fork non sono state divisioni controverse che hanno generato monete aggiuntive, ma piuttosto una 'riorientazione della nave' alla quale la comunità di DigiByte ha aderito. Scopri di più: https://rb.gy/egrt5",
-        "url": "https://rb.gy/egrt5"
+        "content": "DigiByte ha aggiornato la rete diverse volte per includere 'Pietre miliari di miglioramento'. Queste hard fork non sono state divisioni controverse che hanno generato monete aggiuntive, ma piuttosto una 'riorientazione della nave' alla quale la comunità di DigiByte ha aderito.",
+        "url": "https://rb.gy/egrt5",
+        "link_social": " Scopri di più: https://rb.gy/egrt5",
+        "link_html": " Ulteriori informazioni <a href=\"https://rb.gy/egrt5\">qui</a>.",
+        "link_md": " Ulteriori informazioni [qui](https://rb.gy/egrt5)."
     }
 },
 "digifact3": {
     "it": {
         "title": "DigiFact # 3 - Lo sapevi...",
         "content": "La blockchain di DigiByte è stata lanciata in modo equo nel 2014, molto prima della febbre delle Initial Coin Offering (ICO) del 2017 dei progetti whitepaper. DigiByte è iniziato con una blockchain perfettamente funzionante che è stata costantemente migliorata da allora.",
-        "url": ""
+        "url": "",
+        "link_social": "",
+        "link_html": "",
+        "link_md": ""
     }
 },
 
