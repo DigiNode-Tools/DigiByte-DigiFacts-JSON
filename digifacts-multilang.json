@@ -1475,8 +1475,8 @@
             "content": "For general DigiByte support, a good place to start is with the community support tool available",
             "url": "https://dgbsupport.digiassetx.com/",
             "link_social": " here: https://dgbsupport.digiassetx.com/",
-            "link_html": " <a href=\"https://dgbsupport.digiassetx.com/\">hier</a>.",
-            "link_md": " [hier](https://dgbsupport.digiassetx.com/)."
+            "link_html": " <a href=\"https://dgbsupport.digiassetx.com/\">here</a>.",
+            "link_md": " [here](https://dgbsupport.digiassetx.com/)."
         },
         "zh": {
             "title": "DigiFact # 16 - 你知道吗...",
@@ -4415,8 +4415,8 @@
             "content": "DigiByte was the first major blockchain project to enable the Dandelion privacy protocol, to protect your IP address. You can opt out of the privacy-protection it offers if you want even faster transactions.",
             "url": "https://j.mp/3Hag6AX",
             "link_social": " To learn more about Dandelion, visit: https://j.mp/3Hag6AX",
-            "link_html": " Go <a href=\"https://j.mp/3Hag6AX\">here</a> to learn more about Dandelion, visit.",
-            "link_md": " Go [here](https://j.mp/3Hag6AX) to learn more about Dandelion, visit."
+            "link_html": " Go <a href=\"https://j.mp/3Hag6AX\">here</a> to learn more about Dandelion.",
+            "link_md": " Go [here](https://j.mp/3Hag6AX) to learn more about Dandelion"
         },
         "zh": {
             "title": "DigiFact # 46 - 你知道吗...",
