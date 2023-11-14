@@ -11,11 +11,11 @@ These new DigiFacts are based on the originals, but have been signifcantly revis
 
 ## Usage
 
-- DigiByte DigiFacts are available in multiple languages. You can help contribute more below.
-- DigiFacts can be retrieved in multiple formats - social (default), html and markdown (see below)
-- Query the JSON URL for the desired language and format, not more than once every 15 minutes, and cache the results locally.
+- DigiByte DigiFacts are available in multiple languages and in multiple formats - social (default), html and markdown (see below).
+- For Wordpress users, there is a plugin available [here](https://github.com/saltedlolly/DigiByte-DigiFacts-Wordpress-Plugin) that makes it easy to add the DigiFacts to your website.
+- Query the JSON URL for the desired language and format, not more than once every 60 minutes, and cache the results locally.
 - It is suggested to display a random DigiFact once per minute, or whenever the page reloads.
-- **IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated frequently so that they remain accurate - querying the server once every 15 minutes per language should be sufficient. Please do not exceed this by making too many frequent requests to avoid stressing the server.**
+- **IMPORTANT: Several of the DigiFacts include dynamic data (see below) and must be updated periodically so that they remain accurate - querying the server once every hour per language should be sufficient. Please do not exceed this by making too many frequent requests to avoid stressing the server.**
 
 For more help, visit: https://digifacts.digibyte.help/?help
 
