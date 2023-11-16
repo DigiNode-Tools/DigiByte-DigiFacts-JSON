@@ -670,7 +670,7 @@
         },
         "nl": {
             "title": "DigiFeit #7 - Wist u dat...",
-            "content": "Transactiekosten op de DigiByte blockchain zijn doorgaans ongelooflijk laag. In blok 7658349 heeft een gebruiker 342.000.000 DGB (op dat moment $6 miljoen USD waard) verstuurd vanuit de inputs van meer dan 200 verschillende adressen. Het kostte 1/10 van een cent (USD) aan kosten en duurde slechts een minuut of twee om te bevestigen.",
+            "content": "Transactiekosten op de DigiByte blockchain zijn doorgaans ongelooflijk laag. In blok 7658349 heeft een gebruiker 342.000.000 DGB (op dat moment $6 miljoen USD waard) verstuurd vanuit meer dan 200 verschillende adressen. De transactie kostte 1/10 van een cent (USD) en duurde slechts een minuut of twee om te bevestigen.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -776,7 +776,7 @@
         },
         "nl": {
             "title": "DigiFact # 8 - Wist je dat...",
-            "content": "DigiByte was de pionier van de DigiShield moeilijkheidsaanpassing. Het wordt gebruikt in Dogecoin, Ubiq, ZCash, Monacoin en delen van de code worden zelfs gebruikt in Ethereum.",
+            "content": "DigiByte is de ontwikkelaar van DigiShield moeilijkheidsaanpassing. Het wordt gebruikt in Dogecoin, Ubiq, ZCash, Monacoin en delen van de code worden zelfs gebruikt in Ethereum. ",
             "url": "https://j.mp/3oivy5u",
             "link_social": " Wat is DigiShield (ook bekend als MultiShield)? Lees hier meer: https://j.mp/3oivy5u",
             "link_html": " Wat is DigiShield (ook bekend als MultiShield)? Lees meer <a href=\"https://j.mp/3oivy5u\">hier</a>.",
@@ -1374,7 +1374,7 @@
     "digifact15": {
         "en": {
             "title": "DigiFact # 15 - Did you know...",
-            "content": "DigiByte is not an ICO or a token launched on another network, but rather a pure blockchain project with its own consensus rules like Bitcoin or Vertcoin.",
+            "content": "DigiByte is not an ICO or a token launched on another network, but rather a pure blockchain project with its own consensus rules like Bitcoin or Litecoin.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1382,7 +1382,7 @@
         },
         "zh": {
             "title": "数字事实 #15 - 你知道吗？",
-            "content": "DigiByte不是一个在其他网络上发行的ICO或代币，而是一个纯粹的区块链项目，有着像比特币或Vertcoin这样的自己的共识规则。",
+            "content": "DigiByte不是一个在其他网络上发行的ICO或代币，而是一个纯粹的区块链项目，有着像比特币或Litecoin这样的自己的共识规则。",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1390,7 +1390,7 @@
         },
         "ru": {
             "title": "ДиджиФакт #15 - Знаете ли вы...",
-            "content": "DigiByte — это не ICO или токен, запущенный в другой сети, а чистый блокчейн-проект со своими правилами консенсуса, подобно Bitcoin или Vertcoin.",
+            "content": "DigiByte — это не ICO или токен, запущенный в другой сети, а чистый блокчейн-проект со своими правилами консенсуса, подобно Bitcoin или Litecoin.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1398,7 +1398,7 @@
         },
         "es": {
             "title": "DigiDato #15 - ¿Sabías que...",
-            "content": "DigiByte no es un ICO o un token lanzado en otra red, sino un proyecto de blockchain puro con sus propias reglas de consenso como Bitcoin o Vertcoin.",
+            "content": "DigiByte no es un ICO o un token lanzado en otra red, sino un proyecto de blockchain puro con sus propias reglas de consenso como Bitcoin o Litecoin.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1414,7 +1414,7 @@
         },
         "ja": {
             "title": "デジファクト #15 - ご存知でしたか...",
-            "content": "DigiByteは他のネットワークで発売されたICOやトークンではなく、BitcoinやVertcoinのように独自の合意形成ルールを持つ純粋なブロックチェーンプロジェクトです。",
+            "content": "DigiByteは他のネットワークで発売されたICOやトークンではなく、BitcoinやLitecoinのように独自の合意形成ルールを持つ純粋なブロックチェーンプロジェクトです。",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1422,7 +1422,7 @@
         },
         "de": {
             "title": "DigiFakt #15 - Wussten Sie schon...",
-            "content": "DigiByte ist kein ICO oder ein Token, der auf einem anderen Netzwerk gestartet wurde, sondern ein reines Blockchain-Projekt mit eigenen Konsensregeln wie Bitcoin oder Vertcoin.",
+            "content": "DigiByte ist kein ICO oder ein Token, der auf einem anderen Netzwerk gestartet wurde, sondern ein reines Blockchain-Projekt mit eigenen Konsensregeln wie Bitcoin oder Litecoin.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1430,7 +1430,7 @@
         },
         "fr": {
             "title": "DigiFact #15 - Saviez-vous que...",
-            "content": "DigiByte n'est ni un ICO ni un token lancé sur un autre réseau, mais plutôt un projet de blockchain pur avec ses propres règles de consensus comme Bitcoin ou Vertcoin.",
+            "content": "DigiByte n'est ni un ICO ni un token lancé sur un autre réseau, mais plutôt un projet de blockchain pur avec ses propres règles de consensus comme Bitcoin ou Litecoin.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1438,7 +1438,7 @@
         },
         "pt": {
             "title": "DigiFato #15 - Você sabia...",
-            "content": "DigiByte não é um ICO ou um token lançado em outra rede, mas sim um projeto de blockchain puro com suas próprias regras de consenso como Bitcoin ou Vertcoin.",
+            "content": "DigiByte não é um ICO ou um token lançado em outra rede, mas sim um projeto de blockchain puro com suas próprias regras de consenso como Bitcoin ou Litecoin.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1454,7 +1454,7 @@
         },
         "nl": {
             "title": "DigiFeit #15 - Wist u dat...",
-            "content": "DigiByte is geen ICO of een token gelanceerd op een ander netwerk, maar een puur blockchainproject met eigen consensusregels zoals Bitcoin of Vertcoin.",
+            "content": "DigiByte is geen ICO of een token gelanceerd op een ander netwerk, maar een puur blockchainproject met eigen consensusregels zoals Bitcoin of Litecoin.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -1462,7 +1462,7 @@
         },
         "it": {
             "title": "DigiFact # 15 - Lo sapevi...",
-            "content": "DigiByte non è un ICO o un token lanciato su un'altra rete, ma piuttosto un progetto di blockchain puro con le sue stesse regole di consenso come Bitcoin o Vertcoin.",
+            "content": "DigiByte non è un ICO o un token lanciato su un'altra rete, ma piuttosto un progetto di blockchain puro con le sue stesse regole di consenso come Bitcoin o Litecoin.",
             "url": "",
             "link_social": "",
             "link_html": "",
