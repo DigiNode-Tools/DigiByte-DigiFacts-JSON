@@ -117,7 +117,7 @@ Hopefully this fund can help accelerate the process of getting the DigiFacts tra
 
 The following projects are known to use this service:
 
-- [DigiNode Tools](https://github.com/saltedlolly/diginode-tools) - DigiFacts are displayed in the DigiNode Dashboard
+- [DigiNode Tools](https://diginode.tools) - DigiFacts are displayed on the DigiNode Tools website and within the DigiNode Dashboard.
 
 ## Disclaimer
 
