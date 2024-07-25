@@ -590,7 +590,7 @@
     "digifact7": {
         "en": {
             "title": "DigiFact # 7 - Did you know...",
-            "content": "Transaction fees on the DigiByte blockchain are typically incredibly low. In Block 7658349, a user sent 342,000,000 DGB (worth $6 million USD at the time) from the inputs of over 200 different addresses. It cost 1/10th of a cent (USD) in fees and took only a minute or two to confirm.",
+            "content": "Transaction fees on the DigiByte blockchain are typically incredibly low. In Block 7658349, a user sent 342,000,000 DGB (worth 6 million USD at the time) from the inputs of over 200 different addresses. It cost 1/10th of a cent (USD) in fees and took only a minute or two to confirm.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -670,7 +670,7 @@
         },
         "nl": {
             "title": "DigiFeit #7 - Wist u dat...",
-            "content": "Transactiekosten op de DigiByte blockchain zijn doorgaans ongelooflijk laag. In blok 7658349 heeft een gebruiker 342.000.000 DGB (op dat moment $6 miljoen USD waard) verstuurd vanuit meer dan 200 verschillende adressen. De transactie kostte 1/10 van een cent (USD) en duurde slechts een minuut of twee om te bevestigen.",
+            "content": "Transactiekosten op de DigiByte blockchain zijn doorgaans ongelooflijk laag. In blok 7658349 heeft een gebruiker 342.000.000 DGB (op dat moment 6 miljoen USD waard) verstuurd vanuit meer dan 200 verschillende adressen. De transactie kostte 1/10 van een cent (USD) en duurde slechts een minuut of twee om te bevestigen.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -678,7 +678,7 @@
         },
         "it": {
             "title": "DigiFact # 7 - Lo sapevi...",
-            "content": "Le commissioni di transazione sulla blockchain di DigiByte sono tipicamente incredibilmente basse. Nel Blocco 7658349, un utente ha inviato 342.000.000 DGB (valore di $6 milioni USD al momento) provenienti da più di 200 indirizzi diversi. Le spese sono state di un decimo di centesimo (USD) e hanno impiegato solo uno o due minuti per confermare.",
+            "content": "Le commissioni di transazione sulla blockchain di DigiByte sono tipicamente incredibilmente basse. Nel Blocco 7658349, un utente ha inviato 342.000.000 DGB (valore di 6 milioni USD al momento) provenienti da più di 200 indirizzi diversi. Le spese sono state di un decimo di centesimo (USD) e hanno impiegato solo uno o due minuti per confermare.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -2736,7 +2736,7 @@
         },
         "it": {
             "title": "DigiFact # 28 - Lo sapevi...",
-            "content": "L'ultimo DigiByte sarà estratto entro il 2035. C'è meno della metà di tutti i $DGB rimanenti da estrarre in tutto il mondo. Questi non sono 'posseduti' da nessuno, a differenza di un ICO, e saranno nuovamente 'coniati'.",
+            "content": "L'ultimo DigiByte sarà estratto entro il 2035. C'è meno della metà di tutti i DGB rimanenti da estrarre in tutto il mondo. Questi non sono 'posseduti' da nessuno, a differenza di un ICO, e saranno nuovamente 'coniati'.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -2932,7 +2932,7 @@
         },
         "it": {
             "title": "DigiFact # 30 - Lo sapevi...",
-            "content": "Quando tutti i DigiByte saranno stati minati, la rete continuerà a funzionare con i minatori che mineranno / proteggeranno la rete come fanno attualmente. Riceveranno solo le commissioni di transazione per l'invio di $DGB.",
+            "content": "Quando tutti i DigiByte saranno stati minati, la rete continuerà a funzionare con i minatori che mineranno / proteggeranno la rete come fanno attualmente. Riceveranno solo le commissioni di transazione per l'invio di DGB.",
             "url": "",
             "link_social": "",
             "link_html": "",
@@ -4998,99 +4998,99 @@
     "digifact52": {
         "en": {
             "title": "DigiFact # 52 - Did you know...",
-            "content": "There are currently $nodes_mn_total mainnet nodes and $nodes_tn_total testnet nodes running on the DigiByte blockchain.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "You can now claim your own DigiByte community handle on Bluesky - e.g. @yourname.digibyte.social. This works on Bluesky, and across all sites and services that use the ATprotocol.",
+            "url": "https://digibyte.social/",
+            "link_social": " Claim yours today: https://digibyte.social/",
+            "link_html": " Go <a target=\"_blank\" href=\"https://digibyte.social/\">here</a> to claim yours.",
+            "link_md": " Go [here](https://digibyte.social/) to claim yours."
         },
         "zh": {
             "title": "DigiFact # 52 - 你知道吗...",
-            "content": "目前有 $nodes_mn_total 个主网节点和 $nodes_tn_total 个测试网节点在DigiByte区块链上运行。",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "您现在可以在Bluesky上认领自己的DigiByte社区用户名了 - 例如 @yourname.digibyte.social。这适用于Bluesky，以及所有使用AT协议的站点和服务。",
+            "url": "https://digibyte.social/",
+            "link_social": " 今天就来认领您的用户名: https://digibyte.social/",
+            "link_html": " 前往<a target=\"_blank\" href=\"https://digibyte.social/\">这里</a>认领您的用户名。",
+            "link_md": " 前往[这里](https://digibyte.social/)认领您的用户名。"
         },
         "ru": {
             "title": "DigiFact # 52 - Знаете ли вы...",
-            "content": "В настоящее время на блокчейне DigiByte работает $nodes_mn_total узлов основной сети и $nodes_tn_total узлов тестовой сети.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "Теперь вы можете заявить свой собственный идентификатор сообщества DigiByte в Bluesky - например, @yourname.digibyte.social. Это работает в Bluesky, а также на всех сайтах и сервисах, использующих протокол AT.",
+            "url": "https://digibyte.social/",
+            "link_social": " Заявите свой сегодня: https://digibyte.social/",
+            "link_html": " Перейдите <a target=\"_blank\" href=\"https://digibyte.social/\">сюда</a>, чтобы заявить свой.",
+            "link_md": " Перейдите [сюда](https://digibyte.social/) чтобы заявить свой."
         },
         "es": {
             "title": "DigiFact # 52 - ¿Sabías que...",
-            "content": "Actualmente, hay $nodes_mn_total nodos de red principal y $nodes_tn_total nodos de red de prueba en funcionamiento en la cadena de bloques de DigiByte.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "Ahora puedes reclamar tu propio identificador de comunidad DigiByte en Bluesky - por ejemplo, @yourname.digibyte.social. Esto funciona en Bluesky y en todos los sitios y servicios que utilizan el protocolo AT.",
+            "url": "https://digibyte.social/",
+            "link_social": " Reclama el tuyo hoy: https://digibyte.social/",
+            "link_html": " Ve <a target=\"_blank\" href=\"https://digibyte.social/\">aquí</a> para reclamar el tuyo.",
+            "link_md": " Ve [aquí](https://digibyte.social/) para reclamar el tuyo."
         },
         "ko": {
             "title": "DigiFact # 52 - 알고 계셨나요...",
-            "content": "현재 DigiByte 블록체인에서 $nodes_mn_total 개의 메인넷 노드와 $nodes_tn_total 개의 테스트넷 노드가 작동 중입니다.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "이제 Bluesky에서 자신의 DigiByte 커뮤니티 핸들을 주장할 수 있습니다 - 예: @yourname.digibyte.social. 이것은 Bluesky와 AT 프로토콜을 사용하는 모든 사이트 및 서비스에서 작동합니다.",
+            "url": "https://digibyte.social/",
+            "link_social": " 오늘 당신의 것을 주장하세요: https://digibyte.social/",
+            "link_html": " 여기를 클릭하여 <a target=\"_blank\" href=\"https://digibyte.social/\">당신의 것을 주장하세요.</a>",
+            "link_md": " [여기](https://digibyte.social/)를 클릭하여 당신의 것을 주장하세요."
         },
         "ja": {
             "title": "DigiFact # 52 - ご存知ですか...",
-            "content": "現在、DigiByte ブロックチェーン上で $nodes_mn_total 個のメインネットワークノードと $nodes_tn_total 個のテストネットワークノードが稼働しています。",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "Blueskyで自分のDigiByteコミュニティハンドルを主張することができるようになりました - 例: @yourname.digibyte.social。これはBlueskyおよびATプロトコルを使用するすべてのサイトおよびサービスで機能します。",
+            "url": "https://digibyte.social/",
+            "link_social": " 今日あなたのものを主張してください: https://digibyte.social/",
+            "link_html": " あなたのものを主張するために<a target=\"_blank\" href=\"https://digibyte.social/\">ここ</a>に行ってください。",
+            "link_md": " あなたのものを主張するために[ここ](https://digibyte.social/)に行ってください。"
         },
         "de": {
             "title": "DigiFact # 52 - Wussten Sie schon...",
-            "content": "Auf der DigiByte-Blockchain laufen derzeit $nodes_mn_total Mainnet-Knoten und $nodes_tn_total Testnet-Knoten.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "Sie können jetzt Ihren eigenen DigiByte-Community-Handle auf Bluesky beanspruchen - z.B. @yourname.digibyte.social. Dies funktioniert auf Bluesky und auf allen Seiten und Diensten, die das AT-Protokoll nutzen.",
+            "url": "https://digibyte.social/",
+            "link_social": " Beanspruchen Sie Ihres heute: https://digibyte.social/",
+            "link_html": " Gehen Sie <a target=\"_blank\" href=\"https://digibyte.social/\">hier</a> hin, um Ihres zu beanspruchen.",
+            "link_md": " Gehen Sie [hier](https://digibyte.social/) hin, um Ihres zu beanspruchen."
         },
         "fr": {
-            "title": "DigiFact # 52 - Saviez-vous que...",
-            "content": "Il y a actuellement $nodes_mn_total nœuds du réseau principal et $nodes_tn_total nœuds du réseau de test en cours d'exécution sur la blockchain de DigiByte.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 52 - Le saviez-vous...",
+            "content": "Vous pouvez désormais revendiquer votre propre identifiant communautaire DigiByte sur Bluesky - par exemple, @yourname.digibyte.social. Cela fonctionne sur Bluesky, et sur tous les sites et services utilisant le protocole AT.",
+            "url": "https://digibyte.social/",
+            "link_social": " Réclamez le vôtre aujourd'hui: https://digibyte.social/",
+            "link_html": " Allez <a target=\"_blank\" href=\"https://digibyte.social/\">ici</a> pour réclamer le vôtre.",
+            "link_md": " Allez [ici](https://digibyte.social/) pour réclamer le vôtre."
         },
         "it": {
             "title": "DigiFact # 52 - Lo sapevi che...",
-            "content": "Attualmente ci sono $nodes_mn_total nodi di rete principale e $nodes_tn_total nodi di rete di test in esecuzione sulla blockchain di DigiByte.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "Ora puoi rivendicare il tuo handle della comunità DigiByte su Bluesky - ad esempio, @yourname.digibyte.social. Questo funziona su Bluesky e su tutti i siti e servizi che utilizzano il protocollo AT.",
+            "url": "https://digibyte.social/",
+            "link_social": " Rivendica il tuo oggi: https://digibyte.social/",
+            "link_html": " Vai <a target=\"_blank\" href=\"https://digibyte.social/\">qui</a> per rivendicare il tuo.",
+            "link_md": " Vai [qui](https://digibyte.social/) per rivendicare il tuo."
         },
         "hi": {
             "title": "DigiFact # 52 - क्या आप जानते हैं...",
-            "content": "वर्तमान में DigiByte ब्लॉकचेन पर $nodes_mn_total मुख्य नोड्स और $nodes_tn_total परीक्षण नेटवर्क नोड्स कार्यरत हैं।",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "अब आप Bluesky पर अपना खुद का DigiByte समुदाय हैंडल दावा कर सकते हैं - उदाहरण के लिए @yourname.digibyte.social. यह Bluesky पर, और उन सभी साइटों और सेवाओं पर काम करता है जो AT प्रोटोकॉल का उपयोग करते हैं।",
+            "url": "https://digibyte.social/",
+            "link_social": " अपना आज ही दावा करें: https://digibyte.social/",
+            "link_html": " अपना दावा करने के लिए <a target=\"_blank\" href=\"https://digibyte.social/\">यहाँ</a> जाएं।",
+            "link_md": " अपना दावा करने के लिए [यहाँ](https://digibyte.social/) जाएं।"
         },
         "pt": {
-            "title": "DigiFact # 52 - Você sabia...",
-            "content": "Atualmente, existem $nodes_mn_total nós da rede principal e $nodes_tn_total nós da rede de teste em execução na blockchain da DigiByte.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 52 - Sabia que...",
+            "content": "Agora você pode reivindicar o seu próprio identificador da comunidade DigiByte no Bluesky - por exemplo, @seunome.digibyte.social. Isso funciona no Bluesky, e em todos os sites e serviços que utilizam o protocolo AT.",
+            "url": "https://digibyte.social/",
+            "link_social": " Reivindique o seu hoje: https://digibyte.social/",
+            "link_html": " Vá <a target=\"_blank\" href=\"https://digibyte.social/\">aqui</a> para reivindicar o seu.",
+            "link_md": " Vá [aqui](https://digibyte.social/) para reivindicar o seu."
         },
         "nl": {
-            "title": "DigiFact # 52 - Wist je dat...",
-            "content": "Op dit moment zijn er $nodes_mn_total mainnet-knooppunten en $nodes_tn_total testnet-knooppunten actief op het DigiByte-blockchain.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 52 - Wist u dat...",
+            "content": "Je kunt nu je eigen DigiByte community handle claimen op Bluesky - bijvoorbeeld @jouwnaam.digibyte.social. Dit werkt op Bluesky, en op alle sites en diensten die het AT-protocol gebruiken.",
+            "url": "https://digibyte.social/",
+            "link_social": " Claim de jouwe vandaag: https://digibyte.social/",
+            "link_html": " Ga <a target=\"_blank\" href=\"https://digibyte.social/\">hier</a> om de jouwe te claimen.",
+            "link_md": " Ga [hier](https://digibyte.social/) om de jouwe te claimen."
         }
     },
     "digifact53": {
@@ -8619,104 +8619,6 @@
             "link_social": " Kijk hier hoe je kunt helpen: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
             "link_html": " Ga <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">hierheen</a> om te zien hoe je kunt helpen.",
             "link_md": " Ga [hierheen](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) om te zien hoe je kunt helpen."
-        }
-    },
-    "digifact89": {
-        "en": {
-            "title": "DigiFact # 89 - Did you know...",
-            "content": "You can now claim your own DigiByte community handle on Bluesky - e.g. @yourname.digibyte.social. This works on Bluesky, and across all sites and services that use the AT protocol.",
-            "url": "https://digibyte.social/",
-            "link_social": " Claim yours today: https://digibyte.social/",
-            "link_html": " Go <a target=\"_blank\" href=\"https://digibyte.social/\">here</a> to claim yours.",
-            "link_md": " Go [here](https://digibyte.social/) to claim yours."
-        },
-        "zh": {
-            "title": "DigiFact # 89 - 你知道吗...",
-            "content": "您现在可以在Bluesky上认领自己的DigiByte社区用户名了 - 例如 @yourname.digibyte.social。这适用于Bluesky，以及所有使用AT协议的站点和服务。",
-            "url": "https://digibyte.social/",
-            "link_social": " 今天就来认领您的用户名: https://digibyte.social/",
-            "link_html": " 前往<a target=\"_blank\" href=\"https://digibyte.social/\">这里</a>认领您的用户名。",
-            "link_md": " 前往[这里](https://digibyte.social/)认领您的用户名。"
-        },
-        "ru": {
-            "title": "DigiFact # 89 - Знаете ли вы...",
-            "content": "Теперь вы можете заявить свой собственный идентификатор сообщества DigiByte в Bluesky - например, @yourname.digibyte.social. Это работает в Bluesky, а также на всех сайтах и сервисах, использующих протокол AT.",
-            "url": "https://digibyte.social/",
-            "link_social": " Заявите свой сегодня: https://digibyte.social/",
-            "link_html": " Перейдите <a target=\"_blank\" href=\"https://digibyte.social/\">сюда</a>, чтобы заявить свой.",
-            "link_md": " Перейдите [сюда](https://digibyte.social/) чтобы заявить свой."
-        },
-        "es": {
-            "title": "DigiFact # 89 - ¿Sabías que...",
-            "content": "Ahora puedes reclamar tu propio identificador de comunidad DigiByte en Bluesky - por ejemplo, @yourname.digibyte.social. Esto funciona en Bluesky y en todos los sitios y servicios que utilizan el protocolo AT.",
-            "url": "https://digibyte.social/",
-            "link_social": " Reclama el tuyo hoy: https://digibyte.social/",
-            "link_html": " Ve <a target=\"_blank\" href=\"https://digibyte.social/\">aquí</a> para reclamar el tuyo.",
-            "link_md": " Ve [aquí](https://digibyte.social/) para reclamar el tuyo."
-        },
-        "ko": {
-            "title": "DigiFact # 89 - 알고 계셨나요...",
-            "content": "이제 Bluesky에서 자신의 DigiByte 커뮤니티 핸들을 주장할 수 있습니다 - 예: @yourname.digibyte.social. 이것은 Bluesky와 AT 프로토콜을 사용하는 모든 사이트 및 서비스에서 작동합니다.",
-            "url": "https://digibyte.social/",
-            "link_social": " 오늘 당신의 것을 주장하세요: https://digibyte.social/",
-            "link_html": " 여기를 클릭하여 <a target=\"_blank\" href=\"https://digibyte.social/\">당신의 것을 주장하세요.</a>",
-            "link_md": " [여기](https://digibyte.social/)를 클릭하여 당신의 것을 주장하세요."
-        },
-        "ja": {
-            "title": "DigiFact # 89 - ご存知ですか...",
-            "content": "Blueskyで自分のDigiByteコミュニティハンドルを主張することができるようになりました - 例: @yourname.digibyte.social。これはBlueskyおよびATプロトコルを使用するすべてのサイトおよびサービスで機能します。",
-            "url": "https://digibyte.social/",
-            "link_social": " 今日あなたのものを主張してください: https://digibyte.social/",
-            "link_html": " あなたのものを主張するために<a target=\"_blank\" href=\"https://digibyte.social/\">ここ</a>に行ってください。",
-            "link_md": " あなたのものを主張するために[ここ](https://digibyte.social/)に行ってください。"
-        },
-        "de": {
-            "title": "DigiFact # 89 - Wussten Sie schon...",
-            "content": "Sie können jetzt Ihren eigenen DigiByte-Community-Handle auf Bluesky beanspruchen - z.B. @yourname.digibyte.social. Dies funktioniert auf Bluesky und auf allen Seiten und Diensten, die das AT-Protokoll nutzen.",
-            "url": "https://digibyte.social/",
-            "link_social": " Beanspruchen Sie Ihres heute: https://digibyte.social/",
-            "link_html": " Gehen Sie <a target=\"_blank\" href=\"https://digibyte.social/\">hier</a> hin, um Ihres zu beanspruchen.",
-            "link_md": " Gehen Sie [hier](https://digibyte.social/) hin, um Ihres zu beanspruchen."
-        },
-        "fr": {
-            "title": "DigiFact # 89 - Le saviez-vous...",
-            "content": "Vous pouvez désormais revendiquer votre propre identifiant communautaire DigiByte sur Bluesky - par exemple, @yourname.digibyte.social. Cela fonctionne sur Bluesky, et sur tous les sites et services utilisant le protocole AT.",
-            "url": "https://digibyte.social/",
-            "link_social": " Réclamez le vôtre aujourd'hui: https://digibyte.social/",
-            "link_html": " Allez <a target=\"_blank\" href=\"https://digibyte.social/\">ici</a> pour réclamer le vôtre.",
-            "link_md": " Allez [ici](https://digibyte.social/) pour réclamer le vôtre."
-        },
-        "it": {
-            "title": "DigiFact # 89 - Lo sapevi che...",
-            "content": "Ora puoi rivendicare il tuo handle della comunità DigiByte su Bluesky - ad esempio, @yourname.digibyte.social. Questo funziona su Bluesky e su tutti i siti e servizi che utilizzano il protocollo AT.",
-            "url": "https://digibyte.social/",
-            "link_social": " Rivendica il tuo oggi: https://digibyte.social/",
-            "link_html": " Vai <a target=\"_blank\" href=\"https://digibyte.social/\">qui</a> per rivendicare il tuo.",
-            "link_md": " Vai [qui](https://digibyte.social/) per rivendicare il tuo."
-        },
-        "hi": {
-            "title": "DigiFact # 89 - क्या आप जानते हैं...",
-            "content": "अब आप Bluesky पर अपना खुद का DigiByte समुदाय हैंडल दावा कर सकते हैं - उदाहरण के लिए @yourname.digibyte.social. यह Bluesky पर, और उन सभी साइटों और सेवाओं पर काम करता है जो AT प्रोटोकॉल का उपयोग करते हैं।",
-            "url": "https://digibyte.social/",
-            "link_social": " अपना आज ही दावा करें: https://digibyte.social/",
-            "link_html": " अपना दावा करने के लिए <a target=\"_blank\" href=\"https://digibyte.social/\">यहाँ</a> जाएं।",
-            "link_md": " अपना दावा करने के लिए [यहाँ](https://digibyte.social/) जाएं।"
-        },
-        "pt": {
-            "title": "DigiFact # 89 - Sabia que...",
-            "content": "Agora você pode reivindicar o seu próprio identificador da comunidade DigiByte no Bluesky - por exemplo, @seunome.digibyte.social. Isso funciona no Bluesky, e em todos os sites e serviços que utilizam o protocolo AT.",
-            "url": "https://digibyte.social/",
-            "link_social": " Reivindique o seu hoje: https://digibyte.social/",
-            "link_html": " Vá <a target=\"_blank\" href=\"https://digibyte.social/\">aqui</a> para reivindicar o seu.",
-            "link_md": " Vá [aqui](https://digibyte.social/) para reivindicar o seu."
-        },
-        "nl": {
-            "title": "DigiFact # 89 - Wist u dat...",
-            "content": "Je kunt nu je eigen DigiByte community handle claimen op Bluesky - bijvoorbeeld @jouwnaam.digibyte.social. Dit werkt op Bluesky, en op alle sites en diensten die het AT-protocol gebruiken.",
-            "url": "https://digibyte.social/",
-            "link_social": " Claim de jouwe vandaag: https://digibyte.social/",
-            "link_html": " Ga <a target=\"_blank\" href=\"https://digibyte.social/\">hier</a> om de jouwe te claimen.",
-            "link_md": " Ga [hier](https://digibyte.social/) om de jouwe te claimen."
         }
     }
 }
