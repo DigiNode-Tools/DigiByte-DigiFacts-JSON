@@ -84,9 +84,7 @@ If you wish to insert dynamic data into a DigiFact, please edit the digifacts-mu
 |------------------------|-----------------|-----------------------------------------------------|
 | ```$blocks_tot```      | 18826496        | Displays the current number of DigiByte blocks.  |
 | ```$blocks_tot_cs```   | 18,826,496      | Displays the current number of DigiByte blocks, with comma seperator. | 
-| ```$blocks_tot_mil```  | 18              | Displays the current number of DigiByte blocks rounded to the nearest million. |
-| ```$nodes_mn_total```  | 315             | Displays the total number of DigiByte mainnet nodes. |
-| ```$nodes_tn_total```  | 36              | Displays the total number of DigiByte testnet nodes. |
+| ```$blocks_tot_mil```  | 18.8            | Displays the current number of DigiByte blocks rounded to the nearest 0.1 million. |
 
 These variable will be replaced by live data every few minutes.
 

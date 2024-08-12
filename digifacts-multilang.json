@@ -7644,99 +7644,99 @@
     "digifact79": {
         "en": {
             "title": "DigiFact # 79 - Did you know...",
-            "content": "To view all the nodes on the DigiByte network, you can use the website created by community member Jan de Jong. It displays the DigiByte Seeders along with all the current mainnet and testnet nodes on the DigiByte network. Unlike many other node crawlers, it even has the ability to find nodes that do not have port forwarding enabled.",
-            "url": "https://digibyteseed.com",
-            "link_social": " Find it here: https://digibyteseed.com",
-            "link_html": " Find it <a target=\"_blank\" href=\"https://digibyteseed.com\">here</a>.",
-            "link_md": " Find it [here](https://digibyteseed.com)."
+            "content": "These DigiFacts are created by the DigiByte community for the DigiByte community. We need your help adding new ones and translating them into additional languages, either by translating them yourself or donating to the DigiFacts Translation Fund.",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " Go here to learn how you can help: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " Go <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">here</a> to learn how you can help.",
+            "link_md": " Go [here](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) to learn how you can help."
         },
         "zh": {
             "title": "DigiFact # 79 - 你知道吗...",
-            "content": "要查看DigiByte网络上的所有节点，您可以使用社区成员Jan de Jong创建的网站。它显示DigiByte Seeders以及DigiByte网络上所有当前的主网和测试网节点。与许多其他节点爬虫不同，它甚至可以查找未启用端口转发的节点。",
-            "url": "https://digibyteseed.com",
-            "link_social": "在这里找到：https://digibyteseed.com",
-            "link_html": "在<a target=\"_blank\" href=\"https://digibyteseed.com\">此处</a>找到。",
-            "link_md": "在[此处](https://digibyteseed.com)找到。"
+            "content": "这些DigiFacts是由DigiByte社区为DigiByte社区创建的。我们需要您的帮助添加新的DigiFacts并将其翻译成其他语言，您可以自行翻译，也可以捐款给DigiFacts翻译基金。",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": "在这里了解如何帮助：https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": "点击<a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">这里</a>了解如何帮助。",
+            "link_md": "点击[这里](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)了解如何帮助。"
         },
         "ru": {
-            "title": "DigiFact # 79 - Знали ли вы...",
-            "content": "Чтобы просмотреть все узлы в сети DigiByte, вы можете воспользоваться веб-сайтом, созданным членом сообщества Яном де Жонгом. На нем отображаются узлы DigiByte Seeders, а также все текущие узлы основной и тестовой сети в сети DigiByte. В отличие от многих других сканеров узлов, у него даже есть возможность находить узлы, у которых отключено перенаправление портов.",
-            "url": "https://digibyteseed.com",
-            "link_social": " Найдите здесь: https://digibyteseed.com",
-            "link_html": " Найдите <a target=\"_blank\" href=\"https://digibyteseed.com\">здесь</a>.",
-            "link_md": " Найдите [здесь](https://digibyteseed.com)."
+            "title": "DigiFact # 79 - Знаете ли вы...",
+            "content": "Эти DigiFacts созданы членами сообщества DigiByte для сообщества DigiByte. Нам нужна ваша помощь в добавлении новых фактов и переводе их на дополнительные языки, либо собственным переводом, либо пожертвованием в Фонд перевода DigiFacts.",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " Перейдите сюда, чтобы узнать, как вы можете помочь: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " Перейдите <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">сюда</a>, чтобы узнать, как вы можете помочь.",
+            "link_md": " Перейдите [сюда](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON), чтобы узнать, как вы можете помочь."
         },
         "es": {
             "title": "DigiFact # 79 - ¿Sabías que...",
-            "content": "Para ver todos los nodos en la red de DigiByte, puedes utilizar el sitio web creado por el miembro de la comunidad Jan de Jong. Muestra los DigiByte Seeders junto con todos los nodos actuales de la red principal y de prueba en la red de DigiByte. A diferencia de muchos otros rastreadores de nodos, incluso tiene la capacidad de encontrar nodos que no tienen habilitado el reenvío de puertos.",
-            "url": "https://digibyteseed.com",
-            "link_social": " Encuéntralo aquí: https://digibyteseed.com",
-            "link_html": " Encuéntralo <a target=\"_blank\" href=\"https://digibyteseed.com\">aquí</a>.",
-            "link_md": " Encuéntralo [aquí](https://digibyteseed.com)."
+            "content": "Estos DigiFacts son creados por la comunidad de DigiByte para la comunidad de DigiByte. Necesitamos tu ayuda para agregar nuevos y traducirlos a otros idiomas, ya sea traduciéndolos tú mismo o haciendo donaciones al Fondo de Traducción de DigiFacts.",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " Ve aquí para aprender cómo puedes ayudar: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " Ve <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">aquí</a> para aprender cómo puedes ayudar.",
+            "link_md": " Ve [aquí](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) para aprender cómo puedes ayudar."
         },
         "ko": {
             "title": "DigiFact # 79 - 알고 계셨나요...",
-            "content": "DigiByte 네트워크의 모든 노드를 보려면 Jan de Jong이라는 커뮤니티 회원이 만든 웹 사이트를 사용할 수 있습니다. 이 사이트에는 DigiByte Seeders와 DigiByte 네트워크의 현재 메인넷 및 테스트넷 노드가 모두 표시됩니다. 다른 노드 크롤러와 달리 포트 포워딩이 활성화되지 않은 노드를 식별하는 기능도 있습니다.",
-            "url": "https://digibyteseed.com",
-            "link_social": " 여기에서 찾아보세요: https://digibyteseed.com",
-            "link_html": " 여기에서 찾아보세요 <a target=\"_blank\" href=\"https://digibyteseed.com\">여기</a>.",
-            "link_md": " 여기에서 찾아보세요 [여기](https://digibyteseed.com)."
+            "content": "이 DigiFacts는 DigiByte 커뮤니티가 DigiByte 커뮤니티를 위해 만들었습니다. 여러분의 도움이 필요합니다. 새로운 내용을 추가하거나 다른 언어로 번역하는 데 도움을 주실 수 있습니다. 직접 번역하거나 DigiFacts 번역 기금에 기부하십시오.",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " 도움을 어떻게 제공할 수 있는지 알아보려면 여기를 방문하십시오: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " 도움말을 얻으려면 <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">여기</a>를 클릭하십시오.",
+            "link_md": " 도움말을 얻으려면 [여기](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)를 클릭하십시오."
         },
         "ja": {
             "title": "DigiFact # 79 - ご存知ですか...",
-            "content": "DigiByteネットワークのすべてのノードを表示するには、コミュニティメンバーであるJan de Jongが作成したウェブサイトを使用できます。これにはDigiByte Seedersと、DigiByteネットワーク上の現在のメインネットとテストネットノードがすべて表示されます。他の多くのノードクローラーとは異なり、ポートフォワーディングが無効になっているノードを見つける機能さえ備えています。",
-            "url": "https://digibyteseed.com",
-            "link_social": "こちらで見つける：https://digibyteseed.com",
-            "link_html": "こちらで見つける <a target=\"_blank\" href=\"https://digibyteseed.com\">こちら</a>。",
-            "link_md": "こちらで見つける [こちら](https://digibyteseed.com)。"
+            "content": "これらのDigiFactsは、DigiByteコミュニティによって、DigiByteコミュニティのために作成されました。新しい情報を追加し、他の言語に翻訳するのに、あなたの助けが必要です。自分で翻訳するか、DigiFacts翻訳基金に寄付することでお手伝いいただけます。",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": "どのようにお手伝いできるかを学ぶにはこちらにアクセスしてください：https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": "お手伝いいただく方法は<a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">こちら</a>をご覧ください。",
+            "link_md": "お手伝いいただく方法は[こちら](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)をご覧ください。"
         },
         "de": {
-            "title": "DigiFact # 79 - Wusstest du...",
-            "content": "Um alle Knoten im DigiByte-Netzwerk anzuzeigen, kannst du die Website von Community-Mitglied Jan de Jong verwenden. Dort werden die DigiByte Seeders sowie alle aktuellen Mainnet- und Testnet-Knoten im DigiByte-Netzwerk angezeigt. Im Gegensatz zu vielen anderen Knoten-Crawlern hat diese sogar die Fähigkeit, Knoten zu finden, bei denen die Portweiterleitung deaktiviert ist.",
-            "url": "https://digibyteseed.com",
-            "link_social": " Hier finden: https://digibyteseed.com",
-            "link_html": " Hier finden <a target=\"_blank\" href=\"https://digibyteseed.com\">hier</a>.",
-            "link_md": " Hier finden [hier](https://digibyteseed.com)."
+            "title": "DigiFact # 79 - Wussten Sie schon...",
+            "content": "Diese DigiFacts werden von der DigiByte-Community für die DigiByte-Community erstellt. Wir benötigen Ihre Hilfe, um neue hinzuzufügen und sie in weitere Sprachen zu übersetzen, entweder durch eigene Übersetzungen oder durch Spenden an den DigiFacts-Übersetzungsfonds.",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " Erfahren Sie hier, wie Sie helfen können: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " Gehen Sie <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">hier</a>, um zu erfahren, wie Sie helfen können.",
+            "link_md": " Gehen Sie [hier](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON), um zu erfahren, wie Sie helfen können."
         },
         "fr": {
             "title": "DigiFact # 79 - Le saviez-vous...",
-            "content": "Pour voir tous les nœuds sur le réseau DigiByte, vous pouvez utiliser le site web créé par le membre de la communauté Jan de Jong. Il affiche les DigiByte Seeders ainsi que tous les nœuds actuels du réseau principal et du testnet sur le réseau DigiByte. Contrairement à de nombreux autres crawlers de nœuds, il a même la capacité de trouver des nœuds qui n'ont pas le transfert de port activé.",
-            "url": "https://digibyteseed.com",
-            "link_social": " Trouvez-le ici : https://digibyteseed.com",
-            "link_html": " Trouvez-le <a target=\"_blank\" href=\"https://digibyteseed.com\">ici</a>.",
-            "link_md": " Trouvez-le [ici](https://digibyteseed.com)."
+            "content": "Ces DigiFacts sont créés par la communauté DigiByte pour la communauté DigiByte. Nous avons besoin de votre aide pour les ajouter et les traduire dans d'autres langues, que ce soit en les traduisant vous-même ou en faisant un don au Fonds de traduction DigiFacts.",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " Rendez-vous ici pour savoir comment vous pouvez aider : https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " Rendez-vous <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">ici</a> pour savoir comment vous pouvez aider.",
+            "link_md": " Rendez-vous [ici](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) pour savoir comment vous pouvez aider."
         },
         "it": {
-            "title": "DigiFact # 79 - Lo sapevi...",
-            "content": "Per visualizzare tutti i nodi sulla rete DigiByte, puoi utilizzare il sito web creato dal membro della community Jan de Jong. Esso mostra i DigiByte Seeders insieme a tutti i nodi attuali della rete principale e testnet sulla rete DigiByte. A differenza di molti altri crawler di nodi, ha persino la capacità di individuare nodi che non hanno l'inoltro della porta abilitato.",
-            "url": "https://digibyteseed.com",
-            "link_social": " Trovalo qui: https://digibyteseed.com",
-            "link_html": " Trovalo <a target=\"_blank\" href=\"https://digibyteseed.com\">qui</a>.",
-            "link_md": " Trovalo [qui](https://digibyteseed.com)."
+            "title": "DigiFact # 79 - Lo sapevi che...",
+            "content": "Questi DigiFacts sono creati dalla comunità di DigiByte per la comunità di DigiByte. Abbiamo bisogno del tuo aiuto per aggiungerne di nuovi e tradurli in altre lingue, sia traducendoli tu stesso che facendo una donazione al Fondo per la traduzione di DigiFacts.",
+            "url": "https://digiassets.info/",
+            "link_social": " Vai qui per scoprire come puoi aiutare: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " Vai <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">qui</a> per scoprire come puoi aiutare.",
+            "link_md": " Vai [qui](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) per scoprire come puoi aiutare."
         },
         "hi": {
             "title": "DigiFact # 79 - क्या आप जानते हैं...",
-            "content": "DigiByte नेटवर्क पर सभी नोड देखने के लिए, आप समुदाय के सदस्य जान दे जोंग द्वारा बनाई गई वेबसाइट का उपयोग कर सकते हैं। इसमें DigiByte Seeders को प्रदर्शित किया जाता है, साथ ही DigiByte नेटवर्क पर मौजूद मुख्य नेटवर्क और परीक्षण नेटवर्क के सभी वर्तमान नोड दिखाए जाते हैं। इसके खिलाफ अन्य कई नोड क्रॉलरों की तरह, इसमें ऐसी क्षमता भी है कि जिनमें पोर्ट फॉरवर्डिंग सक्षम नहीं है, वे भी नोड खोज सकते हैं।",
-            "url": "https://digibyteseed.com",
-            "link_social": " यहां देखें: https://digibyteseed.com",
-            "link_html": " यहां देखें <a target=\"_blank\" href=\"https://digibyteseed.com\">यहां</a>।",
-            "link_md": " यहां देखें [यहां](https://digibyteseed.com)।"
+            "content": "ये DigiFacts DigiByte समुदाय द्वारा DigiByte समुदाय के लिए बनाए जाते हैं। हमें आपकी मदद की आवश्यकता है नए जोड़ने और उन्हें अन्य भाषाओं में अनुवादित करने के लिए, चाहे आप उन्हें खुद अनुवाद करें या DigiFacts अनुवाद फंड को दान करें।",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " आपकी मदद कैसे कर सकते हैं इसे जानने के लिए यहाँ जाएं: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " जानने के लिए <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">यहाँ</a> जाएं कैसे आप मदद कर सकते हैं।",
+            "link_md": " जानने के लिए [यहाँ](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) जाएं कैसे आप मदद कर सकते हैं।"
         },
         "pt": {
-            "title": "DigiFact # 79 - Você sabia...",
-            "content": "Para visualizar todos os nós na rede DigiByte, você pode usar o site criado pelo membro da comunidade Jan de Jong. Ele exibe os DigiByte Seeders junto com todos os nós da mainnet e testnet atuais na rede DigiByte. Ao contrário de muitos outros rastreadores de nós, ele até tem a capacidade de encontrar nós que não têm o encaminhamento de porta ativado.",
-            "url": "https://digibyteseed.com",
-            "link_social": " Encontre aqui: https://digibyteseed.com",
-            "link_html": " Encontre <a target=\"_blank\" href=\"https://digibyteseed.com\">aqui</a>.",
-            "link_md": " Encontre [aqui](https://digibyteseed.com)."
+            "title": "DigiFact # 79 - Sabia que...",
+            "content": "Estes DigiFacts são criados pela comunidade DigiByte para a comunidade DigiByte. Precisamos da sua ajuda para adicionar novos e traduzi-los para outras línguas, seja traduzindo-os você mesmo ou doando para o Fundo de Tradução DigiFacts.",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " Saiba como pode ajudar aqui: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " Vá <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">aqui</a> para saber como pode ajudar.",
+            "link_md": " Vá [aqui](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) para saber como pode ajudar."
         },
         "nl": {
             "title": "DigiFact # 79 - Wist je dat...",
-            "content": "Om alle knooppunten in het DigiByte-netwerk te bekijken, kun je de website gebruiken die is gemaakt door communitylid Jan de Jong. Het toont de DigiByte Seeders samen met alle huidige mainnet- en testnet-knooppunten in het DigiByte-netwerk. In tegenstelling tot veel andere knooppunt-crawlers heeft deze zelfs de mogelijkheid om knooppunten te vinden die geen poortdoorschakeling hebben ingeschakeld.",
-            "url": "https://digibyteseed.com",
-            "link_social": " Vind het hier: https://digibyteseed.com",
-            "link_html": " Vind het <a target=\"_blank\" href=\"https://digibyteseed.com\">hier</a>.",
-            "link_md": " Vind het [hier](https://digibyteseed.com)."
+            "content": "Deze DigiFacts zijn gemaakt door de DigiByte-gemeenschap voor de DigiByte-gemeenschap. We hebben uw hulp nodig om nieuwe toe te voegen en ze te vertalen naar andere talen, ofwel door ze zelf te vertalen of door te doneren aan het DigiFacts Vertalingsfonds.",
+            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_social": " Kijk hier hoe je kunt helpen: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
+            "link_html": " Ga <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">hierheen</a> om te zien hoe je kunt helpen.",
+            "link_md": " Ga [hierheen](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) om te zien hoe je kunt helpen."
         }
     },
     "digifact80": {
@@ -8521,104 +8521,6 @@
             "link_social": " Vind het hier: https://digiassets.info/",
             "link_html": " Vind het <a target=\"_blank\" href=\"https://digiassets.info/\">hier</a>.",
             "link_md": " Vind het [hier](https://digiassets.info/)."
-        }
-    },
-    "digifact88": {
-        "en": {
-            "title": "DigiFact # 88 - Did you know...",
-            "content": "These DigiFacts are created by the DigiByte community for the DigiByte community. We need your help adding new ones and translating them into additional languages, either by translating them yourself or donating to the DigiFacts Translation Fund.",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " Go here to learn how you can help: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " Go <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">here</a> to learn how you can help.",
-            "link_md": " Go [here](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) to learn how you can help."
-        },
-        "zh": {
-            "title": "DigiFact # 88 - 你知道吗...",
-            "content": "这些DigiFacts是由DigiByte社区为DigiByte社区创建的。我们需要您的帮助添加新的DigiFacts并将其翻译成其他语言，您可以自行翻译，也可以捐款给DigiFacts翻译基金。",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": "在这里了解如何帮助：https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": "点击<a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">这里</a>了解如何帮助。",
-            "link_md": "点击[这里](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)了解如何帮助。"
-        },
-        "ru": {
-            "title": "DigiFact # 88 - Знаете ли вы...",
-            "content": "Эти DigiFacts созданы членами сообщества DigiByte для сообщества DigiByte. Нам нужна ваша помощь в добавлении новых фактов и переводе их на дополнительные языки, либо собственным переводом, либо пожертвованием в Фонд перевода DigiFacts.",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " Перейдите сюда, чтобы узнать, как вы можете помочь: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " Перейдите <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">сюда</a>, чтобы узнать, как вы можете помочь.",
-            "link_md": " Перейдите [сюда](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON), чтобы узнать, как вы можете помочь."
-        },
-        "es": {
-            "title": "DigiFact # 88 - ¿Sabías que...",
-            "content": "Estos DigiFacts son creados por la comunidad de DigiByte para la comunidad de DigiByte. Necesitamos tu ayuda para agregar nuevos y traducirlos a otros idiomas, ya sea traduciéndolos tú mismo o haciendo donaciones al Fondo de Traducción de DigiFacts.",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " Ve aquí para aprender cómo puedes ayudar: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " Ve <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">aquí</a> para aprender cómo puedes ayudar.",
-            "link_md": " Ve [aquí](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) para aprender cómo puedes ayudar."
-        },
-        "ko": {
-            "title": "DigiFact # 88 - 알고 계셨나요...",
-            "content": "이 DigiFacts는 DigiByte 커뮤니티가 DigiByte 커뮤니티를 위해 만들었습니다. 여러분의 도움이 필요합니다. 새로운 내용을 추가하거나 다른 언어로 번역하는 데 도움을 주실 수 있습니다. 직접 번역하거나 DigiFacts 번역 기금에 기부하십시오.",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " 도움을 어떻게 제공할 수 있는지 알아보려면 여기를 방문하십시오: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " 도움말을 얻으려면 <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">여기</a>를 클릭하십시오.",
-            "link_md": " 도움말을 얻으려면 [여기](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)를 클릭하십시오."
-        },
-        "ja": {
-            "title": "DigiFact # 88 - ご存知ですか...",
-            "content": "これらのDigiFactsは、DigiByteコミュニティによって、DigiByteコミュニティのために作成されました。新しい情報を追加し、他の言語に翻訳するのに、あなたの助けが必要です。自分で翻訳するか、DigiFacts翻訳基金に寄付することでお手伝いいただけます。",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": "どのようにお手伝いできるかを学ぶにはこちらにアクセスしてください：https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": "お手伝いいただく方法は<a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">こちら</a>をご覧ください。",
-            "link_md": "お手伝いいただく方法は[こちら](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON)をご覧ください。"
-        },
-        "de": {
-            "title": "DigiFact # 88 - Wussten Sie schon...",
-            "content": "Diese DigiFacts werden von der DigiByte-Community für die DigiByte-Community erstellt. Wir benötigen Ihre Hilfe, um neue hinzuzufügen und sie in weitere Sprachen zu übersetzen, entweder durch eigene Übersetzungen oder durch Spenden an den DigiFacts-Übersetzungsfonds.",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " Erfahren Sie hier, wie Sie helfen können: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " Gehen Sie <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">hier</a>, um zu erfahren, wie Sie helfen können.",
-            "link_md": " Gehen Sie [hier](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON), um zu erfahren, wie Sie helfen können."
-        },
-        "fr": {
-            "title": "DigiFact # 88 - Le saviez-vous...",
-            "content": "Ces DigiFacts sont créés par la communauté DigiByte pour la communauté DigiByte. Nous avons besoin de votre aide pour les ajouter et les traduire dans d'autres langues, que ce soit en les traduisant vous-même ou en faisant un don au Fonds de traduction DigiFacts.",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " Rendez-vous ici pour savoir comment vous pouvez aider : https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " Rendez-vous <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">ici</a> pour savoir comment vous pouvez aider.",
-            "link_md": " Rendez-vous [ici](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) pour savoir comment vous pouvez aider."
-        },
-        "it": {
-            "title": "DigiFact # 88 - Lo sapevi che...",
-            "content": "Questi DigiFacts sono creati dalla comunità di DigiByte per la comunità di DigiByte. Abbiamo bisogno del tuo aiuto per aggiungerne di nuovi e tradurli in altre lingue, sia traducendoli tu stesso che facendo una donazione al Fondo per la traduzione di DigiFacts.",
-            "url": "https://digiassets.info/",
-            "link_social": " Vai qui per scoprire come puoi aiutare: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " Vai <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">qui</a> per scoprire come puoi aiutare.",
-            "link_md": " Vai [qui](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) per scoprire come puoi aiutare."
-        },
-        "hi": {
-            "title": "DigiFact # 88 - क्या आप जानते हैं...",
-            "content": "ये DigiFacts DigiByte समुदाय द्वारा DigiByte समुदाय के लिए बनाए जाते हैं। हमें आपकी मदद की आवश्यकता है नए जोड़ने और उन्हें अन्य भाषाओं में अनुवादित करने के लिए, चाहे आप उन्हें खुद अनुवाद करें या DigiFacts अनुवाद फंड को दान करें।",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " आपकी मदद कैसे कर सकते हैं इसे जानने के लिए यहाँ जाएं: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " जानने के लिए <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">यहाँ</a> जाएं कैसे आप मदद कर सकते हैं।",
-            "link_md": " जानने के लिए [यहाँ](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) जाएं कैसे आप मदद कर सकते हैं।"
-        },
-        "pt": {
-            "title": "DigiFact # 88 - Sabia que...",
-            "content": "Estes DigiFacts são criados pela comunidade DigiByte para a comunidade DigiByte. Precisamos da sua ajuda para adicionar novos e traduzi-los para outras línguas, seja traduzindo-os você mesmo ou doando para o Fundo de Tradução DigiFacts.",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " Saiba como pode ajudar aqui: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " Vá <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">aqui</a> para saber como pode ajudar.",
-            "link_md": " Vá [aqui](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) para saber como pode ajudar."
-        },
-        "nl": {
-            "title": "DigiFact # 88 - Wist je dat...",
-            "content": "Deze DigiFacts zijn gemaakt door de DigiByte-gemeenschap voor de DigiByte-gemeenschap. We hebben uw hulp nodig om nieuwe toe te voegen en ze te vertalen naar andere talen, ofwel door ze zelf te vertalen of door te doneren aan het DigiFacts Vertalingsfonds.",
-            "url": "https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_social": " Kijk hier hoe je kunt helpen: https://github.com/saltedlolly/DigiByte-DigiFacts-JSON",
-            "link_html": " Ga <a target=\"_blank\" href=\"https://github.com/saltedlolly/DigiByte-DigiFacts-JSON\">hierheen</a> om te zien hoe je kunt helpen.",
-            "link_md": " Ga [hierheen](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) om te zien hoe je kunt helpen."
         }
     }
 }
