@@ -8,7 +8,7 @@ You will need a GitHub account.
 
 ## Step 1. Fork the GitHub Repo and clone to your local machine
 
-- Go to [here](https://github.com/saltedlolly/DigiByte-DigiFacts-JSON) and 'Fork' the main repo to your personal Github account.
+- Go to [here](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON) and 'Fork' the main repo to your personal Github account.
 - Clone the forked repo to your local machine so you can work on it. You can do this using [GitHub Desktop](https://desktop.github.com/)
 
 ## Step 2. Setup Visual Studio Code
@@ -20,7 +20,7 @@ You will need a GitHub account.
 
 For this task I highly recommend installing the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) extension for Google Chrome. It formats the JSON nicely in your brower window to make it easier to read.
 
-- In one browser window open the [English version of this DigiFacts](https://digifacts.digibyte.help/?view_raw). This is what we will be translating from.
+- In one browser window open the [English version of this DigiFacts](https://digifacts.diginode.tools/?view_raw). This is what we will be translating from.
 - In a second brower window open ChatGPT. You want to use GPT-3.5 as it is much faster for this task.
 - In VS Code, open the digifacts-multilang.json file from the repo.
 
