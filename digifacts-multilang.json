@@ -3922,99 +3922,99 @@
     "digifact41": {
         "en": {
             "title": "DigiFact # 41 - Did you know...",
-            "content": "DigiByte is now working on its 8th 'protocol' version in 6 years since creation. This is what the first number in the DigiByte Core Wallet version means, the protocol version. DigiByte has consistently grown and improved throughout its history, and continues to do so.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "content": "The DigiAsset Explorer, created by DigiByte community member Renzo Diaz, makes it easy to lookup information about DigiAsset transactions.",
+            "url": "https://digiassets.info/",
+            "link_social": " Find it here: https://digiassets.info/",
+            "link_html": " Find it <a target=\"_blank\" href=\"https://digiassets.info/\">here</a>.",
+            "link_md": " Find it [here](https://digiassets.info/)."
         },
         "zh": {
-            "title": "数字事实 #41 - 你知道吗？",
-            "content": "自创建以来的6年里，DigiByte现在正在开发其第8个'协议'版本。这是DigiByte Core钱包版本中的第一个数字的含义，即协议版本。DigiByte在其历史上一直在持续增长和改进，并将继续这样做。",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 41 - 你知道吗...",
+            "content": "DigiByte社区成员Renzo Diaz创建的DigiAsset Explorer，使查找DigiAsset交易信息变得轻松。",
+            "url": "https://digiassets.info/",
+            "link_social": " 在这里找到：https://digiassets.info/",
+            "link_html": " 在这里找到<a target=\"_blank\" href=\"https://digiassets.info/\">这里</a>。",
+            "link_md": " 在这里找到[此处](https://digiassets.info/)。"
         },
         "ru": {
-            "title": "ДиджиФакт #41 - Знаете ли вы...",
-            "content": "С момента своего создания в течение 6 лет DigiByte теперь работает над своей 8-й версией 'протокола'. Это то, что означает первое число в версии кошелька DigiByte Core, версия протокола. DigiByte последовательно рос и улучшался на протяжении всей своей истории и продолжает это делать.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 41 - Знаете ли вы...",
+            "content": "DigiAsset Explorer, созданный участником сообщества DigiByte Ренцо Диасом, позволяет легко находить информацию о транзакциях DigiAsset.",
+            "url": "https://digiassets.info/",
+            "link_social": " Найдите его здесь: https://digiassets.info/",
+            "link_html": " Найдите его <a target=\"_blank\" href=\"https://digiassets.info/\">здесь</a>.",
+            "link_md": " Найдите его [здесь](https://digiassets.info/)."
         },
         "es": {
-            "title": "DigiDato #41 - ¿Sabías que...",
-            "content": "DigiByte está trabajando ahora en su 8va versión de 'protocolo' en 6 años desde su creación. Esto es lo que significa el primer número en la versión del DigiByte Core Wallet, la versión del protocolo. DigiByte ha crecido y mejorado constantemente a lo largo de su historia y continúa haciéndolo.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 41 - ¿Sabías que...",
+            "content": "El DigiAsset Explorer, creado por Renzo Diaz, miembro de la comunidad de DigiByte, facilita la búsqueda de información sobre transacciones DigiAsset.",
+            "url": "https://digiassets.info/",
+            "link_social": " Encuéntralo aquí: https://digiassets.info/",
+            "link_html": " Encuéntralo <a target=\"_blank\" href=\"https://digiassets.info/\">aquí</a>.",
+            "link_md": " Encuéntralo [aquí](https://digiassets.info/)."
         },
         "ko": {
-            "title": "디지팩트 #41 - 혹시 알고 계셨나요...",
-            "content": "창작 이후 6년 동안 DigiByte는 이제 8번째 '프로토콜' 버전을 작업하고 있습니다. 이것은 DigiByte Core 지갑 버전의 첫 번째 숫자가 의미하는 바로, 프로토콜 버전입니다. DigiByte는 역사를 통해 지속적으로 성장하고 개선되었으며 계속해서 그렇게 할 것입니다.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 41 - 알고 계셨나요...",
+            "content": "DigiByte 커뮤니티 회원인 Renzo Diaz가 만든 DigiAsset Explorer는 DigiAsset 거래에 관한 정보를 쉽게 찾을 수 있게 해줍니다.",
+            "url": "https://digiassets.info/",
+            "link_social": " 여기에서 찾을 수 있습니다: https://digiassets.info/",
+            "link_html": " 여기에서 찾아보세요 <a target=\"_blank\" href=\"https://digiassets.info/\">여기</a>.",
+            "link_md": " 여기에서 찾아보기 [여기](https://digiassets.info/)."
         },
         "ja": {
-            "title": "デジファクト #41 - ご存知でしたか...",
-            "content": "DigiByteは創設から6年間で8番目の「プロトコル」バージョンに取り組んでいます。これはDigiByte Coreウォレットバージョンの最初の数字が意味するもので、プロトコルバージョンです。DigiByteはその歴史を通じて一貫して成長し、改善されてきました。",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 41 - ご存知ですか...",
+            "content": "DigiByteコミュニティメンバーであるRenzo Diazによって作成されたDigiAsset Explorerは、DigiAssetトランザクションに関する情報を簡単に検索できるようにします。",
+            "url": "https://digiassets.info/",
+            "link_social": " こちらで見つけてください：https://digiassets.info/",
+            "link_html": " こちらで見つける <a target=\"_blank\" href=\"https://digiassets.info/\">こちら</a>。",
+            "link_md": " こちらで見つける [こちら](https://digiassets.info/)。"
         },
         "de": {
-            "title": "DigiFakt #41 - Wussten Sie schon...",
-            "content": "DigiByte arbeitet nun in den 6 Jahren seit seiner Gründung an seiner 8. 'Protokoll' Version. Das ist es, was die erste Zahl in der Version des DigiByte Core Wallet bedeutet, die Protokollversion. DigiByte ist in seiner Geschichte konsequent gewachsen und hat sich verbessert und wird dies auch weiterhin tun.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 41 - Wusstest du...",
+            "content": "Der DigiAsset Explorer, erstellt von Renzo Diaz, Mitglied der DigiByte-Community, erleichtert die Suche nach Informationen zu DigiAsset-Transaktionen.",
+            "url": "https://digiassets.info/",
+            "link_social": " Hier finden Sie es: https://digiassets.info/",
+            "link_html": " Finden Sie es <a target=\"_blank\" href=\"https://digiassets.info/\">hier</a>.",
+            "link_md": " Finden Sie es [hier](https://digiassets.info/)."
         },
         "fr": {
-            "title": "DigiFact #41 - Saviez-vous que...",
-            "content": "DigiByte travaille maintenant sur sa 8ème version de 'protocole' en 6 ans depuis sa création. C'est ce que signifie le premier chiffre dans la version du portefeuille DigiByte Core, la version du protocole. DigiByte a constamment grandi et s'est amélioré tout au long de son histoire et continue de le faire.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
-        },
-        "pt": {
-            "title": "DigiFato #41 - Você sabia...",
-            "content": "DigiByte está agora trabalhando em sua 8ª versão de 'protocolo' em 6 anos desde sua criação. Isso é o que significa o primeiro número na versão do DigiByte Core Wallet, a versão do protocolo. DigiByte cresceu e melhorou consistentemente ao longo de sua história e continua a fazê-lo.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
-        },
-        "hi": {
-            "title": "डिजीफैक्ट #41 - क्या आप जानते थे...",
-            "content": "डिजीबाइट अब अपने निर्माण के 6 साल में अपने 8वें 'प्रोटोकॉल' संस्करण पर काम कर रहा है। यह डिजीबाइट कोर वॉलेट संस्करण में पहली संख्या का अर्थ है, प्रोटोकॉल संस्करण। डिजीबाइट ने अपने इतिहास में लगातार विकास किया है और सुधार किया है, और जारी रखता है।",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
-        },
-        "nl": {
-            "title": "DigiFeit #41 - Wist u dat...",
-            "content": "DigiByte werkt nu aan zijn 8e 'protocol' versie in 6 jaar sinds de oprichting. Dit is wat het eerste nummer in de versie van de DigiByte Core Wallet betekent, de protocolversie. DigiByte is consequent gegroeid en verbeterd door zijn geschiedenis heen en blijft dit doen.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 41 - Saviez-vous que...",
+            "content": "Le DigiAsset Explorer, créé par Renzo Diaz, membre de la communauté DigiByte, facilite la recherche d'informations sur les transactions DigiAsset.",
+            "url": "https://digiassets.info/",
+            "link_social": " Trouvez-le ici : https://digiassets.info/",
+            "link_html": " Trouvez-le <a target=\"_blank\" href=\"https://digiassets.info/\">ici</a>.",
+            "link_md": " Trouvez-le [ici](https://digiassets.info/)."
         },
         "it": {
-            "title": "DigiFact # 41 - Lo sapevi...",
-            "content": "DigiByte sta ora lavorando alla sua 8ª versione di \"protocollo\" in 6 anni dalla creazione. Questo è ciò che significa il primo numero nella versione del Portafoglio Core di DigiByte, il numero di protocollo. DigiByte è cresciuto e migliorato costantemente nel corso della sua storia e continua a farlo.",
-            "url": "",
-            "link_social": "",
-            "link_html": "",
-            "link_md": ""
+            "title": "DigiFact # 41 - Lo sapevi che...",
+            "content": "Il DigiAsset Explorer, creato da Renzo Diaz, membro della comunità DigiByte, facilita la ricerca di informazioni sulle transazioni DigiAsset.",
+            "url": "https://digiassets.info/",
+            "link_social": " Trovalo qui: https://digiassets.info/",
+            "link_html": " Trovalo <a target=\"_blank\" href=\"https://digiassets.info/\">qui</a>.",
+            "link_md": " Trovalo [qui](https://digiassets.info/)."
+        },
+        "hi": {
+            "title": "DigiFact # 41 - क्या आप जानते हैं...",
+            "content": "डिजीबाइट समुदाय के सदस्य रेंजो डियाज़ द्वारा बनाए गए डिजीएसेट एक्सप्लोरर, डिजीएसेट लेनदेन के बारे में जानकारी खोजना आसान बनाता है।",
+            "url": "https://digiassets.info/",
+            "link_social": " यहां पाएं: https://digiassets.info/",
+            "link_html": " यहां पाएं <a target=\"_blank\" href=\"https://digiassets.info/\">यहां</a>।",
+            "link_md": " यहां पाएं [यहां](https://digiassets.info/)।"
+        },
+        "pt": {
+            "title": "DigiFact # 41 - Você sabia...",
+            "content": "O DigiAsset Explorer, criado por Renzo Diaz, membro da comunidade DigiByte, facilita a busca por informações sobre transações de DigiAsset.",
+            "url": "https://digiassets.info/",
+            "link_social": " Encontre aqui: https://digiassets.info/",
+            "link_html": " Encontre <a target=\"_blank\" href=\"https://digiassets.info/\">aqui</a>.",
+            "link_md": " Encontre [aqui](https://digiassets.info/)."
+        },
+        "nl": {
+            "title": "DigiFact # 41 - Wist je dat...",
+            "content": "De DigiAsset Explorer, gemaakt door Renzo Diaz, lid van de DigiByte-community, maakt het gemakkelijk om informatie over DigiAsset-transacties op te zoeken.",
+            "url": "https://digiassets.info/",
+            "link_social": " Vind het hier: https://digiassets.info/",
+            "link_html": " Vind het <a target=\"_blank\" href=\"https://digiassets.info/\">hier</a>.",
+            "link_md": " Vind het [hier](https://digiassets.info/)."
         }
     },
     "digifact42": {
@@ -8423,104 +8423,6 @@
             "link_social": " Je vindt het hier: https://github.com/DigiAsset-Core/DigiAsset_Core",
             "link_html": " Je vindt het <a target=\"_blank\" href=\"https://github.com/DigiAsset-Core/DigiAsset_Core\">hier</a>.",
             "link_md": " Je vindt het [hier](https://github.com/DigiAsset-Core/DigiAsset_Core)。"
-        }
-    },
-    "digifact87": {
-        "en": {
-            "title": "DigiFact # 87 - Did you know...",
-            "content": "The DigiAsset Explorer, created by DigiByte community member Renzo Diaz, makes it easy to lookup information about DigiAsset transactions.",
-            "url": "https://digiassets.info/",
-            "link_social": " Find it here: https://digiassets.info/",
-            "link_html": " Find it <a target=\"_blank\" href=\"https://digiassets.info/\">here</a>.",
-            "link_md": " Find it [here](https://digiassets.info/)."
-        },
-        "zh": {
-            "title": "DigiFact # 87 - 你知道吗...",
-            "content": "DigiByte社区成员Renzo Diaz创建的DigiAsset Explorer，使查找DigiAsset交易信息变得轻松。",
-            "url": "https://digiassets.info/",
-            "link_social": " 在这里找到：https://digiassets.info/",
-            "link_html": " 在这里找到<a target=\"_blank\" href=\"https://digiassets.info/\">这里</a>。",
-            "link_md": " 在这里找到[此处](https://digiassets.info/)。"
-        },
-        "ru": {
-            "title": "DigiFact # 87 - Знаете ли вы...",
-            "content": "DigiAsset Explorer, созданный участником сообщества DigiByte Ренцо Диасом, позволяет легко находить информацию о транзакциях DigiAsset.",
-            "url": "https://digiassets.info/",
-            "link_social": " Найдите его здесь: https://digiassets.info/",
-            "link_html": " Найдите его <a target=\"_blank\" href=\"https://digiassets.info/\">здесь</a>.",
-            "link_md": " Найдите его [здесь](https://digiassets.info/)."
-        },
-        "es": {
-            "title": "DigiFact # 87 - ¿Sabías que...",
-            "content": "El DigiAsset Explorer, creado por Renzo Diaz, miembro de la comunidad de DigiByte, facilita la búsqueda de información sobre transacciones DigiAsset.",
-            "url": "https://digiassets.info/",
-            "link_social": " Encuéntralo aquí: https://digiassets.info/",
-            "link_html": " Encuéntralo <a target=\"_blank\" href=\"https://digiassets.info/\">aquí</a>.",
-            "link_md": " Encuéntralo [aquí](https://digiassets.info/)."
-        },
-        "ko": {
-            "title": "DigiFact # 87 - 알고 계셨나요...",
-            "content": "DigiByte 커뮤니티 회원인 Renzo Diaz가 만든 DigiAsset Explorer는 DigiAsset 거래에 관한 정보를 쉽게 찾을 수 있게 해줍니다.",
-            "url": "https://digiassets.info/",
-            "link_social": " 여기에서 찾을 수 있습니다: https://digiassets.info/",
-            "link_html": " 여기에서 찾아보세요 <a target=\"_blank\" href=\"https://digiassets.info/\">여기</a>.",
-            "link_md": " 여기에서 찾아보기 [여기](https://digiassets.info/)."
-        },
-        "ja": {
-            "title": "DigiFact # 87 - ご存知ですか...",
-            "content": "DigiByteコミュニティメンバーであるRenzo Diazによって作成されたDigiAsset Explorerは、DigiAssetトランザクションに関する情報を簡単に検索できるようにします。",
-            "url": "https://digiassets.info/",
-            "link_social": " こちらで見つけてください：https://digiassets.info/",
-            "link_html": " こちらで見つける <a target=\"_blank\" href=\"https://digiassets.info/\">こちら</a>。",
-            "link_md": " こちらで見つける [こちら](https://digiassets.info/)。"
-        },
-        "de": {
-            "title": "DigiFact # 87 - Wusstest du...",
-            "content": "Der DigiAsset Explorer, erstellt von Renzo Diaz, Mitglied der DigiByte-Community, erleichtert die Suche nach Informationen zu DigiAsset-Transaktionen.",
-            "url": "https://digiassets.info/",
-            "link_social": " Hier finden Sie es: https://digiassets.info/",
-            "link_html": " Finden Sie es <a target=\"_blank\" href=\"https://digiassets.info/\">hier</a>.",
-            "link_md": " Finden Sie es [hier](https://digiassets.info/)."
-        },
-        "fr": {
-            "title": "DigiFact # 87 - Saviez-vous que...",
-            "content": "Le DigiAsset Explorer, créé par Renzo Diaz, membre de la communauté DigiByte, facilite la recherche d'informations sur les transactions DigiAsset.",
-            "url": "https://digiassets.info/",
-            "link_social": " Trouvez-le ici : https://digiassets.info/",
-            "link_html": " Trouvez-le <a target=\"_blank\" href=\"https://digiassets.info/\">ici</a>.",
-            "link_md": " Trouvez-le [ici](https://digiassets.info/)."
-        },
-        "it": {
-            "title": "DigiFact # 87 - Lo sapevi che...",
-            "content": "Il DigiAsset Explorer, creato da Renzo Diaz, membro della comunità DigiByte, facilita la ricerca di informazioni sulle transazioni DigiAsset.",
-            "url": "https://digiassets.info/",
-            "link_social": " Trovalo qui: https://digiassets.info/",
-            "link_html": " Trovalo <a target=\"_blank\" href=\"https://digiassets.info/\">qui</a>.",
-            "link_md": " Trovalo [qui](https://digiassets.info/)."
-        },
-        "hi": {
-            "title": "DigiFact # 87 - क्या आप जानते हैं...",
-            "content": "डिजीबाइट समुदाय के सदस्य रेंजो डियाज़ द्वारा बनाए गए डिजीएसेट एक्सप्लोरर, डिजीएसेट लेनदेन के बारे में जानकारी खोजना आसान बनाता है।",
-            "url": "https://digiassets.info/",
-            "link_social": " यहां पाएं: https://digiassets.info/",
-            "link_html": " यहां पाएं <a target=\"_blank\" href=\"https://digiassets.info/\">यहां</a>।",
-            "link_md": " यहां पाएं [यहां](https://digiassets.info/)।"
-        },
-        "pt": {
-            "title": "DigiFact # 87 - Você sabia...",
-            "content": "O DigiAsset Explorer, criado por Renzo Diaz, membro da comunidade DigiByte, facilita a busca por informações sobre transações de DigiAsset.",
-            "url": "https://digiassets.info/",
-            "link_social": " Encontre aqui: https://digiassets.info/",
-            "link_html": " Encontre <a target=\"_blank\" href=\"https://digiassets.info/\">aqui</a>.",
-            "link_md": " Encontre [aqui](https://digiassets.info/)."
-        },
-        "nl": {
-            "title": "DigiFact # 87 - Wist je dat...",
-            "content": "De DigiAsset Explorer, gemaakt door Renzo Diaz, lid van de DigiByte-community, maakt het gemakkelijk om informatie over DigiAsset-transacties op te zoeken.",
-            "url": "https://digiassets.info/",
-            "link_social": " Vind het hier: https://digiassets.info/",
-            "link_html": " Vind het <a target=\"_blank\" href=\"https://digiassets.info/\">hier</a>.",
-            "link_md": " Vind het [hier](https://digiassets.info/)."
         }
     }
 }
