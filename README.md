@@ -1,4 +1,9 @@
 # DigiByte-DigiFacts-Wordpress-Plugin
+
+[![Sponsor DigiNode Tools](https://img.shields.io/badge/Sponsor-DigiNode%20Tools-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/DigiNode-Tools)
+
+**Find this useful?** Please consider [sponsoring me on GitHub](https://github.com/sponsors/DigiNode-Tools), so I can devote more time to DigiNode Tools and projects like this one.
+
 A Wordpress plugin to display a random DigiFact every 60 seconds using AJAX and jquery. Learn more about DigiByte DigiFacts [here](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON).
 
 ## Instructions
