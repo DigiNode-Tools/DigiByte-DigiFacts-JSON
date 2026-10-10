@@ -1,4 +1,9 @@
 # DigiByte DigiFacts - JSON Web Service
+
+[![Sponsor DigiNode Tools](https://img.shields.io/badge/Sponsor-DigiNode%20Tools-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/DigiNode-Tools)
+
+**Find this useful?** Please consider [sponsoring me on GitHub](https://github.com/sponsors/DigiNode-Tools), so I can devote more time to DigiNode Tools and projects like this one.
+
 Provides DigiByte DigiFacts in JSON format. Supports multiple languages and dynamic data.
 
 ## About DigiByte DigiFacts
