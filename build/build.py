@@ -41,6 +41,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS_DIR = os.path.join(ROOT, "facts")
 REPO_URL = "https://github.com/DigiNode-Tools/digibyte-digifacts"
 SITE_URL = "https://digifacts.diginode.tools"
+# Short links for facts with a link: SHORT_BASE + the fact's key number, e.g. HTTPS://DIGIFACTS.DIGINODE.TOOLS/L/55.
+# In capitals on purpose: a QR code can then use its compact alphanumeric mode, so the code is small enough for
+# a 64x32 display (25x25). The site publishes a redirect page for each one (L/55.html).
+SHORT_BASE = SITE_URL.upper() + "/L/"
 SPONSOR_URL = "https://github.com/sponsors/DigiNode-Tools"
 USER_AGENT = f"DigiFacts builder ({REPO_URL})"
 
@@ -291,6 +295,7 @@ def today_and_feed(lang, loc, count, day):
             "html": fill(f["content"] + f.get("link_html", ""), count),
             "markdown": fill(f["content"] + f.get("link_md", ""), count),
             "plain": fill(f["content"], count),
+            "short_url": short_url(key, f),
         }
 
     today = entry(day)
@@ -312,6 +317,18 @@ def today_and_feed(lang, loc, count, day):
             f"<language>{lang}</language>"
             + "".join(items) + "</channel></rss>\n")
     return to_json(today), feed
+
+
+def short_url(key, fact):
+    return SHORT_BASE + key[len("digifact"):] if fact.get("url") else ""
+
+
+def redirect_page(url):
+    u = html.escape(url, quote=True)
+    return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DigiFacts link</title>'
+            f'<meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={u}">'
+            f'<link rel="canonical" href="{u}"><script>location.replace({json.dumps(url)})</script></head>'
+            f'<body><p>Going to <a href="{u}">{u}</a></p></body></html>\n')
 
 
 def fill(text, count):
@@ -463,7 +480,8 @@ def main():
         for fmt, link_field in OUTPUT_FORMATS.items():
             data = {key: {"title": fill(f["title"], count),
                           "content": fill(f["content"] + (f.get(link_field, "") if link_field else ""), count),
-                          "url": f.get("url", "")} for key, f in loc.items()}
+                          "url": f.get("url", ""),
+                          "short_url": short_url(key, f)} for key, f in loc.items()}
             files[f"{lang}/{fmt}.json"] = to_json(data)
         files[f"{lang}/today.json"], files[f"{lang}/feed.xml"] = today_and_feed(lang, loc, count, day)
     files["index.html"] = files["en/social.json"]   # DigiNode Tools v26.10.x and older use '/?lang=en&format=social'
@@ -496,6 +514,9 @@ def main():
         files[f"proofread/{lang}/index.html"] = proofread_page(lang, langs, localised["en"], localised[lang], count)
     files["proofread/index.html"] = '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=en/"><a href="en/">Proofread the DigiFacts</a>\n'
     files[".nojekyll"] = ""
+    for key, f in facts["en"].items():
+        if f.get("url"):
+            files[f"L/{key[len('digifact'):]}.html"] = redirect_page(f["url"])
 
     for path, content in files.items():
         write(os.path.join(out_dir, path), content)
