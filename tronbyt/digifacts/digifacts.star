@@ -250,9 +250,12 @@ def render_fact(fact, size, lang):
     # Space between the text and the QR card. With nothing beside the QR code, the card's own space above the code
     # is enough: the text leaves the top of the display just as the QR code stops in the middle.
     gap = line_height // 2 if label else 0
+
+    # On the square display the QR code stops in the middle of the screen (its top this far below the banner)
+    qr_stop = (height - qr_size()) // 2 - header_height
     if square:
         # Just enough space above the QR code that the lines above it are all whole (none cut off under the banner)
-        gap = (view - qr_size()) % line_height
+        gap = qr_stop % line_height
         if gap < 2:
             gap += line_height
     lines = wrap(text_to_show, body_font, width)
@@ -272,9 +275,10 @@ def render_fact(fact, size, lang):
         if gap:
             children.append(render.Box(width = width, height = gap))  # (A Box with height 0 would fill the space)
         if square:
-            # Just the QR code, centred across the display; it stops at the bottom with the text above it
+            # Just the QR code, centred across the display; it stops in the middle of the screen with the end of the
+            # text above it
             children.append(render.Box(width = width, height = qr_size(), child = qrcode_image(fact["link"])))
-            distance = max(0, top + text_height + gap + qr_size() - view)
+            distance = max(0, top + text_height + gap - qr_stop)
         else:
             children.append(qr_card(fact["link"], label, width, view))
             distance = top + text_height + gap
