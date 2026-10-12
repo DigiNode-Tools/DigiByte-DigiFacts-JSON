@@ -154,50 +154,43 @@ def intro_card(header, width, height, font):
         )
     return render.Box(width = width, height = height, child = layout)
 
-def qr_card(link, link_text, width, height, lang, body_font):
-    # The DigiFact's short link as a QR code (white on black - the dark display around it is its border), with the
-    # link's sentence beside it, lined up with the top of the QR code so it reads on from the DigiFact - in the
-    # DigiFact's font if it fits, or a smaller one. If it doesn't fit at all, the DigiByte logo is shown instead.
+def qr_size():
+    return 50 if canvas.is2x() else 25
+
+def fit_label(link_text, width, height, lang, body_font):
+    # The link's sentence to show beside the QR code, in the DigiFact's font if it fits or a smaller one, starting
+    # level with the top of the QR code. None if it doesn't fit (it then stays at the end of the scrolling text).
+    if not link_text:
+        return None
     big = canvas.is2x()
-    square = width == height
+    space_w = width - qr_size() - (6 if big else 3)  # Leaves room for gaps around both
+    space_h = height - (height - qr_size()) // 2
+    smaller = ["terminus-16", "terminus-12", "tb-8"] if big else ["tb-8", "tom-thumb"]
+    for font in [body_font] + [f for f in smaller if f != body_font]:
+        if lang == "ru" and font in NO_CYRILLIC:
+            continue
+        if [w for w in link_text.split(" ") if text_width(w, font) > space_w]:
+            continue  # A word wouldn't fit on one line - try a smaller font rather than split it
+        lines = wrap(link_text, font, space_w)
+        if len(lines) * render.Text("Ag", font = font).size()[1] <= space_h:
+            return render.Column(children = [render.Text(line, font = font, color = TEXT_COLOR) for line in lines])
+    return None
+
+def qr_card(link, label, width, height):
+    # The DigiFact's short link as a QR code (white on black - the dark display around it is its border), in the
+    # middle of the display. If the link's sentence fits, it's on the left, starting level with the top of the QR
+    # code so it reads on from the DigiFact.
     code = qrcode.generate(url = link, size = "medium", color = TEXT_COLOR, background = "#000")
-    qr_size = 50 if big else 25
     qr = render.Image(src = code)
-    qr_top = (height - qr_size) // 2  # The QR code is always in the middle of the display
-
-    label = None
-    if link_text:
-        space_w = width if square else width - qr_size - (6 if big else 3)  # Leaves room for gaps around both
-        space_h = height - qr_size - 2 if square else height - qr_top  # The sentence starts level with its top
-        smaller = ["terminus-16", "terminus-12", "tb-8"] if big else ["tb-8", "tom-thumb"]
-        fonts = [body_font] + [f for f in smaller if f != body_font]
-        for font in fonts:
-            if lang == "ru" and font in NO_CYRILLIC:
-                continue
-            if [w for w in link_text.split(" ") if text_width(w, font) > space_w]:
-                continue  # A word wouldn't fit on one line - try a smaller font rather than split it
-            lines = wrap(link_text, font, space_w)
-            if len(lines) * render.Text("Ag", font = font).size()[1] <= space_h:
-                label = render.Column(
-                    cross_align = "center" if square else "start",
-                    children = [render.Text(line, font = font, color = TEXT_COLOR) for line in lines],
-                )
-                break
-
-    if square:
-        children = [label, qr] if label else [qr]
-        layout = render.Column(expanded = True, main_align = "space_evenly", cross_align = "center", children = children)
-        return render.Box(width = width, height = height, child = layout)
-    if label:
-        # The QR code in the middle of the display, with the sentence on its left, starting level with its top
-        row = render.Row(expanded = True, main_align = "space_evenly", cross_align = "start", children = [label, qr])
-        return render.Box(
-            width = width,
-            height = height,
-            child = render.Column(expanded = True, main_align = "start", children = [render.Box(width = width, height = qr_top), row]),
-        )
-    layout = render.Row(expanded = True, main_align = "space_evenly", cross_align = "center", children = [logo(big), qr])
-    return render.Box(width = width, height = height, child = layout)
+    if not label:
+        return render.Box(width = width, height = height, child = qr)  # Box centres it
+    qr_top = (height - qr_size()) // 2
+    row = render.Row(expanded = True, main_align = "space_evenly", cross_align = "start", children = [label, qr])
+    return render.Box(
+        width = width,
+        height = height,
+        child = render.Column(expanded = True, main_align = "start", children = [render.Box(width = width, height = qr_top), row]),
+    )
 
 def hold(widget, seconds, delay):
     return render.Animation(children = [widget] * (seconds * 1000 // delay))
@@ -239,14 +232,18 @@ def render_fact(fact, size, lang):
         body_font = FONTS["medium"][0]
     title_font = "terminus-16" if big else "tb-8"
     line_height = render.Text("Ag", font = body_font).size()[1]
-    lines = wrap(fact["text"], body_font, width)
+    header_height = 9 if square else 0  # The square display keeps a header (8 pixels, then a 1 pixel gap)
+    view = height - header_height
+    label = fit_label(fact["link_text"], width, view, lang, body_font) if fact.get("link") else None
+    text_to_show = fact["text"]
+    if fact.get("link") and fact["link_text"] and not label:
+        text_to_show = text_to_show + " " + fact["link_text"]  # Too long to fit beside the QR code
+    lines = wrap(text_to_show, body_font, width)
     text = render.Column(children = [render.Text(line, font = body_font, color = TEXT_COLOR) for line in lines])
     text_height = len(lines) * line_height
     gap = line_height // 2
 
     intro = intro_card(fact["header"], width, height, title_font)
-    header_height = 9 if square else 0  # The square display keeps a header (8 pixels, then a 1 pixel gap)
-    view = height - header_height
 
     # What scrolls: (the intro card on wide displays,) the text, then the QR code, which ends up filling the view
     if square:
@@ -256,7 +253,7 @@ def render_fact(fact, size, lang):
         children = [intro, text]
         top = height
     if fact.get("link"):
-        children += [render.Box(width = width, height = gap), qr_card(fact["link"], fact["link_text"], width, view, lang, body_font)]
+        children += [render.Box(width = width, height = gap), qr_card(fact["link"], label, width, view)]
         distance = top + text_height + gap
         end_frames = qr_frames
     else:
