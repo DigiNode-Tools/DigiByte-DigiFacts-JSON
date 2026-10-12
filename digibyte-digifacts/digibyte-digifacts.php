@@ -1,417 +1,282 @@
 <?php
 /**
-* Plugin Name:   DigiByte DigiFacts
-* Plugin URI:    https://github.com/DigiNode-Tools/DigiByte-DigiFacts-Wordpress-Plugin
-* Description:   Display random DigiFacts about DigiByte in multiple languages.
-* Version:       1.3
-* Author:        Olly Stedall (DigiNode.Tools)
-* Text Domain:   digibyte-digifacts
-*/
+ * Plugin Name:       DigiByte DigiFacts
+ * Plugin URI:        https://github.com/DigiNode-Tools/DigiByte-DigiFacts-Wordpress-Plugin
+ * Description:       Show a random DigiFact - a bite-size fact about DigiByte - that changes every minute. Available in multiple languages.
+ * Version:           2.0.0
+ * Requires at least: 5.0
+ * Requires PHP:      7.4
+ * Author:            Olly Stedall (DigiNode Tools)
+ * Author URI:        https://diginode.tools
+ * License:           GPL-2.0-or-later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       digibyte-digifacts
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+const DIGIBYTE_DIGIFACTS_VERSION = '2.0.0';
+// The DigiFacts website (https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON). Updated hourly.
+const DIGIBYTE_DIGIFACTS_URL = 'https://digifacts.diginode.tools';
+const DIGIBYTE_DIGIFACTS_REPO = 'https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON';
+const DIGIBYTE_DIGIFACTS_SPONSOR = 'https://github.com/sponsors/DigiNode-Tools';
+
+/**
+ * Fetch a JSON file from the DigiFacts website. Each file is checked at most once an hour. If it can't be fetched,
+ * the last good copy is used (and checked again in 10 minutes). Returns null if there has never been a good copy.
+ *
+ * @param string $path     e.g. 'en/html.json'
+ * @param string $cache_id Short name for the cache, e.g. 'facts_en'
+ */
+function digibyte_digifacts_get_json( $path, $cache_id ) {
+	$transient = 'digibyte_digifacts_' . $cache_id;
+	$cached    = get_transient( $transient );
+	if ( false !== $cached ) {
+		return $cached ? $cached : null;
+	}
+
+	$data     = null;
+	$response = wp_remote_get( DIGIBYTE_DIGIFACTS_URL . '/' . $path, array( 'timeout' => 5 ) );
+	if ( ! is_wp_error( $response ) && 200 === wp_remote_retrieve_response_code( $response ) ) {
+		$decoded = json_decode( wp_remote_retrieve_body( $response ), true );
+		if ( is_array( $decoded ) && $decoded ) {
+			$data = $decoded;
+			update_option( $transient . '_last_good', $data, false );
+		}
+	}
+	if ( ! $data ) {
+		$data = get_option( $transient . '_last_good', null );
+	}
+
+	set_transient( $transient, $data ? $data : array(), $data ? HOUR_IN_SECONDS : 10 * MINUTE_IN_SECONDS );
+	return $data;
+}
+
+/**
+ * The available languages, as code => name (English first), from the DigiFacts website's info.json.
+ */
+function digibyte_digifacts_languages() {
+	$info  = digibyte_digifacts_get_json( 'info.json', 'info' );
+	$langs = array();
+	if ( isset( $info['languages'] ) && is_array( $info['languages'] ) ) {
+		foreach ( $info['languages'] as $code => $lang ) {
+			if ( preg_match( '/^[a-z]{2}(-[a-z]{2,4})?$/', $code ) ) {
+				$langs[ $code ] = isset( $lang['name'] ) ? (string) $lang['name'] : $code;
+			}
+		}
+	}
+	return $langs ? $langs : array( 'en' => 'English' );
+}
+
+/**
+ * The DigiFacts for a language, ready to show: a list of array( 'title' => text, 'content' => safe HTML ).
+ * Falls back to English if the language isn't available.
+ */
+function digibyte_digifacts_facts( $language ) {
+	if ( ! preg_match( '/^[a-z]{2}(-[a-z]{2,4})?$/', $language ) ) {
+		$language = 'en';
+	}
+	$raw = digibyte_digifacts_get_json( $language . '/html.json', 'facts_' . $language );
+	if ( ! $raw && 'en' !== $language ) {
+		$raw = digibyte_digifacts_get_json( 'en/html.json', 'facts_en' );
+	}
+	if ( ! is_array( $raw ) ) {
+		return array();
+	}
+
+	// Only a link is allowed in a DigiFact (the DigiFacts website checks this too)
+	$allowed = array(
+		'a' => array(
+			'href'   => true,
+			'target' => true,
+			'rel'    => true,
+		),
+	);
+	$facts   = array();
+	foreach ( $raw as $fact ) {
+		if ( ! is_array( $fact ) || empty( $fact['title'] ) || empty( $fact['content'] ) ) {
+			continue;
+		}
+		$content = wp_kses( (string) $fact['content'], $allowed );
+		$content = str_replace( 'target="_blank"', 'target="_blank" rel="noopener"', $content );
+		$facts[] = array(
+			'title'   => wp_strip_all_tags( (string) $fact['title'] ),
+			'content' => $content,
+		);
+	}
+	return $facts;
+}
+
+/**
+ * [digifacts] - shows a random DigiFact, which changes every minute.
+ */
+function digibyte_digifacts_shortcode() {
+	$facts = digibyte_digifacts_facts( get_option( 'digibyte_digifacts_language', 'en' ) );
+	if ( ! $facts ) {
+		return ''; // Show nothing rather than an error
+	}
+
+	$fact = $facts[ array_rand( $facts ) ];
+	$box  = 'text' !== get_option( 'digibyte_digifacts_display', 'box' );
+
+	wp_enqueue_style( 'digibyte-digifacts' );
+	wp_enqueue_script( 'digibyte-digifacts' );
+	digibyte_digifacts_print_facts_once( $facts );
+
+	return '<div class="digibyte-digifact' . ( $box ? ' with-box' : ' without-box' ) . '">'
+		. '<h5 class="digifact-title">' . esc_html( $fact['title'] ) . '</h5>'
+		. '<div class="digifact-content">' . $fact['content'] . '</div>'
+		. '</div>';
+}
+add_shortcode( 'digifacts', 'digibyte_digifacts_shortcode' );
+
+/**
+ * Add the facts to the page once (for the script that changes the DigiFact every minute). Included in the page, so
+ * it works with page caching and visitors' browsers don't need to contact any other site.
+ */
+function digibyte_digifacts_print_facts_once( $facts ) {
+	static $done = false;
+	if ( $done ) {
+		return;
+	}
+	$done = true;
+	wp_add_inline_script(
+		'digibyte-digifacts',
+		'window.digibyteDigiFacts = ' . wp_json_encode( $facts, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT ) . ';',
+		'before'
+	);
+}
+
+function digibyte_digifacts_register_assets() {
+	wp_register_style( 'digibyte-digifacts', plugins_url( 'digifacts-styles.css', __FILE__ ), array(), DIGIBYTE_DIGIFACTS_VERSION );
+	wp_register_script( 'digibyte-digifacts', plugins_url( 'js/digifact-refresh.js', __FILE__ ), array(), DIGIBYTE_DIGIFACTS_VERSION, true );
+}
+// Registered early ('init'), because block themes render the page content before 'wp_enqueue_scripts'
+add_action( 'init', 'digibyte_digifacts_register_assets' );
+
+/**
+ * The DigiFacts block (shows the same as the shortcode).
+ */
+function digibyte_digifacts_register_block() {
+	wp_register_script( 'digibyte-digifacts-block', plugins_url( 'js/block.js', __FILE__ ), array( 'wp-blocks', 'wp-element' ), DIGIBYTE_DIGIFACTS_VERSION, true );
+	register_block_type(
+		'digibyte/digifacts',
+		array(
+			'editor_script'   => 'digibyte-digifacts-block',
+			'render_callback' => 'digibyte_digifacts_shortcode',
+		)
+	);
+}
+add_action( 'init', 'digibyte_digifacts_register_block' );
 
 /*
-DigiByte DigiFacts is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-any later version.
-
-DigiByte DigiFacts is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with DigiByte DigiFacts. If not, see:
-https://github.com/DigiNode-Tools/DigiByte-DigiFacts-Wordpress-Plugin
-*/
-
-add_action('admin_menu', 'digibyte_digifacts_admin_menu');
+ * Settings page: Settings > DigiFacts
+ */
 
 function digibyte_digifacts_admin_menu() {
-    add_options_page('DigiByte DigiFacts Settings', 'DigiFacts', 'manage_options', 'digibyte-digifacts', 'digibyte_digifacts_settings_page');
+	add_options_page( 'DigiByte DigiFacts', 'DigiFacts', 'manage_options', 'digibyte-digifacts', 'digibyte_digifacts_settings_page' );
+}
+add_action( 'admin_menu', 'digibyte_digifacts_admin_menu' );
+
+function digibyte_digifacts_settings_init() {
+	register_setting(
+		'digibyte_digifacts_options',
+		'digibyte_digifacts_language',
+		array(
+			'type'              => 'string',
+			'default'           => 'en',
+			'sanitize_callback' => 'digibyte_digifacts_sanitize_language',
+		)
+	);
+	register_setting(
+		'digibyte_digifacts_options',
+		'digibyte_digifacts_display',
+		array(
+			'type'              => 'string',
+			'default'           => 'box',
+			'sanitize_callback' => 'digibyte_digifacts_sanitize_display',
+		)
+	);
+	add_settings_section( 'digibyte_digifacts_section', '', '__return_false', 'digibyte-digifacts' );
+	add_settings_field( 'digibyte_digifacts_language', 'Language', 'digibyte_digifacts_language_field', 'digibyte-digifacts', 'digibyte_digifacts_section' );
+	add_settings_field( 'digibyte_digifacts_display', 'Display', 'digibyte_digifacts_display_field', 'digibyte-digifacts', 'digibyte_digifacts_section' );
+}
+add_action( 'admin_init', 'digibyte_digifacts_settings_init' );
+
+function digibyte_digifacts_sanitize_language( $code ) {
+	return array_key_exists( $code, digibyte_digifacts_languages() ) ? $code : 'en';
+}
+
+function digibyte_digifacts_sanitize_display( $display ) {
+	return 'text' === $display ? 'text' : 'box';
+}
+
+function digibyte_digifacts_language_field() {
+	$current = get_option( 'digibyte_digifacts_language', 'en' );
+	echo '<select id="digibyte_digifacts_language" name="digibyte_digifacts_language">';
+	foreach ( digibyte_digifacts_languages() as $code => $name ) {
+		printf( '<option value="%s"%s>%s</option>', esc_attr( $code ), selected( $current, $code, false ), esc_html( $name ) );
+	}
+	echo '</select>';
+	echo '<p class="description">A DigiFact that isn\'t translated yet is shown in English.</p>';
+}
+
+function digibyte_digifacts_display_field() {
+	$display = get_option( 'digibyte_digifacts_display', 'box' );
+	?>
+	<label><input type="radio" name="digibyte_digifacts_display" value="box" <?php checked( $display, 'box' ); ?> /> Box</label><br />
+	<label><input type="radio" name="digibyte_digifacts_display" value="text" <?php checked( $display, 'text' ); ?> /> Text only</label>
+	<?php
 }
 
 function digibyte_digifacts_settings_page() {
-    // Automatically reload languages whenever the settings page is loaded
-    digibyte_digifacts_reload_languages();
+	if ( ! current_user_can( 'manage_options' ) ) {
+		return;
+	}
+	$facts = digibyte_digifacts_facts( get_option( 'digibyte_digifacts_language', 'en' ) );
+	?>
+	<div class="wrap">
+		<h1>DigiByte DigiFacts</h1>
+		<?php if ( ! $facts ) : ?>
+			<div class="notice notice-warning"><p>The DigiFacts can't be loaded from <?php echo esc_html( DIGIBYTE_DIGIFACTS_URL ); ?> at the moment, so nothing is shown on your site. This is checked again every 10 minutes.</p></div>
+		<?php endif; ?>
+		<form action="options.php" method="post">
+			<?php
+			settings_fields( 'digibyte_digifacts_options' );
+			do_settings_sections( 'digibyte-digifacts' );
+			submit_button();
+			?>
+		</form>
 
-    // Show any settings errors that were added
-    settings_errors('digibyte_digifacts_languages');
+		<h2>Usage</h2>
+		<p>Add the <code>[digifacts]</code> shortcode, or the DigiByte DigiFacts block, where you want a DigiFact to appear. A random DigiFact is shown, and it changes every minute.</p>
 
-    //qrcode url
-    $qrcode_url = plugins_url('qrcode.png', __FILE__);
+		<h2>Styling</h2>
+		<p>The DigiFacts use your theme's fonts and colours. To change how they look, add CSS in Appearance &gt; Customize &gt; Additional CSS. For example:</p>
+		<pre>.digibyte-digifact .digifact-title { font-size: 1.2em; }
+.digibyte-digifact.with-box { border-color: #0066cc; background: #f4f8ff; }</pre>
 
-    ?>
-    <div class="wrap">
-        <h2>DigiByte DigiFacts Settings</h2>
-        <form action="options.php" method="post">
-            <?php
-            settings_fields('digibyte_digifacts_options');
-            do_settings_sections('digibyte-digifacts');
-            submit_button();
-            ?>
-        </form>
-        <div>
-            <h3>Usage</h3>
-            <p>To display DigiFacts on your site, use the shortcode <code>[digifacts]</code> in your posts or pages. You can also use the provided gutenberg block.</p>
-            <img src="<?php echo esc_url($qrcode_url); ?>" alt="DigiByte DigiFacts Translation Fund QR Code" align="right"><h3>Please Contribute</h3>
-            <p>Please help DigiByte reach more people around the world by donating to the <a href="https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON#donate-to-the-digifacts-translation-fund" target="_blank">DigiFacts Translation Fund</a>.</p>
-            <ul>
-            <li>- For every 12,500 DGB that is donated, DigiFacts will be translated into five additional languages.</li>
-            <li>- Anyone who donates 2500 DGB or more gets to choose a language to translate to.</li>
-            </ul>
-            <p>Donate here: <strong>dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv</strong></p>
-            <p>You can also help by contributing new DigiFacts or helping to translate them yourself. Go <a href="https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON" target="_blank">here</a> to learn more.</p>
-            <h3>Styling the DigiFacts</h3>
-    <p>You can style the DigiFacts title and content with CSS. Add custom styles to your theme's stylesheet or in the Customizer under Additional CSS.</p>
-    <h4>General Styles</h4>
-    <pre>
-.digibyte-digifact .digifact-title {
-    font-size: 24px;
-    color: #333;
-}
-.digibyte-digifact .digifact-content {
-    font-size: 16px;
-    color: #666;
-}
-    </pre>
-    <p>Replace the font-size and color values with your own preferences.</p>
-    
-    <h4>Styles for Boxed DigiFacts</h4>
-    <pre>
-.digibyte-digifact.with-box {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: #f9f9f9;
-}
-.digibyte-digifact.with-box .digifact-title {
-    margin-top: 0;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #eee;
-}
-.digibyte-digifact.with-box .digifact-content {
-    padding-top: 10px;
-}
-    </pre>
-    <p>Add the above styles if you choose the 'Box' display option to give a boxed appearance to the DigiFacts.</p>
-    
-    <h4>Styles for Text-Only DigiFacts</h4>
-    <pre>
-.digibyte-digifact.without-box .digifact-title,
-.digibyte-digifact.without-box .digifact-content {
-    padding: 0;
-    border: none;
-    background-color: transparent;
-}
-    </pre>
-    <p>Use the above styles if you select the 'Text Only' display option to remove the box and display only the text.</p>
-</div>
-    </div>
-    <?php
+		<h2>Help improve the DigiFacts</h2>
+		<p>Spotted a mistake, or a DigiFact that's out of date? Corrections, new DigiFacts and translations are all welcome - see <a href="<?php echo esc_url( DIGIBYTE_DIGIFACTS_REPO ); ?>" target="_blank" rel="noopener">how to contribute</a>.</p>
+		<p>DigiFacts are maintained by <a href="https://diginode.tools" target="_blank" rel="noopener">DigiNode Tools</a>. If you find them useful, please consider <a href="<?php echo esc_url( DIGIBYTE_DIGIFACTS_SPONSOR ); ?>" target="_blank" rel="noopener">sponsoring DigiNode Tools</a>.</p>
+	</div>
+	<?php
 }
 
-
-add_action('updated_option', 'digibyte_digifacts_updated_option', 10, 3);
-function digibyte_digifacts_updated_option($option_name, $old_value, $value) {
-    if ('digibyte_digifacts_language' === $option_name && $old_value !== $value) {
-        // Language has changed, so set a transient to clear local storage
-        set_transient('digibyte_digifacts_language_changed', 1, 5 * MINUTE_IN_SECONDS);
-    }
+/**
+ * Tidy up after version 1.x (its browser cache and old options are no longer used).
+ */
+function digibyte_digifacts_upgrade() {
+	if ( get_option( 'digibyte_digifacts_version' ) === DIGIBYTE_DIGIFACTS_VERSION ) {
+		return;
+	}
+	delete_option( 'digibyte_digifacts_languages' );
+	delete_transient( 'digibyte_digifacts_language_changed' );
+	foreach ( array_keys( digibyte_digifacts_languages() ) as $code ) {
+		delete_transient( 'digibyte_digifacts_' . $code ); // 1.x cache (old format)
+	}
+	update_option( 'digibyte_digifacts_version', DIGIBYTE_DIGIFACTS_VERSION );
 }
-
-
-function digibyte_digifacts_settings_section_cb() {
-    echo '<p>Set your preferences for the DigiByte DigiFacts plugin here.</p>';
-}
-
-function digibyte_digifacts_display_field_cb() {
-    $display = get_option('digibyte_digifacts_display', 'box'); // Default to 'box' if not set
-
-    ?>
-    <input type="radio" id="display_box" name="digibyte_digifacts_display" value="box" <?php checked($display, 'box'); ?> />Box<br />
-    <input type="radio" id="display_text" name="digibyte_digifacts_display" value="text" <?php checked($display, 'text'); ?> />Text Only
-    <?php
-}
-
-add_action('admin_init', 'digibyte_digifacts_settings_init');
-
-function digibyte_digifacts_settings_init() {
-    // Register settings for your options page
-    register_setting('digibyte_digifacts_options', 'digibyte_digifacts_language', 'digibyte_digifacts_sanitize_language');
-    register_setting('digibyte_digifacts_options', 'digibyte_digifacts_display');
-    
-    // Add a settings section on your options page
-    add_settings_section(
-        'digibyte_digifacts_settings_section',
-        'DigiFacts Display Settings',
-        'digibyte_digifacts_settings_section_cb',
-        'digibyte-digifacts'
-    );
-
-    // Add a settings field for language selection
-    add_settings_field(
-        'digibyte_digifacts_language_field',
-        'Language',
-        'digibyte_digifacts_language_field_cb',
-        'digibyte-digifacts',
-        'digibyte_digifacts_settings_section'
-    );
-
-    // Add a settings field for display selection
-    add_settings_field(
-        'digibyte_digifacts_display_field',
-        'Display',
-        'digibyte_digifacts_display_field_cb',
-        'digibyte-digifacts',
-        'digibyte_digifacts_settings_section'
-    );
-
-    // Check if the "Reload Languages" button was clicked and the nonce field is valid
-    if (isset($_POST['reload_languages_nonce'], $_POST['reload_languages']) &&
-        wp_verify_nonce($_POST['reload_languages_nonce'], 'reload_languages_action')) {
-        // Call the function to re-fetch the languages
-        digibyte_digifacts_reload_languages();
-    }
-}
-
-function digibyte_digifacts_sanitize_language($language_code) {
-    // Ensure the language_code is in the list of languages
-    $languages = get_option('digibyte_digifacts_languages', array());
-
-    if (array_key_exists($language_code, $languages)) {
-        return $language_code;
-    } else {
-        // Return the default 'en' if the provided code isn't valid
-        return 'en';
-    }
-}
-
-
-function digibyte_digifacts_reload_languages() {
-    $response = wp_remote_get('https://digifacts.diginode.tools/?get_langs');
-    
-    if (!is_wp_error($response) && wp_remote_retrieve_response_code($response) === 200) {
-        $language_codes = json_decode(wp_remote_retrieve_body($response), true);
-        if (is_array($language_codes)) {
-            // Convert numeric array to associative array
-            $languages_assoc = array_combine($language_codes, $language_codes);
-            // Save the associative array in the database option
-            update_option('digibyte_digifacts_languages', $languages_assoc);
-        } else {
-            // Handle the case where the languages array is not valid
-            add_settings_error(
-                'digibyte_digifacts_languages',
-                'digibyte_digifacts_invalid_array',
-                'Invalid languages array received from the API',
-                'error'
-            );
-        }
-    } else {
-        // Handle the case where the response is a WP error or the response code is not 200
-        $error_message = is_wp_error($response) ? $response->get_error_message() : 'Unexpected response code: ' . wp_remote_retrieve_response_code($response);
-        add_settings_error(
-            'digibyte_digifacts_languages',
-            'digibyte_digifacts_fetch_error',
-            'Unable to fetch languages from the API: ' . $error_message,
-            'error'
-        );
-    }
-    
-}
-
-function digibyte_digifacts_language_field_cb() {
-    // Fetch the languages every time the settings page is loaded
-    digibyte_digifacts_reload_languages();
-    
-    // Try to get the stored languages from the options table.
-    $languages = get_option('digibyte_digifacts_languages', array());
-
-    // Display the language selection dropdown
-    $current_language = get_option('digibyte_digifacts_language', 'en');
-    echo '<select id="digibyte_digifacts_language" name="digibyte_digifacts_language">';
-    
-    foreach ($languages as $code => $name) {
-        printf(
-            '<option value="%s" %s>%s</option>',
-            esc_attr($code),
-            selected($current_language, $code, false),
-            esc_html($name)
-        );
-    }
-    echo '</select>';
-}
-
-// Fetch and cache remote DigiFacts
-function digibyte_digifacts_fetch_facts($language) {
-    $transient_key = 'digibyte_digifacts_' . $language;
-    $facts = get_transient($transient_key);
-
-    if (false === $facts) {
-        $url = "https://digifacts.diginode.tools/?format=html&lang=" . $language;
-        $response = wp_remote_get($url);
-
-        if (is_wp_error($response)) {
-            error_log('Unable to retrieve DigiFacts at this time.');
-            return false;
-        }
-
-        if (wp_remote_retrieve_response_code($response) !== 200) {
-            error_log('Unexpected response code received from the API.');
-            return false;
-        }
-
-        $body = wp_remote_retrieve_body($response);
-        json_decode($body);
-        if (json_last_error() === JSON_ERROR_NONE) {
-            $facts = json_decode($body, true);
-            set_transient($transient_key, $facts, 60 * MINUTE_IN_SECONDS);
-        } else {
-            error_log('Error decoding DigiFacts: ' . json_last_error_msg());
-            return false;
-        }
-    }
-
-    return $facts;
-}
-
-// Shortcode to insert random DigiFact
-function digibyte_digifacts_display_shortcode($atts) {
-    $language = get_option('digibyte_digifacts_language', 'en');
-    if (!$language || $language == '0') {
-        error_log('Invalid language code retrieved from settings: ' . $language);
-        return 'Error: Invalid language code. Please check the DigiByte DigiFacts settings.';
-    }
-
-    $facts = digibyte_digifacts_fetch_facts($language);
-    if (!$facts) {
-        return 'No DigiFacts available at the moment.';
-    }
-
-    // Get the selected display option from the settings
-    $display = get_option('digibyte_digifacts_display', 'box');
-
-    $random_key = array_rand($facts);
-    $fact = $facts[$random_key];
-
-    ob_start();
-    ?>
-    <div class="digibyte-digifact <?php echo ($display === 'box') ? 'with-box' : ''; ?>">
-        <h5 class="digifact-title"><?php echo esc_html($fact['title']); ?></h5>
-        <div class="digifact-content"><?php echo wp_kses_post($fact['content']); ?></div>
-    </div>
-    <?php
-    $content = ob_get_clean();
-    return $content;
-}
-add_shortcode('digifacts', 'digibyte_digifacts_display_shortcode');
-
-function digibyte_digifacts_enqueue_styles() {
-    // Enqueue the custom CSS file for DigiFacts
-    wp_enqueue_style('digifacts-styles', plugins_url('digifacts-styles.css', __FILE__), array(), '1.0');
-
-    // Check the display option from the plugin settings.
-    $display = get_option('digibyte_digifacts_display', 'box');
-
-    // Conditionally enqueue the additional styles based on the display option.
-    if ($display === 'box') {
-        wp_enqueue_style('digifacts-styles-box', false, array(), '1.0');
-        wp_add_inline_style('digifacts-styles-box', '
-            /* Additional styles for digifacts with the box border */
-            .digibyte-digifact.with-box {
-                /* Add any other styling you want for the box here */
-            }
-            
-            /* Additional styling for the DigiFact content inside the box */
-            .digibyte-digifact.with-box .digifact-content {
-                /* Add styling for content inside the box here */
-            }
-        ');
-    } else {
-        wp_enqueue_style('digifacts-styles-no-box', false, array(), '1.0');
-        wp_add_inline_style('digifacts-styles-no-box', '
-            /* Styles for digifacts without the box border */
-            .digibyte-digifact {
-                /* Add styling for digifacts without the box here */
-            }
-            
-            /* Additional styling for the DigiFact content without the box */
-            .digibyte-digifact .digifact-content {
-                /* Add styling for content without the box here */
-            }
-        ');
-    }
-}
-add_action('wp_enqueue_scripts', 'digibyte_digifacts_enqueue_styles');
-
-
-function digibyte_digifacts_enqueue_scripts() {
-    // Correct the handle to match your enqueued script handle
-    wp_enqueue_script('digifact-refresh', plugin_dir_url(__FILE__) . 'js/digifact-refresh.js', array('jquery'), '1.0', true);
-    
-    // Localize the script with new data
-    wp_localize_script('digifact-refresh', 'digibyte_digifacts_ajax_params', array(
-        'ajaxurl' => admin_url('admin-ajax.php'),
-        'nonce' => wp_create_nonce('digibyte_digifacts_nonce'),
-        'languageChanged' => get_transient('digibyte_digifacts_language_changed') ? true : false
-    ));
-
-    // If the language has changed, clear the transient
-    if (get_transient('digibyte_digifacts_language_changed')) {
-        delete_transient('digibyte_digifacts_language_changed');
-    }
-}
-add_action('wp_enqueue_scripts', 'digibyte_digifacts_enqueue_scripts');
-
-// handle the AJAX request and return the updated DigiFact content
-function digibyte_digifacts_ajax_refresh() {
-    check_ajax_referer('digibyte_digifacts_nonce', 'nonce');
-    // Fetch a new set of DigiFacts
-    $language = get_option('digibyte_digifacts_language', 'en');
-    $facts = digibyte_digifacts_fetch_facts($language);
-
-    if ($facts) {
-        // Sanitize each fact
-        foreach ($facts as $key => $fact) {
-            $facts[$key]['title'] = esc_html($fact['title']);
-            $facts[$key]['content'] = wp_kses_post($fact['content']);
-        }
-
-        // Send all facts
-        wp_send_json_success($facts);
-    } else {
-        wp_send_json_error('No DigiFacts available at the moment.');
-    }
-}
-
-add_action('wp_ajax_digibyte_digifacts_ajax_refresh', 'digibyte_digifacts_ajax_refresh');
-add_action('wp_ajax_nopriv_digibyte_digifacts_ajax_refresh', 'digibyte_digifacts_ajax_refresh');
-
-// Register gutenberg block
-function digibyte_digifacts_register_block() {
-    register_block_type('digibyte/digifacts', array(
-        'render_callback' => 'digibyte_digifacts_display_shortcode', // Reuse the shortcode rendering function
-    ));
-}
-
-add_action('init', 'digibyte_digifacts_register_block');
-
-// Enqueue gutenberg block assets
-function digibyte_digifacts_enqueue_block_editor_assets() {
-    wp_enqueue_script(
-        'digibyte-digifacts-block-editor',
-        plugin_dir_url(__FILE__) . 'js/block.js', // Path to your block.js
-        array('wp-blocks', 'wp-element', 'wp-editor'), // Dependencies
-        '1.0',
-        true
-    );
-}
-add_action('enqueue_block_editor_assets', 'digibyte_digifacts_enqueue_block_editor_assets');
-
-
-function clear_language_changed_flag() {
-    check_ajax_referer('digibyte_digifacts_nonce', 'nonce');
-    delete_transient('digibyte_digifacts_language_changed');
-    wp_send_json_success();
-}
-add_action('wp_ajax_clear_language_changed_flag', 'clear_language_changed_flag');
-
+add_action( 'admin_init', 'digibyte_digifacts_upgrade' );

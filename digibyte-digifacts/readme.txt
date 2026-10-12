@@ -1,57 +1,50 @@
-=== Plugin Name ===
+=== DigiByte DigiFacts ===
 Contributors: saltedlolly
-Donate link: https://github.com/DigiNode-Tools/DigiByte-DigiFacts-Wordpress-Plugin
+Donate link: https://github.com/sponsors/DigiNode-Tools
 Tags: digibyte, digifacts, crypto, blockchain
-Requires at least: 4.7
-Tested up to: 6.4.1
-Stable tag: 4.3
-Requires PHP: 7.0
+Requires at least: 5.0
+Tested up to: 6.8
+Stable tag: 2.0.0
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Display a random DigiFact - a fact about DigiByte - every 60 seconds using AJAX and jquery.
+Show a random DigiFact - a bite-size fact about DigiByte - that changes every minute. Available in multiple languages.
 
 == Description ==
 
-Plugin to display a random DigiFact every 60 seconds using AJAX and jquery. Learn more about DigiByte DigiFacts [here](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON).
+DigiFacts are short facts about DigiByte, to help people learn about it. This plugin shows a random DigiFact on your site, and changes it every minute. Some DigiFacts include live data, such as the number of DigiByte blocks.
 
-## Usage
+Choose the language in Settings > DigiFacts. A DigiFact that isn't translated yet is shown in English. Learn more about DigiFacts at https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON
 
-User the [digifacts] shortcode or included gutenberg block to insert the DigiFacts into your web page.
+== Usage ==
 
-## How this works
+Add the [digifacts] shortcode, or the DigiByte DigiFacts block, where you want a DigiFact to appear.
 
-* The current set of DigiFacts are retrieved from the remote web service (https://digifacts.diginode.tools) and cached on the Wordpress server once per hour
-* When a user visits the Wordpress site, the current set of DigiFacts are cached in the browser's local storage for 60 minutes. A random DigiFact is displayed.
-* Every 60 seconds the DigiFact displayed on the screen is refreshed with another random one.
-* If more than 60 minutes have passed, new DigiFacts are fetched via an AJAX call to the web server.
-* If less than 60 minutes have passed, the DigiFacts from localStorage are used.
+== How it works ==
 
-## Donate to the DigiFacts Translation Fund!
-
-Please help DigiByte reach more people around the world by donating to the DigiFacts Translation Fund:
-
-* For every 12,500 DGB that is donated, DigiFacts will be translated into five additional languages.
-* Anyone who donates 2500 DGB or more gets to choose a language to translate to. (see below)
-* Your donations support the ongoing development and hosting costs for the DigiFacts web service. Thank you for your support.
-
-Donate here: **dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv**
-
-![DigiFact Translation Fund](digibyte-digifacts/qrcode.png)
-
-You can monitor the current donations [here](https://digibyteblockexplorer.com/address/dgb1qrgmuy24pj738tuc64wl30us9u8g2ywq3tclsjv).
+* The DigiFacts are fetched from https://digifacts.diginode.tools by your site, at most once an hour. If they can't be fetched, the last copy is used. If there has never been a copy, nothing is shown.
+* The DigiFacts are included in your page, and a small script shows a different one every minute. It works with page caching, and your visitors' browsers don't contact any other site.
 
 == Screenshots ==
 
-1. DigiFacts settings screen - choose language and whether the DigiFact is enclosed in a box.
-2. DigiFacts can be embedded in your website and refresh every 60 seconds.
+1. DigiFacts settings - choose the language, and whether the DigiFact is shown in a box.
+2. A DigiFact on a website.
 
 == Changelog ==
+
+= 2.0.0 =
+* Uses the new DigiFacts website (digifacts.diginode.tools), which is now built and published openly on GitHub.
+* No more AJAX or jQuery: the DigiFacts are included in the page, so they work with page caching.
+* Several DigiFacts on one page now change independently.
+* Language names are shown in the settings.
+* Errors are never shown to your visitors. If the DigiFacts can't be loaded, the last copy is used.
+* Deleting the plugin removes everything it stored.
 
 = 1.1 =
 * Initial release
 
 == Upgrade Notice ==
 
-= 1.1 =
-Please upgrade - this version reduces the number of remote queries required.
+= 2.0.0 =
+Required: the old DigiFacts web service has been replaced, and version 1.x can only show English DigiFacts from it.
