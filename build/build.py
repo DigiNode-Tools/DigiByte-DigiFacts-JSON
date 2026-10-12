@@ -8,9 +8,11 @@
 #          2. Gets the current DigiByte block count from several block explorers. It uses the middle value of the
 #             ones that look right, never goes backwards, and falls back to an estimate (one block every 15
 #             seconds) if no explorer answers.
-#          3. Fills in the live values (e.g. $blocks_tot_mil) and writes each language in each format
-#             (social, html, markdown), plus languages.json, info.json, and the help and proofreading pages.
-#             A fact that isn't translated yet is shown in English.
+#          3. Numbers the facts in the order they appear in facts/en.json (so deleting one never leaves a gap), makes
+#             each title from the language's "_title" (e.g. "DigiFact # {number} - Did you know..."), fills in the
+#             live values (e.g. $blocks_tot_mil) and writes each language in each format (social, html, markdown),
+#             plus languages.json, info.json, and the help and proofreading pages. A fact that isn't translated yet
+#             is shown in English.
 #
 #          Everything here is public, so anyone can see exactly how DigiFacts are made.
 #
@@ -42,7 +44,8 @@ LANGUAGE_NAMES = {
     "ja": "Japanese", "ko": "Korean", "nl": "Dutch", "pt": "Portuguese", "ru": "Russian",
     "zh": "Chinese (Simplified)",
 }
-FIELDS = ("title", "content", "url", "link_social", "link_html", "link_md")
+FIELDS = ("content", "url", "link_social", "link_html", "link_md")
+TITLE_KEY = "_title"   # Each language's title, e.g. "DigiFact # {number} - Did you know..."
 FORMATS = {"social": "link_social", "html": "link_html", "markdown": "link_md"}
 
 # The only HTML allowed in a fact: one link, in link_html. (Sites may show the html format as HTML.)
@@ -99,19 +102,16 @@ def fail(msg):
     sys.exit(f"::error::{msg}" if os.environ.get("GITHUB_ACTIONS") else f"ERROR: {msg}")
 
 
-def fact_number(key):
-    return int(key[len("digifact"):])
-
-
 # ---------------------------------------------------------------------------------------------------------------
 # 1. Read and check the facts
 
 def load_facts():
-    """Return {lang: {key: fact}} in language order (English first), checking everything. Exits on a problem."""
+    """Return ({lang: {key: fact}}, {lang: title}) in language order (English first), checking everything.
+    Exits on a problem."""
     langs = sorted((f[:-5] for f in os.listdir(FACTS_DIR) if f.endswith(".json")), key=lambda l: (l != "en", l))
     if "en" not in langs:
         fail("facts/en.json is missing")
-    facts = {}
+    facts, titles = {}, {}
     for lang in langs:
         path = f"facts/{lang}.json"
         if not re.fullmatch(r"[a-z]{2}(-[a-z]{2,4})?", lang):
@@ -126,6 +126,11 @@ def load_facts():
             fail(f"{path} is not valid JSON: {e}")
         if not isinstance(data, dict):
             fail(f"{path} should contain one object with a key for each DigiFact")
+        title = data.pop(TITLE_KEY, "")
+        if title:
+            if not isinstance(title, str) or title.count("{number}") != 1 or re.search(r"[<>$]", title):
+                fail(f'{path} {TITLE_KEY} should be text containing {{number}} once, e.g. "DigiFact # {{number}} - Did you know..."')
+            titles[lang] = title
         for key, fact in data.items():
             where = f"{path} {key}"
             if not re.fullmatch(r"digifact[1-9][0-9]*", key):
@@ -134,7 +139,8 @@ def load_facts():
                 fail(f"{where} should be an object")
             for field, value in fact.items():
                 if field not in FIELDS:
-                    fail(f"{where}: unknown field '{field}' (allowed: {', '.join(FIELDS)})")
+                    hint = f" - titles are now set once per language, with {TITLE_KEY}" if field == "title" else ""
+                    fail(f"{where}: unknown field '{field}' (allowed: {', '.join(FIELDS)}){hint}")
                 if not isinstance(value, str):
                     fail(f"{where} {field} should be text")
                 if field != "link_html" and re.search(r"[<>]", value):
@@ -149,9 +155,11 @@ def load_facts():
         facts[lang] = data
 
     en = facts["en"]
+    if "en" not in titles:
+        fail(f"facts/en.json needs a {TITLE_KEY}")
     for key, fact in en.items():
-        if not fact.get("title") or not fact.get("content"):
-            fail(f"facts/en.json {key} needs a title and content")
+        if not fact.get("content"):
+            fail(f"facts/en.json {key} needs content")
         if fact.get("url"):
             for field in ("link_social", "link_html", "link_md"):
                 if fact["url"] not in fact.get(field, ""):
@@ -159,31 +167,34 @@ def load_facts():
     for lang in langs[1:]:
         for key, fact in facts[lang].items():
             if key not in en:
-                warn(f"facts/{lang}.json {key} isn't in facts/en.json - it will be ignored")
+                warn(f"facts/{lang}.json {key} isn't in facts/en.json - it will be ignored (build/tidy.py removes it)")
                 continue
-            if fact.get("title") and fact.get("content"):
-                for field in ("title", "content"):
-                    if set(VARIABLE_RE.findall(en[key][field])) != set(VARIABLE_RE.findall(fact[field])):
-                        warn(f"facts/{lang}.json {key} {field} should use the same live values as English: "
-                             f"{', '.join(sorted(set(VARIABLE_RE.findall(en[key][field])))) or 'none'}")
-    return facts
+            if fact.get("content"):
+                if set(VARIABLE_RE.findall(en[key]["content"])) != set(VARIABLE_RE.findall(fact["content"])):
+                    warn(f"facts/{lang}.json {key} content should use the same live values as English: "
+                         f"{', '.join(sorted(set(VARIABLE_RE.findall(en[key]['content'])))) or 'none'}")
+        if lang not in titles:
+            warn(f"facts/{lang}.json has no {TITLE_KEY} - the English title is used")
+    return facts, titles
 
 
-def localise(facts, lang):
-    """The facts for one language, in English order: the translation where there is one, else the English fact."""
+def localise(facts, titles, lang):
+    """The facts for one language, in English order, numbered from 1: the translation where there is one, else the
+    English fact. Each fact gets its title, from the language's title (or the English one) and its number."""
     en, tr = facts["en"], facts[lang]
+    title = titles.get(lang, titles["en"])
     out, translated = {}, 0
-    for key in sorted(en, key=fact_number):
+    for number, key in enumerate(en, start=1):
         fact = tr.get(key) or {}
-        if lang != "en" and not (fact.get("title") and fact.get("content")):
-            out[key] = dict(en[key], translated=False)
+        if lang != "en" and not fact.get("content"):
+            out[key] = dict(en[key], title=titles["en"].replace("{number}", str(number)), translated=False)
             continue
         fact = dict(fact)
         fact["url"] = fact.get("url") or en[key].get("url", "")
         if en[key].get("url") and not all(fact.get(f) for f in FORMATS.values()):
             for f in FORMATS.values():   # Translated text, but no translated link yet: use the English link
                 fact[f] = en[key].get(f, "")
-        out[key] = dict(fact, translated=True)
+        out[key] = dict(fact, title=title.replace("{number}", str(number)), translated=True)
         translated += 1
     return out, translated
 
@@ -363,14 +374,14 @@ def main():
     if len(sys.argv) != 2:
         sys.exit("Usage: build/build.py OUT_DIR")
     out_dir = sys.argv[1]
-    facts = load_facts()
+    facts, titles = load_facts()
     langs = list(facts)
     prev = previous_info()
     count, source, count_time, readings = block_count(prev)
 
     files, langs_info, localised = {}, {}, {}
     for lang in langs:
-        loc, translated = localise(facts, lang)
+        loc, translated = localise(facts, titles, lang)
         localised[lang] = loc
         langs_info[lang] = {"name": LANGUAGE_NAMES[lang], "translated": translated}
         for fmt, link_field in FORMATS.items():

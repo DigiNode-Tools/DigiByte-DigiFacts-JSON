@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write   # To commit tidied translation files (see the Tidy step)
   pages: write
   id-token: write
   actions: write   # Keep the hourly schedule enabled (see the last step)
@@ -29,6 +29,18 @@ jobs:
       changed: ${{ steps.build.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
+
+      # A DigiFact deleted from facts/en.json is also removed from the translation files
+      - name: Tidy the translation files
+        if: github.event_name != 'schedule'
+        run: |
+          python3 build/tidy.py
+          if ! git diff --quiet facts; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -q -am "Remove deleted DigiFacts from the translation files"
+            git push -q
+          fi
 
       - id: pages
         uses: actions/configure-pages@v5

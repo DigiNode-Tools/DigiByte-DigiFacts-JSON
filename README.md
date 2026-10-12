@@ -32,7 +32,7 @@ For example: https://digifacts.diginode.tools/en/social.json
 | `html` | `Learn more <a href="https://example.com">here</a>.` | Websites |
 | `markdown` | `Learn more [here](https://example.com).` | Markdown |
 
-Each file has every fact, keyed `digifact1`, `digifact2`, ... with a `title`, `content` and `url`. A fact that isn't translated yet is included in English.
+Each file has every fact, in order, each with a `title` (which includes its number, e.g. "DigiFact # 1 - Did you know..."), `content` and `url`. The keys (`digifact1`, `digifact3`, ...) identify each fact and never change, so they aren't always consecutive - use the order of the file, or the number in the title. A fact that isn't translated yet is included in English.
 
 Languages: `en` English, `de` German, `es` Spanish, `fr` French, `hi` Hindi, `it` Italian, `ja` Japanese, `ko` Korean, `nl` Dutch, `pt` Portuguese, `ru` Russian, `zh` Chinese (Simplified). The list is also at https://digifacts.diginode.tools/languages.json, and https://digifacts.diginode.tools/info.json shows each language's progress, the block count used and when the facts were last published.
 
@@ -59,12 +59,14 @@ To read through the facts in any language, side by side with English, use the [p
 ### Fixing or adding a DigiFact
 
 - New DigiFacts are added to `facts/en.json` first. Translations follow - until then, the English version is shown in every language.
+- Facts are numbered by their order in `facts/en.json`, so the number isn't part of the text. Give a new fact a new key, one higher than the highest key so far (e.g. `digifact87`), and put it wherever it belongs in the list. Never reuse or rename a key - translations are matched to facts by their key.
+- To delete a DigiFact, delete it from `facts/en.json` only. The facts after it are renumbered, and the GitHub Action removes it from the translation files automatically.
 - Keep the wording neutral: no marketing, and nothing about price. A single DigiFact telling the community about a DigiByte project and what it does is fine.
 - Include at most one link. Put it in `url`, and in all three link fields (`link_social`, `link_html` and `link_md`) - see the existing facts for the format.
 
 ### Translating
 
-Each language has its own file in `facts/`, with the same keys as `facts/en.json`. Translate `title`, `content` and the three link fields, and leave the `url` as it is. See the [translation guide](translation-guide.md).
+Each language has its own file in `facts/`, with the same keys as `facts/en.json`. Translate the `_title` at the top of the file (once - it's used for every fact, with `{number}` replaced by the fact's number), then each fact's `content` and three link fields. Leave the `url` as it is. See the [translation guide](translation-guide.md).
 
 ### Live data
 

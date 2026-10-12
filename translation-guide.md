@@ -7,8 +7,8 @@ Thank you for helping! Translations make DigiByte easier to learn about for peop
 Each language has its own file in [`facts/`](facts/), named with its two-letter language code (e.g. `facts/de.json` for German). [`facts/en.json`](facts/en.json) is the original that every translation is based on, and every file uses the same keys (`digifact1`, `digifact2`, ...):
 
 ```json
+"_title": "DigiFact # {number} - Did you know...",
 "digifact2": {
-  "title": "DigiFact # 2 - Did you know...",
   "content": "DigiByte has upgraded the network a number of times...",
   "url": "https://rb.gy/egrt5",
   "link_social": " Learn more: https://rb.gy/egrt5",
@@ -17,12 +17,13 @@ Each language has its own file in [`facts/`](facts/), named with its two-letter 
 }
 ```
 
-- Translate `title`, `content`, and the words in `link_social`, `link_html` and `link_md`.
+- Translate the `_title` at the top of the file once. It's used as the title of every fact, and `{number}` is replaced by the fact's number - keep `{number}` exactly as it is.
+- Translate each fact's `content`, and the words in `link_social`, `link_html` and `link_md`.
 - Keep the `url` as it is, and keep the same link in all three link fields. Each link field starts with a space.
 - Keep live values such as `$blocks_tot_mil` exactly as they are - they're replaced with live data (e.g. 24.3). Move them to wherever they belong in your sentence.
 - `link_html` may only contain the one link, written exactly as above. Nothing else may contain `<` or `>`.
 
-If a fact is missing from a translation, or its title or content is empty, the English version is shown instead - so it's fine to translate a few facts at a time.
+If a fact is missing from a translation, or its content is empty, the English version is shown instead - so it's fine to translate a few facts at a time.
 
 ## Improving a translation
 

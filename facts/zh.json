@@ -1,6 +1,6 @@
 {
+  "_title": "数字事实 #{number} - 你知道吗？",
   "digifact1": {
-    "title": "数字事实 #1 - 你知道吗？",
     "content": "DigiByte 区块链于2014年启动。由于其15秒的区块时间，它是现存最长的UTXO区块链，拥有超过$blocks_tot_mil百万个区块。比特币将需要到22世纪才能达到那么多区块。",
     "url": "",
     "link_social": "",
@@ -8,7 +8,6 @@
     "link_md": ""
   },
   "digifact2": {
-    "title": "数字事实 #2 - 你知道吗？",
     "content": "DigiByte多次升级网络，包括“改进里程碑”。这些硬分叉并不是产生额外货币的有争议的分裂，而是DigiByte社区同意的“航向重新定位”。",
     "url": "https://rb.gy/egrt5",
     "link_social": "了解更多：https://rb.gy/egrt5",
@@ -16,7 +15,6 @@
     "link_md": "了解更多[在这里](https://rb.gy/egrt5)。"
   },
   "digifact3": {
-    "title": "数字事实 #3 - 你知道吗？",
     "content": "DigiByte 区块链在 2014 年进行了公平启动，这比 2017 年白皮书项目的首次代币发行（ICO）热潮要早得多。DigiByte 一开始就是一个完全有效的区块链，并且自那以后一直在持续改进。",
     "url": "",
     "link_social": "",
@@ -24,7 +22,6 @@
     "link_md": ""
   },
   "digifact4": {
-    "title": "数字事实 #4 - 你知道吗？",
     "content": "DigiByte 在 2014 年启动时，将一小部分预挖矿的 DigiByte（0.5%）在最初的 30 天内赠送给了社区成员，详细情况可以在 BitcoinTalk 上看到。这样做是为了激励人们下载并运行一个完整的节点，帮助分发区块链。预挖矿的部分没有被创始人或开发者保留。",
     "url": "",
     "link_social": "",
@@ -32,7 +29,6 @@
     "link_md": ""
   },
   "digifact5": {
-    "title": "数字事实 #5 - 你知道吗？",
     "content": "DigiByte 区块链没有创始人奖励。挖掘每个区块的奖励仅仅归挖掘它的人所有。没有任何部分会转给其他人。",
     "url": "",
     "link_social": "",
@@ -40,7 +36,6 @@
     "link_md": ""
   },
   "digifact6": {
-    "title": "数字事实 #6 - 你知道吗？",
     "content": "DigiByte的创始人和开发者都是在交易所以市场价格购买他们的DGB币，或者像其他人一样挖掘它们。DigiByte区块链没有进行ICO（首次币发行）。自创世区块以来，每一枚币都是公平挖掘的。",
     "url": "",
     "link_social": "",
@@ -48,7 +43,6 @@
     "link_md": ""
   },
   "digifact7": {
-    "title": "数字事实 #7 - 你知道吗？",
     "content": "DigiByte 区块链上的交易费用通常极低。在7658349号区块中，一位用户从200多个不同地址发送了342,000,000 DGB（当时价值600万美元）。手续费仅为1/10美分（USD），且仅需一两分钟即可确认。",
     "url": "",
     "link_social": "",
@@ -56,7 +50,6 @@
     "link_md": ""
   },
   "digifact8": {
-    "title": "数字事实 #8 - 你知道吗？",
     "content": "DigiByte是首个引入DigiShield难度调整的数字货币。它被用于Dogecoin、Ubiq、ZCash、Monacoin等，甚至部分代码被Ethereum使用。",
     "url": "https://j.mp/3oivy5u",
     "link_social": " 什么是DigiShield（又名MultiShield）？在这里了解更多：https://j.mp/3oivy5u",
@@ -64,7 +57,6 @@
     "link_md": " 什么是DigiShield（又名MultiShield）？在这里了解更多 [这里](https://j.mp/3oivy5u)。"
   },
   "digifact9": {
-    "title": "数字事实 #9 - 你知道吗？",
     "content": "DigiByte 是第一个在 2018 年修复主要通货膨胀漏洞的非比特币区块链。我们的杰出开发人员做出了迅速响应！",
     "url": "",
     "link_social": "",
@@ -72,7 +64,6 @@
     "link_md": ""
   },
   "digifact10": {
-    "title": "数字事实 #10 - 你知道吗？",
     "content": "DigiByte的'创世区块'包含以下标题：'今日美国：2014年1月10日，目标：从高达1.1亿顾客那里窃取数据。'这永远地巩固了DigiByte对网络安全的关注。",
     "url": "",
     "link_social": "",
@@ -80,7 +71,6 @@
     "link_md": ""
   },
   "digifact11": {
-    "title": "DigiFact # 11 - 你知道吗...",
     "content": "DigiByte是第一枚从单一挖矿算法升级到MultiAlgo的币种，通过采用5倍算法提供了额外的安全性。这次升级于2014年底进行，称为“MultiAlgo”网络升级。",
     "url": "https://j.mp/3oivy5u",
     "link_social": " 什么是MultiAlgo？在这里了解更多：https://j.mp/3oivy5u",
@@ -88,7 +78,6 @@
     "link_md": " 什么是MultiAlgo？在这里了解更多：[这里](https://j.mp/3oivy5u)。"
   },
   "digifact12": {
-    "title": "数字事实 #12 - 你知道吗？",
     "content": "起初，DigiByte仅使用Scrypt算法进行挖矿。2014年9月，网络升级到MultiAlgo，采用了Scrypt、SHA256、Skein、Qubit和Myriad-Groestl算法。这极大地提高了去中心化程度，使得可以使用更广泛的挖矿硬件。",
     "url": "",
     "link_social": "",
@@ -96,7 +85,6 @@
     "link_md": ""
   },
   "digifact13": {
-    "title": "数字事实 #13 - 你知道吗？",
     "content": "2019年，DigiByte升级了网络，将Myriad-Groestl算法替换为Odocrypt算法，Odocrypt是一种旨在通过针对FPGA硬件挖矿来抵抗ASIC的算法。然而，对于大多数抵抗ASIC的算法，如果有财务激励，最终会为这些算法开发ASIC，Odocrypt也是如此。",
     "url": "",
     "link_social": "",
@@ -104,7 +92,6 @@
     "link_md": ""
   },
   "digifact14": {
-    "title": "数字事实 #14 - 你知道吗？",
     "content": "2018年，DigiByte社区筹集了足够的资金，为越境的委内瑞拉难民提供了超过一千瓶水，供养了160名孤儿一个月，为一家医院提供了必要的维护，翻新了Adicora学校的厨房，并为数百人举办了几次免费的社区午餐。",
     "url": "",
     "link_social": "",
@@ -112,7 +99,6 @@
     "link_md": ""
   },
   "digifact15": {
-    "title": "数字事实 #15 - 你知道吗？",
     "content": "DigiByte不是一个在其他网络上发行的ICO或代币，而是一个纯粹的区块链项目，有着像比特币或Litecoin这样的自己的共识规则。",
     "url": "",
     "link_social": "",
@@ -120,7 +106,6 @@
     "link_md": ""
   },
   "digifact16": {
-    "title": "DigiFact # 16 - 你知道吗...",
     "content": "对于一般的DigiByte支持，一个好的起点是使用社区支持工具",
     "url": "https://dgbsupport.digiassetx.com/",
     "link_social": " 这里：https://dgbsupport.digiassetx.com/",
@@ -128,7 +113,6 @@
     "link_md": " [这里](https://dgbsupport.digiassetx.com/)。"
   },
   "digifact17": {
-    "title": "数字事实 #17 - 你知道吗？",
     "content": "DigiByte可以用来存储少量数据（80字节），这在交易中被称为OP_RETURN。这对于文件哈希的公证/验证、分布式应用、脚本编写等非常有用。",
     "url": "",
     "link_social": "",
@@ -136,7 +120,6 @@
     "link_md": ""
   },
   "digifact18": {
-    "title": "数字事实 #18 - 你知道吗...",
     "content": "您可以通过将交易ID、DigiByte地址或区块号码输入到“区块链浏览器”中来查询DigiByte区块链上的任何交易。",
     "url": "https://digiexplorer.info",
     "link_social": "社区维护了一个这样的浏览器，您可以在这里使用：https://digiexplorer.info",
@@ -144,7 +127,6 @@
     "link_md": "社区维护了一个这样的浏览器，您可以在这里使用 [此处](https://digiexplorer.info/)。"
   },
   "digifact19": {
-    "title": "数字事实 #19 - 你知道吗...",
     "content": "您是否曾经想过运行自己的DigiExplorer？或者从区块链中获取其他数据，以便将其与您的业务整合？",
     "url": "https://dgbwiki.com",
     "link_social": "这里有一些有用的指南，可以帮助您：https://dgbwiki.com",
@@ -152,7 +134,6 @@
     "link_md": "这里有一些有用的指南，可以帮助您[这里](https://dgbwiki.com/)。"
   },
   "digifact20": {
-    "title": "数字事实 #20 - 你知道吗？",
     "content": "'DigiByte'这个名字最初被选中是因为它象征着数据的'数字字节'。这是因为像DigiByte这样的区块链技术可以用于远超过像银或金这样的'硬币'。DigiByte用途极其广泛。",
     "url": "",
     "link_social": "",
@@ -160,7 +141,6 @@
     "link_md": ""
   },
   "digifact21": {
-    "title": "数字事实 #21 - 你知道吗？",
     "content": "DigiByte区块链开源代码v7.17.3的一个副本被存放在北极山脉永久冻土中250米深的冷藏库中！这要归功于GitHub北极代码库计划！",
     "url": "",
     "link_social": "",
@@ -168,7 +148,6 @@
     "link_md": ""
   },
   "digifact22": {
-    "title": "数字事实 #22 - 你知道吗？",
     "content": "DigiByte在100多个交易所上市，包括与许多不同本地货币的法定货币配对，使购买DigiByte比以往更加容易。",
     "url": "",
     "link_social": "",
@@ -176,7 +155,6 @@
     "link_md": ""
   },
   "digifact23": {
-    "title": "数字事实 #23 - 你知道吗？",
     "content": "DigiByte由Jared Tate于2013年创立，创世区块于2014年1月10日开采。虽然Jared仍然是DigiByte社区的活跃成员，并且是核心开发人员之一，但他并不指示项目的方向。DigiByte没有老板 - 它完全由一个全球的志愿者社区运营和管理。",
     "url": "",
     "link_social": "",
@@ -184,7 +162,6 @@
     "link_md": ""
   },
   "digifact24": {
-    "title": "数字事实 #24 - 你知道吗？",
     "content": "由于DigiByte的'script'语言，它可以执行智能合约。您可以在DigiByte之上运行许多强大的工具来为dApp提供动力。",
     "url": "",
     "link_social": "",
@@ -192,7 +169,6 @@
     "link_md": ""
   },
   "digifact25": {
-    "title": "数字事实 #25 - 你知道吗？",
     "content": "官方的DigiByte核心钱包可用于Windows，MacOS和Linux，以及像树莓派这样的低功耗单板计算机。DigiByte在移动设备上由许多第三方钱包支持，如Coinomi和SecuX。它也可以在许多硬件钱包上使用，如Ledger和Trezor。请注意，并非所有这些钱包都支持Digi-ID和DigiAssets。",
     "url": "",
     "link_social": "",
@@ -200,7 +176,6 @@
     "link_md": ""
   },
   "digifact26": {
-    "title": "数字事实 #26 - 你知道吗...",
     "content": "Digi-ID是DigiByte提供的世界上最简单但最安全的身份验证方法之一。即使是Google也警告不要使用他们自己的基于时间的2FA代码或SMS-2FA，但Digi-ID克服了所有的缺点。Digi-ID是开源的，免费的，无广告的（永远），私密而安全。",
     "url": "https://www.digi-id.io/",
     "link_social": "了解更多：https://www.digi-id.io/",
@@ -208,7 +183,6 @@
     "link_md": "了解更多 [这里](https://www.digi-id.io/)。"
   },
   "digifact27": {
-    "title": "数字事实 #27 - 你知道吗？",
     "content": "DigiByte的发展是由全球志愿者团队完成的，他们都出于对项目的热情自愿奉献自己的时间。没有中央公司雇用和支付人员，这一切都是由我们不可思议的开发者和支持社区自由提供的。",
     "url": "",
     "link_social": "",
@@ -216,7 +190,6 @@
     "link_md": ""
   },
   "digifact28": {
-    "title": "数字事实 #28 - 你知道吗？",
     "content": "最后一个DigiByte将在2035年被开采出来。全世界等待被开采的剩余DGB不到一半。这些不像ICO一样被任何人'拥有'，而将是新'铸造'的。",
     "url": "",
     "link_social": "",
@@ -224,7 +197,6 @@
     "link_md": ""
   },
   "digifact29": {
-    "title": "数字事实 #29 - 你知道吗？",
     "content": "自2017年初实施SegWit以来，DigiByte可以安全可靠地用于与其他区块链的原子交换。执行此操作无需第二层网络，而可以直接进行。",
     "url": "",
     "link_social": "",
@@ -232,7 +204,6 @@
     "link_md": ""
   },
   "digifact30": {
-    "title": "数字事实 #30 - 你知道吗？",
     "content": "当所有DigiByte都被开采出来后，网络将继续运行，矿工们将像目前一样开采/保护网络。他们只会从发送DGB中获取交易费用。",
     "url": "",
     "link_social": "",
@@ -240,7 +211,6 @@
     "link_md": ""
   },
   "digifact31": {
-    "title": "DigiFact # 31 - 你知道吗...",
     "content": "如果您曾经遇到将您的DigiByte从钱包中取出的问题，您可以使用DigiAssetX的Matthew Cornelisse创建的DigiSweep工具将资金转移到新钱包。它易于使用并且是开源的。",
     "url": "https://digisweep.digiassetx.com/",
     "link_social": "在这里找到：https://digisweep.digiassetx.com/",
@@ -248,7 +218,6 @@
     "link_md": "在[这里](https://digisweep.digiassetx.com/)找到。"
   },
   "digifact32": {
-    "title": "数字事实 #32 - 你知道吗？",
     "content": "DigiByte启动时，有一个倒计时到代码的发布，以及第一个区块的开采。这是为了从2014年开始就鼓励“公平”分配而做的事情之一。",
     "url": "",
     "link_social": "",
@@ -256,7 +225,6 @@
     "link_md": ""
   },
   "digifact33": {
-    "title": "DigiFact # 33 - 你知道吗...",
     "content": "DigiByte最初是基于Litecoin代码库的分叉（尽管它是100%独立的区块链，具有独特的创世区块）。DigiByte自那时以来一直保持与比特币更接近的特性，同时也在很大程度上进行创新并超越了比特币！",
     "url": "https://github.com/digibyte-core/digibyte/",
     "link_social": "查看代码：https://github.com/digibyte-core/digibyte/",
@@ -264,7 +232,6 @@
     "link_md": "在[这里](https://github.com/digibyte-core/digibyte/)查看代码。"
   },
   "digifact34": {
-    "title": "数字事实 #34 - 你知道吗？",
     "content": "任何人都可以在DigiByte区块链之上构建第二层网络，如DigiAssets、闪电网络、ICO、代币、资产等。",
     "url": "",
     "link_social": "",
@@ -272,7 +239,6 @@
     "link_md": ""
   },
   "digifact35": {
-    "title": "数字事实 #35 - 你知道吗？",
     "content": "DigiByte地址的可能数量令人难以置信。1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰)，这是一个十五次方。这个数字如此之大，您每秒可以随机生成数万亿个地址，而不会生成两次相同的地址。",
     "url": "",
     "link_social": "",
@@ -280,7 +246,6 @@
     "link_md": ""
   },
   "digifact36": {
-    "title": "数字事实 #36 - 你知道吗？",
     "content": "在零售场景中，您只需在钱包中输入所需金额即可接受DigiByte。发送方扫描时，二维码将自动包含您的地址和金额。非常简单，直接来自您的钱包。",
     "url": "",
     "link_social": "",
@@ -288,7 +253,6 @@
     "link_md": ""
   },
   "digifact37": {
-    "title": "数字事实 #37 - 你知道吗？",
     "content": "DigiByte核心钱包连接到各种节点，不仅仅是'最近'或'最快'的节点。它从全世界找到连接，确保您在DigiByte区块链上获得广泛的共识并保护您免受sybil攻击。",
     "url": "",
     "link_social": "",
@@ -296,7 +260,6 @@
     "link_md": ""
   },
   "digifact38": {
-    "title": "数字事实 #38 - 你知道吗？",
     "content": "DigiByte在2015年实施了DigiSpeed协议。这使DigiByte的区块时间从30秒减少到15秒。快如闪电！",
     "url": "",
     "link_social": "",
@@ -304,7 +267,6 @@
     "link_md": ""
   },
   "digifact39": {
-    "title": "DigiFact # 39 - 你知道吗...",
     "content": "DigiByte关键基础设施团队（DGBCIT）成立于2023年1月，旨在确保DigiByte区块链以及其关键服务始终保持运行状态。这是通过社区的协同分散和冗余努力实现的。",
     "url": "https://t.ly/DGBCIT",
     "link_social": "请加入DigiByte Discord服务器上的#DGBCIT频道：https://t.ly/DGBCIT",
@@ -312,7 +274,6 @@
     "link_md": "请在DigiByte Discord服务器上的#DGBCIT频道 [这里](https://t.ly/DGBCIT)。"
   },
   "digifact40": {
-    "title": "数字事实 #40 - 你知道吗？",
     "content": "你知道DigiByte是无需许可的吗？这意味着没有个人或公司可以询问你是否可以在其上构建dApp，使用它，发送它，接收它，接受它用于你的业务，宣传它，推广它。你只需可以做到！",
     "url": "",
     "link_social": "",
@@ -320,7 +281,6 @@
     "link_md": ""
   },
   "digifact41": {
-    "title": "DigiFact # 41 - 你知道吗...",
     "content": "DigiByte社区成员Renzo Diaz创建的DigiAsset Explorer，使查找DigiAsset交易信息变得轻松。",
     "url": "https://digiassets.info/",
     "link_social": " 在这里找到：https://digiassets.info/",
@@ -328,7 +288,6 @@
     "link_md": " 在这里找到[此处](https://digiassets.info/)。"
   },
   "digifact42": {
-    "title": "数字事实 #42 - 你知道吗？",
     "content": "DigiByte的MultiAlgo意味着5个算法不断地竞争每一个区块。其他的如X16R则非常不同，它通过每个子算法轮换，所有矿工都交换并使用相同的算法。因此，与DigiByte的5x MultiAlgo实施相比，X16R仍然是一个“单一算法”。",
     "url": "",
     "link_social": "",
@@ -336,7 +295,6 @@
     "link_md": ""
   },
   "digifact43": {
-    "title": "DigiFact # 43 - 你知道吗...",
     "content": "蒲公英隐私协议于2019年实施，旨在通过隐藏源IP地址来保护您的隐私。",
     "url": "https://j.mp/3Hag6AX",
     "link_social": "要了解更多关于蒲公英的信息，请访问：https://j.mp/3Hag6AX",
@@ -344,7 +302,6 @@
     "link_md": "点击[此处](https://j.mp/3Hag6AX)了解更多关于蒲公英的信息。"
   },
   "digifact44": {
-    "title": "DigiFact # 44 - 你知道吗...",
     "content": "MultiShield 是一个强大的难度调整算法。它确保 DigiByte 的 5X 算法都大致挖掘相等数量的区块，同时保持稳定的 15 秒时间间隔。",
     "url": "https://j.mp/3oivy5u",
     "link_social": "什么是 MultiShield？在这里了解更多信息：https://j.mp/3oivy5u",
@@ -352,7 +309,6 @@
     "link_md": "什么是 MultiShield？在这里了解更多信息 [here](https://j.mp/3oivy5u)。"
   },
   "digifact45": {
-    "title": "DigiFact # 45 - 你知道吗...",
     "content": "由于 MultiShield，DigiByte 拥有一些最准确和稳定的区块时间。在其他项目通常需要等待3-4天来进行调整时，MultiShield 每个区块都进行微调、调整和精炼。",
     "url": "https://j.mp/3oivy5u",
     "link_social": "了解更多信息：https://j.mp/3oivy5u",
@@ -360,7 +316,6 @@
     "link_md": "了解更多信息 [此处](https://j.mp/3oivy5u)。"
   },
   "digifact46": {
-    "title": "DigiFact # 46 - 你知道吗...",
     "content": "DigiByte是第一个主要的区块链项目，启用了Dandelion隐私协议，以保护您的IP地址。如果您希望交易速度更快，您可以选择放弃其提供的隐私保护。",
     "url": "https://j.mp/3Hag6AX",
     "link_social": "了解更多关于Dandelion的信息，请访问：https://j.mp/3Hag6AX",
@@ -368,7 +323,6 @@
     "link_md": "点击[此处](https://j.mp/3Hag6AX)了解更多关于Dandelion的信息。"
   },
   "digifact47": {
-    "title": "数字事实 #47 - 你知道吗？",
     "content": "DigiByte全都是关于选择，以及对您个人有效的选择。DigiByte在两打以上的钱包上可用，因此一定有适合每个人需求的东西。",
     "url": "",
     "link_social": "",
@@ -376,7 +330,6 @@
     "link_md": ""
   },
   "digifact48": {
-    "title": "数字事实 #48 - 你知道吗？",
     "content": "DigiByte最初的区块时间是60秒，然而通过多次网络升级的改进，首先变为30秒，现在是15秒。",
     "url": "",
     "link_social": "",
@@ -384,7 +337,6 @@
     "link_md": ""
   },
   "digifact49": {
-    "title": "数字事实 #49 - 你知道吗？",
     "content": "自推出以来，DigiByte的正常运行时间已达100％。虽然有些人不时重新启动他们的计算机，但仍有数百人一直在线，以便即使在全国范围内发生重大互联网故障的情况下，DigiByte仍将继续运行。",
     "url": "",
     "link_social": "",
@@ -392,7 +344,6 @@
     "link_md": ""
   },
   "digifact50": {
-    "title": "DigiFact # 50 - 你知道吗...",
     "content": "由Renzo Diaz创建的DigiByte水龙头为您提供了一种轻松获得一些免费DGB的方式。对于DigiByte的新手来说，这是体验这一令人惊奇的技术的绝佳方式。对于开发人员，还有一个测试网水龙头。",
     "url": "https://www.digifaucet.org/",
     "link_social": "在这里查找：https://www.digifaucet.org/",
@@ -400,7 +351,6 @@
     "link_md": "在这里查找 [此处](https://www.digifaucet.org/)。"
   },
   "digifact51": {
-    "title": "DigiFact # 51 - 你知道吗...",
     "content": "任何人都可以为DigiByte的代码做出贡献并进行改进。所有提交都会由其他开发人员进行审核，以确保不会意外接受恶意代码。",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": "在此加入Gitter开发者聊天：https://gitter.im/DigiByte-Core/protocol",
@@ -408,7 +358,6 @@
     "link_md": "在此[加入](https://gitter.im/DigiByte-Core/protocol)Gitter开发者聊天。"
   },
   "digifact52": {
-    "title": "DigiFact # 52 - 你知道吗...",
     "content": "您现在可以在Bluesky上认领自己的DigiByte社区用户名了 - 例如 @yourname.digibyte.social。这适用于Bluesky，以及所有使用AT协议的站点和服务。",
     "url": "https://digibyte.social/",
     "link_social": " 今天就来认领您的用户名: https://digibyte.social/",
@@ -416,7 +365,6 @@
     "link_md": " 前往[这里](https://digibyte.social/)认领您的用户名。"
   },
   "digifact53": {
-    "title": "数字事实 #53 - 你知道吗？",
     "content": "没有人确切知道DigiByte网络上有多少\"节点\"，因为没有中心点，所有计算机都要进行检查。这确保了您在下载钱包软件时的隐私。",
     "url": "",
     "link_social": "",
@@ -424,7 +372,6 @@
     "link_md": ""
   },
   "digifact54": {
-    "title": "数字事实 #54 - 你知道吗？",
     "content": "尽管不断发生重大代码更改，DigiByte从未发生过有争议的硬分叉。挖矿如此分散，以至于当将多种格罗斯特尔算法替换为odocrypt时，MG挖矿池安装了升级，即使这意味着他们将不再能够挖矿。",
     "url": "",
     "link_social": "",
@@ -432,7 +379,6 @@
     "link_md": ""
   },
   "digifact55": {
-    "title": "DigiFact＃55 - 你知道吗...",
     "content": "DigiByte挖矿在行业中分布最广。2019年9月的7天与比特币和莱特币进行比较时，DigiByte拥有超过10倍的独立矿工数量。在观察3个月的时间段时，这一数字增至超过20倍。",
     "url": "https://j.mp/3ojzV08",
     "link_social": "在此查看更多统计信息：https://j.mp/3ojzV08",
@@ -440,7 +386,6 @@
     "link_md": "在此查看更多统计信息[此处](https://j.mp/3ojzV08)。"
   },
   "digifact56": {
-    "title": "数字事实 #56 - 你知道吗？",
     "content": "如果比特币最大的5个矿池合谋，他们可以永久地控制比特币、比特币现金和比特币SV网络，直到其他矿工拥有更多的哈希算力。由于DigiByte的MultiAlgo和MultiShield特性，这些相同的矿池对DigiByte不构成威胁。",
     "url": "",
     "link_social": "",
@@ -448,7 +393,6 @@
     "link_md": ""
   },
   "digifact57": {
-    "title": "数字事实 #57 - 你知道吗？",
     "content": "每个月，矿工作为区块奖励获得的DigiByte数量会减少1%。这使得DigiByte的新DigiByte供应曲线非常平稳，而不是每隔几年就会发生\"减半\"事件。",
     "url": "",
     "link_social": "",
@@ -456,7 +400,6 @@
     "link_md": ""
   },
   "digifact58": {
-    "title": "数字事实 #58 - 你知道吗？",
     "content": "DigiByte网络上的交易是公开的，但伪匿名的。您可以在区块链浏览器上查看它们，但从本质上讲，没有什么可以将新交易/地址与最终用户关联起来。在使用DigiByte网络时不需要用户名、电子邮件地址等信息。",
     "url": "",
     "link_social": "",
@@ -464,7 +407,6 @@
     "link_md": ""
   },
   "digifact59": {
-    "title": "数字事实 #59 - 你知道吗？",
     "content": "DigiByte地址可以被重新使用，但这完全是可选的。最佳实践是在您的先前地址收到交易后，钱包每次都会为您提供一个新地址。",
     "url": "",
     "link_social": "",
@@ -472,7 +414,6 @@
     "link_md": ""
   },
   "digifact60": {
-    "title": "DigiFact # 60 - 你知道吗...",
     "content": "DigiByte区块链的源代码是完全开源的，任何人都可以查看、检查和审查它。",
     "url": "https://github.com/DigiByte-Core/DigiByte",
     "link_social": "在GitHub上查看：https://github.com/DigiByte-Core/DigiByte",
@@ -480,7 +421,6 @@
     "link_md": "在GitHub上查看 [此处](https://github.com/DigiByte-Core/DigiByte)。"
   },
   "digifact61": {
-    "title": "数字事实 #61 - 你知道吗？",
     "content": "DigiByte区块的预期时间为15秒，这意味着每一天都会有5,760个新区块添加到DigiByte区块链上。",
     "url": "",
     "link_social": "",
@@ -488,7 +428,6 @@
     "link_md": ""
   },
   "digifact62": {
-    "title": "数字事实 #62 - 你知道吗？",
     "content": "一个DigiByte可以分为8位小数。这相当于1/100,000,000的DigiByte。这被称为Digit或简称为DIT。（例如：1000 DITS）",
     "url": "",
     "link_social": "",
@@ -496,7 +435,6 @@
     "link_md": ""
   },
   "digifact63": {
-    "title": "数字事实 #63 - 你知道吗？",
     "content": "DigiByte用于保护网络和挖掘新区块的5个算法中，每个算法都有20%的机会找到每个单独的区块。没有对其中任何一个给予优先级。",
     "url": "",
     "link_social": "",
@@ -504,7 +442,6 @@
     "link_md": ""
   },
   "digifact64": {
-    "title": "数字事实 #64 - 你知道吗？",
     "content": "DigiByte有3种地址类型，每种都以不同的前缀开头。现代地址以\"dgb1\"字母开头，用于Bech32格式的地址，或以\"S\"字母开头，用于SegWit（隔离见证）。传统地址以字母\"D\"开头。尽管将继续支持这些地址，但它们正在逐渐被Bech32地址所取代。",
     "url": "",
     "link_social": "",
@@ -512,7 +449,6 @@
     "link_md": ""
   },
   "digifact65": {
-    "title": "数字事实 #65 - 你知道吗？",
     "content": "以\"dgb1\"开头的DigiByte地址（称为Bech32格式）具有多个优点，例如在错误书写时具有纠错功能，同时更容易被人类和计算机识别为DigiByte特定地址。",
     "url": "",
     "link_social": "",
@@ -520,7 +456,6 @@
     "link_md": ""
   },
   "digifact66": {
-    "title": "数字事实 #66 - 你知道吗？",
     "content": "要进行协议升级，必须有超过70%的网络同意并达成一致意见，认为升级将会发生。这是通过在挖掘区块时表示支持来实现的，持续1周的时间。",
     "url": "",
     "link_social": "",
@@ -528,7 +463,6 @@
     "link_md": ""
   },
   "digifact67": {
-    "title": "数字事实 #67 - 你知道吗？",
     "content": "DigiByte将永远存在的最大数量为210亿枚。这个数字是有意选择的，与比特币的2100万相比，比率为1000：1。不会再创建更多。",
     "url": "",
     "link_social": "",
@@ -536,7 +470,6 @@
     "link_md": ""
   },
   "digifact68": {
-    "title": "数字事实 #68 - 你知道吗？",
     "content": "DigiByte可以在全球数千台加密货币自动取款机上使用！这对于对加密货币新手来说是一个通过更 \"传统\" 的货币交换方式参与的好方法。",
     "url": "",
     "link_social": "",
@@ -544,7 +477,6 @@
     "link_md": ""
   },
   "digifact69": {
-    "title": "数字事实 #69 - 你知道吗？",
     "content": "DigiByte可以用于验证和验证文件、音乐、媒体、身份等等！虽然DigiByte在价值交换方面表现出色，但它不仅仅局限于货币交换。",
     "url": "",
     "link_social": "",
@@ -552,7 +484,6 @@
     "link_md": ""
   },
   "digifact70": {
-    "title": "数字事实 #70 - 你知道吗？",
     "content": "您可以使用多个钱包！DigiByte不仅仅局限于一种软件，社区鼓励找到最适合他们的应用程序，所以尝试一个，尝试几个，继续使用您最喜欢的那些。",
     "url": "",
     "link_social": "",
@@ -560,7 +491,6 @@
     "link_md": ""
   },
   "digifact71": {
-    "title": "数字事实 #71 - 你知道吗？",
     "content": "DigiByte永远无法像其他ICO或中央控制的代币那样进行中央化的最大供应\"销毁\"。由于DigiByte是一个完全去中心化的项目，不可能发行大规模的未使用DigiByte的\"销毁\"。最多，你只能自愿将它们转移到虚空中来销毁你自己的DigiByte。",
     "url": "",
     "link_social": "",
@@ -568,7 +498,6 @@
     "link_md": ""
   },
   "digifact72": {
-    "title": "数字事实 #72 - 你知道吗？",
     "content": "DigiByte区块链上的交易无法被任何人撤销。一旦交易完成，就是永久性的。你是否意外地发送了50 DigiByte而不是5 DigiByte？你需要请求接收者归还多余的部分，因为没有\"撤销\"功能，也没有中央银行机构可以撤销交易。",
     "url": "",
     "link_social": "",
@@ -576,7 +505,6 @@
     "link_md": ""
   },
   "digifact73": {
-    "title": "数字事实 #73 - 你知道吗？",
     "content": "你想要开始一个DigiByte播客或者聚会吗？尽管去吧！没有人需要征求许可，这是DigiByte作为一个“无需许可”的项目的一部分。这意味着你可以这么做，所以赶紧行动吧。",
     "url": "",
     "link_social": "",
@@ -584,7 +512,6 @@
     "link_md": ""
   },
   "digifact74": {
-    "title": "DigiFact # 74 - 你知道吗...",
     "content": "如果你曾不幸将你的DigiByte意外发送到了一个狗狗币地址，那么你的币可能并没有丢失。DigiByte社区成员Matthew Cornellisse（@mctrivia）的DigiSweep也许可以帮助你找回它们。",
     "url": "https://digisweep.digiassetx.com/",
     "link_social": "在这里查找：https://digisweep.digiassetx.com/",
@@ -592,7 +519,6 @@
     "link_md": "在这里查找[这里](https://digisweep.digiassetx.com/)。"
   },
   "digifact75": {
-    "title": "DigiFact # 75 - 你知道吗...",
     "content": "DigiByte联盟是一个于2021年3月在怀俄明州成立的公共非营利基金会。其使命是加速DigiByte的增长和采用。",
     "url": "https://www.dgballiance.org/",
     "link_social": "了解更多信息：https://www.dgballiance.org/",
@@ -600,7 +526,6 @@
     "link_md": "了解更多信息 [此处](https://www.dgballiance.org/)。"
   },
   "digifact76": {
-    "title": "DigiFact # 76 - 你知道吗...",
     "content": "位于 r/DigiByte 的 DigiByte subreddit 拥有超过 40,000 名成员。这是一个了解 DigiByte 社区所有新闻和发展的绝佳地方。",
     "url": "https://reddit.com/r/Digibyte",
     "link_social": "在这里加入: https://reddit.com/r/Digibyte",
@@ -608,7 +533,6 @@
     "link_md": "在[这里](https://reddit.com/r/Digibyte)加入。"
   },
   "digifact77": {
-    "title": "DigiFact＃77-你知道吗...",
     "content": "DigiByte Discord服务器是您会找到DigiByte社区最活跃的成员的地方，也是与在幕后工作的所有人联系的绝佳方式。",
     "url": "https://dsc.gg/digibytediscord",
     "link_social": "请加入我们！https://dsc.gg/digibytediscord",
@@ -616,7 +540,6 @@
     "link_md": "在[此处](https://dsc.gg/digibytediscord)加入。"
   },
   "digifact78": {
-    "title": "DigiFact # 78 - 你知道吗...",
     "content": "DigiNode Tools是一套软件套件，可帮助您在低功耗设备上（如树莓派或Ubuntu系统）轻松设置和管理DigiByte和/或DigiAsset节点。设置是菜单驱动的，提供了详细的分步说明。您甚至可以设置双节点，以在同一设备上运行主网和测试网节点。",
     "url": "https://diginode.tools/",
     "link_social": "在此了解更多信息：https://diginode.tools/",
@@ -624,7 +547,6 @@
     "link_md": "了解更多 [这里](https://diginode.tools/)。"
   },
   "digifact79": {
-    "title": "DigiFact # 79 - 你知道吗...",
     "content": "这些DigiFacts是由DigiByte社区为DigiByte社区创建的。我们需要您的帮助添加新的DigiFacts并将其翻译成其他语言，您可以自行翻译，也可以捐款给DigiFacts翻译基金。",
     "url": "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
     "link_social": "在这里了解如何帮助：https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
@@ -632,7 +554,6 @@
     "link_md": "点击[这里](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON)了解如何帮助。"
   },
   "digifact80": {
-    "title": "DigiFact # 80 - 你知道吗...",
     "content": "DigiByte Seeder是由DigiByte社区的一些受信任的志愿者运行的轻量级DNS服务器。它持续地爬行DigiByte网络以查找节点，并维护了一个最可靠的IP地址和端口列表。加入网络的DigiByte节点使用DigiByte Seeder来查找其他要连接的节点。",
     "url": "https://github.com/DigiByte-Core/digibyte-seeder",
     "link_social": "了解更多信息：https://github.com/DigiByte-Core/digibyte-seeder",
@@ -640,7 +561,6 @@
     "link_md": "了解更多信息[此处](https://github.com/DigiByte-Core/digibyte-seeder)。"
   },
   "digifact81": {
-    "title": "DigiFact＃81 - 你知道吗...",
     "content": "“DigiByte Facts”网站是由DigiByte社区成员创建的一种极好的学习资源。它提供了许多这些DigiFacts作为可共享的图片，以及测验和其他资源，帮助您更多地了解DigiByte。",
     "url": "https://digifacts.org/",
     "link_social": "在这里找到：https://digifacts.org/",
@@ -648,7 +568,6 @@
     "link_md": "在这里找到[此处](https://digifacts.org/)。"
   },
   "digifact82": {
-    "title": "DigiFact＃82 - 你知道吗...",
     "content": "DigiByte Wiki是一个由DigiByte社区的成员编写和维护的关于所有DigiByte相关信息的绝佳资源。",
     "url": "https://wiki.digibyte.org/",
     "link_social": "在这里找到它：https://wiki.digibyte.org/",
@@ -656,7 +575,6 @@
     "link_md": "在此处找到它[here](https://wiki.digibyte.org/)。"
   },
   "digifact83": {
-    "title": "DigiFact # 83 - 你知道吗...",
     "content": "DigiByte Domains是由DigiByte社区成员Renzo Dias创建的服务。DigiByte域是引用DigiByte钱包地址的名称。它由DigiAssets提供支持，域是资产。例如，您可以将一些DigiByte或DigiAssets发送到'domain.dgb'，它将到达持有该域名的地址。",
     "url": "https://digibytedomains.com/",
     "link_social": "您可以在此处购买自己的DigiByte域名：https://digibytedomains.com/",
@@ -664,7 +582,6 @@
     "link_md": "您可以在[此处](https://digibytedomains.com/)购买自己的DigiByte域名。"
   },
   "digifact84": {
-    "title": "DigiFact # 84 - 你知道吗...",
     "content": "对于开发人员来说，DigiByte JS 是一个纯粹而强大的JavaScript DigiByte库，是从Bitpay的Bitcore Lib库分支而来的。",
     "url": "https://github.com/RenzoDD/digibyte-js",
     "link_social": "在这里找到它：https://github.com/RenzoDD/digibyte-js",
@@ -672,7 +589,6 @@
     "link_md": "在[这里](https://github.com/RenzoDD/digibyte-js)找到它。"
   },
   "digifact85": {
-    "title": "DigiFact＃85-您知道吗...",
     "content": "DigiAssets是建立在DigiByte区块链之上的安全，可扩展的第二层，允许去中心化发行数字资产（NFT），代币，智能合约，数字身份等。",
     "url": "https://github.com/DigiAsset-Core/DigiAsset_Core",
     "link_social": "在此找到：https://github.com/DigiAsset-Core/DigiAsset_Core",
@@ -680,7 +596,6 @@
     "link_md": "在此找到[此处](https://github.com/DigiAsset-Core/DigiAsset_Core)。"
   },
   "digifact86": {
-    "title": "DigiFact # 86 - 你知道吗...",
     "content": "DigiAsset Core目前正在积极开发中，是DigiAsset协议的最新实现。由社区成员Matthew Cornelisse发起，它与DigiByte Core节点并行运行，有助于分散化DigiAssets及其元数据。需要强调的是，DigiAsset Core并不是DigiByte Core的一部分 - 它是一个独立但互补的社区驱动项目。",
     "url": "https://github.com/DigiAsset-Core/DigiAsset_Core",
     "link_social": "在这里找到它：https://github.com/DigiAsset-Core/DigiAsset_Core",
