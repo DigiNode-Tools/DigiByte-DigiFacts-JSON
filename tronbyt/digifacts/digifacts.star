@@ -179,12 +179,14 @@ def fit_label(link_text, width, height, lang, body_font):
             return render.Column(children = [render.Text(line, font = font, color = TEXT_COLOR) for line in lines])
     return None
 
+def qrcode_image(link):
+    return render.Image(src = qrcode.generate(url = link, size = "medium", color = TEXT_COLOR, background = "#000"))
+
 def qr_card(link, label, width, height):
     # The DigiFact's short link as a QR code (white on black - the dark display around it is its border), in the
     # middle of the display. If the link's sentence fits, it's on the left, starting level with the top of the QR
     # code so it reads on from the DigiFact.
-    code = qrcode.generate(url = link, size = "medium", color = TEXT_COLOR, background = "#000")
-    qr = render.Image(src = code)
+    qr = qrcode_image(link)
     if not label:
         return render.Box(width = width, height = height, child = qr)  # Box centres it
     qr_top = (height - qr_size()) // 2
@@ -237,7 +239,10 @@ def render_fact(fact, size, lang):
     line_height = render.Text("Ag", font = body_font).size()[1]
     header_height = 9 if square else 0  # The square display keeps a header (8 pixels, then a 1 pixel gap)
     view = height - header_height
-    label = fit_label(fact["link_text"], width, view, lang, body_font) if fact.get("link") else None
+
+    # On the square display the link sentence stays in the text: there's room for the last few lines of text above
+    # the QR code, so the QR code follows the text closely and stops at the bottom of the display.
+    label = fit_label(fact["link_text"], width, view, lang, body_font) if fact.get("link") and not square else None
     text_to_show = fact["text"]
     if fact.get("link") and fact["link_text"] and not label:
         text_to_show = text_to_show + " " + fact["link_text"]  # Too long to fit beside the QR code
@@ -245,6 +250,11 @@ def render_fact(fact, size, lang):
     # Space between the text and the QR card. With nothing beside the QR code, the card's own space above the code
     # is enough: the text leaves the top of the display just as the QR code stops in the middle.
     gap = line_height // 2 if label else 0
+    if square:
+        # Just enough space above the QR code that the lines above it are all whole (none cut off under the banner)
+        gap = (view - qr_size()) % line_height
+        if gap < 2:
+            gap += line_height
     lines = wrap(text_to_show, body_font, width)
     text = render.Column(children = [render.Text(line, font = body_font, color = TEXT_COLOR) for line in lines])
     text_height = len(lines) * line_height
@@ -261,8 +271,13 @@ def render_fact(fact, size, lang):
     if fact.get("link"):
         if gap:
             children.append(render.Box(width = width, height = gap))  # (A Box with height 0 would fill the space)
-        children.append(qr_card(fact["link"], label, width, view))
-        distance = top + text_height + gap
+        if square:
+            # Just the QR code, centred across the display; it stops at the bottom with the text above it
+            children.append(render.Box(width = width, height = qr_size(), child = qrcode_image(fact["link"])))
+            distance = max(0, top + text_height + gap + qr_size() - view)
+        else:
+            children.append(qr_card(fact["link"], label, width, view))
+            distance = top + text_height + gap
         end_frames = qr_frames
     else:
         distance = top + text_height  # Scroll the text right off
