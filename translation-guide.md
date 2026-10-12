@@ -1,173 +1,45 @@
-# DigiByte DigiFacts - Language Translation Guide
+# Translating DigiFacts
 
-This guide will show you how to translate all the DigiFacts into a new language with the help of ChatGPT.
+Thank you for helping! Translations make DigiByte easier to learn about for people around the world.
 
-This is not the only way to achieve this, but I found this method works well and helps you complete the task relatively quickly.
+## How the files work
 
-You will need a GitHub account.
+Each language has its own file in [`facts/`](facts/), named with its two-letter language code (e.g. `facts/de.json` for German). [`facts/en.json`](facts/en.json) is the original that every translation is based on, and every file uses the same keys (`digifact1`, `digifact2`, ...):
 
-## Step 1. Fork the GitHub Repo and clone to your local machine
-
-- Go to [here](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON) and 'Fork' the main repo to your personal Github account.
-- Clone the forked repo to your local machine so you can work on it. You can do this using [GitHub Desktop](https://desktop.github.com/)
-
-## Step 2. Setup Visual Studio Code
-
-- Install [Visual Studio Code](https://code.visualstudio.com/) if it is not already installed.
-- Install the ['Prettify JSON' extension for VS Code](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json). This will reformat and tidy the DigiFacts JSON file before you make your pull request.
-
-## Step 3. Setup your workspace to do the translation
-
-For this task I highly recommend installing the [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) extension for Google Chrome. It formats the JSON nicely in your brower window to make it easier to read.
-
-- In one browser window open the [English version of this DigiFacts](https://digifacts.diginode.tools/?view_raw). This is what we will be translating from.
-- In a second brower window open ChatGPT. You want to use GPT-3.5 as it is much faster for this task.
-- In VS Code, open the digifacts-multilang.json file from the repo.
-
-## Step 4. Train ChatGPT on how to translate the DigiFacts
-
-At the GPT-3.5 prompt paste the following:
-
-```
-I need your help translating some snippets of json code containing numbered DigiFacts - facts about DigiByte. They will be translated from English to the language I specify. I will be providing you with one or more numbered DigiFacts as a snippet of JSON code like this:
-
-"digifact1": {
-    "en": {
-        "title": "DigiFact # 1 - Did you know...",
-        "content": "The DigiByte blockchain launched in 2014. Thanks to its 15 second block time, it is the longest UTXO blockchain in existence with over $blocks_tot_mil million blocks. Bitcoin will take until the 22nd century to reach that many blocks.",
-        "url": "",
-        "link_social": "",
-        "link_html": "",
-        "link_md": ""
-    }
-},
+```json
 "digifact2": {
-    "en": {
-        "title": "DigiFact # 2 - Did you know...",
-        "content": "DigiByte has upgraded the network a number of times to include \"Improvement milestones\". These hard forks were not contentious splits that generated additional coins, but rather a \"reorientation of the ship\" that the DigiByte community was onboard with.",
-        "url": "https://rb.gy/egrt5",
-        "link_social": " Learn more: https://rb.gy/egrt5",
-        "link_html": " Learn more <a href=\"https://rb.gy/egrt5\">here</a>.",
-        "link_md": " Learn more [here](https://rb.gy/egrt5)."
-    }
-},
-"digifact3": {
-    "en": {
-        "title": "DigiFact # 3 - Did you know...",
-        "content": "The DigiByte blockchain was fairly launched in 2014, long before the 2017 Initial Coin Offering (ICO) craze of whitepaper projects. DigiByte began with a fully working blockchain that has been improved upon consistently ever since.",
-        "url": "",
-        "link_social": "",
-        "link_html": "",
-        "link_md": ""
-    }
-},
-
-Based on the input, I want you to translate them into the following JSON format. In this example, I am using Italian. Make sure the link_social, link_html and link_md values start with a space if included. Here is an example of the output:
-
-"digifact1": {
-    "it": {
-        "title": "DigiFact # 1 - Lo sapevi...",
-        "content": "La blockchain di DigiByte è stata lanciata nel 2014. Grazie al suo tempo di blocco di 15 secondi, è la blockchain UTXO più lunga esistente con oltre 18 milioni di blocchi. Bitcoin impiegherà fino al 22° secolo per raggiungere così tanti blocchi.",
-        "url": "",
-        "link_social": "",
-        "link_html": "",
-        "link_md": ""
-    }
-},
-"digifact2": {
-    "it": {
-        "title": "DigiFact # 2 - Lo sapevi...",
-        "content": "DigiByte ha aggiornato la rete diverse volte per includere 'Pietre miliari di miglioramento'. Queste hard fork non sono state divisioni controverse che hanno generato monete aggiuntive, ma piuttosto una 'riorientazione della nave' alla quale la comunità di DigiByte ha aderito.",
-        "url": "https://rb.gy/egrt5",
-        "link_social": " Scopri di più: https://rb.gy/egrt5",
-        "link_html": " Ulteriori informazioni <a href=\"https://rb.gy/egrt5\">qui</a>.",
-        "link_md": " Ulteriori informazioni [qui](https://rb.gy/egrt5)."
-    }
-},
-"digifact3": {
-    "it": {
-        "title": "DigiFact # 3 - Lo sapevi...",
-        "content": "La blockchain di DigiByte è stata lanciata in modo equo nel 2014, molto prima della febbre delle Initial Coin Offering (ICO) del 2017 dei progetti whitepaper. DigiByte è iniziato con una blockchain perfettamente funzionante che è stata costantemente migliorata da allora.",
-        "url": "",
-        "link_social": "",
-        "link_html": "",
-        "link_md": ""
-    }
-},
-
-I will be providing you with batches of DigiFacts like these to translate. Please translate them into the language I specify, giving the result as a json snippet in the format demonstrated above. Please confirm you have understood my request.
-
+  "title": "DigiFact # 2 - Did you know...",
+  "content": "DigiByte has upgraded the network a number of times...",
+  "url": "https://rb.gy/egrt5",
+  "link_social": " Learn more: https://rb.gy/egrt5",
+  "link_html": " Learn more <a target=\"_blank\" href=\"https://rb.gy/egrt5\">here</a>.",
+  "link_md": " Learn more [here](https://rb.gy/egrt5)."
+}
 ```
 
-Press Enter and ChatGPT should hopefully confirm it has understood your instructions.
+- Translate `title`, `content`, and the words in `link_social`, `link_html` and `link_md`.
+- Keep the `url` as it is, and keep the same link in all three link fields. Each link field starts with a space.
+- Keep live values such as `$blocks_tot_mil` exactly as they are - they're replaced with live data (e.g. 24.3). Move them to wherever they belong in your sentence.
+- `link_html` may only contain the one link, written exactly as above. Nothing else may contain `<` or `>`.
 
-Now specify the language you are translating to. If you were tranlating to Swedish, you would enter:
+If a fact is missing from a translation, or its title or content is empty, the English version is shown instead - so it's fine to translate a few facts at a time.
 
-```
-I want you to translate from English to Swedish. Are you ready to begin?
-```
-Make sure that ChatGPT has understood your request, providing further instructions if necessary.
+## Improving a translation
 
-## Step 5. Translate the DigiFacts
+1. Read through the language side by side with English on the [proofreading pages](https://digifacts.diginode.tools/proofread/).
+2. Edit `facts/<code>.json` on GitHub (open the file and click the pencil icon). GitHub will make a copy of the repository for you.
+3. Propose the change and open a pull request. Please say what you changed and why.
 
-It is best to tranlate the DigiFacts in batches. For this example, I will do it in batches of three but in practice it should be able to cope with batches of 10 without any problem.
+Not comfortable editing JSON? [Open an issue](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON/issues) with the fact number and your corrected text.
 
-For the DigiFacts website, select and copy your first batch of DigiFacts:
+## Adding a new language
 
-![Select and Source](images/select_source.png)
+1. Copy `facts/en.json` to `facts/<code>.json`, using the language's two-letter [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+2. Translate it (see above). You can translate some facts and leave the rest in English for now.
+3. Open a pull request. Add the language's name to `LANGUAGE_NAMES` in [`build/build.py`](build/build.py), or say in the pull request and it will be added for you.
 
-Back in the ChatGPT Window enter:
+Machine translation (e.g. DeepL or an AI assistant) is a fine starting point, but please have the result checked by a native speaker - mention in the pull request if it hasn't been.
 
-```
-Please translate the following DigiFacts, as agreed:
-```
-Beneath this paste in the DigiFacts and press enter. It will then hopefully translate the DigiFacts like below:
+## Checking your changes
 
-![ChatGPT Translate](images/chatgpt_translate.png)
-
-Once you have the translation, select the snippet for each DigiFact and paste it beneath the other tanslations in the digifacts-multilang.json file, matching the existing formatting.
-
-Here is an example for digifact1. Select and copy the snippet:
-
-![Copy Translation](images/copy_translation.png)
-
-Paste it below the other translations for digifact1:
-
-![Paste Translation](images/paste_translation.png)
-
-Be sure to add a comma after the precending language. Check the formatting against other DigiFacts to make sure it is the same.
-
-Repeat this process with the other DiigFacts, translating additional batches when required. This may seem time consuming but once you find a rhythm you should be able to do the entire batch in an hour or so. Save frequently!
-
-## Step 6. Prettify the finished JSON file
-
-Make sure you are not missing any commas in your JSON, and that everything is formatted correctly.
-
-Press Shift-Cmd-P (Mac) or Shift-Ctrl-P (Win) to run a command. Search for 'Prettify JSON' and press enter. This should reformat and correctly indent your JSON file. If it does not, then there may be an error in your code - double-check you have inputted all the language snippets correctly with commas and quotation marks in the correct places.
-
-Save your file when done.
-
-## Step 7. Push your changes to Github
-
-Using Github Desktop, write a description for your change, and click "Commit to Main"
-
-![Commit to Main](images/make_commit.png)
-
-Then click "Push Origin" to push your change up to Github.
-
-![Push to Origin](images/push_origin.png)
-
-## Step 8. Make a 'Pull Request' (PR) back to the main DigiFacts repo
-
-Return to your forked DigiFact repo on the Github website.
-
-Click the 'Contribute' button, and then "Open Pull Request".
-
-Enter a title (e.g. "Add Swedish translation") and a description if needed.
-
-Click "Create Pull Request" when done.
-
-This will push your changes upstream to the main repo, so they can be merged.
-
-
-
+When you open a pull request, the files are checked automatically, and any mistakes are shown on the pull request. To check them yourself first, run `python3 build/build.py /tmp/digifacts` - it reports any mistakes and builds the website into that folder.

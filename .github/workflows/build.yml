@@ -1,0 +1,78 @@
+# Builds the DigiFacts website from facts/*.json and publishes it on GitHub Pages (https://digifacts.diginode.tools).
+# Runs whenever the facts or the build change, and every hour to keep the live data (block count) up to date.
+# Hourly runs only publish when something actually changed. See build/build.py.
+name: Build and publish DigiFacts
+
+on:
+  push:
+    branches: [main]
+    paths: [facts/**, build/**, .github/workflows/build.yml]
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: write   # Keep the hourly schedule enabled (see the last step)
+  issues: write    # Open an issue if the build fails
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.build.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        id: build
+        env:
+          DIGIFACTS_SITE_URL: ${{ steps.pages.outputs.base_url }}
+          FORCE_PUBLISH: ${{ github.event_name != 'schedule' && '1' || '' }}
+        run: python3 build/build.py _site
+
+      - if: steps.build.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      # GitHub turns off schedules in repos with no commits for 60 days. This keeps it on.
+      - name: Keep the schedule enabled
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/build.yml/enable" || true
+
+      - name: Open an issue if the build failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="DigiFacts build failed"
+          body="The DigiFacts build failed, so the website wasn't updated (the previous version is still live). See ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          existing=$(gh issue list -R "${{ github.repository }}" --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" -R "${{ github.repository }}" --body "$body"
+          else
+            gh issue create -R "${{ github.repository }}" --title "$title" --body "$body"
+          fi
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

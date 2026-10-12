@@ -1,0 +1,17 @@
+# Checks the facts in a pull request (the same checks as the live build), so mistakes are found before merging.
+name: Check DigiFacts
+
+on:
+  pull_request:
+    paths: [facts/**, build/**]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the facts and build the website
+        run: python3 build/build.py _site
