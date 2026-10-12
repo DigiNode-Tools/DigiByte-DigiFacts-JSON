@@ -265,19 +265,18 @@ def render_fact(fact, size, lang):
     moving = scroll(render.Column(children = children), width, view, distance, 0 if square else intro_frames, end_frames)
 
     if square:
-        body = render.Column(
-            children = [
-                render.Box(
-                    width = width,
-                    height = 8,
-                    color = DIGIBYTE_BLUE,
-                    child = render.Text(fact["header"], font = "tb-8", color = TEXT_COLOR),
-                ),
-                render.Box(width = width, height = 1),
-                moving,
-            ],
+        banner = render.Box(
+            width = width,
+            height = 8,
+            color = DIGIBYTE_BLUE,
+            child = render.Text(fact["header"], font = "tb-8", color = TEXT_COLOR),
         )
-        return render.Root(delay = delay, show_full_animation = True, child = render.Sequence(children = [hold(intro, INTRO_SECONDS, delay), body]))
+        body = render.Column(children = [banner, render.Box(width = width, height = 1), moving])
+        parts = [hold(intro, INTRO_SECONDS, delay), body]
+        if not fact.get("link"):
+            # The text has scrolled off - slide the banner up off too, so it ends on black
+            parts.append(scroll(banner, width, header_height, header_height, 0, 0))
+        return render.Root(delay = delay, show_full_animation = True, child = render.Sequence(children = parts))
 
     return render.Root(delay = delay, show_full_animation = True, child = moving)
 
