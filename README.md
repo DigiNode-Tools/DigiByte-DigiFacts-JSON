@@ -48,7 +48,6 @@ Everything is in this repository, so anyone can see exactly how DigiFacts are ma
 - The facts are in [`facts/`](facts/), one file per language. [`facts/en.json`](facts/en.json) is the original that the translations are based on.
 - A [GitHub Action](.github/workflows/build.yml) runs [`build/build.py`](build/build.py) every hour and whenever the facts change. It checks every file, fills in the live data, and publishes the website on GitHub Pages. If a file has a mistake, nothing is published and the previous version stays live.
 - The block count comes from several block explorers (chainz.cryptoid.info, digibyte.io and Atomic Wallet's explorer). The middle value is used, readings that look wrong are ignored, and the count never goes backwards. If no explorer answers, it's estimated from DigiByte's 15 second block time.
-- `digifacts-multilang.json` and `digifacts.json` are the old format, kept only until the old server is switched off. Please don't edit them.
 - Every run is public on the [Actions tab](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON/actions).
 
 ## Contributing
