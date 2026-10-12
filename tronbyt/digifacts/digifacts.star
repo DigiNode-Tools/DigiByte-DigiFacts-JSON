@@ -158,15 +158,18 @@ def qr_size():
     return 50 if canvas.is2x() else 25
 
 def fit_label(link_text, width, height, lang, body_font):
-    # The link's sentence to show beside the QR code, in the DigiFact's font if it fits or a smaller one, starting
+    # The link's sentence to show beside the QR code, in the DigiFact's font if it fits or one size smaller, starting
     # level with the top of the QR code. None if it doesn't fit (it then stays at the end of the scrolling text).
     if not link_text:
         return None
     big = canvas.is2x()
     space_w = width - qr_size() - (6 if big else 3)  # Leaves room for gaps around both
     space_h = height - (height - qr_size()) // 2
-    smaller = ["terminus-16", "terminus-12", "tb-8"] if big else ["tb-8", "tom-thumb"]
-    for font in [body_font] + [f for f in smaller if f != body_font]:
+
+    # The DigiFact's font, or one size smaller - never smaller than that, so it stays easy to read
+    sizes = ["tb-8", "terminus-12", "terminus-16", "terminus-20"] if big else ["tom-thumb", "tb-8", "6x10"]
+    i = sizes.index(body_font) if body_font in sizes else 0
+    for font in [body_font] + ([sizes[i - 1]] if i > 0 else []):
         if lang == "ru" and font in NO_CYRILLIC:
             continue
         if [w for w in link_text.split(" ") if text_width(w, font) > space_w]:
