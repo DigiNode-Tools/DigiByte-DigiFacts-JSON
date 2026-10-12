@@ -52,6 +52,7 @@ LANGUAGE_NAMES = {
 FIELDS = ("content", "url", "link_social", "link_html", "link_md")
 TITLE_KEY = "_title"   # Each language's title, e.g. "DigiFact # {number} - Did you know..."
 FORMATS = {"social": "link_social", "html": "link_html", "markdown": "link_md"}
+OUTPUT_FORMATS = dict(FORMATS, plain=None)   # plain = the fact without its link (e.g. for small displays)
 
 # The only HTML allowed in a fact: one link, in link_html. (Sites may show the html format as HTML.)
 LINK_HTML_RE = re.compile(r'[^<>]*<a target="_blank" href="https://[^"<>\s]+">[^<>]+</a>[^<>]*')
@@ -289,6 +290,7 @@ def today_and_feed(lang, loc, count, day):
             "text": fill(f["content"] + f.get("link_social", ""), count),
             "html": fill(f["content"] + f.get("link_html", ""), count),
             "markdown": fill(f["content"] + f.get("link_md", ""), count),
+            "plain": fill(f["content"], count),
         }
 
     today = entry(day)
@@ -363,18 +365,19 @@ def help_page(langs, info):
     rows = "\n".join(
         f'<tr><td>{html.escape(LANGUAGE_NAMES[l])}</td><td><code>{l}</code></td>'
         f'<td><a href="../{l}/social.json">social</a> · <a href="../{l}/html.json">html</a> · '
-        f'<a href="../{l}/markdown.json">markdown</a></td>'
+        f'<a href="../{l}/markdown.json">markdown</a> · <a href="../{l}/plain.json">plain</a></td>'
         f'<td>{info["languages"][l]["translated"]} of {info["facts"]}</td>'
         f'<td><a href="../proofread/{l}/">proofread</a></td></tr>' for l in langs)
     body = f"""<h1>DigiByte DigiFacts</h1>
 <p>Bite-size facts about DigiByte, for apps, websites and social media, in {len(langs)} languages. Free to use: the facts are MIT licensed.</p>
 
 <h2>Get the DigiFacts</h2>
-<p>Each language is a JSON file in three formats. The address is <code>https://digifacts.diginode.tools/&lt;language&gt;/&lt;format&gt;.json</code>, for example <a href="../en/social.json"><code>/en/social.json</code></a>.</p>
+<p>Each language is a JSON file in four formats. The address is <code>https://digifacts.diginode.tools/&lt;language&gt;/&lt;format&gt;.json</code>, for example <a href="../en/social.json"><code>/en/social.json</code></a>.</p>
 <ul>
 <li><b>social</b> - links as plain URLs, for social media: <code>Learn more: https://example.com</code></li>
 <li><b>html</b> - links as HTML, for websites: <code>Learn more &lt;a href="https://example.com"&gt;here&lt;/a&gt;.</code></li>
 <li><b>markdown</b> - links in Markdown: <code>Learn more [here](https://example.com).</code></li>
+<li><b>plain</b> - no link, just the fact (e.g. for small displays). The link is still in <code>url</code>.</li>
 </ul>
 <p>A fact that isn't translated yet is included in English, so every language always has every fact.</p>
 <div class="scroll"><table>
@@ -457,9 +460,9 @@ def main():
         loc, translated = localise(facts, titles, lang)
         localised[lang] = loc
         langs_info[lang] = {"name": LANGUAGE_NAMES[lang], "translated": translated}
-        for fmt, link_field in FORMATS.items():
+        for fmt, link_field in OUTPUT_FORMATS.items():
             data = {key: {"title": fill(f["title"], count),
-                          "content": fill(f["content"] + f.get(link_field, ""), count),
+                          "content": fill(f["content"] + (f.get(link_field, "") if link_field else ""), count),
                           "url": f.get("url", "")} for key, f in loc.items()}
             files[f"{lang}/{fmt}.json"] = to_json(data)
         files[f"{lang}/today.json"], files[f"{lang}/feed.xml"] = today_and_feed(lang, loc, count, day)
@@ -482,7 +485,7 @@ def main():
         "block_count_time": count_time,
         "explorers": readings,
         "languages": langs_info,
-        "formats": list(FORMATS),
+        "formats": list(OUTPUT_FORMATS),
         "source": REPO_URL,
         "commit": os.environ.get("GITHUB_SHA", ""),
         "content_hash": digest,

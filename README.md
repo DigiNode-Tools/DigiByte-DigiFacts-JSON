@@ -18,7 +18,7 @@ The original DigiFacts were written by members of the DigiByte community in 2021
 
 ## Using DigiFacts
 
-Each language is a JSON file in three formats:
+Each language is a JSON file in four formats:
 
 ```
 https://digifacts.diginode.tools/<language>/<format>.json
@@ -31,12 +31,13 @@ For example: https://digifacts.diginode.tools/en/social.json
 | `social` | `Learn more: https://example.com` | Social media, apps, terminals |
 | `html` | `Learn more <a href="https://example.com">here</a>.` | Websites |
 | `markdown` | `Learn more [here](https://example.com).` | Markdown |
+| `plain` | No link - just the fact (the link is still in `url`) | Small displays, speech |
 
 Each file has every fact, in order, each with a `title` (which includes its number, e.g. "DigiFact # 1 - Did you know..."), `content` and `url`. The keys (`digifact1`, `digifact3`, ...) identify each fact and never change, so they aren't always consecutive - use the order of the file, or the number in the title. A fact that isn't translated yet is included in English.
 
 Languages: `en` English, `de` German, `es` Spanish, `fr` French, `hi` Hindi, `it` Italian, `ja` Japanese, `ko` Korean, `nl` Dutch, `pt` Portuguese, `ru` Russian, `zh` Chinese (Simplified). The list is also at https://digifacts.diginode.tools/languages.json, and https://digifacts.diginode.tools/info.json shows each language's progress, the block count used and when the facts were last published.
 
-- **DigiFact of the day:** https://digifacts.diginode.tools/en/today.json is the same fact for everyone, in every language, changing at midnight UTC (every fact is shown once before any repeats). It has the `date`, `number`, `title`, `url`, and the text as `text` (social format), `html` and `markdown`.
+- **DigiFact of the day:** https://digifacts.diginode.tools/en/today.json is the same fact for everyone, in every language, changing at midnight UTC (every fact is shown once before any repeats). It has the `date`, `number`, `title`, `url`, and the text as `text` (social format), `html`, `markdown` and `plain`.
 - **RSS feed:** https://digifacts.diginode.tools/en/feed.xml has the DigiFact of the day for the last 30 days - use it with any RSS app, or an RSS bot to post DigiFacts to Discord, Telegram or social media.
 - Show a random fact, e.g. when the page loads or once a minute.
 - Some facts include live data, so fetch the file again every few hours - but not more than once an hour.
