@@ -187,7 +187,7 @@ def localise(facts, titles, lang):
     for number, key in enumerate(en, start=1):
         fact = tr.get(key) or {}
         if lang != "en" and not fact.get("content"):
-            out[key] = dict(en[key], title=titles["en"].replace("{number}", str(number)), translated=False)
+            out[key] = dict(en[key], title=title.replace("{number}", str(number)), translated=False)
             continue
         fact = dict(fact)
         fact["url"] = fact.get("url") or en[key].get("url", "")
