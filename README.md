@@ -132,3 +132,7 @@ Users should always do their own due diligence before using any of the services 
 
 
 
+
+## Licence
+
+MIT - see [LICENSE](LICENSE). Anyone can use DigiFacts, as long as the copyright notice is kept. Based on the [original DigiFacts](https://github.com/DigiByte-Core/DigiFacts) by DigiByte Core (MIT).
