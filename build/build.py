@@ -13,6 +13,8 @@
 #             live values (e.g. $blocks_tot_mil) and writes each language in each format (social, html, markdown),
 #             plus languages.json, info.json, and the help and proofreading pages. A fact that isn't translated yet
 #             is shown in English.
+#          4. Picks the DigiFact of the day (the same fact in every language, every fact once before any repeats)
+#             and writes <lang>/today.json and an RSS feed of the last 30 days, <lang>/feed.xml.
 #
 #          Everything here is public, so anyone can see exactly how DigiFacts are made.
 #
@@ -23,10 +25,12 @@
 #            GITHUB_OUTPUT        Set by GitHub Actions: 'changed=true|false' is written to it
 #            FORCE_PUBLISH=1      Report changed=true even if nothing changed
 
+import email.utils
 import hashlib
 import html
 import json
 import os
+import random
 import re
 import statistics
 import sys
@@ -36,6 +40,7 @@ import urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS_DIR = os.path.join(ROOT, "facts")
 REPO_URL = "https://github.com/DigiNode-Tools/digibyte-digifacts"
+SITE_URL = "https://digifacts.diginode.tools"
 SPONSOR_URL = "https://github.com/sponsors/DigiNode-Tools"
 USER_AGENT = f"DigiFacts builder ({REPO_URL})"
 
@@ -250,6 +255,63 @@ def block_count(prev):
 # ---------------------------------------------------------------------------------------------------------------
 # 3. Output
 
+FEED_DAYS = 30
+
+
+def fact_of_the_day(keys, day):
+    """The DigiFact for a day (days since 1970-01-01, UTC). The facts are shuffled into a new order each cycle, so
+    every fact is shown once before any is repeated, and the same fact is chosen in every language."""
+    def order(cycle):
+        o = list(keys)
+        random.Random(f"digifacts-{cycle}").shuffle(o)
+        return o
+    cycle, pos = divmod(day, len(keys))
+    o = order(cycle)
+    if len(o) > 1 and o[0] == order(cycle - 1)[-1]:
+        o[0], o[1] = o[1], o[0]   # Don't show the same fact two days running, between cycles
+    return o[pos]
+
+
+def today_and_feed(lang, loc, count, day):
+    """<lang>/today.json and <lang>/feed.xml (RSS) for one language."""
+    keys = list(loc)
+    numbers = {key: n for n, key in enumerate(keys, start=1)}
+
+    def entry(d):
+        key = fact_of_the_day(keys, d)
+        f = loc[key]
+        return {
+            "date": time.strftime("%Y-%m-%d", time.gmtime(d * 86400)),
+            "number": numbers[key],
+            "key": key,
+            "title": fill(f["title"], count),
+            "url": f.get("url", ""),
+            "text": fill(f["content"] + f.get("link_social", ""), count),
+            "html": fill(f["content"] + f.get("link_html", ""), count),
+            "markdown": fill(f["content"] + f.get("link_md", ""), count),
+        }
+
+    today = entry(day)
+    items = []
+    for d in range(day, day - FEED_DAYS, -1):
+        e = entry(d)
+        items.append(
+            "<item>"
+            f"<title>{html.escape(e['title'])}</title>"
+            f"<description>{html.escape(e['text'])}</description>"
+            f"<link>{html.escape(e['url'] or SITE_URL + '/help/')}</link>"
+            f"<guid isPermaLink=\"false\">digifacts-{lang}-{e['date']}</guid>"
+            f"<pubDate>{email.utils.formatdate(d * 86400, usegmt=True)}</pubDate>"
+            "</item>")
+    feed = ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>'
+            f"<title>DigiByte DigiFacts ({html.escape(LANGUAGE_NAMES[lang])})</title>"
+            f"<link>{SITE_URL}/help/</link>"
+            "<description>A DigiFact - a bite-size fact about DigiByte - every day.</description>"
+            f"<language>{lang}</language>"
+            + "".join(items) + "</channel></rss>\n")
+    return to_json(today), feed
+
+
 def fill(text, count):
     for var, value in VARIABLES.items():
         text = text.replace(var, value(count))
@@ -323,6 +385,8 @@ def help_page(langs, info):
 <h2>Other files</h2>
 <ul>
 <li><a href="../languages.json"><code>/languages.json</code></a> - the language codes, as a JSON list.</li>
+<li><a href="../en/today.json"><code>/&lt;language&gt;/today.json</code></a> - the DigiFact of the day: the same fact for everyone, in every language, changing at midnight UTC. Every fact is shown once before any repeats. Includes the title, number, and the text in all three formats.</li>
+<li><a href="../en/feed.xml"><code>/&lt;language&gt;/feed.xml</code></a> - an RSS feed of the DigiFact of the day (the last 30 days). Use it with any RSS app, or an RSS bot to post DigiFacts to Discord, Telegram or social media.</li>
 <li><a href="../info.json"><code>/info.json</code></a> - when the facts were last published, the block count used and where it came from, and each language's progress.</li>
 </ul>
 
@@ -388,6 +452,7 @@ def main():
     count, source, count_time, readings = block_count(prev)
 
     files, langs_info, localised = {}, {}, {}
+    day = int(time.time() // 86400)
     for lang in langs:
         loc, translated = localise(facts, titles, lang)
         localised[lang] = loc
@@ -397,6 +462,7 @@ def main():
                           "content": fill(f["content"] + f.get(link_field, ""), count),
                           "url": f.get("url", "")} for key, f in loc.items()}
             files[f"{lang}/{fmt}.json"] = to_json(data)
+        files[f"{lang}/today.json"], files[f"{lang}/feed.xml"] = today_and_feed(lang, loc, count, day)
     files["index.html"] = files["en/social.json"]   # DigiNode Tools v26.10.x and older use '/?lang=en&format=social'
     files["languages.json"] = json.dumps(langs) + "\n"
     with open(os.path.join(ROOT, "embed", "digifacts.js"), encoding="utf-8") as f:

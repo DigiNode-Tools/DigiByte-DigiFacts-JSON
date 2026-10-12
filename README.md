@@ -36,6 +36,8 @@ Each file has every fact, in order, each with a `title` (which includes its numb
 
 Languages: `en` English, `de` German, `es` Spanish, `fr` French, `hi` Hindi, `it` Italian, `ja` Japanese, `ko` Korean, `nl` Dutch, `pt` Portuguese, `ru` Russian, `zh` Chinese (Simplified). The list is also at https://digifacts.diginode.tools/languages.json, and https://digifacts.diginode.tools/info.json shows each language's progress, the block count used and when the facts were last published.
 
+- **DigiFact of the day:** https://digifacts.diginode.tools/en/today.json is the same fact for everyone, in every language, changing at midnight UTC (every fact is shown once before any repeats). It has the `date`, `number`, `title`, `url`, and the text as `text` (social format), `html` and `markdown`.
+- **RSS feed:** https://digifacts.diginode.tools/en/feed.xml has the DigiFact of the day for the last 30 days - use it with any RSS app, or an RSS bot to post DigiFacts to Discord, Telegram or social media.
 - Show a random fact, e.g. when the page loads or once a minute.
 - Some facts include live data, so fetch the file again every few hours - but not more than once an hour.
 - Browsers can fetch the files directly (CORS is allowed).
