@@ -1,0 +1,17 @@
+/* DigiByte DigiFacts. These use your theme's fonts and colours - add your own CSS to change them. */
+.digibyte-digifact .digifact-title {
+	margin: 0;
+	padding: 5px 0;
+}
+
+.digibyte-digifact .digifact-content a {
+	white-space: nowrap;
+}
+
+.digibyte-digifact.with-box {
+	border: 1px solid #ccc;
+	border-color: color-mix(in srgb, currentColor 25%, transparent);
+	border-radius: 6px;
+	padding: 10px 14px;
+	margin: 10px 0;
+}
