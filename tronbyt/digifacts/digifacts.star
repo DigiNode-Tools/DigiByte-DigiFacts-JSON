@@ -155,20 +155,19 @@ def intro_card(header, width, height, font):
     return render.Box(width = width, height = height, child = layout)
 
 def qr_card(link, link_text, width, height, lang, body_font):
-    # The DigiFact's short link as a QR code (black on white, with a white border so phones can read it), with the
+    # The DigiFact's short link as a QR code (white on black - the dark display around it is its border), with the
     # link's sentence beside it, lined up with the top of the QR code so it reads on from the DigiFact - in the
     # DigiFact's font if it fits, or a smaller one. If it doesn't fit at all, the DigiByte logo is shown instead.
     big = canvas.is2x()
     square = width == height
-    code = qrcode.generate(url = link, size = "medium", color = "#000", background = "#fff")
-    border = 4 if big else 2
-    qr_size = (50 if big else 25) + 2 * border
-    qr = render.Box(width = qr_size, height = qr_size, color = "#fff", child = render.Image(src = code))
+    code = qrcode.generate(url = link, size = "medium", color = TEXT_COLOR, background = "#000")
+    qr_size = 50 if big else 25
+    qr = render.Image(src = code)
 
     label = None
     if link_text:
-        space_w = width if square else width - qr_size - (6 if big else 3)
-        space_h = height - qr_size - 2 if square else qr_size
+        space_w = width if square else width - qr_size - (4 if big else 2)
+        space_h = height - qr_size - 2 if square else height  # It may go below the QR code
         smaller = ["terminus-16", "terminus-12", "tb-8"] if big else ["tb-8", "tom-thumb"]
         fonts = [body_font] + [f for f in smaller if f != body_font]
         for font in fonts:
