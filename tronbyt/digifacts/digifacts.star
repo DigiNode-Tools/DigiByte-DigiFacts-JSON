@@ -68,6 +68,25 @@ def intro_card(header, width, height, big, header_font):
     parts = header.rsplit("#", 1)
     name = parts[0].strip()
     number = "#" + parts[1] if len(parts) == 2 else ""
+    text = [
+        render.Text(name, font = header_font, color = TEXT_COLOR),
+        render.Text(number, font = header_font, color = TEXT_COLOR),
+    ]
+    if width == height:
+        # Square (64x64): a bigger logo, with the name and number underneath
+        return render.Box(
+            width = width,
+            height = height,
+            child = render.Column(
+                expanded = True,
+                main_align = "space_evenly",
+                cross_align = "center",
+                children = [
+                    render.Image(src = DGB_ICON.readall(), width = 36, height = 36),
+                    render.Column(cross_align = "center", children = text),
+                ],
+            ),
+        )
     size = 36 if big else 18
     return render.Box(
         width = width,
@@ -78,13 +97,7 @@ def intro_card(header, width, height, big, header_font):
             cross_align = "center",
             children = [
                 render.Image(src = DGB_ICON.readall(), width = size, height = size),
-                render.Column(
-                    cross_align = "center",
-                    children = [
-                        render.Text(name, font = header_font, color = TEXT_COLOR),
-                        render.Text(number, font = header_font, color = TEXT_COLOR),
-                    ],
-                ),
+                render.Column(cross_align = "center", children = text),
             ],
         ),
     )
