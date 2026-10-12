@@ -163,11 +163,12 @@ def qr_card(link, link_text, width, height, lang, body_font):
     code = qrcode.generate(url = link, size = "medium", color = TEXT_COLOR, background = "#000")
     qr_size = 50 if big else 25
     qr = render.Image(src = code)
+    qr_top = (height - qr_size) // 2  # The QR code is always in the middle of the display
 
     label = None
     if link_text:
-        space_w = width if square else width - qr_size - (4 if big else 2)
-        space_h = height - qr_size - 2 if square else height  # It may go below the QR code
+        space_w = width if square else width - qr_size - (6 if big else 3)  # Leaves room for gaps around both
+        space_h = height - qr_size - 2 if square else height - qr_top  # The sentence starts level with its top
         smaller = ["terminus-16", "terminus-12", "tb-8"] if big else ["tb-8", "tom-thumb"]
         fonts = [body_font] + [f for f in smaller if f != body_font]
         for font in fonts:
@@ -188,9 +189,13 @@ def qr_card(link, link_text, width, height, lang, body_font):
         layout = render.Column(expanded = True, main_align = "space_evenly", cross_align = "center", children = children)
         return render.Box(width = width, height = height, child = layout)
     if label:
-        # The sentence on the left, its first line level with the top of the QR code, at the top of the card
-        row = render.Row(expanded = True, main_align = "space_between", cross_align = "start", children = [label, qr])
-        return render.Box(width = width, height = height, child = render.Column(expanded = True, main_align = "start", children = [row]))
+        # The QR code in the middle of the display, with the sentence on its left, starting level with its top
+        row = render.Row(expanded = True, main_align = "space_evenly", cross_align = "start", children = [label, qr])
+        return render.Box(
+            width = width,
+            height = height,
+            child = render.Column(expanded = True, main_align = "start", children = [render.Box(width = width, height = qr_top), row]),
+        )
     layout = render.Row(expanded = True, main_align = "space_evenly", cross_align = "center", children = [logo(big), qr])
     return render.Box(width = width, height = height, child = layout)
 
