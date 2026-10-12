@@ -5,6 +5,7 @@ Description: Shows a DigiFact - a bite-size fact about DigiByte - in your langua
 Author: saltedlolly
 """
 
+load("animation.star", "animation")
 load("encoding/json.star", "json")
 load("http.star", "http")
 load("images/dgb_icon.png", DGB_ICON = "file")
@@ -66,19 +67,62 @@ def header_of(title):
     # "DigiFact # 22 - Did you know..." -> "DigiFact #22" (short enough for a 64 pixel wide display)
     return title.split(" - ")[0].strip().replace("# ", "#")
 
+def make_fact(title, social, plain, url, short_url):
+    # The DigiFact's text, and its link sentence (e.g. "View more stats here:") without the address - that is shown
+    # next to the link's QR code instead
+    link_text = ""
+    if url and short_url and social.startswith(plain):
+        link_text = social[len(plain):].replace(url, "").strip()
+    return {
+        "header": header_of(title or "DigiFact"),
+        "text": plain,
+        "link": short_url if url else "",
+        "link_text": link_text,
+    }
+
 def fact_of_the_day(lang):
     data = get_json("%s/%s/today.json" % (SITE, lang))
     if data == None or not data.get("plain"):
         return None
-    return {"header": header_of(data.get("title", "DigiFact")), "text": data["plain"], "link": data.get("short_url", "")}
+    return make_fact(data.get("title"), data.get("text", ""), data["plain"], data.get("url", ""), data.get("short_url", ""))
 
 def random_fact(lang):
-    data = get_json("%s/%s/plain.json" % (SITE, lang))
-    if data == None or len(data) == 0:
+    social = get_json("%s/%s/social.json" % (SITE, lang))
+    plain = get_json("%s/%s/plain.json" % (SITE, lang))
+    if social == None or plain == None or len(plain) == 0:
         return None
-    keys = list(data.keys())
-    fact = data[keys[random.number(0, len(keys) - 1)]]
-    return {"header": header_of(fact.get("title", "DigiFact")), "text": fact.get("content", ""), "link": fact.get("short_url", "")}
+    keys = list(plain.keys())
+    key = keys[random.number(0, len(keys) - 1)]
+    fact = plain[key]
+    return make_fact(fact.get("title"), social.get(key, {}).get("content", ""), fact.get("content", ""), fact.get("url", ""), fact.get("short_url", ""))
+
+def text_width(text, font):
+    return render.Text(text, font = font).size()[0]
+
+def wrap(text, font, width):
+    # Word wrap, measuring each line - so the height of the DigiFact is known exactly (render.WrappedText can't
+    # say how tall it is), and the scroll can stop with the QR code in view
+    lines = []
+    for paragraph in text.split("\n"):
+        line = ""
+        for word in paragraph.split(" "):
+            if not word:
+                continue
+            candidate = line + " " + word if line else word
+            if text_width(candidate, font) <= width:
+                line = candidate
+                continue
+            if line:
+                lines.append(line)
+            line = ""
+            for ch in word.elems():  # A word wider than the display is split across lines
+                if text_width(line + ch, font) > width and line:
+                    lines.append(line)
+                    line = ""
+                line += ch
+        if line:
+            lines.append(line)
+    return lines
 
 def logo(big):
     # The hand-drawn 18x18 DigiByte logo, or the smoothed 36x36 version for bigger displays
@@ -110,78 +154,128 @@ def intro_card(header, width, height, font):
         )
     return render.Box(width = width, height = height, child = layout)
 
-def qr_card(link, width, height):
-    # The DigiFact's short link as a QR code (black on white, with a white border so phones can read it)
+def qr_card(link, link_text, width, height, lang, body_font):
+    # The DigiFact's short link as a QR code (black on white, with a white border so phones can read it), with the
+    # link's sentence beside it, lined up with the top of the QR code so it reads on from the DigiFact - in the
+    # DigiFact's font if it fits, or a smaller one. If it doesn't fit at all, the DigiByte logo is shown instead.
     big = canvas.is2x()
+    square = width == height
     code = qrcode.generate(url = link, size = "medium", color = "#000", background = "#fff")
     border = 4 if big else 2
-    qr = render.Box(
-        width = (50 if big else 25) + 2 * border,
-        height = (50 if big else 25) + 2 * border,
-        color = "#fff",
-        child = render.Image(src = code),
-    )
-    children = [qr] if width == height else [logo(big), qr]
-    return render.Box(
-        width = width,
-        height = height,
-        child = render.Row(expanded = True, main_align = "space_evenly", cross_align = "center", children = children),
-    )
+    qr_size = (50 if big else 25) + 2 * border
+    qr = render.Box(width = qr_size, height = qr_size, color = "#fff", child = render.Image(src = code))
+
+    label = None
+    if link_text:
+        space_w = width if square else width - qr_size - (6 if big else 3)
+        space_h = height - qr_size - 2 if square else qr_size
+        smaller = ["terminus-16", "terminus-12", "tb-8"] if big else ["tb-8", "tom-thumb"]
+        fonts = [body_font] + [f for f in smaller if f != body_font]
+        for font in fonts:
+            if lang == "ru" and font in NO_CYRILLIC:
+                continue
+            if [w for w in link_text.split(" ") if text_width(w, font) > space_w]:
+                continue  # A word wouldn't fit on one line - try a smaller font rather than split it
+            lines = wrap(link_text, font, space_w)
+            if len(lines) * render.Text("Ag", font = font).size()[1] <= space_h:
+                label = render.Column(
+                    cross_align = "center" if square else "start",
+                    children = [render.Text(line, font = font, color = TEXT_COLOR) for line in lines],
+                )
+                break
+
+    if square:
+        children = [label, qr] if label else [qr]
+        layout = render.Column(expanded = True, main_align = "space_evenly", cross_align = "center", children = children)
+        return render.Box(width = width, height = height, child = layout)
+    if label:
+        # The sentence on the left, its first line level with the top of the QR code, at the top of the card
+        row = render.Row(expanded = True, main_align = "space_between", cross_align = "start", children = [label, qr])
+        return render.Box(width = width, height = height, child = render.Column(expanded = True, main_align = "start", children = [row]))
+    layout = render.Row(expanded = True, main_align = "space_evenly", cross_align = "center", children = [logo(big), qr])
+    return render.Box(width = width, height = height, child = layout)
 
 def hold(widget, seconds, delay):
     return render.Animation(children = [widget] * (seconds * 1000 // delay))
 
+def scroll(column, width, view_height, distance, start_frames, end_frames):
+    # Scroll the column up by exactly `distance` pixels (one pixel a frame), holding it still for start_frames
+    # first and end_frames at the end. (render.Marquee always scrolls its content right off, so it can't stop with
+    # the QR code in view.) The animation is as tall as everything that scrolls, so all of it gets drawn; the
+    # display (or the layout around it) clips it to what's visible.
+    total = start_frames + distance + end_frames
+    return animation.Transformation(
+        child = column,
+        duration = total,
+        width = width,
+        height = view_height + distance,
+        keyframes = [
+            animation.Keyframe(percentage = 0.0, transforms = [animation.Translate(0, 0)]),
+            animation.Keyframe(percentage = start_frames / total, transforms = [animation.Translate(0, 0)]),
+            animation.Keyframe(percentage = (start_frames + distance) / total, transforms = [animation.Translate(0, -distance)]),
+            animation.Keyframe(percentage = 1.0, transforms = [animation.Translate(0, -distance)]),
+        ],
+    )
+
 def render_fact(fact, size, lang):
     # Works on every display: 64x32, 128x64 (2x) and 64x64 (square). The DigiByte logo and the DigiFact's number are
     # shown first. On 64x32 and 128x64 they then scroll up off the display, with the DigiFact following; on 64x64 the
-    # DigiFact scrolls up under a header. If the DigiFact has a link, its QR code is shown at the end.
+    # DigiFact scrolls up under a header. If the DigiFact has a link, its QR code slides up underneath the text and
+    # stays on the display for a few seconds; otherwise the text scrolls off.
     # show_full_animation lets Tronbyt play the whole DigiFact, however long it is.
     width, height = canvas.size()
     big = canvas.is2x()
     square = width == height
     delay = 37 if big else 75  # The same speed on every display (128x64 has twice as many pixels)
+    intro_frames = INTRO_SECONDS * 1000 // delay
+    qr_frames = QR_SECONDS * 1000 // delay
 
     body_font = FONTS[size][1] if big else FONTS[size][0]
     if lang == "ru" and body_font in NO_CYRILLIC:
         body_font = FONTS["medium"][0]
     title_font = "terminus-16" if big else "tb-8"
+    line_height = render.Text("Ag", font = body_font).size()[1]
+    lines = wrap(fact["text"], body_font, width)
+    text = render.Column(children = [render.Text(line, font = body_font, color = TEXT_COLOR) for line in lines])
+    text_height = len(lines) * line_height
+    gap = line_height // 2
 
     intro = intro_card(fact["header"], width, height, title_font)
-    text = render.WrappedText(fact["text"], font = body_font, color = TEXT_COLOR, width = width)
+    header_height = 9 if square else 0  # The square display keeps a header (8 pixels, then a 1 pixel gap)
+    view = height - header_height
+
+    # What scrolls: (the intro card on wide displays,) the text, then the QR code, which ends up filling the view
+    if square:
+        children = [render.Box(width = width, height = view), text]  # The text starts just below the view
+        top = view
+    else:
+        children = [intro, text]
+        top = height
+    if fact.get("link"):
+        children += [render.Box(width = width, height = gap), qr_card(fact["link"], fact["link_text"], width, view, lang, body_font)]
+        distance = top + text_height + gap
+        end_frames = qr_frames
+    else:
+        distance = top + text_height  # Scroll the text right off
+        end_frames = 0
+    moving = scroll(render.Column(children = children), width, view, distance, 0 if square else intro_frames, end_frames)
 
     if square:
-        header_height = 8
         body = render.Column(
             children = [
                 render.Box(
                     width = width,
-                    height = header_height,
+                    height = 8,
                     color = DIGIBYTE_BLUE,
                     child = render.Text(fact["header"], font = "tb-8", color = TEXT_COLOR),
                 ),
                 render.Box(width = width, height = 1),
-                render.Marquee(
-                    height = height - header_height - 1,
-                    scroll_direction = "vertical",
-                    offset_start = height - header_height - 1,
-                    child = text,
-                ),
+                moving,
             ],
         )
-    else:
-        # The logo card scrolls up off the display, and the DigiFact follows straight behind it
-        body = render.Marquee(
-            height = height,
-            scroll_direction = "vertical",
-            offset_start = 0,
-            child = render.Column(children = [intro, text]),
-        )
+        return render.Root(delay = delay, show_full_animation = True, child = render.Sequence(children = [hold(intro, INTRO_SECONDS, delay), body]))
 
-    parts = [hold(intro, INTRO_SECONDS, delay), body]
-    if fact.get("link"):
-        parts.append(hold(qr_card(fact["link"], width, height), QR_SECONDS, delay))
-
-    return render.Root(delay = delay, show_full_animation = True, child = render.Sequence(children = parts))
+    return render.Root(delay = delay, show_full_animation = True, child = moving)
 
 def get_schema():
     return schema.Schema(

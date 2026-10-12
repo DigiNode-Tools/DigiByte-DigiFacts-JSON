@@ -1,6 +1,6 @@
 # DigiFacts for Tronbyt
 
-Shows a DigiFact - a bite-size fact about DigiByte - on your [Tronbyt](https://github.com/tronbyt) (or Tidbyt) display. The DigiByte logo and the DigiFact's number are shown first, then they scroll up off the display with the DigiFact following (on square 64x64 displays, the DigiFact scrolls up under a header). If the DigiFact has a link, a QR code for it is shown at the end - scan it with your phone to learn more. It plays in full, however long the DigiFact is.
+Shows a DigiFact - a bite-size fact about DigiByte - on your [Tronbyt](https://github.com/tronbyt) (or Tidbyt) display. The DigiByte logo and the DigiFact's number are shown first, then they scroll up off the display with the DigiFact following (on square 64x64 displays, the DigiFact scrolls up under a header). If the DigiFact has a link, its QR code slides up after the text, with the link's sentence (e.g. "View more stats here:") beside it, and stays on the display for a few seconds - scan it with your phone to learn more. It plays in full, however long the DigiFact is.
 
 ![DigiFacts on a 64x32 display](digifacts.webp)
 
