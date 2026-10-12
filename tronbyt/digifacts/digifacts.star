@@ -241,10 +241,13 @@ def render_fact(fact, size, lang):
     text_to_show = fact["text"]
     if fact.get("link") and fact["link_text"] and not label:
         text_to_show = text_to_show + " " + fact["link_text"]  # Too long to fit beside the QR code
+
+    # Space between the text and the QR card. With nothing beside the QR code, the card's own space above the code
+    # is enough: the text leaves the top of the display just as the QR code stops in the middle.
+    gap = line_height // 2 if label else 0
     lines = wrap(text_to_show, body_font, width)
     text = render.Column(children = [render.Text(line, font = body_font, color = TEXT_COLOR) for line in lines])
     text_height = len(lines) * line_height
-    gap = line_height // 2
 
     intro = intro_card(fact["header"], width, height, title_font)
 
@@ -256,7 +259,9 @@ def render_fact(fact, size, lang):
         children = [intro, text]
         top = height
     if fact.get("link"):
-        children += [render.Box(width = width, height = gap), qr_card(fact["link"], label, width, view)]
+        if gap:
+            children.append(render.Box(width = width, height = gap))  # (A Box with height 0 would fill the space)
+        children.append(qr_card(fact["link"], label, width, view))
         distance = top + text_height + gap
         end_frames = qr_frames
     else:
