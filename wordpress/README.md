@@ -1,16 +1,12 @@
 # DigiByte DigiFacts - WordPress plugin
 
-<!-- sponsors:short -->
-<a href="https://github.com/sponsors/DigiNode-Tools"><img src="https://img.shields.io/badge/Sponsor%20DigiNode%20Tools-Click%20to%20support%20me-0066CC?style=for-the-badge&labelColor=002352&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGNEZBMyIgZD0iTTEyIDIxLjM1bC0xLjQ1LTEuMzJDNS40IDE1LjM2IDIgMTIuMjggMiA4LjUgMiA1LjQyIDQuNDIgMyA3LjUgM2MxLjc0IDAgMy40MS44MSA0LjUgMi4wOUMxMy4wOSAzLjgxIDE0Ljc2IDMgMTYuNSAzIDE5LjU4IDMgMjIgNS40MiAyMiA4LjVjMCAzLjc4LTMuNCA2Ljg2LTguNTUgMTEuNTRMMTIgMjEuMzV6Ii8%2BPC9zdmc%2B" alt="Sponsor DigiNode Tools - click to support me"></a>
+Part of [DigiByte DigiFacts](../).
 
-**Find this useful?** Please consider [sponsoring me on GitHub](https://github.com/sponsors/DigiNode-Tools), so I can devote more time to DigiNode Tools and projects like this one.
-<!-- /sponsors:short -->
-
-Show a random DigiFact - a bite-size fact about DigiByte - on your WordPress site. It changes every minute, and is available in multiple languages. Learn more about DigiFacts [here](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON).
+Show a random DigiFact - a bite-size fact about DigiByte - on your WordPress site. It changes every minute, and is available in multiple languages. Learn more about DigiFacts [here](https://github.com/DigiNode-Tools/digibyte-digifacts).
 
 ## Install
 
-1. Download `digibyte-digifacts.zip` from the [latest release](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-Wordpress-Plugin/releases/latest).
+1. Download `digibyte-digifacts.zip` from the [latest release](https://github.com/DigiNode-Tools/digibyte-digifacts/releases).
 2. In WordPress, go to **Plugins > Add New Plugin > Upload Plugin**, choose the zip, then **Activate**. (Updating from 1.x? Upload it the same way and choose **Replace current with uploaded** - your settings are kept.)
 3. Choose the language in **Settings > DigiFacts**.
 4. Add the `[digifacts]` shortcode, or the **DigiByte DigiFacts** block, where you want a DigiFact to appear.
@@ -27,7 +23,11 @@ The DigiFacts use your theme's fonts and colours. To change how they look, add C
 
 ## Not using WordPress?
 
-The DigiFacts are available as JSON files for any website or app - see [DigiByte-DigiFacts-JSON](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON).
+Use the [embed for any website](../README.md#add-digifacts-to-your-website), or the JSON files directly.
+
+## Releasing a new version
+
+Update the Version in `digibyte-digifacts/digibyte-digifacts.php`, the Stable tag and changelog in `digibyte-digifacts/readme.txt`, then push a tag: `git tag wordpress-v2.0.2 && git push origin wordpress-v2.0.2`. The release (with the zip) is built automatically.
 
 ## Licence
 

@@ -6,7 +6,7 @@ name: Build and publish DigiFacts
 on:
   push:
     branches: [main]
-    paths: [facts/**, build/**, .github/workflows/build.yml]
+    paths: [facts/**, build/**, embed/**, .github/workflows/build.yml]
   schedule:
     - cron: "23 * * * *"
   workflow_dispatch:

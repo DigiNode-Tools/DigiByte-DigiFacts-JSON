@@ -547,11 +547,11 @@
     "link_md": "了解更多 [这里](https://diginode.tools/)。"
   },
   "digifact79": {
-    "content": "这些DigiFacts是由DigiByte社区为DigiByte社区创建的。我们需要您的帮助添加新的DigiFacts并将其翻译成其他语言，您可以自行翻译，也可以捐款给DigiFacts翻译基金。",
-    "url": "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_social": "在这里了解如何帮助：https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_html": "点击<a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON\">这里</a>了解如何帮助。",
-    "link_md": "点击[这里](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON)了解如何帮助。"
+    "content": "这些数字事实由DigiByte社区编写，为DigiByte社区服务。任何人都可以提供帮助——提出新的数字事实、纠正错误或改进翻译。",
+    "url": "https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_social": "在这里了解如何帮助：https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_html": "点击<a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">这里</a>了解如何帮助。",
+    "link_md": "点击[这里](https://github.com/DigiNode-Tools/digibyte-digifacts)了解如何帮助。"
   },
   "digifact80": {
     "content": "DigiByte Seeder是由DigiByte社区的一些受信任的志愿者运行的轻量级DNS服务器。它持续地爬行DigiByte网络以查找节点，并维护了一个最可靠的IP地址和端口列表。加入网络的DigiByte节点使用DigiByte Seeder来查找其他要连接的节点。",

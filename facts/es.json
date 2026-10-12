@@ -547,11 +547,11 @@
     "link_md": " Obtén más información [aquí](https://diginode.tools/)."
   },
   "digifact79": {
-    "content": "Estos DigiFacts son creados por la comunidad de DigiByte para la comunidad de DigiByte. Necesitamos tu ayuda para agregar nuevos y traducirlos a otros idiomas, ya sea traduciéndolos tú mismo o haciendo donaciones al Fondo de Traducción de DigiFacts.",
-    "url": "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_social": " Ve aquí para aprender cómo puedes ayudar: https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_html": " Ve <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON\">aquí</a> para aprender cómo puedes ayudar.",
-    "link_md": " Ve [aquí](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON) para aprender cómo puedes ayudar."
+    "content": "Estos DigiDatos son escritos por la comunidad de DigiByte, para la comunidad de DigiByte. Cualquiera puede ayudar: sugiriendo nuevos DigiDatos, corrigiendo errores o mejorando las traducciones.",
+    "url": "https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_social": " Ve aquí para aprender cómo puedes ayudar: https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_html": " Ve <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">aquí</a> para aprender cómo puedes ayudar.",
+    "link_md": " Ve [aquí](https://github.com/DigiNode-Tools/digibyte-digifacts) para aprender cómo puedes ayudar."
   },
   "digifact80": {
     "content": "Un DigiByte Seeder es un servidor DNS ligero administrado por algunos voluntarios de confianza de la comunidad de DigiByte. Escanea continuamente la red DigiByte en busca de nodos y mantiene una lista de las direcciones IP y puertos de los más confiables. Los nodos de DigiByte que se unen a la red utilizan los DigiByte Seeders para encontrar otros nodos a los que conectarse.",

@@ -547,11 +547,11 @@
     "link_md": " और जानें [यहाँ](https://diginode.tools/)।"
   },
   "digifact79": {
-    "content": "ये DigiFacts DigiByte समुदाय द्वारा DigiByte समुदाय के लिए बनाए जाते हैं। हमें आपकी मदद की आवश्यकता है नए जोड़ने और उन्हें अन्य भाषाओं में अनुवादित करने के लिए, चाहे आप उन्हें खुद अनुवाद करें या DigiFacts अनुवाद फंड को दान करें।",
-    "url": "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_social": " आपकी मदद कैसे कर सकते हैं इसे जानने के लिए यहाँ जाएं: https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_html": " जानने के लिए <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON\">यहाँ</a> जाएं कैसे आप मदद कर सकते हैं।",
-    "link_md": " जानने के लिए [यहाँ](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON) जाएं कैसे आप मदद कर सकते हैं।"
+    "content": "ये डिजीफैक्ट्स DigiByte समुदाय द्वारा, DigiByte समुदाय के लिए लिखे गए हैं। कोई भी मदद कर सकता है - नए डिजीफैक्ट्स सुझाकर, गलतियाँ ठीक करके, या अनुवादों को बेहतर बनाकर।",
+    "url": "https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_social": " आपकी मदद कैसे कर सकते हैं इसे जानने के लिए यहाँ जाएं: https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_html": " जानने के लिए <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">यहाँ</a> जाएं कैसे आप मदद कर सकते हैं।",
+    "link_md": " जानने के लिए [यहाँ](https://github.com/DigiNode-Tools/digibyte-digifacts) जाएं कैसे आप मदद कर सकते हैं।"
   },
   "digifact80": {
     "content": "एक DigiByte सीडर एक हल्का वजन वाला DNS सर्वर है जिसे DigiByte समुदाय के कुछ विश्वसनीय स्वयंसेवकों द्वारा संचालित किया जाता है। यह DigiByte नेटवर्क को लगातार क्रॉल करता है और सबसे विश्वसनीय नोड्स के IP पतों और पोर्टों की सूची बनाता है। DigiByte नोड्स जोड़ने वाले नेटवर्क के अन्य नोड्स खोजने के लिए DigiByte सीडर्स का उपयोग करते हैं।",

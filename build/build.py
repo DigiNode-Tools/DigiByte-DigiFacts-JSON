@@ -35,7 +35,7 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS_DIR = os.path.join(ROOT, "facts")
-REPO_URL = "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON"
+REPO_URL = "https://github.com/DigiNode-Tools/digibyte-digifacts"
 SPONSOR_URL = "https://github.com/sponsors/DigiNode-Tools"
 USER_AGENT = f"DigiFacts builder ({REPO_URL})"
 
@@ -331,11 +331,19 @@ def help_page(langs, info):
 <li>Show a random fact, e.g. when the page loads or once a minute.</li>
 <li>Some facts include live data such as the number of DigiByte blocks, so fetch the file again every few hours. Don't fetch it more than once an hour.</li>
 <li>Browsers can fetch the files directly (CORS is allowed), so they work in any website or app.</li>
-<li>WordPress sites can use the <a href="https://github.com/DigiNode-Tools/DigiByte-DigiFacts-Wordpress-Plugin">DigiFacts plugin</a>.</li>
 </ul>
 
+<h2>Add DigiFacts to your website</h2>
+<p>Add this where you want a DigiFact to appear. It shows a random DigiFact, which changes every minute, and uses your site's font and colours:</p>
+<pre><code>&lt;div data-digifacts data-lang="en"&gt;&lt;/div&gt;
+&lt;script src="https://digifacts.diginode.tools/embed/v1/digifacts.js" async&gt;&lt;/script&gt;</code></pre>
+<p>Options (attributes on the div): <code>data-lang</code> (a language code, or <code>auto</code> for the visitor's language), <code>data-box="no"</code> (text only), <code>data-interval</code> (seconds between DigiFacts, or <code>0</code> for just one), <code>data-credit="no"</code> (hide the small DigiFacts link) and <code>data-accent</code> (a colour, e.g. <code>#0066cc</code>). Here it is:</p>
+<div data-digifacts data-lang="en"></div>
+<script src="../embed/v1/digifacts.js" async></script>
+<p>On WordPress, you can use the <a href="https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress">DigiFacts plugin</a> instead.</p>
+
 <h2>How they're made</h2>
-<p>The facts live in the <a href="{REPO_URL}">DigiByte-DigiFacts-JSON</a> repository. Every hour, and whenever the facts change, a public <a href="{REPO_URL}/actions">GitHub Action</a> checks them, fills in the live data and publishes this site. The block count comes from several block explorers (currently {html.escape(", ".join(EXPLORERS))}); the middle value is used, and if none of them answer, an estimate based on DigiByte's 15 second block time.</p>
+<p>The facts live in the <a href="{REPO_URL}">digibyte-digifacts</a> repository. Every hour, and whenever the facts change, a public <a href="{REPO_URL}/actions">GitHub Action</a> checks them, fills in the live data and publishes this site. The block count comes from several block explorers (currently {html.escape(", ".join(EXPLORERS))}); the middle value is used, and if none of them answer, an estimate based on DigiByte's 15 second block time.</p>
 
 <h2>Help improve them</h2>
 <p>Spotted a mistake, or a fact that's out of date? Translations can always be improved too, and new languages are welcome. See <a href="{REPO_URL}#contributing">how to contribute</a>, or <a href="../proofread/en/">read through the facts</a>.</p>
@@ -391,6 +399,8 @@ def main():
             files[f"{lang}/{fmt}.json"] = to_json(data)
     files["index.html"] = files["en/social.json"]   # DigiNode Tools v26.10.x and older use '/?lang=en&format=social'
     files["languages.json"] = json.dumps(langs) + "\n"
+    with open(os.path.join(ROOT, "embed", "digifacts.js"), encoding="utf-8") as f:
+        files["embed/v1/digifacts.js"] = f.read()   # The embed for any website (v1: keep it compatible)
 
     # Did anything change since the last publish? (Not counting info.json's times)
     digest = hashlib.sha256("".join(f"{p}\n{c}" for p, c in sorted(files.items())).encode("utf-8")).hexdigest()

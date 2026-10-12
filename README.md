@@ -39,7 +39,31 @@ Languages: `en` English, `de` German, `es` Spanish, `fr` French, `hi` Hindi, `it
 - Show a random fact, e.g. when the page loads or once a minute.
 - Some facts include live data, so fetch the file again every few hours - but not more than once an hour.
 - Browsers can fetch the files directly (CORS is allowed).
-- For WordPress, there's a [DigiFacts plugin](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-Wordpress-Plugin).
+
+## Add DigiFacts to your website
+
+Add this where you want a DigiFact to appear. It shows a random DigiFact, which changes every minute, and uses your site's font and colours:
+
+```html
+<div data-digifacts data-lang="en"></div>
+<script src="https://digifacts.diginode.tools/embed/v1/digifacts.js" async></script>
+```
+
+Options (attributes on the div):
+
+| Option | What it does |
+|---|---|
+| `data-lang="de"` | The language (default `en`). `auto` uses the visitor's browser language, if available. |
+| `data-box="no"` | Just the text, without a box. |
+| `data-interval="120"` | Seconds between DigiFacts (default 60, minimum 10). `0` shows one DigiFact only. |
+| `data-credit="no"` | Hide the small "DigiByte DigiFacts" link. |
+| `data-accent="#0066cc"` | The colour of the box border and links. |
+
+The DigiFact is drawn in its own shadow DOM, so your site's styles can't affect it and it can't affect your site. It fetches only the DigiFacts files above, and shows nothing if they can't be loaded. The `v1` in the address means it won't change in a way that could break your page. The code is in [`embed/`](embed/).
+
+### On WordPress
+
+Use the [DigiFacts WordPress plugin](wordpress/) - download `digibyte-digifacts.zip` from the [releases](https://github.com/DigiNode-Tools/digibyte-digifacts/releases), then add the `[digifacts]` shortcode or the DigiByte DigiFacts block. It works with page caching, and your visitors' browsers don't contact any other site.
 
 ## How DigiFacts are built
 
@@ -48,11 +72,11 @@ Everything is in this repository, so anyone can see exactly how DigiFacts are ma
 - The facts are in [`facts/`](facts/), one file per language. [`facts/en.json`](facts/en.json) is the original that the translations are based on.
 - A [GitHub Action](.github/workflows/build.yml) runs [`build/build.py`](build/build.py) every hour and whenever the facts change. It checks every file, fills in the live data, and publishes the website on GitHub Pages. If a file has a mistake, nothing is published and the previous version stays live.
 - The block count comes from several block explorers (chainz.cryptoid.info, digibyte.io and Atomic Wallet's explorer). The middle value is used, readings that look wrong are ignored, and the count never goes backwards. If no explorer answers, it's estimated from DigiByte's 15 second block time.
-- Every run is public on the [Actions tab](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON/actions).
+- Every run is public on the [Actions tab](https://github.com/DigiNode-Tools/digibyte-digifacts/actions).
 
 ## Contributing
 
-Corrections, new DigiFacts and translations are all welcome. Make a pull request, or [open an issue](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON/issues) if you're not sure how.
+Corrections, new DigiFacts and translations are all welcome. Make a pull request, or [open an issue](https://github.com/DigiNode-Tools/digibyte-digifacts/issues) if you're not sure how.
 
 To read through the facts in any language, side by side with English, use the [proofreading pages](https://digifacts.diginode.tools/proofread/).
 
@@ -90,6 +114,6 @@ DigiFacts are written by the DigiByte community, for the DigiByte community. Ple
 
 ## Licence
 
-MIT - see [LICENSE](LICENSE). Anyone can use DigiFacts, as long as the copyright notice is kept. Based on the [original DigiFacts](https://github.com/DigiByte-Core/DigiFacts) by DigiByte Core (MIT).
+The DigiFacts, the website build and the embed are MIT - see [LICENSE](LICENSE). Anyone can use DigiFacts, as long as the copyright notice is kept. The WordPress plugin is GPL-2.0-or-later - see [wordpress/LICENSE](wordpress/LICENSE). Based on the [original DigiFacts](https://github.com/DigiByte-Core/DigiFacts) by DigiByte Core (MIT).
 
 DigiFacts are maintained by [DigiNode Tools](https://diginode.tools).

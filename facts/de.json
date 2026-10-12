@@ -547,11 +547,11 @@
     "link_md": " Erfahren Sie mehr [hier](https://diginode.tools/)."
   },
   "digifact79": {
-    "content": "Diese DigiFacts werden von der DigiByte-Community für die DigiByte-Community erstellt. Wir benötigen Ihre Hilfe, um neue hinzuzufügen und sie in weitere Sprachen zu übersetzen, entweder durch eigene Übersetzungen oder durch Spenden an den DigiFacts-Übersetzungsfonds.",
-    "url": "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_social": " Erfahren Sie hier, wie Sie helfen können: https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_html": " Gehen Sie <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON\">hier</a>, um zu erfahren, wie Sie helfen können.",
-    "link_md": " Gehen Sie [hier](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON), um zu erfahren, wie Sie helfen können."
+    "content": "Diese DigiFakten werden von der DigiByte-Community für die DigiByte-Community geschrieben. Jeder kann helfen - indem er neue DigiFakten vorschlägt, Fehler korrigiert oder die Übersetzungen verbessert.",
+    "url": "https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_social": " Erfahren Sie hier, wie Sie helfen können: https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_html": " Gehen Sie <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">hier</a>, um zu erfahren, wie Sie helfen können.",
+    "link_md": " Gehen Sie [hier](https://github.com/DigiNode-Tools/digibyte-digifacts), um zu erfahren, wie Sie helfen können."
   },
   "digifact80": {
     "content": "Ein DigiByte Seeder ist ein leichtgewichtiger DNS-Server, der von einigen vertrauenswürdigen Freiwilligen aus der DigiByte-Community betrieben wird. Er durchsucht kontinuierlich das DigiByte-Netzwerk nach Knoten und führt eine Liste der IP-Adressen und Ports der zuverlässigsten Knoten. DigiByte-Knoten, die sich dem Netzwerk anschließen, verwenden die DigiByte Seeder, um andere Knoten zum Verbinden zu finden.",

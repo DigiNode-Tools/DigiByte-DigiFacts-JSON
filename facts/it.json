@@ -547,11 +547,11 @@
     "link_md": " Per saperne di più [qui](https://diginode.tools/)."
   },
   "digifact79": {
-    "content": "Questi DigiFacts sono creati dalla comunità di DigiByte per la comunità di DigiByte. Abbiamo bisogno del tuo aiuto per aggiungerne di nuovi e tradurli in altre lingue, sia traducendoli tu stesso che facendo una donazione al Fondo per la traduzione di DigiFacts.",
+    "content": "Questi DigiFact sono scritti dalla comunità DigiByte, per la comunità DigiByte. Chiunque può aiutare: proponendo nuovi DigiFact, correggendo errori o migliorando le traduzioni.",
     "url": "https://digiassets.info/",
-    "link_social": " Vai qui per scoprire come puoi aiutare: https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_html": " Vai <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON\">qui</a> per scoprire come puoi aiutare.",
-    "link_md": " Vai [qui](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON) per scoprire come puoi aiutare."
+    "link_social": " Vai qui per scoprire come puoi aiutare: https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_html": " Vai <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">qui</a> per scoprire come puoi aiutare.",
+    "link_md": " Vai [qui](https://github.com/DigiNode-Tools/digibyte-digifacts) per scoprire come puoi aiutare."
   },
   "digifact80": {
     "content": "Un DigiByte Seeder è un server DNS leggero gestito da alcuni volontari fidati della community DigiByte. Esplora continuamente la rete DigiByte alla ricerca di nodi e mantiene una lista degli indirizzi IP e delle porte dei nodi più affidabili. I nodi DigiByte che si uniscono alla rete utilizzano i DigiByte Seeder per trovare altri nodi a cui connettersi.",

@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:       DigiByte DigiFacts
- * Plugin URI:        https://github.com/DigiNode-Tools/DigiByte-DigiFacts-Wordpress-Plugin
+ * Plugin URI:        https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress
  * Description:       Show a random DigiFact - a bite-size fact about DigiByte - that changes every minute. Available in multiple languages.
- * Version:           2.0.0
+ * Version:           2.0.1
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            Olly Stedall (DigiNode Tools)
@@ -17,10 +17,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const DIGIBYTE_DIGIFACTS_VERSION = '2.0.0';
-// The DigiFacts website (https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON). Updated hourly.
+const DIGIBYTE_DIGIFACTS_VERSION = '2.0.1';
+// The DigiFacts website (https://github.com/DigiNode-Tools/digibyte-digifacts). Updated hourly.
 const DIGIBYTE_DIGIFACTS_URL = 'https://digifacts.diginode.tools';
-const DIGIBYTE_DIGIFACTS_REPO = 'https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON';
+const DIGIBYTE_DIGIFACTS_REPO = 'https://github.com/DigiNode-Tools/digibyte-digifacts';
 const DIGIBYTE_DIGIFACTS_SPONSOR = 'https://github.com/sponsors/DigiNode-Tools';
 
 /**

@@ -3,7 +3,7 @@ name: Check DigiFacts
 
 on:
   pull_request:
-    paths: [facts/**, build/**]
+    paths: [facts/**, build/**, embed/**, wordpress/**]
 
 permissions:
   contents: read
@@ -15,3 +15,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check the facts and build the website
         run: python3 build/build.py _site
+
+      - name: Check the WordPress plugin and the embed
+        run: |
+          for f in wordpress/digibyte-digifacts/*.php; do php -l "$f"; done
+          node --check embed/digifacts.js
+          python3 build/tidy.py --check || echo "::warning::Some translated DigiFacts are no longer in facts/en.json - they will be removed when this is merged"

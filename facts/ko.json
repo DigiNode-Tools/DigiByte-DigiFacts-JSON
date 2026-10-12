@@ -547,11 +547,11 @@
     "link_md": " 더 많은 정보는 [여기](https://diginode.tools/)에서 확인하세요."
   },
   "digifact79": {
-    "content": "이 DigiFacts는 DigiByte 커뮤니티가 DigiByte 커뮤니티를 위해 만들었습니다. 여러분의 도움이 필요합니다. 새로운 내용을 추가하거나 다른 언어로 번역하는 데 도움을 주실 수 있습니다. 직접 번역하거나 DigiFacts 번역 기금에 기부하십시오.",
-    "url": "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_social": " 도움을 어떻게 제공할 수 있는지 알아보려면 여기를 방문하십시오: https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_html": " 도움말을 얻으려면 <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON\">여기</a>를 클릭하십시오.",
-    "link_md": " 도움말을 얻으려면 [여기](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON)를 클릭하십시오."
+    "content": "이 디지팩트는 DigiByte 커뮤니티가 DigiByte 커뮤니티를 위해 작성합니다. 새로운 디지팩트를 제안하거나, 오류를 바로잡거나, 번역을 개선하는 등 누구나 도울 수 있습니다.",
+    "url": "https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_social": " 도움을 어떻게 제공할 수 있는지 알아보려면 여기를 방문하십시오: https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_html": " 도움말을 얻으려면 <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">여기</a>를 클릭하십시오.",
+    "link_md": " 도움말을 얻으려면 [여기](https://github.com/DigiNode-Tools/digibyte-digifacts)를 클릭하십시오."
   },
   "digifact80": {
     "content": "DigiByte Seeder는 DigiByte 커뮤니티의 일부 신뢰할 수 있는 자원봉사자들이 운영하는 가벼운 DNS 서버입니다. 이 서버는 계속해서 DigiByte 네트워크를 크롤링하여 노드를 찾으며 가장 신뢰할 수 있는 노드의 IP 주소 및 포트 목록을 유지합니다. DigiByte 네트워크에 가입하는 DigiByte 노드는 다른 노드에 연결하기 위해 DigiByte Seeder를 사용합니다.",

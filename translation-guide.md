@@ -31,7 +31,7 @@ If a fact is missing from a translation, or its content is empty, the English ve
 2. Edit `facts/<code>.json` on GitHub (open the file and click the pencil icon). GitHub will make a copy of the repository for you.
 3. Propose the change and open a pull request. Please say what you changed and why.
 
-Not comfortable editing JSON? [Open an issue](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON/issues) with the fact number and your corrected text.
+Not comfortable editing JSON? [Open an issue](https://github.com/DigiNode-Tools/digibyte-digifacts/issues) with the fact number and your corrected text.
 
 ## Adding a new language
 

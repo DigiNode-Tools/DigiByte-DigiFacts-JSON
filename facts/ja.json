@@ -547,11 +547,11 @@
     "link_md": "詳細は[こちら](https://diginode.tools/)からご覧いただけます。"
   },
   "digifact79": {
-    "content": "これらのDigiFactsは、DigiByteコミュニティによって、DigiByteコミュニティのために作成されました。新しい情報を追加し、他の言語に翻訳するのに、あなたの助けが必要です。自分で翻訳するか、DigiFacts翻訳基金に寄付することでお手伝いいただけます。",
-    "url": "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_social": "どのようにお手伝いできるかを学ぶにはこちらにアクセスしてください：https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_html": "お手伝いいただく方法は<a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON\">こちら</a>をご覧ください。",
-    "link_md": "お手伝いいただく方法は[こちら](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON)をご覧ください。"
+    "content": "これらのデジファクトは、DigiByteコミュニティによって、DigiByteコミュニティのために書かれています。新しいデジファクトの提案、間違いの修正、翻訳の改善など、誰でも協力できます。",
+    "url": "https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_social": "どのようにお手伝いできるかを学ぶにはこちらにアクセスしてください：https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_html": "お手伝いいただく方法は<a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">こちら</a>をご覧ください。",
+    "link_md": "お手伝いいただく方法は[こちら](https://github.com/DigiNode-Tools/digibyte-digifacts)をご覧ください。"
   },
   "digifact80": {
     "content": "DigiByte Seederは、DigiByteコミュニティの信頼できるボランティアによって運営される軽量なDNSサーバーです。これはDigiByteネットワークを継続的にクロールし、ノードを検索し、最も信頼性のあるもののIPアドレスとポートのリストを維持します。ネットワークに参加するDigiByteノードは、他のノードに接続するためにDigiByte Seederを使用します。",

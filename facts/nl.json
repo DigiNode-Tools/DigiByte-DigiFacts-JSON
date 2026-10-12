@@ -545,11 +545,11 @@
     "link_md": " Meer informatie [hier](https://diginode.tools/)."
   },
   "digifact79": {
-    "content": "Deze DigiFacts zijn gemaakt door de DigiByte-gemeenschap voor de DigiByte-gemeenschap. We hebben uw hulp nodig om nieuwe toe te voegen en ze te vertalen naar andere talen, ofwel door ze zelf te vertalen of door te doneren aan het DigiFacts Vertalingsfonds.",
-    "url": "https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_social": " Kijk hier hoe je kunt helpen: https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON",
-    "link_html": " Ga <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON\">hierheen</a> om te zien hoe je kunt helpen.",
-    "link_md": " Ga [hierheen](https://github.com/DigiNode-Tools/DigiByte-DigiFacts-JSON) om te zien hoe je kunt helpen."
+    "content": "Deze DigiFeiten worden geschreven door de DigiByte-community, voor de DigiByte-community. Iedereen kan helpen - door nieuwe DigiFeiten voor te stellen, fouten te verbeteren of de vertalingen te verbeteren.",
+    "url": "https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_social": " Kijk hier hoe je kunt helpen: https://github.com/DigiNode-Tools/digibyte-digifacts",
+    "link_html": " Ga <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">hierheen</a> om te zien hoe je kunt helpen.",
+    "link_md": " Ga [hierheen](https://github.com/DigiNode-Tools/digibyte-digifacts) om te zien hoe je kunt helpen."
   },
   "digifact80": {
     "content": "Een DigiByte Seeder is een lichtgewicht DNS-server die wordt beheerd door een aantal vertrouwde vrijwilligers uit de DigiByte-community. Het doorzoekt voortdurend het DigiByte-netwerk op zoek naar nodes en onderhoudt een lijst met IP-adressen en poorten van de meest betrouwbare nodes. DigiByte-nodes die zich bij het netwerk aansluiten, gebruiken de DigiByte Seeder om andere nodes te vinden om mee te verbinden.",
