@@ -68,6 +68,10 @@ The DigiFact is drawn in its own shadow DOM, so your site's styles can't affect 
 
 Use the [DigiFacts WordPress plugin](wordpress/) - download `digibyte-digifacts.zip` from the [releases](https://github.com/DigiNode-Tools/digibyte-digifacts/releases), then add the `[digifacts]` shortcode or the DigiByte DigiFacts block. It works with page caching, and your visitors' browsers don't contact any other site.
 
+## On a Tronbyt display
+
+The [DigiFacts Tronbyt app](tronbyt/digifacts/) shows a DigiFact on a Tronbyt (or Tidbyt) display, in 8 languages, with a choice of text size and the DigiFact of the day or a random one.
+
 ## How DigiFacts are built
 
 Everything is in this repository, so anyone can see exactly how DigiFacts are made:

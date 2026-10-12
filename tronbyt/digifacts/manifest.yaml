@@ -1,0 +1,16 @@
+---
+id: digifacts
+name: DigiFacts
+summary: Facts about DigiByte
+desc: Shows a DigiFact - a bite-size fact about DigiByte - in your language. Choose the DigiFact of the day, or a random DigiFact each time. From digifacts.diginode.tools.
+author: saltedlolly
+fileName: digifacts.star
+packageName: digifacts
+recommendedInterval: 30
+supports2x: true
+supports64x64: true
+category: education
+tags:
+  - crypto
+  - digibyte
+  - facts
