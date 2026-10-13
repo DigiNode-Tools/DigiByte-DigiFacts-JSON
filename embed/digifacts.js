@@ -31,7 +31,7 @@
     ".d.box{padding:.8em 1em;border-radius:8px;border:1px solid rgba(0,102,204,.35);" +
     "border-color:color-mix(in srgb,var(--a) 35%,transparent)}" +
     ".t{margin:0 0 .3em;font-weight:700}p{margin:0}" +
-    "a{color:var(--a);text-underline-offset:2px}" +
+    "a{color:var(--a);text-underline-offset:2px}a:hover,a:focus{opacity:.7}" +
     ".c{margin-top:.5em;font-size:.65em;opacity:.65}.c a{color:inherit}";
 
   function el(tag, cls, text) {

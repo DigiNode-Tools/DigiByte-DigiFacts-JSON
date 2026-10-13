@@ -5,8 +5,18 @@
 	padding: 5px 0;
 }
 
+/* Links in a DigiFact are underlined, so they stand out whatever colour the theme gives them */
 .digibyte-digifact .digifact-content a {
 	white-space: nowrap;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.2em;
+}
+
+.digibyte-digifact .digifact-content a:hover,
+.digibyte-digifact .digifact-content a:focus {
+	text-decoration-thickness: 2px;
+	opacity: 0.7;
 }
 
 .digibyte-digifact .digifact-credit {
