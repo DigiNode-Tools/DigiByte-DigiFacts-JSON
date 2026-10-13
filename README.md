@@ -70,7 +70,11 @@ Use the [DigiFacts WordPress plugin](wordpress/) - download `digibyte-digifacts.
 
 ## On a Tronbyt display
 
-The [DigiFacts Tronbyt app](tronbyt/digifacts/) shows a DigiFact on a Tronbyt (or Tidbyt) display, in 8 languages, with a choice of text size and the DigiFact of the day or a random one.
+The DigiFacts app for [Tronbyt](https://github.com/tronbyt) shows a DigiFact on your Tronbyt (or Tidbyt) display. It opens with the DigiByte logo and the DigiFact's number, then the DigiFact scrolls up the display, ending with a QR code if it has a link. Choose from 8 languages, three text sizes, and the DigiFact of the day or a random one. It works on 64x32, 64x64 and 128x64 displays.
+
+![The DigiFacts app on a 128x64 Tronbyt display](images/tronbyt-digifacts.webp)
+
+Install it from the Tronbyt app store on your Tronbyt server, or see it in the [Tronbyt App Viewer](https://tronbyt.github.io/apps/details/digibyte-digifacts.html). The app's source is in the [Tronbyt apps repository](https://github.com/tronbyt/apps/tree/main/apps/digibyte-digifacts).
 
 ## How DigiFacts are built
 
