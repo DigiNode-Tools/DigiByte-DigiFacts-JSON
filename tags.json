@@ -3,12 +3,14 @@
   "tags": {
     "diginode-tools": "About DigiNode Tools",
     "digifacts": "About DigiFacts themselves",
-    "tronbyt": "About Tronbyt apps"
+    "tronbyt": "About Tronbyt apps",
+    "dgbat": "About the DigiByte Awareness Team (DGBAT)"
   },
   "facts": {
     "digifact-np2q": ["diginode-tools"],
     "digifact-wr7h": ["digifacts"],
     "digifact-v5ds": ["digifacts", "tronbyt"],
-    "digifact-nqzd": ["tronbyt"]
+    "digifact-nqzd": ["tronbyt"],
+    "new": ["dgbat"]
   }
 }

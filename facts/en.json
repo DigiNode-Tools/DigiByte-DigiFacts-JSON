@@ -396,5 +396,26 @@
     "link_social": " Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
     "link_html": " Find it <a target=\"_blank\" href=\"https://github.com/DigiAsset-Core/DigiAsset_Core\">here</a>.",
     "link_md": " Find it [here](https://github.com/DigiAsset-Core/DigiAsset_Core)."
+  },
+  "new": {
+    "content": "The DigiByte Awareness Team (DGBAT) regularly runs community votes, where you vote with DGB. Each project on the ballot has its own DigiByte address, and how much is sent to it is the weight of the vote. When a vote closes, the whole pot is shared between the projects in those proportions, all visible on the DigiByte blockchain.",
+    "url": "https://dgbat.org/vote.html",
+    "link_social": " Learn more here: https://dgbat.org/vote.html",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://dgbat.org/vote.html\">here</a>.",
+    "link_md": " Learn more [here](https://dgbat.org/vote.html)."
+  },
+  "new-2": {
+    "content": "DigiHash is a community mining pool for DigiByte, supporting all five of DigiByte's mining algorithms. Ten percent of the pool fee goes back into the community fund for DigiByte development.",
+    "url": "https://digihash.digibyte.io/",
+    "link_social": " Learn more here: https://digihash.digibyte.io/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://digihash.digibyte.io/\">here</a>.",
+    "link_md": " Learn more [here](https://digihash.digibyte.io/)."
+  },
+  "new-3": {
+    "content": "DigiByte Open Nodes is a live map of the DigiByte network. It shows which nodes can be reached, which version of DigiByte Core each one runs, where in the world they are and how reliable they've been, and it has guides to help you add your own node.",
+    "url": "https://opennodes.digibyte.network/",
+    "link_social": " View the map here: https://opennodes.digibyte.network/",
+    "link_html": " View the map <a target=\"_blank\" href=\"https://opennodes.digibyte.network/\">here</a>.",
+    "link_md": " View the map [here](https://opennodes.digibyte.network/)."
   }
 }
