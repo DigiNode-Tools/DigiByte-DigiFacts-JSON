@@ -2,6 +2,8 @@
 
 Thank you for helping! Translations make DigiByte easier to learn about for people around the world.
 
+**The easiest way to translate is on [Weblate](https://hosted.weblate.org/projects/digibyte-digifacts/)**: sign in, choose a language (or add a new one), and translate in your browser. Weblate shows you the English next to each string, warns you if a live value like `$blocks_tot_mil` goes missing, and sends your translations here as a pull request. The rest of this guide is for editing the files directly.
+
 ## How the files work
 
 Each language has its own file in [`facts/`](facts/), named with its two-letter language code (e.g. `facts/de.json` for German). [`facts/en.json`](facts/en.json) is the original that every translation is based on, and every file uses the same keys (`digifact1`, `digifact2`, ...):

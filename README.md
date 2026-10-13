@@ -101,7 +101,11 @@ To read through the facts in any language, side by side with English, use the [p
 
 ### Translating
 
-Each language has its own file in `facts/`, with the same keys as `facts/en.json`. Translate the `_title` at the top of the file (once - it's used for every fact, with `{number}` replaced by the fact's number), then each fact's `content` and three link fields. Leave the `url` as it is. See the [translation guide](translation-guide.md).
+[![Translation status](https://hosted.weblate.org/widget/digibyte-digifacts/svg-badge.svg)](https://hosted.weblate.org/engage/digibyte-digifacts/)
+
+DigiFacts are translated on [Weblate](https://hosted.weblate.org/projects/digibyte-digifacts/) - the easiest way to help. Sign in, choose a language, and translate or improve the DigiFacts in your browser - no GitHub or JSON needed. Your translations are sent here as pull requests. Thank you to Weblate for hosting libre projects for free.
+
+You can also edit the files directly. Each language has its own file in `facts/`, with the same keys as `facts/en.json`. Translate the `_title` at the top of the file (once - it's used for every fact, with `{number}` replaced by the fact's number), then each fact's `content` and three link fields. Leave the `url` as it is. See the [translation guide](translation-guide.md).
 
 ### Live data
 
