@@ -1,17 +1,34 @@
 /*
  * DigiByte DigiFacts: show a different random DigiFact every minute.
  * The facts are included in the page by the plugin (window.digibyteDigiFacts), already checked so that the only
- * HTML they contain is a link.
+ * HTML they contain is a link. With the "Visitor's language" setting, the DigiFacts in the visitor's language are
+ * loaded from this site (window.digibyteDigiFactsConfig.url), if available.
  */
 (function () {
 	"use strict";
 
 	var INTERVAL = 60000; // 60 seconds
 
+	// The best available language for this visitor, e.g. "en-gb", "pt" or "de" - or "" if none is available
+	function visitorLanguage(available) {
+		var wanted = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ""];
+		for (var i = 0; i < wanted.length; i++) {
+			var code = String(wanted[i] || "").toLowerCase();
+			if (available.indexOf(code) >= 0) {
+				return code;
+			}
+			if (available.indexOf(code.split("-")[0]) >= 0) {
+				return code.split("-")[0];
+			}
+		}
+		return "";
+	}
+
 	function start() {
 		var facts = window.digibyteDigiFacts;
+		var config = window.digibyteDigiFactsConfig || {};
 		var boxes = document.querySelectorAll(".digibyte-digifact");
-		if (!facts || facts.length < 2 || !boxes.length) {
+		if (!facts || !facts.length || !boxes.length) {
 			return;
 		}
 
@@ -22,7 +39,7 @@
 			var fact;
 			do {
 				fact = facts[Math.floor(Math.random() * facts.length)];
-			} while (fact.title === current);
+			} while (facts.length > 1 && fact.title === current);
 			if (title) {
 				title.textContent = fact.title;
 			}
@@ -31,14 +48,33 @@
 			}
 		}
 
-		setInterval(function () {
-			if (document.hidden) {
-				return; // Don't change facts nobody is looking at
-			}
+		function showAll() {
 			for (var i = 0; i < boxes.length; i++) {
 				showRandom(boxes[i]);
 			}
+		}
+
+		setInterval(function () {
+			if (!document.hidden) {
+				showAll(); // Don't change facts nobody is looking at
+			}
 		}, INTERVAL);
+
+		// Visitor's language: switch to it straight away, if it's available and not already shown
+		if (config.auto && config.url && window.fetch) {
+			var lang = visitorLanguage(config.languages || []);
+			if (lang && lang !== config.language) {
+				fetch(config.url + lang)
+					.then(function (r) { return r.ok ? r.json() : null; })
+					.then(function (list) {
+						if (list && list.length) {
+							facts = list;
+							showAll();
+						}
+					})
+					.catch(function () { /* Keep showing the DigiFacts already on the page */ });
+			}
+		}
 	}
 
 	if (document.readyState === "loading") {

@@ -146,7 +146,10 @@ function digibyte_digifacts_facts( $language ) {
  * [digifacts] - shows a random DigiFact, which changes every minute.
  */
 function digibyte_digifacts_shortcode() {
-	$facts = digibyte_digifacts_facts( get_option( 'digibyte_digifacts_language', 'en' ) );
+	$setting = get_option( 'digibyte_digifacts_language', 'en' );
+	// "Visitor's language": the page shows English, and the script switches to the visitor's language if available
+	$language = 'auto' === $setting ? 'en' : $setting;
+	$facts    = digibyte_digifacts_facts( $language );
 	if ( ! $facts ) {
 		return ''; // Show nothing rather than an error
 	}
@@ -156,7 +159,7 @@ function digibyte_digifacts_shortcode() {
 
 	wp_enqueue_style( 'digibyte-digifacts' );
 	wp_enqueue_script( 'digibyte-digifacts' );
-	digibyte_digifacts_print_facts_once( $facts );
+	digibyte_digifacts_print_facts_once( $facts, $language, 'auto' === $setting );
 
 	return '<div class="digibyte-digifact' . ( $box ? ' with-box' : ' without-box' ) . '">'
 		. '<h5 class="digifact-title">' . esc_html( $fact['title'] ) . '</h5>'
@@ -169,18 +172,50 @@ add_shortcode( 'digifacts', 'digibyte_digifacts_shortcode' );
  * Add the facts to the page once (for the script that changes the DigiFact every minute). Included in the page, so
  * it works with page caching and visitors' browsers don't need to contact any other site.
  */
-function digibyte_digifacts_print_facts_once( $facts ) {
+function digibyte_digifacts_print_facts_once( $facts, $language, $auto ) {
 	static $done = false;
 	if ( $done ) {
 		return;
 	}
-	$done = true;
+	$done   = true;
+	$flags  = JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT;
+	$config = array(
+		'language'  => $language,
+		'auto'      => (bool) $auto,
+		'languages' => array_keys( digibyte_digifacts_languages() ),
+		'url'       => esc_url_raw( rest_url( 'digibyte-digifacts/v1/facts/' ) ),
+	);
 	wp_add_inline_script(
 		'digibyte-digifacts',
-		'window.digibyteDigiFacts = ' . wp_json_encode( $facts, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT ) . ';',
+		'window.digibyteDigiFacts = ' . wp_json_encode( $facts, $flags ) . '; window.digibyteDigiFactsConfig = ' . wp_json_encode( $config, $flags ) . ';',
 		'before'
 	);
 }
+
+/**
+ * The DigiFacts in one language, for the "Visitor's language" option: /wp-json/digibyte-digifacts/v1/facts/de
+ * Served from this site (cached for an hour), so visitors' browsers don't contact any other site.
+ */
+function digibyte_digifacts_rest_routes() {
+	register_rest_route(
+		'digibyte-digifacts/v1',
+		'/facts/(?P<language>[a-z]{2}(-[a-z]{2,4})?)',
+		array(
+			'methods'             => 'GET',
+			'permission_callback' => '__return_true',
+			'callback'            => function ( $request ) {
+				$language = $request['language'];
+				if ( ! array_key_exists( $language, digibyte_digifacts_languages() ) ) {
+					return new WP_Error( 'digifacts_language', 'This language is not available.', array( 'status' => 404 ) );
+				}
+				$response = rest_ensure_response( digibyte_digifacts_facts( $language ) );
+				$response->header( 'Cache-Control', 'public, max-age=3600' );
+				return $response;
+			},
+		)
+	);
+}
+add_action( 'rest_api_init', 'digibyte_digifacts_rest_routes' );
 
 function digibyte_digifacts_register_assets() {
 	wp_register_style( 'digibyte-digifacts', plugins_url( 'digifacts-styles.css', __FILE__ ), array(), DIGIBYTE_DIGIFACTS_VERSION );
@@ -259,6 +294,9 @@ function digibyte_digifacts_settings_init() {
 add_action( 'admin_init', 'digibyte_digifacts_settings_init' );
 
 function digibyte_digifacts_sanitize_language( $code ) {
+	if ( 'auto' === $code ) {
+		return 'auto';
+	}
 	return array_key_exists( $code, digibyte_digifacts_languages() ) ? $code : 'en';
 }
 
@@ -309,11 +347,12 @@ function digibyte_digifacts_hide_ids_field() {
 function digibyte_digifacts_language_field() {
 	$current = get_option( 'digibyte_digifacts_language', 'en' );
 	echo '<select id="digibyte_digifacts_language" name="digibyte_digifacts_language">';
+	printf( '<option value="auto"%s>Visitor\'s language (automatic)</option>', selected( $current, 'auto', false ) );
 	foreach ( digibyte_digifacts_languages() as $code => $name ) {
 		printf( '<option value="%s"%s>%s</option>', esc_attr( $code ), selected( $current, $code, false ), esc_html( $name ) );
 	}
 	echo '</select>';
-	echo '<p class="description">A DigiFact that isn\'t translated yet is shown in English.</p>';
+	echo '<p class="description">"Visitor\'s language" shows each visitor the DigiFacts in their browser\'s language, if available (otherwise English). A DigiFact that isn\'t translated yet is shown in English.</p>';
 }
 
 function digibyte_digifacts_display_field() {

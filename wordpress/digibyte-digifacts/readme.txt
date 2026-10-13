@@ -34,6 +34,7 @@ Add the [digifacts] shortcode, or the DigiByte DigiFacts block, where you want a
 == Changelog ==
 
 = 2.1.0 =
+* Visitor's language: show each visitor the DigiFacts in their browser's language, if available.
 * Hide DigiFacts on your site: by topic (e.g. DigiFacts about your own project) or by ID, in Settings > DigiFacts.
 
 = 2.0.1 =

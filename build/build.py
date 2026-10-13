@@ -52,7 +52,7 @@ SPONSOR_URL = "https://github.com/sponsors/DigiNode-Tools"
 USER_AGENT = f"DigiFacts builder ({REPO_URL})"
 
 LANGUAGE_NAMES = {
-    "en": "English", "de": "German", "es": "Spanish", "fr": "French", "hi": "Hindi", "it": "Italian",
+    "en": "English", "en-gb": "English (UK)", "pt-br": "Portuguese (Brazil)", "de": "German", "es": "Spanish", "fr": "French", "hi": "Hindi", "it": "Italian",
     "ja": "Japanese", "ko": "Korean", "nl": "Dutch", "pt": "Portuguese", "ru": "Russian",
     "zh": "Chinese (Simplified)",
 }
@@ -193,7 +193,7 @@ def load_facts():
                 if set(VARIABLE_RE.findall(en[key]["content"])) != set(VARIABLE_RE.findall(fact["content"])):
                     warn(f"facts/{files[lang]} {key} content should use the same live values as English: "
                          f"{', '.join(sorted(set(VARIABLE_RE.findall(en[key]['content'])))) or 'none'}")
-        if lang not in titles:
+        if lang not in titles and lang.split("-")[0] not in titles:
             warn(f"facts/{files[lang]} has no {TITLE_KEY} - the English title is used")
     return facts, titles
 
@@ -225,22 +225,35 @@ def load_tags(en):
     return described, fact_tags
 
 
+def fallbacks(lang, facts):
+    """The languages to take each DigiFact from, in order: e.g. en-gb -> en-gb, en; pt-br -> pt-br, pt, en.
+    A language variant (e.g. British English) only needs the DigiFacts that differ from its main language."""
+    chain = [lang]
+    if "-" in lang and lang.split("-")[0] in facts:
+        chain.append(lang.split("-")[0])
+    if "en" not in chain:
+        chain.append("en")
+    return chain
+
+
 def localise(facts, titles, lang):
-    """The facts for one language, in English order, numbered from 1: the translation where there is one, else the
-    English fact. Each fact gets its title, from the language's title (or the English one) and its number."""
-    en, tr = facts["en"], facts[lang]
-    title = titles.get(lang, titles["en"])
+    """The facts for one language, in English order, numbered from 1: the translation where there is one (for a
+    language variant, its own version or else its main language's), else the English fact. Each fact gets its
+    title, from the language's title (or its main language's, or the English one) and its number."""
+    en = facts["en"]
+    chain = fallbacks(lang, facts)
+    title = next(titles[l] for l in chain if l in titles)
     out, translated = {}, 0
     for number, key in enumerate(en, start=1):
-        fact = tr.get(key) or {}
-        if lang != "en" and not fact.get("content"):
+        source = next((l for l in chain if facts[l].get(key, {}).get("content")), "en")
+        fact = dict(facts[source].get(key) or en[key])
+        if source == "en" and lang != "en" and not lang.startswith("en-"):
             out[key] = dict(en[key], title=title.replace("{number}", str(number)), translated=False)
             continue
-        fact = dict(fact)
         fact["url"] = fact.get("url") or en[key].get("url", "")
         if en[key].get("url") and not all(fact.get(f) for f in FORMATS.values()):
-            for f in FORMATS.values():   # Translated text, but no translated link yet: use the English link
-                fact[f] = en[key].get(f, "")
+            for f in FORMATS.values():   # Translated text, but no translated link yet: use the next language's link
+                fact[f] = next((facts[l][key][f] for l in chain if facts[l].get(key, {}).get(f)), en[key].get(f, ""))
         out[key] = dict(fact, title=title.replace("{number}", str(number)), translated=True)
         translated += 1
     return out, translated
