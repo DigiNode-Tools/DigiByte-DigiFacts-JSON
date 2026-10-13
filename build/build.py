@@ -74,6 +74,10 @@ STATS_URL = "https://digifacts.goatcounter.com"
 # The preview cards shown when a DigiFacts link is shared (cards/: the PNGs, and the HTML they were drawn from).
 # Each DigiFact always uses the same one (chosen by its ID), so a feed of DigiFacts alternates between them.
 CARDS = ["cards/card-1.png", "cards/card-2.png"]
+# Tags that say where a short link was shown, e.g. https://go.diginode.tools/7ttm?dnt - counted as the click's source
+# ("DigiNode Tools"). Any other tag is counted as itself. QR codes can't contain "?" (they'd lose their compact
+# mode) - the capitals links count as "QR code" instead.
+SOURCE_TAGS = {"dnt": "DigiNode Tools", "bsky": "Bluesky", "tg": "Telegram", "x": "X"}
 USER_AGENT = f"DigiFacts builder ({REPO_URL})"
 
 LANGUAGE_NAMES = {
@@ -580,7 +584,12 @@ def redirect_page(url, key, title, qr, number=0, text=""):
     u = html.escape(url, quote=True)
     count = urllib.parse.urlencode({"p": "/" + key, "t": title, "r": "QR code" if qr else ""})
     script = (f"try{{var c={json.dumps(STATS_URL + '/count?' + count)};"
-              + ("" if qr else "if(document.referrer)c=c.replace('&r=','&r='+encodeURIComponent(document.referrer));")
+              + ("" if qr else
+                 # Where the click came from: a tag on the link (e.g. ?dnt from DigiNode Tools - see SOURCE_TAGS), or
+                 # else the website it was on
+                 f"var v=(location.search.match(/^\\?([a-z0-9-]{{1,20}})/i)||[])[1],n={json.dumps(SOURCE_TAGS)};"
+                 "if(v)c=c.replace('&r=','&r='+encodeURIComponent(n[v.toLowerCase()]||v));"
+                 "else if(document.referrer)c=c.replace('&r=','&r='+encodeURIComponent(document.referrer));")
               + "c+='&rnd='+Math.random().toString(36).slice(2);"
               "if(navigator.sendBeacon)navigator.sendBeacon(c);else(new Image()).src=c}catch(e){}"
               f"location.replace({json.dumps(url)})").replace("</", "<\\/")
