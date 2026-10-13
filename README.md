@@ -28,12 +28,12 @@ For example: https://digifacts.diginode.tools/en/social.json
 
 | Format | Links look like | Best for |
 |---|---|---|
-| `social` | `Learn more: https://digifacts.diginode.tools/l/7ttm` | Social media, apps, terminals |
-| `html` | `Learn more <a href="https://digifacts.diginode.tools/l/7ttm">here</a>.` | Websites |
-| `markdown` | `Learn more [here](https://digifacts.diginode.tools/l/7ttm).` | Markdown |
+| `social` | `Learn more: https://go.diginode.tools/7ttm` | Social media, apps, terminals |
+| `html` | `Learn more <a href="https://go.diginode.tools/7ttm">here</a>.` | Websites |
+| `markdown` | `Learn more [here](https://go.diginode.tools/7ttm).` | Markdown |
 | `plain` | No link - just the fact (the link is still in `short_link`) | Small displays, speech |
 
-Each file has every fact, in order, each with a `title` (which includes its number, e.g. "DigiFact #1"), `content`, `url` (the full address) and, for a fact with a link, `short_link` (e.g. `https://digifacts.diginode.tools/l/7ttm`) and `short_url` (the same in capitals, for QR codes: they're smaller that way). The keys are each fact's ID (e.g. `digifact-7ttm`), which never changes - use the order of the file, or the number in the title, for the fact's number. Each fact also has its `id` and `tags`. A fact that isn't translated yet is included in English.
+Each file has every fact, in order, each with a `title` (which includes its number, e.g. "DigiFact #1"), `content`, `url` (the full address) and, for a fact with a link, `short_link` (e.g. `https://go.diginode.tools/7ttm`) and `short_url` (the same in capitals, for QR codes: they're smaller that way). The keys are each fact's ID (e.g. `digifact-7ttm`), which never changes - use the order of the file, or the number in the title, for the fact's number. Each fact also has its `id` and `tags`. A fact that isn't translated yet is included in English.
 
 Languages: `en` English, `de` German, `es` Spanish, `fr` French, `hi` Hindi, `it` Italian, `ja` Japanese, `ko` Korean, `nl` Dutch, `pt` Portuguese, `ru` Russian, `zh` Chinese (Simplified). The list is also at https://digifacts.diginode.tools/languages.json, and https://digifacts.diginode.tools/info.json shows each language's progress, the block count used and when the facts were last published.
 

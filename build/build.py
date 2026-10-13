@@ -60,7 +60,7 @@ GO_URL = "https://go.diginode.tools/"
 GO_QR_URL = GO_URL.upper()
 # The short links DigiFacts uses. Until go.diginode.tools was set up they were on this site (/l/7ttm and /L/7TTM),
 # and those pages are still published, so links shared then keep working.
-SHORT_LINKS_ON_GO = False
+SHORT_LINKS_ON_GO = True
 SHORT_BASE = GO_QR_URL if SHORT_LINKS_ON_GO else SITE_URL.upper() + "/L/"
 SHORT_TEXT_BASE = GO_URL if SHORT_LINKS_ON_GO else SITE_URL + "/l/"
 # Third-party link shorteners aren't allowed: their links can expire (and some have), and they hide where a link goes
@@ -657,9 +657,9 @@ def help_page(langs, info):
 <h2>Get the DigiFacts</h2>
 <p>Each language is a JSON file in four formats. The address is <code>https://digifacts.diginode.tools/&lt;language&gt;/&lt;format&gt;.json</code>, for example <a href="../en/social.json"><code>/en/social.json</code></a>.</p>
 <ul>
-<li><b>social</b> - links as short plain URLs, for social media: <code>Learn more: https://digifacts.diginode.tools/l/7ttm</code></li>
-<li><b>html</b> - links as HTML, for websites: <code>Learn more &lt;a href="https://digifacts.diginode.tools/l/7ttm"&gt;here&lt;/a&gt;.</code></li>
-<li><b>markdown</b> - links in Markdown: <code>Learn more [here](https://digifacts.diginode.tools/l/7ttm).</code></li>
+<li><b>social</b> - links as short plain URLs, for social media: <code>Learn more: https://go.diginode.tools/7ttm</code></li>
+<li><b>html</b> - links as HTML, for websites: <code>Learn more &lt;a href="https://go.diginode.tools/7ttm"&gt;here&lt;/a&gt;.</code></li>
+<li><b>markdown</b> - links in Markdown: <code>Learn more [here](https://go.diginode.tools/7ttm).</code></li>
 <li><b>plain</b> - no link, just the fact (e.g. for small displays). The link is still in <code>short_link</code>, and the full address in <code>url</code>.</li>
 </ul>
 <p>A fact that isn't translated yet is included in English, so every language always has every fact.</p>
@@ -700,7 +700,7 @@ def help_page(langs, info):
 
 <h2>How they're made</h2>
 <p>The facts live in the <a href="{REPO_URL}">digibyte-digifacts</a> repository. Every hour, and whenever the facts change, a public <a href="{REPO_URL}/actions">GitHub Action</a> checks them, fills in the live data and publishes this site. The block count comes from several block explorers (currently {html.escape(", ".join(EXPLORERS))}); the middle value is used, and if none of them answer, an estimate based on DigiByte's 15 second block time.</p>
-<p>Links in DigiFacts are short links, like <code>https://digifacts.diginode.tools/l/7ttm</code>, so they fit in posts and on small displays. Clicks on them are counted with <a href="https://www.goatcounter.com">GoatCounter</a>, with no cookies and no personal data, to see which DigiFacts people find most interesting{' - see the <a href="../stats/">click stats</a>' if info.get("click_stats") else ""}.</p>
+<p>Links in DigiFacts are short links, like <code>https://go.diginode.tools/7ttm</code>, so they fit in posts and on small displays. Clicks on them are counted with <a href="https://www.goatcounter.com">GoatCounter</a>, with no cookies and no personal data, to see which DigiFacts people find most interesting{' - see the <a href="../stats/">click stats</a>' if info.get("click_stats") else ""}.</p>
 
 <h2>Help improve them</h2>
 <p>Spotted a mistake, or a fact that's out of date? Translations can always be improved too, and new languages are welcome. See <a href="{REPO_URL}#contributing">how to contribute</a>, or <a href="../proofread/en/">read through the facts</a>.</p>
