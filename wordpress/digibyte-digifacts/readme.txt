@@ -4,7 +4,7 @@ Donate link: https://github.com/sponsors/DigiNode-Tools
 Tags: digibyte, digifacts, crypto, blockchain
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 2.1.2
+Stable tag: 2.2.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -15,7 +15,7 @@ Show a random DigiFact - a bite-size fact about DigiByte - that changes every mi
 
 DigiFacts are short facts about DigiByte, to help people learn about it. This plugin shows a random DigiFact on your site, and changes it every minute. Some DigiFacts include live data, such as the number of DigiByte blocks.
 
-Choose the language in Settings > DigiFacts. A DigiFact that isn't translated yet is shown in English. You can also hide DigiFacts - by topic (e.g. DigiFacts about your own project) or by ID. Learn more about DigiFacts at https://github.com/DigiNode-Tools/digibyte-digifacts
+Choose the language in Settings > DigiFacts. A DigiFact that isn't translated yet is shown in English. If your site or project is mentioned in some DigiFacts, you can hide those on your own site - by topic or by ID. Learn more about DigiFacts at https://github.com/DigiNode-Tools/digibyte-digifacts
 
 == Usage ==
 
@@ -33,8 +33,13 @@ Add the [digifacts] shortcode, or the DigiByte DigiFacts block, where you want a
 
 == Changelog ==
 
+= 2.2.0 =
+* A small "About DigiByte DigiFacts" link under the DigiFact, like the DigiFacts embed. You can turn it off in Settings > DigiFacts.
+* The settings explain what hiding DigiFacts is for: hiding the DigiFacts about your own site or project.
+* Hide topics: type your project's topic (it's shown on the DigiFacts proofreading pages), instead of choosing from a list. Your current setting is kept.
+
 = 2.1.2 =
-* DigiFact IDs are now like digifact-np2q, so they can't be mistaken for DigiFact numbers. If you hid DigiFacts by ID, please enter their new IDs, from the proofreading pages.
+* DigiFact IDs are now like digifact-7ttm, so they can't be mistaken for DigiFact numbers. If you hid DigiFacts by ID, please enter their new IDs, from the proofreading pages.
 
 = 2.1.1 =
 * The settings page always shows the latest languages and topics, and saving the settings applies them straight away.

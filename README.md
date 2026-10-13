@@ -33,7 +33,7 @@ For example: https://digifacts.diginode.tools/en/social.json
 | `markdown` | `Learn more [here](https://digifacts.diginode.tools/l/7ttm).` | Markdown |
 | `plain` | No link - just the fact (the link is still in `short_link`) | Small displays, speech |
 
-Each file has every fact, in order, each with a `title` (which includes its number, e.g. "DigiFact #1"), `content`, `url` (the full address) and, for a fact with a link, `short_link` (e.g. `https://digifacts.diginode.tools/l/7ttm`) and `short_url` (the same in capitals, for QR codes: they're smaller that way). The keys are each fact's ID (e.g. `digifact-np2q`), which never changes - use the order of the file, or the number in the title, for the fact's number. Each fact also has its `id` and `tags`. A fact that isn't translated yet is included in English.
+Each file has every fact, in order, each with a `title` (which includes its number, e.g. "DigiFact #1"), `content`, `url` (the full address) and, for a fact with a link, `short_link` (e.g. `https://digifacts.diginode.tools/l/7ttm`) and `short_url` (the same in capitals, for QR codes: they're smaller that way). The keys are each fact's ID (e.g. `digifact-7ttm`), which never changes - use the order of the file, or the number in the title, for the fact's number. Each fact also has its `id` and `tags`. A fact that isn't translated yet is included in English.
 
 Languages: `en` English, `de` German, `es` Spanish, `fr` French, `hi` Hindi, `it` Italian, `ja` Japanese, `ko` Korean, `nl` Dutch, `pt` Portuguese, `ru` Russian, `zh` Chinese (Simplified). The list is also at https://digifacts.diginode.tools/languages.json, and https://digifacts.diginode.tools/info.json shows each language's progress, the block count used and when the facts were last published.
 
@@ -59,10 +59,10 @@ Options (attributes on the div):
 | `data-lang="de"` | The language (default `en`). `auto` uses the visitor's browser language, if available. |
 | `data-box="no"` | Just the text, without a box. |
 | `data-interval="120"` | Seconds between DigiFacts (default 60, minimum 10). `0` shows one DigiFact only. |
-| `data-credit="no"` | Hide the small "DigiByte DigiFacts" link. |
+| `data-credit="no"` | Hide the small "About DigiByte DigiFacts" link. |
 | `data-accent="#0066cc"` | The colour of the box border and links. |
-| `data-exclude-tags="diginode-tools"` | Hide DigiFacts with these tags (comma separated), e.g. ones about your own project. |
-| `data-exclude="digifact-np2q"` | Hide these DigiFacts, by ID (comma separated). IDs never change. |
+| `data-exclude-tags="your-project"` | Hide DigiFacts with these tags (comma separated) - for DigiFacts about your own site or project. |
+| `data-exclude="digifact-7ttm"` | Hide these DigiFacts, by ID (comma separated). IDs never change. |
 
 The DigiFact is drawn in its own shadow DOM, so your site's styles can't affect it and it can't affect your site. It fetches only the DigiFacts files above, and shows nothing if they can't be loaded. The `v1` in the address means it won't change in a way that could break your page. The code is in [`embed/`](embed/).
 
@@ -101,16 +101,16 @@ You'll need a free GitHub account for the forms. Every suggestion is checked bef
 
 If you're comfortable with pull requests, you can edit `facts/en.json` yourself:
 
-- **Every DigiFact has an ID** - its key, e.g. `digifact-np2q`: `digifact-` and four random letters and numbers. The ID never changes, even when the DigiFact's number does (DigiFacts are numbered by their order in `facts/en.json`). Websites use the IDs to hide particular DigiFacts, and translations are matched to DigiFacts by their ID.
+- **Every DigiFact has an ID** - its key, e.g. `digifact-7ttm`: `digifact-` and four random letters and numbers. The ID never changes, even when the DigiFact's number does (DigiFacts are numbered by their order in `facts/en.json`). Websites use the IDs to hide particular DigiFacts, and translations are matched to DigiFacts by their ID.
 - **Fixing a DigiFact:** edit its text and keep its ID. A correction must still be the same DigiFact - if it would say something different, add a new DigiFact instead. Pull requests are checked automatically for this.
-- **Adding a DigiFact:** give it a new ID - run `build/new_id.py` to get one - and put it wherever it belongs in the list. Never reuse or rename an ID. (IDs are random - with no vowels, so they can't spell words, and never two numbers in a row - so they can't be mistaken for DigiFact numbers.)
+- **Adding a DigiFact:** add it to `facts/en.json` wherever it belongs in the list, with any key, or none - for example `"new": { "content": "..." }`, or just `{ "content": "..." }`. It gets its ID automatically when it's merged. Never rename an existing DigiFact's ID. (IDs are random - with no vowels, so they can't spell words, and never two numbers in a row - so they can't be mistaken for DigiFact numbers.)
 - **Removing a DigiFact:** delete it from `facts/en.json` only. The DigiFacts after it are renumbered, and it's removed from the translations and `tags.json` automatically.
 - Keep the wording neutral: no marketing, and nothing about price. A single DigiFact telling the community about a DigiByte project and what it does is fine.
 - Include at most one link - the full address, not a shortened one (the build makes a short link for every DigiFact, and third-party shorteners aren't allowed: their links can expire). Put it in `url`, and in all three link fields (`link_social`, `link_html` and `link_md`) - see the existing DigiFacts for the format.
 
 ### Tags
 
-[`tags.json`](tags.json) gives some DigiFacts a topic, by ID - for example `diginode-tools` for DigiFacts about DigiNode Tools - so a website can hide DigiFacts about itself (see [Hiding DigiFacts](https://digifacts.diginode.tools/help/#hiding)). To add a tag, describe it under `tags` and add it to the DigiFacts under `facts`.
+[`tags.json`](tags.json) gives some DigiFacts a topic, by ID - for example, the DigiFacts about a particular project - so a website that's mentioned in DigiFacts can hide them on its own site (see [Hiding DigiFacts](https://digifacts.diginode.tools/help/#hiding)). If your project is mentioned and doesn't have a tag yet, open an issue to ask for one. To add a tag, describe it under `tags` and add it to the DigiFacts under `facts`.
 
 ### Translating
 
@@ -130,7 +130,13 @@ These can be used in a fact, and are replaced with live values when the website 
 | `$blocks_tot_cs` | 24,372,537 | The number of DigiByte blocks, with commas |
 | `$blocks_tot` | 24372537 | The number of DigiByte blocks |
 
-Translations should use the same values as the English fact.
+Write the value in the fact where the number should go. For example:
+
+> DigiByte has over `$blocks_tot_mil` million blocks.
+
+is published as "DigiByte has over 24.3 million blocks", and stays up to date. Translations should use the same values as the English fact.
+
+Would another live value make a good DigiFact (e.g. something else from the DigiByte blockchain)? Suggest it in the [new DigiFact form](https://github.com/DigiNode-Tools/digibyte-digifacts/issues/new?template=new-digifact.yml), and say what it should show.
 
 ## Projects using DigiFacts
 

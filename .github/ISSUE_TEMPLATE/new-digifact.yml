@@ -8,17 +8,19 @@ body:
       value: |
         Thank you! DigiFacts are short facts about DigiByte, shown in apps, on websites and on displays, in many languages. A good DigiFact:
 
-        - is **accurate**, and still will be in a year or two (avoid prices and anything that changes often)
+        - is **accurate**, and still will be in a year or two (avoid prices and anything that changes often - unless it's [live data](https://github.com/DigiNode-Tools/digibyte-digifacts#live-data))
         - is **neutral** - no marketing or hype. A single DigiFact telling people about a DigiByte project and what it does is fine.
         - is **short**: two or three sentences
         - is written in **English** - it's translated into the other languages afterwards
+
+        **Live data:** a DigiFact can include numbers that update automatically, such as the number of DigiByte blocks. See [Live data](https://github.com/DigiNode-Tools/digibyte-digifacts#live-data) for the values you can use and how.
 
         Have a look at the [existing DigiFacts](https://digifacts.diginode.tools/proofread/en/) first, so it isn't one we already have.
   - type: textarea
     id: fact
     attributes:
       label: The DigiFact
-      description: Two or three sentences.
+      description: Two or three sentences. It can include [live data](https://github.com/DigiNode-Tools/digibyte-digifacts#live-data), e.g. $blocks_tot_mil for the number of DigiByte blocks in millions.
       placeholder: DigiByte uses five different mining algorithms, so no single type of mining hardware can dominate the network.
     validations:
       required: true

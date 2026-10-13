@@ -3,7 +3,7 @@
  * Plugin Name:       DigiByte DigiFacts
  * Plugin URI:        https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress
  * Description:       Show a random DigiFact - a bite-size fact about DigiByte - that changes every minute. Available in multiple languages.
- * Version:           2.1.2
+ * Version:           2.2.0
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            Olly Stedall (DigiNode Tools)
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const DIGIBYTE_DIGIFACTS_VERSION = '2.1.2';
+const DIGIBYTE_DIGIFACTS_VERSION = '2.2.0';
 // The DigiFacts website (https://github.com/DigiNode-Tools/digibyte-digifacts). Updated hourly.
 const DIGIBYTE_DIGIFACTS_URL = 'https://digifacts.diginode.tools';
 const DIGIBYTE_DIGIFACTS_REPO = 'https://github.com/DigiNode-Tools/digibyte-digifacts';
@@ -71,7 +71,7 @@ function digibyte_digifacts_languages() {
 }
 
 /**
- * The topic tags DigiFacts can have, as tag => description (e.g. 'diginode-tools' => 'About DigiNode Tools').
+ * The topic tags DigiFacts can have, as tag => description (e.g. 'your-project' => 'About Your Project').
  */
 function digibyte_digifacts_tags() {
 	$info = digibyte_digifacts_get_json( 'info.json', 'info' );
@@ -87,14 +87,14 @@ function digibyte_digifacts_tags() {
 }
 
 /**
- * The DigiFact IDs to hide, from the "Hide DigiFacts" setting (e.g. array( 'digifact-np2q' )).
+ * The DigiFact IDs to hide, from the "Hide DigiFacts" setting (e.g. array( 'digifact-7ttm' )).
  */
 function digibyte_digifacts_hidden_ids() {
 	return digibyte_digifacts_parse_ids( get_option( 'digibyte_digifacts_hide_ids', '' ) );
 }
 
 /**
- * The valid DigiFact IDs in a comma-separated list, e.g. 'digifact-np2q, wr7h' => array( 'digifact-np2q', 'digifact-wr7h' ).
+ * The valid DigiFact IDs in a comma-separated list, e.g. 'digifact-7ttm, gsz3' => array( 'digifact-7ttm', 'digifact-gsz3' ).
  */
 function digibyte_digifacts_parse_ids( $text ) {
 	$ids = array();
@@ -214,6 +214,9 @@ function digibyte_digifacts_shortcode() {
 	return '<div class="digibyte-digifact' . ( $box ? ' with-box' : ' without-box' ) . '">'
 		. '<h5 class="digifact-title">' . esc_html( $fact['title'] ) . '</h5>'
 		. '<div class="digifact-content">' . $fact['content'] . '</div>'
+		. ( 'no' !== get_option( 'digibyte_digifacts_credit', 'yes' )
+			? '<p class="digifact-credit"><a href="' . esc_url( DIGIBYTE_DIGIFACTS_URL . '/help/' ) . '" target="_blank" rel="noopener">About DigiByte DigiFacts</a></p>'
+			: '' )
 		. '</div>';
 }
 add_shortcode( 'digifacts', 'digibyte_digifacts_shortcode' );
@@ -320,6 +323,15 @@ function digibyte_digifacts_settings_init() {
 	);
 	register_setting(
 		'digibyte_digifacts_options',
+		'digibyte_digifacts_credit',
+		array(
+			'type'              => 'string',
+			'default'           => 'yes',
+			'sanitize_callback' => 'digibyte_digifacts_sanitize_credit',
+		)
+	);
+	register_setting(
+		'digibyte_digifacts_options',
 		'digibyte_digifacts_hide_tags',
 		array(
 			'type'              => 'array',
@@ -355,9 +367,16 @@ function digibyte_digifacts_sanitize_display( $display ) {
 	return 'text' === $display ? 'text' : 'box';
 }
 
+function digibyte_digifacts_sanitize_credit( $credit ) {
+	return 'yes' === $credit ? 'yes' : 'no';
+}
+
 function digibyte_digifacts_sanitize_hide_tags( $tags ) {
-	$tags = is_array( $tags ) ? $tags : array();
-	return array_values( array_filter( array_map( 'sanitize_key', $tags ) ) );
+	// Typed, separated by commas (or a list, from older versions' checkboxes)
+	$tags = is_array( $tags ) ? $tags : preg_split( '/[\s,]+/', strtolower( (string) $tags ) );
+	return array_values( array_unique( array_filter( $tags, function ( $tag ) {
+		return (bool) preg_match( '/^[a-z0-9]+(-[a-z0-9]+)*$/', $tag );
+	} ) ) );
 }
 
 function digibyte_digifacts_sanitize_hide_ids( $ids ) {
@@ -366,30 +385,28 @@ function digibyte_digifacts_sanitize_hide_ids( $ids ) {
 
 function digibyte_digifacts_hide_tags_field() {
 	$hidden = (array) get_option( 'digibyte_digifacts_hide_tags', array() );
-	$tags   = digibyte_digifacts_tags();
-	if ( ! $tags ) {
-		echo '<p class="description">No topics are available yet.</p>';
-		return;
+	printf(
+		'<input type="text" class="regular-text" name="digibyte_digifacts_hide_tags" value="%s" placeholder="your-project" />',
+		esc_attr( implode( ', ', $hidden ) )
+	);
+	echo '<p class="description">If your site or project is mentioned in some DigiFacts, hide them here - your visitors are already on your site. Type your project\'s topic (separate several with commas). New DigiFacts with that topic are hidden too. Each DigiFact\'s topic is shown next to it on the <a href="https://digifacts.diginode.tools/proofread/en/" target="_blank" rel="noopener">DigiFacts proofreading pages</a>. If your project doesn\'t have a topic yet, <a href="https://github.com/DigiNode-Tools/digibyte-digifacts/issues/new" target="_blank" rel="noopener">ask for one</a>.</p>';
+	// Confirm what each typed topic is, so a typo is easy to spot
+	$tags = digibyte_digifacts_tags();
+	foreach ( $hidden as $tag ) {
+		if ( isset( $tags[ $tag ] ) ) {
+			printf( '<p class="description">&#10003; <code>%s</code>: %s</p>', esc_html( $tag ), esc_html( $tags[ $tag ] ) );
+		} elseif ( $tags ) {
+			printf( '<p class="description">&#9888; <code>%s</code> isn\'t a DigiFacts topic (yet) - check the spelling.</p>', esc_html( $tag ) );
+		}
 	}
-	echo '<input type="hidden" name="digibyte_digifacts_hide_tags[]" value="" />';
-	foreach ( $tags as $tag => $description ) {
-		printf(
-			'<label><input type="checkbox" name="digibyte_digifacts_hide_tags[]" value="%s"%s /> %s <code>%s</code></label><br />',
-			esc_attr( $tag ),
-			checked( in_array( $tag, $hidden, true ), true, false ),
-			esc_html( $description ),
-			esc_html( $tag )
-		);
-	}
-	echo '<p class="description">Hide DigiFacts about these topics - e.g. about your own project. New DigiFacts with these topics are hidden too.</p>';
 }
 
 function digibyte_digifacts_hide_ids_field() {
 	printf(
-		'<input type="text" class="regular-text" name="digibyte_digifacts_hide_ids" value="%s" placeholder="digifact-np2q, digifact-wr7h" />',
+		'<input type="text" class="regular-text" name="digibyte_digifacts_hide_ids" value="%s" placeholder="digifact-7ttm, digifact-gsz3" />',
 		esc_attr( get_option( 'digibyte_digifacts_hide_ids', '' ) )
 	);
-	echo '<p class="description">IDs of DigiFacts to hide, separated by commas. Each DigiFact\'s ID is shown on the <a href="https://digifacts.diginode.tools/proofread/en/" target="_blank" rel="noopener">DigiFacts proofreading pages</a>. IDs never change (unlike DigiFact numbers).</p>';
+	echo '<p class="description">To hide single DigiFacts about your site or project, enter their IDs, separated by commas. (Hiding a topic above is usually easier.) Each DigiFact\'s ID is shown on the <a href="https://digifacts.diginode.tools/proofread/en/" target="_blank" rel="noopener">DigiFacts proofreading pages</a>. IDs never change (unlike DigiFact numbers).</p>';
 }
 
 function digibyte_digifacts_language_field() {
@@ -408,6 +425,10 @@ function digibyte_digifacts_display_field() {
 	?>
 	<label><input type="radio" name="digibyte_digifacts_display" value="box" <?php checked( $display, 'box' ); ?> /> Box</label><br />
 	<label><input type="radio" name="digibyte_digifacts_display" value="text" <?php checked( $display, 'text' ); ?> /> Text only</label>
+	<p>
+		<input type="hidden" name="digibyte_digifacts_credit" value="no" />
+		<label><input type="checkbox" name="digibyte_digifacts_credit" value="yes" <?php checked( 'no' !== get_option( 'digibyte_digifacts_credit', 'yes' ) ); ?> /> Show a small "About DigiByte DigiFacts" link under the DigiFact</label>
+	</p>
 	<?php
 }
 

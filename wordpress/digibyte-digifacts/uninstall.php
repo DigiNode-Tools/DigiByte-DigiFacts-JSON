@@ -9,7 +9,7 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 
 global $wpdb;
 
-foreach ( array( 'digibyte_digifacts_language', 'digibyte_digifacts_display', 'digibyte_digifacts_hide_tags', 'digibyte_digifacts_hide_ids', 'digibyte_digifacts_version', 'digibyte_digifacts_languages' ) as $option ) {
+foreach ( array( 'digibyte_digifacts_language', 'digibyte_digifacts_display', 'digibyte_digifacts_credit', 'digibyte_digifacts_hide_tags', 'digibyte_digifacts_hide_ids', 'digibyte_digifacts_version', 'digibyte_digifacts_languages' ) as $option ) {
 	delete_option( $option );
 }
 

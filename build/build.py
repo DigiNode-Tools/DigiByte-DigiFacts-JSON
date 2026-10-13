@@ -9,7 +9,7 @@
 #             ones that look right, never goes backwards, and falls back to an estimate (one block every 15
 #             seconds) if no explorer answers.
 #          3. Numbers the facts in the order they appear in facts/en.json (so deleting one never leaves a gap - a
-#             DigiFact's permanent ID is its key, e.g. digifact-np2q), makes each title from the language's "_title"
+#             DigiFact's permanent ID is its key, e.g. digifact-7ttm), makes each title from the language's "_title"
 #             (e.g. "DigiFact #{number}"), fills in the live values (e.g. $blocks_tot_mil) and writes each language in each format (social, html, markdown),
 #             plus languages.json, info.json, and the help and proofreading pages. A fact that isn't translated yet
 #             is shown in English.
@@ -34,6 +34,7 @@ import json
 import os
 import random
 import re
+import shutil
 import statistics
 import sys
 import time
@@ -47,12 +48,12 @@ TAGS_FILE = os.path.join(ROOT, "tags.json")   # Topics, so sites can hide DigiFa
 WEBLATE_URL = "https://hosted.weblate.org/engage/digibyte-digifacts/"
 REPO_URL = "https://github.com/DigiNode-Tools/digibyte-digifacts"
 SITE_URL = "https://digifacts.diginode.tools"
-# Short links for facts with a link: SHORT_BASE + the four characters of the fact's ID, e.g. HTTPS://DIGIFACTS.DIGINODE.TOOLS/L/NP2Q
+# Short links for facts with a link: SHORT_BASE + the four characters of the fact's ID, e.g. HTTPS://DIGIFACTS.DIGINODE.TOOLS/L/7TTM
 # (not the whole ID: the link has to fit in the QR code below).
 # In capitals on purpose: a QR code can then use its compact alphanumeric mode, so the code is small enough for
-# a 64x32 display (25x25). The site publishes a redirect page for each one (L/NP2Q.html).
+# a 64x32 display (25x25). The site publishes a redirect page for each one (L/7TTM.html).
 SHORT_BASE = SITE_URL.upper() + "/L/"
-# The same short links in lower case (also published, as l/np2q.html), for text people read: every format, the
+# The same short links in lower case (also published, as l/7ttm.html), for text people read: every format, the
 # DigiFact of the day and the RSS feed use them instead of the full address - shorter for posts and small displays,
 # and every click on a DigiFact's link goes through this site. Add the full address to a DigiFact; the build
 # shortens it. (The proofreading pages show the full address, for checking it.)
@@ -65,6 +66,9 @@ SPONSOR_URL = "https://github.com/sponsors/DigiNode-Tools"
 # counted under its ID, so its history stays together when its number changes; QR code scans (the capital L/ links)
 # have the referrer "QR code".
 STATS_URL = "https://digifacts.goatcounter.com"
+# The preview cards shown when a DigiFacts link is shared (cards/: the PNGs, and the HTML they were drawn from).
+# Each DigiFact always uses the same one (chosen by its ID), so a feed of DigiFacts alternates between them.
+CARDS = ["cards/card-1.png", "cards/card-2.png"]
 USER_AGENT = f"DigiFacts builder ({REPO_URL})"
 
 LANGUAGE_NAMES = {
@@ -74,7 +78,7 @@ LANGUAGE_NAMES = {
 }
 FIELDS = ("content", "url", "link_social", "link_html", "link_md")
 TITLE_KEY = "_title"   # Each language's title, e.g. "DigiFact #{number}"
-# A DigiFact's ID (its key): "digifact-" and four random characters, e.g. digifact-np2q - so it can't be mistaken
+# A DigiFact's ID (its key): "digifact-" and four random characters, e.g. digifact-7ttm - so it can't be mistaken
 # for the DigiFact's number. build/new_id.py makes a new one (no vowels, so an ID can't spell a word; no 0, 1 or l;
 # never two numbers in a row).
 ID_RE = re.compile(r"digifact-[a-z0-9]{4}")
@@ -175,7 +179,7 @@ def load_facts():
         except ValueError as e:
             fail(f"{path} is not valid JSON: {e}")
         except KeyError as e:
-            fail(f"{path}: the ID {e.args[0]} is used twice - every DigiFact needs its own ID (build/new_id.py makes one)")
+            fail(f'{path}: the key {e.args[0]} is used twice - every DigiFact needs a key of its own')
         if not isinstance(data, dict):
             fail(f"{path} should contain one object with a key for each DigiFact")
         title = data.pop(TITLE_KEY, "")
@@ -186,7 +190,8 @@ def load_facts():
         for key, fact in data.items():
             where = f"{path} {key}"
             if not ID_RE.fullmatch(key):
-                fail(f"{where}: each DigiFact's key is its ID, e.g. digifact-np2q (build/new_id.py makes one)")
+                fail(f"{where}: each DigiFact's key is its ID, e.g. digifact-7ttm (a new DigiFact's key is replaced by "
+                     f"its ID automatically - see build/assign_ids.py)")
             if not isinstance(fact, dict):
                 fail(f"{where} should be an object")
             for field, value in fact.items():
@@ -430,7 +435,8 @@ def stats_page(stats, en_facts, count):
 <div><h2>Countries</h2><ul>{top(stats["countries"])}</ul></div>
 </div>
 <p class="muted">Updated every hour. <a href="../stats.json">stats.json</a> · <a href="../help/">About DigiFacts</a></p>"""
-    return PAGE.format(lang="en", title="DigiFacts link clicks", body=body)
+    meta = preview_tags("DigiFacts link clicks", "Which DigiFacts people click on most.", CARDS[0], SITE_URL + "/stats/")
+    return PAGE.format(lang="en", title="DigiFacts link clicks", body=body, meta=meta)
 
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -509,8 +515,25 @@ def short_link(key, fact, field):
     return link.replace(fact["url"], SHORT_TEXT_BASE + key[len("digifact-"):]) if fact.get("url") else link
 
 
-def redirect_page(url, key, title, qr):
-    """A short link's page: counts the click (if the counter isn't blocked), then goes to the full address."""
+def preview_tags(title, description, image, page_url):
+    """Open Graph and X tags, so a shared link shows a preview card."""
+    tags = {"og:type": "website", "og:site_name": "DigiFacts", "og:title": title, "og:description": description,
+            "og:url": page_url, "og:image": f"{SITE_URL}/{image}", "og:image:width": "1200", "og:image:height": "630",
+            "og:image:alt": "DigiFacts - bite-size facts about DigiByte"}
+    out = f'<meta name="description" content="{html.escape(description, quote=True)}">'
+    out += "".join(f'<meta property="{k}" content="{html.escape(v, quote=True)}">' for k, v in tags.items())
+    out += '<meta name="twitter:card" content="summary_large_image">'
+    return out
+
+
+def card_for(key):
+    return CARDS[int(hashlib.sha256(key.encode("utf-8")).hexdigest(), 16) % len(CARDS)]
+
+
+def redirect_page(url, key, title, qr, number=0, text=""):
+    """A short link's page: counts the click (if the counter isn't blocked), then goes to the full address. It has
+    its DigiFact's preview card, for when the link is shared (the sites that make previews don't follow the
+    redirect)."""
     u = html.escape(url, quote=True)
     count = urllib.parse.urlencode({"p": "/" + key, "t": title, "r": "QR code" if qr else ""})
     script = (f"try{{var c={json.dumps(STATS_URL + '/count?' + count)};"
@@ -518,9 +541,13 @@ def redirect_page(url, key, title, qr):
               + "c+='&rnd='+Math.random().toString(36).slice(2);"
               "if(navigator.sendBeacon)navigator.sendBeacon(c);else(new Image()).src=c}catch(e){}"
               f"location.replace({json.dumps(url)})").replace("</", "<\\/")
-    return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DigiFacts link</title>'
-            f'<meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={u}">'
-            f'<link rel="canonical" href="{u}"><script>{script}</script></head>'
+    domain = urllib.parse.urlparse(url).netloc.lower().removeprefix("www.")
+    code = key[len("digifact-"):]
+    preview = preview_tags(f"DigiFact #{number}", f"{text} Learn more on {domain}.", card_for(key),
+                           (SHORT_BASE + code.upper()) if qr else (SHORT_TEXT_BASE + code))
+    return ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
+            f'<title>DigiFact #{number}</title><meta name="robots" content="noindex">{preview}'
+            f'<meta http-equiv="refresh" content="0; url={u}"><script>{script}</script></head>'
             f'<body><p>Going to <a href="{u}">{u}</a></p></body></html>\n')
 
 
@@ -546,6 +573,7 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
+{meta}
 <style>
 :root {{ color-scheme: light dark; --fg: #1d2330; --muted: #5b6475; --bg: #fff; --card: #f4f7fb; --line: #d9e1ec; --accent: #0066cc; }}
 @media (prefers-color-scheme: dark) {{ :root {{ --fg: #e6ebf2; --muted: #9aa6b8; --bg: #0f1520; --card: #172131; --line: #26344a; --accent: #5aa9ff; }} }}
@@ -574,7 +602,6 @@ table {{ border-collapse: collapse; width: 100%; }} th, td {{ text-align: left; 
 
 
 def help_page(langs, info):
-    tag_list = ", ".join(f'<code>{html.escape(t)}</code> ({html.escape(v["description"])})' for t, v in info["tags"].items()) or "none yet"
     rows = "\n".join(
         f'<tr><td>{html.escape(LANGUAGE_NAMES[l])}</td><td><code>{l}</code></td>'
         f'<td><a href="../{l}/social.json">social</a> · <a href="../{l}/html.json">html</a> · '
@@ -617,15 +644,16 @@ def help_page(langs, info):
 <p>Add this where you want a DigiFact to appear. It shows a random DigiFact, which changes every minute, and uses your site's font and colours:</p>
 <pre><code>&lt;div data-digifacts data-lang="en"&gt;&lt;/div&gt;
 &lt;script src="https://digifacts.diginode.tools/embed/v1/digifacts.js" async&gt;&lt;/script&gt;</code></pre>
-<p>Options (attributes on the div): <code>data-lang</code> (a language code, or <code>auto</code> for the visitor's language), <code>data-box="no"</code> (text only), <code>data-interval</code> (seconds between DigiFacts, or <code>0</code> for just one), <code>data-credit="no"</code> (hide the small DigiFacts link), <code>data-accent</code> (a colour, e.g. <code>#0066cc</code>), and <code>data-exclude-tags</code> and <code>data-exclude</code> to hide DigiFacts (see <a href="#hiding">below</a>). Here it is:</p>
+<p>Options (attributes on the div): <code>data-lang</code> (a language code, or <code>auto</code> for the visitor's language), <code>data-box="no"</code> (text only), <code>data-interval</code> (seconds between DigiFacts, or <code>0</code> for just one), <code>data-credit="no"</code> (hide the small "About DigiByte DigiFacts" link), <code>data-accent</code> (a colour, e.g. <code>#0066cc</code>), and <code>data-exclude-tags</code> and <code>data-exclude</code> to hide DigiFacts (see <a href="#hiding">below</a>). Here it is:</p>
 <div data-digifacts data-lang="en"></div>
 <script src="../embed/v1/digifacts.js" async></script>
 <p>On WordPress, you can use the <a href="https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress">DigiFacts plugin</a> instead.</p>
 
 <h2 id="hiding">Hiding DigiFacts</h2>
-<p>Every DigiFact has an <b>ID</b>, like <code>digifact-np2q</code>, that never changes. (Its number can change, when DigiFacts are removed.) Some DigiFacts also have <b>tags</b>, for their topic. A website can hide DigiFacts about itself, by tag or by ID:</p>
-<pre><code>&lt;div data-digifacts data-exclude-tags="diginode-tools" data-exclude="digifact-np2q"&gt;&lt;/div&gt;</code></pre>
-<p>Hiding a tag also hides any DigiFacts given that tag in future. The tags are: {tag_list}. The IDs and tags are shown on the <a href="../proofread/en/">proofreading pages</a>, and every DigiFact in the JSON files has an <code>id</code> and <code>tags</code>. The WordPress plugin has the same options in its settings.</p>
+<p>Some DigiFacts are about a particular website or project. A website that's mentioned in DigiFacts will usually want to hide those DigiFacts on its own site - its visitors are already there. That's what hiding is for: DigiFacts about your own site or project.</p>
+<p>DigiFacts have <b>tags</b> for their topic, so the easiest way is to hide a tag. That also hides any DigiFacts given the tag in future:</p>
+<pre><code>&lt;div data-digifacts data-exclude-tags="your-project"&gt;&lt;/div&gt;</code></pre>
+<p>Each DigiFact's tags are shown next to it on the <a href="../proofread/en/">proofreading pages</a> - find the DigiFacts about your project to see its tag. If there isn't a tag for your project yet, <a href="{REPO_URL}/issues/new">ask for one</a>. You can also hide a single DigiFact by its <b>ID</b>, like <code>digifact-7ttm</code>, which never changes (unlike its number, which can change when DigiFacts are removed): <code>data-exclude="digifact-7ttm"</code>. The IDs are shown on the proofreading pages too, and every DigiFact in the JSON files has an <code>id</code> and <code>tags</code>. The WordPress plugin has the same options in its settings.</p>
 
 <h2>How they're made</h2>
 <p>The facts live in the <a href="{REPO_URL}">digibyte-digifacts</a> repository. Every hour, and whenever the facts change, a public <a href="{REPO_URL}/actions">GitHub Action</a> checks them, fills in the live data and publishes this site. The block count comes from several block explorers (currently {html.escape(", ".join(EXPLORERS))}); the middle value is used, and if none of them answer, an estimate based on DigiByte's 15 second block time.</p>
@@ -635,7 +663,9 @@ def help_page(langs, info):
 <p>Spotted a mistake, or a fact that's out of date? Translations can always be improved too, and new languages are welcome. See <a href="{REPO_URL}#contributing">how to contribute</a>, or <a href="../proofread/en/">read through the facts</a>.</p>
 <p>DigiFacts are maintained by <a href="https://diginode.tools">DigiNode Tools</a>. If you find them useful, please consider <a href="{SPONSOR_URL}">sponsoring DigiNode Tools</a>.</p>
 <p class="muted">Last published {time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime(info["built"]))}.</p>"""
-    return PAGE.format(lang="en", title="DigiByte DigiFacts", body=body)
+    meta = preview_tags("DigiFacts", "Bite-size facts about DigiByte, for apps, websites and social media - in "
+                        f"{len(langs)} languages, free to use.", CARDS[0], SITE_URL + "/help/")
+    return PAGE.format(lang="en", title="DigiByte DigiFacts", body=body, meta=meta)
 
 
 def suggest_url(key, number, text):
@@ -676,11 +706,13 @@ def proofread_page(lang, langs, en_facts, facts, count, fact_tags, stats):
              f"The English DigiFacts on the left, and the {html.escape(LANGUAGE_NAMES[lang])} translation on the right.")
     body = f"""<h1>DigiFacts proofreading: {html.escape(LANGUAGE_NAMES[lang])}</h1>
 <p>{intro} Spotted a mistake, or a DigiFact that's out of date? Click <b>Suggest a change</b> under it. Translations are improved on <a href="{WEBLATE_URL}">Weblate</a>. Thank you!</p>
-<p class="muted">Each DigiFact has an <b>ID</b>, like <code>digifact-np2q</code>, that never changes (its number can, when DigiFacts are removed). Websites can use the IDs and tags to hide particular DigiFacts - see <a href="../../help/#hiding">hiding DigiFacts</a>.</p>
+<p class="muted">Each DigiFact has an <b>ID</b>, like <code>digifact-7ttm</code>, that never changes (its number can, when DigiFacts are removed). Websites can use the IDs and tags to hide particular DigiFacts - see <a href="../../help/#hiding">hiding DigiFacts</a>.</p>
 <p class="langs">{links}</p>
 {"".join(rows)}
 <p class="muted"><a href="../../help/">About DigiFacts</a></p>"""
-    return PAGE.format(lang=lang, title=f"DigiFacts proofreading: {LANGUAGE_NAMES[lang]}", body=body)
+    meta = preview_tags(f"DigiFacts proofreading: {LANGUAGE_NAMES[lang]}", "Every DigiFact, to read through and "
+                        "suggest changes.", CARDS[0], f"{SITE_URL}/proofread/{lang}/")
+    return PAGE.format(lang=lang, title=f"DigiFacts proofreading: {LANGUAGE_NAMES[lang]}", body=body, meta=meta)
 
 
 def main():
@@ -756,11 +788,15 @@ def main():
             code = key[len("digifact-"):]
             text = f["content"] if len(f["content"]) <= 60 else f["content"][:60].rsplit(" ", 1)[0] + "..."
             title = fill(localised["en"][key]["title"], count) + ": " + fill(text, count)
-            files[f"L/{code.upper()}.html"] = redirect_page(f["url"], key, title, qr=True)
-            files[f"l/{code}.html"] = redirect_page(f["url"], key, title, qr=False)
+            number, full = list(facts["en"]).index(key) + 1, fill(f["content"], count)
+            files[f"L/{code.upper()}.html"] = redirect_page(f["url"], key, title, True, number, full)
+            files[f"l/{code}.html"] = redirect_page(f["url"], key, title, False, number, full)
 
     for path, content in files.items():
         write(os.path.join(out_dir, path), content)
+    for card in CARDS:   # Images: copied as they are
+        os.makedirs(os.path.join(out_dir, os.path.dirname(card)), exist_ok=True)
+        shutil.copyfile(os.path.join(ROOT, card), os.path.join(out_dir, card))
 
     print(f"Built {len(files)} files: {len(facts['en'])} facts in {len(langs)} languages, "
           f"block count {count:,} ({source}){'' if changed else ' - nothing changed'}")

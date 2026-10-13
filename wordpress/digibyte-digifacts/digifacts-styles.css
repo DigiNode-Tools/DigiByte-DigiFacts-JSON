@@ -8,6 +8,16 @@
 	white-space: nowrap;
 }
 
+.digibyte-digifact .digifact-credit {
+	margin: 0.5em 0 0;
+	font-size: 0.65em;
+	opacity: 0.65;
+}
+
+.digibyte-digifact .digifact-credit a {
+	color: inherit;
+}
+
 .digibyte-digifact.with-box {
 	border: 1px solid #ccc;
 	border-color: color-mix(in srgb, currentColor 25%, transparent);

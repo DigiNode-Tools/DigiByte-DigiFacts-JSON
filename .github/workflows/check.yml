@@ -1,5 +1,6 @@
 # Checks a pull request before it's merged: the same checks as the live build, the WordPress plugin and the embed,
-# and that edited English DigiFacts are still the same DigiFacts (see build/check_edits.py).
+# and that edited English DigiFacts are still the same DigiFacts (see build/check_edits.py). New DigiFacts get IDs
+# first, as they do when merged (build/assign_ids.py).
 name: Check DigiFacts
 
 on:
@@ -17,6 +18,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # As when it's merged: new DigiFacts (any key that isn't in facts/en.json yet) get IDs. Not committed here.
+      - name: Give new DigiFacts their IDs
+        run: |
+          git show "origin/${{ github.base_ref }}:facts/en.json" > /tmp/en-base.json
+          python3 build/assign_ids.py /tmp/en-base.json
 
       - name: Check the facts and build the website
         run: python3 build/build.py _site

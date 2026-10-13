@@ -10,10 +10,11 @@
  *   data-lang="de"         Language code (default: en). "auto" uses the visitor's browser language, if available.
  *   data-box="no"          No box - just the text (default: a box)
  *   data-interval="120"    Seconds between DigiFacts (default: 60, minimum 10). "0" shows one DigiFact only.
- *   data-credit="no"       Hide the small "DigiByte DigiFacts" link
+ *   data-credit="no"       Hide the small "About DigiByte DigiFacts" link
  *   data-accent="#0066cc"  The colour of the box border and links
- *   data-exclude-tags="diginode-tools"  Hide DigiFacts with these tags (comma separated), e.g. about your own project
- *   data-exclude="digifact-np2q"        Hide these DigiFacts by ID (comma separated). IDs never change.
+ *   data-exclude-tags="your-project"    Hide DigiFacts with these tags (comma separated) - for DigiFacts about your own
+ *                                       site or project
+ *   data-exclude="digifact-7ttm"        Hide these DigiFacts by ID (comma separated). IDs never change.
  *
  * The DigiFact is drawn in its own shadow DOM, so your site's styles can't break it (and it can't affect your site).
  * It uses your site's font and text colour. Nothing is shown if the DigiFacts can't be loaded.
@@ -31,7 +32,7 @@
     "border-color:color-mix(in srgb,var(--a) 35%,transparent)}" +
     ".t{margin:0 0 .3em;font-weight:700}p{margin:0}" +
     "a{color:var(--a);text-underline-offset:2px}" +
-    ".c{margin-top:.5em;font-size:.75em;opacity:.65}.c a{color:inherit}";
+    ".c{margin-top:.5em;font-size:.65em;opacity:.65}.c a{color:inherit}";
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -131,7 +132,7 @@
     box.appendChild(body);
     if (host.getAttribute("data-credit") !== "no") {
       var credit = el("p", "c");
-      var link = el("a", "", "DigiByte DigiFacts");
+      var link = el("a", "", "About DigiByte DigiFacts");
       link.href = SITE + "/help/";
       link.target = "_blank";
       link.rel = "noopener";

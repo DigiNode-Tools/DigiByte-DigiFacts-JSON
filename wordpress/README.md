@@ -16,10 +16,17 @@ Show a random DigiFact - a bite-size fact about DigiByte - on your WordPress sit
 - Your site fetches the DigiFacts from https://digifacts.diginode.tools at most once an hour. If they can't be fetched, the last copy is used. If there has never been a copy, nothing is shown - errors are never shown to your visitors.
 - The DigiFacts are included in your page, and a small script shows a different one every minute. It works with page caching, and your visitors' browsers don't contact any other site.
 - A DigiFact that isn't translated into your chosen language yet is shown in English.
+- A small "About DigiByte DigiFacts" link is shown under the DigiFact. You can turn it off in **Settings > DigiFacts**.
+
+## Hiding DigiFacts about your own site
+
+Some DigiFacts are about a particular website or project. If yours is one of them, you'll probably want to hide those DigiFacts on your own site - your visitors are already there.
+
+In **Settings > DigiFacts**, type your project's topic under **Hide topics** - that also hides any DigiFacts about it added in future. Each DigiFact's topic is shown next to it on the [proofreading pages](https://digifacts.diginode.tools/proofread/en/). You can also hide single DigiFacts by their ID (e.g. `digifact-7ttm`, shown on the [proofreading pages](https://digifacts.diginode.tools/proofread/en/)). If your project doesn't have a topic yet, [ask for one](https://github.com/DigiNode-Tools/digibyte-digifacts/issues/new).
 
 ## Styling
 
-The DigiFacts use your theme's fonts and colours. To change how they look, add CSS in **Appearance > Customize > Additional CSS**, using the classes `.digibyte-digifact`, `.digifact-title`, `.digifact-content`, and `.with-box` (when the Box display option is chosen).
+The DigiFacts use your theme's fonts and colours. To change how they look, add CSS in **Appearance > Customize > Additional CSS**, using the classes `.digibyte-digifact`, `.digifact-title`, `.digifact-content`, `.digifact-credit` (the "About DigiByte DigiFacts" link), and `.with-box` (when the Box display option is chosen).
 
 ## Not using WordPress?
 

@@ -6,7 +6,7 @@ name: Build and publish DigiFacts
 on:
   push:
     branches: [main]
-    paths: [facts/**, tags.json, build/**, embed/**, .github/workflows/build.yml]
+    paths: [facts/**, tags.json, build/**, embed/**, cards/**, .github/workflows/build.yml]
   schedule:
     - cron: "23 * * * *"
   workflow_dispatch:
@@ -29,18 +29,27 @@ jobs:
       changed: ${{ steps.build.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # The full history, so a new DigiFact never gets an ID that was used before
 
-      # A DigiFact deleted from facts/en.json is also removed from the translation files
-      - name: Tidy the translation files
+      # New DigiFacts (any key that wasn't in facts/en.json before this push) get their IDs, and a DigiFact deleted
+      # from facts/en.json is also removed from the translation files
+      - name: Give new DigiFacts their IDs, and tidy the translation files
         if: github.event_name != 'schedule'
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ github.event_name }}" = push ] && git show "${{ github.event.before }}:facts/en.json" > /tmp/en-before.json 2>/dev/null; then
+            python3 build/assign_ids.py /tmp/en-before.json
+          fi
+          if ! git diff --quiet facts tags.json; then
+            git commit -q -am "Give new DigiFacts their IDs"
+          fi
           python3 build/tidy.py
           if ! git diff --quiet facts tags.json; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -q -am "Remove deleted DigiFacts from the translation files"
-            git push -q
           fi
+          git push -q
 
       - id: pages
         uses: actions/configure-pages@v5
