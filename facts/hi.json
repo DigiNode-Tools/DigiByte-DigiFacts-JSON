@@ -350,10 +350,10 @@
   },
   "digifact-8ndf": {
     "content": "DigiByte विकी डिज़ाइन और डिज़ाइट दोनों में डिज़ाइन और डिज़ाइट नोड का प्रबंधन करने के लिए एक सफ्टवेयर सूट है, जिसमें एक रैस्पबेरी पाइ या यूबंटू सिस्टम जैसे कम पॉवर डिवाइस पर डिज़ाइट और/या डिज़ाइट नोड सेटअप करना बहुत आसान होता है। सेटअप मेन्यू-ड्रिवन है और विस्तृत कदम-से-कदम निर्देश प्रदान किए जाते हैं। आप एक ड्यूल नोड सेटअप भी कर सकते हैं, जो एक ही डिवाइस पर मेननेट और टेस्टनेट नोड दोनों चलाने की सुविधा प्रदान करता है।",
-    "url": "https://diginode.tools/",
-    "link_social": "यहां और अधिक जानें: https://diginode.tools/",
-    "link_html": "यहां और अधिक जानें <a target=\"_blank\" href=\"https://diginode.tools/\">यहां</a>।",
-    "link_md": "यहां और अधिक जानें [यहां](https://diginode.tools/)।"
+    "url": "https://wiki.digibyte.org/",
+    "link_social": "यहां और अधिक जानें: https://wiki.digibyte.org/",
+    "link_html": "यहां और अधिक जानें <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">यहां</a>।",
+    "link_md": "यहां और अधिक जानें [यहां](https://wiki.digibyte.org/)।"
   },
   "digifact-krf7": {
     "content": "DigiByte Domains एक सेवा है जिसे DigiByte समुदाय के सदस्य Renzo Dias ने बनाया है। एक DigiByte डोमेन एक ऐसा नाम है जो एक DigiByte वॉलेट पते का संदर्भ करता है। यह DigiAssets द्वारा संचालित होता है, और डोमेन स्वयं ही संपत्ति है। उदाहरण के लिए, आप 'domain.dgb' पर कुछ DigiByte या DigiAssets भेज सकते हैं, और वे वह पते पर पहुंच जाएंगे जिस पर डोमेन है।",

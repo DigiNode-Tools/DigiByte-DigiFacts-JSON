@@ -275,6 +275,26 @@ def fallbacks(lang, facts):
     return chain
 
 
+LINK_IN_TEXT_RE = re.compile(r"(?:https?:)?//[^\s<>\"')\]]+|www\.[^\s<>\"')\]]+", re.I)
+
+
+# Web addresses and domain names in text (e.g. https://example.com, www.example.com, example.com)
+DOMAIN_RE = re.compile(r"(?<![\w@.-])(?:[a-z0-9-]+\.)+[a-z]{2,}(?![\w-])", re.I)
+
+
+def new_addresses(text, english):
+    """Domain names in a translation that aren't in the English DigiFact - a translation mustn't add any (a social
+    app would make them clickable)."""
+    allowed = {d.lower() for d in DOMAIN_RE.findall(english)}
+    return {d.lower() for d in DOMAIN_RE.findall(text)} - allowed
+
+
+def safe_link(link, url):
+    """True if every address in a link field is the DigiFact's own url (and there are none if it has no url)."""
+    found = [a.rstrip(".,;:!?").rstrip("/") for a in LINK_IN_TEXT_RE.findall(link)]
+    return all(a == url.rstrip("/") for a in found) and (bool(found) == bool(url and link))
+
+
 def localise(facts, titles, lang):
     """The facts for one language, in English order, numbered from 1: the translation where there is one (for a
     language variant, its own version or else its main language's), else the English fact. Each fact gets its
@@ -286,10 +306,24 @@ def localise(facts, titles, lang):
     for number, key in enumerate(en, start=1):
         source = next((l for l in chain if facts[l].get(key, {}).get("content")), "en")
         fact = dict(facts[source].get(key) or en[key])
+        if source != "en" and new_addresses(fact.get("content", ""), en[key]["content"]):
+            warn(f"{source} {key}: the translation mentions a website the English DigiFact doesn't "
+                 f"({', '.join(sorted(new_addresses(fact['content'], en[key]['content'])))}) - shown in English instead")
+            source, fact = "en", dict(en[key])
         if source == "en" and lang != "en" and not lang.startswith("en-"):
             out[key] = dict(en[key], title=title.replace("{number}", str(number)), translated=False)
             continue
-        fact["url"] = fact.get("url") or en[key].get("url", "")
+        # A translation can change the words around a link, but never the link: it's always the English DigiFact's
+        # address. (Anyone can translate, so a changed link could send people somewhere else.) If a translated link
+        # field has any other address, that DigiFact uses its English links instead.
+        fact["url"] = en[key].get("url", "")
+        if source != "en" and not all(safe_link(fact.get(f, ""), fact["url"]) and
+                                      not new_addresses(fact.get(f, ""), en[key].get(f, "") + " " + fact["url"])
+                                      for f in FORMATS.values()):
+            warn(f"{source} {key}: a link was changed in the translation - the English link is used instead "
+                 f"(translations can't change a DigiFact's link)")
+            for f in FORMATS.values():
+                fact[f] = en[key].get(f, "")
         if en[key].get("url") and not all(fact.get(f) for f in FORMATS.values()):
             for f in FORMATS.values():   # Translated text, but no translated link yet: use the next language's link
                 fact[f] = next((facts[l][key][f] for l in chain if facts[l].get(key, {}).get(f)), en[key].get(f, ""))
@@ -512,7 +546,11 @@ def short_link(key, fact, field):
     """The fact's link field (link_social, link_html or link_md), with its short link (in lower case) instead of
     the full address."""
     link = fact.get(field, "")
-    return link.replace(fact["url"], SHORT_TEXT_BASE + key[len("digifact-"):]) if fact.get("url") else link
+    if not fact.get("url"):
+        return link
+    # The address, with or without a "/" at the end (e.g. https://example.com and https://example.com/)
+    address = re.compile(re.escape(fact["url"].rstrip("/")) + r"/?(?![\w/?#%-])")
+    return address.sub(lambda m: SHORT_TEXT_BASE + key[len("digifact-"):], link)
 
 
 def preview_tags(title, description, image, page_url):
