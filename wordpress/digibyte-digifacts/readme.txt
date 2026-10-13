@@ -4,7 +4,7 @@ Donate link: https://github.com/sponsors/DigiNode-Tools
 Tags: digibyte, digifacts, crypto, blockchain
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,9 @@ Add the [digifacts] shortcode, or the DigiByte DigiFacts block, where you want a
 2. A DigiFact on a website.
 
 == Changelog ==
+
+= 2.1.1 =
+* The settings page always shows the latest languages and topics, and saving the settings applies them straight away.
 
 = 2.1.0 =
 * Visitor's language: show each visitor the DigiFacts in their browser's language, if available.

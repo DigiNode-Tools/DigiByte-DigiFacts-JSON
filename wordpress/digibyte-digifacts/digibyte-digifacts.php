@@ -3,7 +3,7 @@
  * Plugin Name:       DigiByte DigiFacts
  * Plugin URI:        https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress
  * Description:       Show a random DigiFact - a bite-size fact about DigiByte - that changes every minute. Available in multiple languages.
- * Version:           2.1.0
+ * Version:           2.1.1
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            Olly Stedall (DigiNode Tools)
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const DIGIBYTE_DIGIFACTS_VERSION = '2.1.0';
+const DIGIBYTE_DIGIFACTS_VERSION = '2.1.1';
 // The DigiFacts website (https://github.com/DigiNode-Tools/digibyte-digifacts). Updated hourly.
 const DIGIBYTE_DIGIFACTS_URL = 'https://digifacts.diginode.tools';
 const DIGIBYTE_DIGIFACTS_REPO = 'https://github.com/DigiNode-Tools/digibyte-digifacts';
@@ -367,6 +367,7 @@ function digibyte_digifacts_settings_page() {
 	if ( ! current_user_can( 'manage_options' ) ) {
 		return;
 	}
+	delete_transient( 'digibyte_digifacts_info' ); // Fresh languages and topics on the settings page
 	$facts = digibyte_digifacts_facts( get_option( 'digibyte_digifacts_language', 'en' ) );
 	?>
 	<div class="wrap">
@@ -395,6 +396,20 @@ function digibyte_digifacts_settings_page() {
 		<p>DigiFacts are maintained by <a href="https://diginode.tools" target="_blank" rel="noopener">DigiNode Tools</a>. If you find them useful, please consider <a href="<?php echo esc_url( DIGIBYTE_DIGIFACTS_SPONSOR ); ?>" target="_blank" rel="noopener">sponsoring DigiNode Tools</a>.</p>
 	</div>
 	<?php
+}
+
+/**
+ * Clear the cached DigiFacts when the settings are saved, so changes (e.g. hiding a topic) apply straight away.
+ */
+function digibyte_digifacts_clear_cache() {
+	delete_transient( 'digibyte_digifacts_info' );
+	foreach ( array_keys( digibyte_digifacts_languages() ) as $code ) {
+		delete_transient( 'digibyte_digifacts_facts_' . $code );
+	}
+}
+foreach ( array( 'language', 'hide_tags', 'hide_ids' ) as $digibyte_digifacts_option ) {
+	add_action( 'update_option_digibyte_digifacts_' . $digibyte_digifacts_option, 'digibyte_digifacts_clear_cache' );
+	add_action( 'add_option_digibyte_digifacts_' . $digibyte_digifacts_option, 'digibyte_digifacts_clear_cache' );
 }
 
 /**
