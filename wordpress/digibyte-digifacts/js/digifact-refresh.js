@@ -41,12 +41,17 @@
 		logHidden(config.hidden);
 		var boxes = document.querySelectorAll(".digibyte-digifact");
 
-		// The "About DigiByte DigiFacts" link: the same colour as the DigiFact's text, whatever colours the theme uses
+		// The box's border and the "About DigiByte DigiFacts" link use the colour of the DigiFact's text, whatever
+		// colours the theme uses (e.g. a theme that only makes the title and text white on a dark background)
 		for (var b = 0; b < boxes.length; b++) {
-			var credit = boxes[b].querySelector(".digifact-credit a");
 			var text = boxes[b].querySelector(".digifact-content");
-			if (credit && text && window.getComputedStyle) {
-				credit.style.color = window.getComputedStyle(text).color;
+			var credit = boxes[b].querySelector(".digifact-credit a");
+			if (text && window.getComputedStyle) {
+				var colour = window.getComputedStyle(text).color;
+				boxes[b].style.color = colour;
+				if (credit) {
+					credit.style.color = colour;
+				}
 			}
 		}
 		if (!facts || !facts.length || !boxes.length) {
