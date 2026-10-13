@@ -37,6 +37,7 @@ import re
 import statistics
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -351,8 +352,15 @@ def goatcounter(path, params, api_key):
     url = f"{STATS_URL}/api/v0/{path}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {api_key}", "User-Agent": USER_AGENT,
                                                "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 2:   # Too many requests: wait a moment
+                time.sleep(2)
+                continue
+            raise RuntimeError(f"{path}: HTTP {e.code} {e.read()[:300].decode('utf-8', 'replace')}") from None
 
 
 def click_stats(keys, prev_site):
