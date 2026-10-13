@@ -14,6 +14,7 @@
 
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -92,6 +93,14 @@ def save(path, data):
         f.write("\n")
 
 
+def save_tags(path, data):
+    """Save tags.json, with each DigiFact's tags on one line (e.g. "digifact-7ttm": ["digifacts"])."""
+    text = json.dumps(data, indent=2, ensure_ascii=False)
+    text = re.sub(r'\[\s*((?:"[^"]*",?\s*)+)\]', lambda m: "[" + ", ".join(re.findall(r'"[^"]*"', m.group(1))) + "]", text)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text + "\n")
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit("Usage: build/assign_ids.py OLD_EN_JSON")
@@ -114,7 +123,7 @@ def main():
         tags = load(TAGS_FILE)
         if any(key in ids for key in tags.get("facts", {})):
             tags["facts"] = {ids.get(key, key): value for key, value in tags["facts"].items()}
-            save(TAGS_FILE, tags)
+            save_tags(TAGS_FILE, tags)
     for key, new in ids.items():
         print(f"New DigiFact {key} -> {new}")
 

@@ -10,10 +10,19 @@
 
 import json
 import os
+import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS_DIR = os.path.join(ROOT, "facts")
+
+
+def save_tags(path, data):
+    """Save tags.json, with each DigiFact's tags on one line (e.g. "digifact-7ttm": ["digifacts"])."""
+    text = json.dumps(data, indent=2, ensure_ascii=False)
+    text = re.sub(r'\[\s*((?:"[^"]*",?\s*)+)\]', lambda m: "[" + ", ".join(re.findall(r'"[^"]*"', m.group(1))) + "]", text)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text + "\n")
 
 
 def main():
@@ -52,9 +61,7 @@ def main():
             if not check:
                 for key in gone:
                     del tags["facts"][key]
-                with open(tags_path, "w", encoding="utf-8") as f:
-                    json.dump(tags, f, indent=2, ensure_ascii=False)
-                    f.write("\n")
+                save_tags(tags_path, tags)
 
     if not found:
         print("Nothing to tidy: every translated DigiFact is in facts/en.json")
