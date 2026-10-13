@@ -4,7 +4,7 @@ Donate link: https://github.com/sponsors/DigiNode-Tools
 Tags: digibyte, digifacts, crypto, blockchain
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 2.0.1
+Stable tag: 2.1.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -15,7 +15,7 @@ Show a random DigiFact - a bite-size fact about DigiByte - that changes every mi
 
 DigiFacts are short facts about DigiByte, to help people learn about it. This plugin shows a random DigiFact on your site, and changes it every minute. Some DigiFacts include live data, such as the number of DigiByte blocks.
 
-Choose the language in Settings > DigiFacts. A DigiFact that isn't translated yet is shown in English. Learn more about DigiFacts at https://github.com/DigiNode-Tools/digibyte-digifacts
+Choose the language in Settings > DigiFacts. A DigiFact that isn't translated yet is shown in English. You can also hide DigiFacts - by topic (e.g. DigiFacts about your own project) or by ID. Learn more about DigiFacts at https://github.com/DigiNode-Tools/digibyte-digifacts
 
 == Usage ==
 
@@ -32,6 +32,9 @@ Add the [digifacts] shortcode, or the DigiByte DigiFacts block, where you want a
 2. A DigiFact on a website.
 
 == Changelog ==
+
+= 2.1.0 =
+* Hide DigiFacts on your site: by topic (e.g. DigiFacts about your own project) or by ID, in Settings > DigiFacts.
 
 = 2.0.1 =
 * The plugin now lives in the DigiFacts repository: https://github.com/DigiNode-Tools/digibyte-digifacts

@@ -61,6 +61,8 @@ Options (attributes on the div):
 | `data-interval="120"` | Seconds between DigiFacts (default 60, minimum 10). `0` shows one DigiFact only. |
 | `data-credit="no"` | Hide the small "DigiByte DigiFacts" link. |
 | `data-accent="#0066cc"` | The colour of the box border and links. |
+| `data-exclude-tags="diginode-tools"` | Hide DigiFacts with these tags (comma separated), e.g. ones about your own project. |
+| `data-exclude="digifact78"` | Hide these DigiFacts, by ID (comma separated). IDs never change. |
 
 The DigiFact is drawn in its own shadow DOM, so your site's styles can't affect it and it can't affect your site. It fetches only the DigiFacts files above, and shows nothing if they can't be loaded. The `v1` in the address means it won't change in a way that could break your page. The code is in [`embed/`](embed/).
 
@@ -87,17 +89,28 @@ Everything is in this repository, so anyone can see exactly how DigiFacts are ma
 
 ## Contributing
 
-Corrections, new DigiFacts and translations are all welcome. Make a pull request, or [open an issue](https://github.com/DigiNode-Tools/digibyte-digifacts/issues) if you're not sure how.
+Corrections, new DigiFacts and translations are all welcome - you don't need to know Git or JSON.
 
-To read through the facts in any language, side by side with English, use the [proofreading pages](https://digifacts.diginode.tools/proofread/).
+- **Suggest a new DigiFact:** fill in the [new DigiFact form](https://github.com/DigiNode-Tools/digibyte-digifacts/issues/new?template=new-digifact.yml).
+- **Fix a mistake, or report one that's out of date:** use the **Suggest a change** link under the DigiFact on the [proofreading pages](https://digifacts.diginode.tools/proofread/en/), which fills in the [correction form](https://github.com/DigiNode-Tools/digibyte-digifacts/issues/new?template=correction.yml) for you.
+- **Translate:** on [Weblate](https://hosted.weblate.org/engage/digibyte-digifacts/) (see [Translating](#translating)).
 
-### Fixing or adding a DigiFact
+You'll need a free GitHub account for the forms. Every suggestion is checked before it's added. New and corrected DigiFacts are written in English first, and translated from there.
 
-- New DigiFacts are added to `facts/en.json` first. Translations follow - until then, the English version is shown in every language.
-- Facts are numbered by their order in `facts/en.json`, so the number isn't part of the text. Give a new fact a new key, one higher than the highest key so far (e.g. `digifact87`), and put it wherever it belongs in the list. Never reuse or rename a key - translations are matched to facts by their key.
-- To delete a DigiFact, delete it from `facts/en.json` only. The facts after it are renumbered, and the GitHub Action removes it from the translation files automatically.
+### Editing the DigiFacts directly
+
+If you're comfortable with pull requests, you can edit `facts/en.json` yourself:
+
+- **Every DigiFact has an ID** - its key, e.g. `digifact78`. The ID never changes, even when the DigiFact's number does (DigiFacts are numbered by their order in `facts/en.json`). Websites use the IDs to hide particular DigiFacts, and translations are matched to DigiFacts by their ID.
+- **Fixing a DigiFact:** edit its text and keep its ID. A correction must still be the same DigiFact - if it would say something different, add a new DigiFact instead. Pull requests are checked automatically for this.
+- **Adding a DigiFact:** give it a new ID, one higher than the highest so far (e.g. `digifact87`), and put it wherever it belongs in the list. Never reuse or rename an ID.
+- **Removing a DigiFact:** delete it from `facts/en.json` only. The DigiFacts after it are renumbered, and it's removed from the translations and `tags.json` automatically.
 - Keep the wording neutral: no marketing, and nothing about price. A single DigiFact telling the community about a DigiByte project and what it does is fine.
-- Include at most one link. Put it in `url`, and in all three link fields (`link_social`, `link_html` and `link_md`) - see the existing facts for the format.
+- Include at most one link. Put it in `url`, and in all three link fields (`link_social`, `link_html` and `link_md`) - see the existing DigiFacts for the format.
+
+### Tags
+
+[`tags.json`](tags.json) gives some DigiFacts a topic, by ID - for example `diginode-tools` for DigiFacts about DigiNode Tools - so a website can hide DigiFacts about itself (see [Hiding DigiFacts](https://digifacts.diginode.tools/help/#hiding)). To add a tag, describe it under `tags` and add it to the DigiFacts under `facts`.
 
 ### Translating
 

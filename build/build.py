@@ -35,10 +35,13 @@ import re
 import statistics
 import sys
 import time
+import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS_DIR = os.path.join(ROOT, "facts")
+TAGS_FILE = os.path.join(ROOT, "tags.json")   # Topics, so sites can hide DigiFacts about themselves
+WEBLATE_URL = "https://hosted.weblate.org/engage/digibyte-digifacts/"
 REPO_URL = "https://github.com/DigiNode-Tools/digibyte-digifacts"
 SITE_URL = "https://digifacts.diginode.tools"
 # Short links for facts with a link: SHORT_BASE + the fact's key number, e.g. HTTPS://DIGIFACTS.DIGINODE.TOOLS/L/55.
@@ -195,6 +198,33 @@ def load_facts():
     return facts, titles
 
 
+def load_tags(en):
+    """Return (tag descriptions {tag: description}, {fact id: [tags]}), checking tags.json against facts/en.json."""
+    if not os.path.exists(TAGS_FILE):
+        return {}, {}
+    try:
+        with open(TAGS_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+    except ValueError as e:
+        fail(f"tags.json is not valid JSON: {e}")
+    described = data.get("tags", {})
+    fact_tags = {}
+    for tag, desc in described.items():
+        if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", tag) or not isinstance(desc, str):
+            fail(f"tags.json: tag '{tag}' should be lower case letters, numbers and hyphens, with a description")
+    for key, tags in data.get("facts", {}).items():
+        if key not in en:
+            warn(f"tags.json: {key} isn't in facts/en.json - ignored (build/tidy.py removes it)")
+            continue
+        if not isinstance(tags, list):
+            fail(f"tags.json: {key} should have a list of tags")
+        for tag in tags:
+            if tag not in described:
+                fail(f"tags.json: {key} uses '{tag}', which isn't described under \"tags\"")
+        fact_tags[key] = sorted(set(tags))
+    return described, fact_tags
+
+
 def localise(facts, titles, lang):
     """The facts for one language, in English order, numbered from 1: the translation where there is one, else the
     English fact. Each fact gets its title, from the language's title (or the English one) and its number."""
@@ -284,7 +314,7 @@ def fact_of_the_day(keys, day):
     return o[pos]
 
 
-def today_and_feed(lang, loc, count, day):
+def today_and_feed(lang, loc, count, day, fact_tags):
     """<lang>/today.json and <lang>/feed.xml (RSS) for one language."""
     keys = list(loc)
     numbers = {key: n for n, key in enumerate(keys, start=1)}
@@ -303,6 +333,8 @@ def today_and_feed(lang, loc, count, day):
             "markdown": fill(f["content"] + f.get("link_md", ""), count),
             "plain": fill(f["content"], count),
             "short_url": short_url(key, f),
+            "id": key,
+            "tags": fact_tags.get(key, []),
         }
 
     today = entry(day)
@@ -376,6 +408,8 @@ table {{ border-collapse: collapse; width: 100%; }} th, td {{ text-align: left; 
 .fact {{ background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; overflow-wrap: anywhere; }}
 .fact h3 {{ margin: 0 0 .3em; font-size: 1em; }} .fact p {{ margin: 0; }}
 .missing {{ color: #c0392b; font-weight: 600; }}
+.meta {{ margin-top: .5em !important; font-size: .85em; color: var(--muted); }}
+.tag {{ display: inline-block; padding: 0 .5em; border: 1px solid var(--line); border-radius: 999px; }}
 </style>
 </head>
 <body><main>
@@ -386,6 +420,7 @@ table {{ border-collapse: collapse; width: 100%; }} th, td {{ text-align: left; 
 
 
 def help_page(langs, info):
+    tag_list = ", ".join(f'<code>{html.escape(t)}</code> ({html.escape(v["description"])})' for t, v in info["tags"].items()) or "none yet"
     rows = "\n".join(
         f'<tr><td>{html.escape(LANGUAGE_NAMES[l])}</td><td><code>{l}</code></td>'
         f'<td><a href="../{l}/social.json">social</a> · <a href="../{l}/html.json">html</a> · '
@@ -428,10 +463,15 @@ def help_page(langs, info):
 <p>Add this where you want a DigiFact to appear. It shows a random DigiFact, which changes every minute, and uses your site's font and colours:</p>
 <pre><code>&lt;div data-digifacts data-lang="en"&gt;&lt;/div&gt;
 &lt;script src="https://digifacts.diginode.tools/embed/v1/digifacts.js" async&gt;&lt;/script&gt;</code></pre>
-<p>Options (attributes on the div): <code>data-lang</code> (a language code, or <code>auto</code> for the visitor's language), <code>data-box="no"</code> (text only), <code>data-interval</code> (seconds between DigiFacts, or <code>0</code> for just one), <code>data-credit="no"</code> (hide the small DigiFacts link) and <code>data-accent</code> (a colour, e.g. <code>#0066cc</code>). Here it is:</p>
+<p>Options (attributes on the div): <code>data-lang</code> (a language code, or <code>auto</code> for the visitor's language), <code>data-box="no"</code> (text only), <code>data-interval</code> (seconds between DigiFacts, or <code>0</code> for just one), <code>data-credit="no"</code> (hide the small DigiFacts link), <code>data-accent</code> (a colour, e.g. <code>#0066cc</code>), and <code>data-exclude-tags</code> and <code>data-exclude</code> to hide DigiFacts (see <a href="#hiding">below</a>). Here it is:</p>
 <div data-digifacts data-lang="en"></div>
 <script src="../embed/v1/digifacts.js" async></script>
 <p>On WordPress, you can use the <a href="https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress">DigiFacts plugin</a> instead.</p>
+
+<h2 id="hiding">Hiding DigiFacts</h2>
+<p>Every DigiFact has an <b>ID</b>, like <code>digifact78</code>, that never changes - unlike its number, which can change when DigiFacts are removed. Some DigiFacts also have <b>tags</b>, for their topic. A website can hide DigiFacts about itself, by tag or by ID:</p>
+<pre><code>&lt;div data-digifacts data-exclude-tags="diginode-tools" data-exclude="digifact12"&gt;&lt;/div&gt;</code></pre>
+<p>Hiding a tag also hides any DigiFacts given that tag in future. The tags are: {tag_list}. The IDs and tags are shown on the <a href="../proofread/en/">proofreading pages</a>, and every DigiFact in the JSON files has an <code>id</code> and <code>tags</code>. The WordPress plugin has the same options in its settings.</p>
 
 <h2>How they're made</h2>
 <p>The facts live in the <a href="{REPO_URL}">digibyte-digifacts</a> repository. Every hour, and whenever the facts change, a public <a href="{REPO_URL}/actions">GitHub Action</a> checks them, fills in the live data and publishes this site. The block count comes from several block explorers (currently {html.escape(", ".join(EXPLORERS))}); the middle value is used, and if none of them answer, an estimate based on DigiByte's 15 second block time.</p>
@@ -443,26 +483,43 @@ def help_page(langs, info):
     return PAGE.format(lang="en", title="DigiByte DigiFacts", body=body)
 
 
-def proofread_page(lang, langs, en_facts, facts, count):
-    links = " ".join(f'<a href="../{l}/">{html.escape(LANGUAGE_NAMES[l])}</a>' for l in langs)
+def suggest_url(key, number, text):
+    """A link to the 'Suggest a correction' form, with the DigiFact filled in."""
+    q = urllib.parse.urlencode({"template": "correction.yml", "title": f"Correction: DigiFact #{number} ({key})",
+                                "fact": f"#{number} - ID {key}", "current": text})
+    return f"{REPO_URL}/issues/new?{q}"
 
-    def card(key, fact, missing=False):
+
+def proofread_page(lang, langs, en_facts, facts, count, fact_tags):
+    links = " ".join(f'<a href="../{l}/">{html.escape(LANGUAGE_NAMES[l])}</a>' for l in langs)
+    numbers = {key: n for n, key in enumerate(en_facts, start=1)}
+
+    def details(key):
+        tags = "".join(f' <span class="tag">{html.escape(t)}</span>' for t in fact_tags.get(key, []))
+        return f'<p class="meta">ID <code>{key}</code>{tags}</p>'
+
+    def card(key, fact, missing=False, english=False):
         if missing:
-            return f'<div class="fact"><h3>{key}</h3><p class="missing">Not translated yet - shown in English.</p></div>'
-        link = fill(fact.get("link_social", ""), count)
+            return (f'<div class="fact"><h3>{html.escape(fill(fact["title"], count))}</h3><p class="missing">Not '
+                    f'translated yet - shown in English. <a href="{WEBLATE_URL}">Translate it on Weblate</a></p></div>')
+        text = fill(fact["content"], count) + fill(fact.get("link_social", ""), count)
+        action = (f'<a href="{html.escape(suggest_url(key, numbers[key], text))}">Suggest a change</a>' if english else
+                  f'<a href="{WEBLATE_URL}">Improve this translation</a>')
         return (f'<div class="fact"><h3>{html.escape(fill(fact["title"], count))}</h3>'
-                f'<p>{html.escape(fill(fact["content"], count))}{html.escape(link)}</p></div>')
+                f'<p>{html.escape(text)}</p>{details(key) if english else ""}<p class="meta">{action}</p></div>')
 
     rows = []
     for key, fact in facts.items():
         if lang == "en":
-            rows.append(f'<div class="row">{card(key, fact)}</div>')
+            rows.append(f'<div class="row">{card(key, fact, english=True)}</div>')
         else:
-            rows.append(f'<div class="row two">{card(key, en_facts[key])}{card(key, fact, not fact["translated"])}</div>')
+            rows.append(f'<div class="row two">{card(key, en_facts[key], english=True)}'
+                        f'{card(key, fact, not fact["translated"])}</div>')
     intro = ("Read through the English DigiFacts below." if lang == "en" else
              f"The English DigiFacts on the left, and the {html.escape(LANGUAGE_NAMES[lang])} translation on the right.")
     body = f"""<h1>DigiFacts proofreading: {html.escape(LANGUAGE_NAMES[lang])}</h1>
-<p>{intro} Found a mistake? See <a href="{REPO_URL}#contributing">how to fix it</a>. Thank you!</p>
+<p>{intro} Spotted a mistake, or a DigiFact that's out of date? Click <b>Suggest a change</b> under it. Translations are improved on <a href="{WEBLATE_URL}">Weblate</a>. Thank you!</p>
+<p class="muted">Each DigiFact has an <b>ID</b> that never changes (its number can, when DigiFacts are removed). Websites can use the IDs and tags to hide particular DigiFacts - see <a href="../../help/#hiding">hiding DigiFacts</a>.</p>
 <p class="langs">{links}</p>
 {"".join(rows)}
 <p class="muted"><a href="../../help/">About DigiFacts</a></p>"""
@@ -475,6 +532,7 @@ def main():
     out_dir = sys.argv[1]
     facts, titles = load_facts()
     langs = list(facts)
+    tag_descriptions, fact_tags = load_tags(facts["en"])
     prev = previous_info()
     count, source, count_time, readings = block_count(prev)
 
@@ -488,9 +546,11 @@ def main():
             data = {key: {"title": fill(f["title"], count),
                           "content": fill(f["content"] + (f.get(link_field, "") if link_field else ""), count),
                           "url": f.get("url", ""),
-                          "short_url": short_url(key, f)} for key, f in loc.items()}
+                          "short_url": short_url(key, f),
+                          "id": key,
+                          "tags": fact_tags.get(key, [])} for key, f in loc.items()}
             files[f"{lang}/{fmt}.json"] = to_json(data)
-        files[f"{lang}/today.json"], files[f"{lang}/feed.xml"] = today_and_feed(lang, loc, count, day)
+        files[f"{lang}/today.json"], files[f"{lang}/feed.xml"] = today_and_feed(lang, loc, count, day, fact_tags)
     files["index.html"] = files["en/social.json"]   # DigiNode Tools v26.10.x and older use '/?lang=en&format=social'
     files["languages.json"] = json.dumps(langs) + "\n"
     with open(os.path.join(ROOT, "embed", "digifacts.js"), encoding="utf-8") as f:
@@ -511,6 +571,8 @@ def main():
         "explorers": readings,
         "languages": langs_info,
         "formats": list(OUTPUT_FORMATS),
+        "tags": {t: {"description": d, "facts": sorted(k for k, v in fact_tags.items() if t in v)}
+                 for t, d in tag_descriptions.items()},
         "source": REPO_URL,
         "commit": os.environ.get("GITHUB_SHA", ""),
         "content_hash": digest,
@@ -518,7 +580,7 @@ def main():
     files["info.json"] = to_json(info)
     files["help/index.html"] = help_page(langs, info)
     for lang in langs:
-        files[f"proofread/{lang}/index.html"] = proofread_page(lang, langs, localised["en"], localised[lang], count)
+        files[f"proofread/{lang}/index.html"] = proofread_page(lang, langs, localised["en"], localised[lang], count, fact_tags)
     files["proofread/index.html"] = '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=en/"><a href="en/">Proofread the DigiFacts</a>\n'
     files[".nojekyll"] = ""
     for key, f in facts["en"].items():

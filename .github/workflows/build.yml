@@ -6,7 +6,7 @@ name: Build and publish DigiFacts
 on:
   push:
     branches: [main]
-    paths: [facts/**, build/**, embed/**, .github/workflows/build.yml]
+    paths: [facts/**, tags.json, build/**, embed/**, .github/workflows/build.yml]
   schedule:
     - cron: "23 * * * *"
   workflow_dispatch:
@@ -35,7 +35,7 @@ jobs:
         if: github.event_name != 'schedule'
         run: |
           python3 build/tidy.py
-          if ! git diff --quiet facts; then
+          if ! git diff --quiet facts tags.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -q -am "Remove deleted DigiFacts from the translation files"

@@ -12,6 +12,8 @@
  *   data-interval="120"    Seconds between DigiFacts (default: 60, minimum 10). "0" shows one DigiFact only.
  *   data-credit="no"       Hide the small "DigiByte DigiFacts" link
  *   data-accent="#0066cc"  The colour of the box border and links
+ *   data-exclude-tags="diginode-tools"  Hide DigiFacts with these tags (comma separated), e.g. about your own project
+ *   data-exclude="digifact78"           Hide these DigiFacts by ID (comma separated). IDs never change.
  *
  * The DigiFact is drawn in its own shadow DOM, so your site's styles can't break it (and it can't affect your site).
  * It uses your site's font and text colour. Nothing is shown if the DigiFacts can't be loaded.
@@ -78,14 +80,35 @@
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (d) {
           var list = [];
-          for (var k in d) if (d[k] && d[k].title && d[k].content) list.push(d[k]);
+          for (var k in d) {
+            if (d[k] && d[k].title && d[k].content) {
+              list.push({ title: d[k].title, content: d[k].content, id: d[k].id || k, tags: d[k].tags || [] });
+            }
+          }
           return list;
         });
     }
     return cache[lang];
   }
 
+  // A comma-separated attribute as a list
+  function attrList(host, name) {
+    return (host.getAttribute(name) || "").split(",").map(function (s) { return s.trim().toLowerCase(); })
+      .filter(function (s) { return s; });
+  }
+
+  // The DigiFacts this site wants: without the hidden IDs and tags
+  function wanted(host, facts) {
+    var ids = attrList(host, "data-exclude"), tags = attrList(host, "data-exclude-tags");
+    return facts.filter(function (f) {
+      if (ids.indexOf(String(f.id).toLowerCase()) >= 0) return false;
+      for (var i = 0; i < f.tags.length; i++) if (tags.indexOf(f.tags[i]) >= 0) return false;
+      return true;
+    });
+  }
+
   function show(host, facts) {
+    facts = wanted(host, facts);
     if (!facts.length) return;
     var root = host.shadowRoot || host.attachShadow({ mode: "open" });
     var box = el("div", "d" + (host.getAttribute("data-box") === "no" ? "" : " box"));

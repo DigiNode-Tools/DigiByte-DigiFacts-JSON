@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # Name:    tidy.py
-# Purpose: Remove DigiFacts from the translation files (facts/<lang>.json) that are no longer in facts/en.json, so
+# Purpose: Remove DigiFacts from the translation files (facts/<lang>.json) and tags.json that are no longer in facts/en.json, so
 #          deleting a fact only means deleting it from facts/en.json. Run by the "Build and publish DigiFacts"
 #          GitHub Action before each build (it commits any changes). Nothing else in the files is changed.
 #
@@ -39,6 +39,22 @@ def main():
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
                 f.write("\n")
+
+    # The tags file too
+    tags_path = os.path.join(ROOT, "tags.json")
+    if os.path.exists(tags_path):
+        with open(tags_path, encoding="utf-8") as f:
+            tags = json.load(f)
+        gone = [key for key in tags.get("facts", {}) if key not in en]
+        if gone:
+            found += len(gone)
+            print(f"tags.json: {'would remove' if check else 'removed'} {', '.join(gone)} (no longer in facts/en.json)")
+            if not check:
+                for key in gone:
+                    del tags["facts"][key]
+                with open(tags_path, "w", encoding="utf-8") as f:
+                    json.dump(tags, f, indent=2, ensure_ascii=False)
+                    f.write("\n")
 
     if not found:
         print("Nothing to tidy: every translated DigiFact is in facts/en.json")

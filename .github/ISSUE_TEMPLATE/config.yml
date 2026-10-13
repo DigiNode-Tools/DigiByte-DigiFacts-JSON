@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Improve a translation
+    url: https://hosted.weblate.org/engage/digibyte-digifacts/
+    about: DigiFacts are translated on Weblate - no GitHub needed.
+  - name: Read all the DigiFacts
+    url: https://digifacts.diginode.tools/proofread/en/
+    about: Every DigiFact, with its ID and tags, and a "Suggest a change" link.

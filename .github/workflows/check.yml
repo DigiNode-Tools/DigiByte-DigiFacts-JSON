@@ -1,9 +1,11 @@
-# Checks the facts in a pull request (the same checks as the live build), so mistakes are found before merging.
+# Checks a pull request before it's merged: the same checks as the live build, the WordPress plugin and the embed,
+# and that edited English DigiFacts are still the same DigiFacts (see build/check_edits.py).
 name: Check DigiFacts
 
 on:
   pull_request:
-    paths: [facts/**, build/**, embed/**, wordpress/**]
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+    paths: [facts/**, tags.json, build/**, embed/**, wordpress/**]
 
 permissions:
   contents: read
@@ -13,11 +15,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Check the facts and build the website
         run: python3 build/build.py _site
+
+      - name: Check that edited DigiFacts are still the same DigiFacts
+        # A DigiFact's ID never changes, and sites use it to hide DigiFacts - a rewrite into a different DigiFact
+        # must be a new DigiFact instead. The maintainer can add the label "same-digifact" to allow a big edit.
+        if: ${{ !contains(github.event.pull_request.labels.*.name, 'same-digifact') }}
+        run: |
+          git show "origin/${{ github.base_ref }}:facts/en.json" > /tmp/en-before.json
+          python3 build/check_edits.py /tmp/en-before.json
 
       - name: Check the WordPress plugin and the embed
         run: |
           for f in wordpress/digibyte-digifacts/*.php; do php -l "$f"; done
           node --check embed/digifacts.js
-          python3 build/tidy.py --check || echo "::warning::Some translated DigiFacts are no longer in facts/en.json - they will be removed when this is merged"
+          python3 build/tidy.py --check || echo "::warning::Some DigiFacts are no longer in facts/en.json - they will be removed from the translations and tags when this is merged"

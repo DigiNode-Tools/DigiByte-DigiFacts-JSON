@@ -1,0 +1,11 @@
+{
+  "_comment": "Topics, so a website or app can hide DigiFacts about itself (e.g. diginode.tools hides 'diginode-tools'). Tag a fact by its ID (its key in facts/en.json), which never changes. Tags are lower case letters, numbers and hyphens.",
+  "tags": {
+    "diginode-tools": "About DigiNode Tools",
+    "digifacts": "About DigiFacts themselves"
+  },
+  "facts": {
+    "digifact78": ["diginode-tools"],
+    "digifact79": ["digifacts"]
+  }
+}

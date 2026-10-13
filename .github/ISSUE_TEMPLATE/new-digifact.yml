@@ -1,0 +1,43 @@
+name: Suggest a new DigiFact
+description: Suggest a new bite-size fact about DigiByte
+title: "New DigiFact: "
+labels: ["new digifact"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! DigiFacts are short facts about DigiByte, shown in apps, on websites and on displays, in many languages. A good DigiFact:
+
+        - is **accurate**, and still will be in a year or two (avoid prices and anything that changes often)
+        - is **neutral** - no marketing or hype. A single DigiFact telling people about a DigiByte project and what it does is fine.
+        - is **short**: two or three sentences
+        - is written in **English** - it's translated into the other languages afterwards
+
+        Have a look at the [existing DigiFacts](https://digifacts.diginode.tools/proofread/en/) first, so it isn't one we already have.
+  - type: textarea
+    id: fact
+    attributes:
+      label: The DigiFact
+      description: Two or three sentences.
+      placeholder: DigiByte uses five different mining algorithms, so no single type of mining hardware can dominate the network.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (optional)
+      description: One web page where people can learn more. It must start with https://
+      placeholder: https://
+  - type: input
+    id: link_text
+    attributes:
+      label: Link sentence (optional)
+      description: The sentence that leads to the link.
+      placeholder: Learn more here
+  - type: textarea
+    id: source
+    attributes:
+      label: Where is this from?
+      description: How do you know it's true? A link to a source helps us check it.
+    validations:
+      required: true

@@ -1,0 +1,49 @@
+name: Suggest a correction
+description: Fix a mistake in an English DigiFact, or tell us one is out of date
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! This form is for the **English** DigiFacts. To improve a translation, use [Weblate](https://hosted.weblate.org/engage/digibyte-digifacts/) instead.
+
+        A correction should keep it the **same DigiFact** - fixing a mistake, or bringing it up to date. If you'd like to say something different, please [suggest a new DigiFact](https://github.com/DigiNode-Tools/digibyte-digifacts/issues/new?template=new-digifact.yml) instead.
+
+        Tip: on the [proofreading pages](https://digifacts.diginode.tools/proofread/en/), the **Suggest a change** link under each DigiFact fills in the first two boxes for you.
+  - type: input
+    id: fact
+    attributes:
+      label: Which DigiFact?
+      description: Its number or ID, shown on the proofreading pages (e.g. "#22 - ID digifact22").
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: The DigiFact now
+      description: The text as it is now.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      options:
+        - A mistake (spelling, grammar or wording)
+        - It's not true, or no longer true
+        - The link doesn't work
+        - It should be removed
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: corrected
+    attributes:
+      label: The corrected DigiFact
+      description: How it should read (or why it should be removed).
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source (optional)
+      description: A link that shows the correction is right helps us check it.
