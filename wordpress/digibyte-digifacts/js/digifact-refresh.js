@@ -40,6 +40,15 @@
 		var config = window.digibyteDigiFactsConfig || {};
 		logHidden(config.hidden);
 		var boxes = document.querySelectorAll(".digibyte-digifact");
+
+		// The "About DigiByte DigiFacts" link: the same colour as the DigiFact's text, whatever colours the theme uses
+		for (var b = 0; b < boxes.length; b++) {
+			var credit = boxes[b].querySelector(".digifact-credit a");
+			var text = boxes[b].querySelector(".digifact-content");
+			if (credit && text && window.getComputedStyle) {
+				credit.style.color = window.getComputedStyle(text).color;
+			}
+		}
 		if (!facts || !facts.length || !boxes.length) {
 			return;
 		}

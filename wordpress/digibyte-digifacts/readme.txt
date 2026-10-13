@@ -4,7 +4,7 @@ Donate link: https://github.com/sponsors/DigiNode-Tools
 Tags: digibyte, digifacts, crypto, blockchain
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 2.2.0
+Stable tag: 2.2.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,9 @@ Add the [digifacts] shortcode, or the DigiByte DigiFacts block, where you want a
 2. A DigiFact on a website.
 
 == Changelog ==
+
+= 2.2.1 =
+* The "About DigiByte DigiFacts" link is the same colour as the DigiFact's text, whatever colours your theme uses.
 
 = 2.2.0 =
 * A small "About DigiByte DigiFacts" link under the DigiFact, like the DigiFacts embed. You can turn it off in Settings > DigiFacts.
