@@ -334,6 +334,20 @@
     "link_html": " Go <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">here</a> to learn how you can help.",
     "link_md": " Go [here](https://github.com/DigiNode-Tools/digibyte-digifacts) to learn how you can help."
   },
+  "new": {
+    "content": "You can display these DigiFacts on a Tidbyt, or any other LED pixel display running Tronbyt. The free DigiFacts app shows the DigiFact of the day or a random one, in eight languages, and DigiFacts with a link end with a QR code you can scan with your phone.",
+    "url": "https://tronbyt.github.io/apps/details/digibyte-digifacts.html",
+    "link_social": " View the app here: https://tronbyt.github.io/apps/details/digibyte-digifacts.html",
+    "link_html": " View the app <a target=\"_blank\" href=\"https://tronbyt.github.io/apps/details/digibyte-digifacts.html\">here</a>.",
+    "link_md": " View the app [here](https://tronbyt.github.io/apps/details/digibyte-digifacts.html)."
+  },
+  "new-2": {
+    "content": "You can keep an eye on DigiByte's price with the DigiByte Price app for Tronbyt. It shows the current price of DGB in up to four currencies, including Satoshis, on a Tidbyt or any other LED pixel display running Tronbyt, and updates every 10 minutes.",
+    "url": "https://tronbyt.github.io/apps/details/digibyteprice.html",
+    "link_social": " View the app here: https://tronbyt.github.io/apps/details/digibyteprice.html",
+    "link_html": " View the app <a target=\"_blank\" href=\"https://tronbyt.github.io/apps/details/digibyteprice.html\">here</a>.",
+    "link_md": " View the app [here](https://tronbyt.github.io/apps/details/digibyteprice.html)."
+  },
   "digifact-n8xm": {
     "content": "A DigiByte Seeder is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addresses and ports of the most reliable ones. DigiByte Nodes joining the network use the DigiByte Seeders to find other nodes to connect to.",
     "url": "https://github.com/DigiByte-Core/digibyte-seeder",

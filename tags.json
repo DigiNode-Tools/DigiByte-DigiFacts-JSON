@@ -2,10 +2,13 @@
   "_comment": "Topics, so a website or app that's mentioned in DigiFacts can hide them on its own site. Tag a fact by its ID (its key in facts/en.json, e.g. digifact-7ttm), which never changes. Tags are lower case letters, numbers and hyphens.",
   "tags": {
     "diginode-tools": "About DigiNode Tools",
-    "digifacts": "About DigiFacts themselves"
+    "digifacts": "About DigiFacts themselves",
+    "tronbyt": "About Tronbyt apps"
   },
   "facts": {
     "digifact-np2q": ["diginode-tools"],
-    "digifact-wr7h": ["digifacts"]
+    "digifact-wr7h": ["digifacts"],
+    "new": ["digifacts", "tronbyt"],
+    "new-2": ["tronbyt"]
   }
 }
