@@ -6,9 +6,18 @@
     "tronbyt": "About Tronbyt apps"
   },
   "facts": {
-    "digifact-np2q": ["diginode-tools"],
-    "digifact-wr7h": ["digifacts"],
-    "new": ["digifacts", "tronbyt"],
-    "new-2": ["tronbyt"]
+    "digifact-np2q": [
+      "diginode-tools"
+    ],
+    "digifact-wr7h": [
+      "digifacts"
+    ],
+    "digifact-v5ds": [
+      "digifacts",
+      "tronbyt"
+    ],
+    "digifact-nqzd": [
+      "tronbyt"
+    ]
   }
 }
