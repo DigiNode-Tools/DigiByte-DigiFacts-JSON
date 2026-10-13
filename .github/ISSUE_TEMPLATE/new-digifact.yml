@@ -26,7 +26,7 @@ body:
     id: link
     attributes:
       label: Link (optional)
-      description: One web page where people can learn more. It must start with https://
+      description: One web page where people can learn more - its full address, starting with https:// (not a shortened link - DigiFacts makes its own short links).
       placeholder: https://
   - type: input
     id: link_text

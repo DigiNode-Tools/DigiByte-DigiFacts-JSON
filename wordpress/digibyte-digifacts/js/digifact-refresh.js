@@ -24,9 +24,21 @@
 		return "";
 	}
 
+	// List the DigiFacts this site hides (by topic or ID) in the browser console
+	function logHidden(info) {
+		if (!info || !info.hidden || !info.hidden.length || !window.console) {
+			return;
+		}
+		var lines = info.hidden.map(function (f) {
+			return "#" + f.number + " " + f.id + " (" + f.why + "): " + f.text;
+		});
+		console.info("DigiFacts: this site hides " + info.hidden.length + " of " + info.total + " DigiFacts\n" + lines.join("\n"));
+	}
+
 	function start() {
 		var facts = window.digibyteDigiFacts;
 		var config = window.digibyteDigiFactsConfig || {};
+		logHidden(config.hidden);
 		var boxes = document.querySelectorAll(".digibyte-digifact");
 		if (!facts || !facts.length || !boxes.length) {
 			return;

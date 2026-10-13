@@ -3,7 +3,7 @@
  * Plugin Name:       DigiByte DigiFacts
  * Plugin URI:        https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress
  * Description:       Show a random DigiFact - a bite-size fact about DigiByte - that changes every minute. Available in multiple languages.
- * Version:           2.1.1
+ * Version:           2.1.2
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            Olly Stedall (DigiNode Tools)
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const DIGIBYTE_DIGIFACTS_VERSION = '2.1.1';
+const DIGIBYTE_DIGIFACTS_VERSION = '2.1.2';
 // The DigiFacts website (https://github.com/DigiNode-Tools/digibyte-digifacts). Updated hourly.
 const DIGIBYTE_DIGIFACTS_URL = 'https://digifacts.diginode.tools';
 const DIGIBYTE_DIGIFACTS_REPO = 'https://github.com/DigiNode-Tools/digibyte-digifacts';
@@ -87,13 +87,23 @@ function digibyte_digifacts_tags() {
 }
 
 /**
- * The DigiFact IDs to hide, from the "Hide DigiFacts" setting (e.g. array( 'digifact78' )).
+ * The DigiFact IDs to hide, from the "Hide DigiFacts" setting (e.g. array( 'digifact-np2q' )).
  */
 function digibyte_digifacts_hidden_ids() {
-	$ids = preg_split( '/[\s,]+/', strtolower( (string) get_option( 'digibyte_digifacts_hide_ids', '' ) ) );
-	return array_values( array_filter( $ids, function ( $id ) {
-		return (bool) preg_match( '/^digifact[0-9]+$/', $id );
-	} ) );
+	return digibyte_digifacts_parse_ids( get_option( 'digibyte_digifacts_hide_ids', '' ) );
+}
+
+/**
+ * The valid DigiFact IDs in a comma-separated list, e.g. 'digifact-np2q, wr7h' => array( 'digifact-np2q', 'digifact-wr7h' ).
+ */
+function digibyte_digifacts_parse_ids( $text ) {
+	$ids = array();
+	foreach ( preg_split( '/[\s,]+/', strtolower( (string) $text ) ) as $id ) {
+		if ( preg_match( '/^(digifact-)?([a-z0-9]{4})$/', $id, $m ) ) {
+			$ids[] = 'digifact-' . $m[2];
+		}
+	}
+	return array_values( array_unique( $ids ) );
 }
 
 /**
@@ -143,6 +153,46 @@ function digibyte_digifacts_facts( $language ) {
 }
 
 /**
+ * The DigiFacts this site hides, for the browser console: array( 'hidden' => list of array( 'number', 'id', 'why',
+ * 'text' ) in English, 'total' => the number of DigiFacts ).
+ */
+function digibyte_digifacts_hidden_list() {
+	$raw = digibyte_digifacts_get_json( 'en/html.json', 'facts_en' );
+	if ( ! is_array( $raw ) ) {
+		return array();
+	}
+	$hide_ids  = digibyte_digifacts_hidden_ids();
+	$hide_tags = (array) get_option( 'digibyte_digifacts_hide_tags', array() );
+	$hidden    = array();
+	$number    = 0;
+	foreach ( $raw as $id => $fact ) {
+		if ( ! is_array( $fact ) || empty( $fact['content'] ) ) {
+			continue;
+		}
+		++$number;
+		$fact_id   = isset( $fact['id'] ) ? (string) $fact['id'] : (string) $id;
+		$fact_tags = isset( $fact['tags'] ) && is_array( $fact['tags'] ) ? $fact['tags'] : array();
+		$why       = array();
+		if ( in_array( strtolower( $fact_id ), $hide_ids, true ) ) {
+			$why[] = 'ID';
+		}
+		foreach ( array_intersect( $fact_tags, $hide_tags ) as $tag ) {
+			$why[] = 'topic ' . $tag;
+		}
+		if ( $why ) {
+			$text     = wp_strip_all_tags( (string) $fact['content'] );
+			$hidden[] = array(
+				'number' => $number,
+				'id'     => $fact_id,
+				'why'    => implode( ', ', $why ),
+				'text'   => mb_strlen( $text ) > 80 ? mb_substr( $text, 0, 80 ) . '...' : $text,
+			);
+		}
+	}
+	return array( 'hidden' => $hidden, 'total' => $number );
+}
+
+/**
  * [digifacts] - shows a random DigiFact, which changes every minute.
  */
 function digibyte_digifacts_shortcode() {
@@ -184,6 +234,7 @@ function digibyte_digifacts_print_facts_once( $facts, $language, $auto ) {
 		'auto'      => (bool) $auto,
 		'languages' => array_keys( digibyte_digifacts_languages() ),
 		'url'       => esc_url_raw( rest_url( 'digibyte-digifacts/v1/facts/' ) ),
+		'hidden'    => digibyte_digifacts_hidden_list(),
 	);
 	wp_add_inline_script(
 		'digibyte-digifacts',
@@ -310,10 +361,7 @@ function digibyte_digifacts_sanitize_hide_tags( $tags ) {
 }
 
 function digibyte_digifacts_sanitize_hide_ids( $ids ) {
-	$ids = preg_split( '/[\s,]+/', strtolower( (string) $ids ) );
-	return implode( ', ', array_filter( $ids, function ( $id ) {
-		return (bool) preg_match( '/^digifact[0-9]+$/', $id );
-	} ) );
+	return implode( ', ', digibyte_digifacts_parse_ids( $ids ) );
 }
 
 function digibyte_digifacts_hide_tags_field() {
@@ -338,7 +386,7 @@ function digibyte_digifacts_hide_tags_field() {
 
 function digibyte_digifacts_hide_ids_field() {
 	printf(
-		'<input type="text" class="regular-text" name="digibyte_digifacts_hide_ids" value="%s" placeholder="digifact12, digifact34" />',
+		'<input type="text" class="regular-text" name="digibyte_digifacts_hide_ids" value="%s" placeholder="digifact-np2q, digifact-wr7h" />',
 		esc_attr( get_option( 'digibyte_digifacts_hide_ids', '' ) )
 	);
 	echo '<p class="description">IDs of DigiFacts to hide, separated by commas. Each DigiFact\'s ID is shown on the <a href="https://digifacts.diginode.tools/proofread/en/" target="_blank" rel="noopener">DigiFacts proofreading pages</a>. IDs never change (unlike DigiFact numbers).</p>';

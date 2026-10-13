@@ -13,7 +13,7 @@
  *   data-credit="no"       Hide the small "DigiByte DigiFacts" link
  *   data-accent="#0066cc"  The colour of the box border and links
  *   data-exclude-tags="diginode-tools"  Hide DigiFacts with these tags (comma separated), e.g. about your own project
- *   data-exclude="digifact78"           Hide these DigiFacts by ID (comma separated). IDs never change.
+ *   data-exclude="digifact-np2q"        Hide these DigiFacts by ID (comma separated). IDs never change.
  *
  * The DigiFact is drawn in its own shadow DOM, so your site's styles can't break it (and it can't affect your site).
  * It uses your site's font and text colour. Nothing is shown if the DigiFacts can't be loaded.
@@ -97,14 +97,24 @@
       .filter(function (s) { return s; });
   }
 
-  // The DigiFacts this site wants: without the hidden IDs and tags
+  // The DigiFacts this site wants: without the hidden IDs and tags. The hidden ones are listed in the browser console.
   function wanted(host, facts) {
-    var ids = attrList(host, "data-exclude"), tags = attrList(host, "data-exclude-tags");
-    return facts.filter(function (f) {
-      if (ids.indexOf(String(f.id).toLowerCase()) >= 0) return false;
-      for (var i = 0; i < f.tags.length; i++) if (tags.indexOf(f.tags[i]) >= 0) return false;
-      return true;
+    var ids = attrList(host, "data-exclude"), tags = attrList(host, "data-exclude-tags"), hidden = [];
+    var shown = facts.filter(function (f) {
+      var why = [];
+      var id = String(f.id).toLowerCase();
+      if (ids.indexOf(id) >= 0 || ids.indexOf(id.replace(/^digifact-/, "")) >= 0) why.push("ID");
+      for (var i = 0; i < f.tags.length; i++) if (tags.indexOf(f.tags[i]) >= 0) why.push("topic " + f.tags[i]);
+      if (why.length) {
+        var text = content(f.content).textContent;
+        hidden.push(f.title + " " + f.id + " (" + why.join(", ") + "): " + (text.length > 80 ? text.slice(0, 80) + "..." : text));
+      }
+      return !why.length;
     });
+    if (hidden.length && window.console) {
+      console.info("DigiFacts: this site hides " + hidden.length + " of " + facts.length + " DigiFacts\n" + hidden.join("\n"));
+    }
+    return shown;
   }
 
   function show(host, facts) {

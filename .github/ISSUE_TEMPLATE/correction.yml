@@ -15,7 +15,7 @@ body:
     id: fact
     attributes:
       label: Which DigiFact?
-      description: Its number or ID, shown on the proofreading pages (e.g. "#22 - ID digifact22").
+      description: Its number or its ID, both shown on the proofreading pages (e.g. "#2 (ID digifact-7ttm)").
     validations:
       required: true
   - type: textarea

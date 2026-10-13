@@ -50,6 +50,7 @@ jobs:
         env:
           DIGIFACTS_SITE_URL: ${{ steps.pages.outputs.base_url }}
           FORCE_PUBLISH: ${{ github.event_name != 'schedule' && '1' || '' }}
+          GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}   # Read-only: for the link click stats
         run: python3 build/build.py _site
 
       - if: steps.build.outputs.changed == 'true'

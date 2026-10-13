@@ -6,16 +6,16 @@ Thank you for helping! Translations make DigiByte easier to learn about for peop
 
 ## How the files work
 
-Each language has its own file in [`facts/`](facts/), named with its two-letter language code (e.g. `facts/de.json` for German). [`facts/en.json`](facts/en.json) is the original that every translation is based on, and every file uses the same keys (`digifact1`, `digifact2`, ...):
+Each language has its own file in [`facts/`](facts/), named with its two-letter language code (e.g. `facts/de.json` for German). [`facts/en.json`](facts/en.json) is the original that every translation is based on, and every file uses the same keys. Each key is the DigiFact's ID (e.g. `digifact-7ttm`) - leave the keys as they are:
 
 ```json
 "_title": "DigiFact #{number}",
-"digifact2": {
+"digifact-7ttm": {
   "content": "DigiByte has upgraded the network a number of times...",
-  "url": "https://rb.gy/egrt5",
-  "link_social": " Learn more: https://rb.gy/egrt5",
-  "link_html": " Learn more <a target=\"_blank\" href=\"https://rb.gy/egrt5\">here</a>.",
-  "link_md": " Learn more [here](https://rb.gy/egrt5)."
+  "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+  "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+  "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+  "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
 }
 ```
 

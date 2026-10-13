@@ -8,9 +8,9 @@
 #          2. Gets the current DigiByte block count from several block explorers. It uses the middle value of the
 #             ones that look right, never goes backwards, and falls back to an estimate (one block every 15
 #             seconds) if no explorer answers.
-#          3. Numbers the facts in the order they appear in facts/en.json (so deleting one never leaves a gap), makes
-#             each title from the language's "_title" (e.g. "DigiFact #{number}"), fills in the
-#             live values (e.g. $blocks_tot_mil) and writes each language in each format (social, html, markdown),
+#          3. Numbers the facts in the order they appear in facts/en.json (so deleting one never leaves a gap - a
+#             DigiFact's permanent ID is its key, e.g. digifact-np2q), makes each title from the language's "_title"
+#             (e.g. "DigiFact #{number}"), fills in the live values (e.g. $blocks_tot_mil) and writes each language in each format (social, html, markdown),
 #             plus languages.json, info.json, and the help and proofreading pages. A fact that isn't translated yet
 #             is shown in English.
 #          4. Picks the DigiFact of the day (the same fact in every language, every fact once before any repeats)
@@ -24,6 +24,8 @@
 #                                 goes backwards, and the build can tell whether anything changed)
 #            GITHUB_OUTPUT        Set by GitHub Actions: 'changed=true|false' is written to it
 #            FORCE_PUBLISH=1      Report changed=true even if nothing changed
+#            GOATCOUNTER_API_KEY  A read-only GoatCounter API key: publishes the link click stats (stats/, stats.json
+#                                 and the clicks on the proofreading pages). Without it there are no click stats.
 
 import email.utils
 import hashlib
@@ -44,11 +46,24 @@ TAGS_FILE = os.path.join(ROOT, "tags.json")   # Topics, so sites can hide DigiFa
 WEBLATE_URL = "https://hosted.weblate.org/engage/digibyte-digifacts/"
 REPO_URL = "https://github.com/DigiNode-Tools/digibyte-digifacts"
 SITE_URL = "https://digifacts.diginode.tools"
-# Short links for facts with a link: SHORT_BASE + the fact's key number, e.g. HTTPS://DIGIFACTS.DIGINODE.TOOLS/L/55.
+# Short links for facts with a link: SHORT_BASE + the four characters of the fact's ID, e.g. HTTPS://DIGIFACTS.DIGINODE.TOOLS/L/NP2Q
+# (not the whole ID: the link has to fit in the QR code below).
 # In capitals on purpose: a QR code can then use its compact alphanumeric mode, so the code is small enough for
-# a 64x32 display (25x25). The site publishes a redirect page for each one (L/55.html).
+# a 64x32 display (25x25). The site publishes a redirect page for each one (L/NP2Q.html).
 SHORT_BASE = SITE_URL.upper() + "/L/"
+# The same short links in lower case (also published, as l/np2q.html), for text people read: every format, the
+# DigiFact of the day and the RSS feed use them instead of the full address - shorter for posts and small displays,
+# and every click on a DigiFact's link goes through this site. Add the full address to a DigiFact; the build
+# shortens it. (The proofreading pages show the full address, for checking it.)
+SHORT_TEXT_BASE = SITE_URL + "/l/"
+# Third-party link shorteners aren't allowed: their links can expire (and some have), and they hide where a link goes
+SHORTENERS = {"bit.ly", "j.mp", "rb.gy", "t.ly", "tinyurl.com", "is.gd", "t.co", "ow.ly", "buff.ly", "goo.gl",
+              "cutt.ly", "shorturl.at", "rebrand.ly", "tiny.cc", "v.gd", "s.id"}
 SPONSOR_URL = "https://github.com/sponsors/DigiNode-Tools"
+# Clicks on the short links are counted with GoatCounter (open source, no cookies, no personal data). Each fact is
+# counted under its ID, so its history stays together when its number changes; QR code scans (the capital L/ links)
+# have the referrer "QR code".
+STATS_URL = "https://digifacts.goatcounter.com"
 USER_AGENT = f"DigiFacts builder ({REPO_URL})"
 
 LANGUAGE_NAMES = {
@@ -58,6 +73,10 @@ LANGUAGE_NAMES = {
 }
 FIELDS = ("content", "url", "link_social", "link_html", "link_md")
 TITLE_KEY = "_title"   # Each language's title, e.g. "DigiFact #{number}"
+# A DigiFact's ID (its key): "digifact-" and four random characters, e.g. digifact-np2q - so it can't be mistaken
+# for the DigiFact's number. build/new_id.py makes a new one (no vowels, so an ID can't spell a word; no 0, 1 or l;
+# never two numbers in a row).
+ID_RE = re.compile(r"digifact-[a-z0-9]{4}")
 FORMATS = {"social": "link_social", "html": "link_html", "markdown": "link_md"}
 OUTPUT_FORMATS = dict(FORMATS, plain=None)   # plain = the fact without its link (e.g. for small displays)
 
@@ -118,6 +137,16 @@ def fail(msg):
 # ---------------------------------------------------------------------------------------------------------------
 # 1. Read and check the facts
 
+def no_duplicate_keys(pairs):
+    """json.load would quietly keep only the last of two DigiFacts with the same ID - so stop instead."""
+    data = {}
+    for key, value in pairs:
+        if key in data:
+            raise KeyError(key)
+        data[key] = value
+    return data
+
+
 def load_facts():
     """Return ({lang: {key: fact}}, {lang: title}) in language order (English first), checking everything.
     Exits on a problem."""
@@ -141,9 +170,11 @@ def load_facts():
             LANGUAGE_NAMES[lang] = lang
         try:
             with open(os.path.join(FACTS_DIR, files[lang]), encoding="utf-8") as f:
-                data = json.load(f)
+                data = json.load(f, object_pairs_hook=no_duplicate_keys)
         except ValueError as e:
             fail(f"{path} is not valid JSON: {e}")
+        except KeyError as e:
+            fail(f"{path}: the ID {e.args[0]} is used twice - every DigiFact needs its own ID (build/new_id.py makes one)")
         if not isinstance(data, dict):
             fail(f"{path} should contain one object with a key for each DigiFact")
         title = data.pop(TITLE_KEY, "")
@@ -153,8 +184,8 @@ def load_facts():
             titles[lang] = title
         for key, fact in data.items():
             where = f"{path} {key}"
-            if not re.fullmatch(r"digifact[1-9][0-9]*", key):
-                fail(f"{where}: keys must be digifact1, digifact2, ...")
+            if not ID_RE.fullmatch(key):
+                fail(f"{where}: each DigiFact's key is its ID, e.g. digifact-np2q (build/new_id.py makes one)")
             if not isinstance(fact, dict):
                 fail(f"{where} should be an object")
             for field, value in fact.items():
@@ -172,6 +203,8 @@ def load_facts():
                 fail(f'{where} link_html should contain exactly one link: <a target="_blank" href="https://...">text</a>')
             if fact.get("url") and not re.fullmatch(r"https://\S+", fact["url"]):
                 fail(f"{where} url should start with https://")
+            if fact.get("url") and urllib.parse.urlparse(fact["url"]).netloc.lower() in SHORTENERS:
+                fail(f"{where} url: use the full address, not a link shortener - the build makes a short link for it")
         facts[lang] = data
 
     en = facts["en"]
@@ -308,7 +341,92 @@ def block_count(prev):
 
 
 # ---------------------------------------------------------------------------------------------------------------
-# 3. Output
+# 3. Link click stats (from GoatCounter - see STATS_URL)
+
+STATS_SINCE = "2026-10-13"   # When counting began
+STATS_DAYS = 30
+
+
+def goatcounter(path, params, api_key):
+    url = f"{STATS_URL}/api/v0/{path}?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {api_key}", "User-Agent": USER_AGENT,
+                                               "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.load(r)
+
+
+def click_stats(keys, prev_site):
+    """{"facts": {id: {"clicks", "clicks_30_days", "qr"}}, "total", "referrers", "countries"} for the DigiFacts with
+    links (keys), or None without an API key. If GoatCounter doesn't answer, the published stats are kept."""
+    api_key = os.environ.get("GOATCOUNTER_API_KEY", "").strip()
+    if not api_key:
+        return None
+    hour = time.strftime("%Y-%m-%dT%H:00:00Z", time.gmtime(time.time() + 3600))
+    since_30 = time.strftime("%Y-%m-%dT%H:00:00Z", time.gmtime(time.time() - STATS_DAYS * 86400))
+    try:
+        def hits(start):
+            got = goatcounter("stats/hits", {"start": start, "end": hour, "limit": 100}, api_key)
+            return {h["path"]: h for h in got.get("hits", [])}
+        all_time, recent = hits(STATS_SINCE + "T00:00:00Z"), hits(since_30)
+        facts, total = {}, 0
+        for key in keys:
+            h = all_time.get("/" + key)
+            clicks = h["count"] if h else 0
+            qr = 0
+            if clicks:
+                time.sleep(0.3)   # GoatCounter allows a few requests a second
+                refs = goatcounter(f"stats/hits/{h['path_id']}", {"start": STATS_SINCE + "T00:00:00Z", "end": hour,
+                                                                    "limit": 100}, api_key)
+                qr = sum(r["count"] for r in refs.get("refs", []) if "qr code" in str(r.get("name", "")).lower())
+            facts[key] = {"clicks": clicks, "clicks_30_days": recent["/" + key]["count"] if "/" + key in recent else 0,
+                          "qr": qr}
+            total += clicks
+
+        def top(page):
+            got = goatcounter(f"stats/{page}", {"start": STATS_SINCE + "T00:00:00Z", "end": hour, "limit": 10}, api_key)
+            return [{"name": r["name"] or "Direct (no referrer)", "clicks": r["count"]} for r in got.get("stats", [])]
+        return {"since": STATS_SINCE, "facts": facts, "total": total, "referrers": top("toprefs"),
+                "countries": top("locations")}
+    except Exception as e:
+        warn(f"Couldn't get the click stats from GoatCounter ({e}) - keeping the published ones")
+        try:
+            return json.loads(fetch(f"{prev_site}/stats.json")) if prev_site else None
+        except Exception:
+            return None
+
+
+def stats_page(stats, en_facts, count):
+    numbers = {key: n for n, key in enumerate(en_facts, start=1)}
+    rows = []
+    for key, s in sorted(stats["facts"].items(), key=lambda kv: (-kv[1]["clicks_30_days"], -kv[1]["clicks"], numbers.get(kv[0], 0))):
+        if key not in en_facts:
+            continue
+        f = en_facts[key]
+        text = fill(f["content"], count)
+        text = text if len(text) <= 90 else text[:90].rsplit(" ", 1)[0] + "..."
+        rows.append(f'<tr><td>{numbers[key]}</td><td>{html.escape(text)}<br><span class="muted"><code>{key}</code> · '
+                    f'<a href="{html.escape(f["url"], quote=True)}">link</a></span></td>'
+                    f'<td>{s["clicks_30_days"]:,}</td><td>{s["clicks"]:,}</td><td>{s["qr"]:,}</td></tr>')
+
+    def top(items):
+        return "".join(f"<li>{html.escape(i['name'])}: {i['clicks']:,}</li>" for i in items) or "<li>None yet</li>"
+    since = time.strftime("%-d %B %Y", time.strptime(stats["since"], "%Y-%m-%d"))
+    body = f"""<h1>DigiFacts link clicks</h1>
+<p>How many people clicked each DigiFact's link (or scanned its QR code), counted since {since}: {stats["total"]:,} so far. Clicks are counted with <a href="https://www.goatcounter.com">GoatCounter</a> - no cookies and no personal data. Ad blockers stop some clicks being counted, so the real numbers are a little higher.</p>
+<div class="scroll"><table>
+<tr><th>#</th><th>DigiFact</th><th>Last {STATS_DAYS} days</th><th>All time</th><th>QR scans</th></tr>
+{"".join(rows)}
+</table></div>
+<div class="row two">
+<div><h2>Where clicks come from</h2><ul>{top(stats["referrers"])}</ul></div>
+<div><h2>Countries</h2><ul>{top(stats["countries"])}</ul></div>
+</div>
+<p class="muted">Updated every hour. <a href="../stats.json">stats.json</a> · <a href="../help/">About DigiFacts</a></p>"""
+    return PAGE.format(lang="en", title="DigiFacts link clicks", body=body)
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# 4. Output
 
 FEED_DAYS = 30
 
@@ -341,11 +459,12 @@ def today_and_feed(lang, loc, count, day, fact_tags):
             "key": key,
             "title": fill(f["title"], count),
             "url": f.get("url", ""),
-            "text": fill(f["content"] + f.get("link_social", ""), count),
-            "html": fill(f["content"] + f.get("link_html", ""), count),
-            "markdown": fill(f["content"] + f.get("link_md", ""), count),
+            "text": fill(f["content"] + short_link(key, f, "link_social"), count),
+            "html": fill(f["content"] + short_link(key, f, "link_html"), count),
+            "markdown": fill(f["content"] + short_link(key, f, "link_md"), count),
             "plain": fill(f["content"], count),
             "short_url": short_url(key, f),
+            "short_link": SHORT_TEXT_BASE + key[len("digifact-"):] if f.get("url") else "",
             "id": key,
             "tags": fact_tags.get(key, []),
         }
@@ -358,7 +477,7 @@ def today_and_feed(lang, loc, count, day, fact_tags):
             "<item>"
             f"<title>{html.escape(e['title'])}</title>"
             f"<description>{html.escape(e['text'])}</description>"
-            f"<link>{html.escape(e['url'] or SITE_URL + '/help/')}</link>"
+            f"<link>{html.escape(e['short_link'] or SITE_URL + '/help/')}</link>"
             f"<guid isPermaLink=\"false\">digifacts-{lang}-{e['date']}</guid>"
             f"<pubDate>{email.utils.formatdate(d * 86400, usegmt=True)}</pubDate>"
             "</item>")
@@ -372,14 +491,28 @@ def today_and_feed(lang, loc, count, day, fact_tags):
 
 
 def short_url(key, fact):
-    return SHORT_BASE + key[len("digifact"):] if fact.get("url") else ""
+    return SHORT_BASE + key[len("digifact-"):].upper() if fact.get("url") else ""
 
 
-def redirect_page(url):
+def short_link(key, fact, field):
+    """The fact's link field (link_social, link_html or link_md), with its short link (in lower case) instead of
+    the full address."""
+    link = fact.get(field, "")
+    return link.replace(fact["url"], SHORT_TEXT_BASE + key[len("digifact-"):]) if fact.get("url") else link
+
+
+def redirect_page(url, key, title, qr):
+    """A short link's page: counts the click (if the counter isn't blocked), then goes to the full address."""
     u = html.escape(url, quote=True)
+    count = urllib.parse.urlencode({"p": "/" + key, "t": title, "r": "QR code" if qr else ""})
+    script = (f"try{{var c={json.dumps(STATS_URL + '/count?' + count)};"
+              + ("" if qr else "if(document.referrer)c=c.replace('&r=','&r='+encodeURIComponent(document.referrer));")
+              + "c+='&rnd='+Math.random().toString(36).slice(2);"
+              "if(navigator.sendBeacon)navigator.sendBeacon(c);else(new Image()).src=c}catch(e){}"
+              f"location.replace({json.dumps(url)})").replace("</", "<\\/")
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DigiFacts link</title>'
             f'<meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={u}">'
-            f'<link rel="canonical" href="{u}"><script>location.replace({json.dumps(url)})</script></head>'
+            f'<link rel="canonical" href="{u}"><script>{script}</script></head>'
             f'<body><p>Going to <a href="{u}">{u}</a></p></body></html>\n')
 
 
@@ -446,10 +579,10 @@ def help_page(langs, info):
 <h2>Get the DigiFacts</h2>
 <p>Each language is a JSON file in four formats. The address is <code>https://digifacts.diginode.tools/&lt;language&gt;/&lt;format&gt;.json</code>, for example <a href="../en/social.json"><code>/en/social.json</code></a>.</p>
 <ul>
-<li><b>social</b> - links as plain URLs, for social media: <code>Learn more: https://example.com</code></li>
-<li><b>html</b> - links as HTML, for websites: <code>Learn more &lt;a href="https://example.com"&gt;here&lt;/a&gt;.</code></li>
-<li><b>markdown</b> - links in Markdown: <code>Learn more [here](https://example.com).</code></li>
-<li><b>plain</b> - no link, just the fact (e.g. for small displays). The link is still in <code>url</code>.</li>
+<li><b>social</b> - links as short plain URLs, for social media: <code>Learn more: https://digifacts.diginode.tools/l/7ttm</code></li>
+<li><b>html</b> - links as HTML, for websites: <code>Learn more &lt;a href="https://digifacts.diginode.tools/l/7ttm"&gt;here&lt;/a&gt;.</code></li>
+<li><b>markdown</b> - links in Markdown: <code>Learn more [here](https://digifacts.diginode.tools/l/7ttm).</code></li>
+<li><b>plain</b> - no link, just the fact (e.g. for small displays). The link is still in <code>short_link</code>, and the full address in <code>url</code>.</li>
 </ul>
 <p>A fact that isn't translated yet is included in English, so every language always has every fact.</p>
 <div class="scroll"><table>
@@ -482,12 +615,13 @@ def help_page(langs, info):
 <p>On WordPress, you can use the <a href="https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress">DigiFacts plugin</a> instead.</p>
 
 <h2 id="hiding">Hiding DigiFacts</h2>
-<p>Every DigiFact has an <b>ID</b>, like <code>digifact78</code>, that never changes - unlike its number, which can change when DigiFacts are removed. Some DigiFacts also have <b>tags</b>, for their topic. A website can hide DigiFacts about itself, by tag or by ID:</p>
-<pre><code>&lt;div data-digifacts data-exclude-tags="diginode-tools" data-exclude="digifact12"&gt;&lt;/div&gt;</code></pre>
+<p>Every DigiFact has an <b>ID</b>, like <code>digifact-np2q</code>, that never changes. (Its number can change, when DigiFacts are removed.) Some DigiFacts also have <b>tags</b>, for their topic. A website can hide DigiFacts about itself, by tag or by ID:</p>
+<pre><code>&lt;div data-digifacts data-exclude-tags="diginode-tools" data-exclude="digifact-np2q"&gt;&lt;/div&gt;</code></pre>
 <p>Hiding a tag also hides any DigiFacts given that tag in future. The tags are: {tag_list}. The IDs and tags are shown on the <a href="../proofread/en/">proofreading pages</a>, and every DigiFact in the JSON files has an <code>id</code> and <code>tags</code>. The WordPress plugin has the same options in its settings.</p>
 
 <h2>How they're made</h2>
 <p>The facts live in the <a href="{REPO_URL}">digibyte-digifacts</a> repository. Every hour, and whenever the facts change, a public <a href="{REPO_URL}/actions">GitHub Action</a> checks them, fills in the live data and publishes this site. The block count comes from several block explorers (currently {html.escape(", ".join(EXPLORERS))}); the middle value is used, and if none of them answer, an estimate based on DigiByte's 15 second block time.</p>
+<p>Links in DigiFacts are short links, like <code>https://digifacts.diginode.tools/l/7ttm</code>, so they fit in posts and on small displays. Clicks on them are counted with <a href="https://www.goatcounter.com">GoatCounter</a>, with no cookies and no personal data, to see which DigiFacts people find most interesting{' - see the <a href="../stats/">click stats</a>' if info.get("click_stats") else ""}.</p>
 
 <h2>Help improve them</h2>
 <p>Spotted a mistake, or a fact that's out of date? Translations can always be improved too, and new languages are welcome. See <a href="{REPO_URL}#contributing">how to contribute</a>, or <a href="../proofread/en/">read through the facts</a>.</p>
@@ -498,18 +632,20 @@ def help_page(langs, info):
 
 def suggest_url(key, number, text):
     """A link to the 'Suggest a correction' form, with the DigiFact filled in."""
-    q = urllib.parse.urlencode({"template": "correction.yml", "title": f"Correction: DigiFact #{number} ({key})",
-                                "fact": f"#{number} - ID {key}", "current": text})
+    q = urllib.parse.urlencode({"template": "correction.yml", "title": f"Correction: DigiFact #{number} (ID {key})",
+                                "fact": f"#{number} (ID {key})", "current": text})
     return f"{REPO_URL}/issues/new?{q}"
 
 
-def proofread_page(lang, langs, en_facts, facts, count, fact_tags):
+def proofread_page(lang, langs, en_facts, facts, count, fact_tags, stats):
     links = " ".join(f'<a href="../{l}/">{html.escape(LANGUAGE_NAMES[l])}</a>' for l in langs)
     numbers = {key: n for n, key in enumerate(en_facts, start=1)}
 
     def details(key):
         tags = "".join(f' <span class="tag">{html.escape(t)}</span>' for t in fact_tags.get(key, []))
-        return f'<p class="meta">ID <code>{key}</code>{tags}</p>'
+        s = (stats or {}).get("facts", {}).get(key)
+        clicks = f' · <a href="../../stats/">{s["clicks"]:,} click{"" if s["clicks"] == 1 else "s"}</a>' if s else ""
+        return f'<p class="meta">ID <code>{key}</code>{tags}{clicks}</p>'
 
     def card(key, fact, missing=False, english=False):
         if missing:
@@ -532,7 +668,7 @@ def proofread_page(lang, langs, en_facts, facts, count, fact_tags):
              f"The English DigiFacts on the left, and the {html.escape(LANGUAGE_NAMES[lang])} translation on the right.")
     body = f"""<h1>DigiFacts proofreading: {html.escape(LANGUAGE_NAMES[lang])}</h1>
 <p>{intro} Spotted a mistake, or a DigiFact that's out of date? Click <b>Suggest a change</b> under it. Translations are improved on <a href="{WEBLATE_URL}">Weblate</a>. Thank you!</p>
-<p class="muted">Each DigiFact has an <b>ID</b> that never changes (its number can, when DigiFacts are removed). Websites can use the IDs and tags to hide particular DigiFacts - see <a href="../../help/#hiding">hiding DigiFacts</a>.</p>
+<p class="muted">Each DigiFact has an <b>ID</b>, like <code>digifact-np2q</code>, that never changes (its number can, when DigiFacts are removed). Websites can use the IDs and tags to hide particular DigiFacts - see <a href="../../help/#hiding">hiding DigiFacts</a>.</p>
 <p class="langs">{links}</p>
 {"".join(rows)}
 <p class="muted"><a href="../../help/">About DigiFacts</a></p>"""
@@ -557,17 +693,25 @@ def main():
         langs_info[lang] = {"name": LANGUAGE_NAMES[lang], "translated": translated}
         for fmt, link_field in OUTPUT_FORMATS.items():
             data = {key: {"title": fill(f["title"], count),
-                          "content": fill(f["content"] + (f.get(link_field, "") if link_field else ""), count),
+                          "content": fill(f["content"] + (short_link(key, f, link_field) if link_field else ""), count),
                           "url": f.get("url", ""),
                           "short_url": short_url(key, f),
+                          "short_link": SHORT_TEXT_BASE + key[len("digifact-"):] if f.get("url") else "",
                           "id": key,
                           "tags": fact_tags.get(key, [])} for key, f in loc.items()}
             files[f"{lang}/{fmt}.json"] = to_json(data)
         files[f"{lang}/today.json"], files[f"{lang}/feed.xml"] = today_and_feed(lang, loc, count, day, fact_tags)
-    files["index.html"] = files["en/social.json"]   # DigiNode Tools v26.10.x and older use '/?lang=en&format=social'
+    # DigiNode Tools v26.10.x and older use '/?lang=en&format=social'. They hid the DigiFact about DigiNode Tools by
+    # its old key (digifact78), so it's left out for them here.
+    files["index.html"] = to_json({k: v for k, v in json.loads(files["en/social.json"]).items()
+                                   if "diginode-tools" not in v["tags"]})
     files["languages.json"] = json.dumps(langs) + "\n"
     with open(os.path.join(ROOT, "embed", "digifacts.js"), encoding="utf-8") as f:
         files["embed/v1/digifacts.js"] = f.read()   # The embed for any website (v1: keep it compatible)
+
+    stats = click_stats([k for k, f in facts["en"].items() if f.get("url")], os.environ.get("DIGIFACTS_SITE_URL", "").rstrip("/"))
+    if stats:
+        files["stats.json"] = to_json(stats)
 
     # Did anything change since the last publish? (Not counting info.json's times)
     digest = hashlib.sha256("".join(f"{p}\n{c}" for p, c in sorted(files.items())).encode("utf-8")).hexdigest()
@@ -588,17 +732,24 @@ def main():
                  for t, d in tag_descriptions.items()},
         "source": REPO_URL,
         "commit": os.environ.get("GITHUB_SHA", ""),
+        "click_stats": SITE_URL + "/stats/" if stats else "",
         "content_hash": digest,
     }
     files["info.json"] = to_json(info)
     files["help/index.html"] = help_page(langs, info)
     for lang in langs:
-        files[f"proofread/{lang}/index.html"] = proofread_page(lang, langs, localised["en"], localised[lang], count, fact_tags)
+        files[f"proofread/{lang}/index.html"] = proofread_page(lang, langs, localised["en"], localised[lang], count, fact_tags, stats)
     files["proofread/index.html"] = '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=en/"><a href="en/">Proofread the DigiFacts</a>\n'
     files[".nojekyll"] = ""
+    if stats:
+        files["stats/index.html"] = stats_page(stats, localised["en"], count)
     for key, f in facts["en"].items():
         if f.get("url"):
-            files[f"L/{key[len('digifact'):]}.html"] = redirect_page(f["url"])
+            code = key[len("digifact-"):]
+            text = f["content"] if len(f["content"]) <= 60 else f["content"][:60].rsplit(" ", 1)[0] + "..."
+            title = fill(localised["en"][key]["title"], count) + ": " + fill(text, count)
+            files[f"L/{code.upper()}.html"] = redirect_page(f["url"], key, title, qr=True)
+            files[f"l/{code}.html"] = redirect_page(f["url"], key, title, qr=False)
 
     for path, content in files.items():
         write(os.path.join(out_dir, path), content)

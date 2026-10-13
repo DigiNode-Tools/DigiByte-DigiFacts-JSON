@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # Name:    check_edits.py
-# Purpose: Check that edits to English DigiFacts are still the same DigiFact. A DigiFact's ID (its key) never
+# Purpose: Check that edits to English DigiFacts are still the same DigiFact. A DigiFact's ID (its key, e.g. digifact-np2q) never
 #          changes, and websites use IDs to hide particular DigiFacts - so a DigiFact rewritten into a different
 #          one must be added as a new DigiFact instead (and the old one deleted if it's out of date). Run on pull
 #          requests by the "Check DigiFacts" workflow. Fails if an edited DigiFact's text has changed too much.

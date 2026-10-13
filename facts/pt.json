@@ -1,389 +1,382 @@
 {
   "_title": "DigiFato #{number}",
-  "digifact1": {
+  "digifact-gsz3": {
     "content": "O blockchain DigiByte foi lançado em 2014. Graças ao seu tempo de bloco de 15 segundos, é o blockchain UTXO mais longo em existência, com mais de $blocks_tot_mil milhões de blocos. O Bitcoin levará até o século 22 para alcançar tantos blocos."
   },
-  "digifact2": {
+  "digifact-7ttm": {
     "content": "DigiByte atualizou a rede várias vezes para incluir \"marcos de melhorias\". Esses hard forks não foram divisões contenciosas que geraram moedas adicionais, mas sim uma \"reorientação do navio\" com a qual a comunidade DigiByte estava a bordo.",
-    "url": "https://rb.gy/egrt5",
-    "link_social": " Saiba mais: https://rb.gy/egrt5",
-    "link_html": " Saiba mais <a target=\"_blank\" href=\"https://rb.gy/egrt5\">aqui</a>.",
-    "link_md": " Saiba mais [aqui](https://rb.gy/egrt5)."
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Saiba mais: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Saiba mais <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">aqui</a>.",
+    "link_md": " Saiba mais [aqui](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
   },
-  "digifact3": {
+  "digifact-fbnc": {
     "content": "A blockchain DigiByte foi lançada de forma justa em 2014, muito antes da febre de Oferta Inicial de Moedas (ICO) de projetos de whitepaper em 2017. DigiByte começou com uma blockchain totalmente funcional que tem sido constantemente aprimorada desde então."
   },
-  "digifact4": {
+  "digifact-3tsn": {
     "content": "Quando o DigiByte foi lançado em 2014, uma pequena quantidade de pré-mineração de DigiByte (0,5%) foi distribuída aos membros da comunidade nos primeiros 30 dias, e os detalhes podem ser vistos no BitcoinTalk. Isso foi feito para incentivar as pessoas a baixar e executar um nó completo, ajudando a distribuir a blockchain. Nenhum dos pré-minados foi retido pelo fundador ou desenvolvedores."
   },
-  "digifact5": {
+  "digifact-zbrf": {
     "content": "Não há recompensa para os fundadores no blockchain DigiByte. A recompensa por minerar cada bloco sempre vai para quem o minerou. Nenhuma parte dela vai para outra pessoa."
   },
-  "digifact6": {
+  "digifact-c6ds": {
     "content": "O fundador do DigiByte e os desenvolvedores compraram suas moedas DGB em uma bolsa a taxas de mercado, ou as mineraram, assim como todos os outros. Não houve um ICO (Oferta Inicial de Moeda) para o blockchain DigiByte. Cada moeda foi minerada de forma justa desde o bloco gênese."
   },
-  "digifact7": {
+  "digifact-g4d8": {
     "content": "As taxas de transação no blockchain DigiByte são tipicamente incrivelmente baixas. No bloco 7658349, um usuário enviou 342.000.000 DGB (valendo 6 milhões de USD na época) de mais de 200 endereços diferentes. Custou 1/10 de centavo (USD) em taxas e levou apenas um ou dois minutos para confirmar."
   },
-  "digifact8": {
+  "digifact-2fm8": {
     "content": "A DigiByte foi pioneira no ajuste de dificuldade DigiShield. É usado no Dogecoin, Ubiq, ZCash, Monacoin e partes do código são até usadas no Ethereum.",
-    "url": "https://j.mp/3oivy5u",
-    "link_social": " O que é o DigiShield (também conhecido como MultiShield)? Saiba mais aqui: https://j.mp/3oivy5u",
-    "link_html": " O que é o DigiShield (também conhecido como MultiShield)? Saiba mais <a target=\"_blank\" href=\"https://j.mp/3oivy5u\">aqui</a>.",
-    "link_md": " O que é o DigiShield (também conhecido como MultiShield)? Saiba mais [aqui](https://j.mp/3oivy5u)."
+    "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_social": " O que é o DigiShield (também conhecido como MultiShield)? Saiba mais aqui: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_html": " O que é o DigiShield (também conhecido como MultiShield)? Saiba mais <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">aqui</a>.",
+    "link_md": " O que é o DigiShield (também conhecido como MultiShield)? Saiba mais [aqui](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
-  "digifact9": {
+  "digifact-8b5z": {
     "content": "DigiByte foi o primeiro blockchain que não é Bitcoin a corrigir o grande bug de inflação em 2018. Resposta rápida dos nossos incríveis desenvolvedores!"
   },
-  "digifact10": {
+  "digifact-9kh4": {
     "content": "O 'Bloco Gênesis' do DigiByte continha a seguinte manchete: 'USA Today: 10/Jan/2014, Alvo: Dados roubados de até 110 milhões de clientes.' Isso consolidou para sempre o foco do DigiByte em cibersegurança."
   },
-  "digifact11": {
+  "digifact-g2h8": {
     "content": "DigiByte foi a primeira moeda a atualizar de um único algoritmo de mineração para MultiAlgo, visando a segurança adicional proporcionada pelo uso de 5 algoritmos. Essa atualização ocorreu no final de 2014 como parte da atualização de rede 'MultiAlgo'.",
-    "url": "https://j.mp/3oivy5u",
-    "link_social": " O que é o MultiAlgo? Saiba mais aqui: https://j.mp/3oivy5u",
-    "link_html": " O que é o MultiAlgo? Saiba mais <a target=\"_blank\" href=\"https://j.mp/3oivy5u\">aqui</a>.",
-    "link_md": " O que é o MultiAlgo? Saiba mais [aqui](https://j.mp/3oivy5u)."
+    "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_social": " O que é o MultiAlgo? Saiba mais aqui: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_html": " O que é o MultiAlgo? Saiba mais <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">aqui</a>.",
+    "link_md": " O que é o MultiAlgo? Saiba mais [aqui](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
-  "digifact12": {
+  "digifact-q5s8": {
     "content": "Inicialmente, o DigiByte usava apenas o algoritmo Scrypt para mineração. Em setembro de 2014, a rede foi atualizada para MultiAlgo, utilizando Scrypt, SHA256, Skein, Qubit e Myriad-Groestl. Isso melhorou muito a descentralização, permitindo o uso de uma variedade mais ampla de hardware de mineração."
   },
-  "digifact13": {
+  "digifact-9qrc": {
     "content": "Em 2019, o DigiByte atualizou a rede, substituindo o algoritmo Myriad-Groestl pelo Odocrypt, um algoritmo projetado para ser resistente a ASIC ao focar na mineração com hardware FPGA. No entanto, como na maioria dos algoritmos resistentes a ASIC, se houver incentivos financeiros, eventualmente ASICs serão desenvolvidos para esses algoritmos, como é o caso do Odocrypt."
   },
-  "digifact14": {
+  "digifact-rtw2": {
     "content": "Em 2018, a comunidade DigiByte arrecadou fundos suficientes para fornecer mais de mil garrafas de água para refugiados venezuelanos que cruzavam a fronteira, alimentar 160 crianças órfãs por um mês, fornecer manutenção essencial para um hospital, reformar uma cozinha escolar em Adicora e organizar vários almoços comunitários gratuitos para centenas de pessoas."
   },
-  "digifact15": {
+  "digifact-z6qb": {
     "content": "DigiByte não é um ICO ou um token lançado em outra rede, mas sim um projeto de blockchain puro com suas próprias regras de consenso como Bitcoin ou Litecoin."
   },
-  "digifact16": {
+  "digifact-5txj": {
     "content": "Para obter suporte geral para o DigiByte, um bom ponto de partida é usar a ferramenta de suporte da comunidade disponível",
     "url": "https://dgbsupport.digiassetx.com/",
     "link_social": " aqui: https://dgbsupport.digiassetx.com/",
     "link_html": " <a target=\"_blank\" href=\"https://dgbsupport.digiassetx.com/\">aqui</a>.",
     "link_md": " [aqui](https://dgbsupport.digiassetx.com/)."
   },
-  "digifact17": {
+  "digifact-2dtn": {
     "content": "DigiByte pode ser usado para armazenar pequenas quantidades (80 bytes) de dados junto com uma transação conhecida como OP_RETURN. Isso é útil para hashes de documentos para notarização/validação, dApps, scripts e mais."
   },
-  "digifact18": {
+  "digifact-xs6z": {
     "content": "Você pode consultar qualquer transação na Blockchain DigiByte inserindo um ID de transação, endereço DigiByte ou número de bloco em um 'Explorador de Blockchain'.",
     "url": "https://digiexplorer.info",
     "link_social": " A comunidade mantém um explorador desse tipo que você pode usar em: https://digiexplorer.info",
     "link_html": " A comunidade mantém um explorador desse tipo que você pode usar <a target=\"_blank\" href=\"https://digiexplorer.info/\">aqui</a>.",
     "link_md": " A comunidade mantém um explorador desse tipo que você pode usar [aqui](https://digiexplorer.info/)."
   },
-  "digifact19": {
+  "digifact-sg8d": {
     "content": "Você já quis executar seu próprio DigiExplorer? Ou obter outros dados da blockchain para integrá-los ao seu negócio?",
     "url": "https://dgbwiki.com",
     "link_social": " Existem guias úteis que irão ajudá-lo aqui: https://dgbwiki.com",
     "link_html": " Existem guias úteis que irão ajudá-lo <a target=\"_blank\" href=\"https://dgbwiki.com/\">aqui</a>.",
     "link_md": " Existem guias úteis que irão ajudá-lo [aqui](https://dgbwiki.com/)."
   },
-  "digifact20": {
+  "digifact-cmq8": {
     "content": "O nome 'DigiByte' foi originalmente escolhido pois significa um 'Byte Digital' de dados. Isso porque a tecnologia blockchain como DigiByte pode ser usada para muito mais do que como uma 'moeda', como a prata ou o ouro. DigiByte é incrivelmente versátil."
   },
-  "digifact21": {
+  "digifact-rwvq": {
     "content": "Uma cópia do código-fonte aberto da blockchain DigiByte v7.17.3 está em armazenamento a frio a 250 metros de profundidade no permafrost de uma montanha ártica! Graças ao programa GitHub Arctic Code Vault!"
   },
-  "digifact22": {
+  "digifact-nzcz": {
     "content": "DigiByte está disponível em mais de 100 exchanges, incluindo muitos pares fiat com moedas locais, tornando mais fácil do que nunca comprar DigiByte."
   },
-  "digifact23": {
+  "digifact-qmjp": {
     "content": "DigiByte foi fundado por Jared Tate em 2013 e o bloco Gênesis foi minerado em 10 de janeiro de 2014. Embora Jared permaneça como um membro ativo da comunidade DigiByte e um dos desenvolvedores principais, ele não dita a direção do projeto. DigiByte não tem chefe - é inteiramente administrado e gerido por uma comunidade global de voluntários dedicados."
   },
-  "digifact24": {
+  "digifact-gh7t": {
     "content": "DigiByte pode fazer contratos inteligentes graças à sua linguagem 'script'. Você pode executar muitas ferramentas poderosas em cima do DigiByte para alimentar um dApp."
   },
-  "digifact25": {
+  "digifact-2ppj": {
     "content": "A carteira oficial DigiByte Core está disponível para Windows, MacOS e Linux, bem como para computadores de placa única de baixo consumo de energia, como o Raspberry Pi. DigiByte é suportado em dispositivos móveis por uma série de carteiras de terceiros, como Coinomi e SecuX. Também está disponível em muitas carteiras de hardware, como Ledger e Trezor. Observe que nem todas essas carteiras suportam Digi-ID e DigiAssets."
   },
-  "digifact26": {
+  "digifact-s4gj": {
     "content": "O Digi-ID da DigiByte é um dos métodos de autenticação mais simples e seguros do mundo. Até mesmo o Google alerta contra o uso de seus próprios códigos 2FA baseados em tempo ou SMS-2FA, mas o Digi-ID supera todas as limitações. O Digi-ID é de código aberto, gratuito, sem anúncios (para sempre), privado e seguro.",
     "url": "https://www.digi-id.io/",
     "link_social": " Saiba mais: https://www.digi-id.io/",
     "link_html": " Saiba mais <a target=\"_blank\" href=\"https://www.digi-id.io/\">aqui</a>.",
     "link_md": " Saiba mais [aqui](https://www.digi-id.io/)."
   },
-  "digifact27": {
+  "digifact-3zcz": {
     "content": "O desenvolvimento do DigiByte é feito por uma equipe mundial de voluntários, que doam seu tempo por paixão ao projeto. Não há uma empresa central empregando e pagando as pessoas, tudo é dado gratuitamente por nossos incríveis desenvolvedores e comunidade de apoio."
   },
-  "digifact28": {
+  "digifact-k8qp": {
     "content": "O último DigiByte será minerado até o ano de 2035. Existe menos da metade de todos os DGB restantes esperando para serem minerados por alguém no mundo. Estes não são 'propriedade' de ninguém, ao contrário de um ICO, e serão 'cunhados' novos."
   },
-  "digifact29": {
+  "digifact-v3nn": {
     "content": "DigiByte pode ser usado para Trocas Atômicas com outras blockchains de forma segura e segura desde a implementação do SegWit no início de 2017. Não é necessário uma segunda camada de rede para realizar isso e pode ser feito diretamente."
   },
-  "digifact30": {
+  "digifact-xtxt": {
     "content": "Quando todos os DigiByte forem minerados, a rede continuará a funcionar com os mineiros minerando / protegendo a rede como fazem atualmente. Eles só receberão as taxas de transação de enviar DGB."
   },
-  "digifact31": {
+  "digifact-7n3j": {
     "content": "Se você algum dia tiver problemas para retirar seus DigiBytes de uma carteira, você pode transferir os fundos para uma nova carteira usando a ferramenta DigiSweep criada por Matthew Cornelisse da DigiAssetX. É fácil de usar e de código aberto.",
     "url": "https://digisweep.digiassetx.com/",
     "link_social": " Encontre-o aqui: https://digisweep.digiassetx.com/",
     "link_html": " Encontre-o <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">aqui</a>.",
     "link_md": " Encontre-o [aqui](https://digisweep.digiassetx.com/)."
   },
-  "digifact32": {
+  "digifact-cbwt": {
     "content": "Quando o DigiByte foi lançado, houve uma contagem regressiva para o lançamento do código e para a mineração do primeiro bloco. Isso foi uma das coisas feitas para incentivar uma distribuição \"justa\" desde o início em 2014."
   },
-  "digifact33": {
+  "digifact-9t6n": {
     "content": "DigiByte foi originalmente baseado em um fork do código-fonte do Litecoin (embora seja uma blockchain 100% independente com um Bloco Gênese único). Desde então, o DigiByte manteve características mais próximas do Bitcoin, inovando significativamente e superando-o!",
     "url": "https://github.com/digibyte-core/digibyte/",
     "link_social": " Veja o código aqui: https://github.com/digibyte-core/digibyte/",
     "link_html": " Veja o código <a target=\"_blank\" href=\"https://github.com/digibyte-core/digibyte/\">aqui</a>.",
     "link_md": " Veja o código [aqui](https://github.com/digibyte-core/digibyte/)."
   },
-  "digifact34": {
+  "digifact-5fq3": {
     "content": "Qualquer um pode construir redes de segunda camada em cima do Blockchain DigiByte, como DigiAssets, Lightning Networks, ICOs, Tokens, ativos e mais."
   },
-  "digifact35": {
+  "digifact-fdtw": {
     "content": "Existe um número impressionante de endereços DigiByte possíveis. 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976 (2¹⁶⁰). Isso é um quindecilhão. É tão grande que você poderia gerar aleatoriamente trilhões de endereços por segundo e nunca gerar o mesmo duas vezes."
   },
-  "digifact36": {
+  "digifact-dk5q": {
     "content": "Você pode aceitar DigiByte em cenários de varejo simplesmente inserindo o valor desejado na sua carteira. O código QR incluirá automaticamente o seu endereço e o montante quando o remetente o digitalizar. Super simples, diretamente da sua carteira."
   },
-  "digifact37": {
+  "digifact-vpb3": {
     "content": "A carteira DigiByte Core conecta-se a uma variedade de pares, não apenas os 'mais próximos' ou 'mais rápidos'. Ela encontra conexões de todo o mundo, para garantir que você obtenha um amplo consenso sobre a blockchain DigiByte e proteja você contra ataques Sybil."
   },
-  "digifact38": {
+  "digifact-bd3t": {
     "content": "DigiByte implementou o protocolo DigiSpeed em 2015. Isso permitiu que o DigiByte diminuísse o tempo de bloco de 30 segundos para 15 segundos. Rápido como um relâmpago!"
   },
-  "digifact39": {
-    "content": "A Equipe de Infraestrutura Crítica do DigiByte (DGBCIT) foi fundada em janeiro de 2023, com o objetivo de garantir que a blockchain do DigiByte, juntamente com seus serviços críticos, estejam sempre em funcionamento. Isso é alcançado por meio de um esforço comunitário de descentralização e redundância coordenada.",
-    "url": "https://t.ly/DGBCIT",
-    "link_social": " Por favor, junte-se ao canal #DGBCIT no servidor Discord do DigiByte: https://t.ly/DGBCIT",
-    "link_html": " Por favor, junte-se ao canal #DGBCIT no servidor Discord do DigiByte <a target=\"_blank\" href=\"https://t.ly/DGBCIT\">aqui</a>.",
-    "link_md": " Por favor, junte-se ao canal #DGBCIT no servidor Discord do DigiByte [aqui](https://t.ly/DGBCIT)."
-  },
-  "digifact40": {
+  "digifact-7m9n": {
     "content": "Você sabia que o DigiByte é sem permissão? Isso significa que não há necessidade de perguntar a nenhuma pessoa ou empresa se você pode construir um dApp em cima dele, usá-lo, enviá-lo, recebê-lo, aceitá-lo para o seu negócio, anunciá-lo, promovê-lo. Você simplesmente \"pode\"!"
   },
-  "digifact41": {
+  "digifact-2k8q": {
     "content": "O DigiAsset Explorer, criado por Renzo Diaz, membro da comunidade DigiByte, facilita a busca por informações sobre transações de DigiAsset.",
     "url": "https://digiassets.info/",
     "link_social": " Encontre aqui: https://digiassets.info/",
     "link_html": " Encontre <a target=\"_blank\" href=\"https://digiassets.info/\">aqui</a>.",
     "link_md": " Encontre [aqui](https://digiassets.info/)."
   },
-  "digifact42": {
+  "digifact-3dz3": {
     "content": "O MultiAlgo da DigiByte significa que 5 algoritmos competem continuamente por cada bloco. Outros, como o X16R, são muito diferentes, em vez disso, rotacionam através de cada subalgoritmo, com todos os mineradores trocando e usando o mesmo. Assim, X16R ainda é um \"algoritmo único\" comparado com a implementação MultiAlgo 5x da DigiByte."
   },
-  "digifact43": {
+  "digifact-fk8g": {
     "content": "O protocolo de privacidade Dandelion foi implementado em 2019 para proteger sua privacidade, mascarando o endereço IP de origem.",
-    "url": "https://j.mp/3Hag6AX",
-    "link_social": " Para saber mais sobre o Dandelion, visite: https://j.mp/3Hag6AX",
-    "link_html": " Acesse <a target=\"_blank\" href=\"https://j.mp/3Hag6AX\">aqui</a> para saber mais sobre o Dandelion.",
-    "link_md": " Acesse [aqui](https://j.mp/3Hag6AX) para saber mais sobre o Dandelion."
+    "url": "https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46",
+    "link_social": " Para saber mais sobre o Dandelion, visite: https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46",
+    "link_html": " Acesse <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46\">aqui</a> para saber mais sobre o Dandelion.",
+    "link_md": " Acesse [aqui](https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46) para saber mais sobre o Dandelion."
   },
-  "digifact44": {
+  "digifact-dccw": {
     "content": "MultiShield é um poderoso algoritmo de ajuste de dificuldade. Ele garante que cada um dos 5X algoritmos da DigiByte mine aproximadamente a mesma quantidade de blocos, mantendo um intervalo constante de 15 segundos.",
-    "url": "https://j.mp/3oivy5u",
-    "link_social": " O que é o MultiShield? Saiba mais aqui: https://j.mp/3oivy5u",
-    "link_html": " O que é o MultiShield? Saiba mais <a target=\"_blank\" href=\"https://j.mp/3oivy5u\">aqui</a>.",
-    "link_md": " O que é o MultiShield? Saiba mais [aqui](https://j.mp/3oivy5u)."
+    "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_social": " O que é o MultiShield? Saiba mais aqui: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_html": " O que é o MultiShield? Saiba mais <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">aqui</a>.",
+    "link_md": " O que é o MultiShield? Saiba mais [aqui](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
-  "digifact45": {
+  "digifact-r7k4": {
     "content": "Graças ao MultiShield, o DigiByte possui alguns dos tempos de bloco mais precisos e estáveis. Enquanto outros projetos costumam esperar 3-4 dias para ajustes, o MultiShield otimiza cada bloco individualmente.",
-    "url": "https://j.mp/3oivy5u",
-    "link_social": " Saiba mais aqui: https://j.mp/3oivy5u",
-    "link_html": " Saiba mais <a target=\"_blank\" href=\"https://j.mp/3oivy5u\">aqui</a>.",
-    "link_md": " Saiba mais [aqui](https://j.mp/3oivy5u)."
+    "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_social": " Saiba mais aqui: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_html": " Saiba mais <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">aqui</a>.",
+    "link_md": " Saiba mais [aqui](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
-  "digifact46": {
+  "digifact-kpfs": {
     "content": "O DigiByte foi o primeiro grande projeto de blockchain a habilitar o protocolo de privacidade Dandelion para proteger seu endereço IP. Você pode optar por não usar a proteção de privacidade que ele oferece se desejar transações ainda mais rápidas.",
-    "url": "https://j.mp/3Hag6AX",
-    "link_social": " Para saber mais sobre o Dandelion, visite: https://j.mp/3Hag6AX",
-    "link_html": " Vá <a target=\"_blank\" href=\"https://j.mp/3Hag6AX\">aqui</a> para saber mais sobre o Dandelion.",
-    "link_md": " Vá [aqui](https://j.mp/3Hag6AX) para saber mais sobre o Dandelion."
+    "url": "https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46",
+    "link_social": " Para saber mais sobre o Dandelion, visite: https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46",
+    "link_html": " Vá <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46\">aqui</a> para saber mais sobre o Dandelion.",
+    "link_md": " Vá [aqui](https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46) para saber mais sobre o Dandelion."
   },
-  "digifact47": {
+  "digifact-vjx7": {
     "content": "O DigiByte trata-se de escolha e do que funciona para você pessoalmente. O DigiByte está disponível em mais de duas dúzias de carteiras, portanto, há algo que atenderá a todos os requisitos."
   },
-  "digifact48": {
+  "digifact-w3p6": {
     "content": "O DigiByte originalmente tinha intervalos de bloco de 60 segundos, no entanto, através de múltiplas atualizações de rede que foram aprimoradas, primeiro para 30 e agora para os 15 segundos de hoje."
   },
-  "digifact49": {
+  "digifact-7mzk": {
     "content": "O DigiByte tem tido uma disponibilidade de 100% desde o seu lançamento. Enquanto algumas pessoas reiniciam seus computadores de tempos em tempos, centenas de outras permanecem online o tempo todo, para que mesmo em caso de uma grande interrupção da Internet em todo o país, o DigiByte continuaria funcionando."
   },
-  "digifact50": {
+  "digifact-p9mn": {
     "content": "O Faucet DigiByte de Renzo Diaz oferece uma maneira fácil de obter alguns DGB gratuitos. É uma ótima maneira para os recém-chegados ao DigiByte experimentarem essa incrível tecnologia em primeira mão. Para os desenvolvedores, também há um faucet de testnet.",
     "url": "https://www.digifaucet.org/",
     "link_social": " Encontre aqui: https://www.digifaucet.org/",
     "link_html": " Encontre <a target=\"_blank\" href=\"https://www.digifaucet.org/\">aqui</a>.",
     "link_md": " Encontre [aqui](https://www.digifaucet.org/)."
   },
-  "digifact51": {
+  "digifact-zmwg": {
     "content": "Qualquer pessoa pode contribuir para o código do DigiByte e fazer melhorias. Todas as contribuições são revisadas por outros desenvolvedores para garantir que nenhum código malicioso seja aceito acidentalmente.",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": " Junte-se ao chat de desenvolvedores no Gitter aqui: https://gitter.im/DigiByte-Core/protocol",
     "link_html": " Junte-se ao chat de desenvolvedores no Gitter <a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">aqui</a>.",
     "link_md": " Junte-se ao chat de desenvolvedores no Gitter [aqui](https://gitter.im/DigiByte-Core/protocol)."
   },
-  "digifact52": {
+  "digifact-4rhh": {
     "content": "Agora você pode reivindicar o seu próprio identificador da comunidade DigiByte no Bluesky - por exemplo, @seunome.digibyte.social. Isso funciona no Bluesky, e em todos os sites e serviços que utilizam o protocolo AT.",
     "url": "https://digibyte.social/",
     "link_social": " Reivindique o seu hoje: https://digibyte.social/",
     "link_html": " Vá <a target=\"_blank\" href=\"https://digibyte.social/\">aqui</a> para reivindicar o seu.",
     "link_md": " Vá [aqui](https://digibyte.social/) para reivindicar o seu."
   },
-  "digifact53": {
+  "digifact-4km6": {
     "content": "Ninguém sabe exatamente quantos \"nós\" existem na rede DigiByte, porque não há um ponto central com o qual todos os computadores verificam. Isso garante sua privacidade ao baixar o software da carteira."
   },
-  "digifact54": {
+  "digifact-6j3k": {
     "content": "O DigiByte nunca teve uma bifurcação dura controversa, apesar das contínuas mudanças importantes no código. A mineração é tão descentralizada que, quando o algoritmo myriad-groestl foi substituído por odocrypt, os grupos de mineração MG instalaram a atualização, mesmo quando isso significava que não poderiam mais minerar."
   },
-  "digifact55": {
+  "digifact-j6cb": {
     "content": "A mineração do DigiByte está entre as mais distribuídas do setor. Quando um período de 7 dias em setembro de 2019 foi comparado com o Bitcoin e o Litecoin, o DigiByte tinha mais de 10 vezes o número de mineradores únicos. Isso cresceu para mais de 20 vezes o número de mineradores únicos ao olhar para um período de 3 meses.",
-    "url": "https://j.mp/3ojzV08",
-    "link_social": " Veja mais estatísticas aqui: https://j.mp/3ojzV08",
-    "link_html": " Veja mais estatísticas <a target=\"_blank\" href=\"https://j.mp/3ojzV08\">aqui</a>.",
-    "link_md": " Veja mais estatísticas [aqui](https://j.mp/3ojzV08)."
+    "url": "https://josiah-digibyte.medium.com/some-updated-digibyte-mining-stats-graphs-comparisons-7f0c902b7554",
+    "link_social": " Veja mais estatísticas aqui: https://josiah-digibyte.medium.com/some-updated-digibyte-mining-stats-graphs-comparisons-7f0c902b7554",
+    "link_html": " Veja mais estatísticas <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/some-updated-digibyte-mining-stats-graphs-comparisons-7f0c902b7554\">aqui</a>.",
+    "link_md": " Veja mais estatísticas [aqui](https://josiah-digibyte.medium.com/some-updated-digibyte-mining-stats-graphs-comparisons-7f0c902b7554)."
   },
-  "digifact56": {
+  "digifact-2jxq": {
     "content": "Se os maiores pools 5x do Bitcoin decidissem colaborar, eles poderiam controlar permanentemente as redes do Bitcoin, Bitcoin Cash e Bitcoin SV até que outros obtivessem mais poder de hash do que eles. Esses mesmos pools não representariam uma ameaça para o DigiByte, graças aos aspectos MultiAlgo e MultiShield do DigiByte."
   },
-  "digifact57": {
+  "digifact-tj8g": {
     "content": "Todo mês, a quantidade de DigiByte que os mineradores recebem como recompensa por bloco é reduzida em 1%. Isso proporciona ao DigiByte uma curva de fornecimento muito suave para novos DigiByte, em vez de um evento de \"halving\" a cada poucos anos."
   },
-  "digifact58": {
+  "digifact-9zx9": {
     "content": "As transações na rede DigiByte são públicas, mas pseudoanônimas. Você pode vê-las em um explorador de Blockchain, no entanto, não há nada intrínseco que possa vincular uma nova transação/endereço a um usuário final. Não são necessários nomes de usuário, endereços de e-mail, etc., para usar a rede DigiByte."
   },
-  "digifact59": {
+  "digifact-j4ng": {
     "content": "Os endereços DigiByte podem ser reutilizados, mas é completamente opcional. A melhor prática é que uma carteira lhe forneça um novo endereço a cada vez depois que seu endereço anterior tenha recebido uma transação."
   },
-  "digifact60": {
+  "digifact-8wqz": {
     "content": "O código-fonte da blockchain DigiByte é totalmente open source. Qualquer pessoa pode vê-lo, inspecioná-lo e revisá-lo.",
     "url": "https://github.com/DigiByte-Core/DigiByte",
     "link_social": " Encontre-o no GitHub aqui: https://github.com/DigiByte-Core/DigiByte",
     "link_html": " Encontre-o no GitHub <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/DigiByte\">aqui</a>.",
     "link_md": " Encontre-o no GitHub [aqui](https://github.com/DigiByte-Core/DigiByte)."
   },
-  "digifact61": {
+  "digifact-skpt": {
     "content": "Os blocos do DigiByte têm um tempo esperado de 15 segundos, o que significa que todos os dias são adicionados 5.760 novos blocos à blockchain do DigiByte."
   },
-  "digifact62": {
+  "digifact-gfgk": {
     "content": "Um único DigiByte pode ser dividido em até 8 casas decimais. Isso equivale a 1/100,000,000 de um DigiByte. Isso é conhecido como um Dígito ou DIT em abreviação. (por exemplo, 1000 DITS)"
   },
-  "digifact63": {
+  "digifact-d4rg": {
     "content": "Cada um dos 5 algoritmos que o DigiByte usa para proteger a rede e minerar novos blocos tem uma chance igual de 20% de encontrar cada bloco individual. Não há prioridade dada a um ou outro."
   },
-  "digifact64": {
+  "digifact-5qj7": {
     "content": "O DigiByte possui 3 tipos de endereços, cada um começando com um prefixo diferente. Os endereços modernos começam com as letras \"dgb1\" para endereços formatados em Bech32 ou com a letra \"S\" para SegWit (Segregated Witness). Os endereços legados começam com a letra \"D\". Embora o suporte para estes últimos permaneça, eles estão sendo gradualmente substituídos pelos endereços Bech32."
   },
-  "digifact65": {
+  "digifact-sw8j": {
     "content": "Os endereços DigiByte que começam com \"dgb1\" (conhecidos como formato Bech32) têm várias vantagens, como a correção de erros no caso de escrita incorreta, além de serem muito mais fáceis de serem reconhecidos tanto por humanos quanto por computadores como endereços específicos do DigiByte."
   },
-  "digifact66": {
+  "digifact-qmm2": {
     "content": "Para que uma atualização de protocolo ocorra, mais de 70% da rede deve concordar e estar em consenso de que a atualização ocorrerá. Isso ocorre através da \"sinalização\" de suporte quando os blocos são minerados, ao longo de um período de 1 semana."
   },
-  "digifact67": {
+  "digifact-v3cx": {
     "content": "Existe um máximo de 21 bilhões de DigiByte que jamais existirão. Isso foi escolhido intencionalmente em uma proporção de 1000:1 em comparação com os 21 milhões de Bitcoins. Não pode haver mais criados."
   },
-  "digifact68": {
+  "digifact-3pp9": {
     "content": "O DigiByte está disponível em milhares de caixas eletrônicos de criptomoedas ao redor do mundo! Esta é uma ótima maneira para as pessoas que são novas no mundo das criptomoedas se envolverem por meio de um método de troca de moeda mais \"tradicional\"."
   },
-  "digifact69": {
+  "digifact-dzrh": {
     "content": "O DigiByte pode ser usado para verificar e validar documentos, música, mídia, identidade e muito mais! Embora o DigiByte se destaque como meio de troca de valor, não se limita apenas a ser uma moeda."
   },
-  "digifact70": {
+  "digifact-ttjt": {
     "content": "Você pode usar várias carteiras! O DigiByte não se limita a um único software, e a comunidade é incentivada a encontrar um aplicativo que funcione melhor para eles, portanto, experimente um, experimente alguns e continue usando os que você mais gosta."
   },
-  "digifact71": {
+  "digifact-bpfn": {
     "content": "DigiByte nunca pode ter uma \"queima\" centralizada do fornecimento máximo, como outras ICOs ou tokens controlados centralmente podem. Como o DigiByte é um projeto completamente descentralizado, é impossível emitir uma \"queima\" em grande escala de DigiByte não utilizados. No máximo, você poderia apenas destruir os seus se os transferisse voluntariamente para o vazio."
   },
-  "digifact72": {
+  "digifact-db2z": {
     "content": "As transações na blockchain da DigiByte não podem ser desfeitas, por ninguém. Uma vez feita uma transação, ela é permanente. Enviou acidentalmente 50 DigiByte em vez de 5 DigiByte? Você precisará pedir ao destinatário que devolva o excedente, pois não há uma função de \"Desfazer\" e nenhuma autoridade bancária central que possa reverter transações."
   },
-  "digifact73": {
+  "digifact-tbts": {
     "content": "Quer começar um podcast ou um encontro DigiByte? Vá em frente! Não há necessidade de pedir permissão, pois DigiByte é um projeto \"sem permissão\". É implícito que você pode fazer isso, então siga em frente e faça."
   },
-  "digifact74": {
+  "digifact-cchd": {
     "content": "Se você já teve a infelicidade de enviar acidentalmente seus DigiByte para um endereço de Dogecoin, suas moedas podem não estar perdidas. O DigiSweep, criado pelo membro da comunidade DigiByte Matthew Cornellisse (@mctrivia), pode ajudar a recuperá-las.",
     "url": "https://digisweep.digiassetx.com/",
     "link_social": " Encontre-o aqui: https://digisweep.digiassetx.com/",
     "link_html": " Encontre-o <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">aqui</a>.",
     "link_md": " Encontre-o [aqui](https://digisweep.digiassetx.com/)."
   },
-  "digifact75": {
+  "digifact-vc2g": {
     "content": "A DigiByte Alliance é uma fundação pública sem fins lucrativos fundada em Wyoming em março de 2021. Sua missão é acelerar o crescimento e a adoção da DigiByte.",
     "url": "https://www.dgballiance.org/",
     "link_social": " Saiba mais: https://www.dgballiance.org/",
     "link_html": " Saiba mais <a target=\"_blank\" href=\"https://www.dgballiance.org/\">aqui</a>.",
     "link_md": " Saiba mais [aqui](https://www.dgballiance.org/)."
   },
-  "digifact76": {
+  "digifact-bjqp": {
     "content": "O subreddit DigiByte localizado em r/DigiByte tem mais de 40.000 membros. É um ótimo lugar para se manter atualizado sobre todas as notícias e desenvolvimentos na comunidade DigiByte.",
     "url": "https://reddit.com/r/Digibyte",
     "link_social": " Junte-se aqui: https://reddit.com/r/Digibyte",
     "link_html": " Junte-se <a target=\"_blank\" href=\"https://reddit.com/r/Digibyte\">aqui</a>.",
     "link_md": " Junte-se [aqui](https://reddit.com/r/Digibyte)."
   },
-  "digifact77": {
+  "digifact-s9q5": {
     "content": "O servidor do Discord da DigiByte é onde você encontrará os membros mais ativos da comunidade DigiByte e é uma ótima maneira de se conectar com todas as pessoas que trabalham nos bastidores da DigiByte.",
     "url": "https://dsc.gg/digibytediscord",
     "link_social": " Junte-se a nós! https://dsc.gg/digibytediscord",
     "link_html": " Junte-se <a target=\"_blank\" href=\"https://dsc.gg/digibytediscord\">aqui</a>.",
     "link_md": " Junte-se [aqui](https://dsc.gg/digibytediscord)."
   },
-  "digifact78": {
+  "digifact-np2q": {
     "content": "O DigiNode Tools é um conjunto de software que facilita a configuração e a gestão de um nó DigiByte e/ou DigiAsset em dispositivos de baixo consumo de energia, como um Raspberry Pi ou um sistema Ubuntu. A configuração é feita por meio de menus e são fornecidas instruções detalhadas passo a passo. Você pode até configurar um nó duplo para executar tanto um nó mainnet quanto um nó testnet no mesmo dispositivo.",
     "url": "https://diginode.tools/",
     "link_social": " Saiba mais aqui: https://diginode.tools/",
     "link_html": " Saiba mais <a target=\"_blank\" href=\"https://diginode.tools/\">aqui</a>.",
     "link_md": " Saiba mais [aqui](https://diginode.tools/)."
   },
-  "digifact79": {
+  "digifact-wr7h": {
     "content": "Estes DigiFatos são escritos pela comunidade DigiByte, para a comunidade DigiByte. Qualquer pessoa pode ajudar - sugerindo novos DigiFatos, corrigindo erros ou melhorando as traduções.",
     "url": "https://github.com/DigiNode-Tools/digibyte-digifacts",
     "link_social": " Saiba como pode ajudar aqui: https://github.com/DigiNode-Tools/digibyte-digifacts",
     "link_html": " Vá <a target=\"_blank\" href=\"https://github.com/DigiNode-Tools/digibyte-digifacts\">aqui</a> para saber como pode ajudar.",
     "link_md": " Vá [aqui](https://github.com/DigiNode-Tools/digibyte-digifacts) para saber como pode ajudar."
   },
-  "digifact80": {
+  "digifact-n8xm": {
     "content": "Um DigiByte Seeder é um servidor DNS leve operado por alguns voluntários confiáveis da comunidade DigiByte. Ele rastreia continuamente a rede DigiByte em busca de nós e mantém uma lista dos endereços IP e portas dos mais confiáveis. Os nós DigiByte que se juntam à rede usam os DigiByte Seeder para encontrar outros nós para se conectar.",
     "url": "https://github.com/DigiByte-Core/digibyte-seeder",
     "link_social": " Saiba mais aqui: https://github.com/DigiByte-Core/digibyte-seeder",
     "link_html": " Saiba mais <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte-seeder\">aqui</a>.",
     "link_md": " Saiba mais [aqui](https://github.com/DigiByte-Core/digibyte-seeder)."
   },
-  "digifact81": {
+  "digifact-nhjh": {
     "content": "O site \"DigiByte Facts\" é um recurso de aprendizado fantástico criado por um membro da comunidade DigiByte. Ele oferece muitos desses DigiFacts como imagens compartilháveis, além de quizzes e outros recursos para ajudar você a aprender mais sobre o DigiByte.",
     "url": "https://digifacts.org/",
     "link_social": " Encontre aqui: https://digifacts.org/",
     "link_html": " Encontre <a target=\"_blank\" href=\"https://digifacts.org/\">aqui</a>.",
     "link_md": " Encontre [aqui](https://digifacts.org/)."
   },
-  "digifact82": {
+  "digifact-8ndf": {
     "content": "A Wiki DigiByte é uma fantástica fonte de informações sobre tudo relacionado ao DigiByte, escrita e mantida por membros da comunidade DigiByte.",
     "url": "https://wiki.digibyte.org/",
     "link_social": "Encontre-a aqui: https://wiki.digibyte.org/",
     "link_html": "Encontre-a <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">aqui</a>.",
     "link_md": "Encontre-a [aqui](https://wiki.digibyte.org/)."
   },
-  "digifact83": {
+  "digifact-krf7": {
     "content": "O DigiByte Domains é um serviço criado por Renzo Dias, membro da comunidade DigiByte. Um domínio DigiByte é um nome que se refere a um endereço da carteira DigiByte. É alimentado por DigiAssets, e o domínio é o próprio ativo. Por exemplo, você pode enviar alguns DigiBytes ou DigiAssets para 'domain.dgb', e eles chegarão ao endereço que possui o domínio.",
     "url": "https://digibytedomains.com/",
     "link_social": " Você pode adquirir seu próprio domínio DigiByte aqui: https://digibytedomains.com/",
     "link_html": " Adquira seu próprio domínio DigiByte <a target=\"_blank\" href=\"https://digibytedomains.com/\">aqui</a>.",
     "link_md": " Adquira seu próprio domínio DigiByte [aqui](https://digibytedomains.com/)."
   },
-  "digifact84": {
+  "digifact-cz5m": {
     "content": "Para desenvolvedores, o DigiByte JS é uma biblioteca DigiByte pura e poderosa escrita em JavaScript, derivada da biblioteca Bitcore Lib da Bitpay.",
     "url": "https://github.com/RenzoDD/digibyte-js",
     "link_social": " Encontre-a aqui: https://github.com/RenzoDD/digibyte-js",
     "link_html": " Encontre-a <a target=\"_blank\" href=\"https://github.com/RenzoDD/digibyte-js\">aqui</a>.",
     "link_md": " Encontre-a [aqui](https://github.com/RenzoDD/digibyte-js)."
   },
-  "digifact85": {
+  "digifact-h4n2": {
     "content": "Os DigiAssets são uma camada segura e escalável construída em cima da blockchain da DigiByte que permite a emissão descentralizada de ativos digitais (NFTs), tokens, contratos inteligentes, identidade digital e muito mais.",
     "url": "https://github.com/DigiAsset-Core/DigiAsset_Core",
     "link_social": " Encontre-o aqui: https://github.com/DigiAsset-Core/DigiAsset_Core",
     "link_html": " Encontre-o <a target=\"_blank\" href=\"https://github.com/DigiAsset-Core/DigiAsset_Core\">aqui</a>.",
     "link_md": " Encontre-o [aqui](https://github.com/DigiAsset-Core/DigiAsset_Core)."
   },
-  "digifact86": {
+  "digifact-t2gb": {
     "content": "O DigiAsset Core, atualmente em desenvolvimento ativo, é a implementação mais recente do protocolo DigiAsset. Liderado pelo membro da comunidade Matthew Cornelisse, ele funciona ao lado de um nó DigiByte Core e ajuda a descentralizar os DigiAssets e seus metadados. É importante destacar que o DigiAsset Core não faz parte do DigiByte Core, mas é um projeto independente, porém complementar, da comunidade.",
     "url": "https://github.com/DigiAsset-Core/DigiAsset_Core",
     "link_social": " Encontre-o aqui: https://github.com/DigiAsset-Core/DigiAsset_Core",
