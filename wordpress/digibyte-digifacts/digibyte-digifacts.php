@@ -3,7 +3,7 @@
  * Plugin Name:       DigiByte DigiFacts
  * Plugin URI:        https://github.com/DigiNode-Tools/digibyte-digifacts/tree/main/wordpress
  * Description:       Show a random DigiFact - a bite-size fact about DigiByte - that changes every minute. Available in multiple languages.
- * Version:           2.2.2
+ * Version:           2.2.3
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            Olly Stedall (DigiNode Tools)
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const DIGIBYTE_DIGIFACTS_VERSION = '2.2.2';
+const DIGIBYTE_DIGIFACTS_VERSION = '2.2.3';
 // The DigiFacts website (https://github.com/DigiNode-Tools/digibyte-digifacts). Updated hourly.
 const DIGIBYTE_DIGIFACTS_URL = 'https://digifacts.diginode.tools';
 const DIGIBYTE_DIGIFACTS_REPO = 'https://github.com/DigiNode-Tools/digibyte-digifacts';
@@ -279,6 +279,16 @@ function digibyte_digifacts_register_assets() {
 add_action( 'init', 'digibyte_digifacts_register_assets' );
 
 /**
+ * The stylesheet (under 1 KB) is loaded in the page's <head> on every page, before the theme's and the site's own
+ * CSS (Appearance > Customize > Additional CSS) - so their CSS can change how the DigiFacts look. (Loaded later, only
+ * when a DigiFact is shown, it would come after the site's CSS and override it.)
+ */
+function digibyte_digifacts_enqueue_style() {
+	wp_enqueue_style( 'digibyte-digifacts' );
+}
+add_action( 'wp_enqueue_scripts', 'digibyte_digifacts_enqueue_style', 5 );
+
+/**
  * The DigiFacts block (shows the same as the shortcode).
  */
 function digibyte_digifacts_register_block() {
@@ -458,7 +468,8 @@ function digibyte_digifacts_settings_page() {
 		<h2>Styling</h2>
 		<p>The DigiFacts use your theme's fonts and colours. To change how they look, add CSS in Appearance &gt; Customize &gt; Additional CSS. For example:</p>
 		<pre>.digibyte-digifact .digifact-title { font-size: 1.2em; }
-.digibyte-digifact.with-box { border-color: #0066cc; background: #f4f8ff; }</pre>
+.digibyte-digifact.with-box { border-color: #0066cc; background: #f4f8ff; }
+.digibyte-digifact .digifact-credit a { color: #0066cc; }</pre>
 
 		<h2>Help improve the DigiFacts</h2>
 		<p>Spotted a mistake, or a DigiFact that's out of date? Corrections, new DigiFacts and translations are all welcome - see <a href="<?php echo esc_url( DIGIBYTE_DIGIFACTS_REPO ); ?>" target="_blank" rel="noopener">how to contribute</a>.</p>

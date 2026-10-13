@@ -1,4 +1,5 @@
-/* DigiByte DigiFacts. These use your theme's fonts and colours - add your own CSS to change them. */
+/* DigiByte DigiFacts. These use your theme's fonts and colours - add your own CSS to change them.
+   --digifacts-text is the colour of the DigiFact's text (set by js/digifact-refresh.js). */
 .digibyte-digifact .digifact-title {
 	margin: 0;
 	padding: 5px 0;
@@ -14,13 +15,14 @@
 	opacity: 0.65;
 }
 
+.digibyte-digifact .digifact-credit,
 .digibyte-digifact .digifact-credit a {
-	color: inherit;
+	color: var(--digifacts-text, inherit);
 }
 
 .digibyte-digifact.with-box {
 	border: 1px solid #ccc;
-	border-color: color-mix(in srgb, currentColor 25%, transparent);
+	border-color: color-mix(in srgb, var(--digifacts-text, currentColor) 25%, transparent);
 	border-radius: 6px;
 	padding: 10px 14px;
 	margin: 10px 0;

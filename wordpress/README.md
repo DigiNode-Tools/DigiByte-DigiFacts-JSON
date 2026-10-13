@@ -26,7 +26,7 @@ In **Settings > DigiFacts**, type your project's topic under **Hide topics** - t
 
 ## Styling
 
-The DigiFacts use your theme's fonts and colours. To change how they look, add CSS in **Appearance > Customize > Additional CSS**, using the classes `.digibyte-digifact`, `.digifact-title`, `.digifact-content`, `.digifact-credit` (the "About DigiByte DigiFacts" link), and `.with-box` (when the Box display option is chosen).
+The DigiFacts use your theme's fonts and colours - the box's border and the "About DigiByte DigiFacts" link automatically match the colour of the DigiFact's text. To change how they look, add CSS in **Appearance > Customize > Additional CSS**, using the classes `.digibyte-digifact`, `.digifact-title`, `.digifact-content`, `.digifact-credit` (the "About DigiByte DigiFacts" link), and `.with-box` (when the Box display option is chosen).
 
 ## Not using WordPress?
 

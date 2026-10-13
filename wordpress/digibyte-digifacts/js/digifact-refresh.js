@@ -42,16 +42,12 @@
 		var boxes = document.querySelectorAll(".digibyte-digifact");
 
 		// The box's border and the "About DigiByte DigiFacts" link use the colour of the DigiFact's text, whatever
-		// colours the theme uses (e.g. a theme that only makes the title and text white on a dark background)
+		// colours the theme uses (e.g. a theme that only makes the text white on a dark background). It's only a
+		// default (a CSS variable, used by digifacts-styles.css): the site's own CSS can still change them.
 		for (var b = 0; b < boxes.length; b++) {
 			var text = boxes[b].querySelector(".digifact-content");
-			var credit = boxes[b].querySelector(".digifact-credit a");
 			if (text && window.getComputedStyle) {
-				var colour = window.getComputedStyle(text).color;
-				boxes[b].style.color = colour;
-				if (credit) {
-					credit.style.color = colour;
-				}
+				boxes[b].style.setProperty("--digifacts-text", window.getComputedStyle(text).color);
 			}
 		}
 		if (!facts || !facts.length || !boxes.length) {

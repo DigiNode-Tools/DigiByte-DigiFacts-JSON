@@ -4,7 +4,7 @@ Donate link: https://github.com/sponsors/DigiNode-Tools
 Tags: digibyte, digifacts, crypto, blockchain
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 2.2.2
+Stable tag: 2.2.3
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,10 @@ Add the [digifacts] shortcode, or the DigiByte DigiFacts block, where you want a
 2. A DigiFact on a website.
 
 == Changelog ==
+
+= 2.2.3 =
+* The box and the About link fit your site's colours automatically, and your own CSS can still change them.
+* Your own CSS now always takes priority over the plugin's (its small stylesheet loads first, in the page's head).
 
 = 2.2.2 =
 * The box around the DigiFact is visible again on sites with a dark background (its border now uses the colour of the DigiFact's text, as the About link does).
