@@ -48,16 +48,21 @@ TAGS_FILE = os.path.join(ROOT, "tags.json")   # Topics, so sites can hide DigiFa
 WEBLATE_URL = "https://hosted.weblate.org/engage/digibyte-digifacts/"
 REPO_URL = "https://github.com/DigiNode-Tools/digibyte-digifacts"
 SITE_URL = "https://digifacts.diginode.tools"
-# Short links for facts with a link: SHORT_BASE + the four characters of the fact's ID, e.g. HTTPS://DIGIFACTS.DIGINODE.TOOLS/L/7TTM
-# (not the whole ID: the link has to fit in the QR code below).
-# In capitals on purpose: a QR code can then use its compact alphanumeric mode, so the code is small enough for
-# a 64x32 display (25x25). The site publishes a redirect page for each one (L/7TTM.html).
-SHORT_BASE = SITE_URL.upper() + "/L/"
-# The same short links in lower case (also published, as l/7ttm.html), for text people read: every format, the
-# DigiFact of the day and the RSS feed use them instead of the full address - shorter for posts and small displays,
-# and every click on a DigiFact's link goes through this site. Add the full address to a DigiFact; the build
-# shortens it. (The proofreading pages show the full address, for checking it.)
-SHORT_TEXT_BASE = SITE_URL + "/l/"
+# Short links for facts with a link, on go.diginode.tools (DigiNode Tools' short links - the DigiNode-Tools/go repo):
+# the four characters of the fact's ID, e.g. https://go.diginode.tools/7ttm. Every format, the DigiFact of the day
+# and the RSS feed use them instead of the full address - shorter for posts and small displays, and every click
+# on a DigiFact's link is counted. Add the full address to a DigiFact; the build shortens it. (The proofreading
+# pages show the full address, for checking it.) The build publishes each short link's page (redirect, preview
+# card, click counting) in short-links.json, which go.diginode.tools copies every hour.
+GO_URL = "https://go.diginode.tools/"
+# In capitals for QR codes (e.g. HTTPS://GO.DIGINODE.TOOLS/7TTM): a QR code can then use its compact alphanumeric
+# mode, so it's small enough for a 64x32 display (25x25). Not the whole ID: the link has to fit in the QR code.
+GO_QR_URL = GO_URL.upper()
+# The short links DigiFacts uses. Until go.diginode.tools was set up they were on this site (/l/7ttm and /L/7TTM),
+# and those pages are still published, so links shared then keep working.
+SHORT_LINKS_ON_GO = False
+SHORT_BASE = GO_QR_URL if SHORT_LINKS_ON_GO else SITE_URL.upper() + "/L/"
+SHORT_TEXT_BASE = GO_URL if SHORT_LINKS_ON_GO else SITE_URL + "/l/"
 # Third-party link shorteners aren't allowed: their links can expire (and some have), and they hide where a link goes
 SHORTENERS = {"bit.ly", "j.mp", "rb.gy", "t.ly", "tinyurl.com", "is.gd", "t.co", "ow.ly", "buff.ly", "goo.gl",
               "cutt.ly", "shorturl.at", "rebrand.ly", "tiny.cc", "v.gd", "s.id"}
@@ -582,7 +587,7 @@ def redirect_page(url, key, title, qr, number=0, text=""):
     domain = urllib.parse.urlparse(url).netloc.lower().removeprefix("www.")
     code = key[len("digifact-"):]
     preview = preview_tags(f"DigiFact #{number}", f"{text} Learn more on {domain}.", card_for(key),
-                           (SHORT_BASE + code.upper()) if qr else (SHORT_TEXT_BASE + code))
+                           (GO_QR_URL + code.upper()) if qr else (GO_URL + code))
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
             f'<title>DigiFact #{number}</title><meta name="robots" content="noindex">{preview}'
             f'<meta http-equiv="refresh" content="0; url={u}"><script>{script}</script></head>'
@@ -821,14 +826,19 @@ def main():
     files[".nojekyll"] = ""
     if stats:
         files["stats/index.html"] = stats_page(stats, localised["en"], count)
+    short_links = {}
     for key, f in facts["en"].items():
         if f.get("url"):
             code = key[len("digifact-"):]
             text = f["content"] if len(f["content"]) <= 60 else f["content"][:60].rsplit(" ", 1)[0] + "..."
             title = fill(localised["en"][key]["title"], count) + ": " + fill(text, count)
             number, full = list(facts["en"]).index(key) + 1, fill(f["content"], count)
-            files[f"L/{code.upper()}.html"] = redirect_page(f["url"], key, title, True, number, full)
-            files[f"l/{code}.html"] = redirect_page(f["url"], key, title, False, number, full)
+            short_links[code] = {"id": key, "url": f["url"],
+                                 "page": redirect_page(f["url"], key, title, False, number, full),
+                                 "qr_page": redirect_page(f["url"], key, title, True, number, full)}
+            files[f"L/{code.upper()}.html"] = short_links[code]["qr_page"]   # This site's short links (before go)
+            files[f"l/{code}.html"] = short_links[code]["page"]
+    files["short-links.json"] = to_json(short_links)   # For go.diginode.tools
 
     for path, content in files.items():
         write(os.path.join(out_dir, path), content)
