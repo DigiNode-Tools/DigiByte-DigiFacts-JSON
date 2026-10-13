@@ -33,7 +33,7 @@ For example: https://digifacts.diginode.tools/en/social.json
 | `markdown` | `Learn more [here](https://example.com).` | Markdown |
 | `plain` | No link - just the fact (the link is still in `url`) | Small displays, speech |
 
-Each file has every fact, in order, each with a `title` (which includes its number, e.g. "DigiFact # 1 - Did you know..."), `content` and `url`. The keys (`digifact1`, `digifact3`, ...) identify each fact and never change, so they aren't always consecutive - use the order of the file, or the number in the title. A fact that isn't translated yet is included in English.
+Each file has every fact, in order, each with a `title` (which includes its number, e.g. "DigiFact #1"), `content` and `url`. The keys (`digifact1`, `digifact3`, ...) identify each fact and never change, so they aren't always consecutive - use the order of the file, or the number in the title. A fact that isn't translated yet is included in English.
 
 Languages: `en` English, `de` German, `es` Spanish, `fr` French, `hi` Hindi, `it` Italian, `ja` Japanese, `ko` Korean, `nl` Dutch, `pt` Portuguese, `ru` Russian, `zh` Chinese (Simplified). The list is also at https://digifacts.diginode.tools/languages.json, and https://digifacts.diginode.tools/info.json shows each language's progress, the block count used and when the facts were last published.
 

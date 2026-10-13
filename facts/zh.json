@@ -1,5 +1,5 @@
 {
-  "_title": "数字事实 #{number} - 你知道吗？",
+  "_title": "数字事实 #{number}",
   "digifact1": {
     "content": "DigiByte 区块链于2014年启动。由于其15秒的区块时间，它是现存最长的UTXO区块链，拥有超过$blocks_tot_mil百万个区块。比特币将需要到22世纪才能达到那么多区块。",
     "url": "",

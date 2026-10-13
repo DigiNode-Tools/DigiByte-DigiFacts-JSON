@@ -9,7 +9,7 @@
 #             ones that look right, never goes backwards, and falls back to an estimate (one block every 15
 #             seconds) if no explorer answers.
 #          3. Numbers the facts in the order they appear in facts/en.json (so deleting one never leaves a gap), makes
-#             each title from the language's "_title" (e.g. "DigiFact # {number} - Did you know..."), fills in the
+#             each title from the language's "_title" (e.g. "DigiFact #{number}"), fills in the
 #             live values (e.g. $blocks_tot_mil) and writes each language in each format (social, html, markdown),
 #             plus languages.json, info.json, and the help and proofreading pages. A fact that isn't translated yet
 #             is shown in English.
@@ -54,7 +54,7 @@ LANGUAGE_NAMES = {
     "zh": "Chinese (Simplified)",
 }
 FIELDS = ("content", "url", "link_social", "link_html", "link_md")
-TITLE_KEY = "_title"   # Each language's title, e.g. "DigiFact # {number} - Did you know..."
+TITLE_KEY = "_title"   # Each language's title, e.g. "DigiFact #{number}"
 FORMATS = {"social": "link_social", "html": "link_html", "markdown": "link_md"}
 OUTPUT_FORMATS = dict(FORMATS, plain=None)   # plain = the fact without its link (e.g. for small displays)
 
@@ -139,7 +139,7 @@ def load_facts():
         title = data.pop(TITLE_KEY, "")
         if title:
             if not isinstance(title, str) or title.count("{number}") != 1 or re.search(r"[<>$]", title):
-                fail(f'{path} {TITLE_KEY} should be text containing {{number}} once, e.g. "DigiFact # {{number}} - Did you know..."')
+                fail(f'{path} {TITLE_KEY} should be text containing {{number}} once, e.g. "DigiFact #{{number}}"')
             titles[lang] = title
         for key, fact in data.items():
             where = f"{path} {key}"

@@ -1,5 +1,5 @@
 {
-  "_title": "DigiFeit #{number} - Wist u dat...",
+  "_title": "DigiFeit #{number}",
   "digifact1": {
     "content": "De DigiByte blockchain is gelanceerd in 2014. Dankzij de bloktijd van 15 seconden is het de langste UTXO blockchain die er bestaat, met meer dan $blocks_tot_mil miljoen blokken. Bitcoin zal tot de 22e eeuw nodig hebben om dat aantal blokken te bereiken.",
     "url": "",

@@ -7,7 +7,7 @@ Thank you for helping! Translations make DigiByte easier to learn about for peop
 Each language has its own file in [`facts/`](facts/), named with its two-letter language code (e.g. `facts/de.json` for German). [`facts/en.json`](facts/en.json) is the original that every translation is based on, and every file uses the same keys (`digifact1`, `digifact2`, ...):
 
 ```json
-"_title": "DigiFact # {number} - Did you know...",
+"_title": "DigiFact #{number}",
 "digifact2": {
   "content": "DigiByte has upgraded the network a number of times...",
   "url": "https://rb.gy/egrt5",

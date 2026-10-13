@@ -1,5 +1,5 @@
 {
-  "_title": "DigiFato #{number} - Você sabia...",
+  "_title": "DigiFato #{number}",
   "digifact1": {
     "content": "O blockchain DigiByte foi lançado em 2014. Graças ao seu tempo de bloco de 15 segundos, é o blockchain UTXO mais longo em existência, com mais de $blocks_tot_mil milhões de blocos. O Bitcoin levará até o século 22 para alcançar tantos blocos.",
     "url": "",

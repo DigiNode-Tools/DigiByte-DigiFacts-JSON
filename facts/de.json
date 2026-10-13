@@ -1,5 +1,5 @@
 {
-  "_title": "DigiFakt #{number} - Wussten Sie schon...",
+  "_title": "DigiFakt #{number}",
   "digifact1": {
     "content": "Die DigiByte Blockchain wurde 2014 eingeführt. Dank der Blockzeit von 15 Sekunden ist sie die längste UTXO-Blockchain, die es gibt, mit über $blocks_tot_mil Millionen Blöcken. Bitcoin wird bis ins 22. Jahrhundert brauchen, um so viele Blöcke zu erreichen.",
     "url": "",

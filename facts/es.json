@@ -1,5 +1,5 @@
 {
-  "_title": "DigiDato #{number} - ¿Sabías que...",
+  "_title": "DigiDato #{number}",
   "digifact1": {
     "content": "La cadena de bloques de DigiByte se lanzó en 2014. Gracias a su tiempo de bloque de 15 segundos, es la cadena de bloques UTXO más larga que existe con más de $blocks_tot_mil millones de bloques. Bitcoin tardará hasta el siglo 22 en alcanzar esa cantidad de bloques.",
     "url": "",
