@@ -118,19 +118,26 @@ def fail(msg):
 def load_facts():
     """Return ({lang: {key: fact}}, {lang: title}) in language order (English first), checking everything.
     Exits on a problem."""
-    langs = sorted((f[:-5] for f in os.listdir(FACTS_DIR) if f.endswith(".json")), key=lambda l: (l != "en", l))
+    # Language files are named with their language code: de.json, or e.g. pt_BR.json / pt-br.json for a regional
+    # variant (Weblate names new files pt_BR.json). On the website the code is lower case with a hyphen: pt-br.
+    files = {}
+    for name in os.listdir(FACTS_DIR):
+        if name.endswith(".json"):
+            code = name[:-5]
+            if not re.fullmatch(r"[a-z]{2,3}([_-][A-Za-z0-9]{2,4})?", code):
+                fail(f"facts/{name}: name the file with a language code, e.g. de.json or pt_BR.json")
+            files[code.lower().replace("_", "-")] = name
+    langs = sorted(files, key=lambda l: (l != "en", l))
     if "en" not in langs:
         fail("facts/en.json is missing")
     facts, titles = {}, {}
     for lang in langs:
-        path = f"facts/{lang}.json"
-        if not re.fullmatch(r"[a-z]{2}(-[a-z]{2,4})?", lang):
-            fail(f"{path}: name the file with a language code, e.g. de.json or pt-br.json")
+        path = f"facts/{files[lang]}"
         if lang not in LANGUAGE_NAMES:
             warn(f"{path}: add the language's name to LANGUAGE_NAMES in build/build.py")
             LANGUAGE_NAMES[lang] = lang
         try:
-            with open(os.path.join(FACTS_DIR, f"{lang}.json"), encoding="utf-8") as f:
+            with open(os.path.join(FACTS_DIR, files[lang]), encoding="utf-8") as f:
                 data = json.load(f)
         except ValueError as e:
             fail(f"{path} is not valid JSON: {e}")
@@ -177,14 +184,14 @@ def load_facts():
     for lang in langs[1:]:
         for key, fact in facts[lang].items():
             if key not in en:
-                warn(f"facts/{lang}.json {key} isn't in facts/en.json - it will be ignored (build/tidy.py removes it)")
+                warn(f"facts/{files[lang]} {key} isn't in facts/en.json - it will be ignored (build/tidy.py removes it)")
                 continue
             if fact.get("content"):
                 if set(VARIABLE_RE.findall(en[key]["content"])) != set(VARIABLE_RE.findall(fact["content"])):
-                    warn(f"facts/{lang}.json {key} content should use the same live values as English: "
+                    warn(f"facts/{files[lang]} {key} content should use the same live values as English: "
                          f"{', '.join(sorted(set(VARIABLE_RE.findall(en[key]['content'])))) or 'none'}")
         if lang not in titles:
-            warn(f"facts/{lang}.json has no {TITLE_KEY} - the English title is used")
+            warn(f"facts/{files[lang]} has no {TITLE_KEY} - the English title is used")
     return facts, titles
 
 
