@@ -217,7 +217,7 @@
     "content": "If the biggest 5x pools from Bitcoin were to collude, they could control the Bitcoin, Bitcoin Cash, and Bitcoin SV networks permanently until others grew to have more hash-power than them. Those same pools would not be a threat to DigiByte thanks to DigiBytes MultiAlgo and MultiShield aspects."
   },
   "digifact-tj8g": {
-    "content": "Every month, the DigiByte that miners get as a block-reward is decreased by 1%. This gives DigiByte a very smooth supply-curve for new DigiByte, rather than a \"halving\" event every few years."
+    "content": "Every month, the DigiByte that miners get as a block-reward is decreased by about 1% (1.116%). This gives DigiByte a very smooth supply-curve for new DigiByte, rather than a \"halving\" event every few years."
   },
   "digifact-9zx9": {
     "content": "Transactions on the DigiByte network are public, but pseudo-anonymous. You can see them on a Blockchain explorer, however there is nothing inherently that can link a new transaction / address to an end-user. There are no usernames, email addresses etc required to use the DigiByte network."
@@ -651,5 +651,17 @@
   },
   "digifact-m7m5": {
     "content": "Cryptocurrency mining began on ordinary computer processors (CPUs), then moved to graphics cards (GPUs), which can run many calculations at once. Next came FPGAs, and then ASICs - each step faster and more efficient, but more specialised. DigiByte's five algorithms were chosen to give a range of mining hardware a part in securing the network."
+  },
+  "new": {
+    "content": "Bitcoin cuts its block reward in half every four years - a \"halving\" - so miners' income suddenly drops by half overnight. DigiByte instead lowers its block reward a little every month, so miners' income changes gradually, without a sudden shock that could drive many miners away at once."
+  },
+  "new-2": {
+    "content": "Every DigiByte block earns the same reward, whichever of the five mining algorithms found it. The reward depends only on the block's height - its position in the blockchain - so no algorithm is favoured over another."
+  },
+  "new-3": {
+    "content": "A miner can't give themselves extra DGB. Every node checks that a block pays out no more than the rules allow - the block reward for its height, plus its transaction fees - and rejects any block that claims more."
+  },
+  "new-4": {
+    "content": "DigiByte's block reward goes down by 1.116% every month. It will reach zero at block 41,668,798, around 2035 - and from then on, miners will be paid by transaction fees alone."
   }
 }
