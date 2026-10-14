@@ -376,42 +376,42 @@
     "link_html": " View the map <a target=\"_blank\" href=\"https://opennodes.digibyte.network/\">here</a>.",
     "link_md": " View the map [here](https://opennodes.digibyte.network/)."
   },
-  "new": {
+  "digifact-k9j6": {
     "content": "DigiDollar is DigiByte's own stablecoin, designed to keep a steady value of one US dollar. It went live on the DigiByte network on 17 July 2026, at block 23,869,440. It has no issuer, no custodian and no admin key: every DigiDollar is backed by DGB locked on the DigiByte blockchain.",
     "url": "https://www.digibyte.org/#digidollar",
     "link_social": " Learn more here: https://www.digibyte.org/#digidollar",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#digidollar\">here</a>.",
     "link_md": " Learn more [here](https://www.digibyte.org/#digidollar)."
   },
-  "new-2": {
+  "digifact-5gxq": {
     "content": "To create DigiDollars, you lock DGB in a time-locked vault on the DigiByte blockchain, secured by your own keys. Locks last from 1 hour to 10 years, and shorter locks need more DGB, from 10 times the DigiDollar value down to twice it. When the lock ends, you return the DigiDollars to unlock your DGB.",
     "url": "https://www.digibyte.org/docs/DigiDollar_whitepaper.pdf",
     "link_social": " Read the DigiDollar white paper here: https://www.digibyte.org/docs/DigiDollar_whitepaper.pdf",
     "link_html": " Read the DigiDollar white paper <a target=\"_blank\" href=\"https://www.digibyte.org/docs/DigiDollar_whitepaper.pdf\">here</a>.",
     "link_md": " Read the DigiDollar white paper [here](https://www.digibyte.org/docs/DigiDollar_whitepaper.pdf)."
   },
-  "new-3": {
+  "digifact-k5kv": {
     "content": "DigiDollar gets the price of DGB from a network of 35 independent price oracles. Each takes the median DGB/US dollar price from at least three exchanges, and at least 7 oracles must agree and sign the price together before it can be used, so no single oracle can set it.",
     "url": "https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md",
     "link_social": " Learn more here: https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md\">here</a>.",
     "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md)."
   },
-  "new-4": {
+  "digifact-qhrt": {
     "content": "DigiDollar is only created inside the official DigiByte Core wallet, and creating it never requires sending your DGB to anyone. Be wary of any website, bot or app that asks you to send DGB to \"mint DigiDollar\", or asks for your seed phrase or private keys.",
     "url": "https://github.com/DigiByte-Core/digibyte/releases",
     "link_social": " Get DigiByte Core here: https://github.com/DigiByte-Core/digibyte/releases",
     "link_html": " Get DigiByte Core <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/releases\">here</a>.",
     "link_md": " Get DigiByte Core [here](https://github.com/DigiByte-Core/digibyte/releases)."
   },
-  "new-5": {
+  "digifact-zgg5": {
     "content": "Because DigiDollar's DGB collateral is time-locked, it can never be force-sold if the price of DGB falls. Instead, DigiDollar protects itself automatically: when the system is under stress, creating new DigiDollars needs more DGB, and in an emergency more DigiDollars are needed to unlock DGB.",
     "url": "https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md",
     "link_social": " Learn more here: https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md\">here</a>.",
     "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md)."
   },
-  "new-6": {
+  "digifact-njvr": {
     "content": "DigiByte supports Taproot, the upgrade that brought Schnorr signatures and more private, efficient smart contracts to Bitcoin. It arrived with DigiByte Core v8.26, built on Bitcoin Core 26, and has been active since block 21,168,000.",
     "url": "https://www.digibyte.org/#roadmap",
     "link_social": " Learn more here: https://www.digibyte.org/#roadmap",
