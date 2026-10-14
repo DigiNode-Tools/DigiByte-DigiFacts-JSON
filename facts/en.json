@@ -663,5 +663,8 @@
   },
   "digifact-d6jc": {
     "content": "DigiByte's block reward goes down by 1.116% every month. It will reach zero at block 41,668,798, around 2035 - and from then on, miners will be paid by transaction fees alone."
+  },
+  "new": {
+    "content": "DigiByte's Odocrypt mining algorithm is named after Odo, the shape-shifting character from Star Trek: Deep Space Nine - a fitting name for an algorithm that changes its shape every 10 days."
   }
 }
