@@ -652,16 +652,16 @@
   "digifact-m7m5": {
     "content": "Cryptocurrency mining began on ordinary computer processors (CPUs), then moved to graphics cards (GPUs), which can run many calculations at once. Next came FPGAs, and then ASICs - each step faster and more efficient, but more specialised. DigiByte's five algorithms were chosen to give a range of mining hardware a part in securing the network."
   },
-  "new": {
+  "digifact-2hkd": {
     "content": "Bitcoin cuts its block reward in half every four years - a \"halving\" - so miners' income suddenly drops by half overnight. DigiByte instead lowers its block reward a little every month, so miners' income changes gradually, without a sudden shock that could drive many miners away at once."
   },
-  "new-2": {
+  "digifact-qjdv": {
     "content": "Every DigiByte block earns the same reward, whichever of the five mining algorithms found it. The reward depends only on the block's height - its position in the blockchain - so no algorithm is favoured over another."
   },
-  "new-3": {
+  "digifact-r4rf": {
     "content": "A miner can't give themselves extra DGB. Every node checks that a block pays out no more than the rules allow - the block reward for its height, plus its transaction fees - and rejects any block that claims more."
   },
-  "new-4": {
+  "digifact-d6jc": {
     "content": "DigiByte's block reward goes down by 1.116% every month. It will reach zero at block 41,668,798, around 2035 - and from then on, miners will be paid by transaction fees alone."
   }
 }
