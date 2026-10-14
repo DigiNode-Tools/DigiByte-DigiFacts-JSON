@@ -74,13 +74,6 @@
     "link_html": "社区维护了一个这样的浏览器，您可以在这里使用 <a target=\"_blank\" href=\"https://digiexplorer.info/\">此处</a>。",
     "link_md": "社区维护了一个这样的浏览器，您可以在这里使用 [此处](https://digiexplorer.info/)。"
   },
-  "digifact-sg8d": {
-    "content": "您是否曾经想过运行自己的DigiExplorer？或者从区块链中获取其他数据，以便将其与您的业务整合？",
-    "url": "https://dgbwiki.com",
-    "link_social": "这里有一些有用的指南，可以帮助您：https://dgbwiki.com",
-    "link_html": "这里有一些有用的指南，可以帮助您<a target=\"_blank\" href=\"https://dgbwiki.com/\">这里</a>。",
-    "link_md": "这里有一些有用的指南，可以帮助您[这里](https://dgbwiki.com/)。"
-  },
   "digifact-cmq8": {
     "content": "'DigiByte'这个名字最初被选中是因为它象征着数据的'数字字节'。这是因为像DigiByte这样的区块链技术可以用于远超过像银或金这样的'硬币'。DigiByte用途极其广泛。"
   },
@@ -200,26 +193,12 @@
   "digifact-7mzk": {
     "content": "自推出以来，DigiByte的正常运行时间已达100％。虽然有些人不时重新启动他们的计算机，但仍有数百人一直在线，以便即使在全国范围内发生重大互联网故障的情况下，DigiByte仍将继续运行。"
   },
-  "digifact-p9mn": {
-    "content": "由Renzo Diaz创建的DigiByte水龙头为您提供了一种轻松获得一些免费DGB的方式。对于DigiByte的新手来说，这是体验这一令人惊奇的技术的绝佳方式。对于开发人员，还有一个测试网水龙头。",
-    "url": "https://www.digifaucet.org/",
-    "link_social": "在这里查找：https://www.digifaucet.org/",
-    "link_html": "在这里查找 <a target=\"_blank\" href=\"https://www.digifaucet.org/\">此处</a>。",
-    "link_md": "在这里查找 [此处](https://www.digifaucet.org/)。"
-  },
   "digifact-zmwg": {
     "content": "任何人都可以为DigiByte的代码做出贡献并进行改进。所有提交都会由其他开发人员进行审核，以确保不会意外接受恶意代码。",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": "在此加入Gitter开发者聊天：https://gitter.im/DigiByte-Core/protocol",
     "link_html": "在此<a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">加入</a>Gitter开发者聊天。",
     "link_md": "在此[加入](https://gitter.im/DigiByte-Core/protocol)Gitter开发者聊天。"
-  },
-  "digifact-4rhh": {
-    "content": "您现在可以在Bluesky上认领自己的DigiByte社区用户名了 - 例如 @yourname.digibyte.social。这适用于Bluesky，以及所有使用AT协议的站点和服务。",
-    "url": "https://digibyte.social/",
-    "link_social": " 今天就来认领您的用户名: https://digibyte.social/",
-    "link_html": " 前往<a target=\"_blank\" href=\"https://digibyte.social/\">这里</a>认领您的用户名。",
-    "link_md": " 前往[这里](https://digibyte.social/)认领您的用户名。"
   },
   "digifact-4km6": {
     "content": "没有人确切知道DigiByte网络上有多少\"节点\"，因为没有中心点，所有计算机都要进行检查。这确保了您在下载钱包软件时的隐私。"
@@ -299,13 +278,6 @@
     "link_html": "在这里查找<a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">这里</a>。",
     "link_md": "在这里查找[这里](https://digisweep.digiassetx.com/)。"
   },
-  "digifact-vc2g": {
-    "content": "DigiByte联盟是一个于2021年3月在怀俄明州成立的公共非营利基金会。其使命是加速DigiByte的增长和采用。",
-    "url": "https://www.dgballiance.org/",
-    "link_social": "了解更多信息：https://www.dgballiance.org/",
-    "link_html": "了解更多信息 <a target=\"_blank\" href=\"https://www.dgballiance.org/\">此处</a>。",
-    "link_md": "了解更多信息 [此处](https://www.dgballiance.org/)。"
-  },
   "digifact-bjqp": {
     "content": "位于 r/DigiByte 的 DigiByte subreddit 拥有超过 40,000 名成员。这是一个了解 DigiByte 社区所有新闻和发展的绝佳地方。",
     "url": "https://reddit.com/r/Digibyte",
@@ -347,20 +319,6 @@
     "link_social": "在这里找到：https://digifacts.org/",
     "link_html": "在这里找到<a target=\"_blank\" href=\"https://digifacts.org/\">。</a>",
     "link_md": "在这里找到[此处](https://digifacts.org/)。"
-  },
-  "digifact-8ndf": {
-    "content": "DigiByte Wiki是一个由DigiByte社区的成员编写和维护的关于所有DigiByte相关信息的绝佳资源。",
-    "url": "https://wiki.digibyte.org/",
-    "link_social": "在这里找到它：https://wiki.digibyte.org/",
-    "link_html": "在此处找到它<a target=\"_blank\" href=\"https://wiki.digibyte.org/\">。</a>",
-    "link_md": "在此处找到它[here](https://wiki.digibyte.org/)。"
-  },
-  "digifact-krf7": {
-    "content": "DigiByte Domains是由DigiByte社区成员Renzo Dias创建的服务。DigiByte域是引用DigiByte钱包地址的名称。它由DigiAssets提供支持，域是资产。例如，您可以将一些DigiByte或DigiAssets发送到'domain.dgb'，它将到达持有该域名的地址。",
-    "url": "https://digibytedomains.com/",
-    "link_social": "您可以在此处购买自己的DigiByte域名：https://digibytedomains.com/",
-    "link_html": "您可以在<a target=\"_blank\" href=\"https://digibytedomains.com/\">此处</a>购买自己的DigiByte域名。",
-    "link_md": "您可以在[此处](https://digibytedomains.com/)购买自己的DigiByte域名。"
   },
   "digifact-cz5m": {
     "content": "对于开发人员来说，DigiByte JS 是一个纯粹而强大的JavaScript DigiByte库，是从Bitpay的Bitcore Lib库分支而来的。",

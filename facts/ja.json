@@ -74,13 +74,6 @@
     "link_html": "コミュニティではこのようなエクスプローラを維持しており、<a target=\"_blank\" href=\"https://digiexplorer.info/\">こちら</a>で利用できます。",
     "link_md": "コミュニティではこのようなエクスプローラを維持しており、[こちら](https://digiexplorer.info/)で利用できます。"
   },
-  "digifact-sg8d": {
-    "content": "自分自身のDigiExplorerを運用したいことはありますか？または、ビジネスに統合するためにブロックチェーンから他のデータを取得したいことはありますか？",
-    "url": "https://dgbwiki.com",
-    "link_social": "ここには便利なガイドがあります：https://dgbwiki.com",
-    "link_html": "ここには便利なガイドがあります <a target=\"_blank\" href=\"https://dgbwiki.com/\">こちら</a>。",
-    "link_md": "ここには便利なガイドがあります [こちら](https://dgbwiki.com/)。"
-  },
   "digifact-cmq8": {
     "content": "'DigiByte'という名前はもともと、「デジタルバイト」のデータを意味するものとして選ばれました。これは、銀や金のような'コイン'としてだけでなく、DigiByteのようなブロックチェーン技術がはるかに多くのことに使用できるためです。DigiByteは信じられないほど多目的に使用できます。"
   },
@@ -200,26 +193,12 @@
   "digifact-7mzk": {
     "content": "DigiByteは立ち上げ以来100％の稼働率を誇っています。一部の人々は時折コンピュータを再起動しますが、数百人以上の他の人々は常にオンラインに残っており、大規模な全国的なインターネットの停止の場合でもDigiByteは引き続き機能します。"
   },
-  "digifact-p9mn": {
-    "content": "Renzo DiazのDigiByte Faucetを使用すると、簡単にいくつかの無料のDGBを入手できます。これは、DigiByteの新参者がこの素晴らしいテクノロジーを直接体験する素晴らしい方法です。開発者向けにはテストネット用のFaucetも用意されています。",
-    "url": "https://www.digifaucet.org/",
-    "link_social": "こちらで見つけてください：https://www.digifaucet.org/",
-    "link_html": "こちらで見つける <a target=\"_blank\" href=\"https://www.digifaucet.org/\">こちら</a>。",
-    "link_md": "こちらで見つける [こちら](https://www.digifaucet.org/)。"
-  },
   "digifact-zmwg": {
     "content": "誰でもDigiByteのコードに貢献し、改善できます。すべての提出物は他の開発者によってレビューされ、誤って悪意のあるコードが受け入れられないように確認されます。",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": "こちらからGitterの開発者チャットに参加してください：https://gitter.im/DigiByte-Core/protocol",
     "link_html": "こちら<a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">から</a>Gitterの開発者チャットに参加してください。",
     "link_md": "こちらからGitterの開発者チャットに[参加](https://gitter.im/DigiByte-Core/protocol)してください。"
-  },
-  "digifact-4rhh": {
-    "content": "Blueskyで自分のDigiByteコミュニティハンドルを主張することができるようになりました - 例: @yourname.digibyte.social。これはBlueskyおよびATプロトコルを使用するすべてのサイトおよびサービスで機能します。",
-    "url": "https://digibyte.social/",
-    "link_social": " 今日あなたのものを主張してください: https://digibyte.social/",
-    "link_html": " あなたのものを主張するために<a target=\"_blank\" href=\"https://digibyte.social/\">ここ</a>に行ってください。",
-    "link_md": " あなたのものを主張するために[ここ](https://digibyte.social/)に行ってください。"
   },
   "digifact-4km6": {
     "content": "DigiByteネットワークには「ノード」がいくつあるか、誰も正確にはわかりません。すべてのコンピューターがチェックインする中央点がないためです。これにより、ウォレットソフトウェアをダウンロードする際にプライバシーが保護されます。"
@@ -299,13 +278,6 @@
     "link_html": "こちらで見つける <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">こちら</a>。",
     "link_md": "こちらで見つける [こちら](https://digisweep.digiassetx.com/)。"
   },
-  "digifact-vc2g": {
-    "content": "デジバイト・アライアンス（DigiByte Alliance）は、2021年3月にワイオミング州で設立された公共の非営利団体です。その使命は、デジバイトの成長と普及を加速することです。",
-    "url": "https://www.dgballiance.org/",
-    "link_social": "詳細はこちら：https://www.dgballiance.org/",
-    "link_html": "詳細は<a target=\"_blank\" href=\"https://www.dgballiance.org/\">こちら</a>でご覧いただけます。",
-    "link_md": "詳細は[こちら](https://www.dgballiance.org/)をご覧ください。"
-  },
   "digifact-bjqp": {
     "content": "r/DigiByteにあるDigiByteのサブレディットには40,000人以上のメンバーがいます。DigiByteコミュニティのすべてのニュースや開発について最新情報を入手できる素晴らしい場所です。",
     "url": "https://reddit.com/r/Digibyte",
@@ -347,20 +319,6 @@
     "link_social": "こちらで見つけてください：https://digifacts.org/",
     "link_html": "こちらで見つけてください<a target=\"_blank\" href=\"https://digifacts.org/\">。</a>",
     "link_md": "こちらで見つけてください[こちら](https://digifacts.org/)。"
-  },
-  "digifact-8ndf": {
-    "content": "DigiByte Wikiは、DigiByteコミュニティのメンバーによって執筆および維持されている、すべてのDigiByteに関する情報の素晴らしい情報源です。",
-    "url": "https://wiki.digibyte.org/",
-    "link_social": "こちらで見つけてください：https://wiki.digibyte.org/",
-    "link_html": "こちらで見つけてください <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">。</a>",
-    "link_md": "こちらで見つけてください[こちら](https://wiki.digibyte.org/)。"
-  },
-  "digifact-krf7": {
-    "content": "DigiByte DomainsはDigiByteコミュニティのメンバーであるRenzo Diasによって作成されたサービスです。DigiByteドメインはDigiByteウォレットアドレスを参照する名前です。これはDigiAssetsで動作し、ドメイン自体がアセットです。たとえば、'domain.dgb'に少量のDigiByteまたはDigiAssetsを送信することができ、そのドメインを保持するアドレスに届きます。",
-    "url": "https://digibytedomains.com/",
-    "link_social": "こちらから独自のDigiByteドメインを購入できます：https://digibytedomains.com/",
-    "link_html": "独自のDigiByteドメインを<a target=\"_blank\" href=\"https://digibytedomains.com/\">こちら</a>から購入できます。",
-    "link_md": "独自のDigiByteドメインを[こちら](https://digibytedomains.com/)から購入できます。"
   },
   "digifact-cz5m": {
     "content": "開発者向けに、DigiByte JSはBitpayのBitcore Libライブラリからフォークされた、純粋で強力なJavascript DigiByteライブラリです。",

@@ -74,13 +74,6 @@
     "link_html": " Die Community unterhält einen solchen Explorer, den Sie <a target=\"_blank\" href=\"https://digiexplorer.info/\">hier</a> verwenden können.",
     "link_md": " Die Community unterhält einen solchen Explorer, den Sie [hier](https://digiexplorer.info/) verwenden können."
   },
-  "digifact-sg8d": {
-    "content": "Haben Sie jemals Ihren eigenen DigiExplorer betreiben wollen? Oder Daten aus der Blockchain extrahieren wollen, um sie in Ihr Geschäft zu integrieren?",
-    "url": "https://dgbwiki.com",
-    "link_social": " Hier finden Sie nützliche Anleitungen, die Ihnen helfen: https://dgbwiki.com",
-    "link_html": " Hier finden Sie nützliche Anleitungen, die Ihnen helfen <a target=\"_blank\" href=\"https://dgbwiki.com/\">hier</a>.",
-    "link_md": " Hier finden Sie nützliche Anleitungen, die Ihnen helfen [hier](https://dgbwiki.com/)."
-  },
   "digifact-cmq8": {
     "content": "Der Name 'DigiByte' wurde ursprünglich gewählt, da er ein 'Digitales Byte' an Daten symbolisiert. Dies liegt daran, dass Blockchain-Technologie wie DigiByte für viel mehr als nur als 'Münze' wie Silber oder Gold verwendet werden kann. DigiByte ist unglaublich vielseitig."
   },
@@ -200,26 +193,12 @@
   "digifact-7mzk": {
     "content": "DigiByte hat seit seiner Einführung eine Betriebszeit von 100%. Während einige Menschen gelegentlich ihre Computer neu starten, bleiben Hunderte andere die ganze Zeit online, so dass selbst im Falle eines landesweiten Internetausfalls DigiByte weiterhin funktionieren würde."
   },
-  "digifact-p9mn": {
-    "content": "Der DigiByte Faucet von Renzo Diaz bietet Ihnen eine einfache Möglichkeit, einige kostenlose DGB zu erhalten. Dies ist eine großartige Möglichkeit für Neulinge von DigiByte, diese erstaunliche Technologie aus erster Hand zu erleben. Für Entwickler steht auch ein Testnet-Faucet zur Verfügung.",
-    "url": "https://www.digifaucet.org/",
-    "link_social": " Finden Sie es hier: https://www.digifaucet.org/",
-    "link_html": " Finden Sie es <a target=\"_blank\" href=\"https://www.digifaucet.org/\">hier</a>.",
-    "link_md": " Finden Sie es [hier](https://www.digifaucet.org/)."
-  },
   "digifact-zmwg": {
     "content": "Jeder kann zum DigiByte-Code beitragen und Verbesserungen vornehmen. Alle Beiträge werden von anderen Entwicklern überprüft, um sicherzustellen, dass kein bösartiger Code versehentlich akzeptiert wird.",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": " Treten Sie dem Entwickler-Chat in Gitter hier bei: https://gitter.im/DigiByte-Core/protocol",
     "link_html": " Treten Sie dem Entwickler-Chat in Gitter <a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">hier</a> bei.",
     "link_md": " Treten Sie dem Entwickler-Chat in Gitter [hier](https://gitter.im/DigiByte-Core/protocol) bei."
-  },
-  "digifact-4rhh": {
-    "content": "Sie können jetzt Ihren eigenen DigiByte-Community-Handle auf Bluesky beanspruchen - z.B. @yourname.digibyte.social. Dies funktioniert auf Bluesky und auf allen Seiten und Diensten, die das AT-Protokoll nutzen.",
-    "url": "https://digibyte.social/",
-    "link_social": " Beanspruchen Sie Ihres heute: https://digibyte.social/",
-    "link_html": " Gehen Sie <a target=\"_blank\" href=\"https://digibyte.social/\">hier</a> hin, um Ihres zu beanspruchen.",
-    "link_md": " Gehen Sie [hier](https://digibyte.social/) hin, um Ihres zu beanspruchen."
   },
   "digifact-4km6": {
     "content": "Niemand weiß genau, wie viele \"Nodes\" es im DigiByte-Netzwerk gibt, da es keinen zentralen Punkt gibt, den alle Computer überprüfen. Dies gewährleistet Ihre Privatsphäre, wenn Sie die Wallet-Software herunterladen."
@@ -299,13 +278,6 @@
     "link_html": " Finden Sie es <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">hier</a>.",
     "link_md": " Finden Sie es [hier](https://digisweep.digiassetx.com/)."
   },
-  "digifact-vc2g": {
-    "content": "Die DigiByte Alliance ist eine öffentliche gemeinnützige Stiftung, die im März 2021 in Wyoming gegründet wurde. Ihre Mission besteht darin, das Wachstum und die Akzeptanz von DigiByte zu beschleunigen.",
-    "url": "https://www.dgballiance.org/",
-    "link_social": " Erfahren Sie mehr: https://www.dgballiance.org/",
-    "link_html": " Erfahren Sie mehr <a target=\"_blank\" href=\"https://www.dgballiance.org/\">hier</a>.",
-    "link_md": " Erfahren Sie mehr [hier](https://www.dgballiance.org/)."
-  },
   "digifact-bjqp": {
     "content": "Das DigiByte-Subreddit auf r/DigiByte hat über 40.000 Mitglieder. Es ist ein großartiger Ort, um über alle Neuigkeiten und Entwicklungen in der DigiByte-Community auf dem Laufenden zu bleiben.",
     "url": "https://reddit.com/r/Digibyte",
@@ -347,20 +319,6 @@
     "link_social": " Hier finden Sie es: https://digifacts.org/",
     "link_html": " Finden Sie es <a target=\"_blank\" href=\"https://digifacts.org/\">hier</a>.",
     "link_md": " Finden Sie es [hier](https://digifacts.org/)."
-  },
-  "digifact-8ndf": {
-    "content": "Das DigiByte-Wiki ist eine fantastische Informationsquelle für alles rund um DigiByte, verfasst und gepflegt von Mitgliedern der DigiByte-Community.",
-    "url": "https://wiki.digibyte.org/",
-    "link_social": "Hier finden Sie es: https://wiki.digibyte.org/",
-    "link_html": "Finden Sie es <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">hier</a>.",
-    "link_md": "Finden Sie es [hier](https://wiki.digibyte.org/)."
-  },
-  "digifact-krf7": {
-    "content": "DigiByte Domains ist ein von Mitgliedern der DigiByte-Community entwickelter Dienst, der von Renzo Dias ins Leben gerufen wurde. Ein DigiByte-Domain ist ein Name, der auf eine DigiByte-Wallet-Adresse verweist. Es wird von DigiAssets betrieben, und die Domain selbst ist das Asset. Sie können beispielsweise einige DigiByte oder DigiAssets an 'domain.dgb' senden, und sie werden an die Adresse gelangen, die die Domain enthält.",
-    "url": "https://digibytedomains.com/",
-    "link_social": " Hier können Sie Ihre eigene DigiByte-Domain kaufen: https://digibytedomains.com/",
-    "link_html": " Kaufen Sie Ihre eigene DigiByte-Domain <a target=\"_blank\" href=\"https://digibytedomains.com/\">hier</a>.",
-    "link_md": " Kaufen Sie Ihre eigene DigiByte-Domain [hier](https://digibytedomains.com/)."
   },
   "digifact-cz5m": {
     "content": "Für Entwickler ist DigiByte JS eine reine und leistungsstarke JavaScript DigiByte-Bibliothek, abgeleitet von der Bitcore Lib-Bibliothek von Bitpay.",

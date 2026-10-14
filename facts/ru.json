@@ -74,13 +74,6 @@
     "link_html": " Сообщество поддерживает один такой эксплорер, который вы можете использовать <a target=\"_blank\" href=\"https://digiexplorer.info/\">здесь</a>.",
     "link_md": " Сообщество поддерживает один такой эксплорер, который вы можете использовать [здесь](https://digiexplorer.info/)."
   },
-  "digifact-sg8d": {
-    "content": "Вы когда-нибудь хотели запустить свой собственный DigiExplorer? Или получить другие данные из блокчейна, чтобы интегрировать их в свой бизнес?",
-    "url": "https://dgbwiki.com",
-    "link_social": " Здесь есть удобные руководства, которые помогут вам: https://dgbwiki.com",
-    "link_html": " Здесь есть удобные руководства, которые помогут вам <a target=\"_blank\" href=\"https://dgbwiki.com/\">здесь</a>.",
-    "link_md": " Здесь есть удобные руководства, которые помогут вам [здесь](https://dgbwiki.com/)."
-  },
   "digifact-cmq8": {
     "content": "Название 'DigiByte' было выбрано изначально, поскольку оно обозначает 'цифровой байт' данных. Это потому, что такие технологии блокчейна, как DigiByte, могут использоваться гораздо шире, чем просто 'монета', такая как серебро или золото. DigiByte имеет невероятно многогранное применение."
   },
@@ -200,26 +193,12 @@
   "digifact-7mzk": {
     "content": "С момента запуска DigiByte, у него было 100% времени активной работы. В то время как некоторые люди время от времени перезагружают свои компьютеры, сотни других остаются онлайн постоянно, так что даже в случае крупного национального отключения интернета, DigiByte продолжит функционировать."
   },
-  "digifact-p9mn": {
-    "content": "Кран DigiByte от Ренцо Диаса предоставляет вам легкий способ получить немного бесплатных DGB. Это отличный способ для новичков DigiByte познакомиться с этой удивительной технологией на практике. Для разработчиков также есть кран тестовой сети.",
-    "url": "https://www.digifaucet.org/",
-    "link_social": " Найдите его здесь: https://www.digifaucet.org/",
-    "link_html": " Найдите его <a target=\"_blank\" href=\"https://www.digifaucet.org/\">здесь</a>.",
-    "link_md": " Найдите его [здесь](https://www.digifaucet.org/)."
-  },
   "digifact-zmwg": {
     "content": "Любой может внести свой вклад в код DigiByte и вносить улучшения. Все предложения проходят рецензию другими разработчиками, чтобы исключить случайное принятие вредоносного кода.",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": " Присоединяйтесь к чату разработчиков Gitter здесь: https://gitter.im/DigiByte-Core/protocol",
     "link_html": " Присоединяйтесь к чату разработчиков Gitter <a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">здесь</a>.",
     "link_md": " Присоединяйтесь к чату разработчиков Gitter [здесь](https://gitter.im/DigiByte-Core/protocol)."
-  },
-  "digifact-4rhh": {
-    "content": "Теперь вы можете заявить свой собственный идентификатор сообщества DigiByte в Bluesky - например, @yourname.digibyte.social. Это работает в Bluesky, а также на всех сайтах и сервисах, использующих протокол AT.",
-    "url": "https://digibyte.social/",
-    "link_social": " Заявите свой сегодня: https://digibyte.social/",
-    "link_html": " Перейдите <a target=\"_blank\" href=\"https://digibyte.social/\">сюда</a>, чтобы заявить свой.",
-    "link_md": " Перейдите [сюда](https://digibyte.social/) чтобы заявить свой."
   },
   "digifact-4km6": {
     "content": "Никто не знает точно, сколько \"узлов\" есть в сети DigiByte, потому что нет центральной точки, к которой проверяются все компьютеры. Это обеспечивает вашу конфиденциальность при загрузке программного обеспечения кошелька."
@@ -299,13 +278,6 @@
     "link_html": " Найдите <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">здесь</a>.",
     "link_md": " Найдите [здесь](https://digisweep.digiassetx.com/)."
   },
-  "digifact-vc2g": {
-    "content": "DigiByte Alliance - это общественный некоммерческий фонд, основанный в Вайоминге в марте 2021 года. Его миссия - ускорить рост и принятие DigiByte.",
-    "url": "https://www.dgballiance.org/",
-    "link_social": " Узнать больше: https://www.dgballiance.org/",
-    "link_html": " Узнать больше <a target=\"_blank\" href=\"https://www.dgballiance.org/\">здесь</a>.",
-    "link_md": " Узнать больше [здесь](https://www.dgballiance.org/)."
-  },
   "digifact-bjqp": {
     "content": "На форуме DigiByte, расположенном по адресу r/DigiByte, зарегистрировано более 40 000 участников. Это отличное место, чтобы быть в курсе всех новостей и событий в сообществе DigiByte.",
     "url": "https://reddit.com/r/Digibyte",
@@ -347,20 +319,6 @@
     "link_social": " Найдите его здесь: https://digifacts.org/",
     "link_html": " Найдите <a target=\"_blank\" href=\"https://digifacts.org/\">здесь</a>.",
     "link_md": " Найдите [здесь](https://digifacts.org/)."
-  },
-  "digifact-8ndf": {
-    "content": "Вики DigiByte - отличный ресурс информации по всему, что касается DigiByte, написанный и поддерживаемый членами сообщества DigiByte.",
-    "url": "https://wiki.digibyte.org/",
-    "link_social": " Найдите его здесь: https://wiki.digibyte.org/",
-    "link_html": " Найдите его <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">здесь</a>.",
-    "link_md": " Найдите его [здесь](https://wiki.digibyte.org/)."
-  },
-  "digifact-krf7": {
-    "content": "DigiByte Domains - это сервис, созданный участником сообщества DigiByte Ренцо Диасом. Домен DigiByte - это имя, которое ссылается на адрес кошелька DigiByte. Он работает на платформе DigiAssets, и домен сам по себе является активом. Например, вы можете отправить некоторое количество DigiByte или DigiAssets на 'domain.dgb', и они придут на адрес, который управляет этим доменом.",
-    "url": "https://digibytedomains.com/",
-    "link_social": " Вы можете приобрести свой собственный домен DigiByte здесь: https://digibytedomains.com/",
-    "link_html": " Вы можете приобрести свой собственный домен DigiByte <a target=\"_blank\" href=\"https://digibytedomains.com/\">здесь</a>.",
-    "link_md": " Вы можете приобрести свой собственный домен DigiByte [здесь](https://digibytedomains.com/)."
   },
   "digifact-cz5m": {
     "content": "Для разработчиков DigiByte JS - это чистая и мощная библиотека DigiByte на языке Javascript, созданная на основе библиотеки Bitcore Lib от Bitpay.",

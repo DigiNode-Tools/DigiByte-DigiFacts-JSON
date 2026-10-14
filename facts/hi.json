@@ -74,13 +74,6 @@
     "link_html": " समुदाय एक ऐसे एक्सप्लोरर का पालन करता है जिसका आप उपयोग कर सकते हैं <a target=\"_blank\" href=\"https://digiexplorer.info/\">यहाँ</a>।",
     "link_md": " समुदाय एक ऐसे एक्सप्लोरर का पालन करता है जिसका आप उपयोग कर सकते हैं [यहाँ](https://digiexplorer.info/)।"
   },
-  "digifact-sg8d": {
-    "content": "क्या आपने कभी अपना खुद का DigiExplorer चलाने की इच्छा की है? या ब्लॉकचेन से अन्य डेटा प्राप्त करके उसे अपने व्यवसाय में एकीकृत करने की इच्छा की है?",
-    "url": "https://dgbwiki.com",
-    "link_social": " यहाँ एक उपयोगी मार्गदर्शक हैं जो आपकी मदद करेंगे: https://dgbwiki.com",
-    "link_html": " यहाँ एक उपयोगी मार्गदर्शक हैं जो आपकी मदद करेंगे <a target=\"_blank\" href=\"https://dgbwiki.com/\">यहाँ</a>।",
-    "link_md": " यहाँ एक उपयोगी मार्गदर्शक हैं जो आपकी मदद करेंगे [यहाँ](https://dgbwiki.com/)।"
-  },
   "digifact-cmq8": {
     "content": "'डिजीबाइट' नाम मूल रूप से इसलिए चुना गया था क्योंकि यह डेटा का 'डिजिटल बाइट' सूचित करता है। इसका कारण यह है कि डिजीबाइट जैसी ब्लॉकचेन तकनीक का उपयोग चांदी या सोने जैसे 'सिक्के' से कहीं अधिक के लिए किया जा सकता है। डिजीबाइट अत्यंत बहुउद्देशीय है।"
   },
@@ -200,26 +193,12 @@
   "digifact-7mzk": {
     "content": "डिजीबाइट को उसके लॉन्च से 100% अपटाइम है। हालांकि कुछ लोग समय-समय पर अपने कंप्यूटर को फिर से चालाते हैं, सैकड़ों अन्य लोग सभी समय ऑनलाइन रहते हैं, ताकि भारतीय इंटरनेट की बड़ी राष्ट्रीय बंद होने की घटना के मामूली मामूली बावजूद, डिजीबाइट का काम जारी रहे।"
   },
-  "digifact-p9mn": {
-    "content": "Renzo Diaz द्वारा दिया गया DigiByte Faucet आपको कुछ मुफ्त DGB प्राप्त करने के एक सरल तरीके प्रदान करता है। यह DigiByte के नए आगमनों के लिए इस अद्भुत प्रौद्योगिकी का अनुभव करने का एक शानदार तरीका है। डेवलपर्स के लिए एक टेस्टनेट फॉसेट भी है।",
-    "url": "https://www.digifaucet.org/",
-    "link_social": " यहां पाएं: https://www.digifaucet.org/",
-    "link_html": " यहां पाएं <a target=\"_blank\" href=\"https://www.digifaucet.org/\">यहां</a>।",
-    "link_md": " यहां पाएं [यहां](https://www.digifaucet.org/)।"
-  },
   "digifact-zmwg": {
     "content": "कोई भी DigiByte कोड में योगदान कर सकता है और सुधार कर सकता है। सभी सबमिशन को अन्य डेवलपर्स द्वारा समीक्षित किया जाता है ताकि किसी भी दुरुपयोगी कोड को आपत्तित रूप से स्वीकार नहीं किया जाता है।",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": " DigiByte Discord सर्वर पर विकासक चैट से जुड़ें: https://gitter.im/DigiByte-Core/protocol",
     "link_html": " DigiByte Discord सर्वर पर विकासक चैट से जुड़ें <a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">यहाँ</a>।",
     "link_md": " DigiByte Discord सर्वर पर विकासक चैट से जुड़ें [यहाँ](https://gitter.im/DigiByte-Core/protocol)।"
-  },
-  "digifact-4rhh": {
-    "content": "अब आप Bluesky पर अपना खुद का DigiByte समुदाय हैंडल दावा कर सकते हैं - उदाहरण के लिए @yourname.digibyte.social. यह Bluesky पर, और उन सभी साइटों और सेवाओं पर काम करता है जो AT प्रोटोकॉल का उपयोग करते हैं।",
-    "url": "https://digibyte.social/",
-    "link_social": " अपना आज ही दावा करें: https://digibyte.social/",
-    "link_html": " अपना दावा करने के लिए <a target=\"_blank\" href=\"https://digibyte.social/\">यहाँ</a> जाएं।",
-    "link_md": " अपना दावा करने के लिए [यहाँ](https://digibyte.social/) जाएं।"
   },
   "digifact-4km6": {
     "content": "किसी को भी सटीक रूप से नहीं पता है कि DigiByte नेटवर्क पर कितने \"नोड\" हैं, क्योंकि एक सेंट्रल पॉइंट नहीं है जिसके साथ सभी कंप्यूटर चेक इन करते हैं। जब आप वॉलेट सॉफ़्टवेयर डाउनलोड करते हैं, तो यह आपकी गोपनीयता को सुनिश्चित करता है।"
@@ -299,13 +278,6 @@
     "link_html": " इसे <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">यहाँ</a> खोजें।",
     "link_md": " इसे [यहाँ](https://digisweep.digiassetx.com/) खोजें।"
   },
-  "digifact-vc2g": {
-    "content": "डिजाइट अलायंस एक सार्वजनिक गैर-लाभकारी संस्था है, जो मार्च 2021 में व्योमिंग में स्थापित हुई। इसका उद्देश्य डिजाइट की वृद्धि और स्वीकृति को गति देना है।",
-    "url": "https://www.dgballiance.org/",
-    "link_social": " और जानें: https://www.dgballiance.org/",
-    "link_html": " और जानें <a target=\"_blank\" href=\"https://www.dgballiance.org/\">यहाँ</a>।",
-    "link_md": " और जानें [यहाँ](https://www.dgballiance.org/)।"
-  },
   "digifact-bjqp": {
     "content": "DigiByte की सबरेडिट r/DigiByte पर 40,000 से अधिक सदस्य हैं। यह DigiByte समुदाय में होने वाली सभी खबरों और विकासों के बारे में अपडेट रहने के लिए एक शानदार स्थान है।",
     "url": "https://reddit.com/r/Digibyte",
@@ -347,20 +319,6 @@
     "link_social": " इसे यहाँ ढूंढें: https://digifacts.org/",
     "link_html": " इसे <a target=\"_blank\" href=\"https://digifacts.org/\">यहाँ</a> ढूंढें।",
     "link_md": " इसे [यहाँ](https://digifacts.org/) ढूंढें।"
-  },
-  "digifact-8ndf": {
-    "content": "DigiByte विकी डिज़ाइन और डिज़ाइट दोनों में डिज़ाइन और डिज़ाइट नोड का प्रबंधन करने के लिए एक सफ्टवेयर सूट है, जिसमें एक रैस्पबेरी पाइ या यूबंटू सिस्टम जैसे कम पॉवर डिवाइस पर डिज़ाइट और/या डिज़ाइट नोड सेटअप करना बहुत आसान होता है। सेटअप मेन्यू-ड्रिवन है और विस्तृत कदम-से-कदम निर्देश प्रदान किए जाते हैं। आप एक ड्यूल नोड सेटअप भी कर सकते हैं, जो एक ही डिवाइस पर मेननेट और टेस्टनेट नोड दोनों चलाने की सुविधा प्रदान करता है।",
-    "url": "https://wiki.digibyte.org/",
-    "link_social": "यहां और अधिक जानें: https://wiki.digibyte.org/",
-    "link_html": "यहां और अधिक जानें <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">यहां</a>।",
-    "link_md": "यहां और अधिक जानें [यहां](https://wiki.digibyte.org/)।"
-  },
-  "digifact-krf7": {
-    "content": "DigiByte Domains एक सेवा है जिसे DigiByte समुदाय के सदस्य Renzo Dias ने बनाया है। एक DigiByte डोमेन एक ऐसा नाम है जो एक DigiByte वॉलेट पते का संदर्भ करता है। यह DigiAssets द्वारा संचालित होता है, और डोमेन स्वयं ही संपत्ति है। उदाहरण के लिए, आप 'domain.dgb' पर कुछ DigiByte या DigiAssets भेज सकते हैं, और वे वह पते पर पहुंच जाएंगे जिस पर डोमेन है।",
-    "url": "https://digibytedomains.com/",
-    "link_social": " यहां अपने खुद के DigiByte डोमेन को खरीदें: https://digibytedomains.com/",
-    "link_html": " अपना DigiByte डोमेन <a target=\"_blank\" href=\"https://digibytedomains.com/\">यहां</a> खरीदें।",
-    "link_md": " अपना DigiByte डोमेन [यहां](https://digibytedomains.com/) खरीदें।"
   },
   "digifact-cz5m": {
     "content": "डेवलपर्स के लिए, DigiByte JS एक शुद्ध और शक्तिशाली जावास्क्रिप्ट DigiByte लाइब्रेरी है, जो बिटपे की बिटकोर लिब लाइब्रेरी से फोर्क किया गया है।",

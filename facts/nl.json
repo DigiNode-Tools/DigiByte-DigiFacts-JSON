@@ -74,13 +74,6 @@
     "link_html": " De gemeenschap onderhoudt zo'n explorer die je kunt gebruiken <a target=\"_blank\" href=\"https://digiexplorer.info/\">hier</a>.",
     "link_md": " De gemeenschap onderhoudt zo'n explorer die je kunt gebruiken [hier](https://digiexplorer.info/)."
   },
-  "digifact-sg8d": {
-    "content": "Heb je ooit je eigen DigiExplorer willen draaien? Of andere gegevens uit de blockchain willen halen zodat je ze kunt integreren met je bedrijf?",
-    "url": "https://dgbwiki.com",
-    "link_social": " Er zijn handige handleidingen die je hierbij kunnen helpen: https://dgbwiki.com",
-    "link_html": " Er zijn handige handleidingen die je <a target=\"_blank\" href=\"https://dgbwiki.com/\">hier</a> kunt gebruiken.",
-    "link_md": " Er zijn handige handleidingen die je [hier](https://dgbwiki.com/) kunt gebruiken."
-  },
   "digifact-cmq8": {
     "content": "De naam 'DigiByte' werd oorspronkelijk gekozen omdat het een 'Digitale Byte' van gegevens betekent. Dit komt omdat blockchain-technologie zoals DigiByte voor veel meer gebruikt kan worden dan alleen als een 'munt', zoals zilver of goud. DigiByte is ongelooflijk veelzijdig."
   },
@@ -200,26 +193,12 @@
   "digifact-7mzk": {
     "content": "DigiByte heeft sinds de lancering een uptime van 100%. Terwijl sommige mensen hun computer van tijd tot tijd opnieuw opstarten, blijven honderden anderen altijd online, zodat zelfs in geval van een grote nationale internetstoring DigiByte blijft functioneren."
   },
-  "digifact-p9mn": {
-    "content": "De DigiByte Faucet van Renzo Diaz biedt u een eenvoudige manier om gratis wat DGB te krijgen. Het is een geweldige manier voor nieuwkomers in DigiByte om deze geweldige technologie uit eerste hand te ervaren. Voor ontwikkelaars is er ook een testnet-faucet beschikbaar.",
-    "url": "https://www.digifaucet.org/",
-    "link_social": " Vind het hier: https://www.digifaucet.org/",
-    "link_html": " Vind het <a target=\"_blank\" href=\"https://www.digifaucet.org/\">hier</a>.",
-    "link_md": " Vind het [hier](https://www.digifaucet.org/)."
-  },
   "digifact-zmwg": {
     "content": "Iedereen kan bijdragen aan de DigiByte-code en verbeteringen aanbrengen. Alle inzendingen worden beoordeeld door andere ontwikkelaars om ervoor te zorgen dat er geen kwaadaardige code per ongeluk wordt geaccepteerd.",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": " Doe mee aan de ontwikkelaarschat op Gitter hier: https://gitter.im/DigiByte-Core/protocol",
     "link_html": " Doe mee aan de ontwikkelaarschat op Gitter <a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">hier</a>.",
     "link_md": " Doe mee aan de ontwikkelaarschat op Gitter [hier](https://gitter.im/DigiByte-Core/protocol)."
-  },
-  "digifact-4rhh": {
-    "content": "Je kunt nu je eigen DigiByte community handle claimen op Bluesky - bijvoorbeeld @jouwnaam.digibyte.social. Dit werkt op Bluesky, en op alle sites en diensten die het AT-protocol gebruiken.",
-    "url": "https://digibyte.social/",
-    "link_social": " Claim de jouwe vandaag: https://digibyte.social/",
-    "link_html": " Ga <a target=\"_blank\" href=\"https://digibyte.social/\">hier</a> om de jouwe te claimen.",
-    "link_md": " Ga [hier](https://digibyte.social/) om de jouwe te claimen."
   },
   "digifact-4km6": {
     "content": "Niemand weet precies hoeveel \"nodes\" er op het DigiByte-netwerk zijn, omdat er geen centraal punt is waarmee alle computers zich aanmelden. Dit zorgt ervoor dat uw privacy wordt gewaarborgd wanneer u de wallet-software downloadt."
@@ -299,13 +278,6 @@
     "link_html": " Vind het <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">hier</a>.",
     "link_md": " Vind het [hier](https://digisweep.digiassetx.com/)."
   },
-  "digifact-vc2g": {
-    "content": "De DigiByte Alliance is een openbare non-profit stichting opgericht in Wyoming in maart 2021. Haar missie is het versnellen van de groei en adoptie van DigiByte.",
-    "url": "https://www.dgballiance.org/",
-    "link_social": " Lees meer: https://www.dgballiance.org/",
-    "link_html": " Lees meer <a target=\"_blank\" href=\"https://www.dgballiance.org/\">hier</a>.",
-    "link_md": " Lees meer [hier](https://www.dgballiance.org/)."
-  },
   "digifact-bjqp": {
     "content": "Het DigiByte-subreddit op r/DigiByte heeft meer dan 40.000 leden. Het is een geweldige plek om op de hoogte te blijven van al het nieuws en de ontwikkelingen in de DigiByte-community.",
     "url": "https://reddit.com/r/Digibyte",
@@ -347,20 +319,6 @@
     "link_social": " Vind het hier: https://digifacts.org/",
     "link_html": " Vind het <a target=\"_blank\" href=\"https://digifacts.org/\">hier</a>.",
     "link_md": " Vind het [hier](https://digifacts.org/)."
-  },
-  "digifact-8ndf": {
-    "content": "De DigiByte Wiki is een fantastische informatiebron voor alles wat met DigiByte te maken heeft, geschreven en onderhouden door leden van de DigiByte-community.",
-    "url": "https://wiki.digibyte.org/",
-    "link_social": "Vind het hier: https://wiki.digibyte.org/",
-    "link_html": "Vind het <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">hier</a>.",
-    "link_md": "Vind het [hier](https://wiki.digibyte.org/)."
-  },
-  "digifact-krf7": {
-    "content": "DigiByte Domains is een dienst die is gemaakt door Renzo Dias, een lid van de DigiByte-gemeenschap. Een DigiByte-domein is een naam die verwijst naar een DigiByte-walletadres. Het wordt aangedreven door DigiAssets, en het domein is zelf het actief. Je kunt bijvoorbeeld wat DigiByte of DigiAssets sturen naar 'domain.dgb', en ze zullen aankomen op het adres dat het domein bevat.",
-    "url": "https://digibytedomains.com/",
-    "link_social": " Hier kunt u uw eigen DigiByte-domein aanschaffen: https://digibytedomains.com/",
-    "link_html": " Koop uw eigen DigiByte-domein <a target=\"_blank\" href=\"https://digibytedomains.com/\">hier</a>.",
-    "link_md": " Koop uw eigen DigiByte-domein [hier](https://digibytedomains.com/)."
   },
   "digifact-cz5m": {
     "content": "Voor ontwikkelaars is DigiByte JS een pure en krachtige JavaScript DigiByte-bibliotheek, afgeleid van de Bitcore Lib-bibliotheek van Bitpay.",

@@ -74,13 +74,6 @@
     "link_html": " 커뮤니티에서는 이러한 익스플로러를 제공하고 있으니 <a target=\"_blank\" href=\"https://digiexplorer.info/\">여기</a>에서 사용할 수 있습니다.",
     "link_md": " 커뮤니티에서는 이러한 익스플로러를 제공하고 있으니 [여기](https://digiexplorer.info/)에서 사용할 수 있습니다."
   },
-  "digifact-sg8d": {
-    "content": "자신의 DigiExplorer를 실행해 보고 싶거나 블록체인에서 다른 데이터를 가져와 비즈니스에 통합하고 싶은 적이 있나요?",
-    "url": "https://dgbwiki.com",
-    "link_social": " 여기에서 도움이 되는 가이드가 있습니다: https://dgbwiki.com",
-    "link_html": " 여기에서 도움이 되는 가이드가 있습니다 <a target=\"_blank\" href=\"https://dgbwiki.com/\">여기</a>.",
-    "link_md": " 여기에서 도움이 되는 가이드가 있습니다 [여기](https://dgbwiki.com/)."
-  },
   "digifact-cmq8": {
     "content": "'DigiByte'라는 이름은 원래 '디지털 바이트'의 데이터를 의미하기 때문에 선택되었습니다. 이는 DigiByte와 같은 블록체인 기술이 은이나 금과 같은 '코인'으로서뿐만 아니라 훨씬 더 많은 용도로 사용될 수 있기 때문입니다. DigiByte는 놀랍도록 다목적입니다."
   },
@@ -200,26 +193,12 @@
   "digifact-7mzk": {
     "content": "DigiByte는 시작 이후 100% 가동 시간을 유지해왔습니다. 일부 사람들은 가끔 컴퓨터를 다시 시작하지만, 수백 명의 다른 사람들은 항상 온라인 상태로 유지하여 심지어 국가적인 대규모 인터넷 장애가 발생한 경우에도 DigiByte는 계속 작동합니다."
   },
-  "digifact-p9mn": {
-    "content": "Renzo Diaz의 DigiByte Faucet을 사용하면 무료 DGB를 쉽게 얻을 수 있습니다. DigiByte 초보자가이 놀라운 기술을 직접 체험하는 데 좋은 방법입니다. 개발자를 위해 테스트넷 Faucet도 제공됩니다.",
-    "url": "https://www.digifaucet.org/",
-    "link_social": " 여기에서 찾아보세요: https://www.digifaucet.org/",
-    "link_html": " 여기에서 찾아보세요 <a target=\"_blank\" href=\"https://www.digifaucet.org/\">여기</a>.",
-    "link_md": " 여기에서 찾아보세요 [여기](https://www.digifaucet.org/)."
-  },
   "digifact-zmwg": {
     "content": "누구나 DigiByte 코드에 기여하고 개선할 수 있습니다. 모든 제안은 다른 개발자들에 의해 검토되어 악의적인 코드가 실수로 수용되지 않도록 보장됩니다.",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": " 여기에서 Gitter 개발자 채팅에 참여하세요: https://gitter.im/DigiByte-Core/protocol",
     "link_html": " 여기에서 Gitter 개발자 채팅에 <a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">참여하세요</a>.",
     "link_md": " 여기에서 Gitter 개발자 채팅에 [참여하세요](https://gitter.im/DigiByte-Core/protocol)."
-  },
-  "digifact-4rhh": {
-    "content": "이제 Bluesky에서 자신의 DigiByte 커뮤니티 핸들을 주장할 수 있습니다 - 예: @yourname.digibyte.social. 이것은 Bluesky와 AT 프로토콜을 사용하는 모든 사이트 및 서비스에서 작동합니다.",
-    "url": "https://digibyte.social/",
-    "link_social": " 오늘 당신의 것을 주장하세요: https://digibyte.social/",
-    "link_html": " 여기를 클릭하여 <a target=\"_blank\" href=\"https://digibyte.social/\">당신의 것을 주장하세요.</a>",
-    "link_md": " [여기](https://digibyte.social/)를 클릭하여 당신의 것을 주장하세요."
   },
   "digifact-4km6": {
     "content": "DigiByte 네트워크에는 얼마나 많은 \"노드\"가 있는지 정확하게 아무도 모릅니다. 모든 컴퓨터가 확인하는 중앙 지점이 없기 때문입니다. 이렇게 하면 지갑 소프트웨어를 다운로드할 때 개인 정보가 보호됩니다."
@@ -299,13 +278,6 @@
     "link_html": " 여기에서 찾기 <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">여기</a>.",
     "link_md": " 여기에서 찾기 [여기](https://digisweep.digiassetx.com/)."
   },
-  "digifact-vc2g": {
-    "content": "DigiByte 얼라이언스(DigiByte Alliance)는 2021년 3월에 와이오밍에서 설립된 공익 비영리 재단입니다. 그 미션은 DigiByte의 성장과 채택을 가속화하는 것입니다.",
-    "url": "https://www.dgballiance.org/",
-    "link_social": " 더 많은 정보 보기: https://www.dgballiance.org/",
-    "link_html": " 더 많은 정보 <a target=\"_blank\" href=\"https://www.dgballiance.org/\">여기</a>에서 확인하세요.",
-    "link_md": " 더 많은 정보는 [여기](https://www.dgballiance.org/)에서 확인하세요."
-  },
   "digifact-bjqp": {
     "content": "r/DigiByte에 위치한 DigiByte 서브레딧은 40,000 명 이상의 회원을 보유하고 있습니다. DigiByte 커뮤니티의 모든 뉴스와 개발 내용을 최신으로 확인할 수 있는 좋은 장소입니다.",
     "url": "https://reddit.com/r/Digibyte",
@@ -347,20 +319,6 @@
     "link_social": " 여기에서 찾아보세요: https://digifacts.org/",
     "link_html": " 여기에서 찾아보세요 <a target=\"_blank\" href=\"https://digifacts.org/\">.</a>",
     "link_md": " 여기에서 찾아보세요 [여기](https://digifacts.org/)。"
-  },
-  "digifact-8ndf": {
-    "content": "DigiByte 위키는 DigiByte 커뮤니티 회원들이 작성하고 유지하는 DigiByte와 관련된 모든 정보의 훌륭한 자료입니다.",
-    "url": "https://wiki.digibyte.org/",
-    "link_social": " 여기에서 찾아보세요: https://wiki.digibyte.org/",
-    "link_html": " 여기에서 찾아보세요 <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">.</a>",
-    "link_md": " 여기에서 찾아보세요 [here](https://wiki.digibyte.org/)。"
-  },
-  "digifact-krf7": {
-    "content": "DigiByte Domains는 DigiByte 커뮤니티 회원인 Renzo Dias가 만든 서비스입니다. DigiByte 도메인은 DigiByte 월렛 주소를 참조하는 이름입니다. 이 서비스는 DigiAssets로 구동되며 도메인 자체가 자산입니다. 예를 들어 'domain.dgb'로 일부 DigiByte 또는 DigiAssets를 보낼 수 있으며 해당 도메인을 보유한 주소로 도착합니다.",
-    "url": "https://digibytedomains.com/",
-    "link_social": " 여기에서 고유한 DigiByte 도메인을 구매할 수 있습니다: https://digibytedomains.com/",
-    "link_html": " 고유한 DigiByte 도메인을 <a target=\"_blank\" href=\"https://digibytedomains.com/\">여기</a>에서 구매할 수 있습니다.",
-    "link_md": " 고유한 DigiByte 도메인을 [여기](https://digibytedomains.com/)에서 구매할 수 있습니다."
   },
   "digifact-cz5m": {
     "content": "개발자들을 위해 DigiByte JS는 Bitpay의 Bitcore Lib 라이브러리에서 파생된 순수하고 강력한 자바스크립트 DigiByte 라이브러리입니다.",
