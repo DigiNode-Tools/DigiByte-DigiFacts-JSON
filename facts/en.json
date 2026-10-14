@@ -666,5 +666,317 @@
   },
   "digifact-zq7p": {
     "content": "DigiByte's Odocrypt mining algorithm is named after Odo, the shape-shifting character from Star Trek: Deep Space Nine - a fitting name for an algorithm that changes its shape every 10 days."
+  },
+  "new": {
+    "content": "The first DigiByte block, the \"genesis block\", was created on 10 January 2014 at 21:13:14 UTC. The public started mining DigiByte just over an hour later.",
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
+  },
+  "new-2": {
+    "content": "The DigiByte premine ended a few hours after launch, at block 1,439, with 103,608,000 DGB - about 0.49% of the eventual 21 billion.",
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
+  },
+  "new-3": {
+    "content": "DigiShield went live on 28 February 2014, at block 67,200 - less than two months after DigiByte launched.",
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
+  },
+  "new-4": {
+    "content": "On 1 September 2014, at block 145,000, DigiByte added four mining algorithms - SHA256, Qubit, Skein and Groestl - to its original Scrypt.",
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
+  },
+  "new-5": {
+    "content": "At block 400,000, on 10 December 2014, the MultiShield upgrade improved difficulty adjustment across all five mining algorithms, and changed the reward schedule so that DGB would be mined over 21 years.",
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
+  },
+  "new-6": {
+    "content": "DigiSpeed activated on 4 December 2015, at block 1,430,000, halving DigiByte's block time from 30 seconds to 15.",
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
+  },
+  "new-7": {
+    "content": "DigiByte Core v6.14.1, nicknamed \"DigiSync\", was released in April 2017. It made syncing with the network much faster, and brought SegWit to DigiByte.",
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
+  },
+  "new-8": {
+    "content": "Odocrypt replaced the Myriad-Groestl mining algorithm on 2 July 2019, at block 9,112,320.",
+    "url": "https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline)."
+  },
+  "new-9": {
+    "content": "Miners began signalling their support for DigiDollar on 29 June 2026, and it activated less than three weeks later, on 17 July 2026.",
+    "url": "https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5)."
+  },
+  "new-10": {
+    "content": "In June 2026, an old rule rejecting blocks from DigiByte's retired Groestl mining algorithm turned out to have been accidentally dropped, and it was exploited. DigiByte's developers released an urgent fix, the \"AlgoLock\", which restored the rule across the network.",
+    "url": "https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.2",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.2",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.2\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.2)."
+  },
+  "new-11": {
+    "content": "When you send DGB somewhere for the first time, send a small amount first and check it arrives - then send the rest."
+  },
+  "new-12": {
+    "content": "Always check the first and last few characters of an address before sending DGB. Some malware swaps addresses you copy and paste for the attacker's own."
+  },
+  "new-13": {
+    "content": "Only download wallets from their official websites or app stores. Fake wallet apps are one of the most common ways crypto gets stolen.",
+    "url": "https://github.com/DigiByte-Core/digibyte/releases",
+    "link_social": " Get DigiByte Core: https://github.com/DigiByte-Core/digibyte/releases",
+    "link_html": " Get DigiByte Core <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/releases\">here</a>.",
+    "link_md": " Get DigiByte Core [here](https://github.com/DigiByte-Core/digibyte/releases)."
+  },
+  "new-14": {
+    "content": "A hardware wallet keeps your private keys on a separate device that never exposes them to the internet - so even if your computer is infected, your keys stay safe."
+  },
+  "new-15": {
+    "content": "Keep more than one copy of your seed phrase, in different safe places, and check that you can restore a wallet from it before you rely on it."
+  },
+  "new-16": {
+    "content": "Many wallets let you add an optional passphrase to your seed phrase, sometimes called a \"25th word\". Without it, the seed phrase alone can't open the wallet."
+  },
+  "new-17": {
+    "content": "DigiByte Core can encrypt your wallet with a password, so someone who copies your wallet file still can't spend your DGB."
+  },
+  "new-18": {
+    "content": "A \"watch-only\" wallet lets you keep an eye on an address's balance without having its private keys, so it can never spend anything."
+  },
+  "new-19": {
+    "content": "Nobody will send you back double the DGB you send them. \"Giveaways\" that ask you to send coins first are always scams."
+  },
+  "new-20": {
+    "content": "In DigiByte groups on Telegram, Discord and elsewhere, real admins never message you first to offer help. Anyone who does is almost certainly a scammer."
+  },
+  "new-21": {
+    "content": "The first transaction in every block - the \"coinbase\" transaction - creates the new DGB that pays the miner. Newly mined DGB can't be spent for 100 blocks (about 25 minutes), in case the block is replaced."
+  },
+  "new-22": {
+    "content": "DigiByte nodes talk to each other on port 12024. Opening this port on your router lets other nodes connect to yours, which helps new nodes join the network."
+  },
+  "new-23": {
+    "content": "Before a transaction is added to a block, it waits in the \"mempool\" - a waiting area that every node keeps - until a miner includes it in a block."
+  },
+  "new-24": {
+    "content": "Every node checks that each coin is only spent once. If someone tries to spend the same DGB twice, only one of those transactions can ever be confirmed."
+  },
+  "new-25": {
+    "content": "Sometimes two miners find a block at almost the same moment, and the network briefly has two versions. The next block decides which one wins, and the other becomes \"stale\" - one reason to wait for a few confirmations."
+  },
+  "new-26": {
+    "content": "Each block's header contains a \"Merkle root\" - a single fingerprint of every transaction in the block. Change any transaction, and the fingerprint no longer matches."
+  },
+  "new-27": {
+    "content": "A hash function turns any data into a fixed-size fingerprint. Change a single character and the result is completely different - which is what lets DigiByte link its blocks together securely."
+  },
+  "new-28": {
+    "content": "Each DigiByte block records which of the five mining algorithms found it."
+  },
+  "new-29": {
+    "content": "A \"soft fork\" tightens the rules, so older nodes still accept new blocks; a \"hard fork\" changes them so older nodes can't follow. DigiByte has used both to upgrade, without ever splitting the network."
+  },
+  "new-30": {
+    "content": "Most wallets create all their addresses from a single seed (an \"HD wallet\"), so one backup covers every address. DigiByte's official number in this standard is 20."
+  },
+  "new-31": {
+    "content": "DigiByte transactions can be time-locked, so the coins can't be spent before a certain block or date. DigiDollar uses this to lock its DGB collateral."
+  },
+  "new-32": {
+    "content": "\"Multisig\" addresses need more than one key to spend from - for example, any 2 of 3. That's useful for shared funds, or for extra security."
+  },
+  "new-33": {
+    "content": "Taproot brought Schnorr signatures to DigiByte, which can be combined, so many people can produce one signature together. DigiDollar's price oracles use this."
+  },
+  "new-34": {
+    "content": "A DigiByte block can be as large as a Bitcoin block, but DigiByte produces 40 times as many - so it can handle far more transactions per hour."
+  },
+  "new-35": {
+    "content": "In the time Bitcoin finds one block (about 10 minutes), DigiByte finds about 40."
+  },
+  "new-36": {
+    "content": "A new DigiByte node downloads and checks every block since 2014 before it's ready. This \"initial block download\" can take hours - or days on a Raspberry Pi."
+  },
+  "new-37": {
+    "content": "To check new transactions, a node only needs the \"UTXO set\" - the list of every coin that hasn't been spent yet - rather than the whole history of the blockchain."
+  },
+  "new-38": {
+    "content": "Most stablecoins, like USDT and USDC, are IOUs from a company holding money in a bank. DigiDollar has no issuer: every unit is backed by DGB locked on the DigiByte blockchain, and enforced by its rules.",
+    "url": "https://www.digibyte.org/#digidollar",
+    "link_social": " Learn more: https://www.digibyte.org/#digidollar",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#digidollar\">here</a>.",
+    "link_md": " Learn more [here](https://www.digibyte.org/#digidollar)."
+  },
+  "new-39": {
+    "content": "DigiDollar has no admin key, no mint switch and no pause button. Nobody can freeze DigiDollars or stop the system.",
+    "url": "https://www.digibyte.org/#digidollar",
+    "link_social": " Learn more: https://www.digibyte.org/#digidollar",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#digidollar\">here</a>.",
+    "link_md": " Learn more [here](https://www.digibyte.org/#digidollar)."
+  },
+  "new-40": {
+    "content": "DigiDollars move at DigiByte speed: they are sent in 15-second blocks, just like DGB.",
+    "url": "https://www.digibyte.org/#digidollar",
+    "link_social": " Learn more: https://www.digibyte.org/#digidollar",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#digidollar\">here</a>.",
+    "link_md": " Learn more [here](https://www.digibyte.org/#digidollar)."
+  },
+  "new-41": {
+    "content": "When your DigiDollar lock ends, you return the DigiDollars you created and get back all of the DGB you locked, whatever has happened to its price.",
+    "url": "https://www.digibyte.org/#digidollar",
+    "link_social": " Learn more: https://www.digibyte.org/#digidollar",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#digidollar\">here</a>.",
+    "link_md": " Learn more [here](https://www.digibyte.org/#digidollar)."
+  },
+  "new-42": {
+    "content": "To log in with Digi-ID, you scan a QR code with your DigiByte wallet, which signs a one-time challenge. The website checks the signature - no username, password or email needed.",
+    "url": "https://www.digi-id.io/",
+    "link_social": " Learn more: https://www.digi-id.io/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digi-id.io/\">here</a>.",
+    "link_md": " Learn more [here](https://www.digi-id.io/)."
+  },
+  "new-43": {
+    "content": "Digi-ID creates a separate key for every website, so a site only ever learns a public address, and sites can't link your logins together.",
+    "url": "https://www.digi-id.io/",
+    "link_social": " Learn more: https://www.digi-id.io/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digi-id.io/\">here</a>.",
+    "link_md": " Learn more [here](https://www.digi-id.io/)."
+  },
+  "new-44": {
+    "content": "Digi-ID can be used for doors, kiosks and other places where typing a password isn't practical.",
+    "url": "https://www.digi-id.io/",
+    "link_social": " Learn more: https://www.digi-id.io/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digi-id.io/\">here</a>.",
+    "link_md": " Learn more [here](https://www.digi-id.io/)."
+  },
+  "new-45": {
+    "content": "Transaction fees on DigiByte go to the miner who includes the transaction in a block, not to any company."
+  },
+  "new-46": {
+    "content": "DigiByte's issuance schedule is public and set in its code, so anyone can work out exactly how many DGB will exist at any future block."
+  },
+  "new-47": {
+    "content": "DGB sent to a lost address, or whose keys are lost, can never be recovered - those coins are effectively gone for good."
+  },
+  "new-48": {
+    "content": "A \"51% attack\" is when one group controls most of the mining power. It could reverse its own recent payments, but it can't take coins from other people's addresses or create coins out of thin air."
+  },
+  "new-49": {
+    "content": "DigiFacts are available in 12 languages, and anyone can help translate them - no coding needed.",
+    "url": "https://hosted.weblate.org/engage/digibyte-digifacts/",
+    "link_social": " Help translate: https://hosted.weblate.org/engage/digibyte-digifacts/",
+    "link_html": " Help translate <a target=\"_blank\" href=\"https://hosted.weblate.org/engage/digibyte-digifacts/\">here</a>.",
+    "link_md": " Help translate [here](https://hosted.weblate.org/engage/digibyte-digifacts/)."
+  },
+  "new-50": {
+    "content": "You can add DigiFacts to your own website, with a small embed or the WordPress plugin.",
+    "url": "https://digifacts.diginode.tools/help/",
+    "link_social": " Learn more: https://digifacts.diginode.tools/help/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://digifacts.diginode.tools/help/\">here</a>.",
+    "link_md": " Learn more [here](https://digifacts.diginode.tools/help/)."
+  },
+  "new-51": {
+    "content": "Every day at midnight UTC, a new DigiFact of the day is chosen - the same one in every language - with an RSS feed for apps and bots.",
+    "url": "https://digifacts.diginode.tools/help/",
+    "link_social": " Learn more: https://digifacts.diginode.tools/help/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://digifacts.diginode.tools/help/\">here</a>.",
+    "link_md": " Learn more [here](https://digifacts.diginode.tools/help/)."
+  },
+  "new-52": {
+    "content": "Tor is a free network that hides where internet traffic comes from, by passing it through three volunteer-run relays - each of which only knows the step before and the step after.",
+    "url": "https://www.torproject.org/",
+    "link_social": " Learn more: https://www.torproject.org/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.torproject.org/\">here</a>.",
+    "link_md": " Learn more [here](https://www.torproject.org/)."
+  },
+  "new-53": {
+    "content": "Running your DigiByte node over Tor hides its IP address: other nodes only see a Tor address, not where you are or who your internet provider is.",
+    "url": "https://www.torproject.org/",
+    "link_social": " Learn more: https://www.torproject.org/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.torproject.org/\">here</a>.",
+    "link_md": " Learn more [here](https://www.torproject.org/)."
+  },
+  "new-54": {
+    "content": "DigiByte Core can create its own Tor \".onion\" address, so other nodes can connect to yours through Tor - without either side revealing its IP address, and without opening any ports on your router.",
+    "url": "https://www.torproject.org/",
+    "link_social": " Learn more: https://www.torproject.org/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.torproject.org/\">here</a>.",
+    "link_md": " Learn more [here](https://www.torproject.org/)."
+  },
+  "new-55": {
+    "content": "Connections over Tor are slower than normal ones, so a DigiByte node running over Tor may sync more slowly - a trade-off for the extra privacy.",
+    "url": "https://www.torproject.org/",
+    "link_social": " Learn more: https://www.torproject.org/",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.torproject.org/\">here</a>.",
+    "link_md": " Learn more [here](https://www.torproject.org/)."
+  },
+  "new-56": {
+    "content": "UPnP (Universal Plug and Play) lets a program ask your router to open a port automatically. DigiByte Core can use it to open port 12024, so other nodes can reach yours without you changing your router's settings."
+  },
+  "new-57": {
+    "content": "Not every router supports UPnP, and some people turn it off for security. If yours doesn't use it, you can open port 12024 for your DigiByte node by hand, in your router's settings (\"port forwarding\")."
+  },
+  "new-58": {
+    "content": "Schnorr signatures, which DigiByte gained with Taproot, are smaller and simpler than the older ECDSA signatures, and come with a mathematical proof of their security.",
+    "url": "https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki",
+    "link_social": " Learn more: https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki)."
+  },
+  "new-59": {
+    "content": "Schnorr signatures can be combined: several people can merge their keys and signatures into one, which looks exactly like a single signature. This is called key aggregation, and it's how DigiDollar's price oracles sign together.",
+    "url": "https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki",
+    "link_social": " Learn more: https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki)."
+  },
+  "new-60": {
+    "content": "A Merkle tree takes the fingerprints (hashes) of all the transactions in a block, hashes them together in pairs, and repeats until a single fingerprint is left - the Merkle root, stored in the block's header."
+  },
+  "new-61": {
+    "content": "Thanks to Merkle trees, a light wallet can check that a transaction is in a block using just a handful of hashes, without downloading the whole block."
+  },
+  "new-62": {
+    "content": "Taproot lets coins have several ways to be spent, while revealing only the one that's actually used. If everyone involved agrees, the payment looks like any ordinary one, and the other conditions stay hidden.",
+    "url": "https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki",
+    "link_social": " Learn more: https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)."
+  },
+  "new-63": {
+    "content": "Taproot was first proposed for Bitcoin by developer Gregory Maxwell in 2018, and activated on Bitcoin in November 2021. DigiByte gained it with DigiByte Core v8.26, which is built on Bitcoin Core 26.",
+    "url": "https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki",
+    "link_social": " Learn more: https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)."
+  },
+  "new-64": {
+    "content": "Tapscript, part of the Taproot upgrade, updated DigiByte's scripting language, and was designed so that new features can be added to it more easily in future.",
+    "url": "https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki",
+    "link_social": " Learn more: https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)."
   }
 }

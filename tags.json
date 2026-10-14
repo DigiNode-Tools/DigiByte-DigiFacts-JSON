@@ -11,6 +11,9 @@
     "digifact-wr7h": ["digifacts"],
     "digifact-v5ds": ["digifacts", "tronbyt"],
     "digifact-nqzd": ["tronbyt"],
-    "digifact-4cg4": ["dgbat"]
+    "digifact-4cg4": ["dgbat"],
+    "new-49": ["digifacts"],
+    "new-50": ["digifacts"],
+    "new-51": ["digifacts"]
   }
 }
