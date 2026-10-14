@@ -978,5 +978,136 @@
     "link_social": " Learn more: https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki\">here</a>.",
     "link_md": " Learn more [here](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)."
+  },
+  "new": {
+    "content": "\"digibyte-cli\" lets you talk to your DigiByte node from the command line. For example, \"digibyte-cli getblockchaininfo\" shows how far your node has synced and which upgrades are active."
+  },
+  "new-2": {
+    "content": "Apps talk to a DigiByte node through its RPC interface, on port 14022. Unlike port 12024, this port should never be opened to the internet - it can control your node and its wallet."
+  },
+  "new-3": {
+    "content": "DigiByte Core's settings live in a file called digibyte.conf. With it you can, for example, prune the blockchain to save space, limit how many peers your node connects to, or run it over Tor."
+  },
+  "new-4": {
+    "content": "DigiByte Core can keep an index of every transaction ever made (\"txindex\"), so you can look up any transaction by its ID. It uses extra disk space, so it's off by default - but some software, like DigiAsset Core, needs it."
+  },
+  "new-5": {
+    "content": "DigiByte Core's desktop wallet app is called DigiByte-Qt. It's the same software as the node, with a graphical window to send and receive DGB, view your transactions and check the network.",
+    "url": "https://github.com/DigiByte-Core/digibyte/releases",
+    "link_social": " Get DigiByte Core: https://github.com/DigiByte-Core/digibyte/releases",
+    "link_html": " Get DigiByte Core <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/releases\">here</a>.",
+    "link_md": " Get DigiByte Core [here](https://github.com/DigiByte-Core/digibyte/releases)."
+  },
+  "new-6": {
+    "content": "Modern DigiByte Core wallets are \"descriptor wallets\": instead of a list of keys, they store a short description of which addresses belong to the wallet, making backups and advanced setups simpler and more reliable."
+  },
+  "new-7": {
+    "content": "A new DigiByte node can skip re-checking the signatures of old blocks that are already known to be valid (\"assumevalid\"), which makes the first sync much faster. It still checks everything else, and every signature after that point."
+  },
+  "new-8": {
+    "content": "DigiByte Core includes \"checkpoints\": the hashes of certain historic blocks, written into the software. A node rejects any version of the blockchain that doesn't include them, which protects new nodes from being fed a fake history."
+  },
+  "new-9": {
+    "content": "Nodes don't have to trust miners. A block that breaks any rule - for example, spending coins twice or paying the miner too much - is rejected by every node, however much mining work went into it."
+  },
+  "new-10": {
+    "content": "If another node sends invalid data, a DigiByte node will disconnect from it and avoid it in future. Misbehaving nodes are simply ignored by the rest of the network."
+  },
+  "new-11": {
+    "content": "Using \"compact blocks\", nodes only send each other the parts of a new block their peers don't already have - usually just a short list of transaction IDs - so new blocks spread across the network in a fraction of a second."
+  },
+  "new-12": {
+    "content": "Nobody can force you to upgrade your DigiByte node. Every operator chooses which software to run - which is why network upgrades only happen when enough of the network chooses to adopt them."
+  },
+  "new-13": {
+    "content": "A light wallet doesn't keep its own copy of the blockchain - it asks other servers instead. That's convenient, but means trusting them. A full node checks everything itself."
+  },
+  "new-14": {
+    "content": "After more than 12 years of 15-second blocks, the full DigiByte blockchain is about 40 GB.",
+    "url": "https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4)."
+  },
+  "new-15": {
+    "content": "A Raspberry Pi running a DigiByte node uses just a few watts of electricity - about the same as a small light bulb."
+  },
+  "new-16": {
+    "content": "If you run a DigiByte node on a Raspberry Pi, use an SSD rather than a microSD card. A node writes data constantly, and an SSD is much faster and much less likely to wear out or corrupt."
+  },
+  "new-17": {
+    "content": "DigiByte Core is built with Guix, so anyone can rebuild the release files from the source code and check they get exactly the same result - proof that the downloads match the public code.",
+    "url": "https://github.com/DigiByte-Core/digibyte",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte)."
+  },
+  "new-18": {
+    "content": "DigiByte Core is released under the MIT licence: anyone can use, study, change and share it, for free.",
+    "url": "https://github.com/DigiByte-Core/digibyte",
+    "link_social": " View the code: https://github.com/DigiByte-Core/digibyte",
+    "link_html": " View the code <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte\">here</a>.",
+    "link_md": " View the code [here](https://github.com/DigiByte-Core/digibyte)."
+  },
+  "new-19": {
+    "content": "DigiByte Core is built on Bitcoin Core, so DigiByte can bring in the improvements and security fixes made by Bitcoin's developers, while keeping its own features like MultiAlgo and DigiShield.",
+    "url": "https://github.com/DigiByte-Core/digibyte",
+    "link_social": " View the code: https://github.com/DigiByte-Core/digibyte",
+    "link_html": " View the code <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte\">here</a>.",
+    "link_md": " View the code [here](https://github.com/DigiByte-Core/digibyte)."
+  },
+  "new-20": {
+    "content": "Every DigiByte transaction has inputs - the coins being spent - and outputs - where they're going. There's no separate fee field: the fee is simply whatever the inputs add up to beyond the outputs, and the miner keeps it."
+  },
+  "new-21": {
+    "content": "\"Coin control\", in DigiByte Core and some other wallets, lets you choose exactly which coins (UTXOs) a payment spends - useful for privacy, and for keeping certain coins apart."
+  },
+  "new-22": {
+    "content": "\"Dust\" is an amount of DGB so tiny that spending it would cost more in fees than it's worth. Wallets usually avoid creating it, and nodes won't relay transactions that do."
+  },
+  "new-23": {
+    "content": "DigiByte's scripting language is deliberately simple, with no loops. That makes every transaction quick and predictable for nodes to check, and avoids whole classes of bugs."
+  },
+  "new-24": {
+    "content": "Anyone who knows a DigiByte address can see its balance and every transaction it has ever made, on a block explorer. Using a new address for each payment makes it much harder to piece your history together."
+  },
+  "new-25": {
+    "content": "A link starting with \"digibyte:\" can contain an address, an amount and a message. Scan or click one, and your wallet fills in the payment for you."
+  },
+  "new-26": {
+    "content": "DigiByte Core can sign a message with an address's private key. Anyone can then check the signature, proving you control the address without moving any coins."
+  },
+  "new-27": {
+    "content": "When many people want to send transactions at once, they compete for space in the next block, and fees rise. With a block every 15 seconds, DigiByte has far more room, so this rarely happens."
+  },
+  "new-28": {
+    "content": "DigiByte uses the same elliptic curve as Bitcoin, called secp256k1, to turn private keys into public keys and to create signatures."
+  },
+  "new-29": {
+    "content": "A DigiByte private key is a randomly chosen 256-bit number. There are more possible private keys than there are atoms in the observable universe, so the chance of two people ever picking the same one is effectively zero."
+  },
+  "new-30": {
+    "content": "Your public key is calculated from your private key, but it's practically impossible to go the other way. That's why you can safely share your public key and addresses."
+  },
+  "new-31": {
+    "content": "A DigiByte address is a shortened fingerprint (hash) of a public key. The full public key isn't revealed until the coins are spent."
+  },
+  "new-32": {
+    "content": "Legacy DigiByte addresses leave out characters that are easy to confuse, like 0 (zero), O, I and l. Modern \"dgb1\" addresses are all lowercase, and also avoid 1, b, i and o."
+  },
+  "new-33": {
+    "content": "Most miners join a mining pool: they combine their mining power and share the rewards, so they're paid small amounts regularly instead of waiting a long time to find a whole block on their own."
+  },
+  "new-34": {
+    "content": "You can also \"solo mine\" - mine directly to your own DigiByte node and keep the whole block reward when you find a block. It's all or nothing, so it suits miners with plenty of mining power, or a lot of patience."
+  },
+  "new-35": {
+    "content": "\"Hashrate\" is how many guesses per second miners are making at the mining puzzle. The more hashrate securing DigiByte, the harder and more expensive it is to attack."
+  },
+  "new-36": {
+    "content": "15 seconds is only DigiByte's average block time. Mining is a game of chance, so some blocks are found within a second of the last, and some take a minute or more."
+  },
+  "new-37": {
+    "content": "DigiByte produces about 2.1 million blocks every year - 5,760 a day, 365 days a year."
   }
 }
