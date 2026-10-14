@@ -418,238 +418,238 @@
     "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#roadmap\">here</a>.",
     "link_md": " Learn more [here](https://www.digibyte.org/#roadmap)."
   },
-  "new": {
+  "digifact-f3j7": {
     "content": "A blockchain is a shared record of transactions, kept by thousands of computers around the world instead of one company. New transactions are grouped into blocks, and each block is linked to the one before it, so changing an old record would mean redoing everything that came after it."
   },
-  "new-2": {
+  "digifact-c2fp": {
     "content": "A DigiByte \"node\" is a computer that keeps its own copy of the DigiByte blockchain and checks every transaction and block against the rules for itself. Nobody has to trust anyone else: each node verifies everything independently.",
     "url": "https://www.digibyte.org/#downloads",
     "link_social": " Learn more: https://www.digibyte.org/#downloads",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#downloads\">here</a>.",
     "link_md": " Learn more [here](https://www.digibyte.org/#downloads)."
   },
-  "new-3": {
+  "digifact-mbc8": {
     "content": "Mining is how new blocks are added to DigiByte. Miners compete to solve a difficult puzzle, and whoever solves it first adds the next block and earns the block reward. The work this takes is what makes rewriting DigiByte's history so expensive - this is called \"proof of work\"."
   },
-  "new-4": {
+  "digifact-cdmk": {
     "content": "Your DigiByte address is like an email address: you can share it freely so people can send you DGB. Your private key is like the password - whoever has it controls the DGB, so it should never be shared with anyone."
   },
-  "new-5": {
+  "digifact-wbhn": {
     "content": "Most wallets back up your private keys as a \"seed phrase\" of 12 or 24 words. Anyone with those words can take your DGB, so write them down and keep them somewhere safe and offline. No real wallet, exchange or support team will ever ask you for them."
   },
-  "new-6": {
+  "digifact-mq7d": {
     "content": "\"Not your keys, not your coins\": if you keep DGB on an exchange, the exchange holds the keys and you are trusting it with your coins. In your own wallet, you are the only one in control."
   },
-  "new-7": {
+  "digifact-gvc6": {
     "content": "Each new block added after your transaction is one more \"confirmation\", making it ever harder to reverse. With DigiByte's 15 second blocks, six confirmations take about a minute and a half - on Bitcoin, the same takes about an hour."
   },
-  "new-8": {
+  "digifact-jsmz": {
     "content": "Transaction fees on DigiByte depend on the size of the transaction in bytes, not on how much DGB you send. Sending 1 DGB or 1 million DGB in a simple transaction costs the same."
   },
-  "new-9": {
+  "digifact-s3kn": {
     "content": "DigiByte keeps track of coins like banknotes, in a design called \"UTXO\" (unspent transaction outputs). When you pay, your wallet spends whole \"notes\" and sends the change back to a new address of yours - which is why a wallet sometimes shows addresses you didn't create yourself."
   },
-  "new-10": {
+  "digifact-bfwh": {
     "content": "DigiByte also runs a \"testnet\" - a separate, public DigiByte network where the coins have no value - so developers can try out new ideas without risking real DGB."
   },
-  "new-11": {
+  "digifact-dq7n": {
     "content": "One of DigiByte's five mining algorithms, Odocrypt, changes itself every 10 days. This makes it very hard to build dedicated mining chips (ASICs) for it, so it is mined with reprogrammable chips called FPGAs."
   },
-  "new-12": {
+  "digifact-cbqx": {
     "content": "DigiByte activated SegWit in April 2017, ahead of both Litecoin and Bitcoin. SegWit fixed a long-standing weakness called transaction malleability, and made room for upgrades like the Lightning Network and Taproot.",
     "url": "https://www.digibyte.org/#roadmap",
     "link_social": " Learn more: https://www.digibyte.org/#roadmap",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#roadmap\">here</a>.",
     "link_md": " Learn more [here](https://www.digibyte.org/#roadmap)."
   },
-  "new-13": {
+  "digifact-smzd": {
     "content": "You can run a full DigiByte node - one that checks every rule for itself - using only a few gigabytes of storage instead of the whole blockchain (about 40 GB). This is called a \"pruned\" node: it keeps the recent blocks it needs and discards older ones.",
     "url": "https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4",
     "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4\">here</a>.",
     "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4)."
   },
-  "new-14": {
+  "digifact-2k5s": {
     "content": "DigiByte Core can connect to the DigiByte network over Tor, hiding your node's IP address from the other nodes it talks to.",
     "url": "https://www.torproject.org/",
     "link_social": " Learn more about Tor: https://www.torproject.org/",
     "link_html": " Learn more about Tor <a target=\"_blank\" href=\"https://www.torproject.org/\">here</a>.",
     "link_md": " Learn more about Tor [here](https://www.torproject.org/)."
   },
-  "new-15": {
+  "digifact-8brz": {
     "content": "Because DigiByte has no company behind it, nobody can freeze your DGB, block a payment or close your account. The network follows the same rules for everyone."
   },
-  "new-16": {
+  "digifact-pk8d": {
     "content": "Anyone can propose an improvement to DigiByte through a DigiByte Improvement Proposal (DIP), which the community and developers discuss in the open.",
     "url": "https://github.com/DigiByte-Core/dips",
     "link_social": " Learn more: https://github.com/DigiByte-Core/dips",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/dips\">here</a>.",
     "link_md": " Learn more [here](https://github.com/DigiByte-Core/dips)."
   },
-  "new-17": {
+  "digifact-pt5c": {
     "content": "DGB has no company, government or bank behind it. Its value comes entirely from the people who choose to use it, hold it, mine it and build on it."
   },
-  "new-18": {
+  "digifact-jvsk": {
     "content": "New DGB only ever comes into existence as block rewards for the miners who secure the network. There are no pre-sales, no company treasury, and no way to create extra coins."
   },
-  "new-19": {
+  "digifact-6n7w": {
     "content": "The maximum of 21 billion DGB is set in DigiByte's consensus rules, which every node checks. Changing it would need the whole network to agree, so no individual or group can quietly create more."
   },
-  "new-20": {
+  "digifact-z5vw": {
     "content": "Miners earn the block reward plus transaction fees for securing DigiByte. As the block reward shrinks each month, transaction fees will gradually become a bigger part of what pays for the network's security."
   },
-  "new-21": {
+  "digifact-spwn": {
     "content": "DGB that is locked to create DigiDollars can't be spent until its lock ends - anything from 1 hour to 10 years later.",
     "url": "https://www.digibyte.org/#digidollar",
     "link_social": " Learn more: https://www.digibyte.org/#digidollar",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#digidollar\">here</a>.",
     "link_md": " Learn more [here](https://www.digibyte.org/#digidollar)."
   },
-  "new-22": {
+  "digifact-zq9t": {
     "content": "Writing about DigiByte? The official DigiByte media kit has logos, colours and key facts.",
     "url": "https://www.digibyte.org/docs/mediakit.pdf",
     "link_social": " Get the media kit: https://www.digibyte.org/docs/mediakit.pdf",
     "link_html": " Get the media kit <a target=\"_blank\" href=\"https://www.digibyte.org/docs/mediakit.pdf\">here</a>.",
     "link_md": " Get the media kit [here](https://www.digibyte.org/docs/mediakit.pdf)."
   },
-  "new-23": {
+  "digifact-j2nw": {
     "content": "The official DigiByte logos - including those for Digi-ID, DigiAssets and DigiDollar - are free for anyone to use, under the MIT licence.",
     "url": "https://github.com/DigiByte-Core/digibyte-logos",
     "link_social": " Get the logos: https://github.com/DigiByte-Core/digibyte-logos",
     "link_html": " Get the logos <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte-logos\">here</a>.",
     "link_md": " Get the logos [here](https://github.com/DigiByte-Core/digibyte-logos)."
   },
-  "new-24": {
+  "digifact-9tqw": {
     "content": "Want to accept DGB in your business or app, or list it on an exchange? The official DigiByte integration guide explains how.",
     "url": "https://www.digibyte.org/docs/integrationguide.pdf",
     "link_social": " Read the guide: https://www.digibyte.org/docs/integrationguide.pdf",
     "link_html": " Read the guide <a target=\"_blank\" href=\"https://www.digibyte.org/docs/integrationguide.pdf\">here</a>.",
     "link_md": " Read the guide [here](https://www.digibyte.org/docs/integrationguide.pdf)."
   },
-  "new-25": {
+  "digifact-3bcd": {
     "content": "For an in-depth look at how DigiByte works - its architecture, security and ecosystem - the official DigiByte technical guide covers it all.",
     "url": "https://www.digibyte.org/docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf",
     "link_social": " Read the guide: https://www.digibyte.org/docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf",
     "link_html": " Read the guide <a target=\"_blank\" href=\"https://www.digibyte.org/docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf\">here</a>.",
     "link_md": " Read the guide [here](https://www.digibyte.org/docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf)."
   },
-  "new-26": {
+  "digifact-p5p8": {
     "content": "Running your own DigiByte node is one of the best ways to support the network. Every node independently checks the rules and helps new nodes join.",
     "url": "https://www.digibyte.org/#downloads",
     "link_social": " Learn more: https://www.digibyte.org/#downloads",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#downloads\">here</a>.",
     "link_md": " Learn more [here](https://www.digibyte.org/#downloads)."
   },
-  "new-27": {
+  "digifact-2z3t": {
     "content": "DigiDollar has its own official logos, so wallets, exchanges and apps that support it can show it consistently.",
     "url": "https://github.com/DigiByte-Core/digibyte-logos/tree/master/DigiDollar%20Logos",
     "link_social": " Get the logos: https://github.com/DigiByte-Core/digibyte-logos/tree/master/DigiDollar%20Logos",
     "link_html": " Get the logos <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte-logos/tree/master/DigiDollar%20Logos\">here</a>.",
     "link_md": " Get the logos [here](https://github.com/DigiByte-Core/digibyte-logos/tree/master/DigiDollar%20Logos)."
   },
-  "new-28": {
+  "digifact-vxhg": {
     "content": "DigiByte Blockchain Stats shows live statistics about the DigiByte network, including blocks, the hashrate of each mining algorithm, the supply of DGB and DigiDollar.",
     "url": "https://digibyte.io/",
     "link_social": " View the stats: https://digibyte.io/",
     "link_html": " View the stats <a target=\"_blank\" href=\"https://digibyte.io/\">here</a>.",
     "link_md": " View the stats [here](https://digibyte.io/)."
   },
-  "new-29": {
+  "digifact-t8sq": {
     "content": "A mining algorithm is the puzzle miners solve to add a block. Miners run the block's data through a hash function again and again, changing a number each time, until the result is below a target. The only way to find one is trial and error - so it takes real work - but anyone can check the answer instantly."
   },
-  "new-30": {
+  "digifact-ck2q": {
     "content": "Each mining algorithm is a different kind of puzzle, so a machine built for one can't mine another. That's why DigiByte's five algorithms let five different kinds of mining hardware help secure the same network."
   },
-  "new-31": {
+  "digifact-zbnq": {
     "content": "Today, DigiByte's five mining algorithms are SHA256, Scrypt, Skein, Qubit and Odocrypt. Each one can find the next block, so no single type of mining hardware can dominate the network."
   },
-  "new-32": {
+  "digifact-v2r3": {
     "content": "SHA256 is one of DigiByte's five mining algorithms. It's the same algorithm Bitcoin uses, so the same mining machines that mine Bitcoin can also help secure DigiByte."
   },
-  "new-33": {
+  "digifact-b3hn": {
     "content": "Scrypt was DigiByte's only mining algorithm when it launched in 2014, and it is still one of its five today. Litecoin and Dogecoin use it too, so their mining machines can mine DigiByte as well."
   },
-  "new-34": {
+  "digifact-nfsn": {
     "content": "Skein, one of DigiByte's five mining algorithms, is built on the Skein hash function - a finalist in the competition to choose the SHA-3 standard, designed by a team including cryptographer Bruce Schneier. DigiByte runs it together with SHA256."
   },
-  "new-35": {
+  "digifact-3grm": {
     "content": "Qubit, one of DigiByte's five mining algorithms, chains five different hash functions together: Luffa, CubeHash, SHAvite-3, SIMD and ECHO. Each one is applied in turn to the result of the one before."
   },
-  "new-36": {
+  "digifact-zgsv": {
     "content": "Odocrypt, the newest of DigiByte's five mining algorithms, was added in July 2019. It replaced Myriad-Groestl, and was designed by DigiByte developers to be mined with reprogrammable FPGA chips rather than dedicated ASICs."
   },
-  "new-37": {
+  "digifact-3r3z": {
     "content": "Myriad-Groestl was one of DigiByte's five mining algorithms from 2014 until 2019, when it was replaced by Odocrypt. It combined the Groestl hash function - another finalist for the SHA-3 standard - with SHA256. Blocks mined with it are no longer accepted."
   },
-  "new-38": {
+  "digifact-7z7r": {
     "content": "Regtest (\"regression test\") is a private DigiByte blockchain that runs only on your own computer. Developers use it to test software: they can create new blocks instantly, whenever they like, with coins that exist nowhere else.",
     "url": "https://developer.bitcoin.org/examples/testing.html",
     "link_social": " Learn more: https://developer.bitcoin.org/examples/testing.html",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://developer.bitcoin.org/examples/testing.html\">here</a>.",
     "link_md": " Learn more [here](https://developer.bitcoin.org/examples/testing.html)."
   },
-  "new-39": {
+  "digifact-nfb8": {
     "content": "DigiByte has more than one network: mainnet (real DGB), testnet (a public test network where coins have no value) and regtest (a private test chain on your own computer). Their addresses look different - dgb1 on mainnet, dgbt1 on testnet and dgbrt1 on regtest - so they can't be mixed up."
   },
-  "new-40": {
+  "digifact-pr8n": {
     "content": "SegWit, short for Segregated Witness, separates the signatures in a transaction (the \"witness\") from the rest of its data. This lets each block hold more transactions, and fixed a weakness called transaction malleability.",
     "url": "https://en.bitcoin.it/wiki/Segregated_Witness",
     "link_social": " Learn more: https://en.bitcoin.it/wiki/Segregated_Witness",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://en.bitcoin.it/wiki/Segregated_Witness\">here</a>.",
     "link_md": " Learn more [here](https://en.bitcoin.it/wiki/Segregated_Witness)."
   },
-  "new-41": {
+  "digifact-mcj6": {
     "content": "Before SegWit, a transaction's ID could be changed by tweaking its signature, without changing what it does - known as \"transaction malleability\". This made it unsafe to build on transactions that weren't yet confirmed. SegWit fixed it, making things like atomic swaps and the Lightning Network possible."
   },
-  "new-42": {
+  "digifact-zmm9": {
     "content": "Because SegWit signature data counts for less when blocks are filled, SegWit transactions - from addresses starting with \"dgb1\" - usually cost less in fees than ones from older addresses."
   },
-  "new-43": {
+  "digifact-h5tz": {
     "content": "DigiByte addresses starting with \"D\" are Legacy addresses, the original type from 2014. They still work, but transactions from them are larger, so they usually cost a little more in fees than modern addresses starting with \"dgb1\"."
   },
-  "new-44": {
+  "digifact-sz9f": {
     "content": "DigiByte addresses starting with \"S\" are script addresses. They can hold coins controlled by several keys at once (multisig), or wrap a SegWit address so that older wallets can send to it. Very old script addresses start with \"3\", and still work."
   },
-  "new-45": {
+  "digifact-qmcr": {
     "content": "DigiByte addresses starting with \"dgb1p\" are Taproot addresses. With Taproot, a payment that needs several people's keys, or has complex conditions, can look just like an ordinary payment on the blockchain - more private, and often cheaper."
   },
-  "new-46": {
+  "digifact-wxc6": {
     "content": "You can send DGB from any type of DigiByte address to any other - from an address starting with \"D\" to one starting with \"dgb1\", and back. The type of address only changes how the coins are locked, not the DGB themselves."
   },
-  "new-47": {
+  "digifact-rp4k": {
     "content": "Every DigiByte address includes a checksum, so a mistyped address is almost always rejected by your wallet before anything is sent."
   },
-  "new-48": {
+  "digifact-wmjg": {
     "content": "Mining \"difficulty\" is how hard the mining puzzle is. When more miners join, blocks would come too quickly, so the network raises the difficulty; when miners leave, it lowers it. This keeps a new DigiByte block coming every 15 seconds on average."
   },
-  "new-49": {
+  "digifact-vpv2": {
     "content": "Bitcoin adjusts its mining difficulty once every 2,016 blocks - about every two weeks - so if many miners leave suddenly, blocks can slow down for days. DigiByte adjusts after every single block, so it recovers within minutes.",
     "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_social": " Learn more: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">here</a>.",
     "link_md": " Learn more [here](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
-  "new-50": {
+  "digifact-9fh4": {
     "content": "Each of DigiByte's five mining algorithms has its own difficulty. If one algorithm starts finding blocks too often, its difficulty goes up, and if it finds too few, it goes down. This is MultiShield, and it keeps each algorithm finding about a fifth of the blocks.",
     "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_social": " Learn more: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">here</a>.",
     "link_md": " Learn more [here](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
-  "new-51": {
+  "digifact-gwp8": {
     "content": "DigiShield was created in 2014 to protect DigiByte from \"multipools\" - large groups of miners that jumped onto a blockchain while mining it was easy, then left once the difficulty rose, leaving blocks stuck. By adjusting quickly in both directions, DigiShield made this far less profitable.",
     "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_social": " Learn more: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">here</a>.",
     "link_md": " Learn more [here](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
-  "new-52": {
+  "digifact-ptd7": {
     "content": "An ASIC (application-specific integrated circuit) is a chip built to do just one job. A mining ASIC can only run one mining algorithm, but it does so far faster and more efficiently than any computer - which is why DigiByte's SHA256 and Scrypt algorithms are mined mostly with ASICs."
   },
-  "new-53": {
+  "digifact-rwc2": {
     "content": "An FPGA (field-programmable gate array) is a chip whose circuits can be rewired with new instructions after it has been made. That's what suits it to DigiByte's Odocrypt algorithm: when Odocrypt changes every 10 days, an FPGA can simply be reprogrammed - something a fixed ASIC can't do."
   },
-  "new-54": {
+  "digifact-m7m5": {
     "content": "Cryptocurrency mining began on ordinary computer processors (CPUs), then moved to graphics cards (GPUs), which can run many calculations at once. Next came FPGAs, and then ASICs - each step faster and more efficient, but more specialised. DigiByte's five algorithms were chosen to give a range of mining hardware a part in securing the network."
   }
 }
