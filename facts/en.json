@@ -74,13 +74,6 @@
     "link_html": " The community maintains one such explorer you can use <a target=\"_blank\" href=\"https://digiexplorer.info/\">here</a>",
     "link_md": " The community maintains one such explorer you can use [here](https://digiexplorer.info/)"
   },
-  "digifact-sg8d": {
-    "content": "Have you ever wanted to run your own DigiExplorer? Or get other data out of the blockchain so you can integrate it with your business?",
-    "url": "https://dgbwiki.com",
-    "link_social": " There are handy guides that will help you here: https://dgbwiki.com",
-    "link_html": " There are handy guides that will help you <a target=\"_blank\" href=\"https://dgbwiki.com/\">here</a>.",
-    "link_md": " There are handy guides that will help you [here](https://dgbwiki.com/)."
-  },
   "digifact-cmq8": {
     "content": "The name 'DigiByte' was originally chosen as it signifies a 'Digital Byte' of data. This is because blockchain technology such as DigiByte can be used for so much more than as a 'coin' such as silver or gold. DigiByte is incredibly multi-purpose."
   },
@@ -88,7 +81,7 @@
     "content": "A copy of the DigiByte blockchain open source code v7.17.3 is lying in cold storage 250 meters deep in the permafrost of an Arctic mountain! Thanks to the GitHub Arctic Code Vault program!"
   },
   "digifact-nzcz": {
-    "content": "DigiByte is available on 100+ exchanges, including many different fiat pairings with local currencies, making it easier than ever to buy DigiByte."
+    "content": "DigiByte is available on many exchanges around the world, including many different fiat pairings with local currencies, making it easy to buy DigiByte."
   },
   "digifact-qmjp": {
     "content": "DigiByte was founded by Jared Tate in 2013 and the Genesis block was mined on 10th January 2014. While Jared remains an active member of the DigiByte community, and is one of the Core developers, he does not dictate the direction of the project. DigiByte has no boss - it is entirely run and managed by a global community of dedicated volunteers."
@@ -97,7 +90,7 @@
     "content": "DigiByte can do smart contracts thanks to its 'script' language. You can run a whole lot of powerful tools on top of DigiByte to power a dApp."
   },
   "digifact-2ppj": {
-    "content": "The official DigiByte Core wallet is available for Windows, MacOS, and Linux as well a low powered single-board computers like the Raspberry Pi. DigiByte is supported on mobile by a number of third-party wallets, such as Coinomi and SecuX. It is also available on many hardware wallets, like Ledger and Trezor. Be advised that not all of these wallets support Digi-ID and DigiAssets."
+    "content": "The official DigiByte Core wallet is available for Windows, macOS and Linux, as well as low-powered single-board computers like the Raspberry Pi. DigiByte is also supported by many third-party wallets on mobile and desktop, and by hardware wallets such as Ledger. Be advised that not all wallets support Digi-ID, DigiAssets or DigiDollar."
   },
   "digifact-s4gj": {
     "content": "Digi-ID by DigiByte is one of the simplest yet most secure authentication methods in the world. Even Google warns against using their own time-based 2FA codes or SMS-2FA, but Digi-ID overcomes all the shortcomings. Digi-ID is open source, free, ad-free (forever), private & secure.",
@@ -119,7 +112,7 @@
     "content": "When all DigiByte have been mined, the network will continue to function with the miners mining / securing the network as they do at present. They will only get the transaction fees from sending DGB."
   },
   "digifact-7n3j": {
-    "content": "If you ever have issues with getting your DigiByte out of a wallet, you can sweep the funds to a new wallet using the DigiSweep tool created by Matthew Cornelisse of DigiAssetX. It's easy to use & open-source.",
+    "content": "If you ever have issues with getting your DigiByte out of a wallet, you can sweep the funds to a new wallet using the DigiSweep tool created by DigiByte community member Matthew Cornelisse. It's easy to use & open-source.",
     "url": "https://digisweep.digiassetx.com/",
     "link_social": " Find it here: https://digisweep.digiassetx.com/",
     "link_html": " Find it <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">here</a>.",
@@ -192,7 +185,7 @@
     "link_md": " Go [here](https://josiah-digibyte.medium.com/digibyte-flowers-with-dandelion-2239b2bbdd46) to learn more about Dandelion"
   },
   "digifact-vjx7": {
-    "content": "DigiByte is all about choice, and what works for you personally. DigiByte is available on over two dozen wallets, so there's something that will fit everyone's requirements."
+    "content": "DigiByte is all about choice, and what works for you personally. DigiByte is supported by many different wallets, so there's something that will fit everyone's requirements."
   },
   "digifact-w3p6": {
     "content": "DigiByte originally had 60 second block timings, however through multiple network upgrades that were improved upon, first to 30, and now to the 15 seconds it is today."
@@ -200,26 +193,12 @@
   "digifact-7mzk": {
     "content": "DigiByte has had 100% uptime since its launch. While some people restart their computers from time to time, hundreds of others remain online all the time so that even in the event of a major nationwide internet outage, DigiByte would still continue to function."
   },
-  "digifact-p9mn": {
-    "content": "The DigiByte Faucet by Renzo Diaz gives you an easy way to get some free DGB. It's a great way for DigiByte newcomers to experience this amazing technology firsthand. For developers, there is also a testnet faucet.",
-    "url": "https://www.digifaucet.org/",
-    "link_social": " Find it here: https://www.digifaucet.org/",
-    "link_html": " Find it <a target=\"_blank\" href=\"https://www.digifaucet.org/\">here</a>.",
-    "link_md": " Find it [here](https://www.digifaucet.org/)."
-  },
   "digifact-zmwg": {
     "content": "Anybody is able to contribute to the DigiByte code and make improvements. All submissions get reviewed by other developers to ensure no malicious code is accidentally accepted.",
     "url": "https://gitter.im/DigiByte-Core/protocol",
     "link_social": " Join the Gitter developer chat here: https://gitter.im/DigiByte-Core/protocol",
     "link_html": " Join the Gitter developer chat <a target=\"_blank\" href=\"https://gitter.im/DigiByte-Core/protocol\">here</a>.",
     "link_md": " Join the Gitter developer chat [here](https://gitter.im/DigiByte-Core/protocol)."
-  },
-  "digifact-4rhh": {
-    "content": "You can now claim your own DigiByte community handle on Bluesky - e.g. @yourname.digibyte.social. This works on Bluesky, and across all sites and services that use the ATprotocol.",
-    "url": "https://digibyte.social/",
-    "link_social": " Claim yours today: https://digibyte.social/",
-    "link_html": " Go <a target=\"_blank\" href=\"https://digibyte.social/\">here</a> to claim yours.",
-    "link_md": " Go [here](https://digibyte.social/) to claim yours."
   },
   "digifact-4km6": {
     "content": "Nobody knows exactly how many \"nodes\" there are on the DigiByte network, because there is no central point that all computers check in with. This ensures your privacy when you download the wallet software."
@@ -263,7 +242,7 @@
     "content": "Each of the 5x algorithms that DigiByte uses to secure the network and mine new blocks has an equal 20% chance to find every single block. There is no priority given to one or another."
   },
   "digifact-5qj7": {
-    "content": "DigiByte has 3x address types, each starting with a different prefix. Modern addresses start with the letters \"dgb1\" for Bech32 formatted addresses or the letter \"S\" for SegWit (Segregated Witness). Legacy addresses start with the letter \"D\". While support for these will remain, they are gradually being phased out in favor of Bech32 addresses."
+    "content": "DigiByte has four types of address, each starting with a different prefix. Modern addresses start with \"dgb1\": \"dgb1q\" for SegWit (Bech32) addresses and \"dgb1p\" for Taproot addresses. Older addresses start with the letter \"S\" (wrapped SegWit) or \"D\" (Legacy). While support for these will remain, they are gradually being phased out."
   },
   "digifact-sw8j": {
     "content": "DigiByte addresses starting with \"dgb1\" (known as Bech32 format) have multiple advantages, such as error correction in the event they were incorrectly written-down, as well as being much easier for both humans and computers to recognize that they are DigiByte-specific addresses."
@@ -275,7 +254,7 @@
     "content": "There is a maximum of 21 billion DigiByte that will ever exist. This was intentionally chosen as a 1000:1 ratio compared to Bitcoins 21 million. No more can ever be created."
   },
   "digifact-3pp9": {
-    "content": "DigiByte is available on thousands of Crypto ATMs around the world! This is a great way for people new to cryptocurrency to get involved through a more \"traditional\" method of currency exchange."
+    "content": "DigiByte is available on Crypto ATMs around the world! This is a great way for people new to cryptocurrency to get involved through a more \"traditional\" method of currency exchange."
   },
   "digifact-dzrh": {
     "content": "DigiByte can be used to verify and validate documents, music, media, identity and more! Although DigiByte excels as a means of exchanging value, it is not limited to just being a currency."
@@ -293,21 +272,14 @@
     "content": "Do you want to start a DigiByte podcast, or meet-up? Go for it! There is nobody to ask for permission, part of DigiByte being a \"permissionless\" project. It is implied that you can, so go right ahead and do it."
   },
   "digifact-cchd": {
-    "content": "If you have ever had the misfortune to accidentally send your DigiByte to a Dogecoin address, your coins may not be lost. DigiSweep by DigiByte community member Matthew Cornellisse (@mctrivia) may be able to help you recover them.",
+    "content": "If you have ever had the misfortune to accidentally send your DigiByte to a Dogecoin address, your coins may not be lost. DigiSweep by DigiByte community member Matthew Cornelisse (@mctrivia) may be able to help you recover them.",
     "url": "https://digisweep.digiassetx.com/",
     "link_social": " Find it here: https://digisweep.digiassetx.com/",
     "link_html": " Find it <a target=\"_blank\" href=\"https://digisweep.digiassetx.com/\">here</a>.",
     "link_md": " Find it [here](https://digisweep.digiassetx.com/)."
   },
-  "digifact-vc2g": {
-    "content": "The DigiByte Alliance is a public non-profit foundation founded in Wyoming in March 2021. Its mission is to accelerate the growth and adoption of DigiByte.",
-    "url": "https://www.dgballiance.org/",
-    "link_social": " Learn more: https://www.dgballiance.org/",
-    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.dgballiance.org/\">here</a>.",
-    "link_md": " Learn more [here](https://www.dgballiance.org/)."
-  },
   "digifact-bjqp": {
-    "content": "The DigiByte subreddit located at r/DigiByte has over 40,000 members. It's a great place to stay updated about all the news and developments in the DigiByte community.",
+    "content": "The DigiByte subreddit located at r/DigiByte is a great place to stay updated about all the news and developments in the DigiByte community.",
     "url": "https://reddit.com/r/Digibyte",
     "link_social": " Join here: https://reddit.com/r/Digibyte",
     "link_html": " Join <a target=\"_blank\" href=\"https://reddit.com/r/Digibyte\">here</a>.",
@@ -321,7 +293,7 @@
     "link_md": " Join [here](https://dsc.gg/digibytediscord)."
   },
   "digifact-np2q": {
-    "content": "DigiNode Tools is a software suite that makes it easy to setup and manage a DigiByte and/or DigiAsset Node on low power device like a Raspberry Pi or Ubuntu system. Setup is menu-driven and there are detailed step-by-step instructions provided. You can even setup a Dual Node to run both a mainnet and testnet node on the same device.",
+    "content": "DigiNode Tools is a software suite that makes it easy to set up and manage a DigiByte node on a low-power device like a Raspberry Pi, or on a Debian or Ubuntu system. Setup is menu-driven, with detailed step-by-step instructions, and you can even set up a Dual Node to run both a mainnet and a testnet node on the same device.",
     "url": "https://diginode.tools/",
     "link_social": " Learn more here: https://diginode.tools/",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://diginode.tools/\">here</a>.",
@@ -362,20 +334,6 @@
     "link_html": " Find it <a target=\"_blank\" href=\"https://digifacts.org/\">here</a>.",
     "link_md": " Find it [here](https://digifacts.org/)."
   },
-  "digifact-8ndf": {
-    "content": "The DigiByte Wiki is a fantastic resource of information on all things DigiByte, written and maintained by members of the DigiByte community.",
-    "url": "https://wiki.digibyte.org/",
-    "link_social": " Find it here: https://wiki.digibyte.org/",
-    "link_html": " Find it <a target=\"_blank\" href=\"https://wiki.digibyte.org/\">here</a>.",
-    "link_md": " Find it [here](https://wiki.digibyte.org/)."
-  },
-  "digifact-krf7": {
-    "content": "DigiByte Domains is a service created by DigiByte community member Renzo Dias. A DigiByte domain is a name that references a DigiByte wallet address. It's powered by DigiAssets, and the domain is the asset. For example, you can send some DigiByte or DigiAssets to 'domain.dgb,' and it will arrive at the address that holds the domain. ",
-    "url": "https://digibytedomains.com/",
-    "link_social": " You can purchase your own DigiByte domain here: https://digibytedomains.com/",
-    "link_html": " You can purchase your own DigiByte domain <a target=\"_blank\" href=\"https://digibytedomains.com/\">here</a>.",
-    "link_md": " You can purchase your own DigiByte domain [here](https://digibytedomains.com/)."
-  },
   "digifact-cz5m": {
     "content": "For developers, DigiByte JS is a pure and powerful Javascript DigiByte library forked from Bitpay's Bitcore Lib library.",
     "url": "https://github.com/RenzoDD/digibyte-js",
@@ -391,7 +349,7 @@
     "link_md": " Find it [here](https://github.com/DigiAsset-Core/DigiAsset_Core)."
   },
   "digifact-t2gb": {
-    "content": "DigiAsset Core, currently under active development, is the most recent implementation of the DigiAsset protocol. Spearheaded by community member Matthew Cornelisse, it runs alongside a DigiByte Core node and helps decentralize DigiAssets and their metadata. It is important to stress the DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project.",
+    "content": "DigiAsset Core is the most recent implementation of the DigiAsset protocol. Spearheaded by community member Matthew Cornelisse, it runs alongside a DigiByte Core node and helps decentralize DigiAssets and their metadata. DigiAsset Core is not part of DigiByte Core - it is an independent but complementary community-driven project.",
     "url": "https://github.com/DigiAsset-Core/DigiAsset_Core",
     "link_social": " Find it here: https://github.com/DigiAsset-Core/DigiAsset_Core",
     "link_html": " Find it <a target=\"_blank\" href=\"https://github.com/DigiAsset-Core/DigiAsset_Core\">here</a>.",
@@ -417,5 +375,47 @@
     "link_social": " View the map here: https://opennodes.digibyte.network/",
     "link_html": " View the map <a target=\"_blank\" href=\"https://opennodes.digibyte.network/\">here</a>.",
     "link_md": " View the map [here](https://opennodes.digibyte.network/)."
+  },
+  "new": {
+    "content": "DigiDollar is DigiByte's own stablecoin, designed to keep a steady value of one US dollar. It went live on the DigiByte network on 17 July 2026, at block 23,869,440. It has no issuer, no custodian and no admin key: every DigiDollar is backed by DGB locked on the DigiByte blockchain.",
+    "url": "https://www.digibyte.org/#digidollar",
+    "link_social": " Learn more here: https://www.digibyte.org/#digidollar",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#digidollar\">here</a>.",
+    "link_md": " Learn more [here](https://www.digibyte.org/#digidollar)."
+  },
+  "new-2": {
+    "content": "To create DigiDollars, you lock DGB in a time-locked vault on the DigiByte blockchain, secured by your own keys. Locks last from 1 hour to 10 years, and shorter locks need more DGB, from 10 times the DigiDollar value down to twice it. When the lock ends, you return the DigiDollars to unlock your DGB.",
+    "url": "https://www.digibyte.org/docs/DigiDollar_whitepaper.pdf",
+    "link_social": " Read the DigiDollar white paper here: https://www.digibyte.org/docs/DigiDollar_whitepaper.pdf",
+    "link_html": " Read the DigiDollar white paper <a target=\"_blank\" href=\"https://www.digibyte.org/docs/DigiDollar_whitepaper.pdf\">here</a>.",
+    "link_md": " Read the DigiDollar white paper [here](https://www.digibyte.org/docs/DigiDollar_whitepaper.pdf)."
+  },
+  "new-3": {
+    "content": "DigiDollar gets the price of DGB from a network of 35 independent price oracles. Each takes the median DGB/US dollar price from at least three exchanges, and at least 7 oracles must agree and sign the price together before it can be used, so no single oracle can set it.",
+    "url": "https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md",
+    "link_social": " Learn more here: https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md)."
+  },
+  "new-4": {
+    "content": "DigiDollar is only created inside the official DigiByte Core wallet, and creating it never requires sending your DGB to anyone. Be wary of any website, bot or app that asks you to send DGB to \"mint DigiDollar\", or asks for your seed phrase or private keys.",
+    "url": "https://github.com/DigiByte-Core/digibyte/releases",
+    "link_social": " Get DigiByte Core here: https://github.com/DigiByte-Core/digibyte/releases",
+    "link_html": " Get DigiByte Core <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/releases\">here</a>.",
+    "link_md": " Get DigiByte Core [here](https://github.com/DigiByte-Core/digibyte/releases)."
+  },
+  "new-5": {
+    "content": "Because DigiDollar's DGB collateral is time-locked, it can never be force-sold if the price of DGB falls. Instead, DigiDollar protects itself automatically: when the system is under stress, creating new DigiDollars needs more DGB, and in an emergency more DigiDollars are needed to unlock DGB.",
+    "url": "https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md",
+    "link_social": " Learn more here: https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md)."
+  },
+  "new-6": {
+    "content": "DigiByte supports Taproot, the upgrade that brought Schnorr signatures and more private, efficient smart contracts to Bitcoin. It arrived with DigiByte Core v8.26, built on Bitcoin Core 26, and has been active since block 21,168,000.",
+    "url": "https://www.digibyte.org/#roadmap",
+    "link_social": " Learn more here: https://www.digibyte.org/#roadmap",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#roadmap\">here</a>.",
+    "link_md": " Learn more [here](https://www.digibyte.org/#roadmap)."
   }
 }
