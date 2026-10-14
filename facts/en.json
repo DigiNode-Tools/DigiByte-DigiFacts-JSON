@@ -28,7 +28,7 @@
   "digifact-2fm8": {
     "content": "DigiByte pioneered the DigiShield difficulty adjustment. It's used in Dogecoin, Ubiq, ZCash, Monacoin and parts of the code are even used in Ethereum.",
     "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
-    "link_social": " What is DigiShield (a.k.a MultiShield)? Learn more here: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_social": " What is DigiShield (a.k.a MultiShield)? Learn more: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_html": " What is DigiShield (a.k.a MultiShield)? Learn more <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">here</a>.",
     "link_md": " What is DigiShield (a.k.a MultiShield)? Learn more [here](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
@@ -41,7 +41,7 @@
   "digifact-g2h8": {
     "content": "DigiByte was the first coin to upgrade from a single mining algorithm to MultiAlgo, for the additional security provided by having 5x algorithms. This upgrade occurred in late 2014 as the 'MultiAlgo' network upgrade.",
     "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
-    "link_social": " What's MultiAlgo? Learn more here: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_social": " What's MultiAlgo? Learn more: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_html": " What's MultiAlgo? Learn more <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">here</a>.",
     "link_md": " What's MultiAlgo? Learn more [here](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
@@ -166,14 +166,14 @@
   "digifact-dccw": {
     "content": "MultiShield is a powerful difficulty adjustment algorithm. It ensures each of DigiBytes 5X algorithms all mine roughly an equal amount of blocks, while maintaining a steady 15 second timing.",
     "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
-    "link_social": " What is MultiShield? Learn more here: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_social": " What is MultiShield? Learn more: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_html": " What is MultiShield? Learn more <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">here</a>.",
     "link_md": " What is MultiShield? Learn more [here](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
   "digifact-r7k4": {
     "content": "Because of MultiShield, DigiByte has some of the most accurate and stable block-timings. Where other projects usually wait for 3-4 days to adjust, MultiShield tweaks, adjusts & refines every single block.",
     "url": "https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
-    "link_social": " Learn more here: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
+    "link_social": " Learn more: https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a\">here</a>.",
     "link_md": " Learn more [here](https://josiah-digibyte.medium.com/lets-talk-about-multialgo-multishield-45e6a375a7a)."
   },
@@ -295,7 +295,7 @@
   "digifact-np2q": {
     "content": "DigiNode Tools is a software suite that makes it easy to set up and manage a DigiByte node on a low-power device like a Raspberry Pi, or on a Debian or Ubuntu system. Setup is menu-driven, with detailed step-by-step instructions, and you can even set up a Dual Node to run both a mainnet and a testnet node on the same device.",
     "url": "https://diginode.tools/",
-    "link_social": " Learn more here: https://diginode.tools/",
+    "link_social": " Learn more: https://diginode.tools/",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://diginode.tools/\">here</a>.",
     "link_md": " Learn more [here](https://diginode.tools/)."
   },
@@ -323,7 +323,7 @@
   "digifact-n8xm": {
     "content": "A DigiByte Seeder is a lightweight DNS server run by a few trusted volunteers from the DigiByte community. It continuously crawls the DigiByte network looking for nodes and maintains a list of the IP addresses and ports of the most reliable ones. DigiByte Nodes joining the network use the DigiByte Seeders to find other nodes to connect to.",
     "url": "https://github.com/DigiByte-Core/digibyte-seeder",
-    "link_social": " Learn more here: https://github.com/DigiByte-Core/digibyte-seeder",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte-seeder",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte-seeder\">here</a>.",
     "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte-seeder)."
   },
@@ -358,14 +358,14 @@
   "digifact-4cg4": {
     "content": "The DigiByte Awareness Team (DGBAT) regularly runs community votes, where you vote with DGB. Each project on the ballot has its own DigiByte address, and how much is sent to it is the weight of the vote. When a vote closes, the whole pot is shared between the projects in those proportions, all visible on the DigiByte blockchain.",
     "url": "https://dgbat.org/vote.html",
-    "link_social": " Learn more here: https://dgbat.org/vote.html",
+    "link_social": " Learn more: https://dgbat.org/vote.html",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://dgbat.org/vote.html\">here</a>.",
     "link_md": " Learn more [here](https://dgbat.org/vote.html)."
   },
   "digifact-zfg8": {
     "content": "DigiHash is a community mining pool for DigiByte, supporting all five of DigiByte's mining algorithms. Ten percent of the pool fee goes back into the community fund for DigiByte development.",
     "url": "https://digihash.digibyte.io/",
-    "link_social": " Learn more here: https://digihash.digibyte.io/",
+    "link_social": " Learn more: https://digihash.digibyte.io/",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://digihash.digibyte.io/\">here</a>.",
     "link_md": " Learn more [here](https://digihash.digibyte.io/)."
   },
@@ -379,7 +379,7 @@
   "digifact-k9j6": {
     "content": "DigiDollar is DigiByte's own stablecoin, designed to keep a steady value of one US dollar. It went live on the DigiByte network on 17 July 2026, at block 23,869,440. It has no issuer, no custodian and no admin key: every DigiDollar is backed by DGB locked on the DigiByte blockchain.",
     "url": "https://www.digibyte.org/#digidollar",
-    "link_social": " Learn more here: https://www.digibyte.org/#digidollar",
+    "link_social": " Learn more: https://www.digibyte.org/#digidollar",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#digidollar\">here</a>.",
     "link_md": " Learn more [here](https://www.digibyte.org/#digidollar)."
   },
@@ -393,7 +393,7 @@
   "digifact-k5kv": {
     "content": "DigiDollar gets the price of DGB from a network of 35 independent price oracles. Each takes the median DGB/US dollar price from at least three exchanges, and at least 7 oracles must agree and sign the price together before it can be used, so no single oracle can set it.",
     "url": "https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md",
-    "link_social": " Learn more here: https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md\">here</a>.",
     "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_ORACLE_EXPLAINER.md)."
   },
@@ -407,14 +407,14 @@
   "digifact-zgg5": {
     "content": "Because DigiDollar's DGB collateral is time-locked, it can never be force-sold if the price of DGB falls. Instead, DigiDollar protects itself automatically: when the system is under stress, creating new DigiDollars needs more DGB, and in an emergency more DigiDollars are needed to unlock DGB.",
     "url": "https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md",
-    "link_social": " Learn more here: https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md\">here</a>.",
     "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte/blob/develop/DIGIDOLLAR_EXPLAINER.md)."
   },
   "digifact-njvr": {
     "content": "DigiByte supports Taproot, the upgrade that brought Schnorr signatures and more private, efficient smart contracts to Bitcoin. It arrived with DigiByte Core v8.26, built on Bitcoin Core 26, and has been active since block 21,168,000.",
     "url": "https://www.digibyte.org/#roadmap",
-    "link_social": " Learn more here: https://www.digibyte.org/#roadmap",
+    "link_social": " Learn more: https://www.digibyte.org/#roadmap",
     "link_html": " Learn more <a target=\"_blank\" href=\"https://www.digibyte.org/#roadmap\">here</a>.",
     "link_md": " Learn more [here](https://www.digibyte.org/#roadmap)."
   }
