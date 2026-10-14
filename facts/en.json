@@ -1109,5 +1109,31 @@
   },
   "digifact-6pf7": {
     "content": "DigiByte produces about 2.1 million blocks every year - 5,760 a day, 365 days a year."
+  },
+  "new": {
+    "content": "A brand-new DigiByte node doesn't know any other nodes. Its first step is to ask the DigiByte DNS seeds for some addresses; after that it learns about more nodes from the ones it connects to, and remembers them - so it rarely needs the seeds again."
+  },
+  "new-2": {
+    "content": "DigiByte Core has five DNS seeds built in, each run by a different member of the DigiByte community, so no single person decides which nodes a new node meets first."
+  },
+  "new-3": {
+    "content": "If none of the DNS seeds answer, DigiByte Core falls back to a list of reliable node addresses built into the software itself - so a new node can always find its way onto the network."
+  },
+  "new-4": {
+    "content": "A DigiByte seeder works by constantly crawling the network: connecting to nodes, checking which are reachable, up to date and reliable, and handing out a fresh selection of them whenever a new node asks.",
+    "url": "https://github.com/DigiByte-Core/digibyte-seeder",
+    "link_social": " Learn more: https://github.com/DigiByte-Core/digibyte-seeder",
+    "link_html": " Learn more <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte-seeder\">here</a>.",
+    "link_md": " Learn more [here](https://github.com/DigiByte-Core/digibyte-seeder)."
+  },
+  "new-5": {
+    "content": "Running a DigiByte seeder helps keep the network open to newcomers. It needs an always-on server with a public IP address and a domain name, and the seeder software is free and open source.",
+    "url": "https://github.com/DigiByte-Core/digibyte-seeder",
+    "link_social": " Get the seeder: https://github.com/DigiByte-Core/digibyte-seeder",
+    "link_html": " Get the seeder <a target=\"_blank\" href=\"https://github.com/DigiByte-Core/digibyte-seeder\">here</a>.",
+    "link_md": " Get the seeder [here](https://github.com/DigiByte-Core/digibyte-seeder)."
+  },
+  "new-6": {
+    "content": "A seed server only helps a new node make its first connections. It can't see your transactions or control your node, and your node still checks every block and transaction for itself."
   }
 }
