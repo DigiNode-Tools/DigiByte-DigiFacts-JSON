@@ -21,7 +21,7 @@ const DIGIBYTE_DIGIFACTS_VERSION = '2.2.4';
 // The DigiFacts website (https://github.com/DigiNode-Tools/digibyte-digifacts). Updated hourly.
 const DIGIBYTE_DIGIFACTS_URL = 'https://digifacts.diginode.tools';
 const DIGIBYTE_DIGIFACTS_REPO = 'https://github.com/DigiNode-Tools/digibyte-digifacts';
-const DIGIBYTE_DIGIFACTS_SPONSOR = 'https://github.com/sponsors/DigiNode-Tools';
+const DIGIBYTE_DIGIFACTS_SPONSOR = 'https://diginode.tools/sponsors/';
 
 /**
  * Fetch a JSON file from the DigiFacts website. Each file is checked at most once an hour. If it can't be fetched,

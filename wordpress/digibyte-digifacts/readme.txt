@@ -1,6 +1,6 @@
 === DigiByte DigiFacts ===
 Contributors: saltedlolly
-Donate link: https://github.com/sponsors/DigiNode-Tools
+Donate link: https://diginode.tools/sponsors/
 Tags: digibyte, digifacts, crypto, blockchain
 Requires at least: 5.0
 Tested up to: 6.8

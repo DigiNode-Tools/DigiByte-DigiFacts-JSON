@@ -66,7 +66,7 @@ SHORT_TEXT_BASE = GO_URL if SHORT_LINKS_ON_GO else SITE_URL + "/l/"
 # Third-party link shorteners aren't allowed: their links can expire (and some have), and they hide where a link goes
 SHORTENERS = {"bit.ly", "j.mp", "rb.gy", "t.ly", "tinyurl.com", "is.gd", "t.co", "ow.ly", "buff.ly", "goo.gl",
               "cutt.ly", "shorturl.at", "rebrand.ly", "tiny.cc", "v.gd", "s.id"}
-SPONSOR_URL = "https://github.com/sponsors/DigiNode-Tools"
+SPONSOR_URL = "https://diginode.tools/sponsors/"
 # Clicks on the short links are counted with GoatCounter (open source, no cookies, no personal data). Each fact is
 # counted under its ID, so its history stays together when its number changes; QR code scans (the capital L/ links)
 # have the referrer "QR code".
